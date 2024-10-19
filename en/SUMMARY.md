@@ -21,5 +21,8 @@
 
 ## MACHINE LEARNING
 
-* [Introduction](machine-learning/introduction.md)
+* [Introduction](machine-learning/page-1.md)
 * [Overview of ML](machine-learning/overview-of-ml.md)
+* [History of Machine Learning](machine-learning/history-of-machine-learning/README.md)
+  * [Origins and Early Concepts](machine-learning/history-of-machine-learning/origins-and-early-concepts.md)
+  * [19th Century](machine-learning/history-of-machine-learning/19th-century.md)
