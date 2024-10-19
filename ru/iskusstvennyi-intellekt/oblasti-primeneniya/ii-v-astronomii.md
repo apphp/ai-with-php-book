@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>ИИ в астрономии</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>ИИ в астрономии</p></figcaption></figure>
 
 </div>
 

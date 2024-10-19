@@ -29,4 +29,4 @@
     * [21-й век](mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/21-i-vek.md)
     * [Ближайшие годы](mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/blizhaishie-gody.md)
   * [Ключевые принципы](mashinnoe-obuchenie/obzor-mo/klyuchevye-principy.md)
-  * [Проблемы и задачи](mashinnoe-obuchenie/obzor-mo/problemy-i-zadachi.md)
+  * [Проблемы и вызовы](mashinnoe-obuchenie/obzor-mo/problemy-i-vyzovy.md)
