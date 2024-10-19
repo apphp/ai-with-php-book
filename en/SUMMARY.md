@@ -26,3 +26,6 @@
 * [History of Machine Learning](machine-learning/history-of-machine-learning/README.md)
   * [Origins and Early Concepts](machine-learning/history-of-machine-learning/origins-and-early-concepts.md)
   * [19th Century](machine-learning/history-of-machine-learning/19th-century.md)
+  * [20th Century](machine-learning/history-of-machine-learning/20th-century.md)
+  * [21st Century](machine-learning/history-of-machine-learning/21st-century.md)
+  * [Coming Years](machine-learning/history-of-machine-learning/coming-years.md)
