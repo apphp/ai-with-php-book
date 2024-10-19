@@ -67,3 +67,7 @@
   * [Data Formats and Storage ?...](machine-learning/data-fundamentals/data-formats-and-storage-....md)
   * [Data Collection](machine-learning/data-fundamentals/data-collection.md)
   * [Data Preprocessing](machine-learning/data-fundamentals/data-preprocessing.md)
+  * [Data Splitting](machine-learning/data-fundamentals/data-splitting.md)
+  * [Data Augmentation](machine-learning/data-fundamentals/data-augmentation.md)
+  * [Handling Imbalanced Datasets](machine-learning/data-fundamentals/handling-imbalanced-datasets.md)
+  * [Handling Missing Data](machine-learning/data-fundamentals/handling-missing-data.md)
