@@ -19,7 +19,7 @@
   * [AI in Data Security](artificial-intelligence/applications-of-ai/ai-in-data-security.md)
 * [Visionaries and Innovators](artificial-intelligence/visionaries-and-innovators.md)
 
-## MACHINE LEARNING
+## Machine Learning
 
 * [Introduction](machine-learning/introduction.md)
 * [Overview of ML](machine-learning/overview-of-ml/README.md)
@@ -94,6 +94,24 @@
 * [Introduction](neural-networks/introduction.md)
 * [Deep Learning](neural-networks/deep-learning.md)
 
-## natural language processing
+## Natural Language Processing
 
 * [Introduction](natural-language-processing/introduction.md)
+* [NLP Capabilities in PHP](natural-language-processing/nlp-capabilities-in-php/README.md)
+  * [Overview of NLP Libraries in PHP](natural-language-processing/nlp-capabilities-in-php/overview-of-nlp-libraries-in-php.md)
+
+## Computer Vision
+
+* [Introduction](computer-vision/introduction.md)
+
+## Robotics
+
+* [Introduction](robotics/introduction.md)
+
+## Expert Systems
+
+* [Introduction](expert-systems/introduction.md)
+
+## AI Ethics and Safety
+
+* [Page 1](ai-ethics-and-safety/page-1.md)
