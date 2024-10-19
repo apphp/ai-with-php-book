@@ -8,7 +8,7 @@ When working with AI in PHP, understanding various data formats is crucial for e
 
 Structured data formats organize information in a predefined manner, making it easy to process and analyze. Here are some popular structured data formats used in AI applications:
 
-a) CSV (Comma-Separated Values)&#x20;
+#### CSV (Comma-Separated Values)&#x20;
 
 CSV is a simple, tabular format where data is separated by commas.
 
@@ -37,7 +37,7 @@ PHP example:
 $csv = array_map('str_getcsv', file('data.csv'));
 ```
 
-b) JSON (JavaScript Object Notation)&#x20;
+#### JSON (JavaScript Object Notation)&#x20;
 
 JSON is a lightweight, human-readable format that's easy for machines to parse and generate.
 
@@ -70,7 +70,7 @@ $json_data = file_get_contents('data.json');
 $data = json_decode($json_data, true);
 ```
 
-c) XML (eXtensible Markup Language)&#x20;
+#### XML (eXtensible Markup Language)&#x20;
 
 XML is a versatile markup language that defines a set of rules for encoding documents.
 
@@ -108,7 +108,9 @@ PHP example:
 $xml = simplexml_load_file('data.xml');
 ```
 
-d) Parquet Parquet is a columnar storage file format, optimized for use with big data processing frameworks.
+#### Parquet&#x20;
+
+Parquet is a columnar storage file format, optimized for use with big data processing frameworks.
 
 Pros:
 
@@ -129,7 +131,9 @@ $reader = new ParquetReader('data.parquet');
 $data = $reader->read();
 ```
 
-e) HDF5 (Hierarchical Data Format version 5) HDF5 is a file format designed to store and organize large amounts of numerical data.
+#### HDF5 (Hierarchical Data Format version 5)&#x20;
+
+HDF5 is a file format designed to store and organize large amounts of numerical data.
 
 Pros:
 
@@ -150,7 +154,11 @@ $file = new HDF5File('data.h5', 'r');
 $dataset = $file->getDataset('mydata');
 ```
 
-f) SQL Tables While not a file format per se, SQL tables in relational databases are a common way to store structured data.
+#### ARFF data form at
+
+#### SQL Tables&#x20;
+
+While not a file format per se, SQL tables in relational databases are a common way to store structured data.
 
 Pros:
 
@@ -171,7 +179,7 @@ $stmt = $pdo->query('SELECT * FROM users');
 $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ```
 
-2. Unstructured Data Formats
+### Unstructured Data Formats
 
 Unstructured data lacks a predefined data model or organization. It's often text-heavy but can also include dates, numbers, and facts. Here are some common types of unstructured data in AI:
 

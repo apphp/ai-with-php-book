@@ -4,12 +4,6 @@
 
 Data forms the foundation of artificial intelligence and machine learning. For AI systems to learn, adapt, and make decisions, they rely on diverse forms of data that provide the raw materials for training models. Understanding the different types of data is critical for building efficient AI solutions and selecting the right techniques for data analysis.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-
 Let's explore three major categories of data: structured, unstructured, and semi-structured. Each of these data types presents unique characteristics, advantages, and challenges when applied to AI systems. By understanding the distinctions between them, you can make informed decisions on how to preprocess, store, and utilize data effectively in AI projects.
 
 * **Structured data** is organized in a highly predefined way, making it easy to search, analyze, and process.
@@ -79,7 +73,7 @@ How readily the data can be queried and retrieved.
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -89,7 +83,7 @@ The adaptability of the data structure to changing requirements.
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -99,7 +93,7 @@ How easily machines can process and understand the data without human interventi
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (32).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

@@ -4,6 +4,6 @@ Reinforcement learning (RL) involves an agent that interacts with an environment
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>Reinforcement Learning</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption><p>Reinforcement Learning</p></figcaption></figure>
 
 </div>
