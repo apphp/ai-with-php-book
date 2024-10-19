@@ -75,3 +75,7 @@
   * [Data Visualization Techniques](machine-learning/data-fundamentals/data-visualization-techniques.md)
   * [Data Structures in PHP](machine-learning/data-fundamentals/data-structures-in-php.md)
   * [Ethical Considerations in Data Preparation](machine-learning/data-fundamentals/ethical-considerations-in-data-preparation.md)
+* [Basic ML Algorithms](machine-learning/basic-ml-algorithms/README.md)
+  * [Supervised Learning](machine-learning/basic-ml-algorithms/supervised-learning.md)
+  * [Unsupervised Learning](machine-learning/basic-ml-algorithms/unsupervised-learning.md)
+  * [Semi-supervised Learning](machine-learning/basic-ml-algorithms/semi-supervised-learning.md)
