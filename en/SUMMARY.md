@@ -71,3 +71,7 @@
   * [Data Augmentation](machine-learning/data-fundamentals/data-augmentation.md)
   * [Handling Imbalanced Datasets](machine-learning/data-fundamentals/handling-imbalanced-datasets.md)
   * [Handling Missing Data](machine-learning/data-fundamentals/handling-missing-data.md)
+  * [Data Versioning and Management](machine-learning/data-fundamentals/data-versioning-and-management.md)
+  * [Data Visualization Techniques](machine-learning/data-fundamentals/data-visualization-techniques.md)
+  * [Data Structures in PHP](machine-learning/data-fundamentals/data-structures-in-php.md)
+  * [Ethical Considerations in Data Preparation](machine-learning/data-fundamentals/ethical-considerations-in-data-preparation.md)
