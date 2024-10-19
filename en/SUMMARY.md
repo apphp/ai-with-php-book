@@ -37,3 +37,6 @@
     * [Direct Installation](machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/direct-installation.md)
     * [Using Docker](machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/using-docker.md)
     * [Additional Notes](machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/additional-notes.md)
+  * [Introduction to PHP-ML](machine-learning/ml-capabilities-in-php/introduction-to-php-ml.md)
+  * [Introduction to Rubix ML](machine-learning/ml-capabilities-in-php/introduction-to-rubix-ml.md)
+* [Mathematics for ML](machine-learning/mathematics-for-ml.md)
