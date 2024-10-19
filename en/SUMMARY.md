@@ -61,3 +61,4 @@
   * [Probability and Statistics](machine-learning/mathematics-for-ml/probability-and-statistics.md)
   * [Information Theory](machine-learning/mathematics-for-ml/information-theory.md)
   * [Linear Regression](machine-learning/mathematics-for-ml/linear-regression.md)
+  * [Advanced Topics](machine-learning/mathematics-for-ml/advanced-topics.md)
