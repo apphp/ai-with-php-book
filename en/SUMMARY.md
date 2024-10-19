@@ -15,3 +15,10 @@
   * [AI in Astronomy](artificial-intelligence/applications-of-ai/ai-in-astronomy.md)
   * [AI in Healthcare](artificial-intelligence/applications-of-ai/ai-in-healthcare.md)
   * [AI in Gaming](artificial-intelligence/applications-of-ai/ai-in-gaming.md)
+  * [AI in Finance](artificial-intelligence/applications-of-ai/ai-in-finance.md)
+  * [AI in Data Security](artificial-intelligence/applications-of-ai/ai-in-data-security.md)
+* [Visionaries and Innovators](artificial-intelligence/visionaries-and-innovators.md)
+
+## MACHINE LEARNING
+
+* [Page 1](machine-learning/page-1.md)
