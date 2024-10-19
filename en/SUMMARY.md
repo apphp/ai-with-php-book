@@ -43,4 +43,7 @@
   * [Linear Algebra](machine-learning/mathematics-for-ml/linear-algebra/README.md)
     * [Scalars](machine-learning/mathematics-for-ml/linear-algebra/scalars.md)
     * [Vectors](machine-learning/mathematics-for-ml/linear-algebra/vectors.md)
-    * [Matrices](machine-learning/mathematics-for-ml/linear-algebra/matrices.md)
+    * [Matrices](machine-learning/mathematics-for-ml/linear-algebra/matrices/README.md)
+      * [Matrix Definition and Types](machine-learning/mathematics-for-ml/linear-algebra/matrices/matrix-definition-and-types.md)
+      * [Matrix Operations](machine-learning/mathematics-for-ml/linear-algebra/matrices/matrix-operations.md)
+      * [Determinant of a Matrix](machine-learning/mathematics-for-ml/linear-algebra/matrices/determinant-of-a-matrix.md)
