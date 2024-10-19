@@ -2,7 +2,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Key Principles of ML</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>Key Principles of ML</p></figcaption></figure>
 
 </div>
 

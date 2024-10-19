@@ -4,7 +4,7 @@ Machine learning has revolutionized industries ranging from healthcare to financ
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>Problems and Challenges of ML</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>Problems and Challenges of ML</p></figcaption></figure>
 
 </div>
 

@@ -39,4 +39,6 @@
     * [Additional Notes](machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/additional-notes.md)
   * [Introduction to PHP-ML](machine-learning/ml-capabilities-in-php/introduction-to-php-ml.md)
   * [Introduction to Rubix ML](machine-learning/ml-capabilities-in-php/introduction-to-rubix-ml.md)
-* [Mathematics for ML](machine-learning/mathematics-for-ml.md)
+* [Mathematics for ML](machine-learning/mathematics-for-ml/README.md)
+  * [Linear Algebra](machine-learning/mathematics-for-ml/linear-algebra/README.md)
+    * [Scalars](machine-learning/mathematics-for-ml/linear-algebra/scalars.md)

@@ -1,2 +1,0 @@
-# Mathematics for ML
-
