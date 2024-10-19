@@ -79,3 +79,7 @@
   * [Supervised Learning](machine-learning/basic-ml-algorithms/supervised-learning.md)
   * [Unsupervised Learning](machine-learning/basic-ml-algorithms/unsupervised-learning.md)
   * [Semi-supervised Learning](machine-learning/basic-ml-algorithms/semi-supervised-learning.md)
+  * [Reinforcement Learning](machine-learning/basic-ml-algorithms/reinforcement-learning.md)
+  * [Deep Learning](machine-learning/basic-ml-algorithms/deep-learning.md)
+  * [Distributed Learning](machine-learning/basic-ml-algorithms/distributed-learning.md)
+  * [Key Applications of ML](machine-learning/basic-ml-algorithms/key-applications-of-ml.md)
