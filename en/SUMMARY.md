@@ -10,3 +10,4 @@
 
 * [Introduction](artificial-intelligence/introduction.md)
 * [Structure of AI](artificial-intelligence/structure-of-ai.md)
+* [Types of AI](artificial-intelligence/types-of-ai.md)
