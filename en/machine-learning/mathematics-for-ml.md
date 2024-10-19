@@ -4,7 +4,7 @@ The primary areas of mathematics that contribute to this foundation include line
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>Mathematics for Machine Learning</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>Mathematics for Machine Learning</p></figcaption></figure>
 
 </div>
 
