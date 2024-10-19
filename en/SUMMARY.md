@@ -21,4 +21,5 @@
 
 ## MACHINE LEARNING
 
-* [Page 1](machine-learning/page-1.md)
+* [Introduction](machine-learning/introduction.md)
+* [Overview of ML](machine-learning/overview-of-ml.md)
