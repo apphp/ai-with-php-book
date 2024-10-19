@@ -31,4 +31,6 @@
     * [Coming Years](machine-learning/overview-of-ml/history-of-machine-learning/coming-years.md)
   * [Key Principles of Machine Learning](machine-learning/overview-of-ml/key-principles-of-machine-learning.md)
   * [Problems and Challenges of Machine Learning](machine-learning/overview-of-ml/problems-and-challenges-of-machine-learning.md)
-* [ML Capabilities in PHP](machine-learning/ml-capabilities-in-php.md)
+* [ML Capabilities in PHP](machine-learning/ml-capabilities-in-php/README.md)
+  * [Overview of Machine Learning Libraries in PHP](machine-learning/ml-capabilities-in-php/overview-of-machine-learning-libraries-in-php.md)
+  * [Configuring an Environment for PHP](machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php.md)
