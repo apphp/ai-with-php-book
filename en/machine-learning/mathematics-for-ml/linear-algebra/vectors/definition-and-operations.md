@@ -1,8 +1,4 @@
-# Vectors
-
-### Vectors in Linear Algebra
-
-Vectors are fundamental objects in linear algebra, representing quantities with both magnitude and direction. Unlike scalars, which are single numbers, vectors consist of ordered lists of numbers. They can be visualized as arrows in space, where the length of the arrow represents magnitude and its orientation represents direction. Vectors are crucial in many mathematical and real-world applications, from physics to computer graphics and machine learning. Key operations with vectors include addition, scalar multiplication, and dot products. Understanding vectors is essential for grasping more complex concepts in linear algebra, such as matrix operations and linear transformations.
+# Definition and Operations
 
 #### Definition
 
@@ -173,132 +169,11 @@ Geometrically, this result makes sense because:
 
 </details>
 
-### Vector Operations with PHP
-
-In PHP  it can be written as a class **Vector** with implementation of a set of vector operations:
-
-<details>
-
-<summary>Class Vector</summary>
-
-```php
-<?php
-
-class Vector {
-    private $components;
-
-    public function __construct(array $components) {
-        $this->components = $components;
-    }
-
-    public function add(Vector $other): Vector {
-        if (count($this->components) !== count($other->components)) {
-            throw new Exception("Vectors must have the same dimension for addition.");
-        }
-
-        $result = array_map(function($a, $b) {
-            return $a + $b;
-        }, $this->components, $other->components);
-
-        return new Vector($result);
-    }
-
-    public function subtract(Vector $other): Vector {
-        if (count($this->components) !== count($other->components)) {
-            throw new Exception("Vectors must have the same dimension for subtraction.");
-        }
-
-        $result = array_map(function($a, $b) {
-            return $a - $b;
-        }, $this->components, $other->components);
-
-        return new Vector($result);
-    }
-
-    public function scalarMultiply($scalar): Vector {
-        $result = array_map(function($a) use ($scalar) {
-            return $a * $scalar;
-        }, $this->components);
-
-        return new Vector($result);
-    }
-
-    public function dotProduct(Vector $other): float {
-        if (count($this->components) !== count($other->components)) {
-            throw new Exception("Vectors must have the same dimension for dot product.");
-        }
-
-        return array_sum(array_map(function($a, $b) {
-            return $a * $b;
-        }, $this->components, $other->components));
-    }
-
-    public function crossProduct(Vector $other): Vector {
-        if (count($this->components) !== 3 || count($other->components) !== 3) {
-            throw new Exception("Cross product is only defined for 3D vectors.");
-        }
-
-        $result = [
-            $this->components[1] * $other->components[2] - $this->components[2] * $other->components[1],
-            $this->components[2] * $other->components[0] - $this->components[0] * $other->components[2],
-            $this->components[0] * $other->components[1] - $this->components[1] * $other->components[0]
-        ];
-
-        return new Vector($result);
-    }
-
-    public function __toString(): string {
-        return '[' . implode(', ', $this->components) . ']';
-    }
-}
-
-// Example usage
-$v1 = new Vector([2, 3]);
-$v2 = new Vector([1, -1]);
-
-// Addition and Subtraction (from previous example)
-$sum = $v1->add($v2);
-echo "Addition: $v1 + $v2 = $sum\n";
-
-$difference = $v1->subtract($v2);
-echo "Subtraction: $v1 - $v2 = $difference\n";
-
-// Scalar Multiplication
-$scalar = 3;
-$v3 = new Vector([2, -1]);
-$scalarProduct = $v3->scalarMultiply($scalar);
-echo "Scalar Multiplication: $scalar * $v3 = $scalarProduct\n";
-
-// Dot Product
-$v4 = new Vector([1, 2]);
-$v5 = new Vector([3, 4]);
-$dotProduct = $v4->dotProduct($v5);
-echo "Dot Product: $v4 · $v5 = $dotProduct\n";
-
-// Cross Product
-$v6 = new Vector([1, 0, 0]);
-$v7 = new Vector([0, 1, 0]);
-$crossProduct = $v6->crossProduct($v7);
-echo "Cross Product: $v6 × $v7 = $crossProduct\n";
-```
-
-</details>
-
-Run this code by yourself:
-
-{% embed url="https://onlinephp.io/c/9d39020b-7048-46bf-af27-a02add1c8513" %}
-Vector Operations
-{% endembed %}
-
 ### Vector Spaces
 
 A vector space is a collection of vectors that is closed under addition and scalar multiplication. This concept is crucial for understanding linear algebra and its applications.
 
-### Applications in Machine Learning
 
-1. Data Representation: Each data point in a dataset can be represented as a vector.
-2. Feature Vectors: In machine learning models, features of an instance are often represented as vectors.
-3. Weight Vectors: Many ML algorithms use vectors to represent the weights of different features.
 
 ### Conclusion
 

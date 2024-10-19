@@ -1,6 +1,6 @@
-# Matrix Implementation with PHP
+# Matrix with PHP
 
-### Implementation Matrix Operations with PHP
+### Implementation of Matrix Operations with PHP
 
 In PHP  it can be written as a class **Matrix** with implementation of a set of matrix operations.
 
