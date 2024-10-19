@@ -1,4 +1,4 @@
-# Types of Data
+# Data Types
 
 ### Introdiction
 
@@ -22,9 +22,9 @@ Let's explore three major categories of data: structured, unstructured, and semi
 
 Structured data refers to information that is highly organized and easily searchable in defined formats like rows and columns. Each data point is assigned a specific field or parameter, making it straightforward to retrieve, process, and manipulate. The organization of structured data often follows a predefined schema or structure, ensuring uniformity across records.
 
-Structured Data is easy for search:
+Structured Data is easy for search.
 
-Examples:
+#### Examples:
 
 * Relational databases: Systems like MySQL, PostgreSQL, and SQLite store data in tables with well-defined rows and columns, linked via primary and foreign keys.
 * Spreadsheets: Tools like Excel or Google Sheets organize data in a grid of cells, where each cell corresponds to a specific row and column.
@@ -40,7 +40,7 @@ Examples:
 
 Unstructured data refers to information that doesn’t adhere to a specific format or schema. This type of data is often heterogeneous and may come in forms like text, audio, video, or images, making it difficult to store and analyze using traditional relational databases. Unlike structured data, unstructured data lacks predefined fields, making searchability and processing more complex.
 
-Unstructured Data - flexible
+Unstructured Data is flexible.
 
 #### Examples:
 
