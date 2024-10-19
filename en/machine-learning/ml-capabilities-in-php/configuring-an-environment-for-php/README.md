@@ -6,7 +6,7 @@ PHP, traditionally known for web development, has been expanding its capabilitie
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="375"><figcaption><p>Configuring an Environment for PHP</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt="" width="375"><figcaption><p>Configuring an Environment for PHP</p></figcaption></figure>
 
 </div>
 
