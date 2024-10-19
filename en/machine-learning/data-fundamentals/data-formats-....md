@@ -1,14 +1,16 @@
 # Data Formats ?...
 
-### Data Formats for AI in PHP
+### A Closer Look to Data Formats
 
 When working with AI in PHP, understanding various data formats is crucial for efficient data processing, storage, and analysis. This section covers both structured and unstructured data formats commonly used in AI applications.
 
-1. Structured Data Formats
+### Structured Data Formats
 
 Structured data formats organize information in a predefined manner, making it easy to process and analyze. Here are some popular structured data formats used in AI applications:
 
-a) CSV (Comma-Separated Values) CSV is a simple, tabular format where data is separated by commas.
+a) CSV (Comma-Separated Values)&#x20;
+
+CSV is a simple, tabular format where data is separated by commas.
 
 Pros:
 
@@ -35,7 +37,9 @@ PHP example:
 $csv = array_map('str_getcsv', file('data.csv'));
 ```
 
-b) JSON (JavaScript Object Notation) JSON is a lightweight, human-readable format that's easy for machines to parse and generate.
+b) JSON (JavaScript Object Notation)&#x20;
+
+JSON is a lightweight, human-readable format that's easy for machines to parse and generate.
 
 Pros:
 
@@ -66,7 +70,9 @@ $json_data = file_get_contents('data.json');
 $data = json_decode($json_data, true);
 ```
 
-c) XML (eXtensible Markup Language) XML is a versatile markup language that defines a set of rules for encoding documents.
+c) XML (eXtensible Markup Language)&#x20;
+
+XML is a versatile markup language that defines a set of rules for encoding documents.
 
 Pros:
 

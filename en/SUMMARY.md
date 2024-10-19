@@ -63,7 +63,7 @@
   * [Linear Regression](machine-learning/mathematics-for-ml/linear-regression.md)
   * [Advanced Topics](machine-learning/mathematics-for-ml/advanced-topics.md)
 * [Data Fundamentals](machine-learning/data-fundamentals/README.md)
-  * [Introduction ?..](machine-learning/data-fundamentals/introduction-...md)
+  * [Introduction](machine-learning/data-fundamentals/introduction.md)
   * [Data Types](machine-learning/data-fundamentals/data-types.md)
   * [Data Formats ?...](machine-learning/data-fundamentals/data-formats-....md)
   * [Data Storage](machine-learning/data-fundamentals/data-storage.md)

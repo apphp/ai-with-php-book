@@ -1,6 +1,6 @@
 # Data Types
 
-### Introdiction
+### A Closer Look to Data types
 
 Data forms the foundation of artificial intelligence and machine learning. For AI systems to learn, adapt, and make decisions, they rely on diverse forms of data that provide the raw materials for training models. Understanding the different types of data is critical for building efficient AI solutions and selecting the right techniques for data analysis.
 
