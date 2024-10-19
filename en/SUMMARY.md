@@ -88,3 +88,12 @@
   * [Open-Source Projects](machine-learning/integrating-ml-into-web/open-source-projects.md)
   * [Introduction to EasyAI-PHP](machine-learning/integrating-ml-into-web/introduction-to-easyai-php.md)
 * [Practice](machine-learning/practice.md)
+
+## Neural Networks
+
+* [Introduction](neural-networks/introduction.md)
+* [Deep Learning](neural-networks/deep-learning.md)
+
+## natural language processing
+
+* [Introduction](natural-language-processing/introduction.md)
