@@ -27,5 +27,5 @@
     * [20-й век](mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/20-i-vek.md)
     * [21-й век](mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/21-i-vek.md)
     * [Ближайшие годы](mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/blizhaishie-gody.md)
-  * [Ключевые принципы машинного обучения](mashinnoe-obuchenie/obzor-mo/klyuchevye-principy-mashinnogo-obucheniya.md)
-  * [Проблемы и задачи машинного обучения](mashinnoe-obuchenie/obzor-mo/problemy-i-zadachi-mashinnogo-obucheniya.md)
+  * [Ключевые принципы](mashinnoe-obuchenie/obzor-mo/klyuchevye-principy.md)
+  * [Проблемы и задачи](mashinnoe-obuchenie/obzor-mo/problemy-i-zadachi.md)
