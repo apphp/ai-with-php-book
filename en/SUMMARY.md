@@ -83,3 +83,8 @@
   * [Deep Learning](machine-learning/basic-ml-algorithms/deep-learning.md)
   * [Distributed Learning](machine-learning/basic-ml-algorithms/distributed-learning.md)
   * [Key Applications of ML](machine-learning/basic-ml-algorithms/key-applications-of-ml.md)
+* [Advanced Features](machine-learning/advanced-features.md)
+* [Integrating ML into Web](machine-learning/integrating-ml-into-web/README.md)
+  * [Open-Source Projects](machine-learning/integrating-ml-into-web/open-source-projects.md)
+  * [Introduction to EasyAI-PHP](machine-learning/integrating-ml-into-web/introduction-to-easyai-php.md)
+* [Practice](machine-learning/practice.md)
