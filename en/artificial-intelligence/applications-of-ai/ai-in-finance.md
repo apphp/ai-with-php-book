@@ -4,7 +4,7 @@ Artificial Intelligence is reshaping the financial industry, revolutionizing how
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption><p>AI in Finance</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt="" width="375"><figcaption><p>AI in Finance</p></figcaption></figure>
 
 </div>
 

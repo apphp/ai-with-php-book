@@ -6,7 +6,7 @@ Artificial Intelligence (AI) has come a long way since its inception, evolving f
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (10).png" alt="" width="563"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt="" width="563"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure>
 
 </div>
 

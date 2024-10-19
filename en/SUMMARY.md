@@ -21,7 +21,7 @@
 
 ## MACHINE LEARNING
 
-* [Introduction](machine-learning/page-1.md)
+* [Introduction](machine-learning/introduction.md)
 * [Overview of ML](machine-learning/overview-of-ml/README.md)
   * [History of Machine Learning](machine-learning/overview-of-ml/history-of-machine-learning/README.md)
     * [Origins and Early Concepts](machine-learning/overview-of-ml/history-of-machine-learning/origins-and-early-concepts.md)
@@ -31,7 +31,7 @@
     * [Coming Years](machine-learning/overview-of-ml/history-of-machine-learning/coming-years.md)
   * [Key Principles of Machine Learning](machine-learning/overview-of-ml/key-principles-of-machine-learning.md)
   * [Problems and Challenges of Machine Learning](machine-learning/overview-of-ml/problems-and-challenges-of-machine-learning.md)
-* [ML Capabilities in PHP](machine-learning/ml-capabilities-in-php.md)
+* [ML Capabilities in PHP](machine-learning/ml-capabilities-in-php/README.md)
   * [Overview of Machine Learning Libraries in PHP](machine-learning/ml-capabilities-in-php/overview-of-machine-learning-libraries-in-php.md)
   * [Configuring an Environment for PHP](machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/README.md)
     * [Direct Installation](machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/direct-installation.md)
@@ -39,7 +39,7 @@
     * [Additional Notes](machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/additional-notes.md)
   * [Introduction to PHP-ML](machine-learning/ml-capabilities-in-php/introduction-to-php-ml.md)
   * [Introduction to Rubix ML](machine-learning/ml-capabilities-in-php/introduction-to-rubix-ml.md)
-* [Mathematics for ML](machine-learning/mathematics-for-ml.md)
+* [Mathematics for ML](machine-learning/mathematics-for-ml/README.md)
   * [Linear Algebra](machine-learning/mathematics-for-ml/linear-algebra/README.md)
     * [Scalars](machine-learning/mathematics-for-ml/linear-algebra/scalars.md)
     * [Vectors](machine-learning/mathematics-for-ml/linear-algebra/vectors.md)
@@ -57,3 +57,7 @@
     * [Practical Examples](machine-learning/mathematics-for-ml/linear-algebra/practical-examples.md)
     * [Decomposition into Singular Values](machine-learning/mathematics-for-ml/linear-algebra/decomposition-into-singular-values.md)
     * [Linear Algebra in Optimization](machine-learning/mathematics-for-ml/linear-algebra/linear-algebra-in-optimization.md)
+  * [Calculus](machine-learning/mathematics-for-ml/calculus.md)
+  * [Probability and Statistics](machine-learning/mathematics-for-ml/probability-and-statistics.md)
+  * [Information Theory](machine-learning/mathematics-for-ml/information-theory.md)
+  * [Linear Regression](machine-learning/mathematics-for-ml/linear-regression.md)

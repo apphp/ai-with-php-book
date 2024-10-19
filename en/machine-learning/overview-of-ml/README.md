@@ -6,7 +6,7 @@ Before starting with machine learning, it's helpful to know a few basic concepts
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="563"><figcaption><p>ML Overview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="563"><figcaption><p>ML Overview</p></figcaption></figure>
 
 </div>
 

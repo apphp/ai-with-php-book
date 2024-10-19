@@ -6,7 +6,7 @@ Machine learning has become an essential tool in modern software development, he
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption><p>Overview of Machine Learning Libraries in PHP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Overview of Machine Learning Libraries in PHP</p></figcaption></figure>
 
 </div>
 

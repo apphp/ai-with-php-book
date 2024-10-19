@@ -4,6 +4,6 @@ Artificial Intelligence is transforming various industries by automating process
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption><p>Applications of AI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="563"><figcaption><p>Applications of AI</p></figcaption></figure>
 
 </div>

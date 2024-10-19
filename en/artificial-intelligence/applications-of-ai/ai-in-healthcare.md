@@ -4,7 +4,7 @@ AI is revolutionizing healthcare by improving diagnostics, personalizing treatme
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>AI in Healthcare</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption><p>AI in Healthcare</p></figcaption></figure>
 
 </div>
 

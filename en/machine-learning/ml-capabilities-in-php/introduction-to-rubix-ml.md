@@ -8,7 +8,7 @@ Official documentation: [https://docs.rubixml.com/2.0/](https://docs.rubixml.com
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption><p>Introduction to Rubix ML</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt="" width="375"><figcaption><p>Introduction to Rubix ML</p></figcaption></figure>
 
 </div>
 

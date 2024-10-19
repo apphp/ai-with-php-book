@@ -4,7 +4,7 @@ The gaming industry has been an early adopter of AI, using it to create smarter 
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>AI in Gaming</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="375"><figcaption><p>AI in Gaming</p></figcaption></figure>
 
 </div>
 
