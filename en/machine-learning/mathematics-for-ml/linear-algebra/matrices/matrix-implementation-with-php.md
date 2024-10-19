@@ -1,8 +1,10 @@
-# Matrix Operations with PHP
+# Matrix Implementation with PHP
 
-### Matrix Operations with PHP
+### Implementation Matrix Operations with PHP
 
-In PHP  it can be written as a class **Matrix** with implementation of a set of vector operations:
+In PHP  it can be written as a class **Matrix** with implementation of a set of matrix operations.
+
+This class is a PHP implementation of matrix operations commonly used in linear algebra and, by extension, in various AI and machine learning algorithms. It provides a robust set of methods for performing matrix calculations, making it a valuable tool for developers working on AI projects in PHP.
 
 <details>
 
@@ -20,6 +22,22 @@ class Matrix {
         $this->matrix = $matrix;
         $this->rows = count($matrix);
         $this->cols = count($matrix[0]);
+    }
+    
+    public function rank(): int {
+        $epsilon = 1e-10; // Threshold for considering a value as zero
+        $ref = $this->reducedEchelonForm();
+        $rank = 0;
+        for ($i = 0; $i < $this->rows; $i++) {
+            for ($j = 0; $j < $this->cols; $j++) {
+                if (abs($ref->matrix[$i][$j]) > $epsilon) {
+                    $rank++;
+                    break;
+                }
+            }
+        }
+        
+        return $rank;
     }
 
     public function add(Matrix $other): Matrix {
@@ -150,6 +168,58 @@ class Matrix {
 
         return new Matrix($result);
     }
+    
+    private function reducedEchelonForm(): Matrix {
+        $ref = $this->matrix;
+        $lead = 0;
+        for ($r = 0; $r < $this->rows; $r++) {
+            if ($lead >= $this->cols) {
+                return new Matrix($ref);
+            }
+            $i = $r;
+            while ($ref[$i][$lead] == 0) {
+                $i++;
+                if ($i == $this->rows) {
+                    $i = $r;
+                    $lead++;
+                    if ($this->cols == $lead) {
+                        return new Matrix($ref);
+                    }
+                }
+            }
+            $temp = $ref[$i];
+            $ref[$i] = $ref[$r];
+            $ref[$r] = $temp;
+            $lv = $ref[$r][$lead];
+            for ($j = 0; $j < $this->cols; $j++) {
+                $ref[$r][$j] /= $lv;
+            }
+            for ($i = 0; $i < $this->rows; $i++) {
+                if ($i != $r) {
+                    $lv = $ref[$i][$lead];
+                    for ($j = 0; $j < $this->cols; $j++) {
+                        $ref[$i][$j] -= $lv * $ref[$r][$j];
+                    }
+                }
+            }
+            $lead++;
+        }
+        return new Matrix($ref);
+    }
+    
+    public function cofactorMatrix(): Matrix {
+        $result = [];
+        for ($i = 0; $i < $this->rows; $i++) {
+            for ($j = 0; $j < $this->cols; $j++) {
+                $result[$i][$j] = (($i + $j) % 2 == 0 ? 1 : -1) * $this->cofactor($i, $j)->determinant();
+            }
+        }
+        return new Matrix($result);
+    }
+
+    public function adjugateMatrix(): Matrix {
+        return $this->cofactorMatrix()->transpose();
+    }
 
     public function toString(): string {
         $result = "";
@@ -166,13 +236,17 @@ $matrix2 = new Matrix([[5, 6], [7, 8]]);
 
 echo "Matrix 1:\n" . $matrix1->toString() . "\n";
 echo "Matrix 2:\n" . $matrix2->toString() . "\n";
+echo "Rank of Matrix 1: " . $matrix1->rank() . "\n\n";
+echo "Rank of Matrix 2: " . $matrix1->rank() . "\n\n";
 
 echo "Addition:\n" . $matrix1->add($matrix2)->toString() . "\n";
 echo "Subtraction:\n" . $matrix1->subtract($matrix2)->toString() . "\n";
 echo "Scalar multiplication (by 2):\n" . $matrix1->scalarMultiply(2)->toString() . "\n";
 echo "Matrix multiplication:\n" . $matrix1->multiply($matrix2)->toString() . "\n";
 echo "Transpose of Matrix 1:\n" . $matrix1->transpose()->toString() . "\n";
-echo "Determinant of Matrix 1: " . $matrix1->determinant() . "\n";
+echo "Determinant of Matrix 1: " . $matrix1->determinant() . "\n\n";
+echo "Cofactor Matrix of Matrix 1:\n" . $matrix1->cofactorMatrix()->toString() . "\n";
+echo "Adjugate Matrix of Matrix 1:\n" . $matrix1->adjugateMatrix()->toString() . "\n";
 echo "Inverse of Matrix 1:\n" . $matrix1->inverse()->toString() . "\n";
 ```
 

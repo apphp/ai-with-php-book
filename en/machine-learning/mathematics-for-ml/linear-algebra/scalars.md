@@ -126,7 +126,9 @@ echo $a << 1;  // Left shift: 10 (1010 in binary)
 echo $a >> 1;  // Right shift: 2 (10 in binary)
 ```
 
-In PHP  it can be written as a class **Scalar** with implementation of a set of vector operations:
+### Scalar Operations with PHP
+
+In PHP  it can be written as a class **Scalar** with implementation of a set of scalar operations:
 
 <details>
 
