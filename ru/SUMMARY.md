@@ -13,6 +13,8 @@
 * [Типы ИИ](iskusstvennyi-intellekt/tipy-ii.md)
 * [Применение ИИ](iskusstvennyi-intellekt/primenenie-ii/README.md)
   * [ИИ в астрономии](iskusstvennyi-intellekt/primenenie-ii/ii-v-astronomii.md)
+  * [ИИ в здравоохранении](iskusstvennyi-intellekt/primenenie-ii/ii-v-zdravookhranenii.md)
+  * [ИИ в играх](iskusstvennyi-intellekt/primenenie-ii/ii-v-igrakh.md)
 * [Визионеры и новаторы](iskusstvennyi-intellekt/vizionery-i-novatory.md)
 
 ## Машинное обучение
