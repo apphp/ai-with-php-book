@@ -9,3 +9,4 @@
 ## Artificial Intelligence
 
 * [Introduction](artificial-intelligence/introduction.md)
+* [Structure of AI](artificial-intelligence/structure-of-ai.md)
