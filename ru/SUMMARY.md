@@ -11,10 +11,10 @@
 * [Введение](iskusstvennyi-intellekt/vvedenie.md)
 * [Структура ИИ](iskusstvennyi-intellekt/struktura-ii.md)
 * [Типы ИИ](iskusstvennyi-intellekt/tipy-ii.md)
-* [Применение ИИ](iskusstvennyi-intellekt/primenenie-ii/README.md)
-  * [ИИ в астрономии](iskusstvennyi-intellekt/primenenie-ii/ii-v-astronomii.md)
-  * [ИИ в здравоохранении](iskusstvennyi-intellekt/primenenie-ii/ii-v-zdravookhranenii.md)
-  * [ИИ в играх](iskusstvennyi-intellekt/primenenie-ii/ii-v-igrakh.md)
+* [Области применения](iskusstvennyi-intellekt/oblasti-primeneniya/README.md)
+  * [ИИ в астрономии](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-astronomii.md)
+  * [ИИ в здравоохранении](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-zdravookhranenii.md)
+  * [ИИ в играх](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-igrakh.md)
 * [Визионеры и новаторы](iskusstvennyi-intellekt/vizionery-i-novatory.md)
 
 ## Машинное обучение
@@ -27,3 +27,5 @@
     * [20-й век](mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/20-i-vek.md)
     * [21-й век](mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/21-i-vek.md)
     * [Ближайшие годы](mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/blizhaishie-gody.md)
+  * [Ключевые принципы машинного обучения](mashinnoe-obuchenie/obzor-mo/klyuchevye-principy-mashinnogo-obucheniya.md)
+  * [Проблемы и задачи машинного обучения](mashinnoe-obuchenie/obzor-mo/problemy-i-zadachi-mashinnogo-obucheniya.md)
