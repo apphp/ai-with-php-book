@@ -64,3 +64,6 @@
   * [Advanced Topics](machine-learning/mathematics-for-ml/advanced-topics.md)
 * [Data Fundamentals](machine-learning/data-fundamentals/README.md)
   * [Types of Data](machine-learning/data-fundamentals/types-of-data.md)
+  * [Data Formats and Storage ?...](machine-learning/data-fundamentals/data-formats-and-storage-....md)
+  * [Data Collection](machine-learning/data-fundamentals/data-collection.md)
+  * [Data Preprocessing](machine-learning/data-fundamentals/data-preprocessing.md)
