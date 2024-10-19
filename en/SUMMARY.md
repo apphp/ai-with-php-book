@@ -53,3 +53,7 @@
     * [Linear Transformations](machine-learning/mathematics-for-ml/linear-algebra/linear-transformations/README.md)
       * [Linear Transformations and their Role in Neural Networks](machine-learning/mathematics-for-ml/linear-algebra/linear-transformations/linear-transformations-and-their-role-in-neural-networks.md)
     * [Eigenvalues and Eigenvectors](machine-learning/mathematics-for-ml/linear-algebra/eigenvalues-and-eigenvectors.md)
+    * [Norms and Distances](machine-learning/mathematics-for-ml/linear-algebra/norms-and-distances.md)
+    * [Practical Examples](machine-learning/mathematics-for-ml/linear-algebra/practical-examples.md)
+    * [Decomposition into Singular Values](machine-learning/mathematics-for-ml/linear-algebra/decomposition-into-singular-values.md)
+    * [Linear Algebra in Optimization](machine-learning/mathematics-for-ml/linear-algebra/linear-algebra-in-optimization.md)
