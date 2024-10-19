@@ -62,3 +62,5 @@
   * [Information Theory](machine-learning/mathematics-for-ml/information-theory.md)
   * [Linear Regression](machine-learning/mathematics-for-ml/linear-regression.md)
   * [Advanced Topics](machine-learning/mathematics-for-ml/advanced-topics.md)
+* [Data Fundamentals](machine-learning/data-fundamentals/README.md)
+  * [Types of Data](machine-learning/data-fundamentals/types-of-data.md)
