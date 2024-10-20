@@ -71,7 +71,7 @@ A = [a b c]    det(A) = (aei + bfg + cdh) - (ceg + bdi + afh)
 
 </details>
 
-Example: Let A = \[2 -1 3; 4 5 -2; 1 -3 2]
+**Example**: Let A = \[2 -1 3; 4 5 -2; 1 -3 2]
 
 Using Sarrus' rule:
 
@@ -152,7 +152,7 @@ A = [a b c]    det(A) = a(ei-fh) - b(di-fg) + c(dh-eg)
 
 </details>
 
-Example: Let A = \[2 -1 3; 4 5 -2; 1 -3 2]
+**Example**: Let A = \[2 -1 3; 4 5 -2; 1 -3 2]
 
 Using Cofactor expansion:
 
@@ -203,7 +203,7 @@ Therefore, the determinant of A is -33.
 4. Transpose property: $$det(A) = det(A^T)$$
 5. Zero determinant and singular matrices: If det(A) = 0, then A is singular (non-invertible)
 
-Example demonstrating properties:
+**Example** demonstrating properties:
 
 Let A = \[2 1; 3 4] and B = \[1 2; 0 3]
 

@@ -1,6 +1,6 @@
 # Data Formats ?...
 
-### A Closer Look to Data Formats
+A Closer Look to Data Formats
 
 When working with AI in PHP, understanding various data formats is crucial for efficient data processing, storage, and analysis. This section covers both structured and unstructured data formats commonly used in AI applications.
 
@@ -9,6 +9,12 @@ When working with AI in PHP, understanding various data formats is crucial for e
 Structured data formats organize information in a predefined manner, making it easy to process and analyze. Here are some popular structured data formats used in AI applications:
 
 #### CSV (Comma-Separated Values)&#x20;
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (68).png" alt="" width="102"><figcaption></figcaption></figure>
+
+</div>
 
 CSV is a simple, tabular format where data is separated by commas.
 
@@ -37,7 +43,45 @@ PHP example:
 $csv = array_map('str_getcsv', file('data.csv'));
 ```
 
+<details>
+
+<summary>Result</summary>
+
+```
+Array
+(
+    [0] => Array
+        (
+            [0] => name
+            [1] => age
+            [2] => city
+        )
+
+    [1] => Array
+        (
+            [0] => John
+            [1] => 30
+            [2] => New York
+        )
+
+    [2] => Array
+        (
+            [0] => Alice
+            [1] => 25
+            [2] => London
+        )
+)
+```
+
+</details>
+
 #### JSON (JavaScript Object Notation)&#x20;
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (67).png" alt="" width="104"><figcaption></figcaption></figure>
+
+</div>
 
 JSON is a lightweight, human-readable format that's easy for machines to parse and generate.
 
@@ -70,7 +114,41 @@ $json_data = file_get_contents('data.json');
 $data = json_decode($json_data, true);
 ```
 
+<details>
+
+<summary>Result</summary>
+
+```
+Array
+(
+    [users] => Array
+        (
+            [0] => Array
+                (
+                    [name] => John
+                    [age] => 30
+                    [city] => New York
+                )
+
+            [1] => Array
+                (
+                    [name] => Alice
+                    [age] => 25
+                    [city] => London
+                )
+        )
+)
+```
+
+</details>
+
 #### XML (eXtensible Markup Language)&#x20;
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (66).png" alt="" width="102"><figcaption></figcaption></figure>
+
+</div>
 
 XML is a versatile markup language that defines a set of rules for encoding documents.
 
@@ -108,7 +186,41 @@ PHP example:
 $xml = simplexml_load_file('data.xml');
 ```
 
+<details>
+
+<summary>Result</summary>
+
+```
+SimpleXMLElement Object
+(
+    [user] => Array
+        (
+            [0] => SimpleXMLElement Object
+                (
+                    [name] => John
+                    [age] => 30
+                    [city] => New York
+                )
+
+            [1] => SimpleXMLElement Object
+                (
+                    [name] => Alice
+                    [age] => 25
+                    [city] => London
+                )
+        )
+)
+```
+
+</details>
+
 #### Parquet&#x20;
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (65).png" alt="" width="103"><figcaption></figcaption></figure>
+
+</div>
 
 Parquet is a columnar storage file format, optimized for use with big data processing frameworks.
 
@@ -127,11 +239,48 @@ PHP example (using third-party library):
 
 ```php
 // Note: This requires a PHP extension or library for Parquet support
-$reader = new ParquetReader('data.parquet');
+// Like: apache/parquet
+
+require 'vendor/autoload.php'; 
+
+use Parquet\Reader;
+
+// Create a ParquetReader instance
+$reader = new Reader('data.parquet');
+
+// Read the data
 $data = $reader->read();
+
+// Display the data
+foreach ($data as $row) {
+    echo "Name: " . $row['name'] . "\n";
+    echo "Age: " . $row['age'] . "\n";
+    echo "City: " . $row['city'] . "\n";
+}
 ```
 
+<details>
+
+<summary>Result</summary>
+
+```
+Name: John
+Age: 30
+City: New York
+Name: Alice
+Age: 25
+City: London
+```
+
+</details>
+
 #### HDF5 (Hierarchical Data Format version 5)&#x20;
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (63).png" alt="" width="103"><figcaption></figcaption></figure>
+
+</div>
 
 HDF5 is a file format designed to store and organize large amounts of numerical data.
 
@@ -156,7 +305,21 @@ $dataset = $file->getDataset('mydata');
 
 #### ARFF data form at
 
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (64).png" alt="" width="101"><figcaption></figcaption></figure>
+
+</div>
+
+#### ..............
+
 #### SQL Tables&#x20;
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (70).png" alt="" width="102"><figcaption></figcaption></figure>
+
+</div>
 
 While not a file format per se, SQL tables in relational databases are a common way to store structured data.
 
@@ -273,23 +436,4 @@ name,age,city
 "Bob",25,"San Francisco"
 "Charlie",35,"London"
 ```
-
-
-
-
-
-####
-
-#### Structured data formats
-
-* CSV, JSON, XML, Parquet, HDF5, SQL tables
-* Pros and cons of each format
-
-#### Unstructured data formats
-
-* Text processing and natural language data
-* Image data formats and manipulation
-* Audio and video data considerations
-
-####
 

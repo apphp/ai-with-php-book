@@ -6,16 +6,16 @@ In linear algebra, the cofactor matrix is a fundamental concept closely related 
 
 ### Definition of Cofactor Matrix
 
-For a square matrix A, its cofactor matrix, denoted as cof(A), is a matrix of the same size where each element is the cofactor of the corresponding element in the original matrix.
+For a square matrix A, its cofactor matrix, denoted as $$cof(A)$$, is a matrix of the same size where each element is the cofactor of the corresponding element in the original matrix.
 
-The cofactor C\_ij of an element a\_ij in matrix A is defined as:
+The cofactor $$C_{ij}$$ of an element $$a_{ij}$$ in matrix A is defined as:
 
-C\_ij = (-1)^(i+j) \* M\_ij
+$$C_{ij} = (-1)^{i+j} * M_{ij}$$
 
 Where:
 
-* i and j are the row and column indices, respectively
-* M\_ij is the minor of a\_ij, which is the determinant of the submatrix formed by removing the i-th row and j-th column from A
+* $$i$$ and $$j$$ are the row and column indices, respectively
+* $$M_{ij}$$ is the minor of $$a_{ij}$$, which is the determinant of the submatrix formed by removing the i-th row and j-th column from A
 
 ### Computing the Cofactor Matrix
 
@@ -23,22 +23,44 @@ To compute the cofactor matrix, follow these steps for each element:
 
 1. Create a submatrix by removing the row and column of the current element.
 2. Calculate the determinant of this submatrix (the minor).
-3. Multiply the minor by (-1)^(i+j) to get the cofactor.
+3. Multiply the minor by $$(-1)^{i+j}$$ to get the cofactor.
 4. Place the cofactor in the corresponding position of the new matrix.
 
-#### Example: Computing Cofactor Matrix
+#### Example:
 
 Let's compute the cofactor matrix for a 3x3 matrix A:
 
-A = \[1 2 3] \[4 5 6] \[7 8 9]
+$$A = [1\ 2\ 3] [4\ 5\ 6] [7\ 8\ 9]$$
 
-For element a\_11 (1): Submatrix = \[5 6] \[8 9] Minor M\_11 = 5_9 - 6_8 = -3 Cofactor C\_11 = (-1)^(1+1) \* (-3) = -3
+```
+A = [1 2 3]    cof(A) = [-3 6 -3]  
+    [4 5 6]             [6 -12 6] 
+    [7 8 9]             [-3 6 -3] 
+```
 
-For element a\_12 (2): Submatrix = \[4 6] \[7 9] Minor M\_12 = 4_9 - 6_7 = -6 Cofactor C\_12 = (-1)^(1+2) \* (-6) = 6
+<details>
+
+<summary>Step-by-step explanation</summary>
+
+For element $$a_{11} (1)$$:&#x20;
+
+* Submatrix = $$[5\ 6] [8\ 9]$$&#x20;
+* Minor $$M_{11} = 59 - 68 = -3$$&#x20;
+* Cofactor $$C_{11} = (-1)^{1+1} * (-3) = -3$$
+
+For element $$a_{12}(2)$$:&#x20;
+
+* Submatrix = \[4 6] \[7 9]&#x20;
+* Minor M\_12 = 4_9 - 6_7 = -6&#x20;
+* Cofactor C\_12 = (-1)^(1+2) \* (-6) = 6
 
 Continuing this process for all elements, we get the cofactor matrix:
 
 cof(A) = \[-3 6 -3] \[ 6 -12 6] \[-3 6 -3]
+
+</details>
+
+
 
 ### Properties of Cofactor Matrices
 

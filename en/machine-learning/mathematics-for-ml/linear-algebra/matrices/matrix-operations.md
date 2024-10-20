@@ -46,7 +46,7 @@ ML Application: This property is useful in backpropagation when computing gradie
 
 Matrix addition and subtraction are performed element-wise between matrices of the same dimensions.
 
-Examples (2x2 matrices):
+**Examples** (2x2 matrices):
 
 ```
 A = [1 2]    B = [5 6]     A + B = [6 8]
@@ -88,7 +88,7 @@ Step 2: Write the result A - B = \[-4 -2] \[4 4]
 
 </details>
 
-**Example in M**L: Updating weights in neural networks. In gradient descent, we update parameters by subtracting the gradient multiplied by the learning rate:
+**Example in ML**: Updating weights in neural networks. In gradient descent, we update parameters by subtracting the gradient multiplied by the learning rate:
 
 ```
 W = [0.1 0.2]  gradient = [0.01 0.02]  learning_rate = 0.1
