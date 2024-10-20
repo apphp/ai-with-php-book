@@ -2,6 +2,12 @@
 
 Artificial Intelligence is at the core of the transformation happening in the automotive industry, pushing the boundaries of innovation in ways previously unimaginable. From autonomous driving to enhanced manufacturing processes and smarter in-car systems, AI is revolutionizing how vehicles are designed, produced, and operated. Let’s explore the critical areas where AI is making a profound impact on the automotive industry.
 
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="375"><figcaption><p>AI in Automotive Industry</p></figcaption></figure>
+
+</div>
+
 ### Autonomous Driving
 
 The most prominent and ambitious application of AI in the automotive industry is the development of autonomous vehicles, also known as self-driving cars. These vehicles rely on a complex system of AI algorithms, sensors, cameras, and radars to perceive the environment, make decisions, and drive with little or no human intervention.

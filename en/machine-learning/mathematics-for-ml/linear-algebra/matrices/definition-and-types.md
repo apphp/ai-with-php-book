@@ -1,8 +1,8 @@
-# Matrix Definition and Types
+# Definition and Types
 
 ### Definition of Matrices
 
-A matrix is a rectangular array of numbers, symbols, or expressions arranged in rows and columns. In general, a matrix with m rows and n columns is called an m × n matrix.
+A matrix is a rectangular array of numbers, symbols, or expressions arranged in rows and columns. In general, a matrix with m rows and n columns is called an $$m × n$$ matrix.
 
 #### General form of a matrix A:
 
@@ -14,7 +14,7 @@ A = [a11 a12 ... a1n]
     [am1 am2 ... amn]
 ```
 
-Where a\_ij represents the element in the i-th row and j-th column.
+Where $$a_{ij}$$ represents the element in the i-th row and j-th column.
 
 In PHP  matrices can be written like n-dimensional arrays:
 
@@ -51,9 +51,9 @@ $matrixD3 = [
 
 #### Row matrix:
 
-A matrix with only one row (1 × n).&#x20;
+A matrix with only one row $$(1 × n)$$.&#x20;
 
-Example: $$[1 2 3 4]$$
+Example: $$\begin{bmatrix} 1\ 2\ 3\ 4 \end{bmatrix}$$
 
 ```
 A = [1 2 3 4]
@@ -61,7 +61,7 @@ A = [1 2 3 4]
 
 #### Column matrix: &#x20;
 
-A matrix with only one column (m × 1).&#x20;
+A matrix with only one column $$(m × 1)$$.&#x20;
 
 Example: $$[1] [2] [3]$$
 
@@ -75,7 +75,7 @@ A = [1]
 
 A matrix with an equal number of rows and columns (n × n).&#x20;
 
-Example: $$[1 2] [3 4]$$
+Example: $$[1\ 2] [3\ 4]$$
 
 ```
 A = [1 2]
@@ -86,7 +86,7 @@ A = [1 2]
 
 A square matrix where all elements outside the main diagonal are zero.&#x20;
 
-Example: $$[1 0 0] [0 2 0] [0 0 3]$$
+Example: $$[1\ 0\ 0] [0\ 2\ 0] [0\ 0\ 3]$$
 
 ```
 A = [1 0 0]
@@ -98,7 +98,7 @@ A = [1 0 0]
 
 A square matrix with 1s on the main diagonal and 0s elsewhere, usually denoted by I.&#x20;
 
-Example: $$[1 0 0] [0 1 0] [0 0 1]$$
+Example: $$[1\ 0\ 0] [0\ 1\ 0] [0\ 0\ 1]$$
 
 ```
 A = [1 0 0]
@@ -110,7 +110,7 @@ A = [1 0 0]
 
 A matrix where all elements are zero, usually denoted by 0.&#x20;
 
-Example: $$[0 0] [0 0]$$
+Example: $$[0\ 0] [0\ 0]$$
 
 ```
 A = [0 0]
@@ -121,7 +121,7 @@ A = [0 0]
 
 A square matrix that is equal to its transpose $$(A = A^T)$$.&#x20;
 
-Example: $$[1 2 3] [2 4 5] [3 5 6]$$
+Example: $$[1\ 2\ 3] [2\ 4\ 5] [3\ 5\ 6]$$
 
 ```
 A = [1 2 3]
@@ -133,7 +133,7 @@ A = [1 2 3]
 
 A square matrix A where .&#x20;
 
-Example: $$[ 0 1  -2] [-1 0 3] [ 2 -3 0]$$
+Example: $$[0\ 1\ -2] [-1\ 0\ 3] [2\ -3\ 0]$$
 
 ```
 A = [0 1 -2]
@@ -145,7 +145,7 @@ A = [0 1 -2]
 
 A square matrix where all elements below the main diagonal are zero.&#x20;
 
-Example: $$[1 2 3] [0 4 5] [0 0 6]$$
+Example: $$[1\ 2\ 3] [0\ 4\ 5] [0\ 0\ 6]$$
 
 ```
 A = [1 2 3]
@@ -157,7 +157,7 @@ A = [1 2 3]
 
 A square matrix where all elements above the main diagonal are zero.&#x20;
 
-Example: $$[1 0 0] [2 3 0] [4 5 6]$$
+Example: $$[1\ 0\ 0] [2\ 3\ 0] [4\ 5\ 6]$$
 
 ```
 A = [1 0 0]

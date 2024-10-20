@@ -17,7 +17,7 @@ echo count($vector);
 Vectors can be written in various ways:
 
 * As a column: $$v = [2, 3, -1]^T$$
-* As a row: $$v = \begin{bmatrix} 2 & 3 & -1 \end{bmatrix}$$
+* As a row: $$v = \begin{bmatrix} 2\ 3\ 1 \end{bmatrix}$$
 * In set notation: $$v = (2, 3, -1)$$
 
 #### Properties
