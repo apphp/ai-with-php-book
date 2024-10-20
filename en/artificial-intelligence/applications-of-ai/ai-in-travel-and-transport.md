@@ -20,17 +20,23 @@ Urban transportation has become far more efficient thanks to AI. In cities, AI i
 
 Take Singapore, for example, where AI powers a smart traffic system. It analyzes real-time traffic data to adjust traffic lights and divert cars to less congested roads, preventing gridlock before it happens. **Moovit**, an AI-driven app, helps commuters navigate public transportation systems by providing the best possible routes, accounting for live traffic conditions and public transit delays. This dynamic routing makes daily commutes more predictable and efficient.
 
-### Autonomous Vehicles
+### Optimization of Route
 
-Self-driving cars are one of the most exciting applications of AI in transportation. By using machine learning algorithms and sensors, these vehicles can navigate complex environments without human intervention, offering the potential to dramatically reduce accidents caused by human error.
+AI doesn’t just help in navigating cities; it also plays a significant role in optimizing the routes of delivery trucks, taxis, and logistics networks. By analyzing traffic patterns, weather conditions, and historical data, AI ensures that vehicles follow the most efficient path, saving time, fuel, and costs.
 
-**Waymo**, a leader in this field, has already deployed self-driving cars in cities like Phoenix, Arizona. These autonomous vehicles use AI to interpret data from cameras, radar, and lidar to make real-time decisions on the road, like identifying pedestrians, reading traffic signs, and handling unexpected obstacles. This technology aims to make driving safer and could eventually reshape how cities are designed.
+**UPS**, for instance, uses its AI-powered “ORION” system, which optimizes delivery routes for its drivers. This system takes into account not only traffic but also specific customer requests and delivery deadlines, resulting in significant savings in fuel and time. Similarly, ride-sharing platforms like Uber use AI algorithms to determine the fastest routes for drivers based on real-time traffic conditions, ensuring a quicker and more efficient ride for passengers.
 
 ### AI-Powered Airports
 
 Airports are turning to AI to streamline operations and improve the passenger experience. From check-in to boarding, AI helps automate and speed up various processes, making air travel less stressful.
 
 At **Changi Airport** in Singapore, AI-powered facial recognition is used for automated check-in, security, and boarding. Passengers can move through the airport with fewer physical checkpoints, relying instead on facial scans to verify identity. Additionally, AI-driven robots handle tasks like cleaning and baggage handling, increasing operational efficiency while allowing staff to focus on more critical tasks.
+
+### Smart Security Screening
+
+Security screening at airports, often a time-consuming part of air travel, is becoming faster and more accurate thanks to AI. AI systems can analyze scanned images of baggage to identify potential threats with greater precision than human operators, while also speeding up the process.
+
+The **Transportation Security Administration (TSA)** in the U.S. is deploying AI-based systems to automate baggage scanning and improve security checks. These systems use deep learning to detect dangerous items in real time, significantly reducing manual errors. Passengers at airports like Heathrow in London are already benefiting from AI-assisted security, which makes screening quicker and reduces long lines at checkpoints.
 
 ### Predictive Maintenance
 
