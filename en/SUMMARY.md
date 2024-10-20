@@ -19,6 +19,7 @@
   * [AI in Data Security](artificial-intelligence/applications-of-ai/ai-in-data-security.md)
   * [AI in Social Media](artificial-intelligence/applications-of-ai/ai-in-social-media.md)
   * [AI in Travel and Transport](artificial-intelligence/applications-of-ai/ai-in-travel-and-transport.md)
+  * [AI in Automotive Industry](artificial-intelligence/applications-of-ai/ai-in-automotive-industry.md)
 * [Visionaries and Innovators](artificial-intelligence/visionaries-and-innovators.md)
 
 ## Machine Learning
