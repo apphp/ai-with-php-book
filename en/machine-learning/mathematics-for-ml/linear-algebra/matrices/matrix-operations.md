@@ -257,6 +257,8 @@ Step 2: Write the result $$A^T = [1\ 4\ 7] [2\ 5\ 8] [3\ 6\ 9]$$
 
 ( $$gradient = X^T * (y_pred - y) / n_samples$$ )
 
+( $$gradient = X^T * (y_pred - y) / n_samples$$)
+
 ```
 X = [1 2]  y = [5]  
     [3 4]      [11]
