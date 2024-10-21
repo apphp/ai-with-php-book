@@ -2,7 +2,7 @@
 
 ## Cofactor Matrices
 
-In linear algebra, the cofactor matrix is a fundamental concept closely related to determinants, inverse matrices, and adjugate matrices. This article will explore the definition, properties, and applications of cofactor matrices, with a focus on their relevance to AI and machine learning implemented in PHP.
+In linear algebra, the cofactor matrix is a fundamental concept closely related to determinants, inverse matrices, and adjugate matrices. In this chapter we'll explore the definition, properties, and applications of cofactor matrices, with a focus on their relevance to AI and machine learning implemented in PHP.
 
 ### Definition of Cofactor Matrix
 

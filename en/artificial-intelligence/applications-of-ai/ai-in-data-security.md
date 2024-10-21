@@ -1,6 +1,6 @@
 # AI in Data Security
 
-In today’s digital world, data security has become a major concern. With cyberattacks growing more sophisticated every day, traditional defenses often fall short. This is where artificial intelligence (AI) comes in, bringing new tools and strategies to safeguard sensitive information. In this article, we’ll explore how AI is transforming the field of data security, with real-world examples showing how it’s making a difference.
+In today’s digital world, data security has become a major concern. With cyberattacks growing more sophisticated every day, traditional defenses often fall short. This is where artificial intelligence (AI) comes in, bringing new tools and strategies to safeguard sensitive information. IIn this chapter we'll explore how AI is transforming the field of data security, with real-world examples showing how it’s making a difference.
 
 <div align="left">
 

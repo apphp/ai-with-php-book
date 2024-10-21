@@ -2,7 +2,7 @@
 
 ### Inverse Matrices
 
-In linear algebra, inverse matrices play a crucial role in solving systems of linear equations and various other applications. This article will explore the concept of inverse matrices, their properties, and methods for calculating them.
+In linear algebra, inverse matrices play a crucial role in solving systems of linear equations and various other applications. In this chapter we'll explore the concept of inverse matrices, their properties, and methods for calculating them.
 
 ### Definition and Conditions for Invertibility
 

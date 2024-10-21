@@ -2,7 +2,7 @@
 
 ### Adjugate Matrices
 
-In linear algebra, the adjugate matrix, also known as the classical adjoint or adjunct matrix, is a crucial concept closely related to matrix inverses and determinants. This article will explore the definition, properties, and applications of adjugate matrices, with a focus on their relevance to AI and machine learning implemented in PHP.
+In linear algebra, the adjugate matrix, also known as the classical adjoint or adjunct matrix, is a crucial concept closely related to matrix inverses and determinants. In this chapter we'll explore the definition, properties, and applications of adjugate matrices, with a focus on their relevance to AI and machine learning implemented in PHP.
 
 ### Definition of Adjugate Matrix
 
