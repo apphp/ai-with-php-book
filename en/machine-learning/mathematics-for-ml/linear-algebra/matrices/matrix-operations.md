@@ -255,9 +255,7 @@ Step 2: Write the result $$A^T = [1\ 4\ 7] [2\ 5\ 8] [3\ 6\ 9]$$
 
 **Example in ML**: Computing the gradient in linear regression:
 
-( $$gradient = X^T * (y_pred - y) / n_samples$$ )
-
-( $$gradient = X^T * (y_pred - y) / n_samples$$)
+( $$gradient = X^T * (y_{pred} - y) / n_{samples}$$ )
 
 ```
 X = [1 2]  y = [5]  
