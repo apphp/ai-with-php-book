@@ -295,5 +295,3 @@ Step 4: Divide by $$n_{samples}$$ (3 in this case): $$[-40.5 / 3] = [-13.5] [-58
 This step-by-step breakdown illustrates how each matrix operation is performed and how it applies in machine learning contexts.
 
 </details>
-
-.
