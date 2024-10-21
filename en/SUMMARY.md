@@ -21,6 +21,7 @@
   * [AI in Travel and Transport](artificial-intelligence/applications-of-ai/ai-in-travel-and-transport.md)
   * [AI in Automotive Industry](artificial-intelligence/applications-of-ai/ai-in-automotive-industry.md)
   * [AI in Robotics](artificial-intelligence/applications-of-ai/ai-in-robotics.md)
+  * [AI in Entertainment](artificial-intelligence/applications-of-ai/ai-in-entertainment.md)
 * [Visionaries and Innovators](artificial-intelligence/visionaries-and-innovators.md)
 
 ## Machine Learning
