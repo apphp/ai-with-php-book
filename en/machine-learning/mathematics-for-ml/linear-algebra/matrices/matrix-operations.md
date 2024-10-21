@@ -153,9 +153,9 @@ Matrix multiplication is a crucial operation in many ML computations, including 
 
 For two matrices A and B to be multiplied:
 
-* The number of columns in matrix A must equal the number of rows in matrix B.
+* The number of columns in matrix  must equal the number of rows in matrix $$B$$.
 * If A is an $$m × n$$ matrix and B is a $$p × q$$ matrix, then n must equal p.
-* The resulting matrix will have dimensions m × q.
+* The resulting matrix will have dimensions $$m × q$$.
 
 Example (2x2 matrices):
 
@@ -255,7 +255,7 @@ Step 2: Write the result $$A^T = [1\ 4\ 7] [2\ 5\ 8] [3\ 6\ 9]$$
 
 **Example in ML**: Computing the gradient in linear regression:
 
-()
+( $$gradient = X^T * (y_pred - y) / n_samples$$ )
 
 ```
 X = [1 2]  y = [5]  
