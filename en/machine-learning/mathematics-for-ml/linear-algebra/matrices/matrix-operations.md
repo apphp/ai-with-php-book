@@ -18,27 +18,27 @@ Understanding these properties helps in optimizing computations and designing ef
 
 **1. Non-commutativity of Matrix Multiplication**
 
-Unlike scalar multiplication, matrix multiplication is not commutative. In general, AB ≠ BA.
+Unlike scalar multiplication, matrix multiplication is not commutative. In general, $$AB ≠ BA$$.
 
-Example: A = \[1 2] B = \[5 6] \[3 4] \[7 8]
+**Example**: $$A = [1\ 2]$$, $$B = [5\ 6] [3\ 4] [7\ 8]$$
 
-AB = \[19 22] ≠ BA = \[23 34] \[43 50] \[31 46]
+$$AB = [19\ 22] ≠ BA = [23\ 34] [43\ 50] [31\ 46]$$
 
 ML Application: The order of operations matters in neural network computations. For instance, applying activation functions before or after matrix multiplication can lead to different results.
 
 **2. Associativity of Matrix Multiplication**
 
-(AB)C = A(BC) for matrices with compatible dimensions.
+$$(AB)C = A(BC)$$ for matrices with compatible dimensions.
 
-Example: A (2×2) \* (B (2×2) \* C (2×1)) = (A (2×2) \* B (2×2)) \* C (2×1)
+**Example**: $$A (2×2) * (B (2×2) * C (2×1)) = (A (2×2) * B (2×2)) * C (2×1)$$
 
 ML Application: This property allows for optimizing computations in deep neural networks by grouping operations efficiently.
 
 **3. Distributivity of Matrix Multiplication over Addition**
 
-A(B + C) = AB + AC and (A + B)C = AC + BC for matrices with compatible dimensions.
+$$A(B + C) = AB + AC and (A + B)C = AC + BC$$ for matrices with compatible dimensions.
 
-Example: A \* (B + C) = (A \* B) + (A \* C)
+**Example**: $$A * (B + C) = (A * B) + (A * C)$$
 
 ML Application: This property is useful in backpropagation when computing gradients with respect to multiple parameters.
 
@@ -59,12 +59,12 @@ A = [1 2]    B = [5 6]     A + B = [6 8]
 
 Step 1: Add corresponding elements
 
-* (1,1): 1 + 5 = 6
-* (1,2): 2 + 6 = 8
-* (2,1): 3 + 7 = 10
-* (2,2): 4 + 8 = 12
+* $$(1,1): 1 + 5 = 6$$
+* $$(1,2): 2 + 6 = 8$$
+* $$(2,1): 3 + 7 = 10$$
+* $$(2,2): 4 + 8 = 12$$
 
-Step 2: Write the result A + B = \[6 8] \[10 12]
+Step 2: Write the result $$A + B = [6\ 8] [10\ 12]$$
 
 </details>
 
@@ -79,12 +79,12 @@ A = [1 2]    B = [5 6]     A - B = [-4 -2]
 
 Step 1: Add corresponding elements
 
-* (1,1): 1 - 5 = -4
-* (1,2): 2 - 6 = -2
-* (2,1): 7 - 3 = 4
-* (2,2): 8 -4 = 4
+* $$(1,1): 1 - 5 = -4$$
+* $$(1,2): 2 - 6 = -2$$
+* $$(2,1): 7 - 3 = 4$$
+* $$(2,2): 8 -4 = 4$$
 
-Step 2: Write the result A - B = \[-4 -2] \[4 4]
+Step 2: Write the result $$A - B = [-4\ -2] [4\ 4]$$
 
 </details>
 
@@ -104,9 +104,9 @@ W_new = [0.1 0.2] - 0.1 * [0.01 0.02] = [0.099 0.198]
 
 <summary>Step by step explanation</summary>
 
-Step 1: Multiply gradient by learning rate 0.1 \* \[0.01 0.02] = \[0.001 0.002] \[0.03 0.04] \[0.003 0.004]
+Step 1: Multiply gradient by learning rate $$0.1 * [0.01\ 0.02] = [0.001\ 0.002] [0.03\ 0.04] [0.003\ 0.004]$$
 
-Step 2: Subtract from W \[0.1 0.2 ] - \[0.001 0.002] = \[0.099 0.198] \[0.3 0.4 ] \[0.003 0.004] \[0.297 0.396]
+Step 2: Subtract from $$W [0.1\ 0.2 ] - [0.001\ 0.002] = [0.099\ 0.198] [0.3\ 0.4 ] [0.003\ 0.004] [0.297\ 0.396]$$
 
 </details>
 
@@ -129,19 +129,19 @@ A = [1 2 3]    k * A = [2 4 6]
 
 <summary>Step by step explanation</summary>
 
-Step 1: Multiply each element by k
+Step 1: Multiply each element by $$k$$
 
-* (1,1): 2 \* 1 = 2
-* (1,2): 2 \* 2 = 4
-* (1,3): 2 \* 3 = 6
-* (2,1): 2 \* 4 = 8
-* (2,2): 2 \* 5 = 10
-* (2,3): 2 \* 6 = 12
-* (3,1): 2 \* 7 = 14
-* (3,2): 2 \* 8 = 16
-* (3,3): 2 \* 9 = 18
+* $$(1,1): 2 * 1 = 2$$
+* $$(1,2): 2 * 2 = 4$$
+* $$(1,3): 2 * 3 = 6$$
+* $$(2,1): 2 * 4 = 8$$
+* $$(2,2): 2 * 5 = 10$$
+* $$(2,3): 2 * 6 = 12$$
+* $$(3,1): 2 * 7 = 14$$
+* $$(3,2): 2 * 8 = 16$$
+* $$(3,3): 2 * 9 = 18$$
 
-Step 2: Write the result A = \[2 4 6] \[8 10 12] \[14 16 18]
+Step 2: Write the result $$A = [2\ 4\ 6] [8\ 10\ 12] [14\ 16\ 18]$$
 
 </details>
 
@@ -154,12 +154,12 @@ Matrix multiplication is a crucial operation in many ML computations, including 
 For two matrices A and B to be multiplied:
 
 * The number of columns in matrix A must equal the number of rows in matrix B.
-* If A is an m × n matrix and B is a p × q matrix, then n must equal p.
+* If A is an $$m × n$$ matrix and B is a $$p × q$$ matrix, then n must equal p.
 * The resulting matrix will have dimensions m × q.
 
 Example (2x2 matrices):
 
-A = \[1 2] B = \[5 6]&#x20;
+$$A = [1\ 2], B = [5\ 6]$$&#x20;
 
 ```
 A = [1 2]      B = [5 6]        A * B = [19 22]
@@ -172,15 +172,15 @@ A = [1 2]      B = [5 6]        A * B = [19 22]
 
 Step 1: Multiply row 1 of A with columns of B
 
-* (1,1): (1_5) + (2_7) = 5 + 14 = 19
-* (1,2): (1_6) + (2_8) = 6 + 16 = 22
+* $$(1,1): (15) + (27) = 5 + 14 = 19$$
+* $$(1,2): (16) + (28) = 6 + 16 = 22$$
 
 Step 2: Multiply row 2 of A with columns of B
 
-* (2,1): (3_5) + (4_7) = 15 + 28 = 43
-* (2,2): (3_6) + (4_8) = 18 + 32 = 50
+* $$(2,1): (35) + (47) = 15 + 28 = 43$$
+* $$(2,2): (36) + (48) = 18 + 32 = 50$$
 
-Step 3: Write the result AB = \[19 22] \[43 50]
+Step 3: Write the result $$AB = [19\ 22] [43\ 50]$$
 
 </details>
 
@@ -198,11 +198,9 @@ Z = W * X + b = [(0.1*2 + 0.2*3)] + [0.1] = [0.8] + [0.1] = [0.9]
 
 <summary>Step by step explanation</summary>
 
-Step 1: Multiply W and X \[0.1 0.2] \* \[2] = \[(0.1_2 + 0.2_3)] \[0.3 0.4] \[3] \[(0.3_2 + 0.4_3)]
+Step 1: Multiply $$W$$ and $$X [0.1 0.2] * [2] = [(0.12 + 0.23)] [0.3 0.4] [3] [(0.32 + 0.43)] = [0.2 + 0.6] = [0.8] [0.6 + 1.2] [1.8]$$
 
-\= \[0.2 + 0.6] = \[0.8] \[0.6 + 1.2] \[1.8]
-
-Step 2: Add bias b \[0.8] + \[0.1] = \[0.9] \[1.8] \[0.2] \[2.0]
+Step 2: Add bias b $$[0.8] + [0.1] = [0.9] [1.8] [0.2] [2.0]$$
 
 </details>
 
@@ -214,7 +212,7 @@ Transposition is the operation of flipping a matrix over its diagonal, switching
 
 $$(A^T)^T = A (AB)^T = B^T A^T (A + B)^T = A^T + B^T$$
 
-Example: $$If A = [1 2], then (A^T)^T = [1 2] = A [3 4] [3 4]$$
+Example: $$If A = [1\ 2], then (A{T})^T = [1\ 2] = A [3\ 4] [3\ 4]$$
 
 ML Application: These properties are often used in deriving gradient descent algorithms and in simplifying complex matrix expressions in various ML models.
 
@@ -241,23 +239,23 @@ A = [1 2 3] A^T = [1 4 7]
 
 Step 1: Swap rows and columns
 
-* New (1,1) = Old (1,1): 1
-* New (1,2) = Old (2,1): 4
-* New (1,3) = Old (3,1): 7
-* New (2,1) = Old (1,2): 2
-* New (2,2) = Old (2,2): 5
-* New (2,3) = Old (3,2): 8
-* New (3,1) = Old (1,3): 3
-* New (3,2) = Old (2,3): 6
-* New (3,3) = Old (3,3): 9
+* $$New (1,1) = Old (1,1): 1$$
+* $$New (1,2) = Old (2,1): 4$$
+* $$New (1,3) = Old (3,1): 7$$
+* $$New (2,1) = Old (1,2): 2$$
+* $$New (2,2) = Old (2,2): 5$$
+* $$New (2,3) = Old (3,2): 8$$
+* $$New (3,1) = Old (1,3): 3$$
+* $$New (3,2) = Old (2,3): 6$$
+* $$New (3,3) = Old (3,3): 9$$
 
-Step 2: Write the result A^T = \[1 4 7] \[2 5 8] \[3 6 9]
+Step 2: Write the result $$A^T = [1\ 4\ 7] [2\ 5\ 8] [3\ 6\ 9]$$
 
 </details>
 
 **Example in ML**: Computing the gradient in linear regression:
 
-(gradient = X^T \* (y\_pred - y) / n\_samples)
+()
 
 ```
 X = [1 2]  y = [5]  
@@ -286,14 +284,16 @@ gradient = X^T * error = [(1*-1.5 + 3*-3.5 + 5*-5.5)]   = [-40.5]
 
 <summary>Step by step explanation</summary>
 
-Step 1: Calculate error (y\_pred - y) \[3.5] - \[5] = \[-1.5] \[7.5] \[11] \[-3.5] \[11.5] \[17] \[-5.5]
+Step 1: Calculate error: $$(y_{pred} - y) [3.5] - [5] = [-1.5] [7.5] [11] [-3.5] [11.5] [17] [-5.5]$$
 
-Step 2: Transpose X X^T = \[1 3 5] \[2 4 6]
+Step 2: Transpose $$X$$: $$X^T = [1\ 3\ 5] [2\ 4\ 6]$$
 
-Step 3: Multiply X^T by error \[1 3 5] \* \[-1.5] = \[(1\*-1.5 + 3\*-3.5 + 5\*-5.5)] \[2 4 6] \[-3.5] \[(2\*-1.5 + 4\*-3.5 + 6\*-5.5)] \[-5.5] = \[-40.5] \[-58.5]
+Step 3: Multiply $$X^T$$ by error: $$[1\ 3\ 5] * [-1.5] = [(1*-1.5 + 3*-3.5 + 5*-5.5)] [2\ 4\ 6] [-3.5] [(2*-1.5 + 4*-3.5 + 6*-5.5)] [-5.5] = [-40.5] [-58.5]$$
 
-Step 4: Divide by n\_samples (3 in this case) \[-40.5 / 3] = \[-13.5] \[-58.5 / 3] \[-19.5]
+Step 4: Divide by $$n_{samples}$$ (3 in this case): $$[-40.5 / 3] = [-13.5] [-58.5 / 3] [-19.5]$$
 
 This step-by-step breakdown illustrates how each matrix operation is performed and how it applies in machine learning contexts.
 
 </details>
+
+.
