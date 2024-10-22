@@ -17,6 +17,7 @@
   * [ИИ в играх](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-igrakh.md)
   * [ИИ в финансах](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-finansakh.md)
   * [ИИ в безопасности данных](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-bezopasnosti-dannykh.md)
+  * [ИИ в социальных сетях](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-socialnykh-setyakh.md)
 * [Визионеры и новаторы](iskusstvennyi-intellekt/vizionery-i-novatory.md)
 
 ## Машинное обучение
