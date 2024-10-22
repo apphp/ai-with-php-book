@@ -15,7 +15,7 @@ $$C_{ij} = (-1)^{i+j} * M_{ij}$$
 Where:
 
 * $$i$$ and $$j$$ are the row and column indices, respectively
-* $$M_{ij}$$ is the minor of $$a_{ij}$$, which is the determinant of the submatrix formed by removing the i-th row and j-th column from A
+* $$M_{ij}$$ is the minor of $$a_{ij}$$, which is the determinant of the submatrix formed by removing the $$i$$-th row and j-th column from A
 
 ### Computing the Cofactor Matrix
 
