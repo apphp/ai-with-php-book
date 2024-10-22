@@ -23,6 +23,7 @@
   * [AI in Robotics](artificial-intelligence/applications-of-ai/ai-in-robotics.md)
   * [AI in Entertainment](artificial-intelligence/applications-of-ai/ai-in-entertainment.md)
   * [AI in Agriculture](artificial-intelligence/applications-of-ai/ai-in-agriculture.md)
+  * [AI in E-commerce](artificial-intelligence/applications-of-ai/ai-in-e-commerce.md)
 * [Visionaries and Innovators](artificial-intelligence/visionaries-and-innovators.md)
 
 ## Machine Learning

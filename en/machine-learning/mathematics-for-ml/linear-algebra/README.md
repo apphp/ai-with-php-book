@@ -4,7 +4,7 @@ Linear algebra is a fundamental pillar of machine learning, as it provides the m
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Linear Algebra</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Linear Algebra</p></figcaption></figure>
 
 </div>
 
