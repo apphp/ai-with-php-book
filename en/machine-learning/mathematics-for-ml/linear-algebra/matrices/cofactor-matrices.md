@@ -1,4 +1,4 @@
-# Cofactor Matrices ?..
+# Cofactor Matrices
 
 ## Cofactor Matrices
 
@@ -15,7 +15,7 @@ $$C_{ij} = (-1)^{i+j} * M_{ij}$$
 Where:
 
 * $$i$$ and $$j$$ are the row and column indices, respectively
-* $$M_{ij}$$ is the minor of $$a_{ij}$$, which is the determinant of the submatrix formed by removing the $$i$$-th row and j-th column from A
+* $$M_{ij}$$ is the minor of $$a_{ij}$$, which is the determinant of the submatrix formed by removing the $$i$$-th row and $$j$$-th column from $$A$$
 
 ### Computing the Cofactor Matrix
 
@@ -28,7 +28,7 @@ To compute the cofactor matrix, follow these steps for each element:
 
 #### Example:
 
-Let's compute the cofactor matrix for a 3x3 matrix A:
+Let's compute the cofactor matrix for a 3x3 matrix $$A$$:
 
 $$A = [1\ 2\ 3] [4\ 5\ 6] [7\ 8\ 9]$$
 
@@ -50,13 +50,13 @@ For element $$a_{11} (1)$$:&#x20;
 
 For element $$a_{12}(2)$$:&#x20;
 
-* Submatrix = \[4 6] \[7 9]&#x20;
-* Minor M\_12 = 4_9 - 6_7 = -6&#x20;
-* Cofactor C\_12 = (-1)^(1+2) \* (-6) = 6
+* Submatrix = $$[4\ 6] [7\ 9]$$&#x20;
+* Minor $$M_{12} = 49 - 67 = -6$$&#x20;
+* Cofactor $$C_{12} = (-1)^{1+2} * (-6) = 6$$
 
 Continuing this process for all elements, we get the cofactor matrix:
 
-cof(A) = \[-3 6 -3] \[ 6 -12 6] \[-3 6 -3]
+$$cof(A) = [-3\ 6\ -3] [ 6\ -12\ 6] [-3\ 6  -3]$$
 
 </details>
 
@@ -64,9 +64,11 @@ cof(A) = \[-3 6 -3] \[ 6 -12 6] \[-3 6 -3]
 
 ### Properties of Cofactor Matrices
 
-1. The determinant of a matrix can be calculated using cofactors: det(A) = a\_11 \* C\_11 + a\_12 \* C\_12 + ... + a\_1n \* C\_1n (for any row) det(A) = a\_11 \* C\_11 + a\_21 \* C\_21 + ... + a\_n1 \* C\_n1 (for any column)
-2. The transpose of the cofactor matrix is the adjugate matrix: adj(A) = (cof(A))^T
-3. For an invertible matrix A: A^(-1) = (1/det(A)) \* adj(A) = (1/det(A)) \* (cof(A))^T
+1. The determinant of a matrix can be calculated using cofactors: \
+   $$det(A) = a_{11} * C_{11} + a_{12} * C_{12} + ... + a_{1n} * C_{1n}$$ (for any row) \
+   $$det(A) = a_{11} * C_{11} + a_{21} * C_{21} + ... + a_{n1} * C_{n1}$$ (for any column)
+2. The transpose of the cofactor matrix is the adjugate matrix: $$adj(A) = (cof(A))^T$$
+3. For an invertible matrix $$A$$: $$A^(-1) = (1/det(A)) * adj(A) = (1/det(A)) * (cof(A))^T$$
 4. If A is a triangular matrix (upper or lower), its cofactor matrix is also triangular.
 
 ### Applications in AI and Machine Learning
