@@ -548,14 +548,17 @@ Array
 (
     [0] => User Object
         (
+            [id] => 1
             [name] => John
         )
     [1] => User Object
         (
+            [id] => 2
             [name] => Alice
         )
     [2] => User Object
         (
+            [id] => 3
             [name] => Bob
         )
 )
