@@ -52,7 +52,7 @@ Bias in machine learning models can arise due to various reasons, such as biased
 * **Unconscious Bias**: The data used to train a model may reflect historical biases, and the model may perpetuate these biases unknowingly.
 * **Fairness in Decision Making**: Ensuring that a model is fair across different demographic groups is essential, but defining fairness is itself subjective and context-dependent.
 
-Efforts to mitigate bias through techniques such as adversarial debiasing or fairness-aware training come with their own set of trade-offs in terms of accuracy and complexity.
+Efforts to mitigate bias through techniques such as adversarial debiasing (method in machine learning used to reduce bias in models) or fairness-aware training come with their own set of trade-offs in terms of accuracy and complexity.
 
 ### Security Concerns
 
