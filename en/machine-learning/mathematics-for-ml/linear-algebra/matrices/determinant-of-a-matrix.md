@@ -6,16 +6,16 @@ A determinant is a scalar value that can be computed from the elements of a squa
 
 #### 2x2 Matrices
 
-For a 2x2 matrix A = \[a b; c d]$$A = [a b; c d]$$, the determinant is defined as: $$det(A) = |A| = ad - bc$$
+For a 2x2 matrix $$A = [a\ b; c\ d]$$, the determinant is defined as: $$det(A) = |A| = ad - bc$$
 
 ```
 A = [a b]    det(A) = |A| = ad - bc
     [c d]
 ```
 
-Example: Let A = \[3 2; 1 4]
+**Example**:&#x20;
 
-Using formula:$$det(A) = (3)(4) - (2)(1) = 12 - 2 = 10$$
+Using formula: $$det(A) = (3)(4) - (2)(1) = 12 - 2 = 10$$
 
 ```
 A = [3 2]    det(A) = (3 * 4) - (2 * 1) = 12 - 2 = 10 
@@ -26,17 +26,17 @@ A = [3 2]    det(A) = (3 * 4) - (2 * 1) = 12 - 2 = 10
 
 <summary>Step-by-step explanation</summary>
 
-* Identify the elements: a = 3, b = 2, c = 1, d = 4
-* Apply the formula: det(A) = ad - bc
-* Substitute the values: det(A) = (3)(4) - (2)(1)
-* Multiply: det(A) = 12 - 2
-* Subtract: det(A) = 10
+* Identify the elements: $$a = 3, b = 2, c = 1, d = 4$$
+* Apply the formula: $$det(A) = ad - bc$$
+* Substitute the values: $$det(A) = (3)(4) - (2)(1)$$
+* Multiply: $$det(A) = 12 - 2$$
+* Subtract: $$det(A) = 10$$
 
 </details>
 
 #### 3x3 Matrices
 
-For a 3x3 matrix A = \[a b c; d e f; g h i], the determinant can be calculated using Sarrus' rule or cofactor expansion.
+For a 3x3 matrix $$A = [a\ b\ c; d\ e\ f; g\ h\ i]$$, the determinant can be calculated using Sarrus' rule or cofactor expansion.
 
 **Sarrus' rule**
 
@@ -54,24 +54,26 @@ A = [a b c]    det(A) = (aei + bfg + cdh) - (ceg + bdi + afh)
 
 <summary>Step-by-step explanation</summary>
 
-* Start with your 3x3 matrix: \[a b c] \[d e f] \[g h i]
-* Extend the matrix by copying the first two columns to the right: \[a b c | a b] \[d e f | d e] \[g h i | g h]
+* Start with your 3x3 matrix: $$[a\ b\ c] [d\ e\ f] [g\ h\ i]$$
+* Extend the matrix by copying the first two columns to the right: \
+  $$[a\ b\ c | a\ b] [d\ e\ f | d\ e] [g\ h\ i | g\ h]$$
 *   Calculate the products along the diagonals: a. Positive diagonals (left to right):
 
-    * aei (main diagonal)
-    * bfg (starts from the second column)
-    * cdh (starts from the third column)
+    * $$aei$$ (main diagonal)
+    * $$bfg$$ (starts from the second column)
+    * $$cdh$$ (starts from the third column)
 
     b. Negative diagonals (right to left):
 
-    * ceg (starts from the third column)
-    * bdi (starts from the second column)
-    * afh (starts from the first column of the extension)
-* Sum the positive products and subtract the sum of the negative products: det(A) = (aei + bfg + cdh) - (ceg + bdi + afh)
+    * $$ceg$$ (starts from the third column)
+    * $$bdi$$ (starts from the second column)
+    * $$afh$$ (starts from the first column of the extension)
+* Sum the positive products and subtract the sum of the negative products: \
+  $$det(A) = (aei + bfg + cdh) - (ceg + bdi + afh)$$
 
 </details>
 
-**Example**: Let A = \[2 -1 3; 4 5 -2; 1 -3 2]
+**Example**: $$Let\ A = [2\ -1\ 3; 4\ 5\ -2; 1\ -3\ 2]$$
 
 Using Sarrus' rule:
 
@@ -84,33 +86,33 @@ Positive diagonals: 20 2 -36
 Negative diagonals: 15 -8 12
 
 det(A) = (20 + 2 - 36) - (15 + (-8) + 12)
-= -14 - 19
-= -33
+       = -14 - 19
+       = -33
 ```
 
 <details>
 
 <summary>Step-by-step explanation</summary>
 
-Step 1: Write out the matrix \[2 -1 3] \[4 5 -2] \[1 -3 2]
+Step 1: Write out the matrix $$[2\ -1\ 3] [4\ 5\ -2] [1\ -3\ 2]$$
 
-Step 2: Extend the matrix \[2 -1 3 | 2 -1] \[4 5 -2 | 4 5] \[1 -3 2 | 1 -3]
+Step 2: Extend the matrix $$[2\ -1\ 3 | 2\ -1] [4\ 5\ -2 | 4\ 5] [1\ -3\ 2 | 1\ -3]$$
 
 Step 3: Calculate the products a. Positive diagonals:
 
-* 2 \* 5 \* 2 = 20
-* (-1) \* (-2) \* 1 = 2
-* 3 \* 4 \* (-3) = -36
+* $$2 * 5 * 2 = 20$$
+* $$(-1) * (-2) * 1 = 2$$
+* $$3 * 4 * (-3) = -36$$
 
 b. Negative diagonals:
 
-* 3 \* 5 \* 1 = 15
-* (-1) \* 4 \* 2 = -8
-* 2 \* (-2) \* (-3) = 12
+* $$3 * 5 * 1 = 15$$
+* $$(-1) * 4 * 2 = -8$$
+* $$2 * (-2) * (-3) = 12$$
 
-Step 4: Sum and subtract det(A) = (20 + 2 + (-36)) - (15 + (-8) + 12) = -14 - 19 = -33
+Step 4: Sum and subtract $$det(A) = (20 + 2 + (-36)) - (15 + (-8) + 12) = -14 - 19 = -33$$
 
-Therefore, the determinant of A is -33.
+Therefore, the determinant of $$A$$ is $$-33$$.
 
 </details>
 
@@ -122,8 +124,8 @@ Cofactor expansion, also known as Laplace expansion, is a general method for cal
 
 #### Key Concepts
 
-1. Minor: The minor M\_ij of an element a\_ij is the determinant of the 2x2 matrix formed by deleting the i-th row and j-th column of the original matrix.
-2. Cofactor: The cofactor C\_ij of an element a\_ij is defined as C\_ij = (-1)^(i+j) \* M\_ij.
+1. Minor: The minor  of an element $$a_{ij}$$ is the determinant of the 2x2 matrix formed by deleting the $$i$$-th row and $$j$$-th column of the original matrix.
+2. Cofactor: The cofactor $$C_{ij}$$ of an element $$a_{ij}$$ is defined as $$C_{ij} = (-1)^{i+j} * M_{ij}$$.
 3. Expansion: The determinant is the sum of the products of the elements of any row (or column) with their cofactors.
 
 #### The Method
