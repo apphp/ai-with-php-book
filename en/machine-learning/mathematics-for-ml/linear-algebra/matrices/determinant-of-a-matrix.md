@@ -229,7 +229,7 @@ Verifying multiplicative property: det(A) \* det(B) = 5 \* 3 = 15 = det(AB)
    2. The absolute value of the determinant of a 3x3 matrix represents the volume of the parallelepiped formed by its column vectors.
 
 Example: Area calculation Let A = \[3 1; 1 2] represent two vectors. det(A) = 3(2) - 1(1) = 5 \
-The area of the parallelogram formed by these vectors is |5| = 5 square units.
+The area of the parallelogram formed by these vectors is $$|5| = 5$$ square units.
 
 <details>
 
