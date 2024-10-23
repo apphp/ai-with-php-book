@@ -42,6 +42,6 @@ Throughout the entire life cycle, the key to success is understanding the proble
 
 ### Life Cycle Diagram
 
-For better visualization find velow a cycle diagram of Machine Learning Life Cycle
+For better visualization find below a cycle diagram of Machine Learning Life Cycle
 
 <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
