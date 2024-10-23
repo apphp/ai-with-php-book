@@ -20,7 +20,7 @@ The early development of AI was fueled by the work of brilliant minds whose idea
 
 Often referred to as the father of modern computer science, Alan Turing’s 1950 paper _“Computing Machinery and Intelligence”_ posed the famous question, “Can machines think?” In it, Turing introduced the concept of the Turing Test, a method for determining whether a machine can exhibit intelligent behavior indistinguishable from that of a human. Turing’s work laid the conceptual groundwork for AI by exploring the idea of machine learning and artificial reasoning.
 
-### 2. John McCarthy
+#### 2. John McCarthy
 
 In 1956, John McCarthy coined the term “Artificial Intelligence” during the Dartmouth Conference, which is considered the birth of AI as a distinct field of study. McCarthy’s contributions include the development of Lisp, a programming language widely used in AI research. His work in symbolic reasoning and problem-solving helped establish the core areas of early AI research, particularly in logic-based approaches.
 
