@@ -25,6 +25,7 @@
   * [AI in Agriculture](artificial-intelligence/applications-of-ai/ai-in-agriculture.md)
   * [AI in E-commerce](artificial-intelligence/applications-of-ai/ai-in-e-commerce.md)
   * [AI in Education](artificial-intelligence/applications-of-ai/ai-in-education.md)
+  * [AI in Software Development](artificial-intelligence/applications-of-ai/ai-in-software-development.md)
 * [Visionaries and Innovators](artificial-intelligence/visionaries-and-innovators.md)
 
 ## Machine Learning

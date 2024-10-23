@@ -6,7 +6,7 @@ As artificial intelligence continues to revolutionize various industries, the ro
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Introduction to Data Management</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Introduction to Data Management</p></figcaption></figure>
 
 </div>
 
