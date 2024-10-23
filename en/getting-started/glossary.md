@@ -2,7 +2,7 @@
 
 ### Terminology
 
-When learning about Artificial Intelligence (AI) and Machine Learning (ML), you'll come across many common terms and abbreviations. This chapter will explain the key terms and their abbreviations to help you better understand the main concepts used in this area of ​​knowledge.
+When learning about Artificial Intelligence and Machine Learning, you'll come across many common terms and abbreviations. This chapter will explain the key terms and their abbreviations to help you better understand the main concepts used in this area of ​​knowledge.
 
 ### Key Terms and Abbreviations
 

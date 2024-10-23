@@ -2,7 +2,7 @@
 
 ### Key Contributions and Influential Figures
 
-Artificial Intelligence (AI) has come a long way since its inception, evolving from theoretical concepts to technologies that now permeate our daily lives. The field has been shaped by the contributions of both early pioneers who laid the groundwork and contemporary innovators who continue to push the boundaries of what’s possible. This article will explore the key figures in AI’s history, divided into two categories: pioneers and visionaries, and contemporary innovators.
+Artificial Intelligence has come a long way since its inception, evolving from theoretical concepts to technologies that now permeate our daily lives. The field has been shaped by the contributions of both early pioneers who laid the groundwork and contemporary innovators who continue to push the boundaries of what’s possible. This article will explore the key figures in AI’s history, divided into two categories: pioneers and visionaries, and contemporary innovators.
 
 <div align="left">
 
