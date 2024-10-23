@@ -130,11 +130,11 @@ Cofactor expansion, also known as Laplace expansion, is a general method for cal
 
 #### The Method
 
-For a 3x3 matrix A = \[a b c; d e f; g h i], the cofactor expansion along the first row is:
+For a 3x3 matrix $$A = [a\ b\ c; d\ e\ f; g\ h\ i]$$, the cofactor expansion along the first row is:
 
-det(A) = a \* C\_11 + b \* C\_12 + c \* C\_13
+$$det(A) = a * C_{11} + b * C_{12} + c * C_{13}$$
 
-where C\_11, C\_12, and C\_13 are the cofactors of a, b, and c respectively.
+where $$C_{11}$$, $$C_{12}$$, and $$C_{13}$$ are the cofactors of $$a$$, , and $$c$$ respectively.
 
 For example, expanding along the first row: $$det(A) = a(ei-fh) - b(di-fg) + c(dh-eg)$$
 
@@ -149,12 +149,15 @@ A = [a b c]    det(A) = a(ei-fh) - b(di-fg) + c(dh-eg)
 <summary>Step-by-step explanation</summary>
 
 * Choose a row or column for expansion (typically the one with the most zeros).
-* For each element in the chosen row/column: a. Find its minor by calculating the determinant of the 2x2 matrix formed by deleting its row and column. b. Calculate its cofactor by multiplying the minor by (-1)^(i+j). c. Multiply the element by its cofactor.
+* For each element in the chosen row/column:&#x20;
+  * a. Find its minor by calculating the determinant of the 2x2 matrix formed by deleting its row and column.&#x20;
+  * b. Calculate its cofactor by multiplying the minor by .&#x20;
+  * c. Multiply the element by its cofactor.
 * Sum all these products.
 
 </details>
 
-**Example**: Let A = \[2 -1 3; 4 5 -2; 1 -3 2]
+**Example**: $$Let\ A = [2\ -1\ 3; 4\ 5\ -2; 1\ -3\ 2]$$
 
 Using Cofactor expansion:
 
@@ -169,9 +172,9 @@ A = [2 -1 3]   det(A) = 2 * C_11 + (-1) * C_12 + 3 * C
 
 <summary>Step-by-step explanation</summary>
 
-&#x20;Let's use cofactor expansion on the first row of matrix A = \[2 -1 3; 4 5 -2; 1 -3 2]
+&#x20;Let's use cofactor expansion on the first row of matrix $$A = [2\ -1\ 3; 4\ 5  -2; 1\ -3 \2]$$
 
-Step 1: Expand along the first row det(A) = 2 \* C\_11 + (-1) \* C\_12 + 3 \* C\_13
+Step 1: Expand along the first row $$det(A) = 2 * C_{11} + (-1) * C_{12} + 3 * C_{13}$$
 
 Step 2: Calculate each cofactor
 
