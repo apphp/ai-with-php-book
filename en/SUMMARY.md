@@ -29,6 +29,7 @@
   * [AI in Criminal Justice](artificial-intelligence/applications-of-ai/ai-in-criminal-justice.md)
   * [AI in Criminal World](artificial-intelligence/applications-of-ai/ai-in-criminal-world.md)
   * [AI in Military Domain](artificial-intelligence/applications-of-ai/ai-in-military-domain.md)
+  * [AI in Transforming Our World](artificial-intelligence/applications-of-ai/ai-in-transforming-our-world.md)
 * [Visionaries and Innovators](artificial-intelligence/visionaries-and-innovators.md)
 
 ## Machine Learning
