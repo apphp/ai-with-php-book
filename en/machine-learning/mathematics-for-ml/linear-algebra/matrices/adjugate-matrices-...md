@@ -6,39 +6,40 @@ In linear algebra, the adjugate matrix, also known as the classical adjoint or a
 
 ### Definition of Adjugate Matrix
 
-For a square matrix A, its adjugate matrix, denoted as adj(A), is defined as the transpose of its cofactor matrix. In other words:
+For a square matrix A, its adjugate matrix, denoted as $$adj(A)$$, is defined as the transpose of its cofactor matrix. In other words:
 
-adj(A) = (cof(A))^T
+$$adj(A) = (cof(A))^T$$
 
 Where:
 
-* cof(A) is the cofactor matrix of A
-* T denotes the transpose operation
+* $$cof(A)$$ is the cofactor matrix of $$A$$
+* $$T$$ denotes the transpose operation
 
 ### Computing the Adjugate Matrix
 
 To compute the adjugate matrix, follow these steps:
 
 1. Calculate the cofactor matrix:
-   * For each element a\_ij in A, compute its cofactor C\_ij.
-   * The cofactor C\_ij is (-1)^(i+j) times the determinant of the submatrix formed by removing the i-th row and j-th column from A.
+   * For each element $$a_{ij}$$ in A, compute its cofactor $$C_{ij}$$.
+   * The cofactor $$C_{ij}$$ is $$(-1)^{i+j}$$ times the determinant of the submatrix formed by removing the \
+     $$i$$-th row and j-th column from $$A$$.
 2. Transpose the cofactor matrix to get the adjugate matrix.
 
 #### Example: Computing Adjugate Matrix
 
-Let's compute the adjugate matrix for a 2x2 matrix A:
+Let's compute the adjugate matrix for a 2x2 matrix $$A$$:
 
-A = \[a b] \[c d]
+$$A = [a\ b] [c\ d]$$
 
 Step 1: Calculate the cofactor matrix
 
-C\_11 = d C\_12 = -c C\_21 = -b C\_22 = a
+$$C_{11} = dC_{12} = -c C_{21} = -b C_{22} = a$$
 
-Cofactor matrix = \[d -c] \[-b a]
+Cofactor matrix = $$[d\ -c] [-b\ a]$$
 
 Step 2: Transpose the cofactor matrix
 
-adj(A) = \[d -b] \[-c a]
+$$adj(A) = [d\ -b] [-c\ a]$$
 
 For larger matrices, the process is similar but involves more calculations.
 
