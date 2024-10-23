@@ -565,3 +565,86 @@ Array
 ```
 
 </details>
+
+### Common Data Formats Compared
+
+Let's look at the same data represented in different formats. We'll use a simple example of book information.
+
+#### JSON (JavaScript Object Notation)
+
+```json
+{
+  "books": [
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": 1925,
+      "genres": ["Fiction", "Classic"],
+      "available": true
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "year": 1949,
+      "genres": ["Fiction", "Dystopian"],
+      "available": false
+    }
+  ]
+}
+```
+
+#### XML (eXtensible Markup Language)
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <year>1925</year>
+        <genres>
+            <genre>Fiction</genre>
+            <genre>Classic</genre>
+        </genres>
+        <available>true</available>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <year>1949</year>
+        <genres>
+            <genre>Fiction</genre>
+            <genre>Dystopian</genre>
+        </genres>
+        <available>false</available>
+    </book>
+</books>
+```
+
+#### CSV (Comma-Separated Values)
+
+```csv
+title,author,year,genres,available
+"The Great Gatsby","F. Scott Fitzgerald",1925,"Fiction,Classic",true
+"1984","George Orwell",1949,"Fiction,Dystopian",false
+```
+
+#### YAML (YAML Ain't Markup Language)
+
+```yaml
+books:
+  - title: The Great Gatsby
+    author: F. Scott Fitzgerald
+    year: 1925
+    genres:
+      - Fiction
+      - Classic
+    available: true
+  - title: 1984
+    author: George Orwell
+    year: 1949
+    genres:
+      - Fiction
+      - Dystopian
+    available: false
+```

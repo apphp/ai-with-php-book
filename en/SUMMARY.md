@@ -84,7 +84,7 @@
   * [Data Types and Formats](machine-learning/data-fundamentals/data-types-and-formats/README.md)
     * [Data Types](machine-learning/data-fundamentals/data-types-and-formats/data-types.md)
     * [Structured Data Formats](machine-learning/data-fundamentals/data-types-and-formats/structured-data-formats.md)
-    * [Unstructured Data Formats ?...](machine-learning/data-fundamentals/data-types-and-formats/unstructured-data-formats-....md)
+    * [Unstructured Data Formats](machine-learning/data-fundamentals/data-types-and-formats/unstructured-data-formats-....md)
   * [Storage and Management](machine-learning/data-fundamentals/storage-and-management/README.md)
     * [Data Storage](machine-learning/data-fundamentals/storage-and-management/data-storage.md)
     * [Data Versioning and Management](machine-learning/data-fundamentals/storage-and-management/data-versioning-and-management.md)

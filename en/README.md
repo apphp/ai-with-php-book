@@ -12,4 +12,3 @@ This book will try to explain the basics of Artificial Intelligence and Machine 
 
 PHP has been a leader in web development for decades, but its potential for artificial intelligence remains unexplored. We'll try to put PHP at the center of our learning, giving you the chance to explore how this powerful language can be used to build intelligent systems.
 
-### &#x20; <a href="#artificial-intelligence-and-deep-learning" id="artificial-intelligence-and-deep-learning"></a>
