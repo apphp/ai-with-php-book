@@ -4,7 +4,7 @@ Artificial Intelligence is transforming the e-commerce landscape by personalizin
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>AI in E-commerce</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>AI in E-commerce</p></figcaption></figure>
 
 </div>
 
@@ -50,6 +50,6 @@ AI is also enhancing security in e-commerce by detecting fraudulent activities. 
 
 **PayPal** uses AI-powered fraud detection systems that analyze billions of transactions to detect potential fraud in real-time. These systems flag suspicious transactions and prevent fraudulent activity before it impacts the business or customers.
 
-### The Future of E-commerce Industry with AI
+### The Future of E-commerce with AI
 
 AI is driving a revolution in e-commerce, from personalized recommendations and chatbots to supply chain optimization and fraud detection. As AI technology continues to evolve, it will enable even more personalized, efficient, and secure shopping experiences, making e-commerce smarter and more customer-centric.

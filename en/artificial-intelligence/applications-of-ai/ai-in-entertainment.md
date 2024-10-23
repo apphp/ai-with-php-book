@@ -4,7 +4,7 @@ Artificial Intelligence (AI) is revolutionizing the entertainment industry, enha
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>AI in Entertainment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Entertainment</p></figcaption></figure>
 
 </div>
 
@@ -48,6 +48,6 @@ For example, **20th Century Fox** uses AI to analyze movie trailers and predict 
 
 In the realm of fan engagement, chatbots powered by AI are being used to interact with audiences. These bots can answer questions, recommend content, or even offer interactive experiences based on a fan’s preferences. **Fandango**, for example, uses AI chatbots to help users find movie showtimes, purchase tickets, and receive personalized film recommendations, creating a more seamless and interactive customer experience.
 
-### The Future of Entertainment Industry with AI
+### The Future of Entertainment with AI
 
 AI is reshaping the entertainment industry by enhancing creativity, improving content personalization, and offering more engaging and immersive experiences. From AI-generated music and films to lifelike video game characters and personalized content recommendations, AI is pushing the boundaries of what is possible in entertainment. As AI technology continues to evolve, it will unlock new creative possibilities and transform the way we consume and interact with entertainment, making it more intelligent, dynamic, and tailored to individual tastes.

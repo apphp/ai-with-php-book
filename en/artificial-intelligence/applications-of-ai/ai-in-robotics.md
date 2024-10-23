@@ -4,7 +4,7 @@ Artificial Intelligence and robotics are converging to create machines capable o
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Robotics</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Robotics</p></figcaption></figure>
 
 </div>
 
@@ -50,6 +50,6 @@ AI and robotics are also critical in space exploration, where robots are tasked 
 
 NASA’s **Mars rovers**, such as **Perseverance**, are equipped with AI systems that allow them to autonomously navigate the Martian surface, avoiding obstacles and selecting interesting geological sites for study. AI also enables these robots to perform tasks like drilling for soil samples, analyzing the Martian atmosphere, and sending valuable data back to Earth. The use of AI in space robotics allows missions to continue even when communication delays make real-time human control impossible.
 
-### The Future of Automotive Industry with AI
+### The Future of Robotics with AI
 
 The integration of AI into robotics is pushing the limits of what machines can do, allowing them to perform tasks that require intelligence, adaptability, and decision-making. From industrial automation and healthcare to agriculture and space exploration, AI-driven robots are shaping the future, making processes faster, safer, and more efficient. As AI continues to evolve, we can expect robots to play an even greater role in industries across the globe, transforming how we live and work.

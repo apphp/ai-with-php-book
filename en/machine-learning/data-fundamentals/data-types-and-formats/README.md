@@ -4,7 +4,7 @@ In the realm of artificial intelligence and machine learning, data is the lifebl
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Data Types and Formats</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Data Types and Formats</p></figcaption></figure>
 
 </div>
 

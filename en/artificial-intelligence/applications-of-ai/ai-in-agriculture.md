@@ -44,7 +44,7 @@ Beyond the farm, AI is also being used to optimize the agricultural supply chain
 
 Companies like **GrainChain** are using AI to create more efficient supply chains by automating processes such as crop grading and payments. GrainChain’s platform uses AI to assess the quality of harvested crops and ensure that farmers receive fair prices based on objective data, reducing disputes and improving transparency in the agricultural market.
 
-### The Future of Agriculture Industry with AI
+### The Future of Agriculture with AI
 
 AI is transforming agriculture by making it more efficient, sustainable, and resilient. From autonomous tractors and drones to AI-powered crop monitoring and livestock management systems, the technology is helping farmers tackle the challenges of feeding a growing global population. As AI continues to advance, it will play an even more critical role in ensuring that agriculture can meet the demands of the future while minimizing its environmental impact.
 
