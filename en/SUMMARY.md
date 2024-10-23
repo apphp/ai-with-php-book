@@ -26,6 +26,9 @@
   * [AI in E-commerce](artificial-intelligence/applications-of-ai/ai-in-e-commerce.md)
   * [AI in Education](artificial-intelligence/applications-of-ai/ai-in-education.md)
   * [AI in Software Development](artificial-intelligence/applications-of-ai/ai-in-software-development.md)
+  * [AI in Criminal Justice](artificial-intelligence/applications-of-ai/ai-in-criminal-justice.md)
+  * [AI in Criminal World](artificial-intelligence/applications-of-ai/ai-in-criminal-world.md)
+  * [AI in Military Domain](artificial-intelligence/applications-of-ai/ai-in-military-domain.md)
 * [Visionaries and Innovators](artificial-intelligence/visionaries-and-innovators.md)
 
 ## Machine Learning

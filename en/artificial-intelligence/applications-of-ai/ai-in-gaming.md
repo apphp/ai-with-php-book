@@ -1,5 +1,7 @@
 # AI in Gaming
 
+### Transforming Virtual Worlds
+
 The gaming industry has been an early adopter of AI, using it to create smarter non-player characters (NPCs), enhance the gaming experience, and even generate entire game environments autonomously.
 
 <div align="left">

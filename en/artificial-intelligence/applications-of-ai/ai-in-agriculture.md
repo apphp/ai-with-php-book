@@ -1,5 +1,7 @@
 # AI in Agriculture
 
+### Cultivating Smarter and More Efficient Farming
+
 Artificial Intelligence is transforming agriculture by enabling more efficient, sustainable, and data-driven farming practices. As global demand for food increases, AI is helping farmers optimize their processes, reduce waste, and increase yields. From precision farming to predictive analytics, AI is becoming a vital tool in addressing the challenges of modern agriculture. Let’s explore how AI is reshaping the way we grow, manage, and harvest crops.
 
 <div align="left">

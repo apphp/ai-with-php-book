@@ -1,5 +1,7 @@
 # AI in Astronomy
 
+### Exploring the Universe with Machine Intelligence
+
 Astronomy deals with massive datasets collected from telescopes, space probes, and other observational instruments. AI is a powerful tool for handling this data, making it easier to discover and understand cosmic phenomena.
 
 <div align="left">

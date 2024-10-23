@@ -4,7 +4,7 @@ Unsupervised learning works with unlabeled data, meaning the algorithm must find
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption><p>Unsupervised Learning</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Unsupervised Learning</p></figcaption></figure>
 
 </div>
 

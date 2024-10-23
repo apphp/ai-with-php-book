@@ -1,5 +1,7 @@
 # AI in Social Media
 
+### Shaping the Future of Online Interaction
+
 Ever wondered how social media seems to know exactly what you want to see, even before you do? The secret lies in artificial intelligence working its magic behind the scenes. From personalizing your feed to blocking nasty comments, AI is the engine that powers your online experience. Let’s dive into how AI is changing social media as we know it, and what that means for the future.
 
 <div align="left">

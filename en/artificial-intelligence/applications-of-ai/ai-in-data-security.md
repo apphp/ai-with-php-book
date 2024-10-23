@@ -1,10 +1,12 @@
 # AI in Data Security
 
+### A Peek Into the Future of Cyber Defense
+
 In today’s digital world, data security has become a major concern. With cyberattacks growing more sophisticated every day, traditional defenses often fall short. This is where artificial intelligence comes in, bringing new tools and strategies to safeguard sensitive information. IIn this chapter we'll explore how AI is transforming the field of data security, with real-world examples showing how it’s making a difference.
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Data Security</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Data Security</p></figcaption></figure>
 
 </div>
 
