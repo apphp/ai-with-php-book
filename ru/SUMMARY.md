@@ -9,8 +9,10 @@
 ## Искусственный интеллект
 
 * [Введение](iskusstvennyi-intellekt/vvedenie.md)
+* [История ИИ](iskusstvennyi-intellekt/istoriya-ii.md)
 * [Структура ИИ](iskusstvennyi-intellekt/struktura-ii.md)
 * [Типы ИИ](iskusstvennyi-intellekt/tipy-ii.md)
+* [Как работает ИИ?](iskusstvennyi-intellekt/kak-rabotaet-ii.md)
 * [Области применения](iskusstvennyi-intellekt/oblasti-primeneniya/README.md)
   * [ИИ в астрономии](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-astronomii.md)
   * [ИИ в здравоохранении](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-zdravookhranenii.md)
@@ -18,8 +20,9 @@
   * [ИИ в финансах](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-finansakh.md)
   * [ИИ в безопасности данных](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-bezopasnosti-dannykh.md)
   * [ИИ в социальных сетях](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-socialnykh-setyakh.md)
-  * [ИИ в путешествиях и транспорте](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-puteshestviyakh-i-transporte.md)
-* [Визионеры и новаторы](iskusstvennyi-intellekt/vizionery-i-novatory.md)
+  * [ИИ в путешествиях и на транспорте](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-puteshestviyakh-i-na-transporte.md)
+  * [ИИ в автомобильной промышленности](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-avtomobilnoi-promyshlennosti.md)
+* [Агенты в ИИ](iskusstvennyi-intellekt/agenty-v-ii.md)
 
 ## Машинное обучение
 
