@@ -15,7 +15,7 @@ Algorithms that learn from labeled data, where each example has input data and a
 *   TASK (Regression):
 
     * Linear Regression
-    * Logistic Regression
+    *
     * Polynomial Regression
     * Support Vector Machines (SVM)
     * Support Vector Regression (SVR)
@@ -26,6 +26,7 @@ Algorithms that learn from labeled data, where each example has input data and a
 
 *   TASK (Classification):
 
+    * Logistic Regression (combines statistical principles with machine learning techniques !!!!)
     * Decision Trees
     * Random Forests
     * k-Nearest Neighbors (KNN)
