@@ -14,5 +14,13 @@ The DeepL API is a language translation API that allows other computer programs 
 
 Official website: [https://github.com/DeepLcom/deepl-php](https://github.com/DeepLcom/deepl-php)
 
-\
+
+
+
+
+## TransformersPHP
+
+State-of-the-art Machine Learning for PHP. Run Transformers natively in your PHP projects
+
+Official website:  [https://codewithkyrian.github.io/transformers-php/](https://codewithkyrian.github.io/transformers-php/)\
 \
