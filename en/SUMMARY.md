@@ -127,15 +127,13 @@
   * [Unsupervised Learning](machine-learning/ml-algorithms/unsupervised-learning/README.md)
     * [Clustering](machine-learning/ml-algorithms/unsupervised-learning/clustering.md)
     * [Dimension Reduction](machine-learning/ml-algorithms/unsupervised-learning/dimension-reduction.md)
+    * [Search and Optimization](machine-learning/ml-algorithms/unsupervised-learning/search-and-optimization.md)
   * [Semi-supervised Learning](machine-learning/ml-algorithms/semi-supervised-learning/README.md)
     * [Regression](machine-learning/ml-algorithms/semi-supervised-learning/regression.md)
-    * [Clustering](machine-learning/ml-algorithms/semi-supervised-learning/clustering.md)
     * [Classification](machine-learning/ml-algorithms/semi-supervised-learning/classification.md)
+    * [Clustering](machine-learning/ml-algorithms/semi-supervised-learning/clustering.md)
   * [Reinforcement Learning](machine-learning/ml-algorithms/reinforcement-learning.md)
   * [Distributed Learning](machine-learning/ml-algorithms/distributed-learning.md)
-  * [Heuristic Methods](machine-learning/ml-algorithms/heuristic-methods.md)
-  * [Ensemble Learning Methods](machine-learning/ml-algorithms/ensemble-learning-methods.md)
-  * [Bayesian Methods](machine-learning/ml-algorithms/bayesian-methods.md)
 * [Integrating ML into Web](machine-learning/integrating-ml-into-web/README.md)
   * [Open-Source Projects](machine-learning/integrating-ml-into-web/open-source-projects.md)
   * [Introduction to EasyAI-PHP](machine-learning/integrating-ml-into-web/introduction-to-easyai-php.md)
@@ -148,6 +146,7 @@
 * [Deep Learning](neural-networks/deep-learning.md)
 * [Convolutional Neural Networks (CNN)](neural-networks/convolutional-neural-networks-cnn.md)
 * [Recurrent Neural Networks (RNN)](neural-networks/recurrent-neural-networks-rnn.md)
+* [Bayesian Neural Networks](neural-networks/bayesian-neural-networks.md)
 
 ## Natural Language Processing
 

@@ -2,6 +2,12 @@
 
 
 
+### Each Algoritm:
+
+* Type: (supervised, unsupervised, semi-supervised, etc.)
+* Task resolves: (regression, classification, clusterisation, dimension reduction)
+* Methods used: (mathematics, statistical, Heuristic, Ensemble,  Bayesian etc)
+
 ### Supervised Learning
 
 Algorithms that learn from labeled data, where each example has input data and a corresponding label.
@@ -18,12 +24,27 @@ Algorithms that learn from labeled data, where each example has input data and a
     * Bayesian Linear Regression:
 
 
-* TASK (Classification):
-  * Decision Trees
-  * Random Forests
-  * k-Nearest Neighbors (KNN)
-  * Naive Bayes Classifier
-  * Neural Networks
+*   TASK (Classification):
+
+    * Decision Trees
+    * Random Forests
+    * k-Nearest Neighbors (KNN)
+    * Naive Bayes Classifier
+    * Neural Networks
+
+
+*   TASK ( (both Regression & Classification))
+
+    * Boosting - (both Regression & Classification)
+    * Gradient Boosting - (both Regression & Classification)
+    * Bagging - (Bootstrap Aggregation)(both Regression & Classification)
+    * Stacking
+
+
+* TAKS (Optimization, hyperparameter tuning)
+  * Bayesian Optimization&#x20;
+
+
 
 ### Unsupervised Learning
 
@@ -39,6 +60,16 @@ Algorithms that work with unlabeled data to identify structures and hidden patte
   * Linear Discriminant Analysis (LDA)
   * t-SNE (t-distributed Stochastic Neighbor Embedding)
   * Autoencoders
+* TASK (Search and Optimization)
+  *   ### Heuristic Methods
+
+      Methods that use approximations to find solutions for complex problems.
+
+      • Genetic Algorithms
+
+      • Ant Colony Optimization
+
+      • Particle Swarm Optimization
 
 
 
@@ -58,17 +89,12 @@ Algorithms that use a small amount of labeled data combined with a large amount 
 
 Algorithms that learn through interactions with an environment, using rewards or penalties to improve behavior.
 
-• Q-Learning
-
-• SARSA (State-Action-Reward-State-Action)
-
-• Deep Q-Networks (DQN)
-
-• Policy Gradients
-
-• Proximal Policy Optimization (PPO)
-
-* Bayesian Q-Learning.
+* Q-Learning
+* SARSA (State-Action-Reward-State-Action)
+* Deep Q-Networks (DQN)
+* Policy Gradients
+* Proximal Policy Optimization (PPO)
+* Bayesian Q-Learning. (tasks: Optimal Decision-Making, Handling Uncertainty, Exploration vs. Exploitation, Adaptation to Changes )
 
 ### Distributed Learning
 
@@ -86,31 +112,9 @@ Algorithms that split the training process across multiple machines or devices t
 
 
 
-By Techniques
 
-### Heuristic Methods
 
-Methods that use approximations to find solutions for complex problems.
 
-• Genetic Algorithms
-
-• Ant Colony Optimization
-
-• Particle Swarm Optimization
-
-### Ensemble Methods
-
-Methods that combine several models to improve predictions.
-
-• Random Forests
-
-• Boosting
-
-* Gradient Boosting
-
-• Bagging (Bootstrap Aggregation)
-
-• Stacking
 
 
 
@@ -118,11 +122,7 @@ Methods that combine several models to improve predictions.
 
 • Bayesian Networks
 
-• Bayesian Linear Regression
 
-• Bayesian Optimization
-
-• Bayesian Q-Learning
 
 • Bayesian Neural Networks\
 
