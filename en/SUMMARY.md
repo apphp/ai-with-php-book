@@ -12,7 +12,7 @@
 * [History and Evolution of AI](artificial-intelligence/visionaries-and-innovators.md)
 * [Structure of AI](artificial-intelligence/structure-of-ai.md)
 * [Types of AI](artificial-intelligence/types-of-ai.md)
-* [Applications of AI](artificial-intelligence/applications-of-ai/README.md)
+* [Application of AI](artificial-intelligence/applications-of-ai/README.md)
   * [AI in Astronomy](artificial-intelligence/applications-of-ai/ai-in-astronomy.md)
   * [AI in Healthcare](artificial-intelligence/applications-of-ai/ai-in-healthcare.md)
   * [AI in Gaming](artificial-intelligence/applications-of-ai/ai-in-gaming.md)
