@@ -6,7 +6,7 @@ Artificial Intelligence (AI) has emerged as one of the most transformative techn
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt="" width="375"><figcaption><p>AI in Transforming Our World</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (106).png" alt="" width="375"><figcaption><p>AI in Transforming Our World</p></figcaption></figure>
 
 </div>
 

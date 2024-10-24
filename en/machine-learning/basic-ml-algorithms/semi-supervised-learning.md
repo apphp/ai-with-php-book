@@ -6,7 +6,7 @@ Semi-supervised learning is a unique approach in the field of machine learning t
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption><p>Semi-supervised Learning</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt="" width="375"><figcaption><p>Semi-supervised Learning</p></figcaption></figure>
 
 </div>
 

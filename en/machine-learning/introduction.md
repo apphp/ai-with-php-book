@@ -7,7 +7,7 @@ description: >-
 
 # Introduction
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Introduction to Machine Learning</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Introduction to Machine Learning</p></figcaption></figure>
 
 Instead of relying on fixed rules, machine learning algorithms identify patterns and make decisions based on the data they receive. This ability to learn from experience makes machine learning particularly useful in various applications.
 

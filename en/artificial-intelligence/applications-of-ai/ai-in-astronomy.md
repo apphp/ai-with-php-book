@@ -6,7 +6,7 @@ Astronomy deals with massive datasets collected from telescopes, space probes, a
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="375"><figcaption><p>AI in Astronomy</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt="" width="375"><figcaption><p>AI in Astronomy</p></figcaption></figure>
 
 </div>
 

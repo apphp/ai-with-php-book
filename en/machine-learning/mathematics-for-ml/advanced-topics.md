@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt="" width="375"><figcaption><p>Advanced Topics</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51).png" alt="" width="375"><figcaption><p>Advanced Topics</p></figcaption></figure>
 
 </div>
 

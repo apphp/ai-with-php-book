@@ -2,7 +2,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt="" width="375"><figcaption><p>Calculus</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt="" width="375"><figcaption><p>Calculus</p></figcaption></figure>
 
 </div>
 

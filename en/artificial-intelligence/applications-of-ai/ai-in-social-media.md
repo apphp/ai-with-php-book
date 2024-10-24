@@ -6,7 +6,7 @@ Ever wondered how social media seems to know exactly what you want to see, even 
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt="" width="375"><figcaption><p>AI in Social Media</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt="" width="375"><figcaption><p>AI in Social Media</p></figcaption></figure>
 
 </div>
 

@@ -4,7 +4,7 @@ Let’s dive into the fascinating world of machine learning through its life cyc
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt="" width="375"><figcaption><p>Life Cycle of Machine Learning</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62).png" alt="" width="375"><figcaption><p>Life Cycle of Machine Learning</p></figcaption></figure>
 
 </div>
 
@@ -44,4 +44,4 @@ Throughout the entire life cycle, the key to success is understanding the proble
 
 For better visualization find below a cycle diagram of Machine Learning Life Cycle
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>

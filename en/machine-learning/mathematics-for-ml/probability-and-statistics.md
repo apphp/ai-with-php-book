@@ -2,7 +2,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt="" width="375"><figcaption><p>Probability and Statistics</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt="" width="375"><figcaption><p>Probability and Statistics</p></figcaption></figure>
 
 </div>
 

@@ -6,7 +6,7 @@ Artificial Intelligence is transforming agriculture by enabling more efficient, 
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (71).png" alt="" width="375"><figcaption><p>AI in Agriculture</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt="" width="375"><figcaption><p>AI in Agriculture</p></figcaption></figure>
 
 </div>
 

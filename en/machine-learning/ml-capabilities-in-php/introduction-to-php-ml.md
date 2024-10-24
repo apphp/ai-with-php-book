@@ -8,7 +8,7 @@ Official documentation: [https://php-ml.readthedocs.io/en/latest/](https://php-m
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt="" width="375"><figcaption><p>Introduction to PHP-ML</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt="" width="375"><figcaption><p>Introduction to PHP-ML</p></figcaption></figure>
 
 </div>
 

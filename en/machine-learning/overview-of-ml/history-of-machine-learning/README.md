@@ -8,6 +8,6 @@ Although machine learning seems like a modern innovation, its fundamental ideas 
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption><p>History of ML</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption><p>History of ML</p></figcaption></figure>
 
 </div>

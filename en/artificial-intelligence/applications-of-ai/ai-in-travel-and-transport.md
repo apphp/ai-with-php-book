@@ -6,7 +6,7 @@ Artificial Intelligence is changing the landscape of travel and transportation, 
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt="" width="375"><figcaption><p>AI in Travel and Transport</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt="" width="375"><figcaption><p>AI in Travel and Transport</p></figcaption></figure>
 
 </div>
 

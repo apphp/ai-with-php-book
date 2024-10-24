@@ -5,7 +5,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt="" width="375"><figcaption><p>Linear Regression</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt="" width="375"><figcaption><p>Linear Regression</p></figcaption></figure>
 
 </div>
 

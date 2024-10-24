@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>Information Theory</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49).png" alt="" width="375"><figcaption><p>Information Theory</p></figcaption></figure>
 
 </div>
 

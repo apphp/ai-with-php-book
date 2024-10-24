@@ -6,7 +6,7 @@ Artificial Intelligence is at the core of the transformation happening in the au
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="375"><figcaption><p>AI in Automotive Industry</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt="" width="375"><figcaption><p>AI in Automotive Industry</p></figcaption></figure>
 
 </div>
 

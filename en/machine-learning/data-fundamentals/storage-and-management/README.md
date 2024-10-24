@@ -4,7 +4,7 @@ Data management is the backbone of successful AI projects. When developing AI sy
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (81).png" alt="" width="375"><figcaption><p>Data Storage and Management</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (105).png" alt="" width="375"><figcaption><p>Data Storage and Management</p></figcaption></figure>
 
 </div>
 

@@ -6,7 +6,7 @@ The idea of Artificial Intelligence isn’t new—its roots stretch back to anci
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (16).png" alt="" width="563"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40).png" alt="" width="563"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure>
 
 </div>
 

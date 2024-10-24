@@ -6,7 +6,7 @@ This chapter explains the basics of data, including different types of data, whe
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="563"><figcaption><p>Data Fundamentals and Preparation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt="" width="563"><figcaption><p>Data Fundamentals and Preparation</p></figcaption></figure>
 
 </div>
 

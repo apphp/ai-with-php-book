@@ -6,7 +6,7 @@ Artificial Intelligence is revolutionizing the entertainment industry, enhancing
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Entertainment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption><p>AI in Entertainment</p></figcaption></figure>
 
 </div>
 
