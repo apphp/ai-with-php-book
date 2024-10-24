@@ -33,13 +33,17 @@
   * [AI in Military Domain](artificial-intelligence/applications-of-ai/ai-in-military-domain.md)
   * [AI in Transforming Our World](artificial-intelligence/applications-of-ai/ai-in-transforming-our-world.md)
 * [Agents in AI](artificial-intelligence/agents-in-ai/README.md)
+  * [Introduction to AI Agents](artificial-intelligence/agents-in-ai/introduction-to-ai-agents.md)
+  * [Structure of AI Agent](artificial-intelligence/agents-in-ai/structure-of-ai-agent.md)
+  * [Components of AI Agents](artificial-intelligence/agents-in-ai/components-of-ai-agents.md)
   * [Types of Agents](artificial-intelligence/agents-in-ai/types-of-agents.md)
   * [Agent Environment](artificial-intelligence/agents-in-ai/agent-environment.md)
   * [Agent Architecture](artificial-intelligence/agents-in-ai/agent-architecture.md)
-  * [Applications of Agents in AI](artificial-intelligence/agents-in-ai/applications-of-agents-in-ai.md)
+  * [Application of Agents in AI](artificial-intelligence/agents-in-ai/application-of-agents-in-ai.md)
   * [Multi-Agent Systems (MAS)](artificial-intelligence/agents-in-ai/multi-agent-systems-mas.md)
   * [Challenges in AI Agent Development](artificial-intelligence/agents-in-ai/challenges-in-ai-agent-development.md)
   * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
+  * [Turing Test in AI](artificial-intelligence/agents-in-ai/turing-test-in-ai.md)
   * [Conclusion](artificial-intelligence/agents-in-ai/conclusion.md)
 
 ## Machine Learning
