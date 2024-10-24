@@ -14,7 +14,7 @@ Artificial Intelligence is changing the landscape of travel and transportation, 
 
 AI has revolutionized how we plan our trips. No longer do travelers have to sift through endless flight comparisons and hotel reviews. AI algorithms now do the heavy lifting by analyzing preferences, past behavior, and trends to suggest tailored travel options.
 
-For example, **Skyscanner** leverages AI to compare millions of flight prices, hotels, and rental car deals in real time, providing users with personalized recommendations. Hopper goes further by predicting future prices using machine learning, alerting users when it’s the best time to book to secure the lowest prices. These tools not only save time but also ensure cost-effective travel decisions.
+For example, **Skyscanner** leverages AI to compare millions of flight prices, hotels, and rental car deals in real time, providing users with personalized recommendations. **Hopper** goes further by predicting future prices using machine learning, alerting users when it’s the best time to book to secure the lowest prices. These tools not only save time but also ensure cost-effective travel decisions.
 
 ### Optimized Transportation Networks
 
@@ -26,7 +26,7 @@ Take Singapore, for example, where AI powers a smart traffic system. It analyzes
 
 AI doesn’t just help in navigating cities; it also plays a significant role in optimizing the routes of delivery trucks, taxis, and logistics networks. By analyzing traffic patterns, weather conditions, and historical data, AI ensures that vehicles follow the most efficient path, saving time, fuel, and costs.
 
-**UPS**, for instance, uses its AI-powered “ORION” system, which optimizes delivery routes for its drivers. This system takes into account not only traffic but also specific customer requests and delivery deadlines, resulting in significant savings in fuel and time. Similarly, ride-sharing platforms like Uber use AI algorithms to determine the fastest routes for drivers based on real-time traffic conditions, ensuring a quicker and more efficient ride for passengers.
+UPS, for instance, uses its AI-powered “**ORION**” system, which optimizes delivery routes for its drivers. This system takes into account not only traffic but also specific customer requests and delivery deadlines, resulting in significant savings in fuel and time. Similarly, ride-sharing platforms like **Uber** use AI algorithms to determine the fastest routes for drivers based on real-time traffic conditions, ensuring a quicker and more efficient ride for passengers.
 
 ### AI-Powered Airports
 
@@ -38,7 +38,7 @@ At **Changi Airport** in Singapore, AI-powered facial recognition is used for au
 
 Security screening at airports, often a time-consuming part of air travel, is becoming faster and more accurate thanks to AI. AI systems can analyze scanned images of baggage to identify potential threats with greater precision than human operators, while also speeding up the process.
 
-The **Transportation Security Administration (TSA)** in the U.S. is deploying AI-based systems to automate baggage scanning and improve security checks. These systems use deep learning to detect dangerous items in real time, significantly reducing manual errors. Passengers at airports like Heathrow in London are already benefiting from AI-assisted security, which makes screening quicker and reduces long lines at checkpoints.
+The **Transportation Security Administration (TSA)** in the U.S. is deploying AI-based systems to automate baggage scanning and improve security checks. These systems use deep learning to detect dangerous items in real time, significantly reducing manual errors. Passengers at airports like **Heathrow** in London are already benefiting from AI-assisted security, which makes screening quicker and reduces long lines at checkpoints.
 
 ### Predictive Maintenance
 
