@@ -1,4 +1,4 @@
-# History and Evolution of AI
+# History of AI
 
 ### From Myth to Modern Marvel
 
@@ -16,7 +16,7 @@ Since then, AI has come a long way. The 1980s and 90s were all about expert syst
 
 ### Key Contributions and Influential Figures
 
-Artificial Intelligence has come a long way since its inception, evolving from theoretical concepts to technologies that now permeate our daily lives. The field has been shaped by the contributions of both early pioneers who laid the groundwork and contemporary innovators who continue to push the boundaries of what’s possible. This article will explore the key figures in AI’s history, divided into two categories: pioneers and visionaries, and contemporary innovators.
+The field of Artificial Intelligence has been shaped by the contributions of both early pioneers who laid the groundwork and contemporary innovators who continue to push the boundaries of what’s possible. This article will explore the key figures in AI’s history, divided into two categories: pioneers and visionaries, and contemporary innovators.
 
 ### Pioneers and Visionaries
 

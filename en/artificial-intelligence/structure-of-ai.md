@@ -34,7 +34,7 @@ Robotics involves designing and programming robots to perform tasks autonomously
 
 #### 5. Cognitive Computing
 
-Cognitive computing is like giving machines a brain! It’s a type of AI designed to mimic how humans think. These smart systems can learn from experience, reason through information, and even understand language, just like we do. By tapping into techniques like pattern recognition, natural language processing (NLP), and data mining.
+Cognitive computing is a type of Artificial Intelligence that simulates human thought processes. It is like giving machines a brain! These smart systems can learn from experience, reason through information, and even understand language, just like we do. By tapping into techniques like pattern recognition, natural language processing (NLP), and data mining.
 
 #### 6. Expert Systems
 
