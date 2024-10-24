@@ -16,7 +16,7 @@ Artificial Intelligence encompasses a wide range of specialized fields, each foc
 
 Machine Learning is the study of algorithms that enable machines to learn from and make predictions based on data. This area includes supervised, unsupervised, and reinforcement learning. ML is widely used in applications such as recommendation systems, image recognition, and fraud detection.
 
-#### 2. Neural Networks and Deep Learning
+#### 2. Neural Networks (NN) and Deep Learning (DL)
 
 Neural networks are computational models inspired by the human brain’s structure. Deep learning, a subset of neural networks, involves many layers that can model complex patterns in large datasets. This area is critical for advancements in image and speech recognition, as well as autonomous systems.
 
@@ -32,11 +32,15 @@ This field focuses on enabling machines to interpret and understand visual infor
 
 Robotics involves designing and programming robots to perform tasks autonomously or semi-autonomously. It combines AI with mechanical engineering to create systems that can navigate, perceive, and interact with their environments, making it essential for industries like manufacturing, healthcare, and exploration.
 
-#### 5. Expert Systems
+#### 5. Cognitive Computing
+
+Cognitive computing is like giving machines a brain! It’s a type of AI designed to mimic how humans think. These smart systems can learn from experience, reason through information, and even understand language, just like we do. By tapping into techniques like pattern recognition, natural language processing (NLP), and data mining.
+
+#### 6. Expert Systems
 
 Expert systems aim to replicate the decision-making abilities of human experts. These systems use rule-based knowledge to solve complex problems in areas like medical diagnosis, financial decision-making, and technical troubleshooting.
 
-#### 6. AI Ethics and Safety
+#### 7. AI Ethics and Safety
 
 This growing field addresses the ethical considerations, biases, and risks associated with AI systems. Researchers in this area explore how to ensure that AI technologies are fair, transparent, and safe for society, focusing on issues like bias in algorithms and the impact of AI on employment and privacy.
 

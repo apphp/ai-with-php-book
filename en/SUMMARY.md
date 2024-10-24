@@ -9,7 +9,7 @@
 ## Artificial Intelligence
 
 * [Introduction](artificial-intelligence/introduction.md)
-* [History and Evolution of AI](artificial-intelligence/visionaries-and-innovators.md)
+* [History of AI](artificial-intelligence/visionaries-and-innovators.md)
 * [Structure of AI](artificial-intelligence/structure-of-ai.md)
 * [Types of AI](artificial-intelligence/types-of-ai.md)
 * [Application of AI](artificial-intelligence/applications-of-ai/README.md)
@@ -139,6 +139,10 @@
 ## Robotics
 
 * [Introduction](robotics/introduction.md)
+
+## Cognitive Computing
+
+* [Introduction](cognitive-computing/introduction.md)
 
 ## Expert Systems
 
