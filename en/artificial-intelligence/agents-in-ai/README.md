@@ -2,6 +2,12 @@
 
 Imagine a world where machines aren’t just following commands, but are actively thinking, adapting, and making decisions. Welcome to the realm of agents in artificial intelligence (AI), where programs are built to perceive their surroundings, make choices, and take action—all without direct human control. Think of them as the brain behind smart systems, from virtual assistants to robots.
 
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Agents in AI</p></figcaption></figure>
+
+</div>
+
 ### What Exactly is an AI Agent?
 
 In simple terms, an AI agent is a system that interacts with its environment through a cycle of sensing, deciding, and acting. Agents are everywhere—your smartphone, your thermostat, even your robot vacuum cleaner! These agents can vary widely, from simple devices to highly sophisticated systems like self-driving cars or virtual characters in video games.

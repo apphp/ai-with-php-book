@@ -6,7 +6,7 @@ In today’s digital world, data security has become a major concern. With cyber
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Data Security</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Data Security</p></figcaption></figure>
 
 </div>
 

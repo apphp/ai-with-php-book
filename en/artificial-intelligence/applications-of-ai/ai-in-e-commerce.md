@@ -6,7 +6,7 @@ Artificial Intelligence is transforming the e-commerce landscape by personalizin
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in E-commerce</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in E-commerce</p></figcaption></figure>
 
 </div>
 

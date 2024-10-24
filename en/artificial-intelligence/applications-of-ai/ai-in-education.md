@@ -6,7 +6,7 @@ Artificial Intelligence is transforming the education sector, offering new tools
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Education</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Education</p></figcaption></figure>
 
 </div>
 
