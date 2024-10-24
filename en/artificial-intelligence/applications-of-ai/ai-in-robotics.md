@@ -6,7 +6,7 @@ Artificial Intelligence and robotics are converging to create machines capable o
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Robotics</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Robotics</p></figcaption></figure>
 
 </div>
 

@@ -12,6 +12,7 @@
 * [History of AI](artificial-intelligence/visionaries-and-innovators.md)
 * [Structure of AI](artificial-intelligence/structure-of-ai.md)
 * [Types of AI](artificial-intelligence/types-of-ai.md)
+* [How Does AI Work?](artificial-intelligence/how-does-ai-work.md)
 * [Application of AI](artificial-intelligence/applications-of-ai/README.md)
   * [AI in Astronomy](artificial-intelligence/applications-of-ai/ai-in-astronomy.md)
   * [AI in Healthcare](artificial-intelligence/applications-of-ai/ai-in-healthcare.md)
@@ -31,6 +32,15 @@
   * [AI in Criminal World](artificial-intelligence/applications-of-ai/ai-in-criminal-world.md)
   * [AI in Military Domain](artificial-intelligence/applications-of-ai/ai-in-military-domain.md)
   * [AI in Transforming Our World](artificial-intelligence/applications-of-ai/ai-in-transforming-our-world.md)
+* [Agents in AI](artificial-intelligence/agents-in-ai/README.md)
+  * [Types of Agents](artificial-intelligence/agents-in-ai/types-of-agents.md)
+  * [Agent Environment](artificial-intelligence/agents-in-ai/agent-environment.md)
+  * [Agent Architecture](artificial-intelligence/agents-in-ai/agent-architecture.md)
+  * [Applications of Agents in AI](artificial-intelligence/agents-in-ai/applications-of-agents-in-ai.md)
+  * [Multi-Agent Systems (MAS)](artificial-intelligence/agents-in-ai/multi-agent-systems-mas.md)
+  * [Challenges in AI Agent Development](artificial-intelligence/agents-in-ai/challenges-in-ai-agent-development.md)
+  * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
+  * [Conclusion](artificial-intelligence/agents-in-ai/conclusion.md)
 
 ## Machine Learning
 

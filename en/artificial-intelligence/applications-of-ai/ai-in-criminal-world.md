@@ -6,7 +6,7 @@ While AI has been a force for good in many industries, it has also found its way
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>AI in the criminal world</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>AI in the criminal world</p></figcaption></figure>
 
 </div>
 
