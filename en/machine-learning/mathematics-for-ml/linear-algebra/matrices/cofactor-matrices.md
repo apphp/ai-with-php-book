@@ -60,8 +60,6 @@ $$cof(A) = [-3\ 6\ -3] [ 6\ -12\ 6] [-3\ 6  -3]$$
 
 </details>
 
-
-
 ### Properties of Cofactor Matrices
 
 1. The determinant of a matrix can be calculated using cofactors: \
@@ -69,7 +67,7 @@ $$cof(A) = [-3\ 6\ -3] [ 6\ -12\ 6] [-3\ 6  -3]$$
    $$det(A) = a_{11} * C_{11} + a_{21} * C_{21} + ... + a_{n1} * C_{n1}$$ (for any column)
 2. The transpose of the cofactor matrix is the adjugate matrix: $$adj(A) = (cof(A))^T$$
 3. For an invertible matrix $$A$$: $$A^(-1) = (1/det(A)) * adj(A) = (1/det(A)) * (cof(A))^T$$
-4. If A is a triangular matrix (upper or lower), its cofactor matrix is also triangular.
+4. If $$A$$ is a triangular matrix (upper or lower), its cofactor matrix is also triangular.
 
 ### Applications in AI and Machine Learning
 
