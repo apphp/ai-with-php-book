@@ -1,8 +1,8 @@
-# Visionaries and Innovators
+# History and Evolution of AI
 
-### Key Contributions and Influential Figures
+### From Myth to Modern Marvel
 
-Artificial Intelligence has come a long way since its inception, evolving from theoretical concepts to technologies that now permeate our daily lives. The field has been shaped by the contributions of both early pioneers who laid the groundwork and contemporary innovators who continue to push the boundaries of what’s possible. This article will explore the key figures in AI’s history, divided into two categories: pioneers and visionaries, and contemporary innovators.
+The idea of Artificial Intelligence isn’t new—its roots stretch back to ancient myths like those in Greek mythology, where the concept of intelligent machines was first imagined (read more in [History of ML](../machine-learning/overview-of-ml/history-of-machine-learning/)).. But AI as we know it today started taking shape in the 1950s. This is when computer scientists began seriously considering whether machines could learn, solve problems, and even think like humans.
 
 <div align="left">
 
@@ -10,7 +10,13 @@ Artificial Intelligence has come a long way since its inception, evolving from t
 
 </div>
 
+One of the trailblazers in this field was British mathematician Alan Turing. In 1950, he introduced the famous Turing test—a simple but powerful idea for assessing whether a machine could behave intelligently enough to fool a human into thinking it was also human. This sparked a huge wave of excitement and research, as scientists began trying to create machines that could do things like play chess, solve math problems, and understand human language.
 
+Since then, AI has come a long way. The 1980s and 90s were all about expert systems, which aimed to replicate human decision-making. Fast forward to the 2000s, and the explosion of big data, combined with powerful computers, led to breakthroughs in machine learning, deep learning, and AI applications. Suddenly, machines were not just playing games or solving puzzles—they were recognizing faces, understanding speech, and even driving cars on their own.
+
+### Key Contributions and Influential Figures
+
+Artificial Intelligence has come a long way since its inception, evolving from theoretical concepts to technologies that now permeate our daily lives. The field has been shaped by the contributions of both early pioneers who laid the groundwork and contemporary innovators who continue to push the boundaries of what’s possible. This article will explore the key figures in AI’s history, divided into two categories: pioneers and visionaries, and contemporary innovators.
 
 ### Pioneers and Visionaries
 
@@ -58,6 +64,6 @@ Fei-Fei Li is a pioneer in the field of computer vision and the co-director of S
 
 As the co-founder and CEO of DeepMind, Demis Hassabis is at the forefront of AI research. DeepMind’s AlphaGo, which defeated a world champion Go player in 2016, showcased the potential of reinforcement learning and advanced AI capabilities. Hassabis continues to drive research in general AI and neural networks, pushing the limits of what AI can achieve, particularly in areas like healthcare, protein folding, and energy efficiency.
 
-#### Conclusion
+### Conclusion
 
 From the visionary work of pioneers like Alan Turing and John McCarthy to the groundbreaking advancements by contemporary innovators like Geoffrey Hinton and Fei-Fei Li, the field of AI has been shaped by a diverse group of thought leaders. Each of these individuals has contributed to our understanding of intelligence—whether natural or artificial—and their work has driven AI from theoretical speculation to practical reality. As AI continues to evolve, these influential figures provide the inspiration and foundation for the next generation of innovations that will shape our future.
