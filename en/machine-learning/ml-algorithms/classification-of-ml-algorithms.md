@@ -15,7 +15,6 @@ Algorithms that learn from labeled data, where each example has input data and a
 *   TASK (Regression):
 
     * Linear Regression
-    *
     * Polynomial Regression
     * Support Vector Machines (SVM)
     * Support Vector Regression (SVR)
