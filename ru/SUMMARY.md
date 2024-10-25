@@ -23,6 +23,7 @@
   * [ИИ в путешествиях и на транспорте](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-puteshestviyakh-i-na-transporte.md)
   * [ИИ в автомобильной промышленности](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-avtomobilnoi-promyshlennosti.md)
   * [ИИ в робототехнике](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-robototekhnike.md)
+  * [ИИ в сфере развлечений](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-sfere-razvlechenii.md)
 * [Агенты в ИИ](iskusstvennyi-intellekt/agenty-v-ii.md)
 
 ## Машинное обучение
