@@ -20,9 +20,9 @@ If any of these conditions are not met, the matrix is considered singular or non
 
 #### Example: Invertible Matrix
 
-Consider the matrix A:
+Consider the matrix $$A$$:
 
-A = \[2 1] \[1 3]
+$$A = [2\ 1] [1\ 3]$$
 
 ```
 A = [2 1]    det(A) = (2 * 3) - (1 * 1) = 6 - 1 = 5 ≠ 0
@@ -33,21 +33,21 @@ A = [2 1]    det(A) = (2 * 3) - (1 * 1) = 6 - 1 = 5 ≠ 0
 
 <summary>Step-by-step explanation</summary>
 
-To check if A is invertible:
+To check if $$A$$ is invertible:
 
 1. It is a 2x2 square matrix.
-2. det(A) = (2 \* 3) - (1 \* 1) = 6 - 1 = 5 ≠ 0
+2. $$det(A) = (2 * 3) - (1 * 1) = 6 - 1 = 5 ≠ 0$$
 3. The rank is 2 (full rank for a 2x2 matrix)
 
-Therefore, A is invertible.
+Therefore, $$A$$ is invertible.
 
 </details>
 
 #### Example: Non-invertible Matrix
 
-Consider the matrix B:
+Consider the matrix $$B$$:
 
-B = \[1 2] \[2 4]
+
 
 ```
 A = [1 2]    det(B) = (1 * 4) - (2 * 2) = 4 - 4 = 0
@@ -58,13 +58,13 @@ A = [1 2]    det(B) = (1 * 4) - (2 * 2) = 4 - 4 = 0
 
 <summary>Step-by-step explanation</summary>
 
-To check if B is invertible:
+To check if $$B$$ is invertible:
 
 1. It is a 2x2 square matrix.
-2. det(B) = (1 \* 4) - (2 \* 2) = 4 - 4 = 0
+2. $$det(B) = (1 * 4) - (2 * 2) = 4 - 4 = 0$$
 3. The rank is 1 (not full rank)
 
-Therefore, B is not invertible.
+Therefore, $$B$$ is not invertible.
 
 </details>
 
@@ -76,19 +76,19 @@ There are several methods for finding the inverse of a matrix. We'll discuss two
 
 The adjoint method uses the following formula to calculate the inverse:
 
-A^(-1) = (1 / det(A)) \* adj(A)
+$$A^{-1} = (1 / det(A)) * adj(A)$$
 
 Where:
 
-* det(A) is the determinant of matrix A
-* adj(A) is the adjugate matrix of A (transpose of the cofactor matrix)
+* $$det(A)$$ is the determinant of matrix $$A$$
+* $$adj(A)$$ is the adjugate matrix of $$A$$ (transpose of the cofactor matrix)
 
 Steps:
 
-1. Calculate the determinant of A.
+1. Calculate the determinant of $$A$$.
 2. Find the cofactor matrix.
 3. Transpose the cofactor matrix to get the adjugate.
-4. Multiply the adjugate by 1/det(A).
+4. Multiply the adjugate by $$1/det(A)$$.
 
 #### Example:
 

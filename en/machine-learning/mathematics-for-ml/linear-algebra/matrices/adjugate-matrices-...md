@@ -1,4 +1,4 @@
-# Adjugate Matrices ?..
+# Adjugate Matrices
 
 ### Adjugate Matrices
 
@@ -45,11 +45,11 @@ For larger matrices, the process is similar but involves more calculations.
 
 ### Properties of Adjugate Matrices
 
-1. For any square matrix A: A \* adj(A) = adj(A) \* A = det(A) \* I Where I is the identity matrix and det(A) is the determinant of A.
-2. If A is invertible: adj(A) = det(A) \* A^(-1)
-3. For any scalar k and square matrix A: adj(kA) = k^(n-1) \* adj(A), where n is the size of the matrix
-4. For any two n×n matrices A and B: adj(AB) = adj(B) \* adj(A)
-5. The adjugate of the adjugate: adj(adj(A)) = (det(A))^(n-2) \* A, where n > 2
+1. For any square matrix $$A$$: $$A * adj(A) = adj(A) * A = det(A) * I$$ Where $$I$$ is the identity matrix and $$det(A)$$ is the determinant of $$A$$.
+2. If A is invertible: $$adj(A) = det(A) * A^{-1}$$
+3. For any scalar k and square matrix $$A$$: $$adj(kA) = k^{n-1} * adj(A)$$, where n is the size of the matrix
+4. For any two n×n matrices $$A$$ and $$B$$: $$adj(AB) = adj(B) * adj(A)$$
+5. The adjugate of the adjugate: $$adj(adj(A)) = (det(A))^{n-2} * A$$, where $$n > 2$$
 
 ### Applications in AI and Machine Learning
 
