@@ -1,4 +1,4 @@
-# Inverse Matrices
+# Inverse Matrices ?..
 
 ### Inverse Matrices
 
@@ -92,9 +92,9 @@ Steps:
 
 #### Example:
 
-Let's find the inverse of matrix A from our previous example:
+Let's find the inverse of matrix $$A$$ from our previous example:
 
-A = \[2 1] \[1 3]
+$$A = [2\ 1] [1\ 3]$$
 
 ```
 A = [2 1]    det(A) = (2 * 3) - (1 * 1) = 6 - 1 = 5  
@@ -108,17 +108,17 @@ A^(-1) = (1 / det(A)) * adj(A) = [0.6 -0.2]
 
 <summary>Step-by-step explanation</summary>
 
-Step 1: Calculate the determinant det(A) = (2 \* 3) - (1 \* 1) = 6 - 1 = 5
+Step 1: Calculate the determinant $$det(A) = (2 * 3) - (1 * 1) = 6 - 1 = 5$$
 
-Step 2: Find the cofactor matrix C11 = 3, C12 = -1, C21 = -1, C22 = 2
+Step 2: Find the cofactor matrix $$C_{11} = 3, C_{12} = -1, C_{21} = -1, C_{22} = 2$$
 
-Cofactor matrix = \[3 -1] \[-1 2]
+Cofactor matrix = $$[3\ -1] [-1\ 2]$$
 
-Step 3: Transpose the cofactor matrix to get the adjugate adj(A) = \[3 -1] \[-1 2]
+Step 3: Transpose the cofactor matrix to get the adjugate $$adj(A) = [3\ -1] [-1\ 2]$$
 
-Step 4: Multiply the adjugate by 1/det(A) A^(-1) = (0.2) \* \[3 -1] \[-1 2]
+Step 4: Multiply the adjugate by $$1/det(A) A^{-1} = (0.2) * [3\ -1] [-1\ 2]$$
 
-A^(-1) = \[0.6 -0.2] \[-0.2 0.4]
+$$A^{-1} = [0.6\ -0.2] [-0.2\ 0.4]$$
 
 </details>
 
@@ -126,15 +126,15 @@ A^(-1) = \[0.6 -0.2] \[-0.2 0.4]
 
 Gaussian elimination is a more efficient method for larger matrices:
 
-1. Create an augmented matrix \[A | I], where I is the identity matrix.
+1. Create an augmented matrix $$[A\ |\ I]$$, where I is the identity matrix.
 2. Perform row operations to transform the left side into the identity matrix.
 3. The right side will become the inverse matrix.
 
 #### Example:
 
-Let's use Gaussian elimination to find the inverse of matrix A:
+Let's use Gaussian elimination to find the inverse of matrix $$A$$:
 
-A = \[2 1] \[1 3]
+$$A = [2\ 1] [1\ 3]$$
 
 ```
 A = [2 1]    
@@ -145,17 +145,17 @@ A = [2 1]
 
 <summary>Step-by-step explanation</summary>
 
-Step 1: Calculate the determinant det(A) = (2 \* 3) - (1 \* 1) = 6 - 1 = 5Step 1: Create the augmented matrix \[2 1 | 1 0] \[1 3 | 0 1]
+Step 1: Create the augmented matrix $$[2\ 1 | 1\ 0] [1\ 3 | 0\ 1]$$
 
-Step 2: Perform row operations R2 = R2 - (1/2)R1 \[2 1 | 1 0] \[0 2.5 | -0.5 1]
+Step 2: Perform row operations $$R2 = R2 - (1/2)R1 [2\ 1 | 1\ 0] [0\ 2.5 | -0.5\ 1]$$
 
-R2 = (1/2.5)R2 \[2 1 | 1 0] \[0 1 | -0.2 0.4]
+$$R2 = (1/2.5)\ R2\ [2\ 1 | 1\ 0] [0\ 1 | -0.2\ 0.4]$$
 
-R1 = R1 - 1R2 \[2 0 | 1.2 -0.4] \[0 1 | -0.2 0.4]
+$$R1 = R1\ - 1\ R2\ [2\ 0 | 1.2\ -0.4] [0\ 1 | -0.2\ 0.4]$$
 
-R1 = (1/2)R1 \[1 0 | 0.6 -0.2] \[0 1 | -0.2 0.4]
+$$R1 = (1/2)\ R1\ [1\ 0 | 0.6\ -0.2] [0\ 1 | -0.2\ 0.4]$$
 
-The resulting inverse matrix is: A^(-1) = \[0.6 -0.2] \[-0.2 0.4]
+The resulting inverse matrix is: $$A^{-1} = [0.6\ -0.2] [-0.2\ 0.4]$$
 
 This result matches our previous calculation using the adjoint method.
 
@@ -165,12 +165,12 @@ This result matches our previous calculation using the adjoint method.
 
 The determinant of a matrix is closely related to its invertibility:
 
-1. If det(A) ≠ 0, the matrix is invertible.
-2. If det(A) = 0, the matrix is not invertible.
+1. If $$det(A) ≠ 0$$, the matrix is invertible.
+2. If $$det(A) = 0$$, the matrix is not invertible.
 
-Furthermore, for an invertible matrix A:
+Furthermore, for an invertible matrix $$A$$:
 
-det(A^(-1)) = 1 / det(A)
+$$det(A^{-1}) = 1 / det(A)$$
 
 This relationship is useful in various mathematical proofs and applications.
 
