@@ -87,7 +87,7 @@ _Example Problem:_ A goal-based agent in a delivery robot might encounter issues
 
 Utility-based agents consider not just the achievement of goals but also the _quality_ of those achievements. They use _utility functions_ to assign values to different actions or outcomes, thereby selecting the actions that maximize utility or satisfaction. Utility-based agents are particularly useful when there are multiple potential paths to reach a goal, but some paths are better than others.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Characteristics**:
 
@@ -112,7 +112,7 @@ _Example Problem:_ A utility-based agent in an autonomous vehicle might prioriti
 
 Learning agents are equipped with mechanisms to _learn from experience_. They possess components like learning elements and performance elements that allow them to adapt to new situations, improving their decision-making capabilities over time. These agents can explore new actions, receive feedback, and modify their strategies based on the feedback received, making them highly adaptable.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Learning Agents</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Learning Agents</p></figcaption></figure>
 
 **Characteristics**:
 

@@ -7,3 +7,14 @@ Reinforcement learning (RL) involves an agent that interacts with an environment
 <figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Reinforcement Learning</p></figcaption></figure>
 
 </div>
+
+### Reinforcement Learning
+
+Algorithms that learn through interactions with an environment, using rewards or penalties to improve behavior.
+
+* Q-Learning
+* SARSA (State-Action-Reward-State-Action)
+* Deep Q-Networks (DQN)
+* Policy Gradients
+* Proximal Policy Optimization (PPO)
+* Bayesian Q-Learning. (tasks: Optimal Decision-Making, Handling Uncertainty, Exploration vs. Exploitation, Adaptation to Changes )

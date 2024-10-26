@@ -51,6 +51,16 @@ Example: In image recognition, similar images can be linked in a graph based on 
 
 
 
+### Semi-Supervised Learning
+
+Algorithms that use a small amount of labeled data combined with a large amount of unlabeled data.
+
+• Self-training Algorithms
+
+• Co-training
+
+• Graph-based Methods
+
 ## Key Algorithms in Semi-Supervised Learning
 
 Several algorithms are commonly used in semi-supervised learning. Some of the most well-known include:
