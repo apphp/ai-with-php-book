@@ -87,6 +87,8 @@ _Example Problem:_ A goal-based agent in a delivery robot might encounter issues
 
 Utility-based agents consider not just the achievement of goals but also the _quality_ of those achievements. They use _utility functions_ to assign values to different actions or outcomes, thereby selecting the actions that maximize utility or satisfaction. Utility-based agents are particularly useful when there are multiple potential paths to reach a goal, but some paths are better than others.
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 **Characteristics**:
 
 * Calculates the best possible actions based on assigned utility values.

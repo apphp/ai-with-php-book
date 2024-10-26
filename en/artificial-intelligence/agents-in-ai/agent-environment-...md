@@ -4,7 +4,7 @@ Artificial Intelligence agents operate within various environments that dictate 
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>AI Agent Environment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>AI Agent Environment</p></figcaption></figure>
 
 </div>
 
