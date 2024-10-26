@@ -4,7 +4,7 @@
 
 This book will try to explain the basics of Artificial Intelligence and Machine Learning in a way that’s easy to understand.
 
-The official website version of this book: <https://apphp.gitbook.io/artificial-intelligence-with-php>
+The official website version of this book: <a href="https://apphp.gitbook.io/artificial-intelligence-with-php" target="_blank">https://apphp.gitbook.io/artificial-intelligence-with-php</a>
 
 ## **Introduction**
 
@@ -47,7 +47,7 @@ If you'd like to contribute to AI with PHP, here are some guidelines:
 
 ## **License**
 
-AI with PHP is released under the CC BY-NC (Attribution-NonCommercial) License. See the **[LICENSE](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)** file for details.
+AI with PHP is released under the CC BY-NC (Attribution-NonCommercial) License. See the **<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">LICENSE</a>** file for details.
 
 ## **Authors and Acknowledgment**
 
