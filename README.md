@@ -12,7 +12,7 @@ This book will try to explain the basics of Artificial Intelligence and Machine 
 
 ## **Installation**
 
-To install Project Title, follow these steps:
+To install AI with PHP, follow these steps:
 
 1. Clone the repository: **`git clone https://github.com/username/project-title.git`**
 2. Navigate to the project directory: **`cd ai-with-php-book`**
@@ -20,7 +20,7 @@ To install Project Title, follow these steps:
 
 ## **Usage**
 
-To use Project Title, follow these steps:
+To use AI with PHP, follow these steps:
 
 1. Open the project in your favorite Markdown editor.
 2. Modify the source code to fit your needs.
@@ -29,7 +29,7 @@ To use Project Title, follow these steps:
 
 ## **Contributing**
 
-If you'd like to contribute to Project Title, here are some guidelines:
+If you'd like to contribute to AI with PHP, here are some guidelines:
 
 1. Fork the repository.
 2. Create a new branch for your changes.
@@ -40,13 +40,18 @@ If you'd like to contribute to Project Title, here are some guidelines:
 7. Push your changes to your forked repository.
 8. Submit a pull request.
 
+## **Language support**
+
+1. English
+2. Russian
+
 ## **License**
 
-Project Title is released under the CC BY-NC (Attribution-NonCommercial) License. See the **[LICENSE](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)** file for details.
+AI with PHP is released under the CC BY-NC (Attribution-NonCommercial) License. See the **[LICENSE](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)** file for details.
 
 ## **Authors and Acknowledgment**
 
-Project Title was created by **[Samuel Akopyan](https://github.com/apphp)**.
+AI with PHP was created by **[Samuel Akopyan](https://github.com/apphp)**.
 
 ## **Changelog**
 
