@@ -4,7 +4,7 @@
 
 This book will try to explain the basics of Artificial Intelligence and Machine Learning in a way that’s easy to understand.
 
-The official website version of this book: <a href="https://apphp.gitbook.io/artificial-intelligence-with-php" target="_blank">https://apphp.gitbook.io/artificial-intelligence-with-php</a>
+The official website version of this book: <a href="https://apphp.gitbook.io/artificial-intelligence-with-php" target=_blank>https://apphp.gitbook.io/artificial-intelligence-with-php</a>
 
 ## **Introduction**
 
