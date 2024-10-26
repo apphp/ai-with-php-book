@@ -1,2 +1,2 @@
-The readble version of this book:
+The official website version of this book:
 - https://apphp.gitbook.io/artificial-intelligence-with-php/
