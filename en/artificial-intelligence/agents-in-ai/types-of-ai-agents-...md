@@ -37,7 +37,7 @@ _Example Problem:_ A simple reflex agent in a robotic vacuum may get stuck in th
 
 Model-based reflex agents address the limitations of simple reflex agents by incorporating an internal _model of the world_. This model allows the agent to keep track of past states and understand how actions affect the environment over time. By using this history, the agent can handle partially observable environments, where current percepts alone do not provide a full understanding of the world.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Model-Based Reflex Agents</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption><p>Model-Based Reflex Agents</p></figcaption></figure>
 
 **Characteristics**:
 
@@ -61,6 +61,8 @@ _Example Problem:_ A model-based agent in a self-driving car may struggle if its
 ### 3. Goal-Based Agents
 
 Goal-based agents advance further by incorporating goals to drive their behavior. Instead of merely reacting to current conditions, these agents assess actions based on their potential to achieve specific objectives. Goal-based agents require more computation, as they must evaluate different options and predict which actions will bring them closer to their goals.
+
+<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption><p>Goal-Based Agents</p></figcaption></figure>
 
 **Characteristics**:
 
