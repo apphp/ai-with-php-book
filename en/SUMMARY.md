@@ -5,6 +5,7 @@
 * [Introduction](README.md)
 * [Audience](getting-started/audience.md)
 * [Glossary](getting-started/glossary.md)
+* [Contributors](getting-started/contributors.md)
 
 ## Artificial Intelligence
 
