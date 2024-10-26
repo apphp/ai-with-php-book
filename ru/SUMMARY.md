@@ -5,6 +5,7 @@
 * [Введение](README.md)
 * [Для кого эта книга](pervye-shagi/dlya-kogo-eta-kniga.md)
 * [Глоссарий](pervye-shagi/glossarii.md)
+* [Участники](pervye-shagi/uchastniki.md)
 
 ## Искусственный интеллект
 
