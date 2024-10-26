@@ -1,2 +1,61 @@
-The official website version of this book:
-- https://apphp.gitbook.io/artificial-intelligence-with-php/
+# **Artificial Intelligence with PHP**
+
+## **AI with PHP**
+
+This book will try to explain the basics of Artificial Intelligence and Machine Learning in a way that’s easy to understand.
+
+The official website version of this book: <https://apphp.gitbook.io/artificial-intelligence-with-php>
+
+## **Introduction**
+
+This book will try to explain the basics of Artificial Intelligence and Machine Learning in a way that’s easy to understand. All the formulas, ideas, and code examples will be shown using PHP, so you can learn and apply the concepts step by step. PHP has been a leader in web development for decades, but its potential for artificial intelligence remains unexplored. We'll try to put PHP at the center of our learning, giving you the chance to explore how this powerful language can be used to build intelligent systems.
+
+## **Installation**
+
+To install Project Title, follow these steps:
+
+1. Clone the repository: **`git clone https://github.com/username/project-title.git`**
+2. Navigate to the project directory: **`cd ai-with-php-book`**
+3. Open the project in any Markdown Reader
+
+## **Usage**
+
+To use Project Title, follow these steps:
+
+1. Open the project in your favorite Markdown editor.
+2. Modify the source code to fit your needs.
+3. Use the project as desired according to the license rules. 
+4. Don't use the material for commercial purposes!
+
+## **Contributing**
+
+If you'd like to contribute to Project Title, here are some guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes.
+4. Write tests to cover your changes.
+5. Run the tests to ensure they pass.
+6. Commit your changes.
+7. Push your changes to your forked repository.
+8. Submit a pull request.
+
+## **License**
+
+Project Title is released under the CC BY-NC (Attribution-NonCommercial) License. See the **[LICENSE](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)** file for details.
+
+## **Authors and Acknowledgment**
+
+Project Title was created by **[Samuel Akopyan](https://github.com/apphp)**.
+
+## **Changelog**
+
+- **0.1.0:** Initial release
+
+## **Contact**
+
+If you have any questions or comments about AI with PHP, please contact Samuel Akopyan **<leumas.a@gmail.com>**.
+
+## **Conclusion**
+
+Let's Make the AI ​​World More PHP Friendly
