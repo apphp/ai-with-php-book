@@ -1,4 +1,4 @@
-# Coding in PHP
+# Implementation in PHP ?..
 
 ### Coding Linear Regression in PHP
 
@@ -13,7 +13,7 @@ Using Rubix ML, we’ll set up a simple example that predicts housing prices bas
 For this example, let’s use a small dataset with square footage and price.
 
 ```php
-phpCopy codeuse Rubix\ML\Datasets\Labeled;
+use Rubix\ML\Datasets\Labeled;
 use Rubix\ML\Regressors\Ridge;
 use Rubix\ML\CrossValidation\Metrics\MeanSquaredError;
 
@@ -65,9 +65,11 @@ Result:
 
 ..........
 
-All code:
+Fill code
 
 ...........
+
+Code source:&#x20;
 
 
 
@@ -78,7 +80,7 @@ In **PHP-ML**, the process is similar. We’ll use the **Linear Regression** cla
 #### **Step 1: Prepare the Data**
 
 ```php
-phpCopy codeuse Phpml\Regression\LeastSquares;
+use Phpml\Regression\LeastSquares;
 
 // Training data
 $samples = [
@@ -110,9 +112,11 @@ Result:
 
 ..........
 
-All code:
+Full code:
 
 ...........
+
+Code source:&#x20;
 
 
 
