@@ -133,7 +133,7 @@
   * [Classification of ML Algorithms](machine-learning/ml-algorithms/classification-of-ml-algorithms/README.md)
     * [By Types](machine-learning/ml-algorithms/classification-of-ml-algorithms/by-types.md)
     * [By Tasks Resolved](machine-learning/ml-algorithms/classification-of-ml-algorithms/by-tasks-resolved.md)
-    * [By Methods Used](machine-learning/ml-algorithms/classification-of-ml-algorithms/by-methods-used.md)
+    * [By Methods Used](machine-learning/ml-algorithms/classification-of-ml-algorithms/by-methods-used-...md)
     * [By Feature Types](machine-learning/ml-algorithms/classification-of-ml-algorithms/by-feature-types.md)
   * [Supervised Learning](machine-learning/ml-algorithms/supervised-learning/README.md)
     * [Regression](machine-learning/ml-algorithms/supervised-learning/regression/README.md)
