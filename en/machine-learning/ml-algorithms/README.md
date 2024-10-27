@@ -6,7 +6,7 @@ Machine learning algorithms represent the cornerstone of artificial intelligence
 
 <div align="left">
 
-<figure><img src="https://files.oaiusercontent.com/file-X9cGQkIPp8DrjRXAQCWDWmmO?se=2024-10-26T19%3A38%3A10Z&#x26;sp=r&#x26;sv=2024-08-04&#x26;sr=b&#x26;rscc=max-age%3D604800%2C%20immutable%2C%20private&#x26;rscd=attachment%3B%20filename%3Df0485385-3275-4f72-a1a8-eb49a8a8580f.webp&#x26;sig=7mcPo7fLjf8xnOVF0rCiUm47MIyyshX7KJ7wxSAdGRc%3D" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>ML Algorithms</p></figcaption></figure>
 
 </div>
 

@@ -6,7 +6,7 @@ Artificial Intelligence is increasingly being used in criminal justice systems t
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption><p>AI in Criminal Justice</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Criminal Justice</p></figcaption></figure>
 
 </div>
 

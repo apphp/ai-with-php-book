@@ -12,7 +12,7 @@ Supervised learning is the most common type of machine learning. In this approac
 
 Algorithms that learn from labeled data, where each example has input data and a corresponding label.
 
-*   TASK (Regression):
+*   Regression:
 
     * Linear Regression
     * Polynomial Regression
@@ -23,7 +23,7 @@ Algorithms that learn from labeled data, where each example has input data and a
     * Bayesian Linear Regression:
 
 
-*   TASK (Classification):
+*   Classification:
 
     * Logistic Regression (combines statistical principles with machine learning techniques !!!!)
     * Decision Trees
@@ -33,13 +33,13 @@ Algorithms that learn from labeled data, where each example has input data and a
     * Neural Networks
 
 
-*   TASK ( (both Regression & Classification))
+*   Both Regression & Classification
 
-    * Boosting - (both Regression & Classification)
-    * Gradient Boosting - (both Regression & Classification)
-    * Bagging - (Bootstrap Aggregation)(both Regression & Classification)
+    * Boosting
+    * Gradient Boosting
+    * Bagging - (Bootstrap Aggregation)
     * Stacking
 
 
-* TAKS (Optimization, hyperparameter tuning)
+* Optimization, Hyperparameter Tuning
   * Bayesian Optimization&#x20;
