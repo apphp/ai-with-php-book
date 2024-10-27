@@ -124,36 +124,3 @@ A = [[ 0,  1],
 # Property: Aᵢⱼ = -Aⱼᵢ
 ```
 
-### Practical Applications
-
-#### 1. Stress Tensor in Physics
-
-```python
-# 3D stress tensor
-σ = [[σxx, σxy, σxz],
-     [σyx, σyy, σyz],
-     [σzx, σzy, σzz]]
-
-# Symmetric property: σᵢⱼ = σⱼᵢ
-```
-
-#### 2. Moment of Inertia Tensor
-
-```python
-# Moment of inertia tensor for a rigid body
-I = [[Ixx, -Ixy, -Ixz],
-     [-Ixy, Iyy, -Iyz],
-     [-Ixz, -Iyz, Izz]]
-```
-
-#### 3. Machine Learning Example
-
-```python
-# 4D tensor for batch of images
-# Shape: [batch_size, height, width, channels]
-images_tensor = np.zeros((32, 256, 256, 3))
-
-# Convolutional kernel (4D tensor)
-# Shape: [kernel_height, kernel_width, in_channels, out_channels]
-kernel = np.zeros((3, 3, 3, 64))
-```

@@ -10,11 +10,11 @@ Machine Learning algorithms can be categorized into several distinct types based
 
 </div>
 
-### Classification of Algorithms: **Types, Tasks, and Methods**
+### Classification of Algorithms: by **Types, by Tasks, and by Methods**
 
 In machine learning and artificial intelligence, algorithms are categorized by their type, the tasks they aim to accomplish, and the methods they use. This classification system helps practitioners choose the most suitable approach for specific problems, leading to better data-driven decisions and improved outcomes. Below, we explore the meaning behind these categories and what they encompass.
 
-### 1. **Types of Algorithms**
+### 1. By **Types of Algorithms**
 
 Types of algorithms refer to how each algorithm learns from data and interacts with its environment. They dictate the way algorithms are trained and the data requirements needed for learning.
 
@@ -24,7 +24,7 @@ Types of algorithms refer to how each algorithm learns from data and interacts w
 * **Reinforcement Learning:** Reinforcement learning focuses on learning by trial and error. Algorithms make sequential decisions in an environment to maximize cumulative rewards over time, learning from feedback on their actions. It’s ideal for applications in **policy control**, **robotics**, **game AI**, and other scenarios where an agent needs to learn optimal actions through experience.
 * **Distributed Learning:** Distributed learning is designed to process and analyze large datasets by distributing the workload across multiple computers or processors. This type is essential for **big data** tasks and scenarios that require significant computational power, such as **real-time image processing**, **large-scale natural language processing**, and other tasks requiring high computational efficiency.
 
-### 2. **Tasks Resolved by Algorithms**
+### 2. By **Tasks Resolved by Algorithms**
 
 The task an algorithm resolves is essentially the goal or outcome it seeks to achieve. The task type is often linked to the data type and problem requirements.
 
@@ -39,7 +39,7 @@ The task an algorithm resolves is essentially the goal or outcome it seeks to ac
 * **Ranking & Recommendations:** Algorithms that resolve ranking and recommendation tasks help to suggest items based on preferences or relevance. Commonly used in e-commerce and streaming services, they personalize recommendations for users by analyzing historical data.
 * **Text & Image Processing:** Text and image processing algorithms interpret and transform text or visual data, central to **natural language processing (NLP)** and **computer vision** tasks. Examples include text translation, sentiment analysis, object detection, and facial recognition.
 
-### 3. **Methods Used in Algorithms**
+### 3. By **Methods Used in Algorithms**
 
 The methods used in algorithms refer to the foundational techniques and approaches that drive how algorithms work. These methods provide a structured way to analyze and solve complex problems based on the nature of the data and the problem requirements.
 
@@ -47,5 +47,26 @@ The methods used in algorithms refer to the foundational techniques and approach
 * **Heuristic Approaches:** Heuristic methods rely on rules or shortcuts to find solutions more efficiently, particularly useful when exact solutions are too time-consuming or computationally intensive. Heuristics are commonly used in **search algorithms**, **optimization problems**, and decision-making tasks.
 * **Ensemble Techniques:** Ensemble methods combine multiple algorithms to improve overall accuracy and robustness. Popular ensemble methods include **random forests**, which aggregate results from multiple decision trees, and **gradient boosting**, which iteratively improves predictions. These techniques are especially effective for classification and regression tasks where accuracy is critical.
 * **Bayesian Methods:** Bayesian methods use probability and Bayesian inference to make predictions and update them dynamically as new data arrives. They are widely used in tasks requiring **real-time updates**, like spam filtering, recommendation systems, and medical diagnosis, where ongoing learning is beneficial.
+* **Deep Learning Methods:**  Deep learning methods are a subset of machine learning that use neural networks with multiple layers (deep neural networks) to learn complex patterns in data. These methods are particularly powerful for tasks with large amounts of unstructured data, like images or audio.
+* **Reinforcement Learning Methods:** Reinforcement learning (RL) methods involve training an agent to make sequential decisions by rewarding desirable actions and penalizing undesirable ones. The agent learns a policy that maximizes cumulative reward, making RL suitable for tasks requiring adaptive behavior in dynamic environments.
+* **Evolutionary Algorithms Methods:** Inspired by the process of natural selection, evolutionary algorithms use mechanisms like selection, mutation, and crossover to optimize solutions. These methods are especially useful in optimization problems where traditional approaches may not work well.
+* **Dimensionality Reduction Techniques:** Dimensionality reduction techniques are used to simplify data by reducing the number of features while retaining important information. This helps in visualizing data and improving model efficiency, especially with high-dimensional datasets.
+
+### 3. By **Feature Types Used for Algorithms**
+
+* **Numerical Features:** Numerical features are continuous or discrete values, such as height, age, or temperature. Algorithms that work well with numerical data often assume that feature values have meaningful magnitudes and distances between them.
+* **Categorical Features:** Categorical features represent discrete values or labels, such as colors (red, green, blue) or job titles (engineer, doctor, teacher). Many algorithms can handle categorical features directly, while others require encoding techniques, like one-hot encoding, to convert categories into numerical values.
+* **Textual Features:** Text features require specialized algorithms that can process and interpret language data, such as words, sentences, or entire documents. NLP algorithms are designed to work with text by converting it into vectorized or embedded forms.
+* **Image-Based Features:** Image-based features are complex and high-dimensional, requiring specialized algorithms that can extract patterns from pixel data, such as edges, colors, and textures
+* **Time-Series Features:** Time-series features are sequences of data points collected or recorded at successive times, often equally spaced. Examples include stock prices, weather measurements, and sensor readings.
+*   **Graph-Based Features:** Graph-based features involve data represented as nodes and edges, often with relationships or dependencies between data points, such as social networks or molecular structures.
+
+
+
+Graph-based features involve data represented as nodes and edges, often with relationships or dependencies between data points, such as social networks or molecular structures.
+
+
+
+
 
 This structured approach improves the effectiveness of machine learning models, enhances decision-making, and supports a wide range of applications, from business analytics to complex scientific research. Each algorithm that we'll learn will be reviewed under following: which type it belongs, what tasks it resolves, which method it uses and which type of features it needs.
