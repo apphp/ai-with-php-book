@@ -2,12 +2,6 @@
 
 In the realm of artificial intelligence and machine learning, data is the lifeblood that powers intelligent systems. As we delve into AI development with PHP, understanding the various types and formats of data becomes crucial. This chapter explores the diverse landscape of data structures and representations commonly encountered in AI applications.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption><p>Data Types and Formats</p></figcaption></figure>
-
-</div>
-
 Data in AI comes in many shapes and sizes, each with its own characteristics, strengths, and challenges. From the structured rows and columns of traditional databases to the unstructured chaos of natural language text and media files, AI systems must be adept at handling a wide spectrum of data types. Moreover, the format in which this data is stored and transmitted plays a vital role in the efficiency and effectiveness of our AI algorithms.
 
 In this chapter, we'll explore:

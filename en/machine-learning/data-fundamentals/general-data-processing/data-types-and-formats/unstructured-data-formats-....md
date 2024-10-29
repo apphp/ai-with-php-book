@@ -10,7 +10,7 @@ Unstructured data lacks a predefined data model or organization. It's often text
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (101).png" alt="" width="104"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (101).png" alt="" width="104"><figcaption></figcaption></figure>
 
 </div>
 
@@ -34,7 +34,7 @@ $word_count = count($words);
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (102).png" alt="" width="103"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (102).png" alt="" width="103"><figcaption></figcaption></figure>
 
 </div>
 
@@ -58,7 +58,7 @@ $height = imagesy($image);
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (103).png" alt="" width="105"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (103).png" alt="" width="105"><figcaption></figcaption></figure>
 
 </div>
 
@@ -83,7 +83,7 @@ $duration = $file_info['playtime_seconds'];
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (104).png" alt="" width="102"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (104).png" alt="" width="102"><figcaption></figcaption></figure>
 
 </div>
 

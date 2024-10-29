@@ -12,7 +12,7 @@ Artificial Intelligence can be grouped based on two main factors: what it can do
 
 ### Type 1: Based on Capabilities
 
-1\. **Weak AI** (Narrow AI): This is AI that focuses on doing one specific task well. For example, Apple’s Siri is great at understanding voice commands, but it can’t do much outside of that. Other examples are self-driving cars or image recognition on your phone. IBM’s Watson is another example—it can analyze data and provide insights but only within certain limits.
+1\. **Weak AI** (Narrow AI): This is AI that focuses on doing one specific task well. For example, Apple’s Siri is great at understanding voice commands, but it can’t do much outside of that. Other examples are self-driving cars or image recognition on your phone. IBM’s **Watson** is another example—it can analyze data and provide insights but only within certain limits.
 
 2\. **General AI** (Strong AI): This type of AI would be able to think and learn like a human, doing any task a person can do. But, as of now, such AI doesn’t exist, and researchers are still working on it.
 
@@ -20,7 +20,7 @@ Artificial Intelligence can be grouped based on two main factors: what it can do
 
 ### Type 2: Based on Functionality
 
-1\. **Reactive Machines**: These are the simplest form of AI. They respond to specific situations based on their programming, without using past experiences. Examples include IBM’s chess-playing computer Deep Blue and Google’s AlphaGo.
+1\. **Reactive Machines**: These are the simplest form of AI. They respond to specific situations based on their programming, without using past experiences. Examples include IBM’s chess-playing computer **Deep Blue** and Google’s **AlphaGo**.
 
 2\. **Limited Memory AI**: These machines can use past data for a short period to help them make decisions. A good example is self-driving cars, which use recent data to navigate the roads safely.
 

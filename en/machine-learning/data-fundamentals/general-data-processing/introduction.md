@@ -4,12 +4,6 @@
 
 As artificial intelligence continues to revolutionize various industries, the role of efficient data management becomes increasingly crucial. This is especially true when developing AI applications using PHP, a versatile language well-suited for web-based AI solutions. In this section, we'll explore the fundamentals of data management for AI in PHP and why it's so important for successful AI implementations.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="375"><figcaption><p>Introduction to Data Fundamentals</p></figcaption></figure>
-
-</div>
-
 ### Importance of Efficient Data Handling in AI Applications
 
 Efficient data handling is the backbone of any successful AI application. Here's why it's so critical:

@@ -73,7 +73,7 @@ How readily the data can be queried and retrieved.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (54).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -83,7 +83,7 @@ The adaptability of the data structure to changing requirements.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (55).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -93,7 +93,7 @@ How easily machines can process and understand the data without human interventi
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (56).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (56).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

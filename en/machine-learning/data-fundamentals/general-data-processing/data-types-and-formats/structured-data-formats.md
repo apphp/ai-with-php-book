@@ -10,7 +10,7 @@ Structured data formats organize information in a predefined manner, making it e
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (92).png" alt="" width="102"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (92).png" alt="" width="102"><figcaption></figcaption></figure>
 
 </div>
 
@@ -77,7 +77,7 @@ Array
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (91).png" alt="" width="104"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (91).png" alt="" width="104"><figcaption></figcaption></figure>
 
 </div>
 
@@ -144,7 +144,7 @@ Array
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (90).png" alt="" width="102"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (90).png" alt="" width="102"><figcaption></figcaption></figure>
 
 </div>
 
@@ -216,7 +216,7 @@ SimpleXMLElement Object
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (89).png" alt="" width="103"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (89).png" alt="" width="103"><figcaption></figcaption></figure>
 
 </div>
 
@@ -276,7 +276,7 @@ City: London
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (87).png" alt="" width="103"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (87).png" alt="" width="103"><figcaption></figcaption></figure>
 
 </div>
 
@@ -305,7 +305,7 @@ $dataset = $file->getDataset('mydata');
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (88).png" alt="" width="101"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (88).png" alt="" width="101"><figcaption></figcaption></figure>
 
 </div>
 
@@ -513,7 +513,7 @@ Data: Array
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (94).png" alt="" width="102"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (94).png" alt="" width="102"><figcaption></figcaption></figure>
 
 </div>
 
