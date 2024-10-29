@@ -26,7 +26,7 @@
   * [ИИ в робототехнике](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-robototekhnike.md)
   * [ИИ в сфере развлечений](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-sfere-razvlechenii.md)
   * [ИИ в сельском хозяйстве](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-selskom-khozyaistve.md)
-  * [New Page](iskusstvennyi-intellekt/oblasti-primeneniya/new-page.md)
+  * [ИИ в электронной коммерции](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-elektronnoi-kommercii.md)
 * [Агенты в ИИ](iskusstvennyi-intellekt/agenty-v-ii/README.md)
   * [Введение в ИИ агенты](iskusstvennyi-intellekt/agenty-v-ii/vvedenie-v-ii-agenty.md)
 
