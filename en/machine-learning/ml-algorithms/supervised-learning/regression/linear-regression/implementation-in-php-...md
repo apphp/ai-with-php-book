@@ -65,6 +65,10 @@ Result:
 
 ..........
 
+Chart ??? is it possible some how? , may be chartjs ????
+
+..........
+
 Fill code
 
 ...........
@@ -111,6 +115,10 @@ echo "Predicted Price: $" . round($predictedPrice, 2);
 Result:
 
 ..........
+
+Chart ??? is it possible some how? , may be chartjs ????
+
+...............
 
 Full code:
 

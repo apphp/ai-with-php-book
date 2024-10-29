@@ -6,7 +6,7 @@ To understand the structure of an AI agent, it's essential to grasp the concepts
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Structure of AI Agent</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption><p>Structure of AI Agent</p></figcaption></figure>
 
 </div>
 

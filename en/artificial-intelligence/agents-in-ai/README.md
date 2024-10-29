@@ -4,6 +4,6 @@ Imagine a world where machines aren’t just following commands, but are activel
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption><p>Agents in AI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption><p>Agents in AI</p></figcaption></figure>
 
 </div>

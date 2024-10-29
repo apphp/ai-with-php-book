@@ -6,7 +6,7 @@ Artificial Intelligence is playing an increasingly important role in software de
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="375"><figcaption><p>AI in Software Development</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="375"><figcaption><p>AI in Software Development</p></figcaption></figure>
 
 </div>
 

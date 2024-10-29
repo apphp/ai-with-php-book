@@ -6,7 +6,7 @@ In simple terms, an AI agent is a system that interacts with its environment thr
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption><p>Introduction to AI Agents</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="375"><figcaption><p>Introduction to AI Agents</p></figcaption></figure>
 
 </div>
 

@@ -6,7 +6,7 @@ Artificial Intelligence (AI) is rapidly transforming the military domain by enha
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="375"><figcaption><p>AI in Military Domain</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="375"><figcaption><p>AI in Military Domain</p></figcaption></figure>
 
 </div>
 

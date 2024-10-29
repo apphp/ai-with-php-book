@@ -4,7 +4,7 @@ AI agents are transforming a wide range of industries by automating tasks, optim
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Application of Agents in AI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>Application of Agents in AI</p></figcaption></figure>
 
 </div>
 
