@@ -31,7 +31,7 @@ Not all agents are the same. They can be classified by their behavior:
 
 The environment plays a crucial role too. It could be fixed (like a chessboard where rules don’t change) or dynamic (like real-world traffic, where conditions shift constantly).
 
-### Single vs. Multi-Agent Systems
+### Single vs. Multi-Agent Systems (MAS)
 
 Agents can work alone or team up. In single-agent systems, the agent only focuses on achieving its own goal. However, in multi-agent systems, agents cooperate or compete to reach a common objective, like swarms of drones working together in rescue missions or players in an online game coordinating strategies.
 
