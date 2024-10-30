@@ -4,7 +4,7 @@ In the design of AI agents, architecture is crucial in determining how an agent 
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption><p>AI Agent Architecture</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI Agent Architecture</p></figcaption></figure>
 
 </div>
 
