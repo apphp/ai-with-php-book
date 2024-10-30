@@ -45,4 +45,4 @@
     * [Ближайшие годы](mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/blizhaishie-gody.md)
   * [Ключевые принципы](mashinnoe-obuchenie/obzor-mo/klyuchevye-principy.md)
   * [Проблемы и вызовы](mashinnoe-obuchenie/obzor-mo/problemy-i-vyzovy.md)
-  * [PageЖизненный цикл машинного обучения](mashinnoe-obuchenie/obzor-mo/pagezhiznennyi-cikl-mashinnogo-obucheniya.md)
+  * [Жизненный цикл машинного обучения](mashinnoe-obuchenie/obzor-mo/zhiznennyi-cikl-mashinnogo-obucheniya.md)
