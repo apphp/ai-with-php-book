@@ -12,7 +12,10 @@
 * [Introduction](artificial-intelligence/introduction.md)
 * [History of AI](artificial-intelligence/visionaries-and-innovators.md)
 * [Structure of AI](artificial-intelligence/structure-of-ai.md)
-* [Types of AI](artificial-intelligence/types-of-ai.md)
+* [Types of AI](artificial-intelligence/types-of-ai/README.md)
+  * [Reactive AI](artificial-intelligence/types-of-ai/reactive-ai.md)
+  * [Limited Memory AI](artificial-intelligence/types-of-ai/limited-memory-ai.md)
+  * [Theory of Mind AI ?..](artificial-intelligence/types-of-ai/theory-of-mind-ai-...md)
 * [How Does AI Work?](artificial-intelligence/how-does-ai-work.md)
 * [Application of AI](artificial-intelligence/applications-of-ai/README.md)
   * [AI in Astronomy](artificial-intelligence/applications-of-ai/ai-in-astronomy.md)
@@ -44,7 +47,7 @@
   * [Challenges in AI Agent Development](artificial-intelligence/agents-in-ai/challenges-in-ai-agent-development.md)
   * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
   * [Turing Test in AI](artificial-intelligence/agents-in-ai/turing-test-in-ai.md)
-  * [Conclusion](artificial-intelligence/agents-in-ai/conclusion.md)
+  * [Conclusion ?..](artificial-intelligence/agents-in-ai/conclusion-...md)
 
 ## Machine Learning
 
