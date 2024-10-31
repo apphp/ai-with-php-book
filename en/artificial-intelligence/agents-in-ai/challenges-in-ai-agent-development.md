@@ -4,7 +4,7 @@ In the evolving landscape of artificial intelligence, AI agent development faces
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Challenges in AI Agent Development</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Challenges in AI Agent Development</p></figcaption></figure>
 
 </div>
 
