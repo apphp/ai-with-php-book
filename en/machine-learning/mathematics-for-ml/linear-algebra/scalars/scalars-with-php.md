@@ -148,8 +148,6 @@ echo "\n";
 
 </details>
 
-Run this code by yourself:
-
-{% embed url="https://onlinephp.io/c/9d4302ab-1add-46f6-83b2-d8b38e897a87" %}
-Scalar Operations
-{% endembed %}
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
