@@ -113,8 +113,7 @@ echo "Cross Product: $v6 × $v7 = $crossProduct\n";
 
 </details>
 
-Run this code by yourself:
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
 
-{% embed url="https://onlinephp.io/c/9d39020b-7048-46bf-af27-a02add1c8513" %}
-Vector Operations
-{% endembed %}
