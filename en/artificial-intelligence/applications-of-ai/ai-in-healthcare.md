@@ -18,6 +18,10 @@ One of the most promising applications of AI in healthcare is in medical imaging
 
 AI analyzes a person's electrocardiogram (ECG), evaluating not only the shape of the ECG waves, their duration and amplitude, but also the frequency of the signal oscillation at each point of the recording. This kind of analysis notices minor changes in the electrical activity of the heart that a person is unable to notice, and determines dysfunction of the heart muscle even before the onset of severe irreversible changes. This also provides unlimited opportunities for remote diagnostics and monitoring of cardiovascular diseases using gadgets without visiting a medical institution.
 
+### Image Analysis
+
+AI automatically analyzes images obtained using magnetic resonance imaging (MRI), computed tomography (CT) and X-rays for pathological changes, increasing the safety of the method, detecting subtle pathologies and dramatically reducing the time of image interpretation.
+
 ### Predicting Disease Progression
 
 AI is also being used to predict the progression of diseases. For instance, **Google’s DeepMind** developed an AI model called **AlphaFold**, which predicts the 3D structure of proteins. Understanding protein folding is key to many diseases, including Alzheimer’s and Parkinson’s. By accurately predicting how proteins fold, AlphaFold provides crucial insights into disease mechanisms, opening the door to new drug discoveries.

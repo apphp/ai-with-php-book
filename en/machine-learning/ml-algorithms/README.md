@@ -6,7 +6,7 @@ Machine learning algorithms represent the cornerstone of artificial intelligence
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>ML Algorithms</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>ML Algorithms</p></figcaption></figure>
 
 </div>
 
