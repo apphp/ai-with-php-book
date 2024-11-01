@@ -68,7 +68,6 @@ CMD ["php-fpm"]
 Create a file named `docker-compose.yml` in your project directory with the following content:
 
 ```yaml
-version: '3'
 services:
   app:
     build:
