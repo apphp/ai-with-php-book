@@ -47,7 +47,7 @@ If you'd like to contribute to AI with PHP, here are some guidelines:
 
 ## **License**
 
-AI with PHP is released under the CC BY-NC (Attribution-NonCommercial) License. See the **<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">LICENSE</a>** file for details.
+AI with PHP is released under the CC BY-NC (Attribution-NonCommercial) License. See the **<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">LICENSE</a>** file for details.
 
 ## **Authors and Acknowledgment**
 
