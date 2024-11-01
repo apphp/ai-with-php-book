@@ -20,7 +20,7 @@ AI analyzes a person's electrocardiogram (ECG), evaluating not only the shape of
 
 ### Image Analysis
 
-AI automatically analyzes images obtained using magnetic resonance imaging (MRI), computed tomography (CT) and X-rays for pathological changes, increasing the safety of the method, detecting subtle pathologies and dramatically reducing the time of image interpretation.
+AI automatically analyzes images obtained using magnetic resonance imaging (MRI), computed tomography (CT) and X-rays for pathological changes, increasing the safety of the method, detecting subtle pathologies and dramatically reducing image interpretation time - from weeks to seconds.
 
 ### Predicting Disease Progression
 
