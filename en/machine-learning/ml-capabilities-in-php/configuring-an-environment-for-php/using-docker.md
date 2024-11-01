@@ -37,7 +37,9 @@ RUN apt-get update && apt-get install -y \
     git \
     libxml2-dev \
     libcurl4-openssl-dev \
-    libpng-dev
+    libpng-dev \
+    libonig-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
 RUN docker-php-ext-install zip pdo_mysql bcmath xml mbstring curl gd
@@ -50,9 +52,6 @@ WORKDIR /var/www
 
 # Copy existing application directory contents
 COPY . /var/www
-
-# Install PHP dependencies
-RUN composer install
 
 # Configure PHP
 RUN echo "memory_limit = 512M" >> /usr/local/etc/php/conf.d/docker-php-ram-limit.ini
