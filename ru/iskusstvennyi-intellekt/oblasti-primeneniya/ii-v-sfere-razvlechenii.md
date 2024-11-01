@@ -6,7 +6,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>ИИ в сфере развлечений</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>ИИ в сфере развлечений</p></figcaption></figure>
 
 </div>
 

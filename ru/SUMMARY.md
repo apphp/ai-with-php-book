@@ -6,6 +6,7 @@
 * [Для кого эта книга](pervye-shagi/dlya-kogo-eta-kniga.md)
 * [Глоссарий](pervye-shagi/glossarii.md)
 * [Участники](pervye-shagi/uchastniki.md)
+* [Как читать эту книгу](pervye-shagi/kak-chitat-etu-knigu.md)
 
 ## Искусственный интеллект
 
