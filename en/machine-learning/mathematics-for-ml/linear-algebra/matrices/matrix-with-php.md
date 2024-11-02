@@ -11,8 +11,6 @@ This class is a PHP implementation of matrix operations commonly used in linear 
 <summary>Example of Class Matrix</summary>
 
 ```php
-<?php
-
 class Matrix {
     private $matrix;
     private $rows;

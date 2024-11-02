@@ -11,8 +11,6 @@ This class is a PHP implementation of scalar operations commonly used in linear 
 <summary>Example of Class <strong>Scalar</strong></summary>
 
 ```php
-<?php
-
 class Scalar
 {
     // Basic Arithmetic Operations

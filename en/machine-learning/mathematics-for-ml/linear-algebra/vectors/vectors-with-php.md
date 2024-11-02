@@ -11,8 +11,6 @@ This class is a PHP implementation of vector operations commonly used in linear 
 <summary>Example of Class Vector</summary>
 
 ```php
-<?php
-
 class Vector {
     private $components;
 
