@@ -17,6 +17,7 @@
   * [Реактивный ИИ](iskusstvennyi-intellekt/tipy-ii/reaktivnyi-ii.md)
   * [ИИ с ограниченной памятью](iskusstvennyi-intellekt/tipy-ii/ii-s-ogranichennoi-pamyatyu.md)
   * [Теория разума ИИ](iskusstvennyi-intellekt/tipy-ii/teoriya-razuma-ii.md)
+  * [ИИ с самосознанием](iskusstvennyi-intellekt/tipy-ii/ii-s-samosoznaniem.md)
 * [Как работает ИИ?](iskusstvennyi-intellekt/kak-rabotaet-ii.md)
 * [Области применения](iskusstvennyi-intellekt/oblasti-primeneniya/README.md)
   * [ИИ в астрономии](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-astronomii.md)
