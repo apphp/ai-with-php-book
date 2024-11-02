@@ -215,7 +215,7 @@ class DatasetGenerator {
 
 </details>
 
-Example of Use:
+**Example of Use:**
 
 ```php
 // Instantiate the DatasetGenerator with an optional buffer size
