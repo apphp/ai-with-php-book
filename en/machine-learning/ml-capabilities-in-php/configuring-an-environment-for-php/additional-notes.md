@@ -1,5 +1,10 @@
 # Additional Notes
 
+### Ready to Use Environment
+
+You may install ready-to-use docker environment with examples:\
+[https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+
 ### Additional Notes on PHP-ML and Rubix ML
 
 1. PHP-ML:
