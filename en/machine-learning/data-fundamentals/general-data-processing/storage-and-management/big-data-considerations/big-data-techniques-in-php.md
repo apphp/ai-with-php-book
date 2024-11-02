@@ -138,11 +138,9 @@ class LogHandler {
 
 </details>
 
-**Example of Usage:**
+**Example of Use:**
 
 ```php
-<?php
-
 $logHandler = new LogHandler();
 $processor = new ChunkedProcessor(1000, '512M', $logHandler);
 
@@ -978,3 +976,6 @@ print_r($stats);
 
 </details>
 
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}

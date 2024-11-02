@@ -8,7 +8,7 @@ This class is a PHP implementation of vector operations commonly used in linear 
 
 <details>
 
-<summary>Class Vector</summary>
+<summary>Example of Class Vector</summary>
 
 ```php
 <?php
@@ -84,7 +84,7 @@ class Vector {
 
 </details>
 
-Example of use:
+**Example of Use:**
 
 ```php
 $v1 = new Vector([2, 3]);

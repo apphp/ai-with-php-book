@@ -8,7 +8,7 @@ This class is a PHP implementation of matrix operations commonly used in linear 
 
 <details>
 
-<summary>Class Matrix</summary>
+<summary>Example of Class Matrix</summary>
 
 ```php
 <?php
@@ -233,7 +233,7 @@ class Matrix {
 
 </details>
 
-Example of use:
+**Example of Use:**
 
 ```php
 $matrix1 = new Matrix([[1, 2], [3, 4]]);

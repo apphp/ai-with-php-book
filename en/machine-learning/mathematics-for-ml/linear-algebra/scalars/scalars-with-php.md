@@ -8,7 +8,7 @@ This class is a PHP implementation of scalar operations commonly used in linear 
 
 <details>
 
-<summary>Class <strong>Scalar</strong></summary>
+<summary>Example of Class <strong>Scalar</strong></summary>
 
 ```php
 <?php
@@ -103,7 +103,7 @@ class Scalar
 
 </details>
 
-Example of use:
+**Example of Use:**
 
 ```php
 $a = 5;
