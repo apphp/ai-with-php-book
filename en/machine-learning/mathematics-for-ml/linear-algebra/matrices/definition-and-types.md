@@ -57,7 +57,7 @@ Example: $$A = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}$$
 
 #### Square matrix:&#x20;
 
-A matrix with an equal number of rows and columns (n × n).&#x20;
+A matrix with an equal number of rows and columns $$(n × n)$$.&#x20;
 
 Example: $$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
 
@@ -69,7 +69,7 @@ Example: $$A = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{bmatrix}
 
 #### Identity matrix:&#x20;
 
-A square matrix with 1s on the main diagonal and 0s elsewhere, usually denoted by I.&#x20;
+A square matrix with 1s on the main diagonal and 0s elsewhere, usually denoted by $$I$$.&#x20;
 
 Example: $$A = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
 
@@ -83,48 +83,24 @@ Example: $$A = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$$
 
 A square matrix that is equal to its transpose $$(A = A^T)$$.&#x20;
 
-Example: $$[1\ 2\ 3] [2\ 4\ 5] [3\ 5\ 6]$$
-
-```
-A = [1 2 3]
-    [2 4 5]
-    [3 5 6]
-```
+Example: $$A = \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 5 \\ 3 & 5 & 6 \end{bmatrix}$$
 
 #### Skew-symmetric matrix:&#x20;
 
 A square matrix A where .&#x20;
 
-Example: $$[0\ 1\ -2] [-1\ 0\ 3] [2\ -3\ 0]$$
-
-```
-A = [0 1 -2]
-    [-1 0 3]
-    [2 -3 0]
-```
+Example: $$A = \begin{bmatrix} 0 & 1 & -2 \\ -1 & 0 & 3 \\ 2 & -3 & 0 \end{bmatrix}$$
 
 #### Upper triangular matrix:&#x20;
 
 A square matrix where all elements below the main diagonal are zero.&#x20;
 
-Example: $$[1\ 2\ 3] [0\ 4\ 5] [0\ 0\ 6]$$
-
-```
-A = [1 2 3]
-    [0 4 5]
-    [0 0 6]
-```
+Example: $$A = \begin{bmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 0 & 0 & 6 \end{bmatrix}$$
 
 #### Lower triangular matrix:&#x20;
 
 A square matrix where all elements above the main diagonal are zero.&#x20;
 
-Example: $$[1\ 0\ 0] [2\ 3\ 0] [4\ 5\ 6]$$
-
-```
-A = [1 0 0]
-    [2 3 0]
-    [4 5 6]
-```
+Example: $$A = \begin{bmatrix} 1 & 0 & 0 \\ 2 & 3 & 0 \\ 4 & 5 & 6 \end{bmatrix}$$
 
 Understanding these types of matrices is crucial for working with more advanced concepts in linear algebra, such as matrix operations, determinants, and eigenvalues
