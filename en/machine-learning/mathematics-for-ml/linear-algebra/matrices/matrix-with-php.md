@@ -1,4 +1,4 @@
-# Matrix with PHP
+# Matrices with PHP
 
 ### Implementation of Matrix Operations with PHP
 
@@ -229,8 +229,13 @@ class Matrix {
         return $result;
     }
 }
+```
 
-// Example usage:
+</details>
+
+Example of use:
+
+```php
 $matrix1 = new Matrix([[1, 2], [3, 4]]);
 $matrix2 = new Matrix([[5, 6], [7, 8]]);
 
@@ -250,11 +255,6 @@ echo "Adjugate Matrix of Matrix 1:\n" . $matrix1->adjugateMatrix()->toString() .
 echo "Inverse of Matrix 1:\n" . $matrix1->inverse()->toString() . "\n";
 ```
 
-</details>
-
-Run this code by yourself:
-
-{% embed url="https://onlinephp.io/c/9d3b032f-4a0d-4b5a-be9f-2d0f7cd70be8" %}
-Matrix Operations
-{% endembed %}
-
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}

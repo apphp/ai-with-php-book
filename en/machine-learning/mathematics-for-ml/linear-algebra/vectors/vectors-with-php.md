@@ -80,8 +80,13 @@ class Vector {
         return '[' . implode(', ', $this->components) . ']';
     }
 }
+```
 
-// Example usage
+</details>
+
+Example of use:
+
+```php
 $v1 = new Vector([2, 3]);
 $v2 = new Vector([1, -1]);
 
@@ -111,9 +116,6 @@ $crossProduct = $v6->crossProduct($v7);
 echo "Cross Product: $v6 × $v7 = $crossProduct\n";
 ```
 
-</details>
-
 {% hint style="info" %}
 To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
 {% endhint %}
-

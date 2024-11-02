@@ -99,8 +99,13 @@ class Scalar
         ];
     }
 }
+```
 
-// Examples
+</details>
+
+Example of use:
+
+```php
 $a = 5;
 $b = 2;
 $vector = [1, 2, 3];
@@ -109,44 +114,22 @@ $angle = M_PI / 4;
 // Arithmetic Operations
 echo "Arithmetic Operations:\n---------\n";
 print_r(Scalar::arithmeticOperations($a, $b));
-echo "\n";
 
 // Scalar-Vector Operations
 echo "Scalar-Vector Multiplication:\n---------\n";
 print_r(Scalar::scalarVectorMultiplication(2, $vector));
-echo "\n";
 
 echo "Scalar-Vector Addition:\n---------\n";
 print_r(Scalar::scalarVectorAddition(2, $vector));
-echo "\n";
 
 // Scalar Functions
 echo "Scalar Functions:\n---------\n";
 print_r(Scalar::scalarFunctions(-3.7));
-echo "\n";
 
 // Trigonometric Operations
 echo "Trigonometric Operations:\n---------\n";
 print_r(Scalar::trigonometricOperations($angle));
-echo "\n";
-
-// Random Number Generation
-echo "Random Number Generation:\n---------\n";
-print_r(v::randomNumbers());
-echo "\n";
-
-// Comparison Operations
-echo "Comparison Operations:\n---------\n";
-print_r(v::comparisonOperations($a, $b));
-echo "\n";
-
-// Bitwise Operations
-echo "Bitwise Operations:\n---------\n";
-print_r(Scalar::bitwiseOperations($a, $b));
-echo "\n";
 ```
-
-</details>
 
 {% hint style="info" %}
 To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
