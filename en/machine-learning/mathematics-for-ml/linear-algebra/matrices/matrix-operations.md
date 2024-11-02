@@ -20,9 +20,10 @@ Understanding these properties helps in optimizing computations and designing ef
 
 Unlike scalar multiplication, matrix multiplication is not commutative. In general, $$AB ≠ BA$$.
 
-**Example**: $$A = [1\ 2]$$, $$B = [5\ 6] [3\ 4] [7\ 8]$$
+**Example**: $$A = \begin{bmatrix} 1 & 2 \end{bmatrix}$$, $$B = \begin{bmatrix} 5 & 6 \\ 3 & 4 \\ 7 & 8 \end{bmatrix}$$
 
-$$AB = [19\ 22] ≠ BA = [23\ 34] [43\ 50] [31\ 46]$$
+$$AB = \begin{bmatrix} 19 & 22 \end{bmatrix} \neq BA = \begin{bmatrix} 23 & 34 \\ 43 & 50 \\ 31 & 46 \end{bmatrix}$$\
+
 
 ML Application: The order of operations matters in neural network computations. For instance, applying activation functions before or after matrix multiplication can lead to different results.
 
@@ -36,7 +37,7 @@ ML Application: This property allows for optimizing computations in deep neural 
 
 **3. Distributivity of Matrix Multiplication over Addition**
 
-$$A(B + C) = AB + AC and (A + B)C = AC + BC$$ for matrices with compatible dimensions.
+$$A(B + C) = AB + AC$$ and $$(A + B)C = AC + BC$$ for matrices with compatible dimensions.
 
 **Example**: $$A * (B + C) = (A * B) + (A * C)$$
 
@@ -46,12 +47,9 @@ ML Application: This property is useful in backpropagation when computing gradie
 
 Matrix addition and subtraction are performed element-wise between matrices of the same dimensions.
 
-**Examples** (2x2 matrices):
+**Examples** (2 x 2 matrices):
 
-```
-A = [1 2]    B = [5 6]     A + B = [6 8]
-    [3 4]        [7 8]             [10 12]
-```
+$$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$$  then  $$A + B = \begin{bmatrix} 1 + 5 & 2 + 6 \\ 3 + 7 & 4 + 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}$$
 
 <details>
 
@@ -64,7 +62,7 @@ Step 1: Add corresponding elements
 * $$(2,1): 3 + 7 = 10$$
 * $$(2,2): 4 + 8 = 12$$
 
-Step 2: Write the result $$A + B = [6\ 8] [10\ 12]$$
+Step 2: Write the result $$A + B = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}$$
 
 </details>
 
