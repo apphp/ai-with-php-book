@@ -58,17 +58,13 @@ Momentum:        p = [px, py, pz]
 
 * **Definition**: Two indices needed
 * **Notation**: $$Mᵢⱼ$$ or $$M[i,j]$$
-* **Examples**:
-
-```
-Stress tensor: σᵢⱼ = [σxx σxy σxz]
-                     [σyx σyy σyz]
-                     [σzx σzy σzz]
-
-Inertia tensor: I = [Ixx Ixy Ixz]
-                    [Iyx Iyy Iyz]
-                    [Izx Izy Izz]
-```
+* **Examples**:\
+  \
+  Stress tensor:\
+  $$\sigma_{ij} = \begin{bmatrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \\ \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \\ \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{bmatrix}$$\
+  \
+  Inertia tensor:\
+  $$I_{ij} = \begin{bmatrix} I_{xx} & I_{xy} & I_{xz} \\ I_{yx} & I_{yy} & I_{yz} \\ I_{zx} & I_{zy} & I_{zz} \end{bmatrix}$$
 
 **d. 3-Dimensional Tensor**
 

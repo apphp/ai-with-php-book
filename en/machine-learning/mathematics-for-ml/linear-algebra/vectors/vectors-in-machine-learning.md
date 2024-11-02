@@ -27,9 +27,7 @@ Feature engineering involves crafting and selecting the right features to improv
 
 Beyond data and feature vectors, machine learning algorithms themselves use vectors to represent weights. Weight vectors are essential in defining the influence of each feature on the output of the model. For example, in linear regression, the model predicts an output (y) based on an input feature vector $$\mathbf{x}$$ and a weight vector $$\mathbf{w}$$ as follows:
 
-$$
-y = \mathbf{w} \cdot \mathbf{x} + b
-$$
+&#x20;$$y = \mathbf{w} \cdot \mathbf{x} + b$$
 
 where $$b$$ is the bias term. The model learns the optimal weight vector during training by minimizing a loss function, which measures the difference between the predicted and actual outputs.
 
