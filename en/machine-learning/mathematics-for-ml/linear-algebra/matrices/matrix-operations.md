@@ -49,7 +49,7 @@ Matrix addition and subtraction are performed element-wise between matrices of t
 
 **Examples** (2 x 2 matrices):
 
-$$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$$  then  $$A + B = \begin{bmatrix} 1 + 5 & 2 + 6 \\ 3 + 7 & 4 + 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}$$
+Given: $$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$$  then  $$A + B = \begin{bmatrix} 1 + 5 & 2 + 6 \\ 3 + 7 & 4 + 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}$$
 
 <details>
 
@@ -66,10 +66,7 @@ Step 2: Write the result $$A + B = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix
 
 </details>
 
-```
-A = [1 2]    B = [5 6]     A - B = [-4 -2]
-    [7 8]        [3 4]             [4 4]
-```
+Given: $$A = \begin{bmatrix} 1 & 2 \\ 7 & 8 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 3 & 4 \end{bmatrix}$$ then $$A - B = \begin{bmatrix} 1 - 5 & 2 - 6 \\ 7 - 3 & 8 - 4 \end{bmatrix} = \begin{bmatrix} -4 & -2 \\ 4 & 4 \end{bmatrix}$$
 
 <details>
 
@@ -82,29 +79,29 @@ Step 1: Add corresponding elements
 * $$(2,1): 7 - 3 = 4$$
 * $$(2,2): 8 -4 = 4$$
 
-Step 2: Write the result $$A - B = [-4\ -2] [4\ 4]$$
+Step 2: Write the result $$A - B = \begin{bmatrix} -4 & -2 \\ 4 & 4 \end{bmatrix}$$
 
 </details>
 
 **Example in ML**: Updating weights in neural networks. In gradient descent, we update parameters by subtracting the gradient multiplied by the learning rate:
 
-```
-W = [0.1 0.2]  gradient = [0.01 0.02]  learning_rate = 0.1
-    [0.3 0.4]             [0.03 0.04]
+$$W = \begin{bmatrix} 0.1 & 0.2 \\ 0.3 & 0.4 \end{bmatrix}, \quad \text{gradient} = \begin{bmatrix} 0.01 & 0.02 \\ 0.03 & 0.04 \end{bmatrix}, \quad \text{learning rate} = 0.1$$&#x20;
 
-W_new = W - learning_rate * gradient
+$$W_{\text{new}} = W - (\text{learning rate} \times \text{gradient})$$&#x20;
 
-W_new = [0.1 0.2] - 0.1 * [0.01 0.02] = [0.099 0.198]
-        [0.3 0.4]         [0.03 0.04]   [0.297 0.396]
-```
+$$W_{\text{new}} = \begin{bmatrix} 0.1 & 0.2 \\ 0.3 & 0.4 \end{bmatrix} - 0.1 \cdot \begin{bmatrix} 0.01 & 0.02 \\ 0.03 & 0.04 \end{bmatrix} = \begin{bmatrix} 0.099 & 0.198 \\ 0.297 & 0.396 \end{bmatrix}$$
 
 <details>
 
 <summary>Step by step explanation</summary>
 
-Step 1: Multiply gradient by learning rate $$0.1 * [0.01\ 0.02] = [0.001\ 0.002] [0.03\ 0.04] [0.003\ 0.004]$$
+Step 1: Multiply gradient by learning rate
 
-Step 2: Subtract from $$W [0.1\ 0.2 ] - [0.001\ 0.002] = [0.099\ 0.198] [0.3\ 0.4 ] [0.003\ 0.004] [0.297\ 0.396]$$
+$$0.1 \cdot \begin{bmatrix} 0.01 & 0.02 \\ 0.03 & 0.04 \end{bmatrix} = \begin{bmatrix} 0.001 & 0.002 \\ 0.003 & 0.004 \end{bmatrix}$$
+
+Step 2: Subtract from&#x20;
+
+$$\begin{bmatrix} 0.1 & 0.2 \\ 0.3 & 0.4 \end{bmatrix} - \begin{bmatrix} 0.001 & 0.002 \\ 0.003 & 0.004 \end{bmatrix} = \begin{bmatrix} 0.099 & 0.198 \\ 0.297 & 0.396 \end{bmatrix}$$
 
 </details>
 
@@ -116,12 +113,13 @@ Example (3x3 matrix):
 
 Let's multiply a 3x3 matrix by a scalar:
 
-```
-k = 2
-A = [1 2 3]    k * A = [2 4 6]
-    [4 5 6]            [8 10 12]
-    [7 8 9]            [14 16 18]
-```
+Given:
+
+$$k = 2, \quad A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$
+
+Then,
+
+$$k \cdot A = 2 \cdot \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix} = \begin{bmatrix} 2 & 4 & 6 \\ 8 & 10 & 12 \\ 14 & 16 & 18 \end{bmatrix}$$
 
 <details>
 
@@ -139,7 +137,7 @@ Step 1: Multiply each element by $$k$$
 * $$(3,2): 2 * 8 = 16$$
 * $$(3,3): 2 * 9 = 18$$
 
-Step 2: Write the result $$A = [2\ 4\ 6] [8\ 10\ 12] [14\ 16\ 18]$$
+Step 2: Write the result $$A = \begin{bmatrix} 2 & 4 & 6 \\ 8 & 10 & 12 \\ 14 & 16 & 18 \end{bmatrix}$$
 
 </details>
 
@@ -155,14 +153,15 @@ For two matrices A and B to be multiplied:
 * If A is an $$m × n$$ matrix and B is a $$p × q$$ matrix, then n must equal p.
 * The resulting matrix will have dimensions $$m × q$$.
 
-Example (2x2 matrices):
+Example (2x2 matrices):&#x20;
 
-$$A = [1\ 2], B = [5\ 6]$$&#x20;
+Given:&#x20;
 
-```
-A = [1 2]      B = [5 6]        A * B = [19 22]
-    [3 4]          [7 8]                [43 50]
-```
+$$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$$
+
+Then,&#x20;
+
+$$A \cdot B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \cdot \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}$$
 
 <details>
 
@@ -178,27 +177,31 @@ Step 2: Multiply row 2 of A with columns of B
 * $$(2,1): (35) + (47) = 15 + 28 = 43$$
 * $$(2,2): (36) + (48) = 18 + 32 = 50$$
 
-Step 3: Write the result $$AB = [19\ 22] [43\ 50]$$
+Step 3: Write the result $$AB = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}$$
 
 </details>
 
 **Example in ML**: Forward pass in a neural network layer:
 
-```
-W = [0.1 0.2]  X = [2]  b = [0.1]
-    [0.3 0.4]      [3]      [0.2]
+Given:
 
-Z = W * X + b = [(0.1*2 + 0.2*3)] + [0.1] = [0.8] + [0.1] = [0.9]
-                [(0.3*2 + 0.4*3)]   [0.2]   [1.8]   [0.2]   [2.0]
-```
+$$W = \begin{bmatrix} 0.1 & 0.2 \\ 0.3 & 0.4 \end{bmatrix}, \quad X = \begin{bmatrix} 2 \\ 3 \end{bmatrix}, \quad b = \begin{bmatrix} 0.1 \\ 0.2 \end{bmatrix}$$
+
+Then,
+
+$$Z = W \cdot X + b = \begin{bmatrix} (0.1 \cdot 2 + 0.2 \cdot 3) \\ (0.3 \cdot 2 + 0.4 \cdot 3) \end{bmatrix} + \begin{bmatrix} 0.1 \\ 0.2 \end{bmatrix} = \begin{bmatrix} 0.8 \\ 2.0 \end{bmatrix} + \begin{bmatrix} 0.1 \\ 0.2 \end{bmatrix} = \begin{bmatrix} 0.9 \\ 2.2 \end{bmatrix}$$
 
 <details>
 
 <summary>Step by step explanation</summary>
 
-Step 1: Multiply $$W$$ and $$X [0.1 0.2] * [2] = [(0.12 + 0.23)] [0.3 0.4] [3] [(0.32 + 0.43)] = [0.2 + 0.6] = [0.8] [0.6 + 1.2] [1.8]$$
+Step 1: Multiply $$W$$ and $$X$$&#x20;
 
-Step 2: Add bias b $$[0.8] + [0.1] = [0.9] [1.8] [0.2] [2.0]$$
+$$Z = W \cdot X = \begin{bmatrix} 0.1 & 0.2 \\ 0.3 & 0.4 \end{bmatrix} \cdot \begin{bmatrix} 2 \\ 3 \end{bmatrix} = \begin{bmatrix} (0.1 \cdot 2 + 0.2 \cdot 3) \\ (0.3 \cdot 2 + 0.4 \cdot 3) \end{bmatrix}$$$$Z = W \cdot X = \begin{bmatrix} 0.1 & 0.2 \\ 0.3 & 0.4 \end{bmatrix} \cdot \begin{bmatrix} 2 \\ 3 \end{bmatrix} = \begin{bmatrix} (0.1 \cdot 2 + 0.2 \cdot 3) \\ (0.3 \cdot 2 + 0.4 \cdot 3) \end{bmatrix}$$
+
+Step 2: Add bias b
+
+$$Z = \begin{bmatrix} 0.8 \\ 1.8 \end{bmatrix} + \begin{bmatrix} 0.1 \\ 0.2 \end{bmatrix} = \begin{bmatrix} 0.8 + 0.1 \\ 1.8 + 0.2 \end{bmatrix} = \begin{bmatrix} 0.9 \\ 2.0 \end{bmatrix}$$$$[0.8] + [0.1] = [0.9] [1.8] [0.2] [2.0]$$
 
 </details>
 
