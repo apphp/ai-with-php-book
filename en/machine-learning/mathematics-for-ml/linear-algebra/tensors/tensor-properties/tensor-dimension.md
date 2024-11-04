@@ -10,23 +10,19 @@ For a tensor T, its dimension n is the number of independent indices $$(i₁, i�
 
 #### Mathematical Examples:
 
-```
-Scalar (0D): a
-Vector (1D): aᵢ
-Matrix (2D): aᵢⱼ
-3D Tensor:   aᵢⱼₖ
-```
+* Scalar (0D):  $$a$$
+* Vector (1D):  $$a_i$$
+* Matrix (2D):  $$a_{ij}$$
+* 3D Tensor:  $$a_{ijk}$$&#x20;
 
 #### Real Mathematical Examples:
 
-```
-CopyScalar: 5
-Vector:     v = [2, 3, 4]
-Matrix:     M = [1 2]
-                [3 4]
-3D Tensor:  T = [[[1,2], [3,4]],
-                [[5,6], [7,8]]]
-```
+* CopyScalar: 5
+* Vector: $$v = [2, 3, 4]$$
+* Matrix:\
+  $$\mathbf{M} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
+* 3D Tensor:\
+  $$\mathbf{T} = \begin{bmatrix} \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} \end{bmatrix}$$
 
 #### Classification by Dimension
 
@@ -35,24 +31,18 @@ Matrix:     M = [1 2]
 * **Definition**: No indices needed
 * **Notation**: $$s$$ or $$s₀$$
 * **Examples**:
-
-```
-Temperature: 25°C
-Mass: 5 kg
-Potential: V = 10V
-```
+  * Temperature: 25°C
+  * Mass: 5 kg
+  * Potential: $$V = 10V$$
 
 **b. Vector (1-dimension)**
 
 * **Definition**: One index needed
 * **Notation**: $$vᵢ$$ or $$v[i]$$
 * **Examples**:
-
-```
-Position vector: r = [x, y, z]
-Force vector:    F = [Fx, Fy, Fz]
-Momentum:        p = [px, py, pz]
-```
+  * Position vector: $$r = [x, y, z]$$
+  * Force vector: $$F = [Fx, Fy, Fz]$$
+  * Momentum: $$p = [px, py, pz]$$
 
 #### c. Matrix (2-dimension)
 
@@ -71,11 +61,8 @@ Momentum:        p = [px, py, pz]
 * **Definition**: Three indices needed
 * **Notation**: $$Tᵢⱼₖ$$ or $$T[i,j,k]$$
 * **Examples**:
-
-```
-Piezoelectric tensor: dᵢⱼₖ
-Elastic stiffness tensor: Cᵢⱼₖₗ
-```
+  * Piezoelectric tensor: $$d_{ᵢⱼₖ}$$
+  * Elastic stiffness tensor: $$C_{ᵢⱼₖₗ}$$
 
 #### Mathematical Properties Based on Dimension
 
@@ -83,11 +70,7 @@ Elastic stiffness tensor: Cᵢⱼₖₗ
 
 For a tensor $$T$$ of dimension $$n$$, under coordinate transformation $$R$$:
 
-$$T'ᵢ₁ᵢ₂...ᵢₙ = Rᵢ₁ⱼ₁Rᵢ₂ⱼ₂...Rᵢₙⱼₙ Tⱼ₁ⱼ₂...ⱼₙ$$
-
-```
-T'ᵢ₁ᵢ₂...ᵢₙ = Rᵢ₁ⱼ₁Rᵢ₂ⱼ₂...Rᵢₙⱼₙ Tⱼ₁ⱼ₂...ⱼₙ
-```
+$$T{\prime}{i_1 i_2 \ldots i_n} = R{i_1 j_1} R_{i_2 j_2} \ldots R_{i_n j_n} T_{j_1 j_2 \ldots j_n}$$
 
 **b. Components Count**
 
@@ -102,18 +85,14 @@ For a tensor in n-dimensional space:
 
 **a. Inner Products**
 
-```
-Vectors (1D): a·b = Σᵢ aᵢbᵢ
-Matrices (2D): A:B = Σᵢⱼ AᵢⱼBᵢⱼ
-3D Tensors: T₁·T₂ = Σᵢⱼₖ T₁ᵢⱼₖT₂ᵢⱼₖ
-```
+* Vectors (1D): $$\mathbf{a} \cdot \mathbf{b} = \sum_{i} a_i b_i$$
+* Matrices (2D): $$\mathbf{A} : \mathbf{B} = \sum_{i,j} A_{ij} B_{ij}$$
+* 3D Tensors: $$T_1 \cdot T_2 = \sum_{i,j,k} T_{1_{ijk}} T_{2_{ijk}}$$
 
 **b. Outer Products**
 
-```
-Vectors → Matrix: (a⊗b)ᵢⱼ = aᵢbⱼ
-Matrices → 4D Tensor: (A⊗B)ᵢⱼₖₗ = AᵢⱼBₖₗ
-```
+* Vectors to Matrix: $$(a \otimes b)_{ij} = a_i b_j$$
+* Matrices to 4D Tensor: $$(A \otimes B){ijkl} = A{ij} B_{kl}$$
 
 ### Implementation with PHP
 
