@@ -241,7 +241,18 @@ foreach ($generator->processBatchedData($filename, 100) as $batch) {
 
 #### A. HDFS Integration
 
-Hadoop Distributed File System (HDFS) is designed for storing very large files with streaming data access patterns.
+Hadoop Distributed File System (HDFS) is a core component of the Apache Hadoop ecosystem, designed to handle the storage and distribution of massive datasets across a network of commodity hardware. It is optimized for storing large files and is engineered to deliver high throughput access to application data, making it well-suited for batch processing and big data applications.
+
+Key characteristics of HDFS include:
+
+1. **Scalability**: HDFS can handle petabytes of data by spreading it across many machines, making it highly scalable. It supports clusters with thousands of nodes.
+2. **Fault Tolerance**: HDFS replicates data blocks across multiple nodes to ensure data reliability and resiliency against hardware failures.
+3. **High Throughput**: Optimized for high data throughput, HDFS enables quick data transfer for tasks that require streaming access patterns, where data is read in large sequential chunks.
+4. **Data Locality**: HDFS is designed to move computations to where data is stored, reducing network congestion and improving processing speeds.
+
+Typical use cases for HDFS include data warehousing, machine learning, log processing, and any application that requires storage of large-scale data. HDFS forms the foundation for other Hadoop ecosystem tools like MapReduce, YARN, and Apache Hive, enabling a complete solution for distributed data processing and analysis.
+
+Official website: [https://hadoop.apache.org](https://hadoop.apache.org/)
 
 <details>
 
@@ -308,6 +319,20 @@ class HDFSManager {
 </details>
 
 #### B. Object Storage Implementation
+
+Object storage systems are designed to store and manage large amounts of unstructured data, such as images, videos, and backups, by storing data as discrete units (objects) instead of traditional file hierarchies. Implementing an object storage solution with features like multipart uploads and retry logic enhances the system’s reliability, efficiency, and fault tolerance. Here’s how these features work in practice:
+
+#### Key Features of Object Storage Implementation
+
+1. **Multipart Uploads**:
+   * Multipart uploads enable the storage system to break large files into smaller parts and upload them independently. Each part is uploaded individually, and once all parts are uploaded, they are combined into a single object.
+   * This approach reduces the risk of upload failures on large files, as only the individual part needs re-uploading if a failure occurs, rather than the entire file.
+   * Multipart uploads are especially beneficial for uploading large files over unstable networks, where uploading in chunks ensures that network interruptions do not require restarting the entire process.
+   * Examples of object storage systems that support multipart uploads include Amazon S3, Azure Blob Storage, and Google Cloud Storage.
+2. **Retry Logic**:
+   * Retry logic is a mechanism to automatically attempt the upload or download of an object again if an error or interruption occurs. This is essential for maintaining data integrity and ensuring that operations complete successfully even in cases of temporary issues, like network instability or server errors.
+   * A typical implementation will have a set number of retries and a delay between attempts, which might increase gradually (exponential backoff) to avoid server overload.
+   * Retry logic is crucial for operations that need to ensure data availability and consistency, and it can be configured to handle various error types, such as connection timeouts or service unavailability.
 
 Example of a robust object storage system integration with features like multipart uploads and retry logic.
 
