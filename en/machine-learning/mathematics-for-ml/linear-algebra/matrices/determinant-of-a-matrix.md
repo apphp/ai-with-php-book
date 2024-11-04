@@ -6,21 +6,15 @@ A determinant is a scalar value that can be computed from the elements of a squa
 
 #### 2x2 Matrices
 
-For a 2x2 matrix $$A = [a\ b; c\ d]$$, the determinant is defined as: $$det(A) = |A| = ad - bc$$
+For a 2x2 matrix
 
-```
-A = [a b]    det(A) = |A| = ad - bc
-    [c d]
-```
+$$A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$$, the determinant is defined as: $$det(A) = |A| = ad - bc$$
 
 **Example**:&#x20;
 
-Using formula: $$det(A) = (3)(4) - (2)(1) = 12 - 2 = 10$$
+Using formula:
 
-```
-A = [3 2]    det(A) = (3 * 4) - (2 * 1) = 12 - 2 = 10 
-    [1 4]
-```
+$$A = \begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix}$$, then $$\det(A) = (3 \cdot 4) - (2 \cdot 1) = 12 - 2 = 10$$
 
 <details>
 
@@ -28,7 +22,7 @@ A = [3 2]    det(A) = (3 * 4) - (2 * 1) = 12 - 2 = 10
 
 * Identify the elements: $$a = 3, b = 2, c = 1, d = 4$$
 * Apply the formula: $$det(A) = ad - bc$$
-* Substitute the values: $$det(A) = (3)(4) - (2)(1)$$
+* Substitute the values: $$\det(A) = (3 \cdot 4) - (2 \cdot 1)$$
 * Multiply: $$det(A) = 12 - 2$$
 * Subtract: $$det(A) = 10$$
 
@@ -36,7 +30,7 @@ A = [3 2]    det(A) = (3 * 4) - (2 * 1) = 12 - 2 = 10
 
 #### 3x3 Matrices
 
-For a 3x3 matrix $$A = [a\ b\ c; d\ e\ f; g\ h\ i]$$, the determinant can be calculated using Sarrus' rule or cofactor expansion.
+For a 3x3 matrix $$A = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$$, the determinant can be calculated using Sarrus' rule or cofactor expansion.
 
 **Sarrus' rule**
 
@@ -44,19 +38,28 @@ For a 3x3 matrix $$A = [a\ b\ c; d\ e\ f; g\ h\ i]$$, the determinant can be cal
 Sarrus' rule is a useful tool for quickly calculating 3x3 determinants, especially when working by hand. However, for larger matrices or when using computer algorithms, other methods like cofactor expansion or LU decomposition are typically preferred.
 {% endhint %}
 
-```
-A = [a b c]    det(A) = (aei + bfg + cdh) - (ceg + bdi + afh)
-    [d e f]
-    [g h i]
-```
+Given: $$A = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$$
+
+The determinant of A , denoted $$\det(A)$$, is calculated as:&#x20;
+
+$$\det(A) = (a \cdot e \cdot i + b \cdot f \cdot g + c \cdot d \cdot h) - (c \cdot e \cdot g + b \cdot d \cdot i + a \cdot f \cdot h)$$
 
 <details>
 
 <summary>Step-by-step explanation</summary>
 
-* Start with your 3x3 matrix: $$[a\ b\ c] [d\ e\ f] [g\ h\ i]$$
-* Extend the matrix by copying the first two columns to the right: \
-  $$[a\ b\ c | a\ b] [d\ e\ f | d\ e] [g\ h\ i | g\ h]$$
+* Start with your 3x3 matrix: \
+  \
+  &#x20;$$\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$$
+
+<!---->
+
+* Extend the matrix by copying the first two columns to the right:\
+  \
+  $$\begin{bmatrix} a & b & c \mid a & b \\ d & e & f \mid d & e \\ g & h & i \mid g & h \end{bmatrix}$$
+
+<!---->
+
 *   Calculate the products along the diagonals: a. Positive diagonals (left to right):
 
     * $$aei$$ (main diagonal)
@@ -73,7 +76,7 @@ A = [a b c]    det(A) = (aei + bfg + cdh) - (ceg + bdi + afh)
 
 </details>
 
-**Example**: Let $$A = [2\ -1\ 3; 4\ 5\ -2; 1\ -3\ 2]$$
+**Example**: Let $$A = \begin{bmatrix} 2 & -1 & 3 \\ 4 & 5 & -2 \\ 1 & -3 & 2 \end{bmatrix}$$
 
 Using Sarrus' rule:
 
