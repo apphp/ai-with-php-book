@@ -109,7 +109,7 @@ $$\begin{bmatrix} 0.1 & 0.2 \\ 0.3 & 0.4 \end{bmatrix} - \begin{bmatrix} 0.001 &
 
 Scalar multiplication involves multiplying each element of a matrix by a scalar value.
 
-Example (3x3 matrix):
+**Example** (3x3 matrix):
 
 Let's multiply a 3x3 matrix by a scalar:
 
@@ -153,7 +153,7 @@ For two matrices A and B to be multiplied:
 * If A is an $$m × n$$ matrix and B is a $$p × q$$ matrix, then n must equal p.
 * The resulting matrix will have dimensions $$m × q$$.
 
-Example (2x2 matrices):&#x20;
+**Example** (2x2 matrices):&#x20;
 
 Given:&#x20;
 
@@ -181,7 +181,7 @@ Step 3: Write the result $$AB = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}
 
 </details>
 
-**Example in ML**: Forward pass in a neural network layer:
+**Example in ML.** Forward pass in a neural network layer:
 
 Given:
 
@@ -213,7 +213,19 @@ Transposition is the operation of flipping a matrix over its diagonal, switching
 
 $$(A^T)^T = A (AB)^T = B^T A^T (A + B)^T = A^T + B^T$$
 
-Example: $$If A = [1\ 2], then (A{T})^T = [1\ 2] = A [3\ 4] [3\ 4]$$
+**Example:**
+
+Given:\
+\
+&#x20;$$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
+
+Taking the transpose of $$A$$:&#x20;
+
+$$A^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$$
+
+Then, taking the transpose again:
+
+$$(A^T)^T = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} = A$$
 
 ML Application: These properties are often used in deriving gradient descent algorithms and in simplifying complex matrix expressions in various ML models.
 
@@ -226,13 +238,15 @@ Understanding these compatibility conditions and properties is essential for:
 
 In practice, many machine learning libraries handle these compatibility checks automatically, but understanding the underlying principles helps in designing and troubleshooting models effectively.
 
-**Example (3x3 matrix):**
+**Example** (3x3 matrix)**:**&#x20;
 
-```
-A = [1 2 3] A^T = [1 4 7] 
-    [4 5 6]       [2 5 8] 
-    [7 8 9]       [3 6 9]
-```
+Given:
+
+$$A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$
+
+Then, the transpose of $$A$$ , denoted $$A^T$$, is:
+
+$$A^T = \begin{bmatrix} 1 & 4 & 7 \\ 2 & 5 & 8 \\ 3 & 6 & 9 \end{bmatrix}$$
 
 <details>
 
@@ -250,48 +264,56 @@ Step 1: Swap rows and columns
 * $$New (3,2) = Old (2,3): 6$$
 * $$New (3,3) = Old (3,3): 9$$
 
-Step 2: Write the result $$A^T = [1\ 4\ 7] [2\ 5\ 8] [3\ 6\ 9]$$
+Step 2: Write the result
+
+$$A^T = \begin{bmatrix} 1 & 4 & 7 \\ 2 & 5 & 8 \\ 3 & 6 & 9 \end{bmatrix}$$
 
 </details>
 
-**Example in ML**: Computing the gradient in linear regression:
+**Example in ML.** Computing the gradient in linear regression:
 
 ( $$gradient = X^T * (y_{pred} - y) / n_{samples}$$ )
 
-```
-X = [1 2]  y = [5]  
-    [3 4]      [11]
-    [5 6]      [17]
+Given:
 
-X^T = [1 3 5]
-      [2 4 6]
+$$X = \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{bmatrix}, \quad y = \begin{bmatrix} 5 \\ 11 \\ 17 \end{bmatrix}, \quad w = \begin{bmatrix} 0.5 \\ 1.5 \end{bmatrix}$$
 
-w = [0.5]
-    [1.5]
+Transpose of $$X$$:&#x20;
 
-y_pred = X * w = [1*0.5 + 2*1.5]   = [3.5]
-                 [3*0.5 + 4*1.5]     [7.5]
-                 [5*0.5 + 6*1.5]     [11.5]
+$$X^T = \begin{bmatrix} 1 & 3 & 5 \\ 2 & 4 & 6 \end{bmatrix}$$
 
-error = y_pred - y = [3.5 - 5]    = [-1.5]
-                     [7.5 - 11]     [-3.5]
-                     [11.5 - 17]    [-5.5]
+Predicted values $$y_{\text{pred}}$$:&#x20;
 
-gradient = X^T * error = [(1*-1.5 + 3*-3.5 + 5*-5.5)]   = [-40.5]
-                         [(2*-1.5 + 4*-3.5 + 6*-5.5)]     [-58.5]
-```
+$$y_{\text{pred}} = X \cdot w = \begin{bmatrix} 1 \cdot 0.5 + 2 \cdot 1.5 \\ 3 \cdot 0.5 + 4 \cdot 1.5 \\ 5 \cdot 0.5 + 6 \cdot 1.5 \end{bmatrix} = \begin{bmatrix} 3.5 \\ 7.5 \\ 11.5 \end{bmatrix}$$
+
+Error calculation:&#x20;
+
+$$\text{error} = y_{\text{pred}} - y = \begin{bmatrix} 3.5 - 5 \\ 7.5 - 11 \\ 11.5 - 17 \end{bmatrix} = \begin{bmatrix} -1.5 \\ -3.5 \\ -5.5 \end{bmatrix}$$
+
+Gradient calculation:&#x20;
+
+$$\text{gradient} = X^T \cdot \text{error} = \begin{bmatrix} 1 \cdot (-1.5) + 3 \cdot (-3.5) + 5 \cdot (-5.5) \\ 2 \cdot (-1.5) + 4 \cdot (-3.5) + 6 \cdot (-5.5) \end{bmatrix} = \begin{bmatrix} -40.5 \\ -58.5 \end{bmatrix}$$\
+
 
 <details>
 
 <summary>Step by step explanation</summary>
 
-Step 1: Calculate error: $$(y_{pred} - y) [3.5] - [5] = [-1.5] [7.5] [11] [-3.5] [11.5] [17] [-5.5]$$
+Step 1: Calculate error:
 
-Step 2: Transpose $$X$$: $$X^T = [1\ 3\ 5] [2\ 4\ 6]$$
+$$\text{error} = y_{\text{pred}} - y = \begin{bmatrix} 3.5 - 5 \\ 7.5 - 11 \\ 11.5 - 17 \end{bmatrix} = \begin{bmatrix} -1.5 \\ -3.5 \\ -5.5 \end{bmatrix}$$
 
-Step 3: Multiply $$X^T$$ by error: $$[1\ 3\ 5] * [-1.5] = [(1*-1.5 + 3*-3.5 + 5*-5.5)] [2\ 4\ 6] [-3.5] [(2*-1.5 + 4*-3.5 + 6*-5.5)] [-5.5] = [-40.5] [-58.5]$$
+Step 2: Transpose $$X$$:&#x20;
 
-Step 4: Divide by $$n_{samples}$$ (3 in this case): $$[-40.5 / 3] = [-13.5] [-58.5 / 3] [-19.5]$$
+$$X^T = \begin{bmatrix} 1 & 3 & 5 \\ 2 & 4 & 6 \end{bmatrix}$$
+
+Step 3: Multiply $$X^T$$ by error:&#x20;
+
+$$\text{gradient} = X^T \cdot \text{error} = \begin{bmatrix} 1 \cdot (-1.5) + 3 \cdot (-3.5) + 5 \cdot (-5.5) \\ 2 \cdot (-1.5) + 4 \cdot (-3.5) + 6 \cdot (-5.5) \end{bmatrix} = \begin{bmatrix} -40.5 \\ -58.5 \end{bmatrix}$$
+
+Step 4: Divide by $$n_{samples}$$ (3 in this case):
+
+$$\frac{\text{gradient}}{3} = \begin{bmatrix} \frac{-40.5}{3} \\ \frac{-58.5}{3} \end{bmatrix} = \begin{bmatrix} -13.5 \\ -19.5 \end{bmatrix}$$
 
 This step-by-step breakdown illustrates how each matrix operation is performed and how it applies in machine learning contexts.
 
