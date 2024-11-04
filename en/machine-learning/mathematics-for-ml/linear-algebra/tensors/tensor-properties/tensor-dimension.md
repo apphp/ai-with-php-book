@@ -146,9 +146,3 @@ echo "3D Tensor dimension: " . getTensorDimension($tensor_3d) . "\n";  // 3
 ```
 
 </details>
-
-Run this code by yourself:
-
-{% embed url="https://onlinephp.io/c/9d623a0c-bda7-4ca8-ade9-f048c73a8a12" %}
-Tensor Dimensions
-{% endembed %}
