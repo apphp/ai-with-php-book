@@ -33,6 +33,8 @@
   * [ИИ в сельском хозяйстве](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-selskom-khozyaistve.md)
   * [ИИ в электронной коммерции](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-elektronnoi-kommercii.md)
   * [ИИ в образовании](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-obrazovanii.md)
+  * [ИИ в разработке ПО](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-razrabotke-po.md)
+  * [ИИ в уголовном правосудии](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-ugolovnom-pravosudii.md)
 * [Агенты в ИИ](iskusstvennyi-intellekt/agenty-v-ii/README.md)
   * [Введение в ИИ агенты](iskusstvennyi-intellekt/agenty-v-ii/vvedenie-v-ii-agenty.md)
 
