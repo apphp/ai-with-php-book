@@ -113,13 +113,9 @@ Scalar multiplication involves multiplying each element of a matrix by a scalar 
 
 Let's multiply a 3x3 matrix by a scalar:
 
-Given:
+Given: $$k = 2, \quad A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$
 
-$$k = 2, \quad A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$
-
-Then,
-
-$$k \cdot A = 2 \cdot \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix} = \begin{bmatrix} 2 & 4 & 6 \\ 8 & 10 & 12 \\ 14 & 16 & 18 \end{bmatrix}$$
+Then, $$k \cdot A = 2 \cdot \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix} = \begin{bmatrix} 2 & 4 & 6 \\ 8 & 10 & 12 \\ 14 & 16 & 18 \end{bmatrix}$$
 
 <details>
 
@@ -155,13 +151,9 @@ For two matrices A and B to be multiplied:
 
 **Example** (2x2 matrices):&#x20;
 
-Given:&#x20;
+Given: $$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$$
 
-$$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$$
-
-Then,&#x20;
-
-$$A \cdot B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \cdot \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}$$
+Then, $$A \cdot B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \cdot \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}$$
 
 <details>
 
@@ -215,17 +207,11 @@ $$(A^T)^T = A (AB)^T = B^T A^T (A + B)^T = A^T + B^T$$
 
 **Example:**
 
-Given:\
-\
-&#x20;$$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
+Given:  $$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
 
-Taking the transpose of $$A$$:&#x20;
+Taking the transpose of $$A$$:  $$A^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$$
 
-$$A^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$$
-
-Then, taking the transpose again:
-
-$$(A^T)^T = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} = A$$
+Then, taking the transpose again: $$(A^T)^T = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} = A$$
 
 ML Application: These properties are often used in deriving gradient descent algorithms and in simplifying complex matrix expressions in various ML models.
 
@@ -240,13 +226,9 @@ In practice, many machine learning libraries handle these compatibility checks a
 
 **Example** (3x3 matrix)**:**&#x20;
 
-Given:
+Given: $$A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$
 
-$$A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$$
-
-Then, the transpose of $$A$$ , denoted $$A^T$$, is:
-
-$$A^T = \begin{bmatrix} 1 & 4 & 7 \\ 2 & 5 & 8 \\ 3 & 6 & 9 \end{bmatrix}$$
+Then, the transpose of $$A$$ , denoted $$A^T$$, is: $$A^T = \begin{bmatrix} 1 & 4 & 7 \\ 2 & 5 & 8 \\ 3 & 6 & 9 \end{bmatrix}$$
 
 <details>
 
@@ -274,13 +256,9 @@ $$A^T = \begin{bmatrix} 1 & 4 & 7 \\ 2 & 5 & 8 \\ 3 & 6 & 9 \end{bmatrix}$$
 
 ( $$gradient = X^T * (y_{pred} - y) / n_{samples}$$ )
 
-Given:
+Given: $$X = \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{bmatrix}, \quad y = \begin{bmatrix} 5 \\ 11 \\ 17 \end{bmatrix}, \quad w = \begin{bmatrix} 0.5 \\ 1.5 \end{bmatrix}$$
 
-$$X = \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{bmatrix}, \quad y = \begin{bmatrix} 5 \\ 11 \\ 17 \end{bmatrix}, \quad w = \begin{bmatrix} 0.5 \\ 1.5 \end{bmatrix}$$
-
-Transpose of $$X$$:&#x20;
-
-$$X^T = \begin{bmatrix} 1 & 3 & 5 \\ 2 & 4 & 6 \end{bmatrix}$$
+Transpose of $$X$$:  $$X^T = \begin{bmatrix} 1 & 3 & 5 \\ 2 & 4 & 6 \end{bmatrix}$$
 
 Predicted values $$y_{\text{pred}}$$:&#x20;
 
