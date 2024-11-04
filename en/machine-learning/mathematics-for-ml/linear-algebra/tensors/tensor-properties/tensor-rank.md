@@ -1,4 +1,4 @@
-# Tensor Rank ?..
+# Tensor Rank
 
 ### 1. Tensor Rank (Order)
 
@@ -8,13 +8,10 @@ The rank (or order) of a tensor is the number of independent directional compone
 
 * **Mathematical Form**: $$T ∈ ℝ$$
 * **Examples**:
-
-```mathematica
-Temperature: T = 298K
-Mass: m = 5kg
-Pressure: P = 101.3 kPa
-Energy: E = 10J
-```
+  * Temperature: T = 298K&#x20;
+  * Mass: m = 5kg&#x20;
+  * Pressure: P = 101.3 kPa&#x20;
+  * Energy: E = 10J
 
 ### 2. Classification by Rank
 
@@ -23,68 +20,42 @@ Energy: E = 10J
 * **Definition**: Single numbers, no directional components
 * **Mathematical Form**: $$T ∈ ℝ$$
 * **Examples**:
-
-```nb
-Temperature: T = 298K
-Mass: m = 5kg
-Pressure: P = 101.3 kPa
-Energy: E = 10J
-```
+  * Temperature: T = 298K&#x20;
+  * Mass: m = 5kg&#x20;
+  * Pressure: P = 101.3 kPa&#x20;
+  * Energy: E = 10J
 
 #### Rank 1 (Vectors)
 
 * **Definition**: One directional component
 * **Mathematical Form**: $$v ∈ ℝⁿ$$
 * **Examples**:
-
-```mathematica
-Position vector: r = [x, y, z]
-Velocity: v = [vx, vy, vz]
-Force: F = [Fx, Fy, Fz]
-Electric field: E = [Ex, Ey, Ez]
-```
+  * Position vector: $$r = [x, y, z]$$&#x20;
+  * Velocity: $$v = [vx, vy, vz]$$&#x20;
+  * Force: $$F = [Fx, Fy, Fz]$$&#x20;
+  * Electric field: $$E = [Ex, Ey, Ez]$$
 
 #### Rank 2 (Matrices)
 
 * **Definition**: Two directional components
 * **Mathematical Form**: $$M ∈ ℝⁿˣᵐ$$
 * **Examples**:
-
-```mathematica
-1. Stress tensor:
-σ = [σxx σxy σxz]
-    [σyx σyy σyz]
-    [σzx σzy σzz]
-
-2. Inertia tensor:
-I = [Ixx Ixy Ixz]
-    [Iyx Iyy Iyz]
-    [Izx Izy Izz]
-
-3. Metric tensor:
-g = [gtt gtx gty gtz]
-    [gxt gxx gxy gxz]
-    [gyt gyx gyy gyz]
-    [gzt gzx gzy gzz]
-```
+  * Stress Tensor:\
+    $$\sigma = \begin{bmatrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \\ \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \\ \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{bmatrix}$$
+  * Inertia tensor:\
+    $$I = \begin{bmatrix} I_{xx} & I_{xy} & I_{xz} \\ I_{yx} & I_{yy} & I_{yz} \\ I_{zx} & I_{zy} & I_{zz} \end{bmatrix}$$
+  * Metric tensor:\
+    $$g = \begin{bmatrix} g_{tt} & g_{tx} & g_{ty} & g_{tz} \\ g_{xt} & g_{xx} & g_{xy} & g_{xz} \\ g_{yt} & g_{yx} & g_{yy} & g_{yz} \\ g_{zt} & g_{zx} & g_{zy} & g_{zz} \end{bmatrix}$$
 
 #### Rank 3
 
 * **Definition**: Three directional components
 * **Mathematical Form**: $$T ∈ ℝⁿˣᵐˣᵏ$$
 * **Examples**:
-
-```mathematica
-1. Piezoelectric tensor:
-dijk = [d111 d112 d113]
-       [d121 d122 d123]
-       [d131 d132 d133]
-
-2. Levi-Civita symbol:
-εijk = +1 if (i,j,k) is (1,2,3), (2,3,1), or (3,1,2)
-     = -1 if (i,j,k) is (3,2,1), (1,3,2), or (2,1,3)
-     =  0 if any index is repeated
-```
+  * Piezoelectric tensor:\
+    $$d_{ijk} = \begin{bmatrix} d_{111} & d_{112} & d_{113} \\ d_{121} & d_{122} & d_{123} \\ d_{131} & d_{132} & d_{133} \end{bmatrix}$$
+  * Levi-Civita Symbol:\
+    $$\epsilon_{ijk} = \begin{cases} +1, & \text{if } (i,j,k) \text{ is } (1,2,3), (2,3,1), \text{ or } (3,1,2) \\ -1, & \text{if } (i,j,k) \text{ is } (3,2,1), (1,3,2), \text{ or } (2,1,3) \\ 0, & \text{if any index is repeated} \end{cases}$$
 
 ### 3. Mathematical Operations by Rank
 
@@ -98,12 +69,12 @@ When adding tensors of different ranks, one of two main techniques is typically 
 
 * Broadcasting is a technique where lower-rank tensors are expanded to match the dimensions of higher-rank tensors during an operation like addition.
 * For example, if we have a rank-2 tensor (a matrix) and add it to a rank-1 tensor (a vector), the rank-1 tensor can be “broadcast” to match the rank-2 shape.
-* Suppose a rank-2 tensor has a shape of 3 x 3, and a rank-1 tensor has a shape of 3. Broadcasting replicates the rank-1 tensor across each row or column, allowing element-wise addition to occur.
+* Suppose a rank-2 tensor has a shape of 3x3, and a rank-1 tensor has a shape of 3. Broadcasting replicates the rank-1 tensor across each row or column, allowing element-wise addition to occur.
 
 **2. Tensor Stacking:**
 
 * Stacking is a method where tensors of the same shape are combined along a new axis, increasing the rank by one.
-* For instance, stacking two matrices (rank-2 tensors) of shape 3 x 3 results in a rank-3 tensor of shape 2 x 3 x 3. This is useful in cases where we want to preserve each tensor independently within a higher-rank structure, rather than perform element-wise addition.
+* For instance, stacking two matrices (rank-2 tensors) of shape 3x3 results in a rank-3 tensor of shape 2x3x3. This is useful in cases where we want to preserve each tensor independently within a higher-rank structure, rather than perform element-wise addition.
 
 **Key Points**
 
@@ -112,16 +83,10 @@ When adding tensors of different ranks, one of two main techniques is typically 
 
 Same rank tensors can be added:
 
-```mathematica
-Vectors (Rank 1):
-[a1] + [b1] = [a1 + b1]
-[a2]   [b2]   [a2 + b2]
-[a3]   [b3]   [a3 + b3]
-
-Matrices (Rank 2):
-[A11 A12] + [B11 B12] = [A11+B11 A12+B12]
-[A21 A22]   [B21 B22]   [A21+B21 A22+B22]
-```
+* Vectors (Rank 1):\
+  $$\begin{bmatrix} a_1 \\ a_2 \\ a_3 \end{bmatrix} + \begin{bmatrix} b_1 \\ b_2 \\ b_3 \end{bmatrix} = \begin{bmatrix} a_1 + b_1 \\ a_2 + b_2 \\ a_3 + b_3 \end{bmatrix}$$
+* Matrices (Rank 2):\
+  $$\begin{bmatrix} A_{11} & A_{12} \\ A_{21} & A_{22} \end{bmatrix} + \begin{bmatrix} B_{11} & B_{12} \\ B_{21} & B_{22} \end{bmatrix} = \begin{bmatrix} A_{11} + B_{11} & A_{12} + B_{12} \\ A_{21} + B_{21} & A_{22} + B_{22} \end{bmatrix}$$
 
 Rank Addition with Broadcasting
 
@@ -192,21 +157,20 @@ Rank multiplication for tensors involves performing multiplication operations be
 
 In 3D space:
 
-```mathematica
-Rank 0: 1 component
-Rank 1: 3 components
-Rank 2: 9 components
-Rank 3: 27 components
-Rank 4: 81 components
-```
+* Rank 0: 1 component&#x20;
+* Rank 1: 3 components&#x20;
+* Rank 2: 9 components&#x20;
+* Rank 3: 27 components&#x20;
+* Rank 4: 81 components
 
 #### 5.2 Symmetry Properties
 
-```mathematica
-Symmetric Rank 2: Aᵢⱼ = Aⱼᵢ
-Antisymmetric Rank 2: Aᵢⱼ = -Aⱼᵢ
-Cyclic Rank 3: Tᵢⱼₖ = Tⱼₖᵢ = Tₖᵢⱼ
-```
-
-
-
+* Symmetric Rank 2: \
+  A tensor $$A_{ij}$$ is symmetric if it satisfies: $$A_{ij} = A_{ji}$$\
+  This property means that swapping the indices does not change the value.
+* Antisymmetric Rank 2:\
+  A tensor $$A_{ij}$$ is antisymmetric if it satisfies: $$A_{ij} = -A_{ji}$$\
+  In this case, swapping the indices negates the value.
+* Cyclic Rank 3:\
+  A tensor $$T_{ijk}$$ is cyclic if it satisfies: $$T_{ijk} = T_{jki} = T_{kij}$$\
+  This means that rotating the indices in a cyclic manner yields the same value.
