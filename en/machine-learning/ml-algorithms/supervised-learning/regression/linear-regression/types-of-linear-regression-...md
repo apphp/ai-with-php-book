@@ -15,9 +15,11 @@ where:
 * β0 is the intercept
 * β1 is the slope
 
+**Example:**
+
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (122).png" alt="" width="563"><figcaption><p>Linear Regression</p></figcaption></figure>
 
 </div>
 
@@ -34,9 +36,17 @@ where:
 * β0 is the intercept
 * β1, β2, …, βn are the slopes
 
+
+
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt="" width="420"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (123).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -61,13 +71,13 @@ where:
 \
 This transformation allows the model to fit a curve that better matches non-linear patterns in the data.
 
+**Example:**
+
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (3).png" alt="" width="388"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (120).png" alt="" width="563"><figcaption><p>Polynomial Regression</p></figcaption></figure>
 
 </div>
-
-
 
 ### **4. Regularized Linear Regression**
 
