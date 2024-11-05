@@ -23,6 +23,12 @@ where:
 
 </div>
 
+<div align="left">
+
+<figure><img src="../../../../../.gitbook/assets/image (125).png" alt="" width="563"><figcaption><p>Simple Linear Regression</p></figcaption></figure>
+
+</div>
+
 ### **2. Multiple Linear Regression**
 
 Involves two or more independent variables, such as predicting house prices based on factors like area, number of rooms, and location.
