@@ -41,8 +41,3 @@ Let us explore **how the stuff works when Linear Regression algorithm gets train
 Now, similar to iteration no. 1 performed above we will again calculate Cost function and update θj values using Gradient Descent.\
 We will keep on iterating until Cost function doesn’t reduce further. At that point, model achieves best θ values. Using these θ values in the model hypothesis will give the best prediction results.\
 &#x20;
-
-\
-
-
-Are you passionate about data and looking to make one giant leap into your career? Our **Data Science Course** will help you change your game and, most importantly, allow students, professionals, and working adults to tide over into the data science immersion. Master state-of-the-art methodologies, powerful tools, and industry best practices, hands-on projects, and real-world applications. Become the executive head of industries related to **Data Analysis**, **Machine Learning**, and **Data Visualization** with these growing skills. Ready to Transform Your Future? _**Enroll Now to Be a Data Science Expert!**_
