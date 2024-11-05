@@ -30,7 +30,8 @@ $$A = \begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix}$$, then $$\det(A) = (3 \cdot 
 
 #### 3x3 Matrices
 
-For a 3x3 matrix $$A = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$$, the determinant can be calculated using Sarrus' rule or cofactor expansion.
+For a 3x3 matrix $$A = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$$, the determinant can be calculated using Sarrus' rule or cofactor \
+expansion.
 
 **Sarrus' rule**
 
@@ -80,26 +81,25 @@ $$\det(A) = (a \cdot e \cdot i + b \cdot f \cdot g + c \cdot d \cdot h) - (c \cd
 
 Using Sarrus' rule:
 
-```
-A = [2 -1 3]    A = [2 -1 3 | 2 -1]
-    [4 5 -2]        [4 5 -2 | 4  5]
-    [g h i]         [1 -3 2 | 1 -3]
-    
-Positive diagonals: 20 2 -36
+Given: $$A = \begin{bmatrix} 2 & -1 & 3 \\ 4 & 5 & -2 \\ 1 & -3 & 2 \end{bmatrix}$$
+
+For the diagonal method, we extend matrix A by repeating the first two columns:&#x20;
+
+$$\begin{bmatrix} 2 & -1 & 3 & | & 2 & -1 \\ 4 & 5 & -2 & | & 4 & 5 \\ 1 & -3 & 2 & | & 1 & -3 \end{bmatrix}$$
+
+Positive diagonals: 20 2 -36&#x20;
+
 Negative diagonals: 15 -8 12
 
-det(A) = (20 + 2 - 36) - (15 + (-8) + 12)
-       = -14 - 19
-       = -33
-```
+$$det(A) = (20 + 2 - 36) - (15 + (-8) + 12)        = -14 - 19        = -33$$
 
 <details>
 
 <summary>Step-by-step explanation</summary>
 
-Step 1: Write out the matrix $$[2\ -1\ 3] [4\ 5\ -2] [1\ -3\ 2]$$
+Step 1: Write out the matrix $$A = \begin{bmatrix} 2 & -1 & 3 \\ 4 & 5 & -2 \\ 1 & -3 & 2 \end{bmatrix}$$
 
-Step 2: Extend the matrix $$[2\ -1\ 3 | 2\ -1] [4\ 5\ -2 | 4\ 5] [1\ -3\ 2 | 1\ -3]$$
+Step 2: Extend the matrix $$A = \begin{bmatrix} 2 & -1 & 3 & | & 2 & -1 \\ 4 & 5 & -2 & | & 4 & 5 \\ 1 & -3 & 2 & | & 1 & -3 \end{bmatrix}$$
 
 Step 3: Calculate the products a. Positive diagonals:
 
@@ -113,7 +113,10 @@ b. Negative diagonals:
 * $$(-1) * 4 * 2 = -8$$
 * $$2 * (-2) * (-3) = 12$$
 
-Step 4: Sum and subtract $$det(A) = (20 + 2 + (-36)) - (15 + (-8) + 12) = -14 - 19 = -33$$
+Step 4: Sum and subtract\
+
+
+$$det(A) = (20 + 2 + (-36)) - (15 + (-8) + 12) = -14 - 19 = -33$$
 
 Therefore, the determinant of $$A$$ is $$-33$$.
 
@@ -133,19 +136,13 @@ Cofactor expansion, also known as Laplace expansion, is a general method for cal
 
 #### The Method
 
-For a 3x3 matrix $$A = [a\ b\ c; d\ e\ f; g\ h\ i]$$, the cofactor expansion along the first row is:
+For a 3x3 matrix $$A = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$$, the cofactor expansion along the first row is:
 
 $$det(A) = a * C_{11} + b * C_{12} + c * C_{13}$$
 
 where $$C_{11}$$, $$C_{12}$$, and $$C_{13}$$ are the cofactors of $$a$$, , and $$c$$ respectively.
 
 For example, expanding along the first row: $$det(A) = a(ei-fh) - b(di-fg) + c(dh-eg)$$
-
-```
-A = [a b c]    det(A) = a(ei-fh) - b(di-fg) + c(dh-eg)
-    [d e f]
-    [g h i]
-```
 
 <details>
 
@@ -160,22 +157,20 @@ A = [a b c]    det(A) = a(ei-fh) - b(di-fg) + c(dh-eg)
 
 </details>
 
-**Example**: Let $$A = [2\ -1\ 3; 4\ 5\ -2; 1\ -3\ 2]$$
+**Example**: Let $$A = \begin{bmatrix} 2 & -1 & 3 \\ 4 & 5 & -2 \\ 1 & -3 & 2 \end{bmatrix}$$
 
-Using Cofactor expansion:
+Using Cofactor expansion:&#x20;
 
-```
-A = [2 -1 3]   det(A) = 2 * C_11 + (-1) * C_12 + 3 * C
-    [4 5 -2]          = 2 * (1 * 4) + (-1) * (-1 * 10) + 3 * (-12 - 5)
-    [1 -3 2]          = 2 * 4 + (-1) * (-10) + 3 * (-17)
-                      = 8 + 10 - 51 = -33
-```
+$$\text{det}(A) = 2 \cdot C_{11} + (-1) \cdot C_{12} + 3 \cdot C_{13}$$    \
+&#x20;               $$= 2 \cdot (1 \cdot 4) + (-1) \cdot (-1 \cdot 10) + 3 \cdot (-12 - 5)$$  \
+&#x20;               $$= 2 \cdot 4 + (-1) \cdot (-10) + 3 \cdot (-17)$$ \
+&#x20;               $$= 2 \cdot 4 + (-1) \cdot (-10) + 3 \cdot (-17)$$
 
 <details>
 
 <summary>Step-by-step explanation</summary>
 
-&#x20;Let's use cofactor expansion on the first row of matrix $$A = [2\ -1\ 3; 4\ 5  -2; 1\ -3 \2]$$
+&#x20;Let's use cofactor expansion on the first row of matrix $$A = \begin{bmatrix} 2 & -1 & 3 \\ 4 & 5 & -2 \\ 1 & -3 & 2 \end{bmatrix}$$
 
 Step 1: Expand along the first row $$det(A) = 2 * C_{11} + (-1) * C_{12} + 3 * C_{13}$$
 
@@ -194,7 +189,10 @@ Step 2: Calculate each cofactor
   * $$| 1 -3 |$$&#x20;
   * Cofactor $$C_{13} = (-1)^{1+3} * M_{13} = 1 * (-17) = -17$$
 
-Step 3: Sum the products $$det(A) = 2 * 4 + (-1) * (-10) + 3 * (-17) = 8 + 10 - 51 = -33$$
+Step 3: Sum the products \
+
+
+$$det(A) = 2 * 4 + (-1) * (-10) + 3 * (-17) = 8 + 10 - 51 = -33$$
 
 Therefore, the determinant of $$A$$ is $$-33$$.
 
@@ -213,13 +211,13 @@ Therefore, the determinant of $$A$$ is $$-33$$.
 
 **Example** demonstrating properties:
 
-Let $$A = [2\ 1; 3\ 4]$$ and $$B = [1\ 2; 0\ 3]$$
+Let $$A = \begin{bmatrix} 2 & 1 \\ 3 & 4 \end{bmatrix}$$ and $$B = \begin{bmatrix} 1 & 2 \\ 0 & 3 \end{bmatrix}$$&#x20;
 
-```
-A = [2 1]    B = [1 2]     det(A) = 2(4) - 1(3) = 8 - 3 = 5
-    [3 4]        [0 3]     det(B) = 1(3) - 2(0) = 3
-                           det(AB) = det([2 7; 3 18]) = 2(18) - 7(3) = 36 - 21 = 15
-```
+$$det(A) = 2(4) - 1(3) = 8 - 3 = 5$$&#x20;
+
+$$det(B) = 1(3) - 2(0) = 3$$&#x20;
+
+$$det(AB) = det([2 7; 3 18]) = 2(18) - 7(3) = 36 - 21 = 15$$
 
 Verifying multiplicative property: $$det(A) * det(B) = 5 * 3 = 15 = det(AB)$$
 
@@ -229,28 +227,30 @@ Verifying multiplicative property: $$det(A) * det(B) = 5 * 3 = 15 = det(AB)$$
    For a system $$Ax = b$$, where A is a square matrix, the solution is: $$x_i = det(A_i) / det(A)$$, \
    where $$A_i$$ is A with its $$i$$-th column replaced by $$b$$.
 2. Finding inverse matrices: \
-   For a 2x2 matrix $$A = [a\ b; c\ d]$$, its inverse is: $$A^{-1} = (1/det(A)) * [d\ -b; -c\ a]$$
+   For a 2x2 matrix $$A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$$, its inverse is: $$A^{-1} = \frac{1}{\text{det}(A)} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$$
 3. Calculating area and volume:
    1. The absolute value of the determinant of a 2x2 matrix represents the area of the parallelogram formed by its column vectors.
    2. The absolute value of the determinant of a 3x3 matrix represents the volume of the parallelepiped formed by its column vectors.
 
 **Example** area calculation:
 
-Let $$A = [3\ 1; 1\ 2]$$ represent two vectors. $$det(A) = 3(2) - 1(1) = 5$$ \
+Let $$A = \begin{bmatrix} 3 & 1 \\ 1 & 2 \end{bmatrix}$$ represent two vectors. $$det(A) = 3(2) - 1(1) = 5$$ \
 The area of the parallelogram formed by these vectors is $$|5| = 5$$ square units.
 
 <details>
 
 <summary>Step-by-step explanation</summary>
 
-Step 1: Understand the given vectors We have two vectors represented by the matrix \
-$$A: A = [3\ 1; 1\ 2]$$ \
+Step 1: Understand the given vectors We have two vectors represented by the matrix
+
+$$A$$:  $$A = \begin{bmatrix} 3 & 1 \\ 1 & 2 \end{bmatrix}$$\
 These vectors are: $$v1 = (3, 1)\ v2 = (1, 2)$$
 
 Step 2: Set up the determinant calculation The formula for the area of a parallelogram formed by two vectors is the absolute value of the determinant of the matrix formed by these vectors.
 
-$$Area = |det(A)|$$\
-For a 2x2 matrix $$[a\ b; c\ d]$$, the determinant is calculated as: $$ad - bc$$
+$$Area = |det(A)|$$
+
+For a 2x2 matrix $$\begin{bmatrix} a & b \\ c & d \end{bmatrix}$$, the determinant is calculated as: $$ad - bc$$
 
 Step 3: Calculate the determinant $$det(A) = (3 × 2) - (1 × 1) = 6 - 1 = 5$$
 

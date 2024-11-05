@@ -1,4 +1,4 @@
-# Tensor Shape
+# Tensor Shape ?..
 
 ### 1. Mathematical Definition
 
@@ -8,55 +8,41 @@ The shape of a tensor is an ordered tuple (n₁, n₂, ..., nₖ) where each n�
 
 #### 2.1 Scalar (Shape: ())
 
-```mathematica
-Shape: ()
-Example: 5
+Shape: ()&#x20;
+
+Example: 5&#x20;
+
 Components: Single value
-```
 
 #### 2.2 Vector (Shape: (n))
 
-```mathematica
 Shape: (3)
-Examples:
-v = [1]
-    [2]
-    [3]
 
-Basis vectors in ℝ³:
-e₁ = [1]  e₂ = [0]  e₃ = [0]
-    [0]       [1]       [0]
-    [0]       [0]       [1]
-```
+Example: $$v = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}$$
+
+Basis vectors in ℝ³:  $$e_1 = \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix}, \quad e_2 = \begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix}, \quad e_3 = \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}$$
 
 #### 2.3 Matrix (Shape: (m,n))
 
-```mathematica
 Shape: (2,3)
-Example:
-A = [1 2 3]
-    [4 5 6]
+
+Example: $$A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$$
 
 Shape: (3,3)
-Identity Matrix:
-I = [1 0 0]
-    [0 1 0]
-    [0 0 1]
-```
+
+Identity Matrix: $$I = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
 
 #### 2.4 3D Tensor (Shape: (l,m,n))
 
-```mathematica
 Shape: (2,2,3)
-Example:
-T = [[[1,2,3], [4,5,6]],
-     [[7,8,9], [10,11,12]]]
+
+Example: $$T = \begin{bmatrix} \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}, \begin{bmatrix} 7 & 8 & 9 \\ 10 & 11 & 12 \end{bmatrix} \end{bmatrix}$$
 
 RGB Image Example (Shape: (height,width,3)):
+
 Shape: (2,3,3)
-[[[255,0,0], [0,255,0], [0,0,255]],
- [[128,0,0], [0,128,0], [0,0,128]]]
-```
+
+$$T = \begin{bmatrix} \begin{bmatrix} 255 & 0 & 0 \\ 0 & 255 & 0 \\ 0 & 0 & 255 \end{bmatrix}, \begin{bmatrix} 128 & 0 & 0 \\ 0 & 128 & 0 \\ 0 & 0 & 128 \end{bmatrix} \end{bmatrix}$$
 
 ### 3. Mathematical Operations with Shapes
 
