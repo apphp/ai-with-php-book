@@ -31,22 +31,24 @@ RubixML provides the `MissingDataImputer` for handling missing values. This impu
 require 'vendor/autoload.php';
 
 use Rubix\ML\Datasets\Labeled;
+use Rubix\ML\Strategies\Percentile;
 use Rubix\ML\Transformers\MissingDataImputer;
 use Rubix\ML\Extractors\CSV;
-use Rubix\ML\Strategies\Mean;
 use Rubix\ML\Strategies\Prior;
 
 // Load the dataset using CSV instead of CsvIterator
 $dataset = Labeled::fromIterator(new CSV(dirname(__FILE__) . '/customers.csv'), true);
 
-// Create imputer with mean strategy for numeric values and
+// Create imputer with percentile strategy for numeric values and
 // Prior (most frequent value) strategy for categorical values
-$imputer = new MissingDataImputer(new Mean(), new Prior());
+$imputer = new MissingDataImputer(new Percentile(0.55), new Prior());
 
 $dataset->apply($imputer);
 
-echo "After Imputation: \n";
-print_r($dataset->samples());
+echo "\nAfter Imputation:\n";
+foreach ($dataset->samples() as $i => $sample) {
+    echo implode(',', $sample) . "\n";
+}
 ```
 
 Here, `MissingDataImputer` will replace missing values with the mean of the respective column.
