@@ -90,8 +90,7 @@ Same rank tensors can be added:
 
 Rank Addition with Broadcasting
 
-Consider a rank-1 tensor (vector) $$v = [1, 2, 3]$$\
-and a rank-2 tensor (matrix) M: \
+Consider a rank-1 tensor (vector) $$v = [1, 2, 3]$$ and a rank-2 tensor (matrix) M: \
 \
 $$M = \begin{bmatrix} 4 & 5 & 6 \\ 7 & 8 & 9 \\ 10 & 11 & 12 \end{bmatrix}$$
 
@@ -110,39 +109,36 @@ $$M + v = \begin{bmatrix} 4+1 & 5+2 & 6+3 \\ 7+1 & 8+2 & 9+3 \\ 10+1 & 11+2 & 12
 
 ### 4. Rank Change Operations
 
-Rank multiplication for tensors involves performing multiplication operations between tensors of varying ranks, often resulting in a higher-rank tensor. The type of multiplication can vary depending on the application and can include operations such as element-wise multiplication, outer products, or tensor contractions.\
-
+Rank multiplication for tensors involves performing multiplication operations between tensors of varying ranks, often resulting in a higher-rank tensor. The type of multiplication can vary depending on the application and can include operations such as element-wise multiplication, outer products, or tensor contractions.
 
 **1. Element-wise Multiplication:**
 
 * Also known as the Hadamard product, element-wise multiplication occurs when tensors of the same shape (and thus the same rank) are multiplied. Each element in one tensor is multiplied by the corresponding element in the other tensor.
-* Example: For two rank-2 tensors (matrices) A and B of shape 2 x 2 ,\
+* Example: For two rank-2 tensors (matrices) A and B of shape 2x2 ,\
   \
   $$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$$\
   \
   the element-wise multiplication results in\
   \
-  $$A \circ B = \begin{bmatrix} 1 \cdot 5 & 2 \cdot 6 \\ 3 \cdot 7 & 4 \cdot 8 \end{bmatrix} = \begin{bmatrix} 5 & 12 \\ 21 & 32 \end{bmatrix}$$\
-
+  $$A \circ B = \begin{bmatrix} 1 \cdot 5 & 2 \cdot 6 \\ 3 \cdot 7 & 4 \cdot 8 \end{bmatrix} = \begin{bmatrix} 5 & 12 \\ 21 & 32 \end{bmatrix}$$
 
 **2. Outer Product:**
 
-* The outer product of two tensors of ranks m and n produces a tensor of rank m + n. This is often used to create higher-dimensional tensors by combining lower-dimensional ones.
+* The outer product of two tensors of ranks $$m$$ and $$n$$ produces a tensor of rank $$m + n$$. This is often used to create higher-dimensional tensors by combining lower-dimensional ones.
 * Example: For a rank-1 tensor $$a = [1, 2, 3]$$ and another rank-1 tensor $$b = [4, 5]$$,
-* Here, the result is a rank-2 tensor (matrix) with shape 3 x 2.\
+* Here, the result is a rank-2 tensor (matrix) with shape 3x2.\
   \
-  $$a \otimes b = \begin{bmatrix} 1 \cdot 4 & 1 \cdot 5 \\ 2 \cdot 4 & 2 \cdot 5 \\ 3 \cdot 4 & 3 \cdot 5 \end{bmatrix} = \begin{bmatrix} 4 & 5 \\ 8 & 10 \\ 12 & 15 \end{bmatrix}$$\
-
+  $$a \otimes b = \begin{bmatrix} 1 \cdot 4 & 1 \cdot 5 \\ 2 \cdot 4 & 2 \cdot 5 \\ 3 \cdot 4 & 3 \cdot 5 \end{bmatrix} = \begin{bmatrix} 4 & 5 \\ 8 & 10 \\ 12 & 15 \end{bmatrix}$$
 
 **3. Tensor Contraction (Generalized Inner Product):**
 
 * Tensor contraction is similar to matrix multiplication but extends to tensors of higher ranks. It involves summing over specific indices in a pair of tensors, effectively reducing the total rank.
-* For example, contracting a rank-3 tensor A of shape 2 x 3 x 4 with a rank-2 tensor B of shape 4 x 5 over the last index of A and the first index of B results in a rank-3 tensor of shape 2 x 3 x 5.
+* For example, contracting a rank-3 tensor A of shape 2x3x4 with a rank-2 tensor B of shape 4x5 over the last index of A and the first index of B results in a rank-3 tensor of shape 2x3x5.
 
 **4. Matrix Multiplication:**
 
 * Matrix multiplication is a specific type of rank multiplication between two rank-2 tensors (matrices). In this operation, the number of columns in the first matrix must equal the number of rows in the second. The result is a new rank-2 tensor (matrix).
-* Example: For matrices C and D where C is 2 x 3 and D is 3 x 2,\
+* Example: For matrices C and D where C is 2x3 and D is 3x2,\
   \
   $$C \cdot D = \text{resulting } 2 \times 2 \text{ matrix}$$
 

@@ -12,7 +12,7 @@ $$A * A^{-1} = A^{-1} * A = I$$
 
 For a square matrix A to be invertible, it must satisfy the following conditions:
 
-1. The matrix must be square ($$n * n$$).
+1. The matrix must be square (nxn).
 2. The determinant of the matrix must not be zero ($$det(A) ≠ 0$$).
 3. The matrix must have full rank ($$rank(A) = n$$).
 
@@ -64,7 +64,7 @@ There are several methods for finding the inverse of a matrix. We'll discuss two
 
 #### 1. Adjoint Method
 
-The adjoint method uses the following formula to calculate the inverse: $$f(x) = x * e^{2 pi i \xi x}$$
+The adjoint method uses the following formula to calculate the inverse:&#x20;
 
 $$A^{-1} = \frac{1}{\text{det}(A)} \cdot \text{adj}(A)$$
 
@@ -136,11 +136,11 @@ $$R_2 = \frac{1}{2.5} R_2$$ &#x20;
 
 $$R_2 \rightarrow \frac{1}{2.5} R_2 \quad \Rightarrow \quad \left[\begin{array}{cc|cc} 2 & 1 & 1 & 0 \\ 0 & 1 & -0.2 & 0.4 \end{array}\right]$$
 
-$$R1 = R1\ - 1\ R2\ [2\ 0 | 1.2\ -0.4] [0\ 1 | -0.2\ 0.4]$$
+$$R_1 \rightarrow R_1 - 1 \cdot R_2 \quad \Rightarrow \quad \left[\begin{array}{cc|cc} 2 & 0 & 1.2 & -0.4 \\ 0 & 1 & -0.2 & 0.4 \end{array}\right]$$
 
-$$R1 = (1/2)\ R1\ [1\ 0 | 0.6\ -0.2] [0\ 1 | -0.2\ 0.4]$$
+$$R_1 \rightarrow \frac{1}{2} R_1 \quad \Rightarrow \quad \left[\begin{array}{cc|cc} 1 & 0 & 0.6 & -0.2 \\ 0 & 1 & -0.2 & 0.4 \end{array}\right]$$
 
-The resulting inverse matrix is: $$A^{-1} = [0.6\ -0.2] [-0.2\ 0.4]$$
+The resulting inverse matrix is: $$A^{-1} = \begin{bmatrix} 0.6 & -0.2 \\ -0.2 & 0.4 \end{bmatrix}$$
 
 This result matches our previous calculation using the adjoint method.
 
@@ -155,7 +155,7 @@ The determinant of a matrix is closely related to its invertibility:
 
 Furthermore, for an invertible matrix $$A$$:
 
-$$det(A^{-1}) = 1 / det(A)$$
+$$\text{det}(A^{-1}) = \frac{1}{\text{det}(A)}$$
 
 This relationship is useful in various mathematical proofs and applications.
 

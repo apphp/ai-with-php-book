@@ -6,9 +6,7 @@ To illustrate a tensor in comparison to other mathematical quantities, let’s l
 
 1\. Scalar (0D): A single number that represents magnitude only, such as a temperature or a count, with no direction.
 
-A single value, e.g.,&#x20;
-
-$$3$$
+A single value, e.g., $$3$$
 
 2\. Vector (1D): A quantity with both magnitude and direction, represented as an ordered list of scalars. Think of a vector as a point in a straight line with n coordinates (e.g., force in physics).
 

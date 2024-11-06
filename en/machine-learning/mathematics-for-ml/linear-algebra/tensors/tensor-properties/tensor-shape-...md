@@ -38,7 +38,7 @@ Shape: (2,2,3)
 
 Example: $$T = \begin{bmatrix} \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}, \begin{bmatrix} 7 & 8 & 9 \\ 10 & 11 & 12 \end{bmatrix} \end{bmatrix}$$
 
-RGB Image Example (Shape: (height,width,3)):
+RGB Image Example (Shape: (height, width,3)):
 
 Shape: (2,3,3)
 
@@ -48,34 +48,25 @@ $$T = \begin{bmatrix} \begin{bmatrix} 255 & 0 & 0 \\ 0 & 255 & 0 \\ 0 & 0 & 255 
 
 #### 3.1 Reshaping Operations
 
-```mathematica
-Original shape: (6,) → vector
-[1, 2, 3, 4, 5, 6]
+Original shape: (4,) → vector $$\begin{bmatrix} 1 \\ 2 \\ 3 \\ 4  \end{bmatrix}$$
 
-Reshaped to (2,3) → matrix
-[1 2 3]
-[4 5 6]
+Reshaped to (2,3) → matrix $$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$$
 
-Reshaped to (3,2) → matrix
-[1 2]
-[3 4]
-[5 6]
-```
+Reshaped to (3,2) → matrix $$\begin{bmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{bmatrix}$$
 
 #### 3.2 Shape Compatibility in Operations
 
-```mathematica
-Matrix Multiplication (A × B):
-A shape: (m,n)
-B shape: (n,p)
-Result shape: (m,p)
+Matrix Multiplication ($$A×B$$):
 
-Example:
-(2,3) × (3,2) → (2,2)
-[1 2 3]   [7 8]   [58  64]
-[4 5 6] × [9 10] = [139 154]
-          [11 12]
-```
+A shape: $$(m,n)$$
+
+B shape: $$(n,p)$$
+
+Result shape: $$(m,p)$$
+
+Example: $$(2,3) \times (3,2) \rightarrow (2,2)$$&#x20;
+
+$$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} \times \begin{bmatrix} 7 & 8 \\ 9 & 10 \\ 11 & 12 \end{bmatrix}  \begin{bmatrix} 58 & 64 \\ 139 & 154 \end{bmatrix}$$
 
 #### 3.3 Broadcasting Rules
 
