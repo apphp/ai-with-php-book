@@ -1,4 +1,4 @@
-# Inverse Matrices ?..
+# Inverse Matrices
 
 ### Inverse Matrices
 
@@ -20,14 +20,9 @@ If any of these conditions are not met, the matrix is considered singular or non
 
 #### Example: Invertible Matrix
 
-Consider the matrix $$A$$:
+Consider the matrix $$A$$:  $$A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}$$
 
-$$A = [2\ 1] [1\ 3]$$
-
-```
-A = [2 1]    det(A) = (2 * 3) - (1 * 1) = 6 - 1 = 5 ≠ 0
-    [1 3]
-```
+$$\text{det}(A) = (2 \cdot 3) - (1 \cdot 1) = 6 - 1 = 5 \neq 0$$
 
 <details>
 
@@ -45,14 +40,9 @@ Therefore, $$A$$ is invertible.
 
 #### Example: Non-invertible Matrix
 
-Consider the matrix $$B$$:
+Consider the matrix $$B$$:  $$B = \begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$$
 
-
-
-```
-A = [1 2]    det(B) = (1 * 4) - (2 * 2) = 4 - 4 = 0
-    [2 4]
-```
+$$\text{det}(B) = (1 \cdot 4) - (2 \cdot 2) = 4 - 4 = 0$$
 
 <details>
 
@@ -74,9 +64,9 @@ There are several methods for finding the inverse of a matrix. We'll discuss two
 
 #### 1. Adjoint Method
 
-The adjoint method uses the following formula to calculate the inverse:
+The adjoint method uses the following formula to calculate the inverse: $$f(x) = x * e^{2 pi i \xi x}$$
 
-$$A^{-1} = (1 / det(A)) * adj(A)$$
+$$A^{-1} = \frac{1}{\text{det}(A)} \cdot \text{adj}(A)$$
 
 Where:
 
@@ -88,21 +78,19 @@ Steps:
 1. Calculate the determinant of $$A$$.
 2. Find the cofactor matrix.
 3. Transpose the cofactor matrix to get the adjugate.
-4. Multiply the adjugate by $$1/det(A)$$.
+4. Multiply the adjugate by $$\frac{1}{\text{det}(A)}$$.
 
 #### Example:
 
 Let's find the inverse of matrix $$A$$ from our previous example:
 
-$$A = [2\ 1] [1\ 3]$$
+$$A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}$$&#x20;
 
-```
-A = [2 1]    det(A) = (2 * 3) - (1 * 1) = 6 - 1 = 5  
-    [1 3]    adj(A) = [3 -1] [-1 2]
-    
-A^(-1) = (1 / det(A)) * adj(A) = [0.6 -0.2]     
-                                 [-0.2 0.4] 
-```
+$$\text{det}(A) = (2 \cdot 3) - (1 \cdot 1) = 6 - 1 = 5$$&#x20;
+
+$$\text{adj}(A) = \begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix}$$ &#x20;
+
+$$A^{-1} = \frac{1}{\text{det}(A)} \cdot \text{adj}(A) = \begin{bmatrix} 0.6 & -0.2 \\ -0.2 & 0.4 \end{bmatrix}$$
 
 <details>
 
@@ -112,13 +100,13 @@ Step 1: Calculate the determinant $$det(A) = (2 * 3) - (1 * 1) = 6 - 1 = 5$$
 
 Step 2: Find the cofactor matrix $$C_{11} = 3, C_{12} = -1, C_{21} = -1, C_{22} = 2$$
 
-Cofactor matrix = $$[3\ -1] [-1\ 2]$$
+Cofactor matrix = $$\begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix}$$
 
-Step 3: Transpose the cofactor matrix to get the adjugate $$adj(A) = [3\ -1] [-1\ 2]$$
+Step 3: Transpose the cofactor matrix to get the adjugate $$\text{adj}(A) = \begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix}$$
 
-Step 4: Multiply the adjugate by $$1/det(A) A^{-1} = (0.2) * [3\ -1] [-1\ 2]$$
+Step 4: Multiply the adjugate by $$\frac{1}{\text{det}(A)} \cdot A^{-1} = 0.2 \cdot \begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix}$$
 
-$$A^{-1} = [0.6\ -0.2] [-0.2\ 0.4]$$
+$$A^{-1} = \begin{bmatrix} 0.6 & -0.2 \\ -0.2 & 0.4 \end{bmatrix}$$
 
 </details>
 
@@ -134,22 +122,19 @@ Gaussian elimination is a more efficient method for larger matrices:
 
 Let's use Gaussian elimination to find the inverse of matrix $$A$$:
 
-$$A = [2\ 1] [1\ 3]$$
-
-```
-A = [2 1]    
-    [1 3]    
-```
+$$A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}$$
 
 <details>
 
 <summary>Step-by-step explanation</summary>
 
-Step 1: Create the augmented matrix $$[2\ 1 | 1\ 0] [1\ 3 | 0\ 1]$$
+Step 1: Create the augmented matrix $$\left[\begin{array}{cc|cc} 2 & 1 & 1 & 0 \\ 1 & 3 & 0 & 1 \end{array}\right]$$
 
-Step 2: Perform row operations $$R2 = R2 - (1/2)R1 [2\ 1 | 1\ 0] [0\ 2.5 | -0.5\ 1]$$
+Step 2: Perform row operations $$\left[\begin{array}{cc|cc} 2 & 1 & 1 & 0 \\ 0 & 2.5 & -0.5 & 1 \end{array}\right]$$ &#x20;
 
-$$R2 = (1/2.5)\ R2\ [2\ 1 | 1\ 0] [0\ 1 | -0.2\ 0.4]$$
+$$R_2 = \frac{1}{2.5} R_2$$ &#x20;
+
+$$R_2 \rightarrow \frac{1}{2.5} R_2 \quad \Rightarrow \quad \left[\begin{array}{cc|cc} 2 & 1 & 1 & 0 \\ 0 & 1 & -0.2 & 0.4 \end{array}\right]$$
 
 $$R1 = R1\ - 1\ R2\ [2\ 0 | 1.2\ -0.4] [0\ 1 | -0.2\ 0.4]$$
 
