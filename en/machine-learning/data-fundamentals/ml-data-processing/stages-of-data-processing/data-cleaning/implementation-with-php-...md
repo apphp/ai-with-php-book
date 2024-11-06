@@ -25,7 +25,7 @@ RubixML provides dedicated transformers for handling missing values, normalizati
 
 #### **Step 1: Handling Missing Values**
 
-RubixML provides the `MissingDataImputer` for handling missing values. This imputer allows you to fill in missing values using strategies like `Mean`, `Median`, or `Constant`.
+RubixML provides the `MissingDataImputer` for handling missing values. This imputer allows you to fill in missing values using strategies like `Mean`, `Prior`, `Percentile` or `Constant`.
 
 ```php
 require 'vendor/autoload.php';
@@ -167,3 +167,7 @@ print_r($samples);
 ### Summary
 
 Using **RubixML**, we streamlined data cleaning with `MissingDataImputer`, `MinMaxNormalizer`, and `ZScaleStandardizer`. With **PHP-ML**, custom functions were needed to perform imputation, normalization, and standardization. RubixML is more convenient and feature-rich for these data preprocessing tasks, making it a good choice for machine learning in PHP.
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
