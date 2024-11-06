@@ -6,6 +6,8 @@ For this example, let’s assume you’re working with a dataset containing info
 
 ***
 
+### **RubixML** Examples
+
 #### 1. Setting Up the Dataset
 
 Let's assume our dataset is a CSV file named `customers.csv` with the following fields:
@@ -53,6 +55,15 @@ foreach ($dataset->samples() as $i => $sample) {
 
 Here, `MissingDataImputer` will replace missing values with the mean of the respective column.
 
+```
+After Imputation:
+25,55000,45
+32,72000,75
+40,72000,30
+25,82000,60
+28,63000,30
+```
+
 #### **Step 2: Normalization**
 
 RubixML has a `MinMaxNormalizer` that scales values to a range (usually between 0 and 1). This is especially useful for features like `income` and `spending_score` that vary widely.
@@ -89,7 +100,7 @@ The `ZScaleStandardizer` adjusts the features to have a mean of 0 and a standard
 
 ***
 
-### PHP-ML Example
+### PHP-ML Examples
 
 PHP-ML offers similar functionality, although it is less feature-rich than RubixML. Here’s how to handle some of these tasks with PHP-ML.
 
