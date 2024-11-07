@@ -86,24 +86,29 @@ $samples = [
     [1300, 260000],
     [1400, 280000],
 ];
+
+// Create a dataset from our samples (splits into features and labels)
 $dataset = Labeled::fromIterator($samples);
 
-$estimator = new Ridge(1.0);  // 1.0 is the regularization strength
+// Create and train Ridge regression model
+// 1.0 controls how much we prevent overfitting
+$estimator = new Ridge(1.0);
 $estimator->train($dataset);
 
-// Make prediction for new house with 2200 sq ft
+// Predict price for a 2200 sq ft house
 $newSample = [2200];
 $newDataset = new Unlabeled([$newSample]);
 $prediction = $estimator->predict($newDataset);
 
-echo "Sample size: 2200 sq.ft";
+// Show results
+echo 'Sample size: 2200 sq.ft';
 echo "\nPredicted Price for: $" . number_format($prediction[0], decimals: 2);
 
-// Calculate Mean Squared Error
+// Check how accurate our model is using Mean Squared Error
+// Lower number = better predictions
 $predictions = $estimator->predict($dataset);
 $mse = new MeanSquaredError();
-
-echo "\nMean Squared Error: " . $mse->score($predictions, $dataset->labels());
+echo "\n\nMean Squared Error: " . number_format($mse->score($predictions, $dataset->labels()), 10);
 ```
 
 </details>
