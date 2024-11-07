@@ -1,4 +1,4 @@
-# Implementation in PHP ?..
+# Simple Linear Regression ?..
 
 ### Coding Linear Regression in PHP
 
@@ -17,16 +17,17 @@ use Rubix\ML\Datasets\Labeled;
 use Rubix\ML\Regressors\Ridge;
 use Rubix\ML\CrossValidation\Metrics\MeanSquaredError;
 
-// Sample data: [Square Footage, Number of Bedrooms] => Price
+// Sample data: [Square Footage] => Price
 $samples = [
-    [850, 2],
-    [900, 2],
-    [1200, 3],
-    [1500, 3],
-    [2000, 4],
+    [800, 160000],
+    [900, 180000],
+    [1000, 200000],
+    [1100, 220000],
+    [1200, 240000],
+    [1300, 260000],
+    [1400, 280000],
 ];
-$labels = [200000, 210000, 300000, 350000, 450000];
-$dataset = Labeled::fromIterator($samples, $labels);
+$dataset = Labeled::fromIterator($samples);
 ```
 
 #### **Step 2: Train the Model**
@@ -43,11 +44,13 @@ $estimator->train($dataset);
 Once trained, we can use the model to make predictions on new data.
 
 ```php
-// New house with 1600 sq ft and 3 bedrooms
-$newSample = [1600, 3];
-$prediction = $estimator->predict([$newSample]);
+// Make prediction for new house with 2200 sq ft
+$newSample = [2200];
+$newDataset = new Unlabeled([$newSample]);
+$prediction = $estimator->predict($newDataset);
 
-echo "Predicted Price: $" . round($prediction[0], 2);
+echo "Sample size: 2200 sq.ft";
+echo "\nPredicted Price for: $" . number_format($prediction[0], decimals: 2);
 ```
 
 #### **Step 4: Evaluate the Model**
@@ -55,13 +58,64 @@ echo "Predicted Price: $" . round($prediction[0], 2);
 To measure the model’s accuracy, we can use a metric like **Mean Squared Error** (MSE), which calculates the average of squared differences between predicted and actual values.
 
 ```php
-$predictions = $estimator->predict($dataset->samples());
+// Calculate Mean Squared Error
+$predictions = $estimator->predict($dataset);
 $mse = new MeanSquaredError();
 
-echo "Mean Squared Error: " . $mse->score($predictions, $labels);
+echo "\nMean Squared Error: " . $mse->score($predictions, $dataset->labels());
 ```
 
-Result:
+**Full Code:**
+
+<details>
+
+<summary>Full Code</summary>
+
+```php
+use Rubix\ML\Datasets\Labeled;
+use Rubix\ML\Regressors\Ridge;
+use Rubix\ML\CrossValidation\Metrics\MeanSquaredError;
+
+// Sample data: [Square Footage] => Price
+$samples = [
+    [800, 160000],
+    [900, 180000],
+    [1000, 200000],
+    [1100, 220000],
+    [1200, 240000],
+    [1300, 260000],
+    [1400, 280000],
+];
+$dataset = Labeled::fromIterator($samples);
+
+$estimator = new Ridge(1.0);  // 1.0 is the regularization strength
+$estimator->train($dataset);
+
+// Make prediction for new house with 2200 sq ft
+$newSample = [2200];
+$newDataset = new Unlabeled([$newSample]);
+$prediction = $estimator->predict($newDataset);
+
+echo "Sample size: 2200 sq.ft";
+echo "\nPredicted Price for: $" . number_format($prediction[0], decimals: 2);
+
+// Calculate Mean Squared Error
+$predictions = $estimator->predict($dataset);
+$mse = new MeanSquaredError();
+
+echo "\nMean Squared Error: " . $mse->score($predictions, $dataset->labels());
+```
+
+</details>
+
+**Result:**
+
+```
+Sample size: 2200 sq.ft
+Predicted Price for: $439,999.99
+
+Mean Squared Error: -0.0001718508
+```
 
 ..........
 
@@ -69,11 +123,7 @@ Chart ??? is it possible some how? , may be chartjs ????
 
 ..........
 
-Fill code
-
-...........
-
-Code source:&#x20;
+\>>>>>>>
 
 
 

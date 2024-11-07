@@ -2,7 +2,7 @@
 
 ### Introduction to Machine Learning Algorithms
 
-Machine learning algorithms represent the cornerstone of artificial intelligence, enabling computers to learn from data without being explicitly programmed. These algorithms form patterns and make decisions with minimal human intervention, transforming raw data into actionable insights across countless applications—from recommender systems that personalize our digital experiences to computer vision systems that detect diseases in medical imaging.
+Machine learning algorithms represent the cornerstone of artificial intelligence, enabling computers to learn from data without being explicitly programmed. These algorithms form patterns and make decisions with minimal human intervention, transforming raw data into actionable insights across countless applications — from recommender systems that personalize our digital experiences to computer vision systems that detect diseases in medical imaging.
 
 <div align="left">
 

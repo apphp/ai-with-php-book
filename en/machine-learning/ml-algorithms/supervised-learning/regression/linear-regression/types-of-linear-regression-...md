@@ -4,18 +4,20 @@ There are two main types of linear regression and two additional types, Let's ta
 
 ### **1. Simple Linear Regression**
 
-Used when there is only one independent variable. For example, predicting a person’s weight based on their height.
+Used when there is only one independent variable. For example, predicting a person’s based on their height.
 
 This is the simplest form of linear regression, and it involves only one independent variable and one dependent variable. The equation for simple linear regression is: $$y=β_{0} ​ +β _{1} ​*X$$
 
 where:
 
-* Y is the dependent variable
-* X is the independent variable
-* β0 is the intercept
-* β1 is the slope
+* $$Y$$ is the dependent variable
+* $$X$$ is the independent variable
+* $$β0$$ is the intercept
+* $$β1$$ is the slope
 
 **Example:**
+
+(predicting house price based on house size)
 
 <div align="left">
 
@@ -27,26 +29,22 @@ where:
 
 Involves two or more independent variables, such as predicting house prices based on factors like area, number of rooms, and location.
 
-This involves more than one independent variable and one dependent variable. The equation for multiple linear regression is:\
-y=β0+β1X1+β2X2+………βnXny=β0​+β1​X1+β2​X2+………βn​Xn\
+This involves more than one independent variable and one dependent variable. The equation for multiple linear regression is:  $$y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \beta_n X_n$$
+
 where:
 
-* Y is the dependent variable
-* X1, X2, …, Xn are the independent variables
-* β0 is the intercept
-* β1, β2, …, βn are the slopes
+* $$Y$$ is the dependent variable
+* $$X1, X2, …, Xn$$ are the independent variables
+* $$β0$$ is the intercept
+* $$β1, β2, …, βn$$ are the slopes
 
+**Example:**
 
-
-<div align="left">
-
-<figure><img src="../../../../../.gitbook/assets/image (123).png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+(predicting motor MPG (Miles Per Gallon) based on horse power and weight)
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (123).png" alt="" width="563"><figcaption><p>Multiple Linear Regression</p></figcaption></figure>
 
 </div>
 
