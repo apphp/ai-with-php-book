@@ -69,17 +69,54 @@ After Imputation:
 RubixML has a `MinMaxNormalizer` that scales values to a range (usually between 0 and 1). This is especially useful for features like `income` and `spending_score` that vary widely.
 
 ```php
+use Rubix\ML\Datasets\Labeled;
 use Rubix\ML\Transformers\MinMaxNormalizer;
 
-// Apply normalization
-$normalizer = new MinMaxNormalizer(0, 1); // Scale values between 0 and 1
+// Create a sample dataset with some numerical features
+$samples = [
+    [100, 500, 25],
+    [150, 300, 15],
+    [200, 400, 20],
+    [50, 200, 10]
+];
+
+$labels = ['A', 'B', 'C', 'D'];
+
+// Create a labeled dataset
+$dataset = new Labeled($samples, $labels);
+
+// Create a MinMaxNormalizer to scale values between 0 and 1
+$normalizer = new MinMaxNormalizer(0, 1);
+
+// Apply normalization to the dataset
 $dataset->apply($normalizer);
 
-echo "After Normalization: \n";
+// Print the normalized values
+echo "Normalized Dataset:\n";
 print_r($dataset->samples());
 ```
 
-The `MinMaxNormalizer` will now adjust each feature to the 0–1 range, ensuring uniformity across features like `income` and `spending_score`.
+The `MinMaxNormalizer` will now adjust each feature to the 0–1 range, ensuring uniformity across features.  The formula for calculating the normalized value  of a feature $$𝑥$$ is:  $$x{\prime} = \frac{x - \min(x)}{\max(x) - \min(x)}$$
+
+```
+Normalized Dataset:
+Array
+(
+    [0] => Array
+        (
+            [0] => 0.33333333333333 // (100-50)/(200-50) = 0.33
+            [1] => 1                // (500-200)/(500-200) = 1
+            [2] => 1                // (25-10)/(25-10) = 1
+        )
+    [1] => Array
+        (
+            [0] => 0.66666666666667 // (150-50)/(200-50) = 0.67
+            [1] => 0.33333333333333 // (300-200)/(500-200) = 0.33
+            [2] => 0.33333333333333 // (15-10)/(25-10) = 0.33
+        )
+    // ... and so on
+)
+```
 
 #### **Step 3: Standardization**
 
