@@ -1,6 +1,6 @@
-# Tensor Types
+# Tensor Types ?..
 
-In mathematics and machine learning, tensors are fundamental structures that hold data in multi-dimensional arrays. Each element within a tensor follows a specific **tensor type**—a data format that determines the range, memory allocation, precision, and permissible operations on that data. Here’s a guide to the main tensor types, with definitions and examples.
+In mathematics and machine learning, tensors are fundamental structures that hold data in multi-dimensional arrays. Each element within a tensor follows a specific **tensor type** — a data format that determines the range, memory allocation, precision, and permissible operations on that data. Here’s a guide to the main tensor types, with definitions and examples.
 
 #### What is a Tensor Type?
 
@@ -17,16 +17,10 @@ Primary Tensor Types and Examples
 
 * **Definition:** Elements are whole numbers, represented by the set of integers $$\mathbb{Z}$$
 * Example:
-
-```mathml
-T₁ = [  1   2   3  ]  # Rank-1
-     [-4   0   5  ]
-
-T₂ = [[[1, 2],     # Rank-3
-       [3, 4]],
-      [[5, 6],
-       [7, 8]]]
-```
+  * Rank-1\
+    &#x20;$$T_1 = \begin{bmatrix} 1 & 2 & 3 \\ -4 & 0 & 5 \end{bmatrix}$$
+  * Rank-3\
+    $$T_2 = \left[ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} \right]$$
 
 2. **Floating-Point Tensors**
 

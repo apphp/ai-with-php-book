@@ -1,4 +1,4 @@
-# Tensor Shape ?..
+# Tensor Shape
 
 ### 1. Mathematical Definition
 
@@ -70,69 +70,51 @@ $$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} \times \begin{bmatrix} 7 
 
 #### 3.3 Broadcasting Rules
 
-```mathematica
-Vector + Scalar:
-Shape (3,) + () → (3,)
-[1]     [4]
-[2] + 4 = [6]
-[3]     [7]
+Vector + Scalar: Shape (3,) + () → (3,)
 
-Matrix + Vector:
-Shape (2,3) + (3,) → (2,3)
-[1 2 3]   [1]   [2 3 4]
-[4 5 6] + [1] = [5 6 7]
-          [1]
-```
+$$\begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix} + 4 = \begin{bmatrix} 4 \\ 6 \\ 7 \end{bmatrix}$$
+
+Matrix + Vector: Shape (2,3) + (3,) → (2,3)&#x20;
+
+$$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} + \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 2 & 3 & 4 \\ 5 & 6 & 7 \end{bmatrix}$$
 
 ### 4. Special Tensor Shapes in Mathematics
 
 #### 4.1 Square Matrices (n,n)
 
-```mathematica
 Shape: (2,2)
-[a b]
-[c d]
+
+$$\begin{bmatrix} a & b \\ c & d \end{bmatrix}$$
 
 Shape: (3,3)
-[a b c]
-[d e f]
-[g h i]
-```
+
+$$\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$$
 
 #### 4.2 Diagonal Matrices
 
-```mathematica
 Shape: (3,3)
-[λ₁ 0  0 ]
-[0  λ₂ 0 ]
-[0  0  λ₃]
-```
+
+$$\begin{bmatrix} \lambda_1 & 0 & 0 \\ 0 & \lambda_2 & 0 \\ 0 & 0 & \lambda_3 \end{bmatrix}$$
 
 #### 4.3 Symmetric Tensors
 
-```mathematica
+This shows a symmetric matrix where the entries satisfy $$b_{ij} = b_{ji}$$ .
+
 Shape: (3,3)
-[a  b  c]
-[b  d  e]
-[c  e  f]
-```
+
+$$\begin{bmatrix} a & b & c \\ b & d & e \\ c & e & f \end{bmatrix}$$
 
 ### 5. Applications with Specific Shapes
 
 #### 5.1 Physics Examples
 
-```mathematica
 Stress Tensor (Shape: (3,3)):
-[σxx σxy σxz]
-[σyx σyy σyz]
-[σzx σzy σzz]
+
+$$\begin{bmatrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \\ \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \\ \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \end{bmatrix}$$
 
 Electromagnetic Field Tensor (Shape: (4,4)):
-[0   -Ex  -Ey  -Ez ]
-[Ex   0   -Bz  By  ]
-[Ey   Bz   0   -Bx ]
-[Ez  -By   Bx   0  ]
-```
+
+$$\begin{bmatrix} 0 & -E_x & -E_y & -E_z \\ E_x & 0 & -B_z & B_y \\ E_y & B_z & 0 & -B_x \\ E_z & -B_y & B_x & 0 \end{bmatrix}$$
 
 #### 5.2 Linear Algebra Examples
 
@@ -165,26 +147,20 @@ Shape: (2,3)
 
 #### 6.1 Transpose Operation
 
-```mathematica
 Original Shape: (2,3)
-[1 2 3]
-[4 5 6]
+
+$$\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$$
 
 Transposed Shape: (3,2)
-[1 4]
-[2 5]
-[3 6]
-```
+
+$$\begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix}$$
 
 #### 6.2 Flatten Operation
 
-```mathematica
 Original Shape: (2,2,2)
-[[[1,2],
-  [3,4]],
- [[5,6],
-  [7,8]]]
 
-Flattened Shape: (8,)
-[1,2,3,4,5,6,7,8]
-```
+$$\begin{bmatrix} \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} \end{bmatrix}$$
+
+Flattened Shape: (8,)&#x20;
+
+$$\begin{bmatrix} 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \end{bmatrix}$$
