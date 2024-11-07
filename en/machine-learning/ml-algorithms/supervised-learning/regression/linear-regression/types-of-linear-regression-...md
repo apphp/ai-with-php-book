@@ -19,13 +19,7 @@ where:
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (122).png" alt="" width="563"><figcaption><p>Linear Regression</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../../../../../.gitbook/assets/image (125).png" alt="" width="563"><figcaption><p>Simple Linear Regression</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (122).png" alt="" width="563"><figcaption><p>Simple Linear Regression</p></figcaption></figure>
 
 </div>
 
