@@ -16,18 +16,12 @@ To install these examples, follow these steps:
 
 1. Clone the repository:
   ```
-  git clone https://github.com/username/project-title.git
+  git clone https://github.com/apphp/ai-with-php-book.git
   ```
 3. Navigate to the project directory:
   ```
   cd ai-with-php-book
   ```
-4. Run following command. It will prepare and run docker containers with all required applications.
-  ```
-  make init
-  ```
-4. After installation is complete, type in your browser: http://localhost:8088/
-5. If everything is OK, you should see the website with examples of code.
 
 ## **Usage**
 
