@@ -36,19 +36,21 @@ For those who prefer a more hands-on learning experience, _reading while running
      * Read more about Docker: [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
    *   Clone the GitHub repository linked in the book:
 
-       <pre class="language-bash"><code class="lang-bash"><strong>git clone https://github.com/apphp/ai-with-php-book
-       </strong>cd ai-with-php-book
-       </code></pre>
-   *   Run following command. It will prepare and run docker container with all required applications.
+       ```bash
+       git clone https://github.com/apphp/ai-with-php-book
+       ```
+   *   Navigate to the project directory:
+
+       ```bash
+       cd ai-with-php-book
+       ```
+   *   Run following command. It will prepare and run docker containers with all required applications.
 
        ```bash
        make init
        ```
-
-       \
-       After installation is complete, type in your browser: [http://localhost:8088/](http://localhost:8088/)
-
-       If everything is OK, you should see the website with examples of code:
+   * After installation is complete, type in your browser: [http://localhost:8088/](http://localhost:8088/)
+   *   If everything is OK, you should see the website with examples of code:
 
        <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. **Follow Along with the Chapters**:
