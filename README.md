@@ -6,6 +6,14 @@ This book will try to explain the basics of Artificial Intelligence and Machine 
 
 The official website version of this book: <a href="https://apphp.gitbook.io/artificial-intelligence-with-php" target=_blank>https://apphp.gitbook.io/artificial-intelligence-with-php</a>
 
+## **⚠️ Disclaimer**
+
+The code examples provided for the book *Artificial Intelligence with PHP* are intended for educational purposes only. These examples are designed to illustrate concepts and techniques in artificial intelligence and machine learning using PHP. **They are not suitable for production use and should not be deployed on live servers or systems that handle sensitive data.**
+
+These examples have not been subjected to rigorous security testing and may contain vulnerabilities, inefficiencies, or other issues that could pose security risks if used in production environments. We strongly advise readers to thoroughly test and secure any implementation of the techniques demonstrated in this book before using them in real-world applications.
+
+**The author and publisher are not responsible for any security breaches, data losses, or other damages that may result from using these examples on production servers.**
+
 ## **Introduction**
 
 This book will try to explain the basics of Artificial Intelligence and Machine Learning in a way that’s easy to understand. All the formulas, ideas, and code examples will be shown using PHP, so you can learn and apply the concepts step by step. PHP has been a leader in web development for decades, but its potential for artificial intelligence remains unexplored. We'll try to put PHP at the center of our learning, giving you the chance to explore how this powerful language can be used to build intelligent systems.
@@ -52,14 +60,6 @@ AI with PHP is released under the CC BY-NC (Attribution-NonCommercial) License. 
 ## **Authors and Acknowledgment**
 
 AI with PHP was created by **[Samuel Akopyan](https://github.com/apphp)**.
-
-## **Disclaimer**
-
-The code examples provided fir the book *Artificial Intelligence with PHP* are intended for educational purposes only. These examples are designed to illustrate concepts and techniques in artificial intelligence and machine learning using PHP. **They are not suitable for production use and should not be deployed on live servers or systems that handle sensitive data.**
-
-These examples have not been subjected to rigorous security testing and may contain vulnerabilities, inefficiencies, or other issues that could pose security risks if used in production environments. We strongly advise readers to thoroughly test and secure any implementation of the techniques demonstrated in this book before using them in real-world applications.
-
-**The author and publisher are not responsible for any security breaches, data losses, or other damages that may result from using these examples on production servers.**
 
 ## **Changelog**
 
