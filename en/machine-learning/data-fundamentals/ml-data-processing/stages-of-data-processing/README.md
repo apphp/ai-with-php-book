@@ -4,7 +4,7 @@ Data processing is a critical workflow in machine learning that involves transfo
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>Stages of Data Processing</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption><p>Stages of Data Processing</p></figcaption></figure>
 
 </div>
 

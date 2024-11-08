@@ -122,15 +122,13 @@ Predicted Price for: $439,999.99
 Mean Squared Error: -0.0001718508
 ```
 
-..........
+**Chart:**
 
-Chart ??? is it possible some how? , may be chartjs ????
+<div align="left">
 
-..........
+<figure><img src="../../../../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>House Prices by Square Footage with Trend Line</p></figcaption></figure>
 
-\>>>>>>>
-
-
+</div>
 
 ### Implementing Linear Regression with PHP-ML
 

@@ -4,7 +4,7 @@ In the early days of artificial intelligence, the concept of reactive AI emerged
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Reactive AI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Reactive AI</p></figcaption></figure>
 
 </div>
 

@@ -4,7 +4,7 @@ Think of AI as a super-smart learner. It works through a series of steps that he
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>How Does AI Work?</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>How Does AI Work?</p></figcaption></figure>
 
 </div>
 
