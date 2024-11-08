@@ -16,7 +16,7 @@ To install these examples, follow these steps:
 
 1. Clone the repository:
   ```
-  git clone https://github.com/apphp/ai-with-php-book.git
+  git clone git@github.com:apphp/ai-with-php-book.git
   ```
 3. Navigate to the project directory:
   ```
