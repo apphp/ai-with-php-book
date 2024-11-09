@@ -34,25 +34,29 @@
    * Убедитесь, что у вас есть готовая локальная среда. Чтобы начать работу с примерами, вам нужно, чтобы на вашей машине были запущены Git и Docker.
      * Узнайте больше о GitHub: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
      * Узнайте больше о Docker: [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
-   *   Склонируйте репозиторий GitHub, ссылка на который приведена ниже:
+   *   Склонируйте репозиторий GitHub, ссылка на который приведена ниже:&#x20;
 
-       <pre class="language-bash"><code class="lang-bash"><strong>git clone https://github.com/apphp/ai-with-php-book
-       </strong>cd ai-with-php-book
-       </code></pre>
-   *   Выполните следующую команду. Она подготовит и запустит контейнер Docker со всеми необходимыми приложениями.
+       ```bash
+       git clone https://github.com/apphp/ai-with-php-book
+       ```
+   *   Перейдите в каталог проекта:
+
+       ```bash
+       cd ai-with-php-book
+       ```
+   *   Выполните следующую команду. Она подготовит и запустит контейнеры Docker со всеми необходимыми приложениями.
 
        ```bash
        make init
        ```
+   * После завершения установки введите в браузере: http://localhost:8088/
+   *   Если все в порядке, вы должны увидеть веб-сайт с примерами кода:
 
-       \
-       После завершения установки введите в браузере: http://localhost:8088/ Если все в порядке, вы должны увидеть веб-сайт с примерами кода:
-
-       <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. **Следуйте главам:**
    *   Читая раздел, найдите соответствующий пример в репозитории (например, если вы находитесь в разделе «Скаляры в математике для машинного обучения», проверьте тот же раздел в боковом меню).
 
-       <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
    * Чтобы запустить пример, просто нажмите кнопку «Запустить код» в правом верхнем углу.
 3. **Экспериментируйте и изменяйте:**
    * Измените пример кода, чтобы протестировать различные сценарии или настроить параметры, чтобы увидеть, как изменения влияют на вывод. Это экспериментирование укрепляет ваше понимание.

@@ -36,6 +36,7 @@
   * [ИИ в разработке ПО](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-razrabotke-po.md)
   * [ИИ в уголовном правосудии](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-ugolovnom-pravosudii.md)
   * [ИИ в криминальном мире](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-kriminalnom-mire.md)
+  * [ИИ в военной сфере](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-voennoi-sfere.md)
 * [Агенты в ИИ](iskusstvennyi-intellekt/agenty-v-ii/README.md)
   * [Введение в ИИ агенты](iskusstvennyi-intellekt/agenty-v-ii/vvedenie-v-ii-agenty.md)
 
