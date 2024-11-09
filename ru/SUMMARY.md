@@ -42,6 +42,7 @@
   * [ИИ в преобразовании нашего мира](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-preobrazovanii-nashego-mira.md)
 * [Агенты в ИИ](iskusstvennyi-intellekt/agenty-v-ii/README.md)
   * [Введение в ИИ агенты](iskusstvennyi-intellekt/agenty-v-ii/vvedenie-v-ii-agenty.md)
+  * [Структура ИИ-агента](iskusstvennyi-intellekt/agenty-v-ii/struktura-ii-agenta.md)
 
 ## Машинное обучение
 
