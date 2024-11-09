@@ -38,6 +38,8 @@
   * [ИИ в криминальном мире](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-kriminalnom-mire.md)
   * [ИИ в террористической деятельности](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-terroristicheskoi-deyatelnosti.md)
   * [ИИ в военной сфере](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-voennoi-sfere.md)
+  * [ИИ в сфере развлечений для взрослых](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-sfere-razvlechenii-dlya-vzroslykh.md)
+  * [ИИ в преобразовании нашего мира](iskusstvennyi-intellekt/oblasti-primeneniya/ii-v-preobrazovanii-nashego-mira.md)
 * [Агенты в ИИ](iskusstvennyi-intellekt/agenty-v-ii/README.md)
   * [Введение в ИИ агенты](iskusstvennyi-intellekt/agenty-v-ii/vvedenie-v-ii-agenty.md)
 

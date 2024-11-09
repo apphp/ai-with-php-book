@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Теория разума ИИ</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Теория разума ИИ</p></figcaption></figure>
 
 </div>
 
