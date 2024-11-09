@@ -1,4 +1,4 @@
-# Simple Linear Regression ?..
+# Simple Linear Regression
 
 ### Coding Linear Regression in PHP
 
@@ -49,6 +49,7 @@ $newSample = [2200];
 $newDataset = new Unlabeled([$newSample]);
 $prediction = $estimator->predict($newDataset);
 
+// Show results
 echo "Sample size: 2200 sq.ft";
 echo "\nPredicted Price for: $" . number_format($prediction[0], decimals: 2);
 ```
@@ -116,17 +117,15 @@ echo "\n\nMean Squared Error: " . number_format($mse->score($predictions, $datas
 **Result:**
 
 ```
-Sample size: 2200 sq.ft
-Predicted Price for: $439,999.99
-
-Mean Squared Error: -0.0001718508
+Sample size: 2250 sq.ft
+Predicted Price for: $263,495.68
 ```
 
 **Chart:**
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption><p>House Prices by Square Footage with Trend Line</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption><p>House Prices by Square Footage with Trend Line</p></figcaption></figure>
 
 </div>
 
@@ -136,21 +135,27 @@ In **PHP-ML**, the process is similar. We’ll use the **Linear Regression** cla
 
 #### **Step 1: Prepare the Data**
 
+For this example, let’s use a small dataset with square footage and price.
+
 ```php
 use Phpml\Regression\LeastSquares;
 
 // Training data
 $samples = [
-    [850, 2],
-    [900, 2],
-    [1200, 3],
-    [1500, 3],
-    [2000, 4],
+    [800, 160000],
+    [900, 180000],
+    [1000, 200000],
+    [1100, 220000],
+    [1200, 240000],
+    [1300, 260000],
+    [1400, 280000],
 ];
-$labels = [200000, 210000, 300000, 350000, 450000];
+$labels = [160000, 180000, 200000, 220000, 240000, 260000, 280000];
 ```
 
 **Step 2: Train the Model**
+
+Now, we’ll create a **LeastSquares** model. We then train it on our dataset.
 
 ```php
 $regression = new LeastSquares();
@@ -159,27 +164,67 @@ $regression->train($samples, $labels);
 
 **Step 3: Make Predictions**
 
+Once trained, we can use the model to make predictions on new data.
+
 ```php
-// Predict the price of a house with 1600 sq ft and 3 bedrooms
-$predictedPrice = $regression->predict([1600, 3]);
-echo "Predicted Price: $" . round($predictedPrice, 2);
+// Predict price for a 2250 sq ft house
+$newSample = [2250];
+$predictedPrice = $regression->predict($newSample);
+
+// Show results
+echo 'Sample size: 2250 sq.ft';
+echo "\nPredicted Price for: $" . number_format($predictedPrice, decimals: 2);
 ```
 
-Result:
+**Full Code:**
 
-..........
+<details>
 
-Chart ??? is it possible some how? , may be chartjs ????
+<summary>Full Code</summary>
 
-...............
+```php
+use Phpml\Regression\LeastSquares;
 
-Full code:
+// Training data
+$samples = [
+    [800, 160000],
+    [900, 180000],
+    [1000, 200000],
+    [1100, 220000],
+    [1200, 240000],
+    [1300, 260000],
+    [1400, 280000],
+];
+$labels = [160000, 180000, 200000, 220000, 240000, 260000, 280000];
 
-...........
+$regression = new LeastSquares();
+$regression->train($samples, $labels);
 
-Code source:&#x20;
+// Predict price for a 2250 sq ft house
+$newSample = [2250];
+$predictedPrice = $regression->predict($newSample);
 
+// Show results
+echo 'Sample size: 2250 sq.ft';
+echo "\nPredicted Price for: $" . number_format($predictedPrice, decimals: 2);
+```
 
+</details>
+
+**Result:**
+
+```
+Sample size: 2250 sq.ft
+Predicted Price for: $263,495.68
+```
+
+**Chart:**
+
+<div align="left">
+
+<figure><img src="../../../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ### Advanced Techniques: Feature Scaling and Regularization
 
