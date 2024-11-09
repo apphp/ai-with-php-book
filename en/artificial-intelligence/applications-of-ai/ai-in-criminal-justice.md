@@ -14,7 +14,7 @@ Artificial Intelligence is increasingly being used in criminal justice systems t
 
 One of the most well-known applications of AI in criminal justice is predictive policing, where AI algorithms analyze past crime data to predict where and when crimes are likely to occur. By examining patterns of criminal activity, these systems help law enforcement agencies allocate resources more effectively and prevent crimes before they happen.
 
-For instance, **PredPol**, a predictive policing tool used in several cities, analyzes data such as time, location, and type of crimes to forecast areas where future crimes might occur. The goal is to prevent crime by increasing police presence in these areas, potentially reducing the overall crime rate.
+For instance, **PredPol**, a predictive policing tool used in in several US cities, analyzes data such as time, location, and type of crimes to forecast areas where future crimes might occur. The goal is to prevent crime by increasing police presence in these areas, potentially reducing the overall crime rate.
 
 However, predictive policing has faced criticism for reinforcing existing biases in the criminal justice system, as the data used to train AI models often reflects historical patterns of over-policing in certain communities. Ensuring that AI systems are trained on unbiased data is crucial to avoid perpetuating inequality.
 
