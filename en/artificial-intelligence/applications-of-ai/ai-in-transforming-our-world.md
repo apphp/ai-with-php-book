@@ -2,7 +2,7 @@
 
 ### The Role of AI in Transforming Our World
 
-Artificial Intelligence (AI) has emerged as one of the most transformative technologies of the 21st century, influencing nearly every aspect of our lives. From revolutionizing industries to reshaping how we interact with the world, AI’s impact is profound and far-reaching. Its ability to process vast amounts of data, automate complex tasks, and learn from patterns has opened up new opportunities in areas previously thought unreachable by technology.
+Artificial Intelligence has emerged as one of the most transformative technologies of the 21st century, influencing nearly every aspect of our lives. From revolutionizing industries to reshaping how we interact with the world, AI’s impact is profound and far-reaching. Its ability to process vast amounts of data, automate complex tasks, and learn from patterns has opened up new opportunities in areas previously thought unreachable by technology.
 
 <div align="left">
 
