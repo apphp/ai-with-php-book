@@ -38,7 +38,7 @@ The **Joint Artificial Intelligence Center (JAIC)**, established by the U.S. Dep
 
 AI is also revolutionizing military logistics and supply chains, automating processes such as inventory management, transportation, and supply distribution. Autonomous systems can be used to deliver supplies to troops in remote or dangerous locations, reducing the need for human involvement in high-risk missions.
 
-For instance, autonomous ground vehicles like the **TARDEC (Tank Automotive Research, Development, and Engineering Center)** are being developed to transport equipment and supplies across the battlefield. AI-powered logistics systems can analyze supply chain data to optimize resource allocation, ensuring that troops receive the supplies they need when they need them.
+For instance, autonomous ground vehicles like the **TARDEC** (Tank Automotive Research, Development, and Engineering Center) are being developed to transport equipment and supplies across the battlefield. AI-powered logistics systems can analyze supply chain data to optimize resource allocation, ensuring that troops receive the supplies they need when they need them.
 
 ### The Future of Military Domain with AI
 
