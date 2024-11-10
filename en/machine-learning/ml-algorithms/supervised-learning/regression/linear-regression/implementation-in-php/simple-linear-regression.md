@@ -14,6 +14,7 @@ For this example, let’s use a small dataset with square footage and price.
 
 ```php
 use Rubix\ML\Datasets\Labeled;
+use Rubix\ML\Datasets\Unlabeled;
 use Rubix\ML\Regressors\Ridge;
 use Rubix\ML\CrossValidation\Metrics\MeanSquaredError;
 
@@ -70,7 +71,7 @@ echo "\nMean Squared Error: " . $mse->score($predictions, $dataset->labels());
 
 <details>
 
-<summary>Full Code</summary>
+<summary>Full Code of Example</summary>
 
 ```php
 use Rubix\ML\Datasets\Labeled;
@@ -180,7 +181,7 @@ echo "\nPredicted Price for: $" . number_format($predictedPrice, decimals: 2);
 
 <details>
 
-<summary>Full Code</summary>
+<summary>Full Code of Example</summary>
 
 ```php
 use Phpml\Regression\LeastSquares;
