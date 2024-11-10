@@ -1,8 +1,8 @@
-# Tensor Types ?..
+# Tensor Types
 
 In mathematics and machine learning, tensors are fundamental structures that hold data in multi-dimensional arrays. Each element within a tensor follows a specific **tensor type** — a data format that determines the range, memory allocation, precision, and permissible operations on that data. Here’s a guide to the main tensor types, with definitions and examples.
 
-#### What is a Tensor Type?
+### What is a Tensor Type?
 
 A **tensor type** defines the numeric format for each element in a tensor. It specifies:
 
@@ -13,7 +13,7 @@ A **tensor type** defines the numeric format for each element in a tensor. It sp
 
 Primary Tensor Types and Examples
 
-1. **Integer Tensors**
+#### **1. Integer Tensors**
 
 * **Definition:** Elements are whole numbers, represented by the set of integers $$\mathbb{Z}$$
 * Example:
@@ -22,86 +22,60 @@ Primary Tensor Types and Examples
   * Rank-3\
     $$T_2 = \left[ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} \right]$$
 
-2. **Floating-Point Tensors**
+#### **2. Floating-Point Tensors**
 
 * **Definition:** Elements are real numbers $$\mathbb{R}$$ with decimal precision, allowing for more precise calculations.
 * Example:
+  * Matrix (Rank 2) Tensor:\
+    $$F_1 = \begin{bmatrix} 1.5 & 2.7 & 3.14 \\ -4.0 & 0.01 & 5.67 \end{bmatrix}$$
+  * Scalar (Rank 0) Tensor:\
+    $$F_2 = 3.14159$$
 
-```python
-F₁ = [  1.5    2.7    3.14  ]
-     [-4.0    0.01   5.67  ]
-
-F₂ = 3.14159  # Scalar tensor
-```
-
-3. **Complex Tensors**
+#### **3. Complex Tensors**
 
 * Definition: Elements are complex numbers, represented $$\mathbb{C}$$ by , and contain both real and imaginary parts.
 * Example:
+  * Complex Matrix (Rank 2) Tensor: \
+    $$C_1 = \begin{bmatrix} 1 + 2i & 2 - 3i \\ 4 + 0i & 5 - 1i \end{bmatrix}$$
+  * Complex Scalar (Rank 0) Tensor:\
+    $$C_2 = 2 + 3i$$
 
-```python
-C₁ = [1 + 2i    2 - 3i]
-     [4 + 0i    5 - 1i]
-
-C₂ = (2 + 3i)  # Complex scalar
-```
-
-4. **Boolean Tensors**
+#### **4. Boolean Tensors**
 
 * Definition: Elements are binary values {True, False}
 * Example:
+  * Boolean Tensor (Rank 2):\
+    $$B_1 = \begin{bmatrix} \text{True} & \text{False} & \text{True} \\ \text{False} & \text{True} & \text{False} \end{bmatrix}$$
+  * Mask Example (Conditions):\
+    $$\text{Mask} = \begin{bmatrix} 1 > 0 & 2 < 1 & 3 == 3 \end{bmatrix} = \begin{bmatrix} \text{True} & \text{False} & \text{True} \end{bmatrix}$$
 
-```python
-B₁ = [True   False  True ]
-     [False  True   False]
+#### **5. Mixed-Type Operations**:&#x20;
 
-# Often used in masks/conditions
-Mask = [1 > 0    2 < 1    3 == 3]
-```
-
-5. **Mixed-Type Operations**: When performing operations between tensors of different types, type conversion rules apply:
+When performing operations between tensors of different types, type conversion rules apply:
 
 * Integer + Float → Float
 * Real + Complex → Complex
 * Example:
+  * Integer Tensor:\
+    $$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
+  * Float Tensor:\
+    $$B = \begin{bmatrix} 1.5 & 2.5 \\ 3.5 & 4.5 \end{bmatrix}$$
+  * Sum Result (Float Tensor):\
+    $$A + B = \begin{bmatrix} 1 + 1.5 & 2 + 2.5 \\ 3 + 3.5 & 4 + 4.5 \end{bmatrix} = \begin{bmatrix} 2.5 & 4.5 \\ 6.5 & 8.5 \end{bmatrix}$$
 
-```python
-# Integer tensor
-A = [1  2]
-    [3  4]
-
-# Float tensor
-B = [1.5  2.5]
-    [3.5  4.5]
-
-# Result is float
-A + B = [2.5  4.5]
-        [6.5  8.5]
-```
-
-6. **Special Cases**:
+#### **6. Special Cases**:
 
 a) **Rational Tensors**
 
 * **Definition:** Elements are rational numbers, $$\mathbb{Q}$$, represented as fractions.
-* Example:
-
-```python
-R = [1/2   2/3   3/4]
-    [4/5   5/6   6/7]
-```
+* Example:\
+  $$R = \begin{bmatrix} \frac{1}{2} & \frac{2}{3} & \frac{3}{4} \\ \frac{4}{5} & \frac{5}{6} & \frac{6}{7} \end{bmatrix}$$
 
 b) **Categorical Tensors**
 
 * Definition: Elements represent categories or labels, often used in machine learning for classification.
-* Example:
-
-```python
-# One-hot encoding
-C = [1  0  0]  # Class 1
-    [0  1  0]  # Class 2
-    [0  0  1]  # Class 3
-```
+* Example:\
+  $$C = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
 
 #### Important Properties of Tensor Types
 
