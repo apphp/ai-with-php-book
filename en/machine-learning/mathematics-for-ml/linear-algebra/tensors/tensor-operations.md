@@ -1,4 +1,4 @@
-# Tensor Operations ?..
+# Tensor Operations
 
 ### Tensor Operations Explained
 
@@ -82,8 +82,11 @@ We want to **transpose** the tensor so that the last dimension becomes the first
 
 **Reshaping** changes a tensor's layout without altering its data, often necessary for model compatibility.
 
-**Example**:\
-To reshape a (2 \times 3) matrix to (3 \times 2): \[ A = \begin{bmatrix} 1 & 2 & 3 \ 4 & 5 & 6 \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 2 \ 3 & 4 \ 5 & 6 \end{bmatrix} ]
+**Example**:
+
+To reshape a 2x3 matrix to 3x2:
+
+$$A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{bmatrix}$$
 
 ### Advanced Tensor Operations
 
@@ -91,14 +94,17 @@ To reshape a (2 \times 3) matrix to (3 \times 2): \[ A = \begin{bmatrix} 1 & 2 &
 
 The **outer product** creates higher-dimensional tensors, useful in vector expansion for complex relationships.
 
-**Example**: \[ u = \[1, 2], \quad v = \[3, 4, 5] ] \[ \text{outer}(u, v) = \begin{bmatrix} 3 & 4 & 5 \ 6 & 8 & 10 \end{bmatrix} ]
+**Example**:
+
+Given $$u = [1, 2]$$ and $$v = [3, 4, 5]$$,  the outer product is: $$v = [3, 4, 5]$$
 
 #### **Einstein Summation (einsum)**
 
 **Einstein summation** provides a compact notation for complex tensor operations, like matrix multiplication, by aligning and summing indices.
 
-**Example**:\
-To perform matrix multiplication: \[ C\[i,k] = \sum\_j A\[i,j] \cdot B\[j,k] ] Using einsum notation in Python: `C = einsum('ij,jk->ik', A, B)`
+**Example**:
+
+To perform matrix multiplication:  $$C[i, k] = \sum_j A[i, j] \cdot B[j, k]$$
 
 ### Applications of Tensor Operations
 
