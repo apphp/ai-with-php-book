@@ -153,7 +153,21 @@ foreach ($predictions as $index => $prediction) {
 
 </details>
 
+**Result:**
 
+```
+Predictions for new houses:
+House 1: $577,025.89
+House 2: $351,275.14
+```
+
+**Chart:**
+
+<div align="left">
+
+<figure><img src="../../../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 \>>>>>>>>>>
 
