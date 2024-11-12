@@ -58,7 +58,7 @@ John McCarthy, often referred to as the "father of artificial intelligence," coi
 
 #### 4. Herbert A. Simon and Allen Newell
 
-<div align="left" data-full-width="false">
+<div align="center" data-full-width="false">
 
 <figure><img src="../.gitbook/assets/image (133).png" alt="" width="188"><figcaption><p>Herbert A.Simon</p></figcaption></figure>
 
