@@ -52,6 +52,10 @@ In 1956, John McCarthy coined the term “Artificial Intelligence” during the 
 
 A co-founder of the MIT AI Laboratory, Marvin Minsky was another pioneer who made significant contributions to AI. His work focused on human cognition and the architecture of intelligence, exploring how machines could simulate human thought. Minsky believed that AI could be used to understand the nature of human intelligence and contributed to early developments in robotics and neural networks.
 
+#### 5. John McCarthy
+
+John McCarthy, often referred to as the "father of artificial intelligence," coined the term "artificial intelligence" in the mid-1950s. He was instrumental in the development of the Lisp programming language, which became essential for AI research. McCarthy believed in the potential of AI to solve complex problems and to emulate many aspects of human thought through computation, laying down the foundational concepts upon which the field is built.
+
 #### 4. Herbert A. Simon and Allen Newell
 
 <div align="left" data-full-width="false">
