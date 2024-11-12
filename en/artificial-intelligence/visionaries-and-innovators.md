@@ -58,17 +58,19 @@ John McCarthy, often referred to as the "father of artificial intelligence," coi
 
 #### 4. Herbert A. Simon and Allen Newell
 
-<div align="center" data-full-width="false">
+<div align="left" data-full-width="false">
 
 <figure><img src="../.gitbook/assets/image (133).png" alt="" width="188"><figcaption><p>Herbert A.Simon</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image (137).png" alt="" width="188"><figcaption><p>Allen Newell</p></figcaption></figure>
 
 </div>
 
 Simon and Newell were instrumental in creating one of the first AI programs, the Logic Theorist, in 1955. Their work introduced the idea of heuristic problem-solving in machines, simulating human reasoning. They went on to develop the General Problem Solver, which could solve a wide range of problems through abstract reasoning, marking one of the first practical applications of AI.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image (137).png" alt="" width="188"><figcaption><p>Allen Newell</p></figcaption></figure>
+
+</div>
 
 These early pioneers had the vision and courage to question what machines could achieve, laying the groundwork for future breakthroughs.
 
