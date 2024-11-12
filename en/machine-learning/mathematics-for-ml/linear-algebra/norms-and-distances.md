@@ -2,4 +2,4 @@
 
 • Vector norms (L1, L2, etc.)
 
-• Distance metrics: Euclidean distance, Manhattan distance
+• Distance metrics: Euclidean distance, Manhattan distance - SEE PHP-ML

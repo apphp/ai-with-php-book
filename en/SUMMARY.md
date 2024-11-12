@@ -100,7 +100,7 @@
         * [Tensor Shape](machine-learning/mathematics-for-ml/linear-algebra/tensors/tensor-properties/tensor-shape-...md)
         * [Tensor Types](machine-learning/mathematics-for-ml/linear-algebra/tensors/tensor-properties/tensor-types.md)
       * [Tensor Operations](machine-learning/mathematics-for-ml/linear-algebra/tensors/tensor-operations.md)
-      * [Practical Applications ?..](machine-learning/mathematics-for-ml/linear-algebra/tensors/practical-applications-...md)
+      * [Practical Applications](machine-learning/mathematics-for-ml/linear-algebra/tensors/practical-applications.md)
       * [Applications in Machine Learning](machine-learning/mathematics-for-ml/linear-algebra/tensors/applications-in-machine-learning.md)
       * [Tensors with PHP](machine-learning/mathematics-for-ml/linear-algebra/tensors/tensors-with-php.md)
     * [Linear Transformations](machine-learning/mathematics-for-ml/linear-algebra/linear-transformations/README.md)

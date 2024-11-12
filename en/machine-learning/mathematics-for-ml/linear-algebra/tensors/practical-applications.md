@@ -1,4 +1,4 @@
-# Practical Applications ?..
+# Practical Applications
 
 ### 1. Stress Tensor in Physics
 
@@ -41,15 +41,3 @@ where:
 * **Off-diagonal elements** ($$I_{xy}, I_{xz}, I_{yz}$$): Known as the products of inertia, these terms indicate the coupling between rotations around different axes. Negative signs are often used here for consistency in tensor notation, ensuring symmetric properties when calculating rotational dynamics.
 
 The moment of inertia tensor can vary depending on the body’s shape, mass distribution, and orientation relative to the chosen coordinate system. It plays a crucial role in dynamics, especially when analyzing complex rotations, as it determines how torques will affect the rotational motion.
-
-### 3. Machine Learning Example
-
-```python
-# 4D tensor for batch of images
-# Shape: [batch_size, height, width, channels]
-images_tensor = np.zeros((32, 256, 256, 3))
-
-# Convolutional kernel (4D tensor)
-# Shape: [kernel_height, kernel_width, in_channels, out_channels]
-kernel = np.zeros((3, 3, 3, 64))
-```
