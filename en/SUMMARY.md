@@ -163,7 +163,6 @@
         * [Evaluation Metrics for Linear Regression](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/evaluation-metrics-for-linear-regression.md)
         * [Gradient Descent](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/gradient-descent.md)
         * [How It Works by Math](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/how-it-works-by-math.md)
-        * [Practical Examples ?..](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/practical-examples-...md)
         * [Implementation in PHP](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/implementation-in-php/README.md)
           * [Simple Linear Regression](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/implementation-in-php/simple-linear-regression.md)
           * [Multiple Linear Regression](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/implementation-in-php/multiple-linear-regression.md)
