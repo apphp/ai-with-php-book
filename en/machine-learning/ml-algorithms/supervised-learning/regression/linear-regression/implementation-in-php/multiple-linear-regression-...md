@@ -169,19 +169,9 @@ House 2: $351,275.14
 
 </div>
 
-\>>>>>>>>>>
-
-
-
-
-
-**Full Code for RubixML Example**
-
 ***
 
 ### Using PHP-ML for Multiple Linear Regression
-
-
 
 #### Example: Predicting House Prices
 
@@ -201,7 +191,7 @@ $samples = [
     [3, 1600, 4],
 ];
 
-$targets = [300000, 500000, 200000, 750000, 350000];
+$labels = [300000, 500000, 200000, 750000, 350000];
 ```
 
 **Step 2: Initialize the Model**
@@ -215,7 +205,7 @@ $regressor = new LeastSquares();
 **Step 3: Train the Model**
 
 ```php
-$regressor->train($samples, $targets);
+$regressor->train($samples, $labels);
 ```
 
 **Step 4: Make Predictions**
@@ -233,13 +223,14 @@ $predictions = $regressor->predict($newData);
 print_r($predictions);
 ```
 
-**Full Code for PHP-ML Example**
+**Full Code:**
+
+<details>
+
+<summary>Full Code of Example</summary>
 
 ```php
-<?php
-
-require 'vendor/autoload.php';
-
+use Phpml\Dataset\ArrayDataset;
 use Phpml\Regression\LeastSquares;
 
 $samples = [
@@ -250,10 +241,11 @@ $samples = [
     [3, 1600, 4],
 ];
 
-$targets = [300000, 500000, 200000, 750000, 350000];
+$labels = [300000, 500000, 200000, 750000, 350000];
 
 $regressor = new LeastSquares();
-$regressor->train($samples, $targets);
+
+$regressor->train($samples, $labels);
 
 $newData = [
     [4, 1800, 3],
@@ -264,6 +256,19 @@ $predictions = $regressor->predict($newData);
 
 print_r($predictions);
 ```
+
+</details>
+
+**Result:**
+
+```
+Predictions for new houses:
+
+```
+
+**Chart:**
+
+###
 
 ***
 
