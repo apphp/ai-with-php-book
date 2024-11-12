@@ -24,17 +24,45 @@ The early development of AI was fueled by the work of brilliant minds whose idea
 
 #### 1. Alan Turing
 
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image (129).png" alt="" width="188"><figcaption><p>Alan Turing</p></figcaption></figure>
+
+</div>
+
 Often referred to as the father of modern computer science, Alan Turing’s 1950 paper _“Computing Machinery and Intelligence”_ posed the famous question, “Can machines think?” In it, Turing introduced the concept of the Turing Test, a method for determining whether a machine can exhibit intelligent behavior indistinguishable from that of a human. Turing’s work laid the conceptual groundwork for AI by exploring the idea of machine learning and artificial reasoning.
 
 #### 2. John McCarthy
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image (130).png" alt="" width="188"><figcaption><p>John McCarthy</p></figcaption></figure>
+
+</div>
 
 In 1956, John McCarthy coined the term “Artificial Intelligence” during the Dartmouth Conference, which is considered the birth of AI as a distinct field of study. McCarthy’s contributions include the development of Lisp, a programming language widely used in AI research. His work in symbolic reasoning and problem-solving helped establish the core areas of early AI research, particularly in logic-based approaches.
 
 #### 3. Marvin Minsky
 
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image (131).png" alt="" width="188"><figcaption><p>Marvin Minsky</p></figcaption></figure>
+
+</div>
+
 A co-founder of the MIT AI Laboratory, Marvin Minsky was another pioneer who made significant contributions to AI. His work focused on human cognition and the architecture of intelligence, exploring how machines could simulate human thought. Minsky believed that AI could be used to understand the nature of human intelligence and contributed to early developments in robotics and neural networks.
 
 #### 4. Herbert A. Simon and Allen Newell
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image (133).png" alt="" width="188"><figcaption><p>Herbert A.Simon</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image (137).png" alt="" width="188"><figcaption><p>Allen Newell</p></figcaption></figure>
+
+</div>
 
 Simon and Newell were instrumental in creating one of the first AI programs, the Logic Theorist, in 1955. Their work introduced the idea of heuristic problem-solving in machines, simulating human reasoning. They went on to develop the General Problem Solver, which could solve a wide range of problems through abstract reasoning, marking one of the first practical applications of AI.
 
