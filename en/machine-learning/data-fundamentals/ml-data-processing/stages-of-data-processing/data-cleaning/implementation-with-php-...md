@@ -123,7 +123,24 @@ Array
 If standardization is more appropriate (for instance, if we’re using algorithms like SVMs that are sensitive to variance), we can apply the `ZScaleStandardizer`.
 
 ```php
+require APP_PATH . 'vendor/autoload.php';
+
+use Rubix\ML\Datasets\Labeled;
+use Rubix\ML\Transformers\MinMaxNormalizer;
 use Rubix\ML\Transformers\ZScaleStandardizer;
+
+// Create a sample dataset with some numerical features
+$samples = [
+    [100, 500, 25],
+    [150, 300, 15],
+    [200, 400, 20],
+    [50, 200, 10]
+];
+
+$labels = ['A', 'B', 'C', 'D'];
+
+// Create a labeled dataset
+$dataset = new Labeled($samples, $labels);
 
 // Apply standardization
 $standardizer = new ZScaleStandardizer();
@@ -135,13 +152,34 @@ print_r($dataset->samples());
 
 The `ZScaleStandardizer` adjusts the features to have a mean of 0 and a standard deviation of 1, which is ideal for models like Support Vector Machines (SVM) and Principal Component Analysis (PCA).
 
+```
+Standardized Dataset:
+Array
+(
+    [0] => Array
+        (
+            [0] => -0.44721359549996
+            [1] => 1.3416407864999
+            [2] => 1.3416407864999
+        )
+
+    [1] => Array
+        (
+            [0] => 0.44721359549996
+            [1] => -0.44721359549996
+            [2] => -0.44721359549996
+        )
+    // ... and so on
+)
+```
+
 ***
 
 ### PHP-ML Examples
 
 PHP-ML offers similar functionality, although it is less feature-rich than RubixML. Here’s how to handle some of these tasks with PHP-ML.
 
-#### **Handling Missing Values**
+#### **Step 1: Handling Missing Values**
 
 PHP-ML doesn’t have a built-in `MissingDataImputer`, but you can write custom code to handle missing values.
 
@@ -182,7 +220,7 @@ print_r($samples);
 
 This function calculates the mean for each column and replaces missing values with the respective column mean.
 
-#### **Normalization and Standardization**
+#### **Step 2: Normalization and Standardization**
 
 Normalization in PHP-ML can be done manually or by looping through each feature. However, PHP-ML also includes some transformers, though they are more limited. Here’s an example of manual Min-Max normalization.
 
