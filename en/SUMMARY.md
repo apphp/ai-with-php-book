@@ -166,7 +166,7 @@
         * [Practical Examples ?..](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/practical-examples-...md)
         * [Implementation in PHP](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/implementation-in-php/README.md)
           * [Simple Linear Regression](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/implementation-in-php/simple-linear-regression.md)
-          * [Multiple Linear Regression ?..](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/implementation-in-php/multiple-linear-regression-...md)
+          * [Multiple Linear Regression](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/implementation-in-php/multiple-linear-regression.md)
     * [Classification](machine-learning/ml-algorithms/supervised-learning/classification.md)
   * [Unsupervised Learning](machine-learning/ml-algorithms/unsupervised-learning/README.md)
     * [Clustering](machine-learning/ml-algorithms/unsupervised-learning/clustering.md)

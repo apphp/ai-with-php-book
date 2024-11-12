@@ -6,7 +6,7 @@ AI’s integration into adult entertainment, like many other industries, has tra
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Adult Entertainment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Adult Entertainment</p></figcaption></figure>
 
 </div>
 

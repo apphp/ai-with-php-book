@@ -1,4 +1,4 @@
-# Multiple Linear Regression ?..
+# Multiple Linear Regression
 
 ### Coding Multiple Linear Regression in PHP
 
@@ -165,7 +165,7 @@ House 2: $351,275.14
 
 <div align="left">
 
-<figure><img src="../../../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -263,12 +263,17 @@ print_r($predictions);
 
 ```
 Predictions for new houses:
-
+House 1: $577,026.62
+House 2: $351,276.24
 ```
 
 **Chart:**
 
-###
+<div align="left">
+
+<figure><img src="../../../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ***
 
@@ -283,8 +288,6 @@ Both libraries provide similar functionality for linear regression, with differe
 | Flexibility       | High                  | Moderate        |
 | Model Variety     | Broad                 | Limited         |
 | Installation      | `rubix/ml`            | `php-ai/php-ml` |
-
-***
 
 ### Conclusion
 
