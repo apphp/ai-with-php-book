@@ -54,7 +54,7 @@ A co-founder of the MIT AI Laboratory, Marvin Minsky was another pioneer who mad
 
 #### 4. Herbert A. Simon and Allen Newell
 
-<div align="left">
+<div align="left" data-full-width="false">
 
 <figure><img src="../.gitbook/assets/image (133).png" alt="" width="188"><figcaption><p>Herbert A.Simon</p></figcaption></figure>
 
