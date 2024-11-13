@@ -1,7 +1,5 @@
 # Data Cleaning Types
 
-### Chapter: Data Cleaning Step in ML Data Processing
-
 Data cleaning is the crucial first step in preparing data for machine learning (ML) models. Quality data is essential for effective analysis, model accuracy, and interpretability. In this chapter, we’ll explore three core aspects of data cleaning: **handling missing values**, **normalization**, and **standardization**.
 
 ### 1. Handling Missing Values

@@ -181,7 +181,7 @@ PHP-ML offers similar functionality, although it is less feature-rich than Rubix
 
 #### **Step 1: Handling Missing Values**
 
-PHP-ML doesn’t have a built-in `MissingDataImputer`, but you can write custom code to handle missing values.
+PHP-ML doesn’t have a built-in `MissingDataImputer`, but we can write custom code to handle missing values.
 
 ```php
 use Phpml\Dataset\CsvDataset;
@@ -197,28 +197,41 @@ function imputeMissingValues($dataset) {
     // Calculate the mean for each column
     foreach (range(0, 2) as $colIndex) {
         $colValues = array_column($samples, $colIndex);
-        $filteredValues = array_filter($colValues, fn($val) => $val !== null && $val !== '');
-        $colMeans[$colIndex] = array_sum($filteredValues) / count($filteredValues);
+        $filteredValues = array_filter($colValues, fn($val) => $val !== null && $val !== '' ? (int)$val : false );
+        $colMeans[$colIndex] = $filteredValues ? array_sum($filteredValues) / count($filteredValues) : 0;
     }
 
     // Replace missing values with the column mean
     foreach ($samples as &$sample) {
         foreach ($sample as $i => &$value) {
-            if ($value === null || $value === '') {
+            if ($value === null || $value === '' || $value === '?') {
                 $value = $colMeans[$i];
             }
         }
     }
-    
+
     return $samples;
 }
 
 // Apply missing value imputation
 $samples = imputeMissingValues($dataset);
-print_r($samples);
+
+echo "\nAfter Imputation:\n";
+foreach ($samples as $i => $sample) {
+    echo implode(',', $sample) . "\n";
+}
 ```
 
 This function calculates the mean for each column and replaces missing values with the respective column mean.
+
+```
+After Imputation:
+25,55000,45
+32,68000,75
+40,72000,52.5
+31.25,82000,60
+28,63000,30
+```
 
 #### **Step 2: Normalization and Standardization**
 
