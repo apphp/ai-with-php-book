@@ -1,4 +1,4 @@
-# Implementation with PHP ?..
+# Implementation with PHP
 
 Sure! Here’s a detailed example for data cleaning using **RubixML** and **PHP-ML**, two machine learning libraries for PHP. We'll look at how to handle missing values, normalization, and standardization.
 
@@ -238,6 +238,14 @@ After Imputation:
 Normalization in PHP-ML can be done manually or by looping through each feature. However, PHP-ML also includes some transformers, though they are more limited. Here’s an example of manual Min-Max normalization.
 
 ```php
+// Create a sample dataset with some numerical features
+$samples = [
+    [100, 500, 25],
+    [150, 300, 15],
+    [200, 400, 20],
+    [50, 200, 10]
+];
+
 function normalize($samples) {
     $minMax = [];
 
@@ -260,7 +268,32 @@ function normalize($samples) {
 }
 
 $samples = normalize($samples);
+
+// Print the normalized values
+echo "Normalized Dataset:\n";
 print_r($samples);
+```
+
+This code adjusts the features to have a mean of 0 and a standard deviation of 1.
+
+```
+Normalized Dataset:
+Array
+(
+    [0] => Array
+        (
+            [0] => 0.33333333333333
+            [1] => 1
+            [2] => 1
+        )
+    [1] => Array
+        (
+            [0] => 0.66666666666667
+            [1] => 0.33333333333333
+            [2] => 0.33333333333333
+        )
+    // ... and so on
+)
 ```
 
 ### Summary
