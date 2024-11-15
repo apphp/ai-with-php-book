@@ -13,23 +13,35 @@ Categorical data, such as "color" or "size," needs to be converted into numerica
 **Example with RubixML:**
 
 ```php
+use Rubix\ML\Datasets\Unlabeled;
 use Rubix\ML\Transformers\OneHotEncoder;
-use Rubix\ML\Datasets\Labeled;
 
-$dataset = new Labeled([
+// Create the dataset
+$dataset = new Unlabeled([
     ['red', 'small'],
     ['blue', 'medium'],
     ['green', 'large'],
-], ['low', 'medium', 'high']);
+]);
 
 $encoder = new OneHotEncoder();
 $encoder->fit($dataset);
-$encoder->transform($dataset);
+$samples = $dataset->samples();
+$encoder->transform($samples);
 
-print_r($dataset->samples());
+echo "\nAfter Encoding:\n";
+foreach ($samples as $sample) {
+    echo implode('', $sample) . "\n";
+}
 ```
 
 Here, `OneHotEncoder` from RubixML converts each unique category into binary values, making it compatible with machine learning algorithms.
+
+```
+After Encoding:
+100100
+010010
+001001
+```
 
 #### **2. Normalizing and Scaling Numerical Features**
 
