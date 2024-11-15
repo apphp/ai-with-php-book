@@ -189,6 +189,13 @@
 ## Neural Networks
 
 * [Introduction](neural-networks/introduction.md)
+* [Overview of NN](neural-networks/overview-of-nn/README.md)
+  * [History of NN](neural-networks/overview-of-nn/history-of-nn.md)
+  * [Basic Components of NN](neural-networks/overview-of-nn/basic-components-of-nn.md)
+  * [Types of NN Architectures](neural-networks/overview-of-nn/types-of-nn-architectures.md)
+  * [Problems and Challenges](neural-networks/overview-of-nn/problems-and-challenges.md)
+  * [How NN Works](neural-networks/overview-of-nn/how-nn-works.md)
+* [NN Capabilities in PHP](neural-networks/nn-capabilities-in-php.md)
 * [Deep Learning](neural-networks/deep-learning.md)
 * [Convolutional Neural Networks (CNN)](neural-networks/convolutional-neural-networks-cnn.md)
 * [Recurrent Neural Networks (RNN)](neural-networks/recurrent-neural-networks-rnn.md)

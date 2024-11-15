@@ -8,7 +8,7 @@ Think of AI as a super-smart learner. It works through a series of steps that he
 
 </div>
 
-**1. Input**: AI starts by collecting tons of data from different places—this could be images, text, numbers, or even video feeds. For example, think about how AI in your smartphone recognizes faces in photos. It needs a huge amount of picture data to get started. Once collected, the data is organized into neat categories, so the AI knows what to look for.
+**1. Input**: AI starts by collecting tons of data from different places — this could be images, text, numbers, or even video feeds. For example, think about how AI in your smartphone recognizes faces in photos. It needs a huge amount of picture data to get started. Once collected, the data is organized into neat categories, so the AI knows what to look for.
 
 **2. Processing**: The AI takes a deep dive into the data, using algorithms (basically fancy math formulas) to analyze and search for patterns. These patterns might be things like common shapes in an image or repeated words in a sentence. It’s like training the AI to spot a particular type of behavior or information. The more data it processes, the better it becomes at recognizing the patterns it’s been taught.
 
