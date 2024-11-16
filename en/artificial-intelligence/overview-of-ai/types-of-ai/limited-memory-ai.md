@@ -2,12 +2,6 @@
 
 Artificial Intelligence has evolved rapidly, with Limited Memory AI emerging as a distinct category that balances sophisticated decision-making abilities with defined constraints. Positioned between reactive machines and more advanced AI forms, Limited Memory AI encompasses systems that can leverage historical data to improve decision-making within a limited timeframe. In this chapter, we will explore the unique characteristics, applications, advantages, limitations, and its role in the broader AI landscape.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Limited Memory AI</p></figcaption></figure>
-
-</div>
-
 ### **Key Characteristics of Limited Memory AI**
 
 Limited Memory AI systems are designed to learn from past experiences, but they can only retain information temporarily. This capacity allows them to enhance performance without requiring long-term memory or complex processing structures. Key characteristics include:

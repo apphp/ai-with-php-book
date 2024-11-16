@@ -2,12 +2,6 @@
 
 In the early days of artificial intelligence, the concept of reactive AI emerged as one of the simplest yet most significant approaches to machine intelligence. Reactive AI, as its name suggests, is designed to respond to specific inputs with pre-programmed actions. Unlike more advanced AI types, reactive AI lacks memory or the ability to learn over time, focusing instead on present data and immediate tasks. This chapter dives into the core characteristics of reactive AI, its advantages and limitations, and its role in the broader landscape of artificial intelligence. Today, Reactive AI is the basis of artificial intelligence.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Reactive AI</p></figcaption></figure>
-
-</div>
-
 ### Key Characteristics of Reactive AI
 
 Reactive AI operates on a straightforward, rule-based approach. This type of AI is not equipped with memory or the capability to process past experiences, meaning it operates solely based on real-time inputs. Reactive AI follows a defined set of rules to execute tasks, making it extremely reliable in consistent, predictable environments but limited when dealing with complex or unpredictable ones.

@@ -2,12 +2,6 @@
 
 Self-aware AI represents the most advanced and speculative stage of artificial intelligence—one where machines not only perform tasks or simulate empathy but also possess a form of consciousness or self-awareness. This concept, while still purely theoretical, has captured the imagination of scientists, philosophers, and the general public alike. Self-aware AI could recognize its own existence, understand its own motivations, and possibly even experience some form of subjective awareness. Here’s what this remarkable type of AI could mean, its potential features, advantages, challenges, and ethical considerations.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (116).png" alt="" width="375"><figcaption><p>Self-Aware AI</p></figcaption></figure>
-
-</div>
-
 ### **What is Self-Aware AI?**
 
 Self-aware AI is a theoretical level of AI development where a machine or system would have an independent consciousness similar to a human's. It would possess its own self-identity and could potentially have self-reflective thoughts. Unlike even the most advanced Theory of Mind AI, which only aims to interpret human emotions and thoughts, self-aware AI would understand itself as a separate entity with its own needs, goals, and motivations. This stage is considered the final frontier of AI, as it would entail developing machines with a genuine understanding of “self,” autonomy, and potentially even moral reasoning.

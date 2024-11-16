@@ -2,12 +2,6 @@
 
 Theory of Mind (ToM) AI represents a critical step in artificial intelligence development, aiming to understand and replicate human-like awareness. This advanced AI branch doesn’t simply follow commands or mimic behavior. Instead, it’s designed to interpret the thoughts, beliefs, and desires of others, functioning in ways that are conceptually closer to human empathy and social cognition. This chapter explores the key characteristics, applications, benefits, limitations, and the significant role Theory of Mind AI plays within the AI landscape.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (117).png" alt="" width="375"><figcaption><p>Theory of Mind AI</p></figcaption></figure>
-
-</div>
-
 ### **Key Characteristics of Theory of Mind AI**
 
 Theory of Mind AI brings unique capabilities that set it apart from other types of artificial intelligence. Here are its defining features:
