@@ -2,7 +2,7 @@
 
 ### **Prerequisites**
 
-Before diving into AI, it’s essential to have a foundation in basic computing principles. Familiarity with programming languages like Python, data structures, and algorithms is helpful. Additionally, knowledge of mathematics, particularly linear algebra, probability, and statistics, underpins AI's functionality. Understanding machine learning concepts and data processing workflows further prepares one for exploring AI applications.
+Before diving into AI, it’s essential to have a foundation in basic computing principles. Familiarity with programming languages, data structures, and algorithms is helpful. Additionally, knowledge of mathematics, particularly linear algebra, probability, and statistics, underpins AI's functionality. Understanding machine learning concepts and data processing workflows further prepares one for exploring AI applications.
 
 <div align="left">
 
