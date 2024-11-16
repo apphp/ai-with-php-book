@@ -29,7 +29,7 @@ These terms are often used interchangeably with artificial intelligence, but in 
 * Machine Learning (ML) Machine learning is a branch of artificial intelligence that enables systems to learn and improve from experience without needing explicit programming. It’s similar to teaching a child by providing examples and allowing them to learn through experience rather than giving step-by-step instructions.
 * Deep Learning (DL) Deep learning builds on machine learning by using neural networks—complex algorithmic structures that replicate how humans think and learn. It’s like trying to replicate the intricacy of the human brain’s processes on a computer.
 
-### Why Machine Learning Matters
+### Why Machine Learning Matters?
 
 Machine learning has become part of everyday life, even if we don’t always notice it. Here are some ways it’s being used:
 
