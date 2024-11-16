@@ -6,7 +6,7 @@ Artificial Intelligence can be grouped based on two main factors: what it can do
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt="" width="563"><figcaption><p>Types of Artificial Intelligence</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34).png" alt="" width="375"><figcaption><p>Types of Artificial Intelligence</p></figcaption></figure>
 
 </div>
 

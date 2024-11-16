@@ -4,7 +4,7 @@ Self-aware AI represents the most advanced and speculative stage of artificial i
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (116).png" alt="" width="375"><figcaption><p>Self-Aware AI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (116).png" alt="" width="375"><figcaption><p>Self-Aware AI</p></figcaption></figure>
 
 </div>
 

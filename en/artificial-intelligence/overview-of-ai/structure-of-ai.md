@@ -6,7 +6,7 @@ Artificial Intelligence encompasses a wide range of specialized fields, each foc
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (30).png" alt="" width="563"><figcaption><p>Structure of Artificial Intelligence</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt="" width="375"><figcaption><p>Structure of Artificial Intelligence</p></figcaption></figure>
 
 </div>
 
@@ -52,7 +52,7 @@ A schematic diagram of AI includes its core components and how they interconnect
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (31).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

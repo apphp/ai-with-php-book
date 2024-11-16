@@ -4,7 +4,7 @@ Theory of Mind (ToM) AI represents a critical step in artificial intelligence de
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (117).png" alt="" width="375"><figcaption><p>Theory of Mind AI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (117).png" alt="" width="375"><figcaption><p>Theory of Mind AI</p></figcaption></figure>
 
 </div>
 

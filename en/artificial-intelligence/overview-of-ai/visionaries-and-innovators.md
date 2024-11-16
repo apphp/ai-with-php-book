@@ -2,11 +2,11 @@
 
 ### From Myth to Modern Marvel
 
-The idea of Artificial Intelligence isn’t new—its roots stretch back to ancient myths like those in Greek mythology, where the concept of intelligent machines was first imagined (read more in [History of ML](../machine-learning/overview-of-ml/history-of-machine-learning/)). But AI as we know it today started taking shape in the 1950s. This is when computer scientists began seriously considering whether machines could learn, solve problems, and even think like humans.
+The idea of Artificial Intelligence isn’t new—its roots stretch back to ancient myths like those in Greek mythology, where the concept of intelligent machines was first imagined (read more in [History of ML](../../machine-learning/overview-of-ml/history-of-machine-learning/)). But AI as we know it today started taking shape in the 1950s. This is when computer scientists began seriously considering whether machines could learn, solve problems, and even think like humans.
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (40).png" alt="" width="563"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt="" width="375"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure>
 
 </div>
 
@@ -26,7 +26,7 @@ The early development of AI was fueled by the work of brilliant minds whose idea
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (129).png" alt="" width="188"><figcaption><p>Alan Turing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (129).png" alt="" width="188"><figcaption><p>Alan Turing</p></figcaption></figure>
 
 </div>
 
@@ -36,7 +36,7 @@ Often referred to as the father of modern computer science, Alan Turing’s 1950
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (130).png" alt="" width="188"><figcaption><p>John McCarthy</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (130).png" alt="" width="188"><figcaption><p>John McCarthy</p></figcaption></figure>
 
 </div>
 
@@ -46,7 +46,7 @@ In 1956, John McCarthy coined the term “Artificial Intelligence” during the 
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (131).png" alt="" width="188"><figcaption><p>Marvin Minsky</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (131).png" alt="" width="188"><figcaption><p>Marvin Minsky</p></figcaption></figure>
 
 </div>
 
@@ -60,7 +60,7 @@ John McCarthy, often referred to as the "father of artificial intelligence," coi
 
 <div align="left" data-full-width="false">
 
-<figure><img src="../.gitbook/assets/image (133).png" alt="" width="188"><figcaption><p>Herbert A.Simon</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (133).png" alt="" width="188"><figcaption><p>Herbert A.Simon</p></figcaption></figure>
 
 </div>
 
@@ -68,7 +68,7 @@ Simon and Newell were instrumental in creating one of the first AI programs, the
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (137).png" alt="" width="188"><figcaption><p>Allen Newell</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (137).png" alt="" width="188"><figcaption><p>Allen Newell</p></figcaption></figure>
 
 </div>
 
