@@ -30,4 +30,22 @@ Neural networks are important because they help computers learn from data withou
 4. **Automatic Decisions**: They can make quick decisions, like recommending movies or diagnosing illnesses.
 5. **Drive Innovation**: They enable breakthroughs in fields like robotics, healthcare, and AI art.
 
+### Disadvantages of Neural Networks
+
+Neural networks, despite their remarkable capabilities, come with several notable challenges:
+
+**1. High Computational Demand**\
+Training large neural networks requires immense computational power, making the process resource-intensive and time-consuming. This can limit their accessibility for users with limited hardware capabilities.
+
+**2. Lack of Transparency**\
+Neural networks function as “black box” models, meaning their decision-making processes are often opaque. This lack of interpretability can be a significant drawback in critical applications where understanding the reasoning behind decisions is essential.
+
+**3. Susceptibility to Overfitting**\
+Overfitting occurs when a neural network memorizes training data instead of learning underlying patterns. While techniques like regularization can mitigate this issue, it remains a persistent challenge.
+
+**4. Dependence on Large Datasets**\
+Neural networks typically require extensive, well-labeled datasets for effective training. When data is incomplete or biased, the performance of these models can degrade significantly.
+
+### Conclusion
+
 Neural networks are powerful tools that help solve complex problems and improve our technology. With some basic understanding, we can unlock their potential for amazing advancements.
