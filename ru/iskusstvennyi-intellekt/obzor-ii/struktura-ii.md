@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (13).png" alt="" width="563"><figcaption><p>Структура искусственного интеллекта</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption><p>Структура ИИ</p></figcaption></figure>
 
 </div>
 
@@ -48,7 +48,7 @@ NLP занимается взаимодействием между компью�
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

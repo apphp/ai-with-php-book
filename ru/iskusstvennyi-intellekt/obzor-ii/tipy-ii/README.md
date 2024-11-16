@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="563"><figcaption><p>Типы искусственного интеллекта</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption><p>Типы ИИ</p></figcaption></figure>
 
 </div>
 

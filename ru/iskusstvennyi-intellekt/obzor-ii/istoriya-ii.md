@@ -2,11 +2,11 @@
 
 ### От мифа до современного чуда
 
-Идея искусственного интеллекта не нова — её корни уходят в древние мифы, такие как мифология Древней Греции, где впервые был представлен образ разумных машин (подробнее в разделе “[История машинного обучения](../mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/)”). Но ИИ в его современном понимании начал формироваться в 1950-х годах. Именно тогда ученые-компьютерщики всерьез задумались, могут ли машины учиться, решать задачи и даже мыслить, как люди.
+Идея искусственного интеллекта не нова — её корни уходят в древние мифы, такие как мифология Древней Греции, где впервые был представлен образ разумных машин (подробнее в разделе “[История машинного обучения](../../mashinnoe-obuchenie/obzor-mo/istoriya-mashinnogo-obucheniya/)”). Но ИИ в его современном понимании начал формироваться в 1950-х годах. Именно тогда ученые-компьютерщики всерьез задумались, могут ли машины учиться, решать задачи и даже мыслить, как люди.
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Ключевые вклады и влиятельные личности</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Ключевые вклады и влиятельные личности</p></figcaption></figure>
 
 </div>
 
@@ -26,7 +26,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (27).png" alt="" width="188"><figcaption><p>Алан Тьюринг</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt="" width="188"><figcaption><p>Алан Тьюринг</p></figcaption></figure>
 
 </div>
 
@@ -36,7 +36,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (28).png" alt="" width="188"><figcaption><p>Джон Маккарти</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="188"><figcaption><p>Джон Маккарти</p></figcaption></figure>
 
 </div>
 
@@ -46,7 +46,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (29).png" alt="" width="188"><figcaption><p>Марвин Мински</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt="" width="188"><figcaption><p>Марвин Мински</p></figcaption></figure>
 
 </div>
 
@@ -56,7 +56,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (30).png" alt="" width="188"><figcaption><p>Герберт А. Саймон</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt="" width="188"><figcaption><p>Герберт А. Саймон</p></figcaption></figure>
 
 </div>
 
@@ -64,7 +64,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (31).png" alt="" width="188"><figcaption><p>Аллен Ньюэлл</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="188"><figcaption><p>Аллен Ньюэлл</p></figcaption></figure>
 
 </div>
 
