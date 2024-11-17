@@ -1,6 +1,18 @@
 # Implementation NN in PHP
 
+Consider a neural network designed to predict house prices based on features like square footage, number of bedrooms, and location.
 
+#### 1. Input Layer:
+
+* Neurons represent square footage, number of bedrooms, and a location encoding.
+
+#### 2. Hidden Layer:
+
+* Processes these inputs to learn patterns, such as how square footage influences price.
+
+#### 3. Output Layer:
+
+* Produces a single output: the predicted price.
 
 ```php
 use Rubix\ML\Classifiers\MLPClassifier;

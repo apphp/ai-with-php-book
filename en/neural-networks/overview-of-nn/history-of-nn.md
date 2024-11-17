@@ -6,7 +6,7 @@ The development of neural networks has been a fascinating journey of breakthroug
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>History of NN</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>History of NN</p></figcaption></figure>
 
 </div>
 

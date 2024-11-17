@@ -4,7 +4,7 @@ As we advance into the digital era, artificial intelligence agents are poised to
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>Future of AI Agents</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption><p>Future of AI Agents</p></figcaption></figure>
 
 </div>
 
