@@ -192,7 +192,7 @@
 * [Introduction](neural-networks/introduction.md)
 * [Overview of NN](neural-networks/overview-of-nn/README.md)
   * [History of NN](neural-networks/overview-of-nn/history-of-nn.md)
-  * [Basic Components of NN](neural-networks/overview-of-nn/basic-components-of-nn/README.md)
+  * [Basic Components of NN](neural-networks/overview-of-nn/basic-components-of-nn.md)
     * [Neurons ?..](neural-networks/overview-of-nn/basic-components-of-nn/neurons-...md)
     * [Layers](neural-networks/overview-of-nn/basic-components-of-nn/layers.md)
     * [Connections and Weights](neural-networks/overview-of-nn/basic-components-of-nn/connections-and-weights.md)

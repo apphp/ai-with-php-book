@@ -25,3 +25,4 @@ Neural networks are structured in layers, each serving a unique purpose. These l
 * For example:
   * In binary classification, the output layer has one neuron with a sigmoid activation function.
   * In multi-class classification, the output layer uses softmax activation to produce probabilities for each class.
+  *

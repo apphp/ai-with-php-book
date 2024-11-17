@@ -4,7 +4,7 @@ Neural networks are the backbone of many AI systems, mimicking the way the human
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (138).png" alt="" width="375"><figcaption><p>Basic Components of NN</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (138).png" alt="" width="375"><figcaption><p>Basic Components of NN</p></figcaption></figure>
 
 </div>
 
