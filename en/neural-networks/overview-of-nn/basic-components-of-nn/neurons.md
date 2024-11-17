@@ -1,4 +1,4 @@
-# Neurons ?..
+# Neurons
 
 ### What Are Neurons?
 
@@ -12,7 +12,7 @@ Biological neurons and artificial neurons share some conceptual similarities but
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Biological Neurons</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -34,20 +34,12 @@ Biological neurons and artificial neurons share some conceptual similarities but
   * **Input Layer**: Receives external signals.
   * **Hidden Layer**: Processes signals, extracting relevant patterns or features.
   * **Output Layer**: Generates the final output of the network.
-* **Information Processing**: Signal strength is modulated by weights, akin to synaptic adjustments in biological neurons.
+* **Information Processing**: Signal strength is modulated by weights, similar to synaptic adjustments in biological neurons.
 * **Scale**: Current artificial neural networks (ANNs) typically contain $$10^2 - 10^4$$ neurons.
 
 #### **Comparison: Human Brain vs. Artificial Neural Networks (ANNs)**
 
-|                          |                                                                      |                                                       |
-| ------------------------ | -------------------------------------------------------------------- | ----------------------------------------------------- |
-| **Feature**              | **Human Brain (Biological Network)**                                 | **Computers (Artificial Neural Network)**             |
-| **Processing Style**     | Asynchronous                                                         | Synchronous                                           |
-| **Speed of Computation** | Slow (\~milliseconds per computation)                                | Fast (\~nanoseconds per computation)                  |
-| **Reliability**          | Distributed representation; tolerates neuron failure                 | Sensitive to errors; every bit must function          |
-| **Adaptability**         | Connectivity changes over time based on new information and demands. | Fixed connectivity unless components are replaced.    |
-| **Topology**             | Complex and highly interconnected                                    | Typically organized in simpler, tree-like structures. |
-| **Learning Mechanism**   | Still under research                                                 | Relies on Gradient Descent.                           |
+<table><thead><tr><th width="231.33333333333331">Feature</th><th>Human Brain</th><th>Computers</th></tr></thead><tbody><tr><td><strong>Processing Style</strong></td><td>Asynchronous</td><td>Synchronous</td></tr><tr><td><strong>Speed of Computation</strong></td><td>Slow (~milliseconds per computation)</td><td>Fast (~nanoseconds per computation)</td></tr><tr><td><strong>Reliability</strong></td><td>Distributed representation; tolerates neuron failure</td><td>Sensitive to errors; every bit must function</td></tr><tr><td><strong>Adaptability</strong></td><td>Connectivity changes over time based on new information and demands.</td><td>Fixed connectivity unless components are replaced.</td></tr><tr><td><strong>Topology</strong></td><td>Complex and highly interconnected</td><td>Typically organized in simpler, tree-like structures.</td></tr><tr><td><strong>Learning Mechanism</strong></td><td>Still under research</td><td>Relies on Gradient Descent.</td></tr></tbody></table>
 
 While artificial neurons emulate some aspects of biological neurons, the human brain's complexity, adaptability, and distributed resilience far surpass current artificial networks.
 
