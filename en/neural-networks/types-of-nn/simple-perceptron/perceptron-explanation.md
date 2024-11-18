@@ -8,7 +8,15 @@ A Simple Perceptron consists of:
 2. **Weights:** Each input is associated with a weight , which determines the input’s influence on the perceptron.
 3. **Bias Term ():** Adds flexibility by shifting the activation function.
 4. **Summation Function:** Computes the weighted sum of inputs: $$z = \sum_{i=1}^n w_i x_i + b$$
-5. **Activation Function:** Applies a threshold to the weighted sum to determine the output: $$y = \begin{cases} 1 & \text{if } z \geq 0 \\ 0 & \text{if } z < 0 \end{cases}$$
+5. **Activation Function:** Applies a threshold to the weighted sum to determine the output: \
+   \
+   $$y = \begin{cases} 1 & \text{if } z \geq 0 \\ 0 & \text{if } z < 0 \end{cases}$$
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ### Working Mechanism
 
@@ -29,12 +37,6 @@ A Simple Perceptron consists of:
 * Linear Separability: Fails for datasets that are not linearly separable (e.g., XOR problem).
 * Limited Capability: Cannot handle complex patterns or nonlinear decision boundaries.
 
-\
-
-
-Conclusion
-
-\
-
+### Conclusion
 
 The Simple Perceptron is a key stepping stone in machine learning, laying the foundation for more sophisticated models like multi-layer perceptrons and deep neural networks. While it has limitations, understanding its structure and function is crucial for grasping the evolution of neural networks.

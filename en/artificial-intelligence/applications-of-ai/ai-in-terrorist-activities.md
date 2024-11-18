@@ -6,7 +6,7 @@ Artificial Intelligence has fundamentally changed the way society functions, del
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Terrorist Activities</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Terrorist Activities</p></figcaption></figure>
 
 </div>
 
