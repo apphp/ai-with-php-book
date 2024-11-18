@@ -130,6 +130,8 @@ Predicted Price for: $263,495.68
 
 </div>
 
+***
+
 ### Implementing Linear Regression with PHP-ML
 
 In **PHP-ML**, the process is similar. We’ll use the **Linear Regression** class provided by the library.
