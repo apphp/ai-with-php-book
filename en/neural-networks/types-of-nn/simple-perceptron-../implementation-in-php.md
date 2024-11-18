@@ -186,4 +186,109 @@ Student 2 prediction: fail
 
 </div>
 
-\
+***
+
+### Implementing Simple Perceptron with PHP-ML
+
+#### Step 1: Prepare the Dataset
+
+The samples array holds input features for each student:
+
+* Feature 1: Hours studied.
+* Feature 2: Previous test score.
+
+The labels array contains the target classes (fail or pass).
+
+#### Step 2: Initialize the Perceptron Classifier
+
+The Perceptron class initializes a simple perceptron with:
+
+* 2 input features corresponding to the two features in the dataset.
+* A binary classification output (fail or pass).
+
+The perceptron will act as a single neuron with a linear decision boundary.
+
+#### Step 3: Train the Perceptron
+
+The train method adjusts the weights of the perceptron using the training data. During this process:
+
+* It iteratively finds a decision boundary to separate the classes (fail and pass).
+* Training stops when the perceptron converges (or reaches the iteration limit).
+
+#### Step 4: Make Predictions
+
+Using the predict method, the trained perceptron processes unseen samples to classify them as either fail or pass.
+
+#### Step 5: Output Predictions
+
+The predictions are displayed, indicating whether the perceptron predicts a student will pass or fail based on their input features.
+
+**Full Code:**
+
+<details>
+
+<summary>Full Code of Example</summary>
+
+```php
+use Phpml\Classification\Perceptron;
+
+// Step 1: Prepare the Dataset
+$samples = [
+    [2, 65],  // 2 hours study, 65% previous score
+    [1, 45],
+    [8, 85],
+    [4, 75],
+    [7, 90],
+    [3, 55],
+    [6, 78],
+    [5, 80],
+];
+$labels = ['fail', 'fail', 'pass', 'pass', 'pass', 'fail', 'pass', 'pass'];
+
+// Step 2: Initialize the Perceptron Classifier
+$estimator = new Perceptron(2); // Simple perceptron with 2 input features
+
+// Explanation:
+// - `2`: Number of input features (study hours and previous score).
+
+// Step 3: Train the Perceptron
+$estimator->train($samples, $labels);
+
+// Step 4: Make Predictions
+$testSamples = [
+    [6, 82],  // New student: 6 hours study, 82% previous score
+    [1, 50],  // New student: 1 hour study, 50% previous score
+];
+$predictions = $estimator->predict($testSamples);
+
+// Step 5: Output Predictions
+foreach ($predictions as $index => $prediction) {
+    echo "Student " . ($index + 1) . " prediction: " . $prediction . PHP_EOL;
+}
+```
+
+</details>
+
+**Result:**
+
+```
+Student 1 prediction: pass
+Student 2 prediction: fail
+```
+
+**Flow Chart:**
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (142).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+$$Output = step(w_1x_1 + w_2x_2 + b)$$
+
+Where:&#x20;
+
+$$x_1$$ = study hours             $$w_1, w_2$$ = weights\
+&#x20;\= previous score        $$b$$ = bias term
+
+If the dataset is not linearly separable, the perceptron might fail to classify all samples correctly. For more complex tasks, consider using a multi-layer perceptron (MLP) instead.
