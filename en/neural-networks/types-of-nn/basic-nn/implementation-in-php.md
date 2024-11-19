@@ -4,6 +4,10 @@
 
 In this chapter, we will walk through the process of building, training, and making predictions using a simple neural network. The code presented demonstrates a basic binary classification task: predicting whether a student will pass or fail based on their study hours and previous test scores.
 
+{% hint style="info" %}
+If the dataset is not linearly separable, the perceptron might fail to classify all samples correctly. For more complex tasks, consider using a multi-layer perceptron (MLP) instead.
+{% endhint %}
+
 ### Implementing Simple Perceptron with Rubix ML
 
 #### Step 1: Import Necessary Classes
@@ -55,7 +59,7 @@ We encapsulate the samples and labels into a Labeled dataset. This dataset is su
 $estimator = new MultilayerPerceptron([
     new Dense(1),
     new Activation(new ReLU()),
-], 100, new Adam(0.01));
+], 10000, new Adam(0.01));
 ```
 
 Here, we define the architecture of a simple neural network using MultilayerPerceptron:
@@ -67,7 +71,7 @@ Here, we define the architecture of a simple neural network using MultilayerPerc
 
 **2. Training Parameters:**
 
-* Epochs: The model will train for up to 100 iterations.
+* Epochs: The model will train for up to 10000 iterations.
 * Optimizer: We use the Adam optimizer with a learning rate of 0.01 to adjust weights during training.
 
 #### Step 5: Train the Neural Network
@@ -199,11 +203,12 @@ The samples array holds input features for each student:
 
 The labels array contains the target classes (fail or pass).
 
-#### Step 2: Initialize the Perceptron Classifier
+#### Step 2: Initialize the Multilayer Perceptron Classifier
 
 The Perceptron class initializes a simple perceptron with:
 
 * 2 input features corresponding to the two features in the dataset.
+* No hidden layers
 * A binary classification output (fail or pass).
 
 The perceptron will act as a single neuron with a linear decision boundary.
@@ -230,7 +235,7 @@ The predictions are displayed, indicating whether the perceptron predicts a stud
 <summary>Full Code of Example</summary>
 
 ```php
-use Phpml\Classification\Perceptron;
+use Phpml\Classification\MLPClassifier;
 
 // Step 1: Prepare the Dataset
 $samples = [
@@ -245,21 +250,21 @@ $samples = [
 ];
 $labels = ['fail', 'fail', 'pass', 'pass', 'pass', 'fail', 'pass', 'pass'];
 
-// Step 2: Initialize the Perceptron Classifier
-$estimator = new Perceptron(2); // Simple perceptron with 2 input features
-
-// Explanation:
-// - `2`: Number of input features (study hours and previous score).
+// Step 2: Initialize the MLPClassifier
+// - 2 input nodes (study hours, previous score)
+// - 1 output node (pass/fail)
+// - No hidden layers in between
+$classifier = new MLPClassifier(2, [0], ['fail', 'pass'], 10000);
 
 // Step 3: Train the Perceptron
-$estimator->train($samples, $labels);
+$classifier->train($samples, $labels);
 
 // Step 4: Make Predictions
 $testSamples = [
     [6, 82],  // New student: 6 hours study, 82% previous score
     [1, 50],  // New student: 1 hour study, 50% previous score
 ];
-$predictions = $estimator->predict($testSamples);
+$predictions = $classifier->predict($testSamples);
 
 // Step 5: Output Predictions
 foreach ($predictions as $index => $prediction) {
@@ -289,6 +294,4 @@ $$Output = step(w_1x_1 + w_2x_2 + b)$$
 Where:&#x20;
 
 $$x_1$$ = study hours             $$w_1, w_2$$ = weights\
-&#x20;\= previous score        $$b$$ = bias term
-
-If the dataset is not linearly separable, the perceptron might fail to classify all samples correctly. For more complex tasks, consider using a multi-layer perceptron (MLP) instead.
+$$x_2$$ = previous score        $$b$$ = bias term
