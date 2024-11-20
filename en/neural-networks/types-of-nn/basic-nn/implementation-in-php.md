@@ -4,9 +4,32 @@
 
 In this chapter, we will walk through the process of building, training, and making predictions using a simple neural network. The code presented demonstrates a basic binary classification task: predicting whether a student will pass or fail based on their study hours and previous test scores.
 
+#### **Flow Chart:**
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (142).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+$$Output = step(w_1x_1 + w_2x_2 + b)$$
+
+Where:&#x20;
+
+$$x_1$$ = study hours             $$w_1, w_2$$ = weights\
+$$x_2$$ = previous score        $$b$$ = bias term
+
+#### **Linear Separation:**
+
 {% hint style="info" %}
 If the dataset is not linearly separable, the perceptron might fail to classify all samples correctly. For more complex tasks, consider using a multi-layer perceptron (MLP) instead.
 {% endhint %}
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ### Implementing Simple Perceptron with Rubix ML
 
@@ -30,14 +53,18 @@ We begin by importing the necessary classes from the Rubix ML library. These inc
 $samples = [
     [2, 65],
     [1, 45],
-    [8, 85],
+    [8, 76],
     [4, 75],
     [7, 90],
     [3, 55],
     [6, 78],
     [5, 80],
+    [8, 85],
+    [7, 88],
 ];
-$labels = ['fail', 'fail', 'pass', 'pass', 'pass', 'fail', 'pass', 'pass'];
+$labels = [
+    'fail', 'fail', 'pass', 'pass', 'pass', 'fail', 'pass', 'pass', 'pass', 'pass'
+];
 ```
 
 The dataset comprises samples and labels:
@@ -129,17 +156,21 @@ use Rubix\ML\Classifiers\MultilayerPerceptron;
 // Create a simple dataset for binary classification
 // Example: Predict if a student will pass (1) or fail (0) based on study hours and previous test score
 $samples = [
-    [2, 65],  // 2 hours study, 65% previous score
+    [2, 65],
     [1, 45],
-    [8, 85],
+    [8, 76],
     [4, 75],
     [7, 90],
     [3, 55],
     [6, 78],
     [5, 80],
+    [8, 85],
+    [7, 88],
 ];
 
-$labels = ['fail', 'fail', 'pass', 'pass', 'pass', 'fail', 'pass', 'pass'];
+$labels = [
+    'fail', 'fail', 'pass', 'pass', 'pass', 'fail', 'pass', 'pass', 'pass', 'pass'
+];
 
 // Create a labeled dataset
 $dataset = new Labeled($samples, $labels);
@@ -181,14 +212,6 @@ foreach ($predictions as $index => $prediction) {
 Student 1 prediction: pass
 Student 2 prediction: fail
 ```
-
-**Flow Chart:**&#x20;
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (141).png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
 
 ***
 
@@ -239,16 +262,20 @@ use Phpml\Classification\MLPClassifier;
 
 // Step 1: Prepare the Dataset
 $samples = [
-    [2, 65],  // 2 hours study, 65% previous score
+    [2, 65],
     [1, 45],
-    [8, 85],
+    [8, 76],
     [4, 75],
     [7, 90],
     [3, 55],
     [6, 78],
     [5, 80],
+    [8, 85],
+    [7, 88],
 ];
-$labels = ['fail', 'fail', 'pass', 'pass', 'pass', 'fail', 'pass', 'pass'];
+$labels = [
+    'fail', 'fail', 'pass', 'pass', 'pass', 'fail', 'pass', 'pass', 'pass', 'pass'
+];
 
 // Step 2: Initialize the MLPClassifier
 // - 2 input nodes (study hours, previous score)
@@ -281,17 +308,6 @@ Student 1 prediction: pass
 Student 2 prediction: fail
 ```
 
-**Flow Chart:**
+### Summary
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (142).png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-$$Output = step(w_1x_1 + w_2x_2 + b)$$
-
-Where:&#x20;
-
-$$x_1$$ = study hours             $$w_1, w_2$$ = weights\
-$$x_2$$ = previous score        $$b$$ = bias term
+From this chapter, we learned how to build and train a simple perceptron for binary classification tasks, such as predicting student performance based on study hours and test scores. We explored dataset preparation, neural network design using layers and activation functions, and the training process with optimization techniques like Adam. We also discovered the perceptron’s limitation with non-linearly separable data and the potential need for multi-layer perceptrons for handling complex scenarios.
