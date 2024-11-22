@@ -27,7 +27,7 @@ Uninformed search algorithms operate without any domain-specific knowledge about
 BFS explores all nodes at the current depth level before moving to the next level. It guarantees the shortest path in terms of the number of steps if all edges have equal cost but can be memory-intensive.
 
 * Time Complexity: $$O(b^d)$$, where  is the branching factor, and  is the depth of the shallowest goal.
-* Space Complexity: $$O(b^d)$$
+* Space Complexity: $$O(b^d)$$.
 * Use Case: Maze-solving or traversing social networks.
 
 #### 2. Uniform Cost Search (UCS)
@@ -35,20 +35,18 @@ BFS explores all nodes at the current depth level before moving to the next leve
 UCS expands the node with the lowest path cost, ensuring an optimal solution if all costs are non-negative.
 
 * Time Complexity: $$O(b^{1+\lfloor C^/\epsilon\rfloor})$$_, where_ is the cost of the optimal solution and  is the minimum cost of any action.
-* Space Complexity: $$O(b^{1+\lfloor C^*/\epsilon\rfloor})$$
+* Space Complexity: $$O(b^{1+\lfloor C^*/\epsilon\rfloor})$$.
 * Use Case: Finding the cheapest path in a weighted graph.
 
 #### 3. Depth-First Search (DFS)
 
 DFS explores as deeply as possible along each branch before backtracking. It uses less memory than BFS but may not find the optimal solution.
 
-• Time Complexity: , where  is the maximum depth of the tree.
+* Time Complexity: $$O(b^m)$$, where  is the maximum depth of the tree.
+* Space Complexity: $$O(b \times m)$$.
+* Use Case: Puzzle-solving where solutions are deep in the tree.
 
-• Space Complexity: .
-
-• Use Case: Puzzle-solving where solutions are deep in the tree.
-
-4\. Depth-Limited Search
+#### 4. Depth-Limited Search >>>>>>>>>>>>>
 
 DFS with a depth limit to prevent infinite exploration. It is incomplete if the goal lies beyond the depth limit.
 
