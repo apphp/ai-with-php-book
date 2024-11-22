@@ -20,8 +20,8 @@ Self-aware AI, if ever created, would likely exhibit a few core characteristics 
 
 While no current technology can truly claim self-awareness, the idea has been explored in fiction and conceptually considered in research. Some of the best-known examples come from movies, literature, and speculation on future AI:
 
-1. **HAL 9000 in **_**2001: A Space Odyssey**_: HAL is portrayed as a highly advanced AI that displays self-preservation instincts, autonomy, and, to some extent, emotional complexity. This type of self-aware AI has long inspired AI research.
-2. **Ava in **_**Ex Machina**_: In this film, Ava, a humanoid robot, exhibits self-awareness, emotional understanding, and the ability to strategize for her survival. Her intelligence and self-awareness prompt questions about the ethical treatment of such machines.
+1. **HAL 9000 in&#x20;**_**2001: A Space Odyssey**_: HAL is portrayed as a highly advanced AI that displays self-preservation instincts, autonomy, and, to some extent, emotional complexity. This type of self-aware AI has long inspired AI research.
+2. **Ava in&#x20;**_**Ex Machina**_: In this film, Ava, a humanoid robot, exhibits self-awareness, emotional understanding, and the ability to strategize for her survival. Her intelligence and self-awareness prompt questions about the ethical treatment of such machines.
 3. **Research on Cognitive Architecture**: Some researchers are working on cognitive architectures that might, one day, simulate aspects of consciousness. While far from self-awareness, these projects show interest in creating AI that could “think about thinking,” potentially leading to more advanced forms of intelligence.
 
 ### **Potential Benefits of Self-Aware AI**
