@@ -60,8 +60,8 @@ AI with PHP was created by **[Samuel Akopyan](https://github.com/apphp)**.
 
 ## **Changelog**
 
-- **0.2.0:** Updates in Data Fundamentials, Machine Learninf and NN sections`
-- **0.1.0:** Initial release`
+- **0.2.0:** Updates in Data Fundamentials, Machine Learninf and NN sections
+- **0.1.0:** Initial release
 
 ## **Contact**
 
