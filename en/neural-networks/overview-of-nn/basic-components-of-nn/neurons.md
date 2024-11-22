@@ -10,7 +10,7 @@ Biological neurons and artificial neurons share some conceptual similarities but
 
 #### **Biological Neurons**
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * **Major Components**: Axons, dendrites, and synapses.
 * **Functioning**: Electrical impulses from other neurons enter dendrites at synapses, where they are processed in the cell body. The processed signal is transmitted via the axon to synapses connected to other neurons.
@@ -19,7 +19,7 @@ Biological neurons and artificial neurons share some conceptual similarities but
 
 #### **Artificial Neurons**
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * **Structure**: Modeled after biological neurons, with layers representing axons, dendrites, and synapses.
 * **Layered Network**:

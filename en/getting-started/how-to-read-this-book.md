@@ -52,11 +52,11 @@ For those who prefer a more hands-on learning experience, _reading while running
    * After installation is complete, type in your browser: [http://localhost:8088/](http://localhost:8088/)
    *   If everything is OK, you should see the website with examples of code:
 
-       <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. **Follow Along with the Chapters**:
    *   As you read a section, locate the corresponding example in the repository (e.g., if you're on Scalars in Mathematics for ML section, check the same section in the side menu).
 
-       <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
    * To run the example, simply click the "Run Code" button on the top-right corner.
 3. **Experiment and Modify**:
    * Modify the example code to test different scenarios or tweak parameters to see how changes affect the output. This experimentation strengthens your understanding.

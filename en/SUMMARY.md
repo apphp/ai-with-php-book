@@ -54,7 +54,14 @@
   * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
 * [Search Algorithms in AI](artificial-intelligence/search-algorithms-in-ai/README.md)
   * [Introduction to Search Algorithms](artificial-intelligence/search-algorithms-in-ai/introduction-to-search-algorithms.md)
-  * [Types of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms.md)
+  * [Types of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/README.md)
+    * [Uninformed (Blind) Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/README.md)
+      * [Breadth-First Search (BFS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/breadth-first-search-bfs.md)
+      * [Depth-First Search (DFS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/depth-first-search-dfs.md)
+      * [Depth-limited Search (DLS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/depth-limited-search-dls.md)
+      * [Iterative Deepening Depth-First Search (IDDFS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/iterative-deepening-depth-first-search-iddfs.md)
+      * [Uniform Cost Search (UCS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/uniform-cost-search-ucs.md)
+      * [Bidirectional Search (BDS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/bidirectional-search-bds.md)
 
 ## Machine Learning
 

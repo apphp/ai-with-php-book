@@ -4,7 +4,7 @@
 
 Artificial Intelligence has fundamentally changed the way society functions, delivering breakthroughs across healthcare, finance, transportation, and beyond. However, as AI capabilities evolve, so too does the potential for misuse. The same tools that assist doctors in diagnosing diseases or governments in securing cities can be repurposed by terrorists to further their own agendas. This chapter examines how terrorists might leverage AI to enhance their capabilities, exploit vulnerabilities, and instill fear on an unprecedented scale.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Terrorist Activities</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Terrorist Activities</p></figcaption></figure></div>
 
 ### **Understanding the Appeal of AI for Terrorist Organizations**
 
