@@ -2,11 +2,7 @@
 
 In 1950, Alan Turing, a brilliant British mathematician and computer scientist, introduced an idea that still sparks debate today: the Turing Test. The test was simple in theory but complex in implications — it asked whether a machine could think like a human. To this day, the Turing Test remains one of the most famous measures of artificial intelligence, setting the groundwork for our understanding of machine “intelligence.”
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Turing Test in AI</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Turing Test in AI</p></figcaption></figure></div>
 
 ### What is the Turing Test?
 
@@ -39,13 +35,13 @@ The quest to pass the Turing Test has inspired many innovators to build machines
    Wiki: [https://en.wikipedia.org/wiki/Jabberwacky](https://en.wikipedia.org/wiki/Jabberwacky)
 4. **Eugene Goostman (2001): The “Young” Chatbot that Fooled Many**\
    One of the more recent and famous contenders, Eugene Goostman, was designed by developers Vladimir Veselov, Eugene Demchenko, and Sergey Ulasen. Eugene was designed to mimic a 13-year-old Ukrainian boy who was a non-native English speaker. This “character” gave Eugene an advantage by setting realistic expectations for occasional mistakes and gaps in knowledge. In 2014, Eugene Goostman “passed” a version of the Turing Test by convincing 33% of judges that it was human during a test held at the Royal Society in London. While critics argued that its character strategy was a loophole rather than a true indicator of human-like intelligence, Eugene Goostman brought fresh attention to the Turing Test and prompted new debates about what it truly means to “pass” as human.\
-   Wiki: [https://en.wikipedia.org/wiki/Eugene\_Goostman](https://en.wikipedia.org/wiki/Eugene\_Goostman)
+   Wiki: [https://en.wikipedia.org/wiki/Eugene\_Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman)
 5. **Cleverbot (2008): A Chatbot That Learns from Experience**\
    Built by the same creator as Jabberwacky, Cleverbot advanced the idea of learning from conversations. Instead of relying solely on pre-programmed responses, Cleverbot’s database grew with every interaction, making it increasingly adept at generating conversational responses over time. By storing and analyzing thousands of previous conversations, Cleverbot was able to generate more accurate and contextually relevant replies. It’s still in use today and has conversed with millions of users, making it one of the most extensive data-driven chatbots available. Cleverbot’s model of learning through user interaction remains foundational for AI research, especially in natural language processing.\
    Wiki: [https://en.wikipedia.org/wiki/Cleverbot](https://en.wikipedia.org/wiki/Cleverbot)
 6. **Mitsuku (2013): The Award-Winning AI Companion**\
    Mitsuku, a chatbot created by Steve Worswick, has won the Loebner Prize Turing Test competition several times, awarded to the most “human-like” chatbot each year. Powered by the AIML (Artificial Intelligence Markup Language) framework, Mitsuku was developed to handle a broad range of topics and sustain longer, more coherent conversations. Known for its engaging personality and quick wit, Mitsuku became a popular AI “companion,” capable of answering complex questions, playing games, and even telling jokes. Mitsuku’s sophisticated dialogue management and engaging personality earned it multiple accolades, and it remains one of the most celebrated AI chatbots.\
-   Wiki: [https://en.wikipedia.org/wiki/Kuki\_AI](https://en.wikipedia.org/wiki/Kuki\_AI)
+   Wiki: [https://en.wikipedia.org/wiki/Kuki\_AI](https://en.wikipedia.org/wiki/Kuki_AI)
 7. **GPT-3 (2020): A Leap in Conversational AI**\
    Developed by OpenAI, GPT-3 represents a massive leap in conversational AI with its 175 billion parameters and complex deep learning architecture. Unlike earlier chatbots with fixed responses or limited learning, GPT-3 is capable of generating detailed, coherent responses on a wide range of topics, making it one of the most advanced models for natural language processing. GPT-3 has achieved impressively human-like conversations and has even been used to generate articles, simulate dialogues, and create complex text-based interactions. Its level of “understanding” isn’t human, but its ability to emulate human-like text responses is unprecedented, shifting the AI landscape well beyond simple Turing Test goals.\
    Wiki: [https://en.wikipedia.org/wiki/GPT-3](https://en.wikipedia.org/wiki/GPT-3)

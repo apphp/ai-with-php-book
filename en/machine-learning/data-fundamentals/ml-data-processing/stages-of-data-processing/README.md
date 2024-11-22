@@ -2,11 +2,7 @@
 
 Data processing is a critical workflow in machine learning that involves transforming raw data into a structured format ready for model training. Each stage in this pipeline plays a crucial role in ensuring that data is clean, organized, and usable. Here, we break down the main stages of data processing, which include data collection, data cleaning, data transformation, data integration, and data reduction.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption><p>Stages of Data Processing</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption><p>Stages of Data Processing</p></figcaption></figure></div>
 
 ### 1. Data Acquisition (Collection)
 

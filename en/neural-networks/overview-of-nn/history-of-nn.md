@@ -4,11 +4,7 @@
 
 The development of neural networks has been a fascinating journey of breakthroughs, challenges, and resurgences. From early theoretical models to the deep learning systems of today, this chapter explores the milestones that have shaped neural networks into a transformative technology.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>History of NN</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>History of NN</p></figcaption></figure></div>
 
 ### **1940s-1950s: Early Concepts**
 
