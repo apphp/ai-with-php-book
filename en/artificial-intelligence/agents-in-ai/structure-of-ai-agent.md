@@ -18,7 +18,7 @@ This formula shows that an AI agent is a combination of the physical or virtual 
 
 There are three key terms involved in understanding the structure of an AI agent:
 
-**1. Architecture**
+#### **1. Architecture**
 
 The **architecture** refers to the physical or virtual machinery that the AI agent executes on. This includes all the hardware and software systems necessary for sensing, processing, and acting in an environment. It could be as simple as a computer or as complex as a robotic car outfitted with various sensors and actuators.
 
@@ -29,7 +29,7 @@ For example:
 
 The architecture provides the foundation that supports the agent's ability to interact with its environment.
 
-**2. Agent Function**
+#### **2. Agent Function**
 
 The **agent function** is a formal description of the mapping between the agent’s perceptions and the actions it should take. The agent function takes a sequence of perceptions, known as the **percept sequence**, and outputs an action.
 
@@ -46,7 +46,7 @@ Where:
 
 In simpler terms, the agent function tells the AI agent how to behave based on its entire history of perceptions.
 
-**3. Agent Program**
+#### **3. Agent Program**
 
 The **agent program** is the actual software implementation of the agent function. It runs on the architecture and uses the agent function to map the percept sequence to an action. The agent program processes the inputs from the environment (perceptions) and applies the logic defined by the agent function to determine the appropriate action.
 
