@@ -58,7 +58,7 @@
     * [Uninformed (Blind) Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/README.md)
       * [Breadth-First Search (BFS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/breadth-first-search-bfs.md)
       * [Depth-First Search (DFS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/depth-first-search-dfs.md)
-      * [Depth-limited Search (DLS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/depth-limited-search-dls.md)
+      * [Depth-Limited Search (DLS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/depth-limited-search-dls.md)
       * [Iterative Deepening Depth-First Search (IDDFS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/iterative-deepening-depth-first-search-iddfs.md)
       * [Uniform Cost Search (UCS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/uniform-cost-search-ucs.md)
       * [Bidirectional Search (BDS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/bidirectional-search-bds.md)
