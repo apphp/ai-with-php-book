@@ -62,6 +62,10 @@
       * [Iterative Deepening Depth-First Search (IDDFS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/iterative-deepening-depth-first-search-iddfs.md)
       * [Uniform Cost Search (UCS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/uniform-cost-search-ucs.md)
       * [Bidirectional Search (BDS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/bidirectional-search-bds.md)
+    * [Informed (Heuristic) Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/README.md)
+      * [Greedy Best-First Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/greedy-best-first-search.md)
+      * [A Search\*](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search.md)
+    * [Comparison of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/comparison-of-search-algorithms.md)
 
 ## Machine Learning
 

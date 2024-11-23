@@ -4,7 +4,7 @@ Breadth-First Search is a widely used search strategy for traversing trees or gr
 
 The BFS algorithm starts at the root node and explores all its immediate child nodes before advancing to their successors. It is an example of a general-graph search algorithm and is implemented using a **FIFO (First-In-First-Out)** queue data structure.
 
-**Key Characteristics:**
+### **Key Characteristics:**
 
 * **Time Complexity**: $$O(b^d)$$, where  is the branching factor, and  is the depth of the shallowest goal.
 * **Space Complexity**: $$O(b^d)$$.
