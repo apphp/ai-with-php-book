@@ -65,6 +65,9 @@
     * [Informed (Heuristic) Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/README.md)
       * [Greedy Best-First Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/greedy-best-first-search.md)
       * [A Search\*](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search.md)
+      * [Hill Climbing](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/hill-climbing.md)
+      * [Beam Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/beam-search.md)
+      * [Iterative Deepening A\*](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/iterative-deepening-a.md)
     * [Comparison of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/comparison-of-search-algorithms.md)
 
 ## Machine Learning
