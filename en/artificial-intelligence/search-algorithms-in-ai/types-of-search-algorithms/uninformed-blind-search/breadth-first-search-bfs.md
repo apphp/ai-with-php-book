@@ -48,7 +48,7 @@ BFS is a fundamental algorithm known for its systematic and predictable nature, 
 
 In the tree structure below, we illustrate the traversal process using the BFS algorithm, starting from the root node **S** and proceeding to the goal node **K** . The BFS algorithm explores the tree layer by layer, following the path indicated by the dotted arrows. The sequence of nodes visited during traversal will be:
 
-$$S-> A->B->C->D->G->H->E->F->I->K$$
+$$S→A→B→C→D→G→H→E→F→I→K$$
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
@@ -56,7 +56,7 @@ $$S-> A->B->C->D->G->H->E->F->I->K$$
 
 The time complexity of the BFS algorithm is determined by the number of nodes traversed until the shallowest solution node is found. Let:
 
-* &#x20;: The depth of the shallowest solution.
+* $$d$$ : The depth of the shallowest solution.
 * $$b$$ : The branching factor, which is the maximum number of child nodes for any node.
 
 At depth $$d$$ , the total number of nodes traversed is:  $$T (b) = 1+b^2+b^3+...+ b^d= O (b^d)$$

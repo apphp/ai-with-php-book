@@ -17,7 +17,7 @@ DFS starts at a root node, explores one path completely until it reaches a dead 
 
 **Complexity**
 
-* **Time Complexity**: $$O(b^m)$$, where  is the maximum depth of the tree.
+* **Time Complexity**: $$O(b^m)$$, where is the maximum depth of the tree.
 * **Space Complexity**: $$O(b \times m)$$.
 * **Use Case**: Puzzle-solving where solutions are deep in the tree.
 
@@ -45,6 +45,32 @@ DFS starts at a root node, explores one path completely until it reaches a dead 
 
 Depth-First Search is a versatile and efficient algorithm for deep exploration of data structures. While it has its limitations, such as the risk of infinite loops and lack of optimality, its low memory usage and suitability for solving complex problems like puzzles and mazes make it an indispensable tool in the field of computer science.
 
+### Example
 
+In the search tree below, the flow of the depth-first search follows this order:&#x20;
 
-.
+$$Root node → Left node → Right node.$$
+
+The traversal begins at the root node **S**, progressing to **A**, then **B**, followed by **D** and **E**. Since **E** has no successors and the goal node hasn’t been found, the algorithm backtracks to explore other branches. After backtracking, it moves to node **C** and finally to **G**, where it terminates upon finding the goal node.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (145).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+**Completeness**:&#x20;
+
+The DFS algorithm is complete when operating within a finite state space, as it will explore every node in a finite search tree.
+
+**Time Complexity**:&#x20;
+
+The time complexity of DFS corresponds to the number of nodes traversed during the search. It is represented as:
+
+$$T(n) = 1 + n_2 + n_3 + \dots + n_m = O(b^m)$$
+
+where $$m$$ is the maximum depth of any node, which can be significantly larger than $$d$$, the depth of the shallowest solution.
+
+**Space Complexity**:&#x20;
+
+DFS requires memory to store only the current path from the root node, making its space complexity proportional to the size of the fringe, which is $$O(bm)$$.
+
+**Optimality**:&#x20;
+
+DFS is non-optimal because it may take many steps or incur high costs to reach the goal node, potentially bypassing shorter or less costly solutions.
