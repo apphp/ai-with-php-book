@@ -6,19 +6,19 @@ The BFS algorithm starts at the root node and explores all its immediate child n
 
 ### **Key Characteristics**
 
-1. Level-by-Level Exploration:\
+1. **Level-by-Level Exploration**:\
    BFS explores the graph or tree level by level, starting from the root node and visiting all its neighbors before moving to the next level.
-2. Queue-Based Mechanism:\
+2. **Queue-Based Mechanism**:\
    BFS uses a queue data structure to manage the nodes to be visited. Nodes are added to the queue as they are discovered and removed in the order they were added, ensuring a First-In-First-Out (FIFO) traversal pattern.
-3. Shortest Path Guarantee:\
+3. **Shortest Path Guarantee**:\
    For unweighted graphs, BFS guarantees the shortest path (i.e., the minimum number of edges) from the source node to any other node.
-4. Visited List or Set:\
+4. **Visited List or Set**:\
    BFS relies on a mechanism, such as a _visited_ list or set, to track nodes that have already been explored. This avoids revisiting nodes and helps prevent infinite loops in cyclic graphs.
-5. Graph Traversal:\
+5. **Graph Traversal**:\
    BFS can be applied to both directed and undirected graphs, as well as weighted graphs where edge weights are uniform or ignored.
-6. Complete Search:\
+6. **Complete Search**:\
    BFS ensures that all reachable nodes are visited. This is especially useful for problems where every node or state needs to be explored.
-7. Parallel Exploration:\
+7. **Parallel Exploration**:\
    Unlike DFS, which focuses on depth, BFS explores all possibilities at the current level before advancing, providing a breadth-oriented view of the graph or tree.
 
 **Complexity**

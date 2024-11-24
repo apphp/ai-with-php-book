@@ -54,7 +54,7 @@
   * [Turing Test in AI](artificial-intelligence/agents-in-ai/turing-test-in-ai.md)
   * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
 * [Search Algorithms in AI](artificial-intelligence/search-algorithms-in-ai/README.md)
-  * [Introduction to Search Algorithms](artificial-intelligence/search-algorithms-in-ai/introduction-to-search-algorithms.md)
+  * [Introduction](artificial-intelligence/search-algorithms-in-ai/introduction-to-search-algorithms.md)
   * [Types of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/README.md)
     * [Uninformed (Blind) Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/README.md)
       * [Breadth-First Search (BFS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/breadth-first-search-bfs.md)
