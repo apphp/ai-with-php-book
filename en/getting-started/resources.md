@@ -1,6 +1,4 @@
-# Page
-
-### Resources
+# Resources
 
 This section lists helpful tools, libraries, and references for further exploration of the topics covered in this book.
 
@@ -16,8 +14,7 @@ This section lists helpful tools, libraries, and references for further explorat
 #### Libraries and Tools
 
 * Rubix ML - A PHP library for building machine learning models.\
-  [https://rubixml.com](https://rubixml.com/)\
-
+  [https://rubixml.com](https://rubixml.com/)
 * PHP-ML - A lightweight PHP library for machine learning.\
   [https://php-ml.readthedocs.io](https://php-ml.readthedocs.io/)
 
