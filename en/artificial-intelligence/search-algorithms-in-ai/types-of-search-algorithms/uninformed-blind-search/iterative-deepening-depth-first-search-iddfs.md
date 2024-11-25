@@ -6,13 +6,19 @@ IDDFS is particularly useful in uninformed search scenarios where the search spa
 
 ### Key Characteristics
 
-1. Gradual Depth Expansion: IDDFS starts with a depth limit of zero and incrementally increases the limit after each iteration until the goal is found. Each iteration performs a depth-limited DFS.
-2. Combines BFS and DFS Benefits:
-   1. From BFS: It ensures completeness and optimality by exploring all nodes at a given depth before proceeding to the next.
-   2. From DFS: It uses less memory, storing only the current path rather than the entire frontier.
-3. Backtracking Mechanism: Like DFS, IDDFS relies on backtracking to explore alternative paths when reaching the depth limit.
-4. Goal-Oriented Search: The algorithm terminates as soon as the goal node is found, avoiding unnecessary exploration of deeper levels.
-5. Simplicity: IDDFS builds upon the conventional DFS algorithm, making it straightforward to implement.
+1. **Gradual Depth Expansion**: \
+   IDDFS starts with a depth limit of zero and incrementally increases the limit after each iteration until the goal is found. Each iteration performs a depth-limited DFS.
+2. **Combines BFS and DFS Benefits**:
+   1. **From BFS**: \
+      It ensures completeness and optimality by exploring all nodes at a given depth before proceeding to the next.
+   2. **From DFS**: \
+      It uses less memory, storing only the current path rather than the entire frontier.
+3. **Backtracking Mechanism**: \
+   Like DFS, IDDFS relies on backtracking to explore alternative paths when reaching the depth limit.
+4. **Goal-Oriented Search**: \
+   The algorithm terminates as soon as the goal node is found, avoiding unnecessary exploration of deeper levels.
+5. **Simplicity**: \
+   IDDFS builds upon the conventional DFS algorithm, making it straightforward to implement.
 
 **Complexity**
 
@@ -24,17 +30,25 @@ Combines the advantages of BFS and DFS by performing DFS repeatedly with increas
 
 ### Advantages
 
-1. Memory Efficiency: IDDFS requires significantly less memory compared to BFS because it only maintains the current path and depth information, rather than storing all explored nodes.
-2. Optimality: For uniform cost edges, IDDFS guarantees finding the shortest path to the goal node.
-3. Completeness: The algorithm ensures that if a solution exists, it will be found, as it explores all depths systematically.
-4. Practicality in Large Search Spaces: IDDFS is especially useful when the search space is vast and the depth of the goal node is unknown, as it avoids premature depth constraints or memory overflows.
-5. Iterative Refinement: By revisiting earlier depths, the algorithm effectively balances thoroughness with the ability to explore deeper levels progressively.
+1. **Memory Efficiency**: \
+   IDDFS requires significantly less memory compared to BFS because it only maintains the current path and depth information, rather than storing all explored nodes.
+2. **Optimality**: \
+   For uniform cost edges, IDDFS guarantees finding the shortest path to the goal node.
+3. **Completeness**: \
+   The algorithm ensures that if a solution exists, it will be found, as it explores all depths systematically.
+4. **Practicality in Large Search Spaces**: \
+   IDDFS is especially useful when the search space is vast and the depth of the goal node is unknown, as it avoids premature depth constraints or memory overflows.
+5. **Iterative Refinement**: \
+   By revisiting earlier depths, the algorithm effectively balances thoroughness with the ability to explore deeper levels progressively.
 
 ### Disadvantages
 
-1. Repetition of Work: A key drawback of IDDFS is that it repeats the search from the root node for each increment of the depth limit, revisiting previously explored nodes multiple times.
-2. Higher Computational Cost: The iterative nature of the algorithm results in a higher cumulative computational effort compared to a single DFS or BFS traversal.
-3. Limited Optimization for Non-Uniform Costs: While IDDFS is optimal for uniform edge costs, it does not inherently handle scenarios where edge costs vary.
+1. **Repetition of Work**: \
+   A key drawback of IDDFS is that it repeats the search from the root node for each increment of the depth limit, revisiting previously explored nodes multiple times.
+2. **Higher Computational Cost**: \
+   The iterative nature of the algorithm results in a higher cumulative computational effort compared to a single DFS or BFS traversal.
+3. **Limited Optimization for Non-Uniform Costs**: \
+   While IDDFS is optimal for uniform edge costs, it does not inherently handle scenarios where edge costs vary.
 
 In conclusion, Iterative Deepening Depth-First Search is a powerful algorithm that combines the strengths of DFS and BFS. By balancing memory efficiency with search completeness and optimality, it is a valuable tool for exploring large and uncertain search spaces. However, its iterative nature requires careful consideration of computational overhead, making it most suitable for problems where memory constraints are more critical than processing time.
 
@@ -42,7 +56,7 @@ In conclusion, Iterative Deepening Depth-First Search is a powerful algorithm th
 
 For example, consider the following tree structure to illustrate the Iterative Deepening Depth-First Search (IDDFS). The algorithm performs multiple iterations, gradually increasing the depth limit until the goal node is discovered. The iterations proceed as follows:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Iterations in IDDFS:**
 

@@ -4,12 +4,17 @@ The Depth-Limited Search (DLS) algorithm is an extension of the Depth-First Sear
 
 ### Key Characteristics
 
-1. **Depth Limitation**: The algorithm restricts the search depth to a specified limit, ensuring that nodes beyond this depth are not expanded.
+1. **Depth Limitation**: \
+   The algorithm restricts the search depth to a specified limit, ensuring that nodes beyond this depth are not expanded.
 2. **Failure Conditions**:
-   1. **Standard Failure**: Indicates that the problem has no solution within the explored search space.
-   2. **Cutoff Failure**: Signals that the solution exists but lies beyond the specified depth limit.
-3. **Behavior with Cycles**: By not revisiting nodes, DLS avoids infinite loops caused by cycles in the search graph, a common issue in classical DFS.
-4. **Memory Efficiency**: DLS requires less memory than algorithms like Breadth-First Search (BFS), as it does not need to store all levels of the search tree simultaneously.
+   1. **Standard Failure**: \
+      Indicates that the problem has no solution within the explored search space.
+   2. **Cutoff Failure**: \
+      Signals that the solution exists but lies beyond the specified depth limit.
+3. **Behavior with Cycles**: \
+   By not revisiting nodes, DLS avoids infinite loops caused by cycles in the search graph, a common issue in classical DFS.
+4. **Memory Efficiency**: \
+   DLS requires less memory than algorithms like Breadth-First Search (BFS), as it does not need to store all levels of the search tree simultaneously.
 
 **Complexity**
 
@@ -19,15 +24,21 @@ The Depth-Limited Search (DLS) algorithm is an extension of the Depth-First Sear
 
 ### Advantages
 
-1. **Memory Conservation**: By limiting the depth, DLS reduces the memory requirements compared to BFS and Iterative Deepening Depth-First Search (IDDFS). It avoids the need to hold the entire search tree in memory, making it more efficient for certain problems.
-2. **Cycle Handling**: DLS naturally mitigates issues with infinite loops in graphs containing cycles, as it stops expanding nodes at the depth limit.
-3. **Focused Exploration**: The depth restriction ensures that unnecessary exploration of deeper levels is avoided, leading to faster processing in cases where the solution lies within the set limit.
+1. **Memory Conservation**: \
+   By limiting the depth, DLS reduces the memory requirements compared to BFS and Iterative Deepening Depth-First Search (IDDFS). It avoids the need to hold the entire search tree in memory, making it more efficient for certain problems.
+2. **Cycle Handling**: \
+   DLS naturally mitigates issues with infinite loops in graphs containing cycles, as it stops expanding nodes at the depth limit.
+3. **Focused Exploration**: \
+   The depth restriction ensures that unnecessary exploration of deeper levels is avoided, leading to faster processing in cases where the solution lies within the set limit.
 
 ### Disadvantages
 
-1. **Incompleteness**: DLS is not guaranteed to find a solution if one exists, especially if the depth limit is set too low.
-2. **Non-Optimal Solutions**: The algorithm may not produce the optimal solution when multiple solutions exist at different depths.
-3. **Dependency on Depth Limit**: The effectiveness of DLS heavily relies on choosing an appropriate depth limit. A limit set too low may miss the solution, while a limit set too high can result in unnecessary exploration, reducing efficiency.
+1. **Incompleteness**: \
+   DLS is not guaranteed to find a solution if one exists, especially if the depth limit is set too low.
+2. **Non-Optimal Solutions**: \
+   The algorithm may not produce the optimal solution when multiple solutions exist at different depths.
+3. **Dependency on Depth Limit**: \
+   The effectiveness of DLS heavily relies on choosing an appropriate depth limit. A limit set too low may miss the solution, while a limit set too high can result in unnecessary exploration, reducing efficiency.
 
 Depth-Limited Search strikes a balance between the exhaustive exploration of BFS and the memory constraints of DFS. Its utility lies in its ability to prevent infinite exploration while maintaining a structured approach to problem-solving. However, careful consideration must be given to the choice of the depth limit to ensure effective results, making it a trade-off between completeness and resource efficiency.
 
