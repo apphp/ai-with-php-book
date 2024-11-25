@@ -53,6 +53,10 @@ Uniform Cost Search is a powerful and reliable algorithm for finding the lowest-
 
 ### Example
 
+The sequence of nodes visited during traversal will be:
+
+$$S→A→D→G$$
+
 <div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Completeness**:
