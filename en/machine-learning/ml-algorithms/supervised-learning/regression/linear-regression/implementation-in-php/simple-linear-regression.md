@@ -124,7 +124,7 @@ Predicted Price for: $263,495.68
 
 **Chart:**
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>House Prices by Square Footage with Trend Line</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>House Prices by Square Footage with Trend Line</p></figcaption></figure></div>
 
 ***
 
@@ -219,7 +219,7 @@ Predicted Price for: $263,495.68
 
 **Chart:**
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Advanced Techniques: Feature Scaling and Regularization
 

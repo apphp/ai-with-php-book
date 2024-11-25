@@ -50,7 +50,7 @@ In the tree structure below, we illustrate the traversal process using the BFS a
 
 $$S→A→B→C→D→G→H→E→F→I→K$$
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### **Time Complexity:**&#x20;
 
