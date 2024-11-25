@@ -17,6 +17,6 @@ To make all of this possible, agents rely on four key components:
 Each agent can perceive its own actions (but not always their effects or consequences).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Interaction of Agents with the Environment</p></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/image (148).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 In addition it has a learning system. The learning system enables the AI agent to learn from its experiences and interactions with the environment. It uses techniques like reinforcement learning, supervised learning, and unsupervised learning to improve the performance of the AI agent over time.
