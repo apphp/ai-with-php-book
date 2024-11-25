@@ -4,11 +4,7 @@
 
 Игровая индустрия одной из первых начала применять ИИ, используя его для создания более умных неигровых персонажей (NPC), улучшения игрового опыта и даже для автономного генерирования целых игровых миров.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>ИИ в играх</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>ИИ в играх</p></figcaption></figure></div>
 
 ### Бот OpenAI для Dota 2
 
