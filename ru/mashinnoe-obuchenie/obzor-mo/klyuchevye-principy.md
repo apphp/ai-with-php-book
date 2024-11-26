@@ -1,12 +1,8 @@
-# Ключевые принципы машинного обучения
+# Ключевые принципы
 
 ### Основные принципы машинного обучения
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption><p>Ключевые принципы машинного обучения</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (51).png" alt="" width="375"><figcaption><p>Ключевые принципы машинного обучения</p></figcaption></figure></div>
 
 #### Обучение на основе данных
 

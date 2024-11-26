@@ -4,11 +4,7 @@
 
 Прежде чем начать изучать машинное обучение, полезно ознакомиться с некоторыми базовыми концепциями. Общее понимание того, что такое машинное обучение и как оно работает, облегчит в дальнейшем понимание всего материала.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption><p>Введение</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (40).png" alt="" width="563"><figcaption><p>Введение</p></figcaption></figure></div>
 
 ### Что такое машинное обучение?&#x20;
 

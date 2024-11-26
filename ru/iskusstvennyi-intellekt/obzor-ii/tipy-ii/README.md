@@ -2,11 +2,7 @@
 
 Искусственный интеллект можно сгруппировать по двум основным факторам: что он может делать и как он работает.&#x20;
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption><p>Типы ИИ</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (46).png" alt="" width="375"><figcaption><p>Типы ИИ</p></figcaption></figure></div>
 
 ### Тип 1: классификация на основе возможностей
 

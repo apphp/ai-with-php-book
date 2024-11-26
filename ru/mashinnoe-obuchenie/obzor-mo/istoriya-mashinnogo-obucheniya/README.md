@@ -6,8 +6,4 @@
 
 Несмотря на то, что машинное обучение кажется нам современной инновацией, его фундаментальные идеи и разработки имеют давнюю историю. Далее мы рассмотрим ключевые вехи, которые сыграли важную роль в развитии машинного обучения.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption><p>История машинного обучения</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (44).png" alt="" width="375"><figcaption><p>История машинного обучения</p></figcaption></figure></div>
