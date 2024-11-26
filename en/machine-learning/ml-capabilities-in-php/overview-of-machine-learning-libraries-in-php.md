@@ -1,14 +1,10 @@
-# Overview of Machine Learning Libraries in PHP
+# Overview of ML Libraries in PHP
 
 ### Introduction
 
 Machine learning has become an essential tool in modern software development, helping to build intelligent systems that can learn from data and make predictions. While languages like Python and R are typically associated with machine learning, PHP, a popular server-side scripting language, has also embraced machine learning capabilities. In recent years, several machine learning libraries have emerged in PHP, allowing developers to implement machine learning solutions without switching to a different programming language.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="375"><figcaption><p>Overview of Machine Learning Libraries in PHP</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (152).png" alt="" width="375"><figcaption><p>Overview of Machine Learning Libraries in PHP</p></figcaption></figure></div>
 
 ### Why Use PHP for Machine Learning?
 

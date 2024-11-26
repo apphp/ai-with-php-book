@@ -21,7 +21,7 @@ Uniform Cost Search (UCS) is a fundamental algorithm widely used in artificial i
 
 UCS expands the node with the lowest path cost, ensuring an optimal solution if all costs are non-negative.
 
-* **Time Complexity:** $$O(b^{1+\lfloor C^/\epsilon\rfloor})$$$$O(b^{1 + \frac{C^*}{\epsilon}})$$ _, where_ $$C*$$ is the cost of the optimal solution, $$\epsilon$$ is the minimum cost of any action, and $$b$$ is the branching factor. Then the number of steps is = $$1 + \frac{C^*}{\epsilon}$$, as we start from state 0 and end to $$\frac{C^*}{\epsilon}$$.
+* **Time Complexity:** $$O(b^{1 + \frac{C^*}{\epsilon}})$$ _, where_ $$C*$$ is the cost of the optimal solution, $$\epsilon$$ is the minimum cost of any action, and $$b$$ is the branching factor. Then the number of steps is = $$1 + \frac{C^*}{\epsilon}$$, as we start from state 0 and end to $$\frac{C^*}{\epsilon}$$.
 * **Space Complexity**: $$O(b^{1 + \frac{C^*}{\epsilon}})$$, the same logic is for space complexity.
 * **Use Case**: Finding the cheapest path in a weighted graph.
 
