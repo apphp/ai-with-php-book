@@ -57,7 +57,7 @@ The sequence of nodes visited during traversal will be:
 
 $$S→A→D→G$$
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Completeness**:
 
