@@ -64,12 +64,13 @@
       * [Uniform Cost Search (UCS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/uniform-cost-search-ucs.md)
       * [Bidirectional Search (BDS)](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/bidirectional-search-bds.md)
     * [Informed (Heuristic) Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/README.md)
-      * [Greedy Best-First Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/greedy-best-first-search.md)
-      * [A Search\*](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search.md)
-      * [Hill Climbing](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/hill-climbing.md)
-      * [Beam Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/beam-search.md)
+      * [Greedy Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/greedy-search.md)
+      * [A\* Tree Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/a-tree-search.md)
+      * [A\* Graph Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/a-graph-search.md)
       * [Iterative Deepening A\*](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/iterative-deepening-a.md)
+      * [Beam Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/beam-search.md)
     * [Comparison of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/comparison-of-search-algorithms.md)
+    * [Hill Climbing](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/hill-climbing.md)
 
 ## Machine Learning
 

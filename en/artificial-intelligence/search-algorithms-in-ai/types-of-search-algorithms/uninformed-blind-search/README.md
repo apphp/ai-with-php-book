@@ -4,11 +4,9 @@ Uninformed search algorithms operate without any domain-specific knowledge about
 
 ### Key Characteristics of Uninformed Search
 
-1\. **No Heuristics**: Relies purely on the structure of the search tree.
-
-2\. **Exhaustive Exploration**: Explores all possible nodes, making it complete but often inefficient.
-
-3\. **General Applicability**: Can solve any problem where the goal state can be identified.
+1. **No Heuristics**: Relies purely on the structure of the search tree.
+2. **Exhaustive Exploration**: Explores all possible nodes, making it complete but often inefficient.
+3. **General Applicability**: Can solve any problem where the goal state can be identified.
 
 ### Types of Uninformed Search Algorithms
 
