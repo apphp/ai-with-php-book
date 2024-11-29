@@ -6,7 +6,6 @@ Greedy search is an informed search algorithm that aims to expand the node close
 
 1. **Heuristic-Driven Approach**:\
    Greedy search relies heavily on a heuristic function, , which estimates the cost or distance from a given node to the goal node. The algorithm prioritizes nodes with lower heuristic values, as they are considered “closer” to the goal.\
-   \
    Heuristic Function: $$h(x) = \text{Estimate of distance of node } x \text{ from the goal node.}$$
 2. **Node Expansion Strategy**:\
    Nodes are expanded based on their heuristic value. The node with the lowest is expanded first, reflecting the algorithm’s pursuit of the shortest perceived path to the goal.
