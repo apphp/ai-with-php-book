@@ -53,7 +53,7 @@
   * [Challenges in AI Agent Development](artificial-intelligence/agents-in-ai/challenges-in-ai-agent-development.md)
   * [Turing Test in AI](artificial-intelligence/agents-in-ai/turing-test-in-ai.md)
   * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
-* [Search Algorithms in AI](artificial-intelligence/search-algorithms-in-ai/README.md)
+* [Problem Solving in AI](artificial-intelligence/search-algorithms-in-ai/README.md)
   * [Introduction](artificial-intelligence/search-algorithms-in-ai/introduction-to-search-algorithms.md)
   * [Types of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/README.md)
     * [Uninformed (Blind) Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/README.md)
@@ -71,7 +71,8 @@
       * [Iterative Deepening A\*](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/iterative-deepening-a.md)
       * [Beam Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/beam-search.md)
     * [Comparison of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/comparison-of-search-algorithms.md)
-    * [Hill Climbing](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/hill-climbing.md)
+  * [Hill Climbing Algorithm](artificial-intelligence/search-algorithms-in-ai/hill-climbing-algorithm.md)
+  * [Means-Ends Analysis](artificial-intelligence/search-algorithms-in-ai/means-ends-analysis.md)
 
 ## Machine Learning
 
