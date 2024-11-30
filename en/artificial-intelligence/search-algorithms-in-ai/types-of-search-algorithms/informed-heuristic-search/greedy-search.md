@@ -6,7 +6,8 @@ Greedy search is an informed search algorithm that aims to expand the node close
 
 1. **Heuristic-Driven Approach**:\
    Greedy search relies heavily on a heuristic function, , which estimates the cost or distance from a given node to the goal node. The algorithm prioritizes nodes with lower heuristic values, as they are considered “closer” to the goal.\
-   Heuristic Function: $$h(x) = \text{Estimate of distance of node } x \text{ from the goal node.}$$
+   Heuristic Function: $$h(x) =$$ Estimate of distance of node $$x$$ from the goal node.\
+   Lower the value of $$h(x)$$, closer is the node from the goal.
 2. **Node Expansion Strategy**:\
    Nodes are expanded based on their heuristic value. The node with the lowest is expanded first, reflecting the algorithm’s pursuit of the shortest perceived path to the goal.
 3. **No Backtracking**:\
@@ -27,28 +28,43 @@ Greedy search is an informed search algorithm that aims to expand the node close
 
 ### Disadvantages
 
-
-
-1\. Lack of Optimality
-
-Greedy search does not guarantee the optimal solution. It may settle for a suboptimal solution if the heuristic misleads it toward a local minimum or a longer path.
-
-2\. Incomplete Search
-
-If the heuristic function is poorly designed or the search space is too complex, the algorithm might fail to find a solution even if one exists.
-
-3\. Sensitivity to Heuristic
-
-The success of greedy search is highly dependent on the quality of the heuristic. An inaccurate heuristic can lead to inefficient or incorrect results.
-
-4\. No Cost Awareness
-
-Greedy search does not account for the actual cost incurred from the start node to the current node, which can result in selecting paths that seem promising initially but are more expensive overall.
-
-\
-
+1. **Lack of Optimality:**\
+   Greedy search does not guarantee the optimal solution. It may settle for a suboptimal solution if the heuristic misleads it toward a local minimum or a longer path.
+2. **Incomplete Search:**\
+   If the heuristic function is poorly designed or the search space is too complex, the algorithm might fail to find a solution even if one exists.
+3. **Sensitivity to Heuristic:**\
+   The success of greedy search is highly dependent on the quality of the heuristic. An inaccurate heuristic can lead to inefficient or incorrect results.
+4. **No Cost Awareness:**\
+   Greedy search does not account for the actual cost incurred from the start node to the current node, which can result in selecting paths that seem promising initially but are more expensive overall.
 
 In conclusion, greedy search is a powerful algorithm when used in the right contexts. Its reliance on heuristic-driven expansion allows for rapid solutions but can also limit its effectiveness in scenarios with complex or deceptive search spaces. Understanding its strengths and limitations is key to applying it effectively in artificial intelligence and other computational problems.
 
 ### **Example**
 
+Find the path from S to G using greedy search. The heuristic values $$h$$ of each node below the name of the node.
+
+Starting from node S , we can move to either A (h = 9) or D (h = 5). Since D has the lower heuristic value, we select it. From D , we can proceed to either B (h = 4) or E (h = 3). Again, we choose E because it has the smaller heuristic value. Finally, from E , we move to G (h = 0), which is the goal node. The complete traversal is illustrated in the search tree below, highlighted in dashed red.
+
+The sequence of nodes visited during traversal will be:&#x20;
+
+$$S→D→E→G$$
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+#### Time Complexity:
+
+The time complexity depends on the branching factor $$b$$ and the maximum depth $$m$$ of the search tree. In the worst case, the complexity is , as it may need to explore all nodes.
+
+#### Space Complexity:
+
+The space complexity is also $$O(b^m)$$, as it stores all generated nodes in memory, including the frontier.
+
+#### Completeness:
+
+Greedy search is incomplete. It may fail to find a solution if the search space is infinite or if the heuristic leads the search down a non-terminating path.
+
+#### Optimality:
+
+Greedy search is not optimal, as it does not consider the total cost of the path and may return a suboptimal solution.
+
+In conclusion, greedy search is a powerful algorithm when used in the right contexts. Its reliance on heuristic-driven expansion allows for rapid solutions but can also limit its effectiveness in scenarios with complex or deceptive search spaces.

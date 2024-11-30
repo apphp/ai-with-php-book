@@ -56,7 +56,7 @@ In conclusion, Iterative Deepening Depth-First Search is a powerful algorithm th
 
 For example, consider the following tree structure to illustrate the Iterative Deepening Depth-First Search (IDDFS). The algorithm performs multiple iterations, gradually increasing the depth limit until the goal node is discovered. The iterations proceed as follows:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Iterations in IDDFS:**
 
