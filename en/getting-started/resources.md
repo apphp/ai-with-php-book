@@ -18,6 +18,11 @@ This section lists helpful tools, libraries, and references for further explorat
 * PHP-ML - A lightweight PHP library for machine learning.\
   [https://php-ml.readthedocs.io](https://php-ml.readthedocs.io/)
 
+#### Books
+
+* Artificial Intelligence: A Modern Approach, by by Stuart Russell and Peter Norvig\
+  [https://aima.cs.berkeley.edu](https://aima.cs.berkeley.edu/)
+
 ***
 
 If you'd like to suggest a resource, please contact us or submit a pull request via our GitHub repository.
