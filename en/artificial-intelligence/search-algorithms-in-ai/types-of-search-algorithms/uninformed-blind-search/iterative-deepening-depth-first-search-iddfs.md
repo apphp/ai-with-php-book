@@ -63,9 +63,8 @@ For example, consider the following tree structure to illustrate the Iterative D
 1. 1st Iteration → S
 2. 2nd Iteration → S, A, B
 3. 3rd Iteration → S, A, C, D, B, E, F
-4. 4th Iteration → S, A, C, D, G, I, B, E, J, F
 
-In the fourth iteration, the algorithm successfully finds the goal node.
+In the third iteration, the algorithm successfully finds the goal node.
 
 **Completeness:**
 
