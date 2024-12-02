@@ -57,6 +57,8 @@ The sequence of nodes visited during traversal will be:
 
 $$S→A→D→G$$
 
+The Cost: 6
+
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (156).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Completeness**:
