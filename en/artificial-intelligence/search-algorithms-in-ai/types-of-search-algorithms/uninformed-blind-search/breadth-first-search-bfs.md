@@ -46,11 +46,13 @@ BFS is a fundamental algorithm known for its systematic and predictable nature, 
 
 ### Example
 
-In the tree structure below, we illustrate the traversal process using the BFS algorithm, starting from the root node **S** and proceeding to the goal node **K** . The BFS algorithm explores the tree layer by layer, following the path indicated by the dotted arrows. The sequence of nodes visited during traversal will be:
+In the tree structure below, we illustrate the traversal process using the BFS algorithm, starting from the root node **S** and proceeding to the goal node **K** . The BFS algorithm explores the tree layer by layer, following the path indicated by the dotted arrows. \
+\
+The sequence of nodes visited during traversal will be:
 
 $$S→A→B→C→D→G→H→E→F→I→K$$
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### **Time Complexity:**&#x20;
 
