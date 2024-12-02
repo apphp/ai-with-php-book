@@ -84,7 +84,7 @@ The IDDFS algorithm is optimal if the path cost is a non-decreasing function of 
 
 ### Iterative Deepening Depth-First Search with PHP
 
-In PHP  it can be written as a class [Graph](breadth-first-search-bfs.md) with implementation of a set of graph operations.
+In PHP  it can be written as a class [Graph](https://apphp.gitbook.io/artificial-intelligence-with-php/artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/breadth-first-search-bfs#breadth-first-search-with-php) with implementation of a set of graph operations.
 
 **Example of Use:**
 

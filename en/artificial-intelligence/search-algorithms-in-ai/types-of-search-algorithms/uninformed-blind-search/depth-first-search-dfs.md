@@ -77,7 +77,7 @@ DFS is non-optimal because it may take many steps or incur high costs to reach t
 
 ### Breadth-First Search with PHP
 
-In PHP  it can be written as a class [Graph](breadth-first-search-bfs.md) with implementation of a set of graph operations.
+In PHP  it can be written as a class [Graph](https://apphp.gitbook.io/artificial-intelligence-with-php/artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/breadth-first-search-bfs#breadth-first-search-with-php) with implementation of a set of graph operations.
 
 **Example of Use:**
 
