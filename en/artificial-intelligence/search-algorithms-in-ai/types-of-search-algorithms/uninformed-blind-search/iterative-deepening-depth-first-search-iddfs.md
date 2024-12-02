@@ -81,3 +81,64 @@ The space complexity of IDDFS is $$O(b \times d)$$ since it stores only the curr
 **Optimality**:
 
 The IDDFS algorithm is optimal if the path cost is a non-decreasing function of the depth of the node, ensuring it finds the shortest path in uniform cost search scenarios.
+
+### Iterative Deepening Depth-First Search with PHP
+
+In PHP  it can be written as a class [Graph](breadth-first-search-bfs.md) with implementation of a set of graph operations.
+
+**Example of Use:**
+
+```php
+// Create the graph and add vertices with their levels
+$graph = new Graph();
+
+// Add all vertices with their respective levels
+$graph->addVertex('S', 0);  // Start node at level 0
+$graph->addVertex('A', 1);
+$graph->addVertex('B', 1);
+$graph->addVertex('C', 2);
+$graph->addVertex('D', 2);
+$graph->addVertex('E', 2);
+$graph->addVertex('F', 2);  // Target node
+$graph->addVertex('G', 3);
+$graph->addVertex('H', 3);
+$graph->addVertex('I', 3);
+$graph->addVertex('J', 3);
+
+// Add edges based on the graph structure
+$graph->addEdge('S', 'A');
+$graph->addEdge('S', 'B');
+$graph->addEdge('A', 'C');
+$graph->addEdge('A', 'D');
+$graph->addEdge('B', 'E');
+$graph->addEdge('B', 'F');
+$graph->addEdge('C', 'G');
+$graph->addEdge('C', 'H');
+$graph->addEdge('D', 'I');
+$graph->addEdge('E', 'J');
+
+// Perform IDDFS to find node 'F'
+echo "Performing IDDFS to find node 'F':\n";
+$result = $graph->iddfs('S', 'F');
+
+// Output the DFS traversal
+echo "\nSearch Results:\n";
+echo "Target found: " . ($result['success'] ? "Yes" : "No") . "\n";
+echo "Final depth: " . $result['final_depth'] . "\n\n";
+
+// Print paths explored at each depth
+foreach ($result['paths'] as $depthResult) {
+    echo "Depth " . $depthResult['depth_limit'] . ":\n";
+    foreach ($depthResult['path'] as $node) {
+        echo sprintf("  Node: %s (Level %d)\n",
+            $node['vertex'],
+            $node['level']
+        );
+    }
+    echo "  Found: " . ($depthResult['found'] ? "Yes" : "No") . "\n\n";
+}
+```
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}

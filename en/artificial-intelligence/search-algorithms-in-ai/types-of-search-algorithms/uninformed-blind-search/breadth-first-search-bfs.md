@@ -186,6 +186,100 @@ class Graph {
         return $path;
     }
 
+    public function dls(string $startVertex, int $maxDepth, string $target = null): array {
+        if (!isset($this->adjacencyList[$startVertex])) {
+            throw new InvalidArgumentException("Start vertex does not exist in the graph");
+        }
+
+        $visited = [];
+        $path = [];
+        $found = false;
+
+        // Helper function for recursive DLS
+        $dlsRecursive = function(string $vertex, int $depth) use (&$dlsRecursive, &$visited, &$path, &$found, $maxDepth, $target): void {
+            // Mark current vertex as visited
+            $visited[$vertex] = true;
+
+            // Add vertex to path
+            $path[] = [
+                'vertex' => $vertex,
+                'level' => $this->levels[$vertex],
+                'depth' => $depth
+            ];
+
+            // If we found the target, mark as found
+            if ($vertex === $target) {
+                $found = true;
+                return;
+            }
+
+            // If we've reached max depth, stop exploring this path
+            if ($depth >= $maxDepth) {
+                return;
+            }
+
+            // Visit all adjacent vertices
+            foreach ($this->adjacencyList[$vertex] as $neighbor) {
+                if (!isset($visited[$neighbor]) && !$found) {
+                    $dlsRecursive($neighbor, $depth + 1);
+                }
+            }
+
+            // If this path didn't lead to the target and we're backtracking,
+            // we can optionally remove this vertex from visited to allow it
+            // to be visited again through a different path
+            if (!$found) {
+                unset($visited[$vertex]);
+            }
+        };
+
+        // Start DLS from the given vertex at depth 0
+        $dlsRecursive($startVertex, 0);
+
+        return [
+            'path' => $path,
+            'found' => $found,
+            'maxDepth' => $maxDepth
+        ];
+    }
+
+    public function iddfs(string $startVertex, string $target = null, int $maxIterations = 100): array {
+        if (!isset($this->adjacencyList[$startVertex])) {
+            throw new InvalidArgumentException("Start vertex does not exist in the graph");
+        }
+
+        $allPaths = [];
+        $depth = 0;
+
+        // Iteratively increase depth until target is found or max depth is reached
+        while ($depth < $maxIterations) {
+            $result = $this->dls($startVertex, $depth, $target);
+            $allPaths[] = [
+                'depth_limit' => $depth,
+                'path' => $result['path'],
+                'found' => $result['found']
+            ];
+
+            // If target is found, return all paths explored
+            if ($result['found']) {
+                return [
+                    'success' => true,
+                    'final_depth' => $depth,
+                    'paths' => $allPaths
+                ];
+            }
+
+            $depth++;
+        }
+
+        // If target wasn't found within maxIterations
+        return [
+            'success' => false,
+            'final_depth' => $depth - 1,
+            'paths' => $allPaths
+        ];
+    }
+
     public function getAdjacencyList(): array {
         return $this->adjacencyList;
     }
@@ -207,7 +301,6 @@ class Graph {
         }
     }
 }
-
 ```
 
 </details>
