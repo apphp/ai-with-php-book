@@ -42,6 +42,7 @@ A\* isn’t just a theoretical marvel; it’s a workhorse in countless real-worl
 * **GPS and Route Planning**: A\* helps find the fastest route considering distance, traffic, and terrain.
 * **Puzzle** Solving: Solving mazes or puzzles like the 8-puzzle problem becomes a breeze with A\*.
 * **Network Routing**: In computer networks, A\* ensures data packets take the most efficient path to their destination.
+* **Natural Language Processing (NLP)**: Crafting Coherent Sentences. Even in language processing, A\* has a role. It can generate meaningful and context-aware responses by analyzing word sequences for their relevance and likelihood. It’s like giving a chatbot a map to better conversation!
 
 ### Strengths and Weaknesses
 
@@ -59,7 +60,7 @@ The Challenges:
 
 ### A\* Through Time
 
-A\* was born in 1968, thanks to Peter Hart, Nils Nilsson, and Bertram Raphael at Stanford Research Institute. Building on the foundation of Dijkstra’s algorithm and Greedy Best-First Search, they created a tool that could intelligently navigate the complexities of graphs and networks. Over the years, researchers have refined A\* and adapted it for dynamic scenarios, leading to variants like D\* (Dynamic A\*) and Parallel A\*.
+A\* was born in 1968, thanks to **Peter Hart**, **Nils Nilsson**, and **Bertram Raphael** at Stanford Research Institute. Building on the foundation of Dijkstra’s algorithm and Greedy Best-First Search, they created a tool that could intelligently navigate the complexities of graphs and networks. Over the years, researchers have refined A\* and adapted it for dynamic scenarios, leading to variants like D\* (Dynamic A\*) and Parallel A\*.
 
 ### The Legacy of A\*
 

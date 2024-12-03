@@ -1,6 +1,8 @@
 # A\* Tree Search
 
-A\* Tree Search, commonly referred to as A\* Search, is a widely used pathfinding and graph traversal algorithm. It builds on the strengths of uniform-cost search and greedy search, offering a robust mechanism for finding the most cost-effective path from a starting node to a goal node. A\* uses a heuristic function, $$f(x) = g(x) + h(x)$$, where $$g(x)$$ is the cumulative cost to reach the current node, and $$h(x)$$ is an estimated cost to reach the goal from the current node. This balance between actual cost and estimated cost makes A\* one of the most efficient search algorithms in many applications, including game development, robotics, and network optimization.
+A\* Tree Search, commonly referred to as A\* Search, is a widely used pathfinding and graph traversal algorithm. It builds on the strengths of uniform-cost search and greedy search, offering a robust mechanism for finding the most cost-effective path from a starting node to a goal node.&#x20;
+
+A\* uses a heuristic function, $$f(x) = g(x) + h(x)$$, where $$g(x)$$ is the cumulative cost to reach the current node, and $$h(x)$$ is an estimated cost to reach the goal from the current node. This balance between actual cost and estimated cost makes A\* one of the most efficient search algorithms in many applications, including game development, robotics, and network optimization.
 
 ### Key Characteristics
 
@@ -8,12 +10,12 @@ A\* Tree Search, commonly referred to as A\* Search, is a widely used pathfindin
    * **Backward Cost** $$g(x)$$**:** Represents the total cost from the start node to the current node.
    * **Forward Cost** $$h(x)$$: Estimates the cost from the current node to the goal node.
    * The function combines these values to prioritize nodes that are both promising and cost-effective.
-2. **Admissibility**:
-   * For A\* to be optimal, the heuristic $$h(x)$$ must be admissible. This means $$h(x)$$ should never overestimate the true cost $$h^*(x)$$ _to the goal:_ $$0 \leq h(x) \leq  h^*(x)$$.
-3. **Strategy**:
-   * The algorithm selects the node with the smallest $$f(x)$$ value from the fringe (set of nodes to be explored) and expands it.
-4. **Flexibility**:
-   * A\* adapts to different problems by customizing the heuristic function $$h(x)$$, making it suitable for various use cases.
+2. **Admissibility**:\
+   For A\* to be optimal, the heuristic $$h(x)$$ must be admissible. This means $$h(x)$$ should never overestimate the true cost $$h^*(x)$$ _to the goal:_ $$0 \leq h(x) \leq  h^*(x)$$.
+3. **Strategy**:\
+   The algorithm selects the node with the smallest $$f(x)$$ value from the fringe (set of nodes to be explored) and expands it.
+4. **Flexibility**:\
+   A\* adapts to different problems by customizing the heuristic function $$h(x)$$, making it suitable for various use cases.
 
 ### Advantages
 

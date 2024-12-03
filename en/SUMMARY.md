@@ -68,6 +68,7 @@
       * [A\* Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search/README.md)
         * [A\* Tree Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search/a-tree-search.md)
         * [A\* Graph Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search/a-graph-search.md)
+        * [A\* Graph vs A\* Tree Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search/a-graph-vs-a-tree-search.md)
       * [Iterative Deepening A\*](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/iterative-deepening-a.md)
       * [Beam Search](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/informed-heuristic-search/beam-search.md)
     * [Comparison of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/comparison-of-search-algorithms.md)
