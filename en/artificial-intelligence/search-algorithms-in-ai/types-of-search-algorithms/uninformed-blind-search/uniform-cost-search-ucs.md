@@ -1,7 +1,5 @@
 # Uniform Cost Search (UCS)
 
-
-
 Uniform Cost Search (UCS) is a fundamental algorithm widely used in artificial intelligence for traversing weighted trees or graphs. It is designed to handle situations where each edge has a different cost, aiming to find the path to the goal node with the lowest cumulative cost. UCS achieves this by expanding nodes based on their path costs, starting from the root node. This chapter explores UCS in detail, highlighting its key characteristics, advantages, and disadvantages.
 
 ### Key Characteristics
@@ -76,3 +74,50 @@ The space complexity follows the same logic as the time complexity since UCS mai
 **Optimality**:
 
 Uniform-cost search is guaranteed to be optimal, as it always expands the path with the lowest cumulative cost, ensuring the most cost-efficient solution is found.
+
+### Iterative Uniform Cost Search with PHP
+
+In PHP  it can be written as a class [Graph](https://apphp.gitbook.io/artificial-intelligence-with-php/artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/uninformed-blind-search/breadth-first-search-bfs#breadth-first-search-with-php) with implementation of a set of graph operations.
+
+**Example of Use:**
+
+```php
+// Create the graph and add vertices with their levels
+$graph = new Graph();
+
+// Add all vertices with their respective levels
+$graph->addVertex('S', 0); // Starting node at level 0
+$graph->addVertex('A', 1);
+$graph->addVertex('B', 1);
+$graph->addVertex('C', 2);
+$graph->addVertex('D', 2);
+$graph->addVertex('E', 3);
+$graph->addVertex('F', 3);
+$graph->addVertex('G', 4); // There are multiple G nodes in different levels, but we'll use the target G
+
+// Add edges with their weights according to the diagram
+$graph->addEdge('S', 'A', 1);
+$graph->addEdge('S', 'B', 4);
+$graph->addEdge('A', 'C', 3);
+$graph->addEdge('A', 'D', 2);
+$graph->addEdge('B', 'G', 5);
+$graph->addEdge('C', 'E', 5);
+$graph->addEdge('D', 'F', 4);
+$graph->addEdge('D', 'G', 3);
+$graph->addEdge('E', 'G', 5);
+
+// Perform UCS from S to G
+echo "UCS traversal starting from vertex 'S':\n";
+$result = $graph->ucs('S', 'G');
+
+// Print the result
+echo "\nUCS Path Result:\n";
+$graph->printUcsPath($result);
+
+echo "\nThe output should show S -> A -> D -> G as the optimal path";
+echo "\nwith a total cost of 1 + 2 + 3 = 6";
+```
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
