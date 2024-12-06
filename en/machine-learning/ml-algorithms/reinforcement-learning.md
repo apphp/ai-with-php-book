@@ -2,11 +2,7 @@
 
 Reinforcement learning (RL) involves an agent that interacts with an environment and learns to make decisions by receiving feedback in the form of rewards or penalties. The agent’s objective is to maximize cumulative rewards over time. This technique is widely used in game AI, robotics, and autonomous systems.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Reinforcement Learning</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Reinforcement Learning</p></figcaption></figure></div>
 
 ### Reinforcement Learning
 
@@ -18,3 +14,4 @@ Algorithms that learn through interactions with an environment, using rewards or
 * Policy Gradients
 * Proximal Policy Optimization (PPO)
 * Bayesian Q-Learning. (tasks: Optimal Decision-Making, Handling Uncertainty, Exploration vs. Exploitation, Adaptation to Changes )
+* (In-context Reinforcement Learning
