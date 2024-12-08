@@ -53,11 +53,11 @@ Let's explore the work of the search:
 
 <table><thead><tr><th width="217">Path</th><th>h(x)</th><th>g(x)</th><th>f(x)</th></tr></thead><tbody><tr><td>S</td><td>7</td><td>0</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> A</td><td>9</td><td>3</td><td>12</td></tr><tr><td>S -> D                         ✓</td><td>5</td><td>2</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B                 ✓</td><td>4</td><td>2 + 1 = 3</td><td>7</td></tr><tr><td>S -> D -> E</td><td>3</td><td>2 + 4 = 6</td><td>9</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B -> C         ✓</td><td>2</td><td>3 + 2 = 5</td><td>7</td></tr><tr><td>S -> D -> B -> E         ✓</td><td>3</td><td>3 + 1 = 4</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B -> C -> G</td><td>0</td><td>5 + 4 = 9</td><td>9</td></tr><tr><td><strong>S -> D -> B -> E -> G</strong> ✓</td><td>0</td><td>4 + 3 = 7</td><td>7</td></tr></tbody></table>
 
-The sequence of nodes visited during traversal will be:
+**Result**:
 
-$$S→D→B→E→G$$
+• Path: the sequence of nodes visited during traversal will be: $$S→D→B→E→G$$
 
-The Cost: 7&#x20;
+• Cost: 7
 
 #### Time Complexity
 
@@ -76,5 +76,7 @@ A\* is complete if the search space is finite and the step costs are non-negativ
 #### Optimality
 
 A\* is optimal if the heuristic $$h(x)$$ is admissible (i.e.,  $$0 \leq h(x) \leq h^*(x)$$) and consistent (i.e., satisfies the triangle inequality: $$h(x) \leq c(x, y) + h(y)$$ ).
+
+### Conclusion
 
 A\* Tree Search remains a cornerstone of AI algorithms due to its ability to effectively combine precision and adaptability.&#x20;

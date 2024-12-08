@@ -38,20 +38,11 @@ A\* Graph Search mitigates this issue by introducing a critical rule: a node is 
 
 ### Example
 
-\
+Find the path to reach from S to G using A\* search.
 
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Let’s illustrate the concept with a practical example.
-
-\
-
-
-Question: Use A\* Graph Search to find a path from S to G in the given graph.
-
-\
-
-
-Solution: The algorithm is applied as follows:
+**Solution**: The algorithm is applied as follows:
 
 1\. Begin at the start node .
 
@@ -59,21 +50,32 @@ Solution: The algorithm is applied as follows:
 
 3\. Continue until the goal node is reached.
 
-\
+Let's explore the work of the search:
 
+<table><thead><tr><th width="217">Path</th><th>h(x)</th><th>g(x)</th><th>f(x)</th></tr></thead><tbody><tr><td>S</td><td>7</td><td>0</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> A</td><td>9</td><td>3</td><td>12</td></tr><tr><td>S -> D                         ✓</td><td>5</td><td>2</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B                 ✓</td><td>4</td><td>2 + 1 = 3</td><td>7</td></tr><tr><td>S -> D -> E</td><td>3</td><td>2 + 4 = 6</td><td>9</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B -> C         ✓</td><td>2</td><td>3 + 2 = 5</td><td>7</td></tr><tr><td>S -> D -> B -> E         ✓</td><td>3</td><td>3 + 1 = 4</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B -> C -> G</td><td>0</td><td>5 + 4 = 9</td><td>9</td></tr><tr><td><strong>S -> D -> B -> E -> G</strong> ✓</td><td>0</td><td>4 + 3 = 7</td><td>7</td></tr></tbody></table>
 
-Result:
+**Result**:
 
-• Path:
+• Path: the sequence of nodes visited during traversal will be: $$S→D→B→E→G$$
 
-• Cost:
+• Cost: 7
 
-\
+#### Time Complexity:
 
+A\* Graph Search explores nodes once, which reduces redundant computations. However, its worst-case complexity remains O(b^d), where b is the branching factor and d is the depth of the optimal solution. The actual runtime can be much lower in practical applications.
 
-Conclusion
+#### Space Complexity:
 
-\
+It requires space to store all nodes in the graph, including the open list (nodes yet to be explored) and the closed list (already explored nodes). This makes it memory-intensive, especially for large graphs.
 
+#### Completeness:
+
+A\* Graph Search is guaranteed to find a solution if one exists, as long as the graph is finite and the heuristic is consistent.
+
+#### Optimality:
+
+Optimality is ensured when the heuristic is consistent, meaning it never overestimates the actual cost to reach the goal. This property guarantees that the first path found to the goal is the least-cost path.
+
+### Conclusion
 
 A\* Graph Search is a powerful algorithm for pathfinding and graph traversal, building upon the strengths of A\* Tree Search while eliminating inefficiencies. Its ability to avoid redundant work makes it an essential tool for solving problems in robotics, navigation, gaming, and other domains requiring optimal pathfinding. However, its reliance on memory and heuristic quality must be considered during implementation.

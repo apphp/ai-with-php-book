@@ -4,7 +4,7 @@
 
 To understand neural networks, it helps to know some basic math, like algebra and probability. These skills explain how neural networks work behind the scenes. It’s also useful to understand machine learning basics, where computers learn from data, and to know programming on base level.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption><p>Overview of NN</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption><p>Overview of NN</p></figcaption></figure></div>
 
 ### **What is a Neural Network?**
 
