@@ -19,25 +19,25 @@ A\* uses a heuristic function, $$f(x) = g(x) + h(x)$$, where $$g(x)$$ is the cum
 
 ### Advantages
 
-1. **Optimality**:
-   * When using an admissible heuristic, A\* guarantees finding the shortest path to the goal.
-2. **Completeness**:
-   * A\* will find a solution if one exists, provided the search space is finite.
-3. **Efficiency**:
-   * By balancing actual and estimated costs, A\* reduces the number of nodes explored compared to other algorithms like breadth-first search.
-4. **Versatility**:
-   * A\* is applicable to a wide range of problems, from AI in games to logistical planning in real-world systems.
+1. **Optimality**:\
+   When using an admissible heuristic, A\* guarantees finding the shortest path to the goal.
+2. **Completeness**:\
+   A\* will find a solution if one exists, provided the search space is finite.
+3. **Efficiency**:\
+   By balancing actual and estimated costs, A\* reduces the number of nodes explored compared to other algorithms like breadth-first search.
+4. **Versatility**:\
+   A\* is applicable to a wide range of problems, from AI in games to logistical planning in real-world systems.
 
 ### Disadvantages
 
-1. **High Memory Usage**:
-   * The algorithm keeps track of all generated nodes, which can consume significant memory in large or complex graphs.
-2. **Heuristic Dependency**:
-   * The efficiency of A\* heavily depends on the heuristic function. Poor heuristics can lead to inefficiency or even incorrect results.
-3. **Computational Overhead**:
-   * Calculating $$f(x)$$ for every node in the search fringe can be computationally expensive, especially in dense graphs.
-4. **Performance in Complex Graphs**:
-   * A\* may struggle with performance in graphs with many branches or misleading heuristics.
+1. **High Memory Usage**:\
+   The algorithm keeps track of all generated nodes, which can consume significant memory in large or complex graphs.
+2. **Heuristic Dependency**:\
+   The efficiency of A\* heavily depends on the heuristic function. Poor heuristics can lead to inefficiency or even incorrect results.
+3. **Computational Overhead**:\
+   Calculating $$f(x)$$ for every node in the search fringe can be computationally expensive, especially in dense graphs.
+4. **Performance in Complex Graphs**:\
+   A\* may struggle with performance in graphs with many branches or misleading heuristics.
 
 ### **Example**
 
@@ -67,14 +67,14 @@ The Cost: 7&#x20;
 
 #### Space Complexity
 
-* A\* keeps all generated nodes in memory, making its space complexity $$O(b^d)$$ in the best case and exponential in the worst case.
+A\* keeps all generated nodes in memory, making its space complexity $$O(b^d)$$ in the best case and exponential in the worst case.
 
 #### Completeness
 
-* A\* is complete if the search space is finite and the step costs are non-negative. This ensures that the algorithm will always find a solution if one exists.
+A\* is complete if the search space is finite and the step costs are non-negative. This ensures that the algorithm will always find a solution if one exists.
 
 #### Optimality
 
-* A\* is optimal if the heuristic $$h(x)$$ is admissible (i.e.,  $$0 \leq h(x) \leq h^*(x)$$) and consistent (i.e., satisfies the triangle inequality: $$h(x) \leq c(x, y) + h(y)$$ ).
+A\* is optimal if the heuristic $$h(x)$$ is admissible (i.e.,  $$0 \leq h(x) \leq h^*(x)$$) and consistent (i.e., satisfies the triangle inequality: $$h(x) \leq c(x, y) + h(y)$$ ).
 
 A\* Tree Search remains a cornerstone of AI algorithms due to its ability to effectively combine precision and adaptability.&#x20;
