@@ -77,11 +77,11 @@ BFS is optimal if the path cost is a non-decreasing function of the depth of the
 
 ### Breadth-First Search with PHP
 
-In PHP  it can be written as a class Graph with implementation of a set of graph operations.
+In PHP  it can be written as a class `UninformedSearchGraph` with implementation of a set of graph operations.
 
 <details>
 
-<summary>Example of Class Graph</summary>
+<summary>Example of Class UninformedSearchGraph</summary>
 
 ```php
 class UninformedSearchGraph {
@@ -602,7 +602,7 @@ class UninformedSearchGraph {
 
 ```php
 // Create the graph and add vertices with their levels
-$graph = new Graph();
+$graph = new UninformedSearchGraph();
 
 // Add vertices
 $graph->addVertex('S', 0);  // Level 0
