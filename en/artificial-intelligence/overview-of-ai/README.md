@@ -4,11 +4,7 @@
 
 Before diving into AI, it’s essential to have a foundation in basic computing principles. Familiarity with programming languages, data structures, and algorithms is helpful. Additionally, knowledge of mathematics, particularly linear algebra, probability, and statistics, underpins AI's functionality. Understanding machine learning concepts and data processing workflows further prepares one for exploring AI applications.
 
-<div align="left">
-
-<figure><img src="https://files.oaiusercontent.com/file-PTtytPYXUTfqHTadkUqJVbN3?se=2024-11-16T12%3A33%3A57Z&#x26;sp=r&#x26;sv=2024-08-04&#x26;sr=b&#x26;rscc=max-age%3D604800%2C%20immutable%2C%20private&#x26;rscd=attachment%3B%20filename%3D943c2f1c-7580-4ae4-a256-6e125637b711.webp&#x26;sig=5DtFRPzapO9Ga9Zz7qWJisQWmEU2Z9GtNXsC0Ma8N%2Bs%3D" alt="" width="563"><figcaption><p>Overview of AI</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (157).png" alt="" width="563"><figcaption><p>Overview of AI</p></figcaption></figure></div>
 
 ### What is Artificial Intelligence?
 
