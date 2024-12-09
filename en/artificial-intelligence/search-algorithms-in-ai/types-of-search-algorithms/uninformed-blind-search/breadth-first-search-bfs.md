@@ -84,15 +84,16 @@ In PHP  it can be written as a class Graph with implementation of a set of graph
 <summary>Example of Class Graph</summary>
 
 ```php
-declare(strict_types=1);
-
-class Graph {
+class UninformedSearchGraph {
     private array $adjacencyList;
     private array $levels;
+    // Store edge weights
+    private array $weights;
 
     public function __construct() {
         $this->adjacencyList = [];
         $this->levels = [];
+        $this->weights = [];
     }
 
     public function addVertex(string $vertex, int $level = -1): void {
@@ -102,18 +103,23 @@ class Graph {
         }
     }
 
-    public function addEdge(string $vertex1, string $vertex2): void {
+    public function addEdge(string $vertex1, string $vertex2, float $weight = 1.0): void {
         if (!isset($this->adjacencyList[$vertex1]) || !isset($this->adjacencyList[$vertex2])) {
-            throw new InvalidArgumentException("Both vertices must exist in the graph");
+            throw new InvalidArgumentException("Both vertices must exist in the graph.");
         }
 
+        $this->adjacencyList[$vertex2][] = $vertex1;
+        // For undirected graph
         $this->adjacencyList[$vertex1][] = $vertex2;
-        $this->adjacencyList[$vertex2][] = $vertex1; // For undirected graph
+
+        // Store weights for both directions
+        $this->weights["$vertex1->$vertex2"] = $weight;
+        $this->weights["$vertex2->$vertex1"] = $weight;
     }
 
     public function bfs(string $startVertex): array {
         if (!isset($this->adjacencyList[$startVertex])) {
-            throw new InvalidArgumentException("Start vertex does not exist in the graph");
+            throw new InvalidArgumentException("Start vertex does not exist in the graph.");
         }
 
         $visited = [];
@@ -147,7 +153,7 @@ class Graph {
 
     public function dfs(string $startVertex, string $target = null): array {
         if (!isset($this->adjacencyList[$startVertex])) {
-            throw new InvalidArgumentException("Start vertex does not exist in the graph");
+            throw new InvalidArgumentException("Start vertex does not exist in the graph.");
         }
 
         $visited = [];
@@ -188,7 +194,7 @@ class Graph {
 
     public function dls(string $startVertex, int $maxDepth, string $target = null): array {
         if (!isset($this->adjacencyList[$startVertex])) {
-            throw new InvalidArgumentException("Start vertex does not exist in the graph");
+            throw new InvalidArgumentException("Start vertex does not exist in the graph.");
         }
 
         $visited = [];
@@ -245,7 +251,7 @@ class Graph {
 
     public function iddfs(string $startVertex, string $target = null, int $maxIterations = 100): array {
         if (!isset($this->adjacencyList[$startVertex])) {
-            throw new InvalidArgumentException("Start vertex does not exist in the graph");
+            throw new InvalidArgumentException("Start vertex does not exist in the graph.");
         }
 
         $allPaths = [];
@@ -280,6 +286,266 @@ class Graph {
         ];
     }
 
+    public function ucs(string $startVertex, string $targetVertex = null): array {
+        if (!isset($this->adjacencyList[$startVertex])) {
+            throw new InvalidArgumentException("Start vertex does not exist in the graph");
+        }
+
+        $pq = new SplPriorityQueue();
+        $pq->setExtractFlags(SplPriorityQueue::EXTR_BOTH);
+
+        $costs = [$startVertex => 0];
+        $visited = [];
+        $previous = [$startVertex => null];  // Track the previous node
+        $path = [];
+        $explored = [];  // Track all explored nodes
+
+        $pq->insert($startVertex, 0);
+
+        while (!$pq->isEmpty()) {
+            $current = $pq->extract();
+            $currentVertex = $current['data'];
+            $currentCost = -$current['priority'];
+
+            if (isset($visited[$currentVertex])) {
+                continue;
+            }
+
+            $visited[$currentVertex] = true;
+            $explored[] = [
+                'vertex' => $currentVertex,
+                'level' => $this->levels[$currentVertex],
+                'cost' => $currentCost
+            ];
+
+            if ($currentVertex === $targetVertex) {
+                break;
+            }
+
+            foreach ($this->adjacencyList[$currentVertex] as $neighbor) {
+                $weight = $this->weights["$currentVertex->$neighbor"] ?? 1.0;
+                $newCost = $costs[$currentVertex] + $weight;
+
+                if (!isset($costs[$neighbor]) || $newCost < $costs[$neighbor]) {
+                    $costs[$neighbor] = $newCost;
+                    $previous[$neighbor] = $currentVertex;  // Store the previous node
+                    $pq->insert($neighbor, -$newCost);
+                }
+            }
+        }
+
+        // Reconstruct the optimal path
+        $optimalPath = [];
+        $current = $targetVertex;
+        while ($current !== null) {
+            $optimalPath[] = [
+                'vertex' => $current,
+                'level' => $this->levels[$current],
+                'cost' => $costs[$current]
+            ];
+            $current = $previous[$current];
+        }
+
+        return [
+            'success' => isset($visited[$targetVertex]),
+            'explored' => $explored,  // All nodes explored during search
+            'optimalPath' => array_reverse($optimalPath),  // The actual optimal path
+            'cost' => $costs[$targetVertex] ?? INF
+        ];
+    }
+
+    public function bds(string $startVertex, string $targetVertex): array {
+        if (!isset($this->adjacencyList[$startVertex]) || !isset($this->adjacencyList[$targetVertex])) {
+            throw new InvalidArgumentException("Both start and target vertices must exist in the graph.");
+        }
+
+        // Initialize forward and backward search queues
+        $forwardQueue = new SplQueue();
+        $backwardQueue = new SplQueue();
+
+        // Initialize visited sets and parent tracking for both directions
+        $forwardVisited = [$startVertex => true];
+        $backwardVisited = [$targetVertex => true];
+        $forwardParent = [$startVertex => null];
+        $backwardParent = [$targetVertex => null];
+
+        // Initialize path tracking
+        $forwardPath = [];
+        $backwardPath = [];
+        $intersectionVertex = null;
+
+        // Add start and target vertices to their respective queues
+        $forwardQueue->enqueue($startVertex);
+        $backwardQueue->enqueue($targetVertex);
+
+        while (!$forwardQueue->isEmpty() && !$backwardQueue->isEmpty()) {
+            // Process forward search
+            $intersectionVertex = $this->processBdsQueue(
+                $forwardQueue,
+                $forwardVisited,
+                $backwardVisited,
+                $forwardParent,
+                $forwardPath,
+                'forward'
+            );
+
+            if ($intersectionVertex !== null) {
+                return $this->constructBdsPath(
+                    $intersectionVertex,
+                    $forwardParent,
+                    $backwardParent,
+                    $forwardPath,
+                    $backwardPath
+                );
+            }
+
+            // Process backward search
+            $intersectionVertex = $this->processBdsQueue(
+                $backwardQueue,
+                $backwardVisited,
+                $forwardVisited,
+                $backwardParent,
+                $backwardPath,
+                'backward'
+            );
+
+            if ($intersectionVertex !== null) {
+                return $this->constructBdsPath(
+                    $intersectionVertex,
+                    $forwardParent,
+                    $backwardParent,
+                    $forwardPath,
+                    $backwardPath
+                );
+            }
+        }
+
+        // No path found
+        return [
+            'success' => false,
+            'path' => [],
+            'forwardExplored' => $forwardPath,
+            'backwardExplored' => $backwardPath
+        ];
+    }
+
+    private function processBdsQueue(
+        SplQueue $queue,
+        array &$currentVisited,
+        array $oppositeVisited,
+        array &$parentMap,
+        array &$pathTracking,
+        string $direction
+    ): ?string {
+        if ($queue->isEmpty()) {
+            return null;
+        }
+
+        $currentVertex = $queue->dequeue();
+
+        // Add to path tracking
+        $pathTracking[] = [
+            'vertex' => $currentVertex,
+            'level' => $this->levels[$currentVertex],
+            'direction' => $direction
+        ];
+
+        // Check neighbors
+        foreach ($this->adjacencyList[$currentVertex] as $neighbor) {
+            // If we've found intersection with opposite search
+            if (isset($oppositeVisited[$neighbor])) {
+                return $neighbor;
+            }
+
+            // If not visited in current direction, add to queue
+            if (!isset($currentVisited[$neighbor])) {
+                $currentVisited[$neighbor] = true;
+                $parentMap[$neighbor] = $currentVertex;
+                $queue->enqueue($neighbor);
+            }
+        }
+
+        return null;
+    }
+
+    private function constructBdsPath(
+        string $intersectionVertex,
+        array $forwardParent,
+        array $backwardParent,
+        array $forwardExplored,
+        array $backwardExplored
+    ): array {
+        $path = [];
+
+        // Construct path from start to intersection
+        $current = $intersectionVertex;
+        $forwardPath = [];
+        while ($current !== null) {
+            $forwardPath[] = [
+                'vertex' => $current,
+                'level' => $this->levels[$current]
+            ];
+            $current = $forwardParent[$current] ?? null;
+        }
+        $forwardPath = array_reverse($forwardPath);
+
+        // Construct path from intersection to target
+        $current = $backwardParent[$intersectionVertex] ?? null;
+        $backwardPath = [];
+        while ($current !== null) {
+            $backwardPath[] = [
+                'vertex' => $current,
+                'level' => $this->levels[$current]
+            ];
+            $current = $backwardParent[$current] ?? null;
+        }
+
+        // Combine paths
+        $path = array_merge($forwardPath, $backwardPath);
+
+        return [
+            'success' => true,
+            'path' => $path,
+            'forwardExplored' => $forwardExplored,
+            'backwardExplored' => $backwardExplored,
+            'intersectionVertex' => $intersectionVertex
+        ];
+    }
+
+    // Add this helper method to print BDS results
+    public function printBdsPath(array $result): void {
+        if (!$result['success']) {
+            echo "No path found between vertices!\n";
+            return;
+        }
+
+        echo "\nNodes explored from start (forward direction):\n";
+        foreach ($result['forwardExplored'] as $node) {
+            echo sprintf("Node: %s (Level %d, Direction: %s)\n",
+                $node['vertex'],
+                $node['level'],
+                $node['direction']
+            );
+        }
+
+        echo "\nNodes explored from target (backward direction):\n";
+        foreach ($result['backwardExplored'] as $node) {
+            echo sprintf("Node: %s (Level %d, Direction: %s)\n",
+                $node['vertex'],
+                $node['level'],
+                $node['direction']
+            );
+        }
+
+        echo "\nFinal path found (intersection at {$result['intersectionVertex']}):\n";
+        foreach ($result['path'] as $node) {
+            echo sprintf("Node: %s (Level %d)\n",
+                $node['vertex'],
+                $node['level']
+            );
+        }
+    }
+
     public function getAdjacencyList(): array {
         return $this->adjacencyList;
     }
@@ -288,6 +554,32 @@ class Graph {
         foreach ($path as $node) {
             echo sprintf("Node: %s (Level %d)\n", $node['vertex'], $node['level']);
         }
+    }
+
+    public function printUcsPath(array $result): void {
+        if (!$result['success']) {
+            echo "Target not found!\n";
+            return;
+        }
+
+        echo "\nNodes explored during UCS (in order of exploration):\n";
+        foreach ($result['explored'] as $node) {
+            echo sprintf("Node: %s (Level %d, Cost %.2f)\n",
+                $node['vertex'],
+                $node['level'],
+                $node['cost']
+            );
+        }
+
+        echo "\nOptimal path found:\n";
+        foreach ($result['optimalPath'] as $node) {
+            echo sprintf("Node: %s (Level %d, Cost %.2f)\n",
+                $node['vertex'],
+                $node['level'],
+                $node['cost']
+            );
+        }
+        echo sprintf("Total Cost: %.2f\n", $result['cost']);
     }
 
     // Helper method to print the adjacency list (for debugging)
@@ -301,6 +593,7 @@ class Graph {
         }
     }
 }
+
 ```
 
 </details>
