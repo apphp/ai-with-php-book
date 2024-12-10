@@ -22,6 +22,7 @@ When learning about Artificial Intelligence and Machine Learning, you'll come ac
 * **Supervised Learning (SL)**: A type of ML where the model is trained on labeled data (both inputs and outputs are known). The goal is to predict labels for new inputs.
 * **Testing Data**: A separate set of data used to evaluate how well the trained model performs on unseen data. This ensures that the model can generalize and produce quality results beyond the training data.
 * **Training Data**: The dataset used to train an ML model. It contains inputs (features) and the correct outputs (labels), which help the model to learn the features and patterns from the data.
+* **Turing-Complete Systems:** Computing systems or models that have sufficient power to perform any computation that can be expressed algorithmically, given sufficient time and resources.
 * **Underfitting**: When a model is too simple and doesn't capture the patterns in the data, leading to poor performance on both the training and testing data.
 * **Unsupervised Learning (UL)**: A type of ML where the model is trained on data without labeled outputs. The model tries to find patterns or groupings in the data, such as clustering similar items together.
 

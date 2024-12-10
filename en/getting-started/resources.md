@@ -22,6 +22,8 @@ This section lists helpful tools, libraries, and references for further explorat
 
 * Artificial Intelligence: A Modern Approach, by by Stuart Russell and Peter Norvig\
   [https://aima.cs.berkeley.edu](https://aima.cs.berkeley.edu/)
+* Electric Sheep Hunt: The Big Book of Artificial Intelligence (2 volumes)\
+  [https://markoff.science](https://markoff.science/)
 
 ***
 
