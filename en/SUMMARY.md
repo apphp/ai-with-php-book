@@ -74,6 +74,8 @@
     * [Comparison of Search Algorithms](artificial-intelligence/search-algorithms-in-ai/types-of-search-algorithms/comparison-of-search-algorithms.md)
   * [Hill Climbing Algorithm](artificial-intelligence/search-algorithms-in-ai/hill-climbing-algorithm.md)
   * [Means-Ends Analysis](artificial-intelligence/search-algorithms-in-ai/means-ends-analysis.md)
+  * [Adversarial Search](artificial-intelligence/search-algorithms-in-ai/adversarial-search.md)
+* [Decision Making in AI](artificial-intelligence/decision-making-in-ai.md)
 
 ## Machine Learning
 
