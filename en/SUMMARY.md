@@ -76,6 +76,7 @@
   * [Means-Ends Analysis](artificial-intelligence/search-algorithms-in-ai/means-ends-analysis.md)
   * [Adversarial Search](artificial-intelligence/search-algorithms-in-ai/adversarial-search.md)
 * [Decision Making in AI](artificial-intelligence/decision-making-in-ai.md)
+* [Computational Theory in AI](artificial-intelligence/computational-theory-in-ai.md)
 
 ## Machine Learning
 
