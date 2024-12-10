@@ -22,6 +22,8 @@
 
 * Искусственный интеллект: современный подход, Стюарт Рассел и Питер Норвиг\
   [https://aima.cs.berkeley.edu](https://aima.cs.berkeley.edu/)
+* Охота на электроовец: Большая книга искусственного интеллекта (2 тома)\
+  [https://markoff.science](https://markoff.science/)
 
 ***
 
