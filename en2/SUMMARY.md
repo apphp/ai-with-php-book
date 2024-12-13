@@ -49,3 +49,6 @@
   * [Types of AI Agents](artificial-intelligence/agents-in-ai/types-of-ai-agents.md)
   * [AI Agent Environment](artificial-intelligence/agents-in-ai/ai-agent-environment.md)
   * [AI Agent Architecture](artificial-intelligence/agents-in-ai/ai-agent-architecture.md)
+  * [Application of Agents in AI](artificial-intelligence/agents-in-ai/application-of-agents-in-ai.md)
+  * [Challenges in AI Agent Development](artificial-intelligence/agents-in-ai/challenges-in-ai-agent-development.md)
+  * [Turing Test in AI](artificial-intelligence/agents-in-ai/turing-test-in-ai.md)
