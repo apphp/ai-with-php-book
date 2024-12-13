@@ -1,7 +1,6 @@
 # Table of contents
 
-* [English](README.md)
-
 ## Getting Started
 
-* [Introduction](getting-started/introduction.md)
+* [Introduction](README.md)
+* [Audience](getting-started/audience.md)
