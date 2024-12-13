@@ -87,3 +87,7 @@
     * [Origins and Early Concepts](machine-learning/overview-of-ml/history-of-ml/origins-and-early-concepts.md)
     * [19th Century](machine-learning/overview-of-ml/history-of-ml/19th-century.md)
     * [20th Century](machine-learning/overview-of-ml/history-of-ml/20th-century.md)
+    * [21st Century](machine-learning/overview-of-ml/history-of-ml/21st-century.md)
+    * [Coming Years](machine-learning/overview-of-ml/history-of-ml/coming-years.md)
+  * [Key Principles](machine-learning/overview-of-ml/key-principles.md)
+  * [Problems and Challenges](machine-learning/overview-of-ml/problems-and-challenges.md)

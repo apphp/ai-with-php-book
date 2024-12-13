@@ -42,7 +42,7 @@ In the search tree below, the bidirectional search algorithm is applied. This ap
 
 The algorithm concludes at node **H**, where the two searches intersect.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Completeness**:&#x20;
 
