@@ -106,3 +106,8 @@
       * [Matrix Operations](machine-learning/mathematics-for-ml/linear-algebra/matrices/matrix-operations.md)
       * [Determinant of a Matrix](machine-learning/mathematics-for-ml/linear-algebra/matrices/determinant-of-a-matrix.md)
       * [Cofactor Matrices](machine-learning/mathematics-for-ml/linear-algebra/matrices/cofactor-matrices.md)
+      * [Adjugate Matrices](machine-learning/mathematics-for-ml/linear-algebra/matrices/adjugate-matrices.md)
+      * [Inverse Matrices](machine-learning/mathematics-for-ml/linear-algebra/matrices/inverse-matrices.md)
+      * [Matrices in Machine Learning](machine-learning/mathematics-for-ml/linear-algebra/matrices/matrices-in-machine-learning.md)
+      * [Matrices with PHP](machine-learning/mathematics-for-ml/linear-algebra/matrices/matrices-with-php.md)
+    * [Tensors](machine-learning/mathematics-for-ml/linear-algebra/tensors.md)
