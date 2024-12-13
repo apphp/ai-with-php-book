@@ -62,3 +62,6 @@
       * [Depth-Limited Search (DLS)](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/depth-limited-search-dls.md)
       * [Iterative Deepening Depth-First Search (IDDFS)](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/iterative-deepening-depth-first-search-iddfs.md)
       * [Uniform Cost Search (UCS)](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/uniform-cost-search-ucs.md)
+      * [Bidirectional Search (BDS)](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/bidirectional-search-bds.md)
+    * [Informed (Heuristic) Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/README.md)
+      * [Greedy Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/greedy-search.md)
