@@ -25,3 +25,6 @@
   * [AI in Astronomy](artificial-intelligence/application-of-ai/ai-in-astronomy.md)
   * [AI in Healthcare](artificial-intelligence/application-of-ai/ai-in-healthcare.md)
   * [AI in Gaming](artificial-intelligence/application-of-ai/ai-in-gaming.md)
+  * [AI in Finance](artificial-intelligence/application-of-ai/ai-in-finance.md)
+  * [AI in Data Security](artificial-intelligence/application-of-ai/ai-in-data-security.md)
+  * [AI in Social Media](artificial-intelligence/application-of-ai/ai-in-social-media.md)
