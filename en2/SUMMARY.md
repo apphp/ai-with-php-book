@@ -28,3 +28,6 @@
   * [AI in Finance](artificial-intelligence/application-of-ai/ai-in-finance.md)
   * [AI in Data Security](artificial-intelligence/application-of-ai/ai-in-data-security.md)
   * [AI in Social Media](artificial-intelligence/application-of-ai/ai-in-social-media.md)
+  * [AI in Travel and Transport](artificial-intelligence/application-of-ai/ai-in-travel-and-transport.md)
+  * [AI in Automotive Industry](artificial-intelligence/application-of-ai/ai-in-automotive-industry.md)
+  * [AI in Robotics](artificial-intelligence/application-of-ai/ai-in-robotics.md)
