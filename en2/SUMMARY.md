@@ -91,3 +91,8 @@
     * [Coming Years](machine-learning/overview-of-ml/history-of-ml/coming-years.md)
   * [Key Principles](machine-learning/overview-of-ml/key-principles.md)
   * [Problems and Challenges](machine-learning/overview-of-ml/problems-and-challenges.md)
+  * [Machine Learning Life Cycle](machine-learning/overview-of-ml/machine-learning-life-cycle.md)
+* [Mathematics for ML](machine-learning/mathematics-for-ml/README.md)
+  * [Linear Algebra](machine-learning/mathematics-for-ml/linear-algebra/README.md)
+    * [Scalars](machine-learning/mathematics-for-ml/linear-algebra/scalars/README.md)
+      * [Definition and Operations](machine-learning/mathematics-for-ml/linear-algebra/scalars/definition-and-operations.md)
