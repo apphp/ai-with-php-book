@@ -156,3 +156,7 @@
         * [Ethical Considerations in Data Preparation](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-acquisition/ethical-considerations-in-data-preparation.md)
       * [Data Cleaning](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-cleaning/README.md)
         * [Data Cleaning Types](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-cleaning/data-cleaning-types.md)
+        * [Data Cleaning Examples](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-cleaning/data-cleaning-examples.md)
+        * [Implementation with PHP](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-cleaning/implementation-with-php.md)
+      * [Data Transformation](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-transformation/README.md)
+        * [Data Transformation Types](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-transformation/data-transformation-types.md)
