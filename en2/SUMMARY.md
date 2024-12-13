@@ -40,3 +40,6 @@
   * [AI in Criminal World](artificial-intelligence/application-of-ai/ai-in-criminal-world.md)
   * [AI in Terrorist Activities](artificial-intelligence/application-of-ai/ai-in-terrorist-activities.md)
   * [AI in Military Domain](artificial-intelligence/application-of-ai/ai-in-military-domain.md)
+  * [AI in Adult Entertainment](artificial-intelligence/application-of-ai/ai-in-adult-entertainment.md)
+  * [AI in Transforming Our World](artificial-intelligence/application-of-ai/ai-in-transforming-our-world.md)
+* [Agents in AI](artificial-intelligence/agents-in-ai.md)
