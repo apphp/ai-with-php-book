@@ -52,3 +52,6 @@
   * [Application of Agents in AI](artificial-intelligence/agents-in-ai/application-of-agents-in-ai.md)
   * [Challenges in AI Agent Development](artificial-intelligence/agents-in-ai/challenges-in-ai-agent-development.md)
   * [Turing Test in AI](artificial-intelligence/agents-in-ai/turing-test-in-ai.md)
+  * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
+* [Problem Solving in AI](artificial-intelligence/problem-solving-in-ai/README.md)
+  * [Introduction](artificial-intelligence/problem-solving-in-ai/introduction.md)
