@@ -58,15 +58,8 @@ AI with PHP is released under the CC BY-NC (Attribution-NonCommercial) License. 
 
 AI with PHP was created by **[Samuel Akopyan](https://github.com/apphp)**.
 
-## **Changelog**
-
-- **0.2.0:** 
-- **0.1.0:** Initial release
-
 ## **Contact**
 
 If you have any questions or comments about AI with PHP, please contact Samuel Akopyan **<leumas.a@gmail.com>**.
-
-## **Conclusion**
 
 Let's Make the AI ​​World More PHP Friendly
