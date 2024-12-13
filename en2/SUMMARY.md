@@ -55,4 +55,7 @@
   * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
 * [Problem Solving in AI](artificial-intelligence/problem-solving-in-ai/README.md)
   * [Introduction](artificial-intelligence/problem-solving-in-ai/introduction.md)
-  * [Types of Search Algorithms](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms.md)
+  * [Types of Search Algorithms](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/README.md)
+    * [Uninformed (Blind) Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/README.md)
+      * [Breadth-First Search (BFS)](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/breadth-first-search-bfs.md)
+      * [Depth-First Search (DFS)](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/depth-first-search-dfs.md)
