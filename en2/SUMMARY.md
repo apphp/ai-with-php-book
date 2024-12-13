@@ -31,3 +31,6 @@
   * [AI in Travel and Transport](artificial-intelligence/application-of-ai/ai-in-travel-and-transport.md)
   * [AI in Automotive Industry](artificial-intelligence/application-of-ai/ai-in-automotive-industry.md)
   * [AI in Robotics](artificial-intelligence/application-of-ai/ai-in-robotics.md)
+  * [AI in Entertainment](artificial-intelligence/application-of-ai/ai-in-entertainment.md)
+  * [AI in Agriculture](artificial-intelligence/application-of-ai/ai-in-agriculture.md)
+  * [AI in E-commerce](artificial-intelligence/application-of-ai/ai-in-e-commerce.md)
