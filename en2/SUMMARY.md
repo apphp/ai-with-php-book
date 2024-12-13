@@ -76,3 +76,10 @@
     * [Hill Climbing Algorithm](artificial-intelligence/problem-solving-in-ai/local-search/hill-climbing-algorithm.md)
   * [Adversarial Search](artificial-intelligence/problem-solving-in-ai/adversarial-search.md)
   * [Means-Ends Analysis](artificial-intelligence/problem-solving-in-ai/means-ends-analysis.md)
+* [Decision Making in AI](artificial-intelligence/decision-making-in-ai.md)
+* [Computational Theory in AI](artificial-intelligence/computational-theory-in-ai.md)
+
+## Machine Learning
+
+* [Introduction](machine-learning/introduction.md)
+* [Overview of ML](machine-learning/overview-of-ml.md)
