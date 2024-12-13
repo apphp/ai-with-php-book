@@ -37,3 +37,6 @@
   * [AI in Education](artificial-intelligence/application-of-ai/ai-in-education.md)
   * [AI in Software Development](artificial-intelligence/application-of-ai/ai-in-software-development.md)
   * [AI in Criminal Justice](artificial-intelligence/application-of-ai/ai-in-criminal-justice.md)
+  * [AI in Criminal World](artificial-intelligence/application-of-ai/ai-in-criminal-world.md)
+  * [AI in Terrorist Activities](artificial-intelligence/application-of-ai/ai-in-terrorist-activities.md)
+  * [AI in Military Domain](artificial-intelligence/application-of-ai/ai-in-military-domain.md)
