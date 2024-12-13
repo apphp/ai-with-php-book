@@ -17,3 +17,6 @@
   * [Structure of AI](artificial-intelligence/overview-of-ai/structure-of-ai.md)
   * [Types of AI](artificial-intelligence/overview-of-ai/types-of-ai/README.md)
     * [Reactive AI](artificial-intelligence/overview-of-ai/types-of-ai/reactive-ai.md)
+    * [Limited Memory AI](artificial-intelligence/overview-of-ai/types-of-ai/limited-memory-ai.md)
+    * [Theory of Mind AI](artificial-intelligence/overview-of-ai/types-of-ai/theory-of-mind-ai.md)
+    * [Self-Aware AI](artificial-intelligence/overview-of-ai/types-of-ai/self-aware-ai.md)
