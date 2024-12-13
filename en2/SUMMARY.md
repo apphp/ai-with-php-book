@@ -101,3 +101,8 @@
       * [Definition and Operations](machine-learning/mathematics-for-ml/linear-algebra/vectors/definition-and-operations.md)
       * [Vectors in Machine Learning](machine-learning/mathematics-for-ml/linear-algebra/vectors/vectors-in-machine-learning.md)
       * [Vectors with PHP](machine-learning/mathematics-for-ml/linear-algebra/vectors/vectors-with-php.md)
+    * [Matrices](machine-learning/mathematics-for-ml/linear-algebra/matrices/README.md)
+      * [Definition and Types](machine-learning/mathematics-for-ml/linear-algebra/matrices/definition-and-types.md)
+      * [Matrix Operations](machine-learning/mathematics-for-ml/linear-algebra/matrices/matrix-operations.md)
+      * [Determinant of a Matrix](machine-learning/mathematics-for-ml/linear-algebra/matrices/determinant-of-a-matrix.md)
+      * [Cofactor Matrices](machine-learning/mathematics-for-ml/linear-algebra/matrices/cofactor-matrices.md)
