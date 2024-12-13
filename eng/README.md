@@ -4,7 +4,7 @@ description: Start your journey into Artificial Intelligence and Machine Learnin
 
 # Introduction
 
-<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Introduction</p></figcaption></figure>
 
 This book will try to explain the basics of Artificial Intelligence and Machine Learning in a way that’s easy to understand. All the formulas, ideas, and code examples will be shown using PHP, so you can learn and apply the concepts step by step.
 
