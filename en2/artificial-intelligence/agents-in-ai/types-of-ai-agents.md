@@ -8,7 +8,7 @@ In artificial intelligence, an _agent_ is any entity that perceives its environm
 
 Simple reflex agents are the most basic form of AI agents. They rely entirely on current environmental conditions to decide their actions, without considering any history or future goals. These agents function with a set of _condition-action rules_, where a specific percept triggers a predetermined response. This type of agent is effective for environments that are fully observable and predictable, where specific actions consistently lead to successful outcomes.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption><p>Simple Reflex Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption><p>Simple Reflex Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
@@ -33,7 +33,7 @@ _Example Problem:_ A simple reflex agent in a robotic vacuum may get stuck in th
 
 Model-based reflex agents address the limitations of simple reflex agents by incorporating an internal _model of the world_. This model allows the agent to keep track of past states and understand how actions affect the environment over time. By using this history, the agent can handle partially observable environments, where current percepts alone do not provide a full understanding of the world.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption><p>Model-Based Reflex Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption><p>Model-Based Reflex Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
