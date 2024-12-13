@@ -12,3 +12,5 @@
 ## Artificial Intelligence
 
 * [Introduction](artificial-intelligence/introduction.md)
+* [Overview of AI](artificial-intelligence/overview-of-ai/README.md)
+  * [History of AI](artificial-intelligence/overview-of-ai/history-of-ai.md)

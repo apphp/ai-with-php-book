@@ -7,7 +7,7 @@ description: >-
 
 # Introduction
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Introduction</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Introduction</p></figcaption></figure>
 
 The term AI is composed of two words: "artificial," meaning man-made, and "intelligence," referring to thinking power. Therefore, AI can be understood as "man-made thinking power."
 
