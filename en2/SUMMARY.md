@@ -127,3 +127,8 @@
     * [Norms and Distances](machine-learning/mathematics-for-ml/linear-algebra/norms-and-distances.md)
     * [Linear Algebra in Optimization](machine-learning/mathematics-for-ml/linear-algebra/linear-algebra-in-optimization.md)
   * [Calculus](machine-learning/mathematics-for-ml/calculus.md)
+  * [Probability and Statistics](machine-learning/mathematics-for-ml/probability-and-statistics.md)
+  * [Information Theory](machine-learning/mathematics-for-ml/information-theory.md)
+  * [Advanced Topics](machine-learning/mathematics-for-ml/advanced-topics.md)
+* [Data Fundamentals](machine-learning/data-fundamentals/README.md)
+  * [General Data Processing](machine-learning/data-fundamentals/general-data-processing.md)

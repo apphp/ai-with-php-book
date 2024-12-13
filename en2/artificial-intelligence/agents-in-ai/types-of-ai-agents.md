@@ -2,13 +2,13 @@
 
 In artificial intelligence, an _agent_ is any entity that perceives its environment and acts on it to achieve certain goals. Based on their level of intelligence and adaptation capabilities, agents are classified into distinct types. Below, we explore these types in detail, outlining their unique characteristics, mechanisms, and practical applications.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Types of AI Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption><p>Types of AI Agents</p></figcaption></figure></div>
 
 ### 1. Simple Reflex Agents
 
 Simple reflex agents are the most basic form of AI agents. They rely entirely on current environmental conditions to decide their actions, without considering any history or future goals. These agents function with a set of _condition-action rules_, where a specific percept triggers a predetermined response. This type of agent is effective for environments that are fully observable and predictable, where specific actions consistently lead to successful outcomes.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Simple Reflex Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Simple Reflex Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
@@ -33,7 +33,7 @@ _Example Problem:_ A simple reflex agent in a robotic vacuum may get stuck in th
 
 Model-based reflex agents address the limitations of simple reflex agents by incorporating an internal _model of the world_. This model allows the agent to keep track of past states and understand how actions affect the environment over time. By using this history, the agent can handle partially observable environments, where current percepts alone do not provide a full understanding of the world.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption><p>Model-Based Reflex Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption><p>Model-Based Reflex Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
@@ -58,7 +58,7 @@ _Example Problem:_ A model-based agent in a self-driving car may struggle if its
 
 Goal-based agents advance further by incorporating goals to drive their behavior. Instead of merely reacting to current conditions, these agents assess actions based on their potential to achieve specific objectives. Goal-based agents require more computation, as they must evaluate different options and predict which actions will bring them closer to their goals.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption><p>Goal-Based Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption><p>Goal-Based Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
@@ -83,7 +83,7 @@ _Example Problem:_ A goal-based agent in a delivery robot might encounter issues
 
 Utility-based agents consider not just the achievement of goals but also the _quality_ of those achievements. They use _utility functions_ to assign values to different actions or outcomes, thereby selecting the actions that maximize utility or satisfaction. Utility-based agents are particularly useful when there are multiple potential paths to reach a goal, but some paths are better than others.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Characteristics**:
 

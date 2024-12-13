@@ -4,7 +4,7 @@
 
 Artificial Intelligence is changing the landscape of travel and transportation, making the experience smoother, safer, and more personalized. From planning your trip to navigating cities or even flying, AI plays a crucial role in revolutionizing how we move. Let’s explore some key areas where AI is making a significant impact, with real-life examples illustrating each application.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption><p>AI in Travel and Transport</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Travel and Transport</p></figcaption></figure></div>
 
 ### Smart Travel Planning
 

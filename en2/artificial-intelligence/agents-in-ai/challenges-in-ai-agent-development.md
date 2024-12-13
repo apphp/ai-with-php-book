@@ -2,7 +2,7 @@
 
 In the evolving landscape of artificial intelligence, AI agent development faces unique and complex challenges. Key areas of concern include scalability, coordination, learning and adaptation, and ethics and trust. Addressing these challenges is essential for advancing the effectiveness, efficiency, and societal acceptance of AI agents.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Challenges in AI Agent Development</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Challenges in AI Agent Development</p></figcaption></figure></div>
 
 ### 1. Scalability: Handling Complex and Large Environments
 
