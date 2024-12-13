@@ -2,6 +2,6 @@
 
 * [English](README.md)
 
-## Group 1
+## Getting Started
 
-* [Page 1](group-1/page-1.md)
+* [Introduction](getting-started/introduction.md)
