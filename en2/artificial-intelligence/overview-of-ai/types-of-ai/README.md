@@ -4,7 +4,7 @@
 
 Artificial Intelligence can be grouped based on two main factors: what it can do and how it works.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Types of Artificial Intelligence</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Types of Artificial Intelligence</p></figcaption></figure></div>
 
 ### Type 1: Based on Capabilities
 

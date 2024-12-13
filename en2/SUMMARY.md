@@ -42,4 +42,7 @@
   * [AI in Military Domain](artificial-intelligence/application-of-ai/ai-in-military-domain.md)
   * [AI in Adult Entertainment](artificial-intelligence/application-of-ai/ai-in-adult-entertainment.md)
   * [AI in Transforming Our World](artificial-intelligence/application-of-ai/ai-in-transforming-our-world.md)
-* [Agents in AI](artificial-intelligence/agents-in-ai.md)
+* [Agents in AI](artificial-intelligence/agents-in-ai/README.md)
+  * [Introduction to AI Agents](artificial-intelligence/agents-in-ai/introduction-to-ai-agents.md)
+  * [Structure of AI Agent](artificial-intelligence/agents-in-ai/structure-of-ai-agent.md)
+  * [Components of AI Agents](artificial-intelligence/agents-in-ai/components-of-ai-agents.md)
