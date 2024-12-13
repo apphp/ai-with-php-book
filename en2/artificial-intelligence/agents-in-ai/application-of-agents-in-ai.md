@@ -2,7 +2,7 @@
 
 AI agents are transforming a wide range of industries by automating tasks, optimizing complex processes, and enhancing user experiences. From self-driving cars to personalized shopping assistants, here are some of the most impactful applications of AI agents today.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>Application of Agents in AI</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption><p>Application of Agents in AI</p></figcaption></figure></div>
 
 ### **1. Autonomous Systems**
 

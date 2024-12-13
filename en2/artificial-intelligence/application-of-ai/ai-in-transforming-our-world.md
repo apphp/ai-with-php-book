@@ -4,7 +4,7 @@
 
 Artificial Intelligence has emerged as one of the most transformative technologies of the 21st century, influencing nearly every aspect of our lives. From revolutionizing industries to reshaping how we interact with the world, AI’s impact is profound and far-reaching. Its ability to process vast amounts of data, automate complex tasks, and learn from patterns has opened up new opportunities in areas previously thought unreachable by technology.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Transforming Our World</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Transforming Our World</p></figcaption></figure></div>
 
 In industry after industry, AI is proving to be a driving force for innovation. It optimizes processes, enhances decision-making, and unlocks efficiencies that were unimaginable even a decade ago. Whether it’s improving healthcare diagnostics, personalizing education, making transportation safer and more efficient, or enabling sophisticated financial models, AI is at the heart of progress. It accelerates research in astronomy, enhances creativity in entertainment, and even plays a critical role in securing data and protecting against cyber threats.
 
