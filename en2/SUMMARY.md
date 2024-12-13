@@ -46,3 +46,6 @@
   * [Introduction to AI Agents](artificial-intelligence/agents-in-ai/introduction-to-ai-agents.md)
   * [Structure of AI Agent](artificial-intelligence/agents-in-ai/structure-of-ai-agent.md)
   * [Components of AI Agents](artificial-intelligence/agents-in-ai/components-of-ai-agents.md)
+  * [Types of AI Agents](artificial-intelligence/agents-in-ai/types-of-ai-agents.md)
+  * [AI Agent Environment](artificial-intelligence/agents-in-ai/ai-agent-environment.md)
+  * [AI Agent Architecture](artificial-intelligence/agents-in-ai/ai-agent-architecture.md)
