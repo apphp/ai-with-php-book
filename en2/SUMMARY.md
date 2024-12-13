@@ -34,3 +34,6 @@
   * [AI in Entertainment](artificial-intelligence/application-of-ai/ai-in-entertainment.md)
   * [AI in Agriculture](artificial-intelligence/application-of-ai/ai-in-agriculture.md)
   * [AI in E-commerce](artificial-intelligence/application-of-ai/ai-in-e-commerce.md)
+  * [AI in Education](artificial-intelligence/application-of-ai/ai-in-education.md)
+  * [AI in Software Development](artificial-intelligence/application-of-ai/ai-in-software-development.md)
+  * [AI in Criminal Justice](artificial-intelligence/application-of-ai/ai-in-criminal-justice.md)
