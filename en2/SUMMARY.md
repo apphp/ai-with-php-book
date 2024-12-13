@@ -96,3 +96,8 @@
   * [Linear Algebra](machine-learning/mathematics-for-ml/linear-algebra/README.md)
     * [Scalars](machine-learning/mathematics-for-ml/linear-algebra/scalars/README.md)
       * [Definition and Operations](machine-learning/mathematics-for-ml/linear-algebra/scalars/definition-and-operations.md)
+      * [Scalars with PHP](machine-learning/mathematics-for-ml/linear-algebra/scalars/scalars-with-php.md)
+    * [Vectors](machine-learning/mathematics-for-ml/linear-algebra/vectors/README.md)
+      * [Definition and Operations](machine-learning/mathematics-for-ml/linear-algebra/vectors/definition-and-operations.md)
+      * [Vectors in Machine Learning](machine-learning/mathematics-for-ml/linear-algebra/vectors/vectors-in-machine-learning.md)
+      * [Vectors with PHP](machine-learning/mathematics-for-ml/linear-algebra/vectors/vectors-with-php.md)
