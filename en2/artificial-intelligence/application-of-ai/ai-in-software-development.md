@@ -4,7 +4,7 @@
 
 Artificial Intelligence is playing an increasingly important role in software development, transforming how developers design, code, and maintain software systems. By automating repetitive tasks, improving code quality, and even generating code, AI is enhancing productivity and innovation across the software development lifecycle. Let’s explore the key ways AI is influencing software development.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Software Development</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Software Development</p></figcaption></figure></div>
 
 ### Code Generation and Autocompletion
 
