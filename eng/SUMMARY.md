@@ -8,3 +8,7 @@
 * [Glossary](getting-started/glossary.md)
 * [Contributors](getting-started/contributors.md)
 * [Resources](getting-started/resources.md)
+
+## Artificial Intelligence
+
+* [Introduction](artificial-intelligence/introduction.md)
