@@ -55,3 +55,4 @@
   * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
 * [Problem Solving in AI](artificial-intelligence/problem-solving-in-ai/README.md)
   * [Introduction](artificial-intelligence/problem-solving-in-ai/introduction.md)
+  * [Types of Search Algorithms](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms.md)
