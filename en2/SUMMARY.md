@@ -82,4 +82,8 @@
 ## Machine Learning
 
 * [Introduction](machine-learning/introduction.md)
-* [Overview of ML](machine-learning/overview-of-ml.md)
+* [Overview of ML](machine-learning/overview-of-ml/README.md)
+  * [History of ML](machine-learning/overview-of-ml/history-of-ml/README.md)
+    * [Origins and Early Concepts](machine-learning/overview-of-ml/history-of-ml/origins-and-early-concepts.md)
+    * [19th Century](machine-learning/overview-of-ml/history-of-ml/19th-century.md)
+    * [20th Century](machine-learning/overview-of-ml/history-of-ml/20th-century.md)
