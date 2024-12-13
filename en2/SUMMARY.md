@@ -65,3 +65,7 @@
       * [Bidirectional Search (BDS)](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/bidirectional-search-bds.md)
     * [Informed (Heuristic) Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/README.md)
       * [Greedy Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/greedy-search.md)
+      * [A\* Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search/README.md)
+        * [A\* Tree Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search/a-tree-search.md)
+        * [A\* Graph Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search/a-graph-search.md)
+        * [A\* Graph vs A\* Tree Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/a-search/a-graph-vs-a-tree-search.md)
