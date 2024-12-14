@@ -2,7 +2,7 @@
 
 ### Key Principles of Machine Learning
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="375"><figcaption><p>Key Principles of ML</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="375"><figcaption><p>Key Principles of ML</p></figcaption></figure></div>
 
 #### **Data-Driven Learning**
 

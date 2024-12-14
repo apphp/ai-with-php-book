@@ -4,7 +4,7 @@
 
 The idea of Artificial Intelligence isn’t new—its roots stretch back to ancient myths like those in Greek mythology, where the concept of intelligent machines was first imagined (read more in [History of ML](broken-reference)). But AI as we know it today started taking shape in the 1950s. This is when computer scientists began seriously considering whether machines could learn, solve problems, and even think like humans.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="375"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure></div>
 
 One of the trailblazers in this field was British mathematician Alan Turing. In 1950, he introduced the famous Turing test—a simple but powerful idea for assessing whether a machine could behave intelligently enough to fool a human into thinking it was also human. This sparked a huge wave of excitement and research, as scientists began trying to create machines that could do things like play chess, solve math problems, and understand human language.
 
@@ -20,13 +20,13 @@ The early development of AI was fueled by the work of brilliant minds whose idea
 
 #### 1. Alan Turing
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="188"><figcaption><p>Alan Turing</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="188"><figcaption><p>Alan Turing</p></figcaption></figure></div>
 
 Often referred to as the father of modern computer science, Alan Turing’s 1950 paper _“Computing Machinery and Intelligence”_ posed the famous question, “Can machines think?” In it, Turing introduced the concept of the Turing Test, a method for determining whether a machine can exhibit intelligent behavior indistinguishable from that of a human. Turing’s work laid the conceptual groundwork for AI by exploring the idea of machine learning and artificial reasoning.
 
 #### 2. John McCarthy
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="188"><figcaption><p>John McCarthy</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" width="188"><figcaption><p>John McCarthy</p></figcaption></figure></div>
 
 In 1956, John McCarthy coined the term “Artificial Intelligence” during the Dartmouth Conference, which is considered the birth of AI as a distinct field of study. McCarthy’s contributions include the development of Lisp, a programming language widely used in AI research. His work in symbolic reasoning and problem-solving helped establish the core areas of early AI research, particularly in logic-based approaches.
 

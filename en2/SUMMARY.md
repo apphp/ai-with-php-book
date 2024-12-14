@@ -183,3 +183,8 @@
     * [By Tasks Resolved](machine-learning/ml-algorithms/classification-of-ml-algorithms/by-tasks-resolved.md)
     * [By Methods Used](machine-learning/ml-algorithms/classification-of-ml-algorithms/by-methods-used.md)
     * [By Feature Types](machine-learning/ml-algorithms/classification-of-ml-algorithms/by-feature-types.md)
+  * [Supervised Learning](machine-learning/ml-algorithms/supervised-learning/README.md)
+    * [Regression](machine-learning/ml-algorithms/supervised-learning/regression/README.md)
+      * [Linear Regression](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/README.md)
+        * [Types of Linear Regression ?..](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/types-of-linear-regression-...md)
+        * [Finding Best Fit Line](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/finding-best-fit-line.md)

@@ -2,7 +2,7 @@
 
 Artificial Intelligence agents operate within various environments that dictate how they perceive, interact, and succeed in accomplishing tasks. Understanding these environments is critical for designing effective AI systems. According to **Russell** and **Norvig**, environments can be characterized by specific features, each affecting how agents perceive and act within them. Here, we will explore these features with examples and explain how agents adapt their perception and actions to each environment type.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption><p>AI Agent Environment</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="375"><figcaption><p>AI Agent Environment</p></figcaption></figure></div>
 
 ### Features of Environment
 
