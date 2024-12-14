@@ -6,7 +6,7 @@ Rubix ML is a powerful machine learning library for PHP that provides a wide ran
 
 Official documentation: [https://docs.rubixml.com/2.0/](https://docs.rubixml.com/2.0/)
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Introduction to Rubix ML</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Introduction to Rubix ML</p></figcaption></figure></div>
 
 ### Installing and Configuring the Rubix ML Library
 

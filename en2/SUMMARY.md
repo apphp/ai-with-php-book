@@ -231,3 +231,17 @@
     * [Implementation in PHP](neural-networks/types-of-nn/basic-nn/implementation-in-php.md)
   * [NN with Hidden Layers](neural-networks/types-of-nn/nn-with-hidden-layers.md)
   * [Deep Learning](neural-networks/types-of-nn/deep-learning.md)
+  * [Convolutional Neural Networks (CNN)](neural-networks/types-of-nn/convolutional-neural-networks-cnn.md)
+  * [Recurrent Neural Networks (RNN)](neural-networks/types-of-nn/recurrent-neural-networks-rnn.md)
+  * [Bayesian Neural Networks](neural-networks/types-of-nn/bayesian-neural-networks.md)
+
+## Group 1
+
+* [Natural Language Processing](group-1/natural-language-processing/README.md)
+  * [Introduction](group-1/natural-language-processing/introduction.md)
+  * [NLP Capabilities in PHP](group-1/natural-language-processing/nlp-capabilities-in-php/README.md)
+    * [Overview of NLP Libraries in PHP](group-1/natural-language-processing/nlp-capabilities-in-php/overview-of-nlp-libraries-in-php.md)
+
+## Computer Vision
+
+* [Introduction](computer-vision/introduction.md)
