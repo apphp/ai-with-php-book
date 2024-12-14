@@ -55,9 +55,8 @@ Let's explore the work of the search:
 
 **Result**:
 
-• Path: the sequence of nodes visited during traversal will be: $$S→D→B→E→G$$
-
-• Cost: 7
+* Path: the sequence of nodes visited during traversal will be: $$S→D→B→E→G$$
+* Cost: 7
 
 #### Time Complexity
 
