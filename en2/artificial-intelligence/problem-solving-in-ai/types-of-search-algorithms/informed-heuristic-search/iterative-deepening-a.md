@@ -47,35 +47,35 @@ To understand how the Iterative Deepening A\* (IDA\*) algorithm works, let’s c
 
 We aim to find the optimal path from node A to node F using the IDA\* algorithm. Here’s how the process unfolds step by step:
 
-1. Set the Initial Cost Limit\
+1. **Set the Initial Cost Limit**\
    The algorithm begins by setting an initial cost limit. For this example, we’ll use the heuristic estimate of the optimal path, which is 7 (the sum of costs along the path $$A→C→F$$ ).
-2. Start at Node A\
+2. **Start at Node A**\
    Begin the search at node A and expand its neighbors: B and C.
-3.  Evaluate Paths from A
+3.  **Evaluate Paths from A**
 
     1. The cost of the path is 5.
     2. The cost of the path $$A→C$$ is 10.
 
     &#x20;Since has a cost less than the current cost limit (7), proceed with node B.
-4.  Expand Node B\
+4.  **Expand Node B**\
     From B, expand its neighbors: D and E.
 
     1. The cost of the path is 10.
     2. The cost of the path $$A→E$$ is 9.
 
     &#x20;Both paths exceed the cost limit (7), so backtrack to node A.
-5. Reevaluate Node C\
+5. **Reevaluate Node C**\
    Reevaluate the path $$A→C$$, which has a cost of 10. Since it also exceeds the current cost limit, backtrack to node A and increase the cost limit.
-6. Update Cost Limit\
+6. **Update Cost Limit**\
    Adjust the cost limit to the lowest cost of any node that exceeded the previous threshold, and repeat the process. Continue this until all feasible paths within the new cost limit are explored.
-7. Find the Optimal Path\
+7. **Find the Optimal Path**\
    Eventually, the algorithm identifies $$A→C→F$$ as the optimal path, with a total cost of 7.
 
 #### Key Takeaways
 
-* Initial Exploration: The algorithm starts with the most promising paths based on the heuristic estimate.
-* Incremental Adjustment: By gradually increasing the cost limit, IDA\* ensures no potential solutions are overlooked.
-* Backtracking: If all paths exceed the current threshold, the algorithm backtracks, updates the cost limit, and repeats the search.
+* **Initial Exploration**: The algorithm starts with the most promising paths based on the heuristic estimate.
+* **Incremental Adjustment**: By gradually increasing the cost limit, IDA\* ensures no potential solutions are overlooked.
+* **Backtracking**: If all paths exceed the current threshold, the algorithm backtracks, updates the cost limit, and repeats the search.
 
 The IDA\* algorithm systematically narrows down the search until it identifies the shortest path. Its iterative nature ensures completeness and optimality while keeping memory usage efficient.
 
@@ -83,15 +83,15 @@ The IDA\* algorithm systematically narrows down the search until it identifies t
 
 The time complexity of IDA\* depends on the branching factor (), the depth of the optimal solution (), and the heuristic function’s quality.
 
-* Best Case: When the heuristic function provides excellent guidance, the algorithm reduces unnecessary expansions, making it efficient.
-* Worst Case: Similar to Depth-First Search (DFS), IDA\* may revisit nodes in successive iterations, leading to repeated computations. The time complexity is approximately $$O(b^d)$$, where $$b$$ is the branching factor, and $$d$$ is the depth of the solution.
-* Effective Branching Factor: IDA\* performs better with an admissible and consistent heuristic, reducing unnecessary expansions and improving overall efficiency.
+* **Best Case**: When the heuristic function provides excellent guidance, the algorithm reduces unnecessary expansions, making it efficient.
+* **Worst Case**: Similar to Depth-First Search (DFS), IDA\* may revisit nodes in successive iterations, leading to repeated computations. The time complexity is approximately $$O(b^d)$$, where $$b$$ is the branching factor, and $$d$$ is the depth of the solution.
+* **Effective Branching Factor**: IDA\* performs better with an admissible and consistent heuristic, reducing unnecessary expansions and improving overall efficiency.
 
 #### Space Complexity
 
 IDA\* is highly space-efficient, requiring memory proportional to the depth of the search tree. Unlike A\*, which stores all visited nodes, IDA\* only keeps track of the current path and associated costs.
 
-* Space Complexity: $$O(d)$$, where is the depth of the search tree. This makes it feasible for large or infinite search spaces.
+* **Space Complexity**: $$O(d)$$, where is the depth of the search tree. This makes it feasible for large or infinite search spaces.
 
 #### Completeness
 
@@ -101,10 +101,9 @@ IDA\* is complete, meaning it will always find a solution if one exists. It syst
 
 IDA\* is optimal, provided the heuristic function is:
 
-1. Admissible: It never overestimates the actual cost to reach the goal $$h(n) \leq h^*(n)$$.
-2. Consistent: It satisfies the triangle inequality $$h(n) \leq c(n, m) + h(m)$$, where $$c(n, m)$$ is the cost to move from node $$n$$ to $$m$$.
+1. **Admissible**: It never overestimates the actual cost to reach the goal $$h(n) \leq h^*(n)$$.
+2. **Consistent**: It satisfies the triangle inequality $$h(n) \leq c(n, m) + h(m)$$, where $$c(n, m)$$ is the cost to move from node $$n$$ to $$m$$.
 
-Under these conditions, IDA\* guarantees finding the least-cost path to the goal.
-
+Under these conditions, IDA\* guarantees finding the least-cost path to the goal.\
 \
 In conclusion, IDA\* is a memory-efficient and optimal algorithm that combines the best of Depth-First Search and A\*. However, its time complexity can be high due to node recompilations in successive iterations, making the choice of heuristic crucial for performance.
