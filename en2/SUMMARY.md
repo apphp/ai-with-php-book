@@ -245,3 +245,11 @@
 ## Computer Vision
 
 * [Introduction](computer-vision/introduction.md)
+
+## Robotics
+
+* [Introduction](robotics/introduction.md)
+
+## Cognitive Computing
+
+* [Introduction](cognitive-computing/introduction.md)
