@@ -72,7 +72,7 @@ Fei-Fei Li is a pioneer in the field of computer vision and the co-director of S
 
 #### 5. Demis Hassabis
 
-As the co-founder and CEO of DeepMind, Demis Hassabis is at the forefront of AI research. DeepMind’s AlphaGo, which defeated a world champion Go player in 2016, showcased the potential of reinforcement learning and advanced AI capabilities. Hassabis continues to drive research in general AI and neural networks, pushing the limits of what AI can achieve, particularly in areas like healthcare, protein folding, and energy efficiency.
+As the co-founder and CEO of DeepMind, Demis Hassabis is at the forefront of AI research. DeepMind’s **AlphaGo**, which defeated a world champion Go player in 2016, showcased the potential of reinforcement learning and advanced AI capabilities. Hassabis continues to drive research in general AI and neural networks, pushing the limits of what AI can achieve, particularly in areas like healthcare, protein folding, and energy efficiency.
 
 ### Conclusion
 
