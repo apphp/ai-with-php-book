@@ -253,3 +253,11 @@
 ## Cognitive Computing
 
 * [Introduction](cognitive-computing/introduction.md)
+
+## Expert Systems
+
+* [Introduction](expert-systems/introduction.md)
+
+## AI Ethics and Safety
+
+* [Introduction](ai-ethics-and-safety/introduction.md)
