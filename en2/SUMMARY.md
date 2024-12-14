@@ -235,12 +235,11 @@
   * [Recurrent Neural Networks (RNN)](neural-networks/types-of-nn/recurrent-neural-networks-rnn.md)
   * [Bayesian Neural Networks](neural-networks/types-of-nn/bayesian-neural-networks.md)
 
-## Group 1
+## Natural Language Processing
 
-* [Natural Language Processing](group-1/natural-language-processing/README.md)
-  * [Introduction](group-1/natural-language-processing/introduction.md)
-  * [NLP Capabilities in PHP](group-1/natural-language-processing/nlp-capabilities-in-php/README.md)
-    * [Overview of NLP Libraries in PHP](group-1/natural-language-processing/nlp-capabilities-in-php/overview-of-nlp-libraries-in-php.md)
+* [Introduction](natural-language-processing/introduction.md)
+* [NLP Capabilities in PHP](natural-language-processing/nlp-capabilities-in-php/README.md)
+  * [Overview of NLP Libraries in PHP](natural-language-processing/nlp-capabilities-in-php/overview-of-nlp-libraries-in-php.md)
 
 ## Computer Vision
 
