@@ -51,13 +51,115 @@ Common applications of Beam Search include **machine translation**, **speech rec
 
 ### Example
 
+#### Drawbacks of Beam Search
+
+Here is a limitation of the Beam Search Algorithm, illustrated with an example:
+
+Beam Search is inherently incomplete, meaning it does not always guarantee finding a solution, even when one exists. Despite this, the algorithm has proven effective in practical applications such as speech recognition, computer vision, planning, and machine learning.
+
+One of its significant drawbacks is that it may fail to reach a goal or even identify an optimal solution, even with unlimited time and memory, if there is a valid path from the start node to the goal node. The algorithm terminates in one of two scenarios: either it successfully reaches a goal node, or it exhausts all possible nodes without finding a solution.
+
+The chances of finding the goal can be improved by using a more accurate heuristic function and increasing the beam width. For instance, consider a scenario where the beam width $$\beta = 2$$. The following steps demonstrate how the algorithm may struggle to find the goal node under such conditions.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (87).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Step-by-step explanation:
+
+1. Start at root node A
+   * Initial beam B = {A}
+   * H(A) doesn't matter as it's our only starting point
+2. Expand A's children (B and C):
+   * B: H=1
+   * C: H=3
+   * Since β=2, we keep both nodes
+   * Current beam B = {B, C}
+3. Expand B and C's children:
+   * From B: D(H=2), E(H=2)
+   * From C: F(H=3), G(H=0)
+   * Candidates: D(H=2), E(H=2), F(H=3), G(H=0)
+   * Sort by H value: F(3) > D(2) = E(2) > G(0)
+   * Keep top β=2 nodes: F(H=3) and either D or E (H=2)
+   * Let's say we choose D in case of tie
+   * Current beam B = {F, D}
+4. Since D and F are not leaf nodes, continue with F:
+   * F has no children
+   * D has no children
+   * Current beam B = {F, D}
+5. Search terminates as we can't expand further
+
+Final path found would be:
+
+* A → C → F (with H=3)
+* A → B → D (with H=2)
+
+Note that because of the beam width restriction ($$\beta = 2$$), we missed the optimal solution which would have been path A → C → G with H=0. This demonstrates a key limitation of beam search: it can miss optimal solutions due to the pruning of the search space, but it helps manage computational resources by not exploring all possible paths.
+
+{% hint style="info" %}
+However, when the beam width is increased to β = 3 , the algorithm successfully finds the goal node. This highlights how adjusting the beam width can significantly impact the algorithm’s performance and its ability to reach a solution.
+{% endhint %}
+
+#### Beam Search Optimality
+
+The Beam Search algorithm lacks completeness in certain scenarios, meaning it may not always find a solution, even if one exists. Additionally, it does not guarantee optimality, as it might fail to identify the best possible solution. This can occur due to the following reasons:
+
+* A limited beam width combined with an inaccurate heuristic function might lead the algorithm to overlook the shortest path to the goal.
+* Using a more accurate heuristic function and increasing the beam width can improve the likelihood of Beam Search finding the optimal path to the goal.
+
+For instance, consider a tree with heuristic values as shown in the example below.\
+
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Graph... here
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 
 
+I'll explain how beam search works on this tree with a beam width (β) of 3. The image shows a tree with nodes A through G, where each node has an h-value and edges have different costs.
+
+Step-by-step explanation:
+
+1. Start at root node A
+   * Initial beam B = {A}
+2. Expand A's children (B, C, and D):
+   * B: h=1, path cost=2
+   * C: h=2, path cost=1
+   * D: h=3, path cost=2
+   * Since β=3, we keep all three nodes
+   * Current beam B = {B, C, D}
+3. Expand all nodes in the beam:
+   * From B: E(h=3, total cost=2+3=5)
+   * From C: F(h=1, total cost=1+2=3)
+   * From D: G(h=0, total cost=2+3=5)
+   * Total candidates: E(h=3), F(h=1), G(h=0)
+   * Since β=3 and we only have 3 candidates, keep all
+   * Current beam B = {E, F, G}
+4. Expand remaining non-leaf nodes:
+   * From E: G(h=0, total cost=5+4=9)
+   * From F: G(h=0, total cost=3+3=6)
+   * G from D is already a leaf (total cost=5)
+   * Current candidates for beam: All paths leading to G
+   * Via E: cost=9, h=0
+   * Via F: cost=6, h=0
+   * Via D: cost=5, h=0
+   * Keep top β=3 paths, which are all the paths we found
+5. Search terminates as we've reached the leaf node G through all possible paths
+
+Final paths found (ordered by total cost):
+
+1. A → D → G (cost=5)
+2. A → C → F → G (cost=6)
+3. A → B → E → G (cost=9)
+
+In this case, because our beam width was large enough (β=3), we were able to find all possible paths to the goal node G. The best path is A → D → G with a total cost of 5. Note that even with a generous beam width, beam search still considers the heuristic values (h) at each level to determine which nodes to keep in the beam.
+
+### Complexity, Completeness and Optimality
 
 #### Time Complexity
 
-The time complexity of Beam Search depends on the beam width (β) and the depth of the search tree (m):&#x20;
+The time complexity of Beam Search depends on the beam width ($$β$$) and the depth of the \
+search tree ($$m$$):&#x20;
 
 $$\text{Time Complexity} = O(\beta \cdot m)$$
 
