@@ -50,7 +50,7 @@ $$S→A→C→D→B→I→J$$
 
 The algorithm starts at the root node **S** (depth 0). It explores node **A** (depth 1), then moves to **C** (depth 2), and its children **E** and **F** (depth 3), which are not expanded further due to the depth limit. After that it backtracks to A and explores D (depth 2). Once A’s children are explored, the algorithm backtracks to **S** and explores **B** (depth 1), then **I** (depth 2), and finally reaches the goal node **J** at depth 3, terminating the search successfully.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Completeness**:
 

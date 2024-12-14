@@ -4,7 +4,7 @@
 
 Semi-supervised learning is a unique approach in the field of machine learning that leverages both labeled and unlabeled data to train models. It is particularly valuable when obtaining a large amount of labeled data is expensive or time-consuming, but unlabeled data is plentiful. This technique helps in striking a balance between supervised and unsupervised learning, using the strengths of both to improve model performance and efficiency.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (69).png" alt="" width="375"><figcaption><p>Semi-supervised Learning</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (69).png" alt="" width="375"><figcaption><p>Semi-supervised Learning</p></figcaption></figure></div>
 
 In semi-supervised learning, a small portion of the data is labeled, meaning it has the correct output, and the majority is unlabeled, which the model must learn to understand without explicit guidance. By combining these two types of data, semi-supervised learning models can achieve better results than unsupervised models alone, while requiring far fewer labeled examples than traditional supervised learning methods.\
 

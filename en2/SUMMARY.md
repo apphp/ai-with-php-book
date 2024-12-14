@@ -200,10 +200,19 @@
     * [Clustering](machine-learning/ml-algorithms/unsupervised-learning/clustering.md)
     * [Dimension Reduction](machine-learning/ml-algorithms/unsupervised-learning/dimension-reduction.md)
     * [Search and Optimization](machine-learning/ml-algorithms/unsupervised-learning/search-and-optimization.md)
-  * [Semi-Supervised Learning](machine-learning/ml-algorithms/semi-supervised-learning/README.md)
+  * [Semi-Supervised Learning](machine-learning/ml-algorithms/semi-supervised-learning.md)
     * [Regression](machine-learning/ml-algorithms/semi-supervised-learning/regression.md)
     * [Classification](machine-learning/ml-algorithms/semi-supervised-learning/classification.md)
     * [Clustering](machine-learning/ml-algorithms/semi-supervised-learning/clustering.md)
   * [Reinforcement Learning](machine-learning/ml-algorithms/reinforcement-learning.md)
   * [Distributed Learning](machine-learning/ml-algorithms/distributed-learning.md)
-* [Integrating ML into Web](machine-learning/integrating-ml-into-web.md)
+* [Integrating ML into Web](machine-learning/integrating-ml-into-web/README.md)
+  * [Open-Source Projects](machine-learning/integrating-ml-into-web/open-source-projects.md)
+  * [Introduction to EasyAI-PHP](machine-learning/integrating-ml-into-web/introduction-to-easyai-php.md)
+* [Key Applications of ML](machine-learning/key-applications-of-ml.md)
+* [Practice](machine-learning/practice.md)
+
+## Neural Networks
+
+* [Introduction](neural-networks/introduction.md)
+* [Overview of NN](neural-networks/overview-of-nn.md)

@@ -2,7 +2,7 @@
 
 In 1950, Alan Turing, a brilliant British mathematician and computer scientist, introduced an idea that still sparks debate today: the Turing Test. The test was simple in theory but complex in implications — it asked whether a machine could think like a human. To this day, the Turing Test remains one of the most famous measures of artificial intelligence, setting the groundwork for our understanding of machine “intelligence.”
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Turing Test in AI</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Turing Test in AI</p></figcaption></figure></div>
 
 ### What is the Turing Test?
 

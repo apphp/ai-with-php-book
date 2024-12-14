@@ -4,7 +4,7 @@
 
 Artificial Intelligence encompasses a wide range of specialized fields, each focusing on different aspects of creating intelligent machines. Here are some of the key areas of study within AI:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Structure of Artificial Intelligence</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Structure of Artificial Intelligence</p></figcaption></figure></div>
 
 ### Areas of Study
 
@@ -46,5 +46,5 @@ Each of these areas plays a critical role in advancing the broader field of AI, 
 
 A schematic diagram of AI includes its core components and how they interconnect.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
