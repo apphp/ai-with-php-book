@@ -104,6 +104,8 @@ IDA\* is optimal, provided the heuristic function is:
 1. **Admissible**: It never overestimates the actual cost to reach the goal $$h(n) \leq h^*(n)$$.
 2. **Consistent**: It satisfies the triangle inequality $$h(n) \leq c(n, m) + h(m)$$, where $$c(n, m)$$ is the cost to move from node $$n$$ to $$m$$.
 
-Under these conditions, IDA\* guarantees finding the least-cost path to the goal.\
-\
+Under these conditions, IDA\* guarantees finding the least-cost path to the goal.
+
+### Conclusion
+
 In conclusion, IDA\* is a memory-efficient and optimal algorithm that combines the best of Depth-First Search and A\*. However, its time complexity can be high due to node recompilations in successive iterations, making the choice of heuristic crucial for performance.
