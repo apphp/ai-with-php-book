@@ -12,4 +12,8 @@
 
 ### Advanced Search Techniques <a href="#advanced-search-techniques" id="advanced-search-techniques"></a>
 
-CommentWhile uninformed and informed searches form the foundation of search algorithms, there are advanced techniques that extend their capabilities:Comment1. Metaheuristic Algorithms: Algorithms like Genetic Algorithms, Simulated Annealing, and Particle Swarm Optimization optimize complex problems by combining heuristic principles with stochastic methods.Comment2. Adversarial Search: Used in competitive environments, such as games, where multiple agents with conflicting goals interact (e.g., Minimax algorithm).Comment3. Constraint Satisfaction Problems (CSPs): Focus on finding solutions that satisfy specific constraints, often using techniques like backtracking and local search.
+While uninformed and informed searches form the foundation of search algorithms, advanced techniques extend their capabilities:
+
+1. **Metaheuristic Algorithms**: Techniques like Genetic Algorithms, Simulated Annealing, and Particle Swarm Optimization optimize complex problems by combining heuristic principles with stochastic methods.
+2. **Adversarial Search**: Applied in competitive environments, such as games, where multiple agents with conflicting goals interact (e.g., the Minimax algorithm).
+3. **Constraint Satisfaction Problems (CSPs)**: Focused on finding solutions that meet specific constraints, often using methods like backtracking and local search.
