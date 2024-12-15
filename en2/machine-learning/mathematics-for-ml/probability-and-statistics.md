@@ -1,6 +1,6 @@
 # Probability and Statistics
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Probability and Statistics</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Probability and Statistics</p></figcaption></figure></div>
 
 Basic Probability Concepts
 

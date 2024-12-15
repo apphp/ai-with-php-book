@@ -105,16 +105,9 @@ The Beam Search algorithm lacks completeness in certain scenarios, meaning it ma
 * A limited beam width combined with an inaccurate heuristic function might lead the algorithm to overlook the shortest path to the goal.
 * Using a more accurate heuristic function and increasing the beam width can improve the likelihood of Beam Search finding the optimal path to the goal.
 
-For instance, consider a tree with heuristic values as shown in the example below.\
+For instance, consider a tree with heuristic values as shown in the example below.
 
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-Graph... here
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-
+<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 I'll explain how beam search works on this tree with a beam width (β) of 3. The image shows a tree with nodes A through G, where each node has an h-value and edges have different costs.
 
