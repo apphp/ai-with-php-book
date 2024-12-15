@@ -58,6 +58,134 @@ Let's explore the work of the search:
 * Path: the sequence of nodes visited during traversal will be: $$S→D→B→E→G$$
 * Cost: 7
 
+New Example:
+
+<details>
+
+<summary>code</summary>
+
+```
+ graph TD
+					    S["S (h=7)"] --- |3| A["A (h=9)"]
+					    S --- |2| D["D (h=5)"]
+					    
+					    D --- |1| B1["B (h=4)"]
+					    D --- |4| E1["E (h=3)"]
+					    
+					    B1 --- |2| C["C (h=2)"]
+					    B1 --- |1| E2["E (h=3)"]
+					    
+					    A --- |1| B2["B (h=4)"]
+					    
+					    C --- |4| G1["G (h=0)"]
+					    E1 --- |3| G2["G (h=0)"]
+					    E2 --- |3| G3["G (h=0)"]
+					    B2 --- |5| G4["G (h=0)"]
+					    
+					    style S fill:#d1f7f7
+					    style G1 fill:#f7e5d1
+					    style G2 fill:#f7e5d1
+					    style G3 fill:#f7e5d1
+					    style G4 fill:#f7e5d1
+```
+
+</details>
+
+<details>
+
+<summary>codewith traversal</summary>
+
+```
+graph TD
+    S["S (1)\ng=0, h=7\nf=7"] --- |3| A["A (3)\ng=3, h=9\nf=12"]
+    S --- |2| D["D (2)\ng=2, h=5\nf=7"]
+    
+    D --- |1| B1["B (4)\ng=3, h=4\nf=7"]
+    D --- |4| E1["E (6)\ng=6, h=3\nf=9"]
+    
+    B1 --- |2| C["C (7)\ng=5, h=2\nf=7"]
+    B1 --- |1| E2["E (5)\ng=4, h=3\nf=7"]
+    
+    A --- |1| B2["B (8)\ng=4, h=4\nf=8"]
+    
+    C --- |4| G1["G (10)\ng=9, h=0\nf=9"]
+    E1 --- |3| G2["G (9)\ng=9, h=0\nf=9"]
+    E2 --- |3| G3["G (11)\ng=7, h=0\nf=7"]
+    B2 --- |5| G4["G (12)\ng=9, h=0\nf=9"]
+    
+    style S fill:#d1f7f7
+    style G1 fill:#f7e5d1
+    style G2 fill:#f7e5d1
+    style G3 fill:#f7e5d1
+    style G4 fill:#f7e5d1
+```
+
+</details>
+
+<details>
+
+<summary>Explanation</summary>
+
+
+
+Let me explain the traversal order:
+
+1. Start at S (g=0, h=7, f=7)
+2. Expand D (g=2, h=5, f=7) - tied with S for lowest f-value but newly generated
+3. Expand A (g=3, h=9, f=12)
+4. Expand B1 from D (g=3, h=4, f=7)
+5. Expand E2 from B1 (g=4, h=3, f=7)
+6. Expand E1 from D (g=6, h=3, f=9)
+7. Expand C from B1 (g=5, h=2, f=7)
+8. Expand B2 from A (g=4, h=4, f=8)
+9. Expand G2 from E1 (g=9, h=0, f=9)
+10. Expand G1 from C (g=9, h=0, f=9)
+11. Expand G3 from E2 (g=7, h=0, f=7)
+12. Expand G4 from B2 (g=9, h=0, f=9)
+
+Key points about this traversal:
+
+* Each node shows: (step number), g-value, h-value, and f-value (g+h)
+* A\* always expands the node with the lowest f-value
+* When f-values are tied, we typically expand the most recently generated node
+* Tree search explores all paths, even to previously visited states
+* No duplicate detection means we explore multiple paths to the same state (B, E, and G nodes)
+
+</details>
+
+<details>
+
+<summary>Paths</summary>
+
+Looking at the traversal, A\* tree search found several paths to the goal state G, but we want the path with the lowest total cost (g-value). Let's analyze all paths to G:
+
+1. Path to G1 (via S → D → B1 → C → G1):
+   * g = 9 (2 + 1 + 2 + 4)
+2. Path to G2 (via S → D → E1 → G2):
+   * g = 9 (2 + 4 + 3)
+3. Path to G3 (via S → D → B1 → E2 → G3):
+   * g = 7 (2 + 1 + 1 + 3)
+4. Path to G4 (via S → A → B2 → G4):
+   * g = 9 (3 + 1 + 5)
+
+The optimal path found is: S → D → B1 → E2 → G3 (total cost = 7)
+
+This path was found at step 11 in our traversal and has the lowest g-value among all paths to the goal. Even though other goal states were found earlier in the search, this represents the shortest path to the goal state.
+
+</details>
+
+<details>
+
+<summary>Optimal</summary>
+
+
+
+</details>
+
+
+
+
+
 ### Complexity, **Completeness** and Optimality
 
 #### Time Complexity
