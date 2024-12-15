@@ -58,6 +58,8 @@ Let's explore the work of the search:
 * Path: the sequence of nodes visited during traversal will be: $$S→D→B→E→G$$
 * Cost: 7
 
+### Complexity, **Completeness** and Optimality
+
 #### Time Complexity
 
 * Best Case:  $$O(b^d)$$, where $$b$$ is the branching factor and $$d$$ is the depth of the optimal solution.

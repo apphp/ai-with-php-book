@@ -55,6 +55,8 @@ The traversal begins at the root node **S**, progressing to **A**, then **B**, f
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (36).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
+### Complexity, **Completeness** and Optimality
+
 **Completeness**:&#x20;
 
 The DFS algorithm is complete when operating within a finite state space, as it will explore every node in a finite search tree.

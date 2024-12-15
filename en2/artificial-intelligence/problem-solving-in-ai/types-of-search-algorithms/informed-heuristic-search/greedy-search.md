@@ -51,6 +51,8 @@ $$S→D→E→G$$
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
+### Complexity, **Completeness** and Optimality
+
 #### Time Complexity:
 
 The time complexity depends on the branching factor $$b$$ and the maximum depth $$m$$ of the search tree. In the worst case, the complexity is , as it may need to explore all nodes.

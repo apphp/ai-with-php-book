@@ -54,6 +54,8 @@ $$S→A→B→C→D→G→H→E→F→I→K$$
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (35).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
+### Complexity, **Completeness** and Optimality
+
 #### **Time Complexity:**&#x20;
 
 The time complexity of the BFS algorithm is determined by the number of nodes traversed until the shallowest solution node is found. Let:

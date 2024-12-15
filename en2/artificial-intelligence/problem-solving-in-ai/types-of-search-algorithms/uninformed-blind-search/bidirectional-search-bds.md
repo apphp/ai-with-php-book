@@ -44,6 +44,8 @@ The algorithm concludes at node **H**, where the two searches intersect.
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
+### Complexity, **Completeness** and Optimality
+
 **Completeness**:&#x20;
 
 Bidirectional search is complete when BFS is used for both forward and backward searches.

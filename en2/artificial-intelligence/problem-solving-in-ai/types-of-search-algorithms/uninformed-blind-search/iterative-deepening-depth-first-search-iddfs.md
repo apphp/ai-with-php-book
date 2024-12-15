@@ -66,6 +66,8 @@ For example, consider the following tree structure to illustrate the Iterative D
 
 In the third iteration, the algorithm successfully finds the goal node.
 
+### Complexity, **Completeness** and Optimality
+
 **Completeness:**
 
 The IDDFS algorithm is complete as long as the branching factor of the tree is finite. This ensures that if a solution exists, it will eventually be found.

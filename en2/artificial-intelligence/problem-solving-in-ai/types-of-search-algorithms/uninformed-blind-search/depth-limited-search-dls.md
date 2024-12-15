@@ -52,6 +52,8 @@ The algorithm starts at the root node **S** (depth 0). It explores node **A** (d
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
+### Complexity, **Completeness** and Optimality
+
 **Completeness**:
 
 The DLS algorithm is complete if the solution exists within the specified depth limit.

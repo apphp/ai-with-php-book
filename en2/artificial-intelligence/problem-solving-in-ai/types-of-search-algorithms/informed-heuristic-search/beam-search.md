@@ -154,7 +154,7 @@ Final paths found (ordered by total cost):
 
 In this case, because our beam width was large enough (β=3), we were able to find all possible paths to the goal node G. The best path is A → D → G with a total cost of 5. Note that even with a generous beam width, beam search still considers the heuristic values (h) at each level to determine which nodes to keep in the beam.
 
-### Complexity, Completeness and Optimality
+### Complexity, **Completeness** and Optimality
 
 #### Time Complexity
 

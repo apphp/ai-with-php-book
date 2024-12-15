@@ -60,6 +60,8 @@ Let's explore the work of the search:
 
 • Cost: 7
 
+### Complexity, **Completeness** and Optimality
+
 #### Time Complexity:
 
 A\* Graph Search explores nodes once, which reduces redundant computations. However, its worst-case complexity remains O(b^d), where b is the branching factor and d is the depth of the optimal solution. The actual runtime can be much lower in practical applications.

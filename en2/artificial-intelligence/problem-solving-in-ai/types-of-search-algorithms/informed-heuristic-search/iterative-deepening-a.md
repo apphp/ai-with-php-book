@@ -79,6 +79,8 @@ We aim to find the optimal path from node A to node F using the IDA\* algorithm.
 
 The IDA\* algorithm systematically narrows down the search until it identifies the shortest path. Its iterative nature ensures completeness and optimality while keeping memory usage efficient.
 
+### Complexity, **Completeness** and Optimality
+
 #### Time Complexity
 
 The time complexity of IDA\* depends on the branching factor (), the depth of the optimal solution (), and the heuristic function’s quality.

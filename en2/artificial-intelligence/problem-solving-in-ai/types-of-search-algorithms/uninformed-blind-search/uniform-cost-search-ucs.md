@@ -59,6 +59,8 @@ The Cost: 6
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
+### Complexity, **Completeness** and Optimality
+
 **Completeness**:
 
 Uniform-cost search is a complete algorithm, meaning it is guaranteed to find a solution if one exists.
