@@ -4,7 +4,7 @@
 
 Astronomy deals with massive datasets collected from telescopes, space probes, and other observational instruments. AI is a powerful tool for handling this data, making it easier to discover and understand cosmic phenomena.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption><p>AI in Astronomy</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-astronomy-min.png" alt="" width="375"><figcaption><p>AI in Astronomy</p></figcaption></figure></div>
 
 ### Exoplanet Discovery with AI
 
