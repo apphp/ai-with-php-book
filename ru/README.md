@@ -4,7 +4,7 @@ description: Начните свой путь в мир искусственно
 
 # Введение
 
-<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/introduction-min.png" alt=""><figcaption></figcaption></figure>
 
 Задача этой книги - объяснить основы искусственного интеллекта и машинного обучения так, чтобы их было легко понять. Все формулы, идеи и примеры кода будут показаны с использованием PHP, так что вы сможете изучать и применять объясняемые концепции шаг за шагом.
 
