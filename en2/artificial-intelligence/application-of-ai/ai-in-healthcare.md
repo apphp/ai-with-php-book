@@ -4,7 +4,7 @@
 
 AI is revolutionizing healthcare by improving diagnostics, personalizing treatments, and streamlining clinical workflows. It allows for faster and more accurate analysis of medical data, leading to better patient outcomes.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption><p>AI in Healthcare</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-healthcare-min.png" alt="" width="375"><figcaption><p>AI in Healthcare</p></figcaption></figure></div>
 
 ### AI in Cancer Diagnosis
 
