@@ -4,7 +4,7 @@
 
 The gaming industry has been an early adopter of AI, using it to create smarter non-player characters (NPCs), enhance the gaming experience, and even generate entire game environments autonomously.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (18).png" alt="" width="375"><figcaption><p>AI in Gaming</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-gaming-min.png" alt="" width="375"><figcaption><p>AI in Gaming</p></figcaption></figure></div>
 
 ### OpenAI’s Dota 2 Bot
 

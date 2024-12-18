@@ -4,7 +4,7 @@
 
 Artificial Intelligence is reshaping the financial industry, revolutionizing how businesses manage risks, optimize investments, and enhance customer experiences. From fraud detection to algorithmic trading, AI is driving innovation and improving efficiency across the sector. In this chapter, we explore the key applications of AI in finance and highlight real-world examples of how it’s transforming the industry.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>AI in Finance</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-finance-min.png" alt="" width="375"><figcaption><p>AI in Finance</p></figcaption></figure></div>
 
 ### Fraud Detection and Prevention
 
