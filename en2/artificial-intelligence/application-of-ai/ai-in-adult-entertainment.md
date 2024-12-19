@@ -4,7 +4,7 @@
 
 AI’s integration into adult entertainment, like many other industries, has transformed the landscape with new levels of interactivity, customization, and accessibility. From content creation and user experience personalization to deepfake detection and ethical challenges, AI’s impact on this domain is extensive, innovative, and controversial. Here, we’ll explore some of the main applications, impacts, and challenges that AI brings to the adult entertainment industry.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Adult Entertainment</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Adult Entertainment</p></figcaption></figure></div>
 
 ### Content Personalization and Recommendation Algorithms
 

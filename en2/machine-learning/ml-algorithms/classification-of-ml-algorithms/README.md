@@ -4,7 +4,7 @@ Machine Learning isn’t just for tech experts — it’s transforming everyday 
 
 Machine Learning algorithms can be categorized into several distinct types based on their learning approaches and methodologies. This chapter examines the primary classifications of ML algorithms, their characteristics, and practical applications.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption><p>Classification of ML Algorithms</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Classification of ML Algorithms</p></figcaption></figure></div>
 
 ### Classification of Algorithms: by **Types, by Tasks, by Methods and by Feature Types**
 

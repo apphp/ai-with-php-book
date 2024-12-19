@@ -4,7 +4,7 @@
 
 To understand the structure of an AI agent, it's essential to grasp the concepts of architecture and agent programs. These two elements form the foundation upon which an AI agent operates, defining how it interacts with its environment, processes information, and takes actions.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Structure of AI Agent</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Structure of AI Agent</p></figcaption></figure></div>
 
 The primary task of AI is to design an agent program that implements the agent function. The structure of an intelligent agent can be summarized as:
 

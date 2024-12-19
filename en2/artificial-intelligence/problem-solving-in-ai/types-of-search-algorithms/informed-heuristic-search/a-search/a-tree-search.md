@@ -43,7 +43,7 @@ A\* uses a heuristic function, $$f(x) = g(x) + h(x)$$, where $$g(x)$$ is the cum
 
 Find the path to reach from S to G using A\* search.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Solution.** Starting from S, the algorithm computes $$g(x) + h(x)$$ for all nodes in the fringe at each step, choosing the node with the lowest sum. The entire work is shown in the table below. \
 \
