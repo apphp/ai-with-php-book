@@ -4,7 +4,7 @@
 
 Ever wondered how social media seems to know exactly what you want to see, even before you do? The secret lies in artificial intelligence working its magic behind the scenes. From personalizing your feed to blocking nasty comments, AI is the engine that powers your online experience. Let’s dive into how AI is changing social media as we know it, and what that means for the future.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (21).png" alt="" width="375"><figcaption><p>AI in Social Media</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-social-media-min.png" alt="" width="375"><figcaption><p>AI in Social Media</p></figcaption></figure></div>
 
 ### **The AI Wizard Behind Your Personalized Feed**
 
