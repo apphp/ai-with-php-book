@@ -135,26 +135,27 @@ This shows how the linear transformation A maps the vector \[1, 2] to \[7, 7]. T
 
 ### **2. Mathematical Properties of Linear Transformations**
 
-A linear transformation T:Rn→RmT: \mathbb{R}^n \to \mathbb{R}^mT:Rn→Rm has the following properties:
+A linear transformation $$T: \mathbb{R}^n \to \mathbb{R}^m$$ has the following properties:
 
-1.  **Zero Vector Mapping**:\
-    The zero vector in VVV always maps to the zero vector in WWW:
+1. **Zero Vector Mapping**:\
+   The zero vector in $$V$$ always maps to the zero vector in $$W$$: \
+   \
+   $$T(\mathbf{0}) = \mathbf{0}$$\
 
-    T(0)=0.T(\mathbf{0}) = \mathbf{0}.T(0)=0.
-2.  **Preservation of Linear Combinations**:\
-    For vectors u,v∈V\mathbf{u}, \mathbf{v} \in Vu,v∈V and scalars a,b∈Ra, b \in \mathbb{R}a,b∈R:
+2. **Preservation of Linear Combinations**:\
+   For vectors $$\mathbf{u}, \mathbf{v} \in V$$ and scalars $$a, b \in \mathbb{R}$$: \
+   \
+   $$T(a\mathbf{u} + b\mathbf{v}) = aT(\mathbf{u}) + bT(\mathbf{v})$$\
 
-    T(au+bv)=aT(u)+bT(v).T(a\mathbf{u} + b\mathbf{v}) = aT(\mathbf{u}) + bT(\mathbf{v}).T(au+bv)=aT(u)+bT(v).
-3.  **Kernel (Null Space)**:\
-    The set of all vectors that map to the zero vector:
+3. **Kernel (Null Space)**:\
+   The set of all vectors that map to the zero vector:\
+   \
+   $$\text{Ker}(T) = \{ \mathbf{x} \in V : T(\mathbf{x}) = \mathbf{0} \}$$\
 
-    Ker(T)={x∈V:T(x)=0}.\text{Ker}(T) = \\{ \mathbf{x} \in V : T(\mathbf{x}) = \mathbf{0} \\}.Ker(T)={x∈V:T(x)=0}.
-4.  **Image (Range)**:\
-    The set of all vectors in WWW that are outputs of TTT:
-
-    Im(T)={T(x):x∈V}.\text{Im}(T) = \\{ T(\mathbf{x}) : \mathbf{x} \in V \\}.Im(T)={T(x):x∈V}.
-
-
+4. **Image (Range)**:\
+   The set of all vectors in $$W$$ that are outputs of $$T$$: \
+   \
+   $$\text{Im}(T) = \{ T(\mathbf{x}) : \mathbf{x} \in V \}$$
 
 ### **3. Geometric Interpretation**
 
@@ -166,20 +167,31 @@ A linear transformation T:Rn→RmT: \mathbb{R}^n \to \mathbb{R}^mT:Rn→Rm has t
 
 Below are visualizations of common transformations:
 
-| **Scaling Transformation** | **Rotation Transformation** |
-| -------------------------- | --------------------------- |
-|                            |                             |
-
-| **Reflection Transformation** |
-| ----------------------------- |
-|                               |
-
-
-
-
+<table><thead><tr><th width="261" align="center">Scaling Transformation</th><th width="240" align="center">Rotation Transformation</th><th align="center">Reflection Transformation</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (100).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (99).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (101).png" alt="" data-size="original"></td></tr></tbody></table>
 
 ### **4. Application of Matrices in Transforming Data**
 
-Matrices are powerful tools to represent linear transformations. A linear transformation T:Rn→RmT: \mathbb{R}^n \to \mathbb{R}^m can always be expressed as matrix multiplication. Given a vector x∈Rn\mathbf{x} \in \mathbb{R}^n and a matrix A∈Rm×nA \in \mathbb{R}^{m \times n}, the transformation is:
+Linear transformations can be efficiently represented as **matrix multiplications**. For a transformation $$T$$ represented by matrix $$A$$:
 
-T(x)=Ax.T(\mathbf{x}) = A\mathbf{x}.
+$$T(\mathbf{x}) = A\mathbf{x}$$
+
+***
+
+#### **Example 1:**
+
+The rotation matrix rotates vectors by an angle $$\theta$$: &#x20;
+
+$$A = \begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$$
+
+For $$\theta = 90^\circ$$: &#x20;
+
+$$A = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$$
+
+Rotating $$\mathbf{x} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$$: &#x20;
+
+$$A\mathbf{x} = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$$
+
+
+
+<table><thead><tr><th width="391" align="center">Original Grid</th><th align="center">Rotated Grid (90°)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (102).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (103).png" alt="" data-size="original"></td></tr></tbody></table>
+
