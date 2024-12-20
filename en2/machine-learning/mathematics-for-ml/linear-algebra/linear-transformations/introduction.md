@@ -77,7 +77,7 @@ The example point moves from (1,2) to (2,6), demonstrating how the transformatio
 
 Let $$T: \mathbb{R}^2 \to \mathbb{R}^2$$ be defined as: $$T\left( \begin{bmatrix} x \\ y \end{bmatrix} \right) = \begin{bmatrix} 3x + 2y \\ -x + 4y \end{bmatrix}.$$
 
-This transformation can be expressed using a matrix $$A$$: $$A = \begin{bmatrix} 3 & 2 \\ -1 & 4 \end{bmatrix}.$$
+This transformation can be expressed using a matrix: $$A = \begin{bmatrix} 3 & 2 \\ -1 & 4 \end{bmatrix}.$$
 
 Given $$\mathbf{x} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$, the transformation is:
 
@@ -89,15 +89,47 @@ $$T(\mathbf{x}) = \begin{bmatrix} 3(1) + 2(2) \\ -1(1) + 4(2) \end{bmatrix} = \b
 
 #### **Visualization of the Transformation**
 
-<table><thead><tr><th width="383" align="center">Original Vector</th><th align="center">Transformed Vector</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (94).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (92).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="391" align="center">Original Vector</th><th align="center">Transformed Vector</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (94).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (95).png" alt="" data-size="original"></td></tr></tbody></table>
 
+The original grid is distorted based on the transformation matrix $$A$$, stretching and rotating the space.
 
+<details>
 
-The original grid is distorted based on the transformation matrix AAA, stretching and rotating the space.
+<summary>Step by step explanation</summary>
 
+Let's start with the given transformation matrix A and walk through how it transforms \[1, 2] to \[7, 7].
 
+1.  The transformation matrix A is:
 
+    ```
+    A = [3  2]
+        [-1 4]
+    ```
+2.  When we multiply matrix A by vector \[1, 2], we get:
 
+    ```
+    [3  2] [1] = [3(1) + 2(2)]
+    [-1 4] [2]   [-1(1) + 4(2)]
+    ```
+3. Let's calculate each component:
+   * First component (x-coordinate):
+     * 3(1) + 2(2)
+     * \= 3 + 4
+     * \= 7
+   * Second component (y-coordinate):
+     * -1(1) + 4(2)
+     * \= -1 + 8
+     * \= 7
+4.  Therefore:
+
+    ```
+    A[1] = [7]
+     [2]   [7]
+    ```
+
+This shows how the linear transformation A maps the vector \[1, 2] to \[7, 7]. The transformation stretches and rotates the original vector in such a way that the resulting vector has coordinates \[7, 7].
+
+</details>
 
 ***
 
