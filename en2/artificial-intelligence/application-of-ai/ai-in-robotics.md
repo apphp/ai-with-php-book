@@ -4,7 +4,7 @@
 
 Artificial Intelligence and robotics are converging to create machines capable of performing complex tasks with a level of intelligence that mimics human reasoning. By integrating AI with physical robots, we are witnessing remarkable advancements in industries ranging from manufacturing to healthcare, agriculture, and even space exploration. These machines are evolving from simple automated systems to sophisticated entities capable of learning, adapting, and making decisions. Here’s a look at how AI is transforming robotics and making machines smarter, more efficient, and capable of extraordinary tasks.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (22).png" alt="" width="375"><figcaption><p>AI in Robotics</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-robotics-min.png" alt="" width="375"><figcaption><p>AI in Robotics</p></figcaption></figure></div>
 
 ### Autonomous Industrial Robots
 
