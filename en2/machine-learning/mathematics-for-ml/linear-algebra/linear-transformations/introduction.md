@@ -2,6 +2,8 @@
 
 ### **1. Understanding Linear Mappings Between Vector Spaces**
 
+#### **Definition**
+
 A **linear transformation** is a mapping between two vector spaces that preserves vector addition and scalar multiplication. In simple terms, linear transformations ensure that the structure of a vector space is maintained during the mapping.
 
 Mathematically, a function $$T:V→W$$ between two vector spaces $$V$$ and $$W$$ (over the same field, such as real numbers $$\mathbb{R}$$) that satisfies two main properties::&#x20;
@@ -16,58 +18,35 @@ Mathematically, a function $$T:V→W$$ between two vector spaces $$V$$ and $$W$$
 
 These two properties ensure that a linear transformation maintains the "linear structure" of a vector space, such as straight lines, scalar multiples, and sums.
 
-
-
-\>>>>>>>>>>>>
-
 #### **Matrix Representation of Linear Transformations**
 
-Any linear transformation T:Rn→RmT: \mathbb{R}^n \to \mathbb{R}^mT:Rn→Rm can be represented as a matrix A∈Rm×nA \in \mathbb{R}^{m \times n}A∈Rm×n:
+Any linear transformation $$T: \mathbb{R}^n \to \mathbb{R}^m$$ can be represented as a matrix $$A \in \mathbb{R}^{m \times n}$$:&#x20;
 
-T(x)=Ax,T(\mathbf{x}) = A\mathbf{x},T(x)=Ax,
+$$T(\mathbf{x}) = A\mathbf{x},$$
 
-where x∈Rn\mathbf{x} \in \mathbb{R}^nx∈Rn is the input vector, and AAA is the transformation matrix.
+where $$\mathbf{x} \in \mathbb{R}^n$$ n is the input vector, and $$𝐴$$ is the transformation matrix.
 
+***
 
+#### **Example 1:**
 
-
-
-
-
-
-
-**Example 1:**
-
-If $$T: \mathbb{R}^2 \to \mathbb{R}^2$$ is defined as
-
-$$
-T\left( \begin{bmatrix} x \\ y \end{bmatrix} \right) = \begin{bmatrix} 2x \\ 3y \end{bmatrix}
-$$
+If $$T: \mathbb{R}^2 \to \mathbb{R}^2$$ is defined as $$T\left( \begin{bmatrix} x \\ y \end{bmatrix} \right) = \begin{bmatrix} 2x \\ 3y \end{bmatrix}$$
 
 &#x20;it is a linear transformation because it satisfies both vector addition and scalar multiplication.
 
+#### **Example 2:**&#x20;
 
-
-**Example 2:** \
 (Simple Scaling Transformation)
 
-If  $$T: \mathbb{R}^2 \to \mathbb{R}^2$$  scales a vector $$\mathbf{x} = \begin{bmatrix} x \\ y \end{bmatrix}$$, then:
+If  $$T: \mathbb{R}^2 \to \mathbb{R}^2$$  scales a vector $$\mathbf{x} = \begin{bmatrix} x \\ y \end{bmatrix}$$, then:  $$T\left( \begin{bmatrix} x \\ y \end{bmatrix} \right) = \begin{bmatrix} 2x \\ 3y \end{bmatrix}$$
 
-$$
-T\left( \begin{bmatrix} x \\ y \end{bmatrix} \right) = \begin{bmatrix} 2x \\ 3y \end{bmatrix}
-$$
-
-For  $$\mathbf{x} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$, the output is:
-
-$$
-T\left( \begin{bmatrix} 1 \\ 2 \end{bmatrix} \right) = \begin{bmatrix} 2 \cdot 1 \\ 3 \cdot 2 \end{bmatrix} = \begin{bmatrix} 2 \\ 6 \end{bmatrix}
-$$
+For  $$\mathbf{x} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$, the output is:  $$T\left( \begin{bmatrix} 1 \\ 2 \end{bmatrix} \right) = \begin{bmatrix} 2 \cdot 1 \\ 3 \cdot 2 \end{bmatrix} = \begin{bmatrix} 2 \\ 6 \end{bmatrix}$$
 
 **Visualization of a Scaling Transformation**
 
 Scaling transforms a square grid, stretching it vertically and horizontally:
 
-<table><thead><tr><th width="383" align="center">Original Grid</th><th align="center">Scaled Grid (2x, 3y)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (1).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (2).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="383" align="center">Original Grid</th><th align="center">Scaled Grid (2x, 3y)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (1).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (92).png" alt="" data-size="original"></td></tr></tbody></table>
 
 <details>
 
@@ -77,7 +56,6 @@ Scaling transforms a square grid, stretching it vertically and horizontally:
    * A standard coordinate system with equal spacing
    * The point (1,2) marked in red
    * Grid lines for reference
-   * Clear axes with arrow heads
 
 2) Scaled Grid:
    * The same coordinate system after applying the transformation
@@ -97,29 +75,23 @@ The example point moves from (1,2) to (2,6), demonstrating how the transformatio
 \
 **Example 3:**&#x20;
 
-###
+Let $$T: \mathbb{R}^2 \to \mathbb{R}^2$$ be defined as: $$T\left( \begin{bmatrix} x \\ y \end{bmatrix} \right) = \begin{bmatrix} 3x + 2y \\ -x + 4y \end{bmatrix}.$$
 
-Let T:R2→R2T: \mathbb{R}^2 \to \mathbb{R}^2T:R2→R2 be defined as:
+This transformation can be expressed using a matrix $$A$$: $$A = \begin{bmatrix} 3 & 2 \\ -1 & 4 \end{bmatrix}.$$
 
-T(\[xy])=\[3x+2y−x+4y].T\left( \begin{bmatrix} x \\\ y \end{bmatrix} \right) = \begin{bmatrix} 3x + 2y \\\ -x + 4y \end{bmatrix}.T(\[xy​])=\[3x+2y−x+4y​].
+Given $$\mathbf{x} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$, the transformation is:
 
-This transformation can be expressed using a matrix AAA:
-
-A=\[32−14].A = \begin{bmatrix} 3 & 2 \\\ -1 & 4 \end{bmatrix}.A=\[3−1​24​].
-
-Given x=\[12]\mathbf{x} = \begin{bmatrix} 1 \\\ 2 \end{bmatrix}x=\[12​], the transformation is:
-
-T(x)=Ax=\[32−14]\[12].T(\mathbf{x}) = A \mathbf{x} = \begin{bmatrix} 3 & 2 \\\ -1 & 4 \end{bmatrix} \begin{bmatrix} 1 \\\ 2 \end{bmatrix}.T(x)=Ax=\[3−1​24​]\[12​].
+$$T(\mathbf{x}) = A\mathbf{x} = \begin{bmatrix} 3 & 2 \\ -1 & 4 \end{bmatrix} \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$
 
 Perform the multiplication:
 
-T(x)=\[3(1)+2(2)−1(1)+4(2)]=\[77].T(\mathbf{x}) = \begin{bmatrix} 3(1) + 2(2) \\\ -1(1) + 4(2) \end{bmatrix} = \begin{bmatrix} 7 \\\ 7 \end{bmatrix}.T(x)=\[3(1)+2(2)−1(1)+4(2)​]=\[77​].
+$$T(\mathbf{x}) = \begin{bmatrix} 3(1) + 2(2) \\ -1(1) + 4(2) \end{bmatrix} = \begin{bmatrix} 7 \\ 7 \end{bmatrix}.$$
 
 #### **Visualization of the Transformation**
 
-| **Original Vectors** | **Transformed Vectors** |
-| -------------------- | ----------------------- |
-|                      |                         |
+<table><thead><tr><th width="383" align="center">Original Vector</th><th align="center">Transformed Vector</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (94).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (92).png" alt="" data-size="original"></td></tr></tbody></table>
+
+
 
 The original grid is distorted based on the transformation matrix AAA, stretching and rotating the space.
 

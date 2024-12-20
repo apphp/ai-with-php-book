@@ -1,6 +1,6 @@
 # Linear Transformations
 
-This section explores linear transformations—one of the fundamental tools in mathematics, widely applied in machine learning and artificial intelligence. Linear transformations allow us to efficiently modify the shape, scale, and orientation of data, making them essential for handling multidimensional data, computer vision, and neural networks.&#x20;
+This section explores linear transformations — one of the fundamental tools in mathematics, widely applied in machine learning and artificial intelligence. Linear transformations allow us to efficiently modify the shape, scale, and orientation of data, making them essential for handling multidimensional data, computer vision, and neural networks.&#x20;
 
 Imagine taking a beautiful piece of artwork and stretching it, rotating it, or reflecting it in a mirror. These geometric operations transform the original image into something new while preserving certain fundamental relationships between its parts. This intuitive idea captures the essence of linear transformations – one of the most powerful and far-reaching concepts in linear algebra.
 
