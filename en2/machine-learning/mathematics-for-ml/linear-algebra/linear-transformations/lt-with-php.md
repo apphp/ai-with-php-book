@@ -39,6 +39,10 @@ Here, the matrix A=\[2003]A = \begin{bmatrix} 2 & 0 \\\ 0 & 3 \end{bmatrix} scal
 
 ### 2. Linear Transformations in  Neural Networks
 
+In neural networks, linear transformations are represented as:  𝑦
+
+𝑊 𝑥 + 𝑏 . y=Wx+b. Here, 𝑊 W is a weight matrix, 𝑥 x is the input, and 𝑏 b is the bias vector.
+
 #### Example: Simple Linear Layer in PHP
 
 ```php
@@ -118,3 +122,33 @@ y=\[77]+\[1−2]=\[85].\mathbf{y} = \begin{bmatrix} 7 \\\ 7 \end{bmatrix} + \beg
 
 **Output:**\
 `Output: [8, 5]`
+
+
+
+### **4. Activation Functions and the Importance of Nonlinearities**
+
+Linear transformations alone cannot solve complex, nonlinear problems. **Activation functions** like ReLU or Sigmoid introduce nonlinearity to the network.
+
+#### **Example 4: ReLU Activation**
+
+The ReLU function is defined as:
+
+ReLU(x)=max⁡(0,x).\text{ReLU}(x) = \max(0, x).ReLU(x)=max(0,x).
+
+**PHP Code:**
+
+```php
+phpCopy code<?php
+function relu($vector) {
+    return array_map(function($v) { return max(0, $v); }, $vector);
+}
+
+$output = [1, -3, 7, -2];
+$result = relu($output);
+
+echo "ReLU Output: [" . implode(", ", $result) . "]";
+?>
+```
+
+**Output:**\
+`ReLU Output: [1, 0, 7, 0]`
