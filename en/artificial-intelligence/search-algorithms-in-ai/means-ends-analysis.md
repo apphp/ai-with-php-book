@@ -1,2 +1,0 @@
-# Means-Ends Analysis
-

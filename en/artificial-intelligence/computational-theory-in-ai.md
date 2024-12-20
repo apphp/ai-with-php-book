@@ -1,2 +1,0 @@
-# Computational Theory in AI
-
