@@ -4,7 +4,7 @@
 
 Artificial Intelligence is transforming the e-commerce landscape by personalizing shopping experiences, optimizing supply chains, and improving customer service. From predictive analytics to personalized recommendations, AI is driving efficiency, engagement, and growth for online retailers. Let’s explore the key ways AI is reshaping the world of e-commerce.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>AI in E-commerce</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-e-commerce-min.png" alt="" width="375"><figcaption><p>AI in E-commerce</p></figcaption></figure></div>
 
 ### Personalized Recommendations
 

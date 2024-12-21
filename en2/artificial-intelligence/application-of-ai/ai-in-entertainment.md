@@ -4,7 +4,7 @@
 
 Artificial Intelligence is revolutionizing the entertainment industry, enhancing creativity, transforming content creation, and redefining how audiences experience media. From AI-generated music and films to personalized content recommendations, AI is reshaping the way entertainment is produced and consumed. This technology is enabling unprecedented levels of engagement, customization, and creative possibilities. Let’s explore how AI is transforming the entertainment industry.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (23).png" alt="" width="375"><figcaption><p>AI in Entertainment</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/aI-in-entertainment-min.png" alt="" width="375"><figcaption><p>AI in Entertainment</p></figcaption></figure></div>
 
 ### AI in Content Creation
 
