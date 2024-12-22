@@ -4,7 +4,7 @@
 
 Artificial Intelligence is increasingly being used in criminal justice systems to assist in decision-making, crime prevention, and the efficient handling of cases. While the use of AI brings numerous benefits, such as reducing human bias and improving the speed of legal processes, it also raises important questions about ethics, transparency, and fairness. Here’s a look at how AI is being applied in criminal justice.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>AI in Criminal Justice</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-criminal-justice-min.png" alt="" width="375"><figcaption><p>AI in Criminal Justice</p></figcaption></figure></div>
 
 ### Predictive Policing
 
