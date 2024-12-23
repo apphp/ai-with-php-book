@@ -2,6 +2,10 @@
 
 This section lists helpful tools, libraries, and references for further exploration of the topics covered in this book.
 
+#### Official Website of the Book
+
+* [https://aiwithphp.org](https://aiwithphp.org/)
+
 #### Web Portals & Tutorials
 
 * Javatpoint - Free Online Tutorials.\
