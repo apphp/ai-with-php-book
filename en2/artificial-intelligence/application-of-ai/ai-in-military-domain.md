@@ -4,7 +4,7 @@
 
 Artificial Intelligence is rapidly transforming the military domain by enhancing capabilities in areas such as surveillance, decision-making, and autonomous weapons systems. The integration of AI into military operations is reshaping modern warfare, offering the potential for greater precision, efficiency, and strategic advantage. However, the growing reliance on AI in defense also raises significant ethical, legal, and security concerns, particularly regarding the development of autonomous weapons and the risks of unintended consequences in armed conflict.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (26).png" alt="" width="375"><figcaption><p>AI in Military Domain</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-military-domain-min.png" alt="" width="375"><figcaption><p>AI in Military Domain</p></figcaption></figure></div>
 
 ### Autonomous Weapons Systems
 
