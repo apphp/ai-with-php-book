@@ -51,7 +51,7 @@ Note that in the fourth set of iterations, we get two paths with equal summed co
 
 Let's explore the work of the search:
 
-<table><thead><tr><th width="217">Path</th><th>h(x)</th><th>g(x)</th><th>f(x)</th></tr></thead><tbody><tr><td>S</td><td>7</td><td>0</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> A</td><td>9</td><td>3</td><td>12</td></tr><tr><td>S -> D                         ✓</td><td>5</td><td>2</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B                 ✓</td><td>4</td><td>2 + 1 = 3</td><td>7</td></tr><tr><td>S -> D -> E</td><td>3</td><td>2 + 4 = 6</td><td>9</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B -> C         ✓</td><td>2</td><td>3 + 2 = 5</td><td>7</td></tr><tr><td>S -> D -> B -> E         ✓</td><td>3</td><td>3 + 1 = 4</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B -> C -> G</td><td>0</td><td>5 + 4 = 9</td><td>9</td></tr><tr><td><strong>S -> D -> B -> E -> G</strong> ✓</td><td>0</td><td>4 + 3 = 7</td><td>7</td></tr></tbody></table>
+<table><thead><tr><th width="217">Path</th><th>h(x)</th><th>g(x)</th><th>f(x)</th></tr></thead><tbody><tr><td>S</td><td>7</td><td>0</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> A</td><td>9</td><td>3</td><td>12</td></tr><tr><td>S -> D                         ✓</td><td>5</td><td>2</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B                ✓</td><td>4</td><td>2 + 1 = 3</td><td>7</td></tr><tr><td>S -> D -> E</td><td>3</td><td>2 + 4 = 6</td><td>9</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B -> C           ✓</td><td>2</td><td>3 + 2 = 5</td><td>7</td></tr><tr><td>S -> D -> B -> E        ✓</td><td>3</td><td>3 + 1 = 4</td><td>7</td></tr><tr><td> </td><td> </td><td> </td><td> </td></tr><tr><td>S -> D -> B -> C -> G</td><td>0</td><td>5 + 4 = 9</td><td>9</td></tr><tr><td><strong>S -> D -> B -> E -> G</strong>  ✓</td><td>0</td><td>4 + 3 = 7</td><td>7</td></tr></tbody></table>
 
 Key points about this traversal:
 
@@ -89,3 +89,50 @@ A\* is optimal if the heuristic $$h(x)$$ is admissible (i.e.,  $$0 \leq h(x) \le
 ### Conclusion
 
 A\* Tree Search remains a cornerstone of AI algorithms due to its ability to effectively combine precision and adaptability.&#x20;
+
+### A\* Tree Search with PHP
+
+In PHP  it can be written as a class `InformedSearchGraph` with implementation of a set of graph operations.
+
+**Example of Use:**
+
+```php
+// Create the graph and add vertices with their levels
+$graph = new InformedSearchGraph();
+
+// Add vertices with their heuristic values (h)
+$graph->addVertex('S', 0, 7.0); // Start node with h=7
+$graph->addVertex('A', 1, 9.0); // h=9
+$graph->addVertex('B', 2, 4.0); // h=4
+$graph->addVertex('C', 3, 2.0); // h=2
+$graph->addVertex('D', 1, 5.0); // h=5
+$graph->addVertex('E', 2, 3.0); // h=3
+$graph->addVertex('G', 4, 0.0); // Goal node with h=0
+
+// Add edges with costs as shown in the image
+$graph->addEdge('S', 'A', 3.0);
+$graph->addEdge('S', 'D', 2.0);
+$graph->addEdge('A', 'B', 1.0);
+$graph->addEdge('B', 'G', 5.0);
+$graph->addEdge('D', 'E', 4.0);
+$graph->addEdge('D', 'B', 1.0);
+$graph->addEdge('B', 'C', 2.0);
+$graph->addEdge('B', 'E', 1.0);
+$graph->addEdge('E', 'G', 3.0);
+$graph->addEdge('C', 'G', 4.0);
+
+// Run A* Tree Search
+echo "Performing A* Tree Search from S to G:\n";
+echo "-------------------------------------\n\n";
+
+$path = $graph->aStarTreeSearch('S', 'G');
+if ($path !== null) {
+    $graph->printPath($path);
+} else {
+    echo "No path found!\n";
+}
+```
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}

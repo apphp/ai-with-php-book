@@ -1,4 +1,4 @@
-# Iterative Deepening A\*
+# Iterative Deepening A\* Search
 
 The Iterative Deepening A\* Algorithm (IDA\*) is a heuristic search method that combines the memory efficiency of Depth-First Search (DFS) with the optimal path-finding capabilities of the A\* algorithm. It is specifically designed to handle large search spaces while maintaining optimality and completeness. By limiting memory usage, IDA\* enables effective exploration of complex networks or trees to find the shortest path from the start state to the goal state.
 
@@ -111,3 +111,46 @@ Under these conditions, IDA\* guarantees finding the least-cost path to the goal
 ### Conclusion
 
 In conclusion, IDA\* is a memory-efficient and optimal algorithm that combines the best of Depth-First Search and A\*. However, its time complexity can be high due to node recompilations in successive iterations, making the choice of heuristic crucial for performance.
+
+### Iterative Deepening A\* Search with PHP
+
+In PHP  it can be written as a class `InformedSearchGraph` with implementation of a set of graph operations.
+
+**Example of Use:**
+
+```php
+// Create the graph and add vertices with their levels
+$graph = new InformedSearchGraph();
+
+// Add vertices with their levels and heuristic values
+$graph->addVertex('A', 0, 7.0);  // Root node at level 0
+$graph->addVertex('B', 1, 5.0);  // Level 1 nodes
+$graph->addVertex('C', 1, 10.0);
+$graph->addVertex('D', 2, 10.0); // Level 2 nodes
+$graph->addVertex('E', 2, 9.0);
+$graph->addVertex('F', 2, 7.0);  // Goal node
+
+// Add edges with their costs
+$graph->addEdge('A', 'B', 3.0); // Left branch
+$graph->addEdge('B', 'D', 5.0);
+$graph->addEdge('B', 'E', 4.0);
+
+$graph->addEdge('A', 'C', 4.0); // Right branch
+$graph->addEdge('C', 'F', 3.0);
+
+// Perform IDA* search from S to G
+echo "Performing IDA* Search from A to F:\n";
+echo "----------------------------------\n\n";
+
+$path = $graph->idaStarSearch('A', 'F');
+if ($path) {
+    $graph->printPath($path);
+} else {
+    echo "No path found!\n";
+}
+
+```
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
