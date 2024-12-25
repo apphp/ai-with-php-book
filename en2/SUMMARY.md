@@ -123,7 +123,7 @@
       * [Tensors with PHP](machine-learning/mathematics-for-ml/linear-algebra/tensors/tensors-with-php.md)
     * [Linear Transformations](machine-learning/mathematics-for-ml/linear-algebra/linear-transformations/README.md)
       * [Introduction](machine-learning/mathematics-for-ml/linear-algebra/linear-transformations/introduction.md)
-      * [Role in Neural Networks](machine-learning/mathematics-for-ml/linear-algebra/linear-transformations/role-in-neural-networks.md)
+      * [LT Role in Neural Networks](machine-learning/mathematics-for-ml/linear-algebra/linear-transformations/role-in-neural-networks.md)
       * [LT with PHP](machine-learning/mathematics-for-ml/linear-algebra/linear-transformations/lt-with-php.md)
     * [Eigenvalues and Eigenvectors](machine-learning/mathematics-for-ml/linear-algebra/eigenvalues-and-eigenvectors.md)
     * [Norms and Distances](machine-learning/mathematics-for-ml/linear-algebra/norms-and-distances.md)
