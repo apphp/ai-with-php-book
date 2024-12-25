@@ -1,16 +1,8 @@
-# &#x20;Role in Neural Networks
+# Role in Neural Networks
 
-## **Chapter: Linear Transformations and Their Role in Neural Networks**
+Neural networks rely on linear transformations to process input data. In a fully connected neural network, each layer applies a linear transformation using a weight matrix $$W$$ and a bias vector $$b$$:&#x20;
 
-***
-
-***
-
-### **3. Linear Transformations and Their Role in Neural Networks**
-
-Neural networks rely on linear transformations to process input data. In a fully connected neural network, each layer applies a linear transformation using a weight matrix WW and a bias vector bb:
-
-y=Wx+b.\mathbf{y} = W\mathbf{x} + \mathbf{b}.
+$$y=Wx + b$$
 
 The transformed output is then passed through an activation function to introduce **nonlinearity**, allowing the network to model complex patterns.
 

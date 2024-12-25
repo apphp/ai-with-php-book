@@ -10,11 +10,11 @@ Mathematically, a function $$T:V→W$$ between two vector spaces $$V$$ and $$W$$
 
 1. **Additivity** (preserves vector addition):\
    \
-   $$T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}), \quad \forall \mathbf{u}, \mathbf{v} \in V$$.\
+   $$T(u + v) = T(u) + T(v), \quad \forall u, v \in V$$.\
 
 2. **Homogeneity** (preserves scalar multiplication):\
    \
-   $$T(c \mathbf{u}) = c T(\mathbf{u}), \quad \forall c \in \mathbb{R}, \mathbf{u} \in V.$$
+   $$T(c u) = c T(u), \quad \forall c \in \mathbb{R}, u \in V.$$
 
 These two properties ensure that a linear transformation maintains the "linear structure" of a vector space, such as straight lines, scalar multiples, and sums.
 
@@ -22,7 +22,7 @@ These two properties ensure that a linear transformation maintains the "linear s
 
 Any linear transformation $$T: \mathbb{R}^n \to \mathbb{R}^m$$ can be represented as a matrix $$A \in \mathbb{R}^{m \times n}$$:&#x20;
 
-$$T(\mathbf{x}) = A\mathbf{x},$$
+$$T(x) = Ax,$$
 
 where $$\mathbf{x} \in \mathbb{R}^n$$ n is the input vector, and $$𝐴$$ is the transformation matrix.
 
@@ -79,13 +79,13 @@ Let $$T: \mathbb{R}^2 \to \mathbb{R}^2$$ be defined as: $$T\left( \begin{bmatrix
 
 This transformation can be expressed using a matrix: $$A = \begin{bmatrix} 3 & 2 \\ -1 & 4 \end{bmatrix}.$$
 
-Given $$\mathbf{x} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$, the transformation is:
+Given , the transformation is:
 
-$$T(\mathbf{x}) = A\mathbf{x} = \begin{bmatrix} 3 & 2 \\ -1 & 4 \end{bmatrix} \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$
+$$T(x) = Ax = \begin{bmatrix} 3 & 2 \\ -1 & 4 \end{bmatrix} \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$
 
 Perform the multiplication:
 
-$$T(\mathbf{x}) = \begin{bmatrix} 3(1) + 2(2) \\ -1(1) + 4(2) \end{bmatrix} = \begin{bmatrix} 7 \\ 7 \end{bmatrix}.$$
+$$T(x) = \begin{bmatrix} 3(1) + 2(2) \\ -1(1) + 4(2) \end{bmatrix} = \begin{bmatrix} 7 \\ 7 \end{bmatrix}.$$
 
 #### **Visualization of the Transformation**
 
@@ -140,22 +140,22 @@ A linear transformation $$T: \mathbb{R}^n \to \mathbb{R}^m$$ has the following p
 1. **Zero Vector Mapping**:\
    The zero vector in $$V$$ always maps to the zero vector in $$W$$: \
    \
-   $$T(\mathbf{0}) = \mathbf{0}$$\
+   $$T(0) = 0$$\
 
 2. **Preservation of Linear Combinations**:\
-   For vectors $$\mathbf{u}, \mathbf{v} \in V$$ and scalars $$a, b \in \mathbb{R}$$: \
+   For vectors $$u, v \in V$$ and scalars $$a, b \in \mathbb{R}$$: \
    \
-   $$T(a\mathbf{u} + b\mathbf{v}) = aT(\mathbf{u}) + bT(\mathbf{v})$$\
+   $$T(au + bv) = aT(u) + bT(v)$$\
 
 3. **Kernel (Null Space)**:\
    The set of all vectors that map to the zero vector:\
    \
-   $$\text{Ker}(T) = \{ \mathbf{x} \in V : T(\mathbf{x}) = \mathbf{0} \}$$\
+   $$\text{Ker}(T) = \{ x \in V : T(x) = 0 \}$$\
 
 4. **Image (Range)**:\
    The set of all vectors in $$W$$ that are outputs of $$T$$: \
    \
-   $$\text{Im}(T) = \{ T(\mathbf{x}) : \mathbf{x} \in V \}$$
+   $$\text{Im}(T) = \{ T(x) : x \in V \}$$
 
 ### **3. Geometric Interpretation**
 
@@ -173,7 +173,7 @@ Below are visualizations of common transformations:
 
 Linear transformations can be efficiently represented as **matrix multiplications**. For a transformation $$T$$ represented by matrix $$A$$:
 
-$$T(\mathbf{x}) = A\mathbf{x}$$
+$$T(x) = Ax$$
 
 ***
 
@@ -187,9 +187,9 @@ For $$\theta = 90^\circ$$: &#x20;
 
 $$A = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$$
 
-Rotating $$\mathbf{x} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$$: &#x20;
+Rotating $$x = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$$: &#x20;
 
-$$A\mathbf{x} = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$$
+$$Ax = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$$
 
 
 
