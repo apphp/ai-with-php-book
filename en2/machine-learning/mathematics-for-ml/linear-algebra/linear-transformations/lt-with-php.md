@@ -42,7 +42,7 @@ echo "Transformed Vector: [" . implode(", ", $result) . "]";
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-### 2. Linear Transformations in  Neural Networks
+### >>> 2. Linear Transformations in  Neural Networks
 
 In neural networks, linear transformations are represented as:  𝑦
 
@@ -80,7 +80,7 @@ echo "Output after Linear Layer: [" . implode(", ", $result) . "]";
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### **3. Linear Transformations in Neural Networks**
 
