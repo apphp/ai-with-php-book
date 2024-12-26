@@ -24,7 +24,7 @@ where $$\sigma$$ is the activation function.
 
 During training, neural networks adjust the weight matrix $$W$$ and bias vector bb using optimization algorithms like gradient descent. The goal is to minimize the loss function $$L$$, which measures the error between predicted and actual outputs.
 
-The weights and biases are updated iteratively: $$W←W−η∂L∂W,b←b−η∂L∂b$$
+The weights and biases are updated iteratively:
 
 $$W \leftarrow W - \eta \frac{\partial L}{\partial W}, \quad b \leftarrow b - \eta \frac{\partial L}{\partial b}$$,&#x20;
 
@@ -36,8 +36,14 @@ While linear transformations are fundamental, they alone cannot solve nonlinear 
 
 #### Common Activation Functions:
 
-* **ReLU (Rectified Linear Unit):** σ(x)=max⁡(0,x).\sigma(x) = \max(0, x).
-* **Sigmoid:** σ(x)=11+e−x.\sigma(x) = \frac{1}{1 + e^{-x\}}.
+*   **ReLU (Rectified Linear Unit):**  $$σ(x)=max⁡(0,x)$$\
+
+
+    <div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
+*   **Sigmoid:** $$σ(x)=11+e−x.\sigma(x) = \frac{1}{1 + e^{-x}}$$\
+
+
+    <div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **7. Challenges and Solutions in Linear Transformations for AI**
 
@@ -52,10 +58,8 @@ While linear transformations are fundamental, they alone cannot solve nonlinear 
 * **Convolutional Neural Networks (CNNs):** Linear transformations are applied through filters (kernels).
 * **Recurrent Neural Networks (RNNs):** Use linear transformations over sequential data.
 
-
-
 ### **9. Conclusion**
 
-Linear transformations are the foundation of neural networks, enabling the manipulation of data through matrix multiplications. However, their combination with activation functions is essential for solving nonlinear problems. Understanding how linear transformations work in neural networks—from the weights and biases to the role of activation functions—provides insight into the core workings of AI systems.
+Linear transformations are the foundation of neural networks, enabling the manipulation of data through matrix multiplications. However, their combination with activation functions is essential for solving nonlinear problems. Understanding how linear transformations work in neural networks—from the weights and biases to the role of activation functions — provides insight into the core workings of AI systems.
 
 In summary, while linear transformations provide structure, it is their integration with nonlinearities that makes neural networks powerful tools for machine learning.

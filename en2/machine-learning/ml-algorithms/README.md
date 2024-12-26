@@ -4,7 +4,7 @@
 
 Machine learning algorithms represent the cornerstone of artificial intelligence, enabling computers to learn from data without being explicitly programmed. These algorithms form patterns and make decisions with minimal human intervention, transforming raw data into actionable insights across countless applications — from recommender systems that personalize our digital experiences to computer vision systems that detect diseases in medical imaging.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>ML Algorithms</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>ML Algorithms</p></figcaption></figure></div>
 
 ### The Fundamental Paradigms
 
