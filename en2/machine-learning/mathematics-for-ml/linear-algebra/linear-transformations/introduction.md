@@ -46,7 +46,7 @@ For  $$\mathbf{x} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$, the output is:  $$T\
 
 Scaling transforms a square grid, stretching it vertically and horizontally:
 
-<table><thead><tr><th width="383" align="center">Original Grid</th><th align="center">Scaled Grid (2x, 3y)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (92).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="383" align="center">Original Grid</th><th align="center">Scaled Grid (2x, 3y)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (92).png" alt="" data-size="original"></td></tr></tbody></table>
 
 <details>
 

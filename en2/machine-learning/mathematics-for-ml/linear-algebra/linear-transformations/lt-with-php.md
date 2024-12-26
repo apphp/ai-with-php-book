@@ -1,11 +1,14 @@
 # LT with PHP
 
+Here some examples of linear transformation, implemented with PHP.
+
 ### 1. **Application of Matrices in Transforming Data**
 
-#### Example in PHP:
+#### Example:
+
+Here, the matrix $$A = \begin{bmatrix} 2 & 0 \\ 0 & 3 \end{bmatrix}$$ scales x-coordinate by 2 and y-coordinate by 3.
 
 ```php
-<?php
 // Matrix A representing the transformation
 $A = [
     [2, 0],
@@ -27,15 +30,17 @@ function transform($matrix, $vector) {
 $result = transform($A, $x);
 
 echo "Transformed Vector: [" . implode(", ", $result) . "]";
-?>
 ```
 
-**Output:**\
+**Output:**&#x20;
+
 `Transformed Vector: [2, 6]`
 
-Here, the matrix A=\[2003]A = \begin{bmatrix} 2 & 0 \\\ 0 & 3 \end{bmatrix} scales xx-coordinate by 2 and yy-coordinate by 3.
+**Result Visualization**:
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### 2. Linear Transformations in  Neural Networks
 
@@ -89,7 +94,7 @@ Here:
 **PHP Code: Linear Transformation with Bias**
 
 ```php
-phpCopy code<?php
+<?php
 function linearTransform($weights, $bias, $input) {
     $output = [];
     foreach ($weights as $i => $row) {
