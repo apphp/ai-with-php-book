@@ -2,7 +2,7 @@
 
 As we advance into the digital era, artificial intelligence agents are poised to become more deeply integrated into our everyday lives. These AI agents are evolving from simple rule-based systems into highly sophisticated entities capable of learning, adapting, and even making independent decisions. By incorporating advanced learning capabilities, fostering human-AI collaboration, and engaging in autonomous decision-making, future AI agents will reshape society. This chapter explores these key facets of future AI agents and their potential implications.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (30).png" alt="" width="375"><figcaption><p>Future of AI Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-future-of-agents-min.png" alt="" width="375"><figcaption><p>Future of AI Agents</p></figcaption></figure></div>
 
 ### 1. Advanced Learning Capabilities
 
