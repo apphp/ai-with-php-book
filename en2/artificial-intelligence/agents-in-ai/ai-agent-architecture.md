@@ -2,7 +2,7 @@
 
 In the design of AI agents, architecture is crucial in determining how an agent perceives, decides, and acts in its environment. There are three primary architectures in AI agents: **Reactive**, **Deliberative**, and **Hybrid**. Each has unique characteristics that suit different applications, from real-time response systems to strategic decision-making.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>AI Agent Architecture</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-agent-architecture-min.png" alt="" width="375"><figcaption><p>AI Agent Architecture</p></figcaption></figure></div>
 
 ### **1. Reactive Architecture**
 
