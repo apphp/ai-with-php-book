@@ -39,11 +39,11 @@ While linear transformations are fundamental, they alone cannot solve nonlinear 
 *   **ReLU (Rectified Linear Unit):**  $$σ(x)=max⁡(0,x)$$\
 
 
-    <div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 *   **Sigmoid:** $$σ(x)=11+e−x.\sigma(x) = \frac{1}{1 + e^{-x}}$$\
 
 
-    <div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **7. Challenges and Solutions in Linear Transformations for AI**
 

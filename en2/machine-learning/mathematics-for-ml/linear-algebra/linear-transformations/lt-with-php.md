@@ -38,20 +38,18 @@ echo "Transformed Vector: [" . implode(", ", $result) . "]";
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (4) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-### >>> 2. Linear Transformations in  Neural Networks
+### 2. Linear Transformations in  Neural Networks
 
-In neural networks, linear transformations are represented as:  𝑦
-
-𝑊 𝑥 + 𝑏 . y=Wx+b. Here, 𝑊 W is a weight matrix, 𝑥 x is the input, and 𝑏 b is the bias vector.
+In neural networks, linear transformations are represented as: $$𝑦 = 𝑊 𝑥 + 𝑏$$. \
+Here, $$W$$ is a weight matrix, $$x$$ is the input, and $$b$$ is the bias vector.
 
 #### Example: Simple Linear Layer in PHP
 
 ```php
-<?php
 // Linear transformation: y = Wx + b
 function linearLayer($weights, $bias, $input) {
     $output = [];
@@ -63,13 +61,12 @@ function linearLayer($weights, $bias, $input) {
 }
 
 $W = [[2, -1], [1, 3]]; // Weights
-$b = [1, 0];           // Biases
-$x = [1, 2];           // Input
+$b = [1, 0];            // Biases
+$x = [1, 2];            // Input
 
 $result = linearLayer($W, $b, $x);
 
 echo "Output after Linear Layer: [" . implode(", ", $result) . "]";
-?>
 ```
 
 **Output:**
@@ -78,28 +75,23 @@ echo "Output after Linear Layer: [" . implode(", ", $result) . "]";
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### **3. Linear Transformations in Neural Networks**
 
-In a neural network, each layer applies a linear transformation followed by an activation function:
-
-y=Wx+b.\mathbf{y} = W\mathbf{x} + \mathbf{b}.y=Wx+b.
+In a neural network, each layer applies a linear transformation followed by an activation function: $$y=Wx+b$$.
 
 Here:
 
-* WWW is the weight matrix, representing the linear transformation.
-* x\mathbf{x}x is the input vector.
-* b\mathbf{b}b is the bias vector.
+* $$W$$ is the weight matrix, representing the linear transformation.
+* $$x$$ is the input vector.
+* $$b$$ is the bias vector.
 
 #### **Example: Transformation in a Fully Connected Layer**
 
-**PHP Code: Linear Transformation with Bias**
-
 ```php
-<?php
 function linearTransform($weights, $bias, $input) {
     $output = [];
     foreach ($weights as $i => $row) {
@@ -119,23 +111,25 @@ $input = [1, 2];               // Input vector x
 $result = linearTransform($weights, $bias, $input);
 
 echo "Output: [" . implode(", ", $result) . "]";
-?>
 ```
 
 **Mathematical Representation**:
 
-y=\[32−14]\[12]+\[1−2].\mathbf{y} = \begin{bmatrix} 3 & 2 \\\ -1 & 4 \end{bmatrix} \begin{bmatrix} 1 \\\ 2 \end{bmatrix} + \begin{bmatrix} 1 \\\ -2 \end{bmatrix}.y=\[3−1​24​]\[12​]+\[1−2​].
+$$y = \begin{bmatrix} 3 & 2 \\ -1 & 4 \end{bmatrix} \begin{bmatrix} 1 \\ 2 \end{bmatrix} + \begin{bmatrix} 1 \\ -2 \end{bmatrix}$$
 
-Performing the calculation:
+Performing the calculation:  $$y = \begin{bmatrix} 7 \\ 7 \end{bmatrix} + \begin{bmatrix} 1 \\ -2 \end{bmatrix} = \begin{bmatrix} 8 \\ 5 \end{bmatrix}$$
 
-y=\[77]+\[1−2]=\[85].\mathbf{y} = \begin{bmatrix} 7 \\\ 7 \end{bmatrix} + \begin{bmatrix} 1 \\\ -2 \end{bmatrix} = \begin{bmatrix} 8 \\\ 5 \end{bmatrix}.y=\[77​]+\[1−2​]=\[85​].
+**Output:**
 
-**Output:**\
 `Output: [8, 5]`
 
+**Result Visualization**:
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-### **4. Activation Functions and the Importance of Nonlinearities**
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+### **>>> 4. Activation Functions and the Importance of Nonlinearities**
 
 Linear transformations alone cannot solve complex, nonlinear problems. **Activation functions** like ReLU or Sigmoid introduce nonlinearity to the network.
 

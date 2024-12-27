@@ -107,7 +107,7 @@ The Beam Search algorithm lacks completeness in certain scenarios, meaning it ma
 
 For instance, consider a tree with heuristic values as shown in the example below.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 I'll explain how beam search works on this tree with a beam width (β) of 3. The image shows a tree with nodes A through G, where each node has an h-value and edges have different costs.
 

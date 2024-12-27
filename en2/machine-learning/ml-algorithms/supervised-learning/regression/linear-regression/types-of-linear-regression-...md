@@ -19,7 +19,7 @@ where:
 
 (predicting house price based on house size)
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Simple Linear Regression</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Simple Linear Regression</p></figcaption></figure></div>
 
 ### **2. Multiple Linear Regression**
 
@@ -38,7 +38,7 @@ where:
 
 (predicting motor MPG (Miles Per Gallon) based on horse power and weight)
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Multiple Linear Regression</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Multiple Linear Regression</p></figcaption></figure></div>
 
 ### **3. Polynomial Regression**
 
@@ -63,7 +63,7 @@ This transformation allows the model to fit a curve that better matches non-line
 
 **Example:**
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Polynomial Regression</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Polynomial Regression</p></figcaption></figure></div>
 
 ### **4. Regularized Linear Regression**
 
@@ -92,7 +92,7 @@ where:
 
 The  L1 -norm penalty ( \sum\_{j=1}^{p} |\beta\_j| ) often results in some coefficients being reduced to zero, effectively performing feature selection.
 
-<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
