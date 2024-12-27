@@ -4,7 +4,7 @@
 
 Algorithms in AI operate by processing an initial state and working toward an expected state as the solution. This logic underpins the effectiveness of AI machines and applications that rely on search engines and algorithm-driven solutions. However, the efficiency of these systems is directly tied to the quality of the algorithms employed.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (32).png" alt="" width="375"><figcaption><p>Introduction to Search Algorithms in Ai</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-problem-solving-in ai-intro-min.png" alt="" width="375"><figcaption><p>Introduction to Search Algorithms in Ai</p></figcaption></figure></div>
 
 AI agents enhance usability by enabling intuitive interaction with AI systems, even for users without technical expertise. These agents execute tasks with a clear end goal, devising action plans to accomplish their missions. By breaking the process into steps, they systematically evaluate alternatives to identify the most efficient approach. This ability to explore and optimize makes search systems a fundamental component of AI.
 
