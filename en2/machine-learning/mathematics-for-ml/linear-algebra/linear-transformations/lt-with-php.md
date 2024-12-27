@@ -4,7 +4,7 @@ Here some examples of linear transformation, implemented with PHP.
 
 ### 1. **Application of Matrices in Transforming Data**
 
-#### Example:
+#### Example: Scale Transformation
 
 Here, the matrix $$A = \begin{bmatrix} 2 & 0 \\ 0 & 3 \end{bmatrix}$$ scales x-coordinate by 2 and y-coordinate by 3.
 
@@ -47,7 +47,7 @@ echo "Transformed Vector: [" . implode(", ", $result) . "]";
 In neural networks, linear transformations are represented as: $$𝑦 = 𝑊 𝑥 + 𝑏$$. \
 Here, $$W$$ is a weight matrix, $$x$$ is the input, and $$b$$ is the bias vector.
 
-#### Example: Simple Linear Layer in PHP
+#### Example: Simple Linear Layer
 
 ```php
 // Linear transformation: y = Wx + b
