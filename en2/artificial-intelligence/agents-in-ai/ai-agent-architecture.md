@@ -22,9 +22,9 @@ Deliberative architectures, also known as **goal-driven** or **model-based syste
 
 These agents are particularly useful in applications requiring careful planning and foresight, where responses need to align with long-term goals. Some examples include:
 
-* **Autonomous Mars rovers**: NASA’s rovers, such as Curiosity, utilize deliberative architectures to plan routes and make strategic decisions about exploration. By evaluating terrain and energy constraints, they can set and execute goals, like moving toward a geological target.
+* **Autonomous Mars rovers**: NASA’s rovers, such as **Curiosity**, utilize deliberative architectures to plan routes and make strategic decisions about exploration. By evaluating terrain and energy constraints, they can set and execute goals, like moving toward a geological target.
 * **Medical diagnosis systems**: Deliberative agents in healthcare use patient data, symptoms, and medical knowledge bases to assess possible diagnoses, recommend treatments, and predict patient outcomes. This planning-based approach is crucial for complex and nuanced decision-making.
-* **Chess-playing AI**: Games like chess require agents to think ahead and evaluate potential moves. Deliberative architectures allow chess AI to simulate many possible scenarios, make calculated moves, and develop long-term strategies, as seen with Deep Blue’s historical matches.
+* **Chess-playing AI**: Games like chess require agents to think ahead and evaluate potential moves. Deliberative architectures allow chess AI to simulate many possible scenarios, make calculated moves, and develop long-term strategies, as seen with **Deep Blue**’s historical matches.
 
 While deliberative agents are highly capable of complex decision-making, they are often computationally intensive. Their need for real-time processing can become a limitation in scenarios where quick responses are essential.
 
@@ -35,7 +35,7 @@ Hybrid architectures combine elements of both reactive and deliberative systems,
 This approach is ideal for environments that require both immediate actions and long-term strategies. Examples include:
 
 * **Humanoid robots**: In applications like rescue missions, hybrid robots need to react quickly to obstacles while also planning routes to reach trapped survivors. The reactive layer handles sudden obstacles, while the deliberative layer works on pathfinding and navigation toward the rescue site.
-* **Intelligent personal assistants**: Virtual assistants like Siri or Google Assistant are designed with hybrid architectures. For simple commands like setting a timer, they react instantly. For more complex tasks like scheduling a day based on user preferences and meetings, they use deliberative planning to consider multiple factors and provide personalized responses.
+* **Intelligent personal assistants**: Virtual assistants like **Siri** or **Google Assistant** are designed with hybrid architectures. For simple commands like setting a timer, they react instantly. For more complex tasks like scheduling a day based on user preferences and meetings, they use deliberative planning to consider multiple factors and provide personalized responses.
 * **Autonomous drones for surveillance**: Drones equipped with hybrid architectures can avoid immediate threats, like birds or power lines, while also maintaining a set patrol route. The reactive system manages real-time flight adjustments, while the deliberative system ensures the drone completes its designated path.
 
 Hybrid agents are versatile and adaptive, combining the speed of reactive responses with the depth of deliberative planning. This dual-layered approach makes them suitable for complex, real-world environments where both agility and foresight are critical.
