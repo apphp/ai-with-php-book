@@ -49,6 +49,7 @@
   * [Типы агентов ИИ](iskusstvennyi-intellekt/agenty-v-ii/tipy-agentov-ii.md)
   * [Среда агента ИИ](iskusstvennyi-intellekt/agenty-v-ii/sreda-agenta-ii.md)
   * [Архитектура агента ИИ](iskusstvennyi-intellekt/agenty-v-ii/arkhitektura-agenta-ii.md)
+  * [Применение агентов в ИИ](iskusstvennyi-intellekt/agenty-v-ii/primenenie-agentov-v-ii.md)
 * [Решение проблем в ИИ](iskusstvennyi-intellekt/reshenie-problem-v-ii.md)
 
 ## Машинное обучение
