@@ -1,6 +1,137 @@
 # LT with PHP
 
-Here some examples of linear transformation, implemented with PHP.
+In addition in PHP  it can be written as a class **LinearTransformation** with implementation of a set of linear transformation operations.
+
+<details>
+
+<summary>Example of Class <strong>LinearTransformation</strong></summary>
+
+```php
+class LinearTransformation {
+    private $matrix;
+    private $rows;
+    private $cols;
+
+    /**
+     * Constructor to initialize the transformation matrix
+     * @param array $matrix The transformation matrix
+     * @throws InvalidArgumentException If matrix is invalid
+     */
+    public function __construct(array $matrix) {
+        if (!$this->isValidMatrix($matrix)) {
+            throw new InvalidArgumentException("Invalid matrix: all rows must have same length");
+        }
+        $this->matrix = $matrix;
+        $this->rows = count($matrix);
+        $this->cols = count($matrix[0]);
+    }
+
+    /**
+     * Apply the linear transformation to a vector
+     * @param array $vector The input vector
+     * @return array The transformed vector
+     * @throws InvalidArgumentException If vector dimension doesn't match matrix columns
+     */
+    public function transform(array $vector): array {
+        if (count($vector) !== $this->cols) {
+            throw new InvalidArgumentException(
+                "Vector dimension ({$this->cols}) must match matrix columns ({$this->cols})"
+            );
+        }
+
+        $result = [];
+        for ($i = 0; $i < $this->rows; $i++) {
+            $sum = 0;
+            for ($j = 0; $j < $this->cols; $j++) {
+                $sum += $this->matrix[$i][$j] * $vector[$j];
+            }
+            $result[] = $sum;
+        }
+        return $result;
+    }
+
+    /**
+     * Apply linear transformation with weights and bias: y = Wx + b
+     * @param array $input The input vector
+     * @param array $bias The bias vector
+     * @return array The transformed vector with bias added
+     * @throws InvalidArgumentException If dimensions don't match
+     */
+    public function linearLayer(array $input, array $bias): array {
+        // First validate that bias vector length matches number of rows
+        if (count($bias) !== $this->rows) {
+            throw new InvalidArgumentException(
+                "Bias dimension must match matrix rows"
+            );
+        }
+
+        // Use existing transform method to compute Wx
+        $transformed = $this->transform($input);
+
+        // Add bias to each element: Wx + b
+        $result = [];
+        for ($i = 0; $i < $this->rows; $i++) {
+            $result[] = $transformed[$i] + $bias[$i];
+        }
+
+        return $result;
+    }
+
+    /**
+     * Static method to perform linear transformation with weights and bias: y = Wx + b
+     * @param array $weights The weight matrix W
+     * @param array $bias The bias vector b
+     * @param array $input The input vector x
+     * @return array The transformed vector
+     * @throws InvalidArgumentException If dimensions don't match
+     */
+    public function linearTransform(array $weights, array $bias, array $input): array {
+        // Use existing linearLayer method
+        return $this->linearLayer($input, $bias);
+    }
+
+    /**
+     * Get the transformation matrix
+     * @return array The transformation matrix
+     */
+    public function getMatrix(): array {
+        return $this->matrix;
+    }
+
+    /**
+     * Get matrix dimensions
+     * @return array [rows, columns]
+     */
+    public function getDimensions(): array {
+        return [$this->rows, $this->cols];
+    }
+
+    /**
+     * Validate if the matrix has consistent dimensions
+     * @param array $matrix Matrix to validate
+     * @return bool True if valid, false otherwise
+     */
+    private function isValidMatrix(array $matrix): bool {
+        if (empty($matrix) || !is_array($matrix[0])) return false;
+
+        $columnCount = count($matrix[0]);
+        foreach ($matrix as $row) {
+            if (!is_array($row) || count($row) !== $columnCount) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+
+</details>
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
+
+Below there are some examples of linear transformation, implemented with PHP.
 
 ### 1. **Application of Matrices in Transforming Data**
 
@@ -9,40 +140,31 @@ Here some examples of linear transformation, implemented with PHP.
 Here, the matrix $$A = \begin{bmatrix} 2 & 0 \\ 0 & 3 \end{bmatrix}$$ scales x-coordinate by 2 and y-coordinate by 3.
 
 ```php
-// Matrix A representing the transformation
-$A = [
+// Example 1: 2x2 matrix (scale transformation)
+$transformMatrix = [
     [2, 0],
     [0, 3]
 ];
 
-// Vector x
-$x = [1, 2];
+$vector2D = [1, 2];
 
-// Function for matrix-vector multiplication
-function transform($matrix, $vector) {
-    $result = [];
-    foreach ($matrix as $row) {
-        $result[] = $row[0] * $vector[0] + $row[1] * $vector[1];
-    }
-    return $result;
-}
+$transformation2D = new LinearTransformation($transformMatrix);
+$result2D = $transformation2D->transform($vector2D);
 
-$result = transform($A, $x);
-
-echo "Transformed Vector: [" . implode(", ", $result) . "]";
+echo "2D Transformation Result: [" . implode(", ", $result2D) . "]\n";
 ```
 
 **Output:**&#x20;
 
-`Transformed Vector: [2, 6]`
+```
+2D Transformation Result: [2, 6]
+```
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (4) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-### 2. Linear Transformations in  Neural Networks
+### 2. Linear Transformations in Neural Networks
 
 In neural networks, linear transformations are represented as: $$𝑦 = 𝑊 𝑥 + 𝑏$$. \
 Here, $$W$$ is a weight matrix, $$x$$ is the input, and $$b$$ is the bias vector.
@@ -50,34 +172,26 @@ Here, $$W$$ is a weight matrix, $$x$$ is the input, and $$b$$ is the bias vector
 #### Example: Simple Linear Layer
 
 ```php
-// Linear transformation: y = Wx + b
-function linearLayer($weights, $bias, $input) {
-    $output = [];
-    foreach ($weights as $i => $weight) {
-        $sum = $weight[0] * $input[0] + $weight[1] * $input[1];
-        $output[] = $sum + $bias[$i];
-    }
-    return $output;
-}
+// Example usage:
+$weightMatrix = [[2, -1], [1, 3]];  // Weight matrix W
+$inputVector = [1, 2];              // Input vector x
+$bias = [1, 0];                     // Bias vector b
 
-$W = [[2, -1], [1, 3]]; // Weights
-$b = [1, 0];            // Biases
-$x = [1, 2];            // Input
-
-$result = linearLayer($W, $b, $x);
+$linearTransform = new LinearTransformation($weightMatrix);
+$result = $linearTransform->linearLayer($inputVector, $bias);
 
 echo "Output after Linear Layer: [" . implode(", ", $result) . "]";
 ```
 
 **Output:**
 
-`Output after Linear Layer: [1, 7]`
+```
+Output after Linear Layer: [1, 7]
+```
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **3. Linear Transformations in Neural Networks**
 
@@ -92,25 +206,15 @@ Here:
 #### **Example: Transformation in a Fully Connected Layer**
 
 ```php
-function linearTransform($weights, $bias, $input) {
-    $output = [];
-    foreach ($weights as $i => $row) {
-        $sum = 0;
-        foreach ($row as $j => $w) {
-            $sum += $w * $input[$j];
-        }
-        $output[] = $sum + $bias[$i];
-    }
-    return $output;
-}
+// Example usage:
+$weightMatrix = [[3, 2], [-1, 4]];  // Weight matrix W
+$inputVector = [1, 2];              // Input vector x
+$bias = [1, -2];                    // Bias vector b
 
-$weights = [[3, 2], [-1, 4]];  // Weight matrix W
-$bias = [1, -2];               // Bias vector b
-$input = [1, 2];               // Input vector x
+$linearTransform = new LinearTransformation($weightMatrix);
+$result = $linearTransform->linearTransform($weightMatrix, $bias, $inputVector);
 
-$result = linearTransform($weights, $bias, $input);
-
-echo "Output: [" . implode(", ", $result) . "]";
+echo "Output after Fully Connected Layer: [" . implode(", ", $result) . "]";
 ```
 
 **Mathematical Representation**:
@@ -121,28 +225,25 @@ Performing the calculation:  $$y = \begin{bmatrix} 7 \\ 7 \end{bmatrix} + \begin
 
 **Output:**
 
-`Output: [8, 5]`
+```
+Output after Fully Connected Layer: [8, 5]
+```
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-### **>>> 4. Activation Functions and the Importance of Nonlinearities**
+### **4. Activation Functions and the Importance of Nonlinearities**
 
 Linear transformations alone cannot solve complex, nonlinear problems. **Activation functions** like ReLU or Sigmoid introduce nonlinearity to the network.
 
 #### **Example 4: ReLU Activation**
 
-The ReLU function is defined as:
-
-ReLU(x)=max⁡(0,x).\text{ReLU}(x) = \max(0, x).ReLU(x)=max(0,x).
+The ReLU function is defined as: $$ReLU(x)=max⁡(0,x)$$.
 
 **PHP Code:**
 
 ```php
-phpCopy code<?php
 function relu($vector) {
     return array_map(function($v) { return max(0, $v); }, $vector);
 }
@@ -151,8 +252,14 @@ $output = [1, -3, 7, -2];
 $result = relu($output);
 
 echo "ReLU Output: [" . implode(", ", $result) . "]";
-?>
 ```
 
 **Output:**\
 `ReLU Output: [1, 0, 7, 0]`
+
+**Result Visualization**:
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="191"><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
