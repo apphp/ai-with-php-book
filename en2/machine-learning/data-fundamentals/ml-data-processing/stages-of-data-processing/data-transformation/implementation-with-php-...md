@@ -50,6 +50,7 @@ Normalization adjusts numerical data to a standard range (often \[0, 1]), which 
 **Example with RubixML:**
 
 ```php
+use Rubix\ML\Datasets\Labeled;
 use Rubix\ML\Transformers\MinMaxNormalizer;
 
 $dataset = new Labeled([
