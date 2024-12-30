@@ -1,8 +1,6 @@
 # Information Theory
 
-
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Information Theory</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ml-information-theory-min.png" alt="" width="375"><figcaption><p>Information Theory</p></figcaption></figure></div>
 
 • Entropy and Information Gain
 

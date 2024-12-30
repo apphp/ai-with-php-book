@@ -2,7 +2,7 @@
 
 The primary areas of mathematics that contribute to this foundation include linear algebra, calculus, probability, and statistics. Each of these disciplines plays a unique role in the development, analysis, and implementation of machine learning algorithms.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (46).png" alt="" width="563"><figcaption><p>Mathematics for Machine Learning</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ml-mathematics-for ml-min.png" alt="" width="563"><figcaption><p>Mathematics for Machine Learning</p></figcaption></figure></div>
 
 **Linear algebra** is essential for managing and manipulating data in high-dimensional spaces, where datasets often exist as matrices or vectors. Understanding concepts like vector spaces, eigenvalues, and matrix operations allows practitioners to efficiently process and analyze data, which is fundamental to many machine learning models.
 

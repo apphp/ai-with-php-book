@@ -1,11 +1,13 @@
 # Calculus
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (48).png" alt="" width="375"><figcaption><p>Calculus</p></figcaption></figure></div>
+
+
+<div align="left"><figure><img src="../../.gitbook/assets/ml-mathematics-calculus-.png" alt="" width="375"><figcaption><p>Calculus</p></figcaption></figure></div>
 
 
 
 * Functions and Limits
-* Understanding functions, limits, and continuity
+* Understanding functions![](<../../.gitbook/assets/ml-mathematics-calculus- (1).png>), limits, and continuity
 * Derivatives
 * Basic differentiation rules
 * Partial derivatives and gradient vectors
