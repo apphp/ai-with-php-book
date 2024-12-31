@@ -40,4 +40,4 @@
 
 Для лучшего понимания ниже приведена диаграмма, иллюстрирующая жизненный цикл машинного обучения.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ml-learning-life-cycle-diagram-min.png" alt=""><figcaption></figcaption></figure>
