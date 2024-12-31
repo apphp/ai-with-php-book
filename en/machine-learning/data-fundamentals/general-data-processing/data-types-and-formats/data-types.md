@@ -71,16 +71,16 @@ While understanding each data type individually is crucial, it's equally importa
 
 How readily the data can be queried and retrieved.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (123).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/mlv-ease-of-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Flexibility:&#x20;
 
 The adaptability of the data structure to changing requirements.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (124).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-flexibility-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Machine Readability:
 
 How easily machines can process and understand the data without human intervention.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (125).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-machine-readability-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
