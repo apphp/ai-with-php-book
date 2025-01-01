@@ -78,6 +78,17 @@ class LinearTransformation {
     }
 
     /**
+     * Apply ReLU activation function to a vector
+     * @param array $vector Input vector
+     * @return array Vector with ReLU activation applied
+     */
+    public function relu(array $vector): array {
+        return array_map(function($v) {
+            return max(0, $v);
+        }, $vector);
+    }
+
+    /**
      * Static method to perform linear transformation with weights and bias: y = Wx + b
      * @param array $weights The weight matrix W
      * @param array $bias The bias vector b
