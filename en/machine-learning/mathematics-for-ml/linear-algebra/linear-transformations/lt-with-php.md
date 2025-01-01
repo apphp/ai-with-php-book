@@ -244,22 +244,31 @@ The ReLU function is defined as: $$ReLU(x)=max⁡(0,x)$$.
 **PHP Code:**
 
 ```php
-function relu($vector) {
-    return array_map(function($v) { return max(0, $v); }, $vector);
-}
+// Example usage:
+$weightMatrix = [[-1, 2], [1, -2]];  // Weight matrix W
+$inputVector = [5, 3];               // Input vector x
+$bias = [-10, 2];                    // Bias vector b
 
-$output = [1, -3, 7, -2];
-$result = relu($output);
+// Example usage with values that will produce both positive and negative results
+$transform = new LinearTransformation($weightMatrix);
 
-echo "ReLU Output: [" . implode(", ", $result) . "]";
+// Apply linear transformation with bias
+$linearResult = $transform->linearLayer($inputVector, $bias);
+
+// Apply ReLU activation
+$activated = $transform->relu($linearResult);
+
+echo "Original values: [" . implode(", ", $linearResult) . "]\n";
+echo "ReLU Output: [" . implode(", ", $activated) . "]";
 ```
 
-**Output:**\
-`ReLU Output: [1, 0, 7, 0]`
+**Output:**
+
+```
+Original values: [-9, 1]
+ReLU Output: [0, 1]
+```
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="191"><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure></div>
-
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (177).png" alt="" width="563"><figcaption></figcaption></figure></div>
