@@ -71,7 +71,7 @@ While understanding each data type individually is crucial, it's equally importa
 
 How readily the data can be queried and retrieved.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/mlv-ease-of-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-ease-of-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Flexibility:&#x20;
 

@@ -8,7 +8,7 @@ Structured data formats organize information in a predefined manner, making it e
 
 #### CSV (Comma-Separated Values)&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (126).png" alt="" width="102"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-csv-min.png" alt="" width="102"><figcaption></figcaption></figure></div>
 
 CSV is a simple, tabular format where data is separated by commas.
 
@@ -71,7 +71,7 @@ Array
 
 #### JSON (JavaScript Object Notation)&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (127).png" alt="" width="104"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-json-min.png" alt="" width="104"><figcaption></figcaption></figure></div>
 
 JSON is a lightweight, human-readable format that's easy for machines to parse and generate.
 
@@ -134,7 +134,7 @@ Array
 
 #### XML (eXtensible Markup Language)&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (128).png" alt="" width="102"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-xml-min.png" alt="" width="102"><figcaption></figcaption></figure></div>
 
 XML is a versatile markup language that defines a set of rules for encoding documents.
 
@@ -202,7 +202,7 @@ SimpleXMLElement Object
 
 #### Parquet&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (129).png" alt="" width="103"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-parquet-min.png" alt="" width="103"><figcaption></figcaption></figure></div>
 
 Parquet is a columnar storage file format, optimized for use with big data processing frameworks.
 
@@ -258,7 +258,7 @@ City: London
 
 #### HDF5 (Hierarchical Data Format version 5)&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (130).png" alt="" width="103"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-hdf5-min (1).png" alt="" width="103"><figcaption></figcaption></figure></div>
 
 HDF5 is a file format designed to store and organize large amounts of numerical data.
 
@@ -283,7 +283,7 @@ $dataset = $file->getDataset('mydata');
 
 #### ARFF (Attribute-Relation File Format)
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (131).png" alt="" width="101"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-arff-min.png" alt="" width="101"><figcaption></figcaption></figure></div>
 
 ARFF  is a text-based file format used to represent structured data, primarily for use in machine learning experiments. It was developed for the Weka data mining software and is widely used in AI and ML to store datasets that contain both metadata and actual data instances.
 
@@ -487,7 +487,7 @@ Data: Array
 
 #### SQL Tables&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (132).png" alt="" width="102"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-sql-min.png" alt="" width="102"><figcaption></figcaption></figure></div>
 
 While not a file format per se, SQL tables in relational databases are a common way to store structured data.
 
