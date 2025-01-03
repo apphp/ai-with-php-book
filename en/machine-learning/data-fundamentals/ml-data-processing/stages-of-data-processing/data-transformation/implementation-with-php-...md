@@ -53,20 +53,34 @@ Normalization adjusts numerical data to a standard range (often \[0, 1]), which 
 use Rubix\ML\Datasets\Labeled;
 use Rubix\ML\Transformers\MinMaxNormalizer;
 
+// Create the dataset
 $dataset = new Labeled([
     [2000, 300],
-    [2500, 400],
+    [2400, 450],
     [3000, 500],
 ], ['low', 'medium', 'high']);
 
 $normalizer = new MinMaxNormalizer();
 $normalizer->fit($dataset);
-$normalizer->transform($dataset);
 
-print_r($dataset->samples());
+$samples = $dataset->samples();
+$labels = $dataset->labels();
+$normalizer->transform($samples);
+
+echo "\nNormalized data:\n";
+foreach ($samples as $ind => $sample) {
+    echo implode(',', $sample) . ',' . $labels[$ind] . "\n";
+}
 ```
 
 In this example, `MinMaxNormalizer` scales values to the \[0, 1] range, ensuring each feature is comparable.
+
+```
+Normalized data:
+0,0,low
+0.4,0.75,medium
+1,1,high
+```
 
 #### **3. Reshaping Data Structures**
 
