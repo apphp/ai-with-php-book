@@ -1,10 +1,10 @@
 # Simple Linear Regression
 
-### Coding Linear Regression in PHP
+### Coding Simple Linear Regression in PHP
 
 Two popular PHP libraries for machine learning are **Rubix ML** and **PHP-ML**. Rubix ML provides a comprehensive suite of tools with support for Linear Regression and other algorithms, while PHP-ML is a simpler library with a wide range of algorithms.
 
-### Implementing Linear Regression with Rubix ML
+### Implementing Simple Linear Regression with Rubix ML
 
 Using Rubix ML, we’ll set up a simple example that predicts housing prices based on square footage.
 
@@ -128,7 +128,7 @@ Predicted Price for: $263,495.68
 
 ***
 
-### Implementing Linear Regression with PHP-ML
+### Implementing Simple Linear Regression with PHP-ML
 
 In **PHP-ML**, the process is similar. We’ll use the **Linear Regression** class provided by the library.
 
@@ -220,6 +220,8 @@ Predicted Price for: $263,495.68
 **Chart:**
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+***
 
 ### Advanced Techniques: Feature Scaling and Regularization
 

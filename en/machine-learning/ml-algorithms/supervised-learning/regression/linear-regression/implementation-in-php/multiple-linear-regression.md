@@ -96,8 +96,6 @@ foreach ($predictions as $index => $prediction) {
 
 **Full Code:**
 
-In this example, RubixML handles the complexity of matrix operations internally, allowing you to focus on high-level machine learning tasks.
-
 <details>
 
 <summary>Full Code of Example</summary>
@@ -182,7 +180,7 @@ House 2: $351,275.14
 
 ***
 
-### Using PHP-ML for Multiple Linear Regression
+### Implementing Multiple Linear Regression with PHP-ML
 
 #### Example: Predicting House Prices
 

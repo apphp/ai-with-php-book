@@ -6,7 +6,7 @@ There are two main types of linear regression and two additional types, Let's ta
 
 Used when there is only one independent variable. For example, predicting a person’s based on their height.
 
-This is the simplest form of linear regression, and it involves only one independent variable and one dependent variable. The equation for simple linear regression is: $$y=β_{0} ​ +β _{1} ​*X$$
+This is the simplest form of linear regression, and it involves only one independent variable and one dependent variable. The equation for simple linear regression is: $$y=\beta_{0} ​ +\beta _{1} ​*X$$
 
 where:
 
