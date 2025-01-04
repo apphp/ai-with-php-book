@@ -6,14 +6,14 @@ There are two main types of linear regression and two additional types, Let's ta
 
 Used when there is only one independent variable. For example, predicting a person’s based on their height.
 
-This is the simplest form of linear regression, and it involves only one independent variable and one dependent variable. The equation for simple linear regression is: $$y=\beta_{0} ​ +\beta _{1} ​*X$$
+This is the simplest form of linear regression, and it involves only one independent variable and one dependent variable. The equation for simple linear regression is: $$y=\beta_{0} ​ +\beta _{1} ​* x$$
 
 where:
 
-* $$Y$$ is the dependent variable
-* $$X$$ is the independent variable
-* $$β0$$ is the intercept
-* $$β1$$ is the slope
+* $$y$$ is the dependent variable
+* $$x$$ is the independent variable
+* $$β_0$$ is the intercept
+* $$β_1$$ is the slope
 
 **Example:**
 
@@ -25,14 +25,14 @@ where:
 
 Involves two or more independent variables, such as predicting house prices based on factors like area, number of rooms, and location.
 
-This involves more than one independent variable and one dependent variable. The equation for multiple linear regression is:  $$y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \beta_n X_n$$
+This involves more than one independent variable and one dependent variable. The equation for multiple linear regression is:  $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n$$
 
 where:
 
-* $$Y$$ is the dependent variable
-* $$X1, X2, …, Xn$$ are the independent variables
-* $$β0$$ is the intercept
-* $$β1, β2, …, βn$$ are the slopes
+* $$y$$ is the dependent variable
+* $$x1, x2, …, xn$$ are the independent variables
+* $$β_0$$ is the intercept
+* $$β_1, β_2, …, β_n$$ are the slopes
 
 **Example:**
 
