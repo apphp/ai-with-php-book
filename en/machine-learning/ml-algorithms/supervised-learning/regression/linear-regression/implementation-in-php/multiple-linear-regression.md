@@ -150,11 +150,18 @@ foreach ($predictions as $index => $prediction) {
     );
 }
 
-// Calculate error metrics
-$actualValues = [450000, 280000]; // Example actual values
-$metric = new MeanSquaredError();
-$score = $metric->score($predictions, $actualValues);
-echo "\nMean Squared Error: $" . number_format(sqrt(abs($score)), 2);
+//// Calculate error metrics for actual values
+$actualValues = [450000, 280000];
+
+echo "\n\nMetrics:";
+$mseMetric = new MeanSquaredError();
+$score = $mseMetric->score($predictions, $actualValues);
+echo "\nMean Squared Error: $" . number_format(abs($score), 2);
+echo "\nRoot Mean Squared Error: $" . number_format(sqrt(abs($score)), 2);
+
+$maeMetric = new MeanAbsoluteError();
+$score = $maeMetric->score($predictions, $actualValues);
+echo "\nMean Absolute Error: $" . number_format(abs($score), 2);
 ```
 
 </details>
