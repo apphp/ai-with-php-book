@@ -89,18 +89,35 @@ Reshaping allows us to organize data into structures required by specific algori
 **Example of Reshaping for Time Series:**
 
 ```php
-$data = [100, 150, 200, 250, 300, 350];
-$windowSize = 3;
-$reshapedData = [];
+$data = [[100], [150], [200], [250], [300], [350]];
 
-for ($i = 0; $i <= count($data) - $windowSize; $i++) {
-    $reshapedData[] = array_slice($data, $i, $windowSize);
+// Create windows manually since RubixML doesn't have built-in windowing
+function reshapeIntoRollingWindows(array $data, int $windowSize): array {
+    // If input is a flat array, convert each element to an array
+    $isFlat = !is_array(reset($data));
+    $formattedData = $isFlat ? array_map(fn($value) => [$value], $data) : $data;
+
+    $windows = [];
+    for ($i = 0; $i <= count($formattedData) - $windowSize; $i++) {
+        $window = array_slice($formattedData, $i, $windowSize);
+        $windows[] = array_column($window, 0);
+    }
+    return $windows;
 }
 
-print_r($reshapedData);
+$reshapedData = reshapeIntoRollingWindows($dataset->samples(), 3);
+
+// Convert back to RubixML dataset if needed
+$windowedDataset = new Unlabeled($reshapedData);
+
 ```
 
-This manual reshaping organizes the dataset into sequences of three-day periods, making it suitable for time series models.
+In this example, `reshapeIntoRollingWindows` manually reshaping the dataset into sequences of three-day periods, making it suitable for time series models.
+
+```
+After Reshaping: 
+[[100, 150, 200], [150, 200, 250], [200, 250, 300], [250, 300, 350]]
+```
 
 #### **4. Feature Engineering**
 
@@ -220,6 +237,10 @@ In this example, we manually add a new feature by calculating the product of two
 
 ***
 
-#### Conclusion
+### Summary
 
 Data transformation prepares raw data for analysis by encoding, normalizing, reshaping, and engineering features. Using RubixML and PHP-ML, these transformations can be efficiently implemented in PHP, enhancing data compatibility and model accuracy. In the next chapter, we will explore **feature selection**, discussing ways to retain the most relevant features for improving model efficiency and accuracy.
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
