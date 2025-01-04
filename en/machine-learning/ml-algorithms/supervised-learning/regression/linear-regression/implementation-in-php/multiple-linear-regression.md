@@ -106,6 +106,8 @@ In this example, RubixML handles the complexity of matrix operations internally,
 use Rubix\ML\Datasets\Labeled;
 use Rubix\ML\Datasets\Unlabeled;
 use Rubix\ML\Regressors\Ridge;
+use Rubix\ML\CrossValidation\Metrics\MeanAbsoluteError;
+use Rubix\ML\CrossValidation\Metrics\MeanSquaredError;
 
 // Sample data: [rooms, size, miles to city center] => Price
 $samples = [
@@ -249,6 +251,7 @@ foreach ($predictions as $index => $prediction) {
 
 ```php
 use Phpml\Dataset\ArrayDataset;
+use Phpml\Metric\Regression;
 use Phpml\Regression\LeastSquares;
 
 $samples = [
