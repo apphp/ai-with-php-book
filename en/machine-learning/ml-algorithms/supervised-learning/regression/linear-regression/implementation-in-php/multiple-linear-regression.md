@@ -229,7 +229,16 @@ $newData = [
 
 $predictions = $regressor->predict($newData);
 
-print_r($predictions);
+// Print predictions
+echo "Predictions for new houses:\n";
+echo "--------------------------\n";
+foreach ($predictions as $index => $prediction) {
+    echo sprintf(
+        "House %d: $%s\n",
+        $index + 1,
+        number_format($prediction, 2)
+    );
+}
 ```
 
 **Full Code:**
@@ -263,7 +272,30 @@ $newData = [
 
 $predictions = $regressor->predict($newData);
 
-print_r($predictions);
+// Print predictions
+echo "Predictions for new houses:\n";
+echo "--------------------------\n";
+foreach ($predictions as $index => $prediction) {
+    echo sprintf(
+        "House %d: $%s\n",
+        $index + 1,
+        number_format($prediction, 2)
+    );
+}
+
+// Calculate error metrics for actual values
+$actualValues = [450000, 280000];
+
+// Calculate error metrics for actual values
+echo "\n\nMetrics:";
+echo "\n-------";
+$mse = Regression::meanSquaredError($predictions, $actualValues);
+echo "\nMean Squared Error: $" . number_format($mse, 2);
+echo "\nRoot Mean Squared Error: $" . number_format(sqrt($mse), 2);
+
+$mae = Regression::meanAbsoluteError($predictions, $actualValues);
+echo "\nMean Absolute Error: $" . number_format(abs($mae), 2);
+
 ```
 
 </details>
