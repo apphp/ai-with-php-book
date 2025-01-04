@@ -149,6 +149,12 @@ foreach ($predictions as $index => $prediction) {
         number_format($prediction, 2)
     );
 }
+
+// Calculate error metrics
+$actualValues = [450000, 280000]; // Example actual values
+$metric = new MeanSquaredError();
+$score = $metric->score($predictions, $actualValues);
+echo "\nMean Squared Error: $" . number_format(sqrt(abs($score)), 2);
 ```
 
 </details>
