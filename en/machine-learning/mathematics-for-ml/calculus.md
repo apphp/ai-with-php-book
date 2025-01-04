@@ -1,6 +1,6 @@
 # Calculus
 
-<div align="left"><figure><img src="../../.gitbook/assets/ml-mathematics-calculus-min.png" alt="" width="375"><figcaption><p>Calculus</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ml-mathematics-calculus-min (2).png" alt="" width="375"><figcaption><p>Calculus</p></figcaption></figure></div>
 
 * Functions and Limits
 * Derivatives

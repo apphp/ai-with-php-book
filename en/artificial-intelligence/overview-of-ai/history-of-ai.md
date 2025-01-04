@@ -4,7 +4,7 @@
 
 The idea of Artificial Intelligence isn’t new—its roots stretch back to ancient myths like those in Greek mythology, where the concept of intelligent machines was first imagined (read more in [History of ML](../../machine-learning/overview-of-ml/history-of-ml/)). But AI as we know it today started taking shape in the 1950s. This is when computer scientists began seriously considering whether machines could learn, solve problems, and even think like humans.
 
-<div align="left"><figure><img src="../../../en2/.gitbook/assets/ai-history-min.png" alt="" width="375"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-history-min (1).png" alt="" width="375"><figcaption><p>Key Contributions and Influential Figures</p></figcaption></figure></div>
 
 One of the trailblazers in this field was British mathematician Alan Turing. In 1950, he introduced the famous Turing test—a simple but powerful idea for assessing whether a machine could behave intelligently enough to fool a human into thinking it was also human. This sparked a huge wave of excitement and research, as scientists began trying to create machines that could do things like play chess, solve math problems, and understand human language.
 
