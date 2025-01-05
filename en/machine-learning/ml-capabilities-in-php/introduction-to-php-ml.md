@@ -6,7 +6,7 @@ PHP-ML is a machine learning library for PHP, providing a range of tools and alg
 
 Official documentation: [https://php-ml.readthedocs.io/en/latest/](https://php-ml.readthedocs.io/en/latest/)
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (46).png" alt="" width="375"><figcaption><p>Introduction to PHP-ML</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ml-introduction-to-php-ml-min.png" alt="" width="375"><figcaption><p>Introduction to PHP-ML</p></figcaption></figure></div>
 
 ### Installing and Configuring PHP-ML
 
