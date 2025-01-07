@@ -19,7 +19,7 @@ where:
 
 (predicting house price based on house size)
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (41).png" alt="" width="563"><figcaption><p>Simple Linear Regression</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-simple-linear-regression-min.png" alt="" width="563"><figcaption><p>Simple Linear Regression</p></figcaption></figure></div>
 
 ### **2. Multiple Linear Regression**
 
@@ -38,7 +38,7 @@ where:
 
 (predicting motor MPG (Miles Per Gallon) based on horse power and weight)
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (42).png" alt="" width="563"><figcaption><p>Multiple Linear Regression</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-multiple-linear-regression-min.png" alt="" width="563"><figcaption><p>Multiple Linear Regression</p></figcaption></figure></div>
 
 ### **3. Polynomial Regression**
 
@@ -62,7 +62,7 @@ This transformation allows the model to fit a curve that better matches non-line
 
 **Example:**
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (43).png" alt="" width="563"><figcaption><p>Polynomial Regression</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-polynomial-regression-min.png" alt="" width="563"><figcaption><p>Polynomial Regression</p></figcaption></figure></div>
 
 ### **4. Regularized Linear Regression**
 
@@ -91,9 +91,7 @@ where:
 
 The  L1 -norm penalty ( \sum\_{j=1}^{p} |\beta\_j| ) often results in some coefficients being reduced to zero, effectively performing feature selection.
 
-<figure><img src="../../../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
-
-
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-lasso-regression-min.png" alt=""><figcaption></figcaption></figure></div>
 
 2\. Ridge Regression
 
@@ -105,9 +103,8 @@ Here:
 
 • $$\sum_{j=1}^{p} \beta_j^2$$  is the  L2 -norm, which penalizes large coefficients more smoothly than Lasso.
 
-This penalty tends to reduce the impact of all coefficients but doesn’t force any to zero, making Ridge regression useful when all features are considered potentially valuable.\
+This penalty tends to reduce the impact of all coefficients but doesn’t force any to zero, making Ridge regression useful when all features are considered potentially valuable.
 
-
-<figure><img src="../../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-ridge-regression-min.png" alt=""><figcaption></figcaption></figure></div>
 
 These formulas are essential for understanding how polynomial and regularized linear regressions adjust the model’s complexity and enhance its ability to generalize across diverse datasets.
