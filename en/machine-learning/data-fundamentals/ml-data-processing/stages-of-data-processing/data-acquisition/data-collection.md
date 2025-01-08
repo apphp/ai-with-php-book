@@ -6,7 +6,11 @@ Data collection is essential in any machine learning project because it lays the
 
 Public datasets are collections of data made available by governments, organizations, and open-source communities. These datasets cover a wide variety of topics and are often curated, labeled, and sometimes pre-processed, making them convenient for machine learning.
 
-* **Example:** The **UCI Machine Learning Repository** provides datasets for tasks like classification, regression, and clustering. For instance, the _Iris dataset_, containing flower measurements, is a well-known dataset used in classification exercises. Similarly, **Kaggle** hosts datasets on everything from customer purchases to global climate trends, such as their _COVID-19 dataset_, which offers daily updates on pandemic statistics by country.
+* **Example:** The **UCI Machine Learning Repository** provides datasets for tasks like classification, regression, and clustering. For instance, the _Iris dataset_, containing flower measurements, is a well-known dataset used in classification exercises. \
+  Website: [https://archive.ics.uci.edu/](https://archive.ics.uci.edu/)\
+  \
+  Similarly, **Kaggle** hosts datasets on everything from customer purchases to global climate trends, such as their _COVID-19 dataset_, which offers daily updates on pandemic statistics by country.\
+  Website: [https://www.kaggle.com](https://www.kaggle.com/)
 * **Example Use Case:** A team building a machine learning model to predict patient outcomes could use the **MIMIC-III** dataset, a large, publicly available dataset containing de-identified health data from intensive care units.
 
 ### 2. Web Scraping
