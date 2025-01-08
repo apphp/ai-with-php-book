@@ -8,12 +8,13 @@ Our primary objective while using linear regression is to locate the best-fit li
 
 
 
-<figure><img src="../../../../../.gitbook/assets/1_AsfV2NelG1Ta5F-0kr727w.gif" alt=""><figcaption></figcaption></figure>
-
-The best Fit Line equation provides a straight line that represents the relationship between the dependent and independent variables. The slope of the line indicates how much the dependent variable changes for a unit change in the independent variable(s).\
+<figure><img src="../../../../../.gitbook/assets/ml-finding-best-fit-line-min.gif" alt=""><figcaption></figcaption></figure>
 
 
-![Linear Regression in Machine learning](https://media.geeksforgeeks.org/wp-content/uploads/20231129130431/11111111.png)
+
+The best Fit Line equation provides a straight line that represents the relationship between the dependent and independent variables. The slope of the line indicates how much the dependent variable changes for a unit change in the independent variable(s).
+
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-finding-best-fit-line-linear-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Linear Regression
 
@@ -83,7 +84,7 @@ J’θ2=∂J(θ1,θ2)∂θ2=∂∂θ2\[1n(∑i=1n(y^i−yi)2)]=1n\[∑i=1n2(y^i�
 
 Finding the coefficients of a linear equation that best fits the training data is the objective of linear regression. By moving in the direction of the Mean Squared Error negative gradient with respect to the coefficients, the coefficients can be changed. And the respective intercept and coefficient of X will be if α     α  is the learning rate.
 
-<figure><img src="https://media.geeksforgeeks.org/wp-content/uploads/20230424151248/Gradient-Descent-for-ML-Linear-Regression-(1).webp" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-gradient-descent-for-linear-regression-min.webp" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Gradient Descent\
 $$\theta_1 = \theta_1 - \alpha \left( \frac{1}{n} \sum_{i=1}^{n} ( \hat{y}_i - y_i ) \right)    \theta_2 = \theta_2 - \alpha \left( \frac{1}{n} \sum_{i=1}^{n} ( \hat{y}_i - y_i ) \cdot x_i \right)$$\
