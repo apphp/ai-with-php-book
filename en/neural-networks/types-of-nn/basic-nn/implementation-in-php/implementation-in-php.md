@@ -1,4 +1,4 @@
-# Implementation in PHP
+# Simple Perceptron with Libraries
 
 ### Building and Training a Basic Neural Network (Simple Perceptron)&#x20;
 
@@ -6,7 +6,7 @@ In this chapter, we will walk through the process of building, training, and mak
 
 #### **Flow Chart:**
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (151).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (151).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 $$Output = step(w_1x_1 + w_2x_2 + b)$$
 
@@ -21,7 +21,7 @@ $$x_2$$ = previous score        $$b$$ = bias term
 If the dataset is not linearly separable, the perceptron might fail to classify all samples correctly. For more complex tasks, consider using a multi-layer perceptron (MLP) instead.
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (152).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (152).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Implementing Simple Perceptron with Rubix ML
 
