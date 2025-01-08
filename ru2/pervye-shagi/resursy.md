@@ -22,6 +22,13 @@
 * PHP-ML - легкая библиотека PHP для машинного обучения.\
   [https://php-ml.readthedocs.io](https://php-ml.readthedocs.io/)
 
+#### Публичные наборы данных (датасеты)
+
+* UCI Machine Learning Repository\
+  [https://archive.ics.uci.edu](https://archive.ics.uci.edu/)
+* Kaggle\
+  [https://www.kaggle.com](https://www.kaggle.com/)
+
 #### Книги
 
 * Искусственный интеллект: современный подход, Стюарт Рассел и Питер Норвиг\
