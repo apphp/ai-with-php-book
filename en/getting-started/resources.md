@@ -22,6 +22,13 @@ This section lists helpful tools, libraries, and references for further explorat
 * PHP-ML - A lightweight PHP library for machine learning.\
   [https://php-ml.readthedocs.io](https://php-ml.readthedocs.io/)
 
+#### Public Datasets
+
+* UCI Machine Learning Repository\
+  [https://archive.ics.uci.edu](https://archive.ics.uci.edu/)
+* Kaggle\
+  [https://www.kaggle.com](https://www.kaggle.com/)
+
 #### Books
 
 * Artificial Intelligence: A Modern Approach, by by Stuart Russell and Peter Norvig\
