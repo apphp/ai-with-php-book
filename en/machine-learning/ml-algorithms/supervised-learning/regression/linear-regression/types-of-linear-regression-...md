@@ -17,7 +17,7 @@ where:
 
 **Example:**
 
-(predicting house price based on house size)
+Predicting house price based on house size.
 
 <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-simple-linear-regression-min.png" alt="" width="563"><figcaption><p>Simple Linear Regression</p></figcaption></figure></div>
 
@@ -36,7 +36,7 @@ where:
 
 **Example:**
 
-(predicting motor MPG (Miles Per Gallon) based on horse power and weight)
+Predicting motor MPG (Miles Per Gallon) based on horse power and weight.
 
 <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-multiple-linear-regression-min.png" alt="" width="563"><figcaption><p>Multiple Linear Regression</p></figcaption></figure></div>
 
@@ -61,6 +61,8 @@ where:
 This transformation allows the model to fit a curve that better matches non-linear patterns in the data.
 
 **Example:**
+
+Predicting energy consumption based on home size.
 
 <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-polynomial-regression-min.png" alt="" width="563"><figcaption><p>Polynomial Regression</p></figcaption></figure></div>
 
