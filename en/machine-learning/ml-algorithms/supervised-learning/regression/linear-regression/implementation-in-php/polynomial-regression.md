@@ -19,30 +19,43 @@ use Rubix\ML\Regressors\Ridge;
 
 // Prepare your training data
 $samples = [
-    [1], [2], [3], [4], [5], [6]
+    [6.575], [6.421], [7.185], [6.998], [7.147], [6.430], [6.012], [6.172],
+    [5.631], [6.004], [6.377], [6.009], [5.889], [5.949], [6.096], [5.834],
+    [5.989], [8.259], [8.183], [7.853], [7.255], [6.383], [6.816], [7.420],
+    [7.685],
 ];
+
 $labels = [
-    2.1, 4.2, 9.3, 16.4, 25.5, 36.6
-];
+    25.0, 22.6, 33.4, 33.4, 36.2, 28.7, 20.6, 22.9, 16.9, 18.9, 21.6,
+    18.9, 21.7, 20.4, 21.2, 19.9, 22.2, 37.7, 37.3, 40.1, 37.2, 25.7,
+    31.6, 38.7, 38.1,
+]; 
 
 // Create a labeled dataset
 $dataset = new Labeled($samples, $labels);
 ```
 
-#### **Step 2:** Create a Polynomial Expander Transformer
+#### **Step 2:** Create a Polynomial Expander Transformer and Normalizer
 
-Create a polynomial expander transformer. The argument '2' means we'll create quadratic features $$x^2$$.
+Create a polynomial expander transformer. The argument '3' means we'll create cubing features $$x^3$$.\
+Expands the dataset by adding polynomial terms to increase the model’s capacity to capture non-linear relationships.
 
 ```php
-$expander = new PolynomialExpander(2);
+$expander = new PolynomialExpander(3);
+```
+
+Scales the features to a standard range (e.g., 0 to 1 or standard Gaussian distribution) to stabilize and improve model performance.
+
+```php
+$normalizer = new Normalizer();
 ```
 
 #### **Step 3:** Create Model
 
-Create the model. We use Ridge regression with regularization strength of 0.1. Ridge regression helps prevent overfitting.
+Create the model. We use `LeastSquares` regression.
 
 ```php
-$estimator = new Ridge(0.1); 
+$regression = new LeastSquares(0.1); 
 ```
 
 #### **Step 4:** Transform the Features
@@ -50,15 +63,19 @@ $estimator = new Ridge(0.1);
 This creates polynomial features from original data.
 
 ```php
-$dataset->transformFeatures($expander);
+// Transform features using PolynomialExpander
+$expander->transform($samples);
+
+// Normalize features
+$normalizer->transform($samples);
 ```
 
 #### **Step 5:** Train the Model&#x20;
 
-The model learns the relationships between features and targets.
+Ridge Regression (Least Squares).  A regression algorithm that introduces regularization to minimize overfitting by penalizing large coefficients - 0.1 (regularization strength). Smaller values increase regularization.
 
 ```php
-$estimator->train($dataset);
+$regression->train($samples, $labels);
 ```
 
 **Step 4: Make Predictions**
@@ -66,9 +83,17 @@ $estimator->train($dataset);
 Create test data and predict their values.
 
 ```php
-$predictions = $estimator->predict(new Labeled([
-    [7], [8]
-], ['unknown', 'unknown']));
+// Prepare test samples
+$testSamples = [[5.5], [6], [8], [6.945], [5.631], [8.259]];
+
+// Transform test data
+$expander->transform($testSamples);
+
+// Normalize test features
+$normalizer->transform($testSamples);
+
+// Make predictions
+$predictions = $regression->predict($testSamples);
 
 print_r($predictions);
 ```
@@ -80,46 +105,53 @@ print_r($predictions);
 <summary>Full Code of Example</summary>
 
 ```php
+use Phpml\Preprocessing\Normalizer;
+use Phpml\Regression\LeastSquares;
 use Rubix\ML\Datasets\Labeled;
 use Rubix\ML\Transformers\PolynomialExpander;
-use Rubix\ML\Regressors\Ridge;
 
 // Step 1: Prepare your training data
 $samples = [
-    [1], [2], [3], [4], [5], [6]
+    [6.575], [6.421], [7.185], [6.998], [7.147], [6.430], [6.012], [6.172],
+    [5.631], [6.004], [6.377], [6.009], [5.889], [5.949], [6.096], [5.834],
+    [5.989], [8.259], [8.183], [7.853], [7.255], [6.383], [6.816], [7.420],
+    [7.685],
 ];
+
 $labels = [
-    2.1, 4.2, 9.3, 16.4, 25.5, 36.6
+    25.0, 22.6, 33.4, 33.4, 36.2, 28.7, 20.6, 22.9, 16.9, 18.9, 21.6,
+    18.9, 21.7, 20.4, 21.2, 19.9, 22.2, 37.7, 37.3, 40.1, 37.2, 25.7,
+    31.6, 38.7, 38.1,
 ];
 
 // Step 2: Create a labeled dataset
-// This combines features (samples) with their corresponding target values (labels)
 $dataset = new Labeled($samples, $labels);
 
-// Step 3: Create a polynomial expander transformer
-// The argument '2' means we'll create quadratic features (x²)
-$expander = new PolynomialExpander(2);
+// Step 3: Create a polynomial expander transformer and normalizer
+$expander = new PolynomialExpander(3);
+$normalizer = new Normalizer();
 
 // Step 4: Create the model
-// We use Ridge regression with regularization strength 0.1
-// Ridge regression helps prevent overfitting
-$estimator = new Ridge(0.1);
+$regression = new LeastSquares(0.1);
 
-// Step 5: Transform the features
-// This creates polynomial features from original data
-$dataset->transformFeatures($expander);
+// Step 5: Transform and normalize the features
+$expander->transform($samples);
+$normalizer->transform($samples);
 
 // Step 6: Train the model
-// The model learns the relationships between features and targets
-$estimator->train($dataset);
+$regression->train($samples, $labels);
 
 // Step 7: Make predictions
-// Create test data and predict their values
-$predictions = $estimator->predict(new Labeled([
-    [7], [8]
-], ['unknown', 'unknown']));
+$testSamples = [[5.5], [6], [8], [6.945], [5.631], [8.259]];
+// Transform test data
+$expander->transform($testSamples);
+// Normalize test features
+$normalizer->transform($testSamples);
+// Make predictions
+$predictions = $regression->predict($testSamples);
 
 print_r($predictions);
+
 ```
 
 </details>
@@ -127,20 +159,26 @@ print_r($predictions);
 **Result:**
 
 ```
-Predictions .....
+Price Predictions:
+-----------------
+A house with 5.5 rooms is predicted to cost $20,506.43
+A house with 6.0 rooms is predicted to cost $20,082.20
+A house with 8.0 rooms is predicted to cost $38,730.49
+A house with 6.9 rooms is predicted to cost $32,757.74
+A house with 5.6 rooms is predicted to cost $19,049.67
+A house with 8.3 rooms is predicted to cost $38,018.52
 ```
 
 **Chart:**
 
-
-
-
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/ml-polynomial-regression-rubix-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Key Features of RubixML Implementation:
 
 1. **PolynomialExpander**: This transformer automatically creates polynomial features up to the specified degree.
-2. **Ridge Regression**: Used instead of standard linear regression to prevent overfitting.
-3. **Regularization**: The Ridge regressor includes L2 regularization to control model complexity.
+2. **LeastSquares Regression**: Used instead of standard linear regression to prevent overfitting.
+3. **Regularization**: A regression algorithm that incorporates L2 regularization (also known as Ridge Regression) to reduce the risk of overfitting and improve model generalization.
+4. **Training Pipeline**: The workflow follows a structured pipeline where training data is first transformed (using PolynomialExpander and Normalizer) before training the model.
 
 ***
 
