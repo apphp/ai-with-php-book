@@ -44,7 +44,7 @@ Expands the dataset by adding polynomial terms to increase the model’s capacit
 $expander = new PolynomialExpander(3);
 ```
 
-Scales the features to a standard range (e.g., 0 to 1 or standard Gaussian distribution) to stabilize and improve model performance.
+Normalizer scales the features to a standard range (e.g., 0 to 1 or standard Gaussian distribution) to stabilize and improve model performance.
 
 ```php
 $normalizer = new Normalizer();
@@ -60,12 +60,16 @@ $regression = new LeastSquares(0.1);
 
 #### **Step 4:** Transform the Features
 
-This creates polynomial features from original data.
+This creates polynomial features from original data. This transformer expands features into higher-degree polynomial terms, allowing the model to capture non-linear relationships effectively. In this case, the degree is set to 3 to include cubed features.
 
 ```php
 // Transform features using PolynomialExpander
 $expander->transform($samples);
+```
 
+Normalizes the features to improve numerical stability and ensure consistent scaling across the dataset.
+
+```php
 // Normalize features
 $normalizer->transform($samples);
 ```
