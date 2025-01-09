@@ -171,7 +171,7 @@ A house with 8.3 rooms is predicted to cost $38,018.52
 
 **Chart:**
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/ml-polynomial-regression-rubix-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/ml-polynomial-regression-rubix-min (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Key Features of RubixML Implementation:
 
