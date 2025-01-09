@@ -78,7 +78,40 @@ so our model aim is to Minimize  \frac{1}{2m} \sum\_{i=1}^{m} (h\_\theta(x^{(i)}
 
 #### **Gradient Descent Algorithm For Linear Regression**&#x20;
 
-![Gradient descent algorithm for linear regression](https://media.geeksforgeeks.org/wp-content/uploads/Cost-Function.jpg)
+**Cost Function**
+
+$$J(\Theta_0, \Theta_1) = \frac{1}{2m} \sum_{i=1}^{m} \left[ h_\Theta(x_i) - y_i \right]^2$$ &#x20;
+
+• True Value:  $$y_i$$ &#x20;
+
+• Predicted Value: $$h_\Theta(x_i)$$  &#x20;
+
+
+
+**Gradient Descent**
+
+$$\Theta_j = \Theta_j - \alpha \frac{\partial}{\partial \Theta_j} J(\Theta_0, \Theta_1)$$&#x20;
+
+• Learning Rate:  $$\alpha$$  &#x20;
+
+
+
+**Now:**\
+&#x20; $$\frac{\partial}{\partial \Theta_j} J_\Theta = \frac{\partial}{\partial \Theta_j} \frac{1}{2m} \sum_{i=1}^{m} \left[ h_\Theta(x_i) - y \right]^2$$&#x20;
+
+&#x20;$$= \frac{1}{m} \sum_{i=1}^{m} \left( h_\Theta(x_i) - y \right) \frac{\partial}{\partial \Theta_j} (\Theta x_i - y)$$&#x20;
+
+&#x20;$$= \frac{1}{m} \sum_{i=1}^{m} \left( h_\Theta(x_i) - y \right) x_i$$
+
+
+
+**Therefore**: $$\Theta_j := \Theta_j - \frac{\alpha}{m} \sum_{i=1}^{m} \left( h_\Theta(x_i) - y \right) x_i$$
+
+
+
+
+
+
 
 Gradient descent algorithm for linear regression&#x20;
 
@@ -93,15 +126,17 @@ Gradient descent algorithm for linear regression&#x20;
 Gradient descent works by moving downward toward the pits or valleys in the graph to find the minimum value. This is achieved by taking the derivative of the cost function, as illustrated in the figure below. During each iteration, gradient descent step-downs the [cost function](https://www.geeksforgeeks.org/ml-cost-function-in-logistic-regression/) in the direction of the steepest descent. By adjusting the parameters in this direction, it seeks to reach the minimum of the cost function and find the best-fit values for the parameters. The size of each step is determined by parameter **α** known as **Learning Rate**. \
 In the Gradient Descent algorithm, one can infer two points :&#x20;
 
-* **If slope is +ve** : θj = θj – (+ve value). Hence the value of θj decreases.
+*   **If slope is +ve** : θj = θj – (+ve value). Hence the value of θj decreases.\
 
-![If slope is +ve in Gradient Descent](https://media.geeksforgeeks.org/wp-content/uploads/theta-decrease.jpg)
+
+    <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-gradient-descent-slope-1-min.jpg" alt=""><figcaption></figcaption></figure></div>
 
 If slope is +ve in Gradient Descent&#x20;
 
 * **If slope is -ve** : θj = θj – (-ve value). Hence the value of θj increases.
+*
 
-![If slope is -ve in Gradient Descent](https://media.geeksforgeeks.org/wp-content/uploads/theta-increase.jpg)
+    <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-gradient-descent-slope-2-min.jpg" alt=""><figcaption></figcaption></figure></div>
 
 If slope is -ve in Gradient Descent&#x20;
 
@@ -109,17 +144,19 @@ If slope is -ve in Gradient Descent&#x20;
 
 The choice of correct learning rate is very important as it ensures that Gradient Descent converges in a reasonable time. :&#x20;
 
-* If we choose **α to be very large**, Gradient Descent can overshoot the minimum. It may fail to converge or even diverge. \
-  &#x20;
+*   If we choose **α to be very large**, Gradient Descent can overshoot the minimum. It may fail to converge or even diverge. \
+    \
+    &#x20;
 
-![Effect of large alpha value on Gradient Descent](https://media.geeksforgeeks.org/wp-content/uploads/big-learning.jpg)
+    <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-gradient-descent-slope-3-min.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Effect of large alpha value on Gradient Descent&#x20;
 
-* If we choose α to be very small, Gradient Descent will take small steps to reach local minima and will take a longer time to reach minima. \
-  &#x20;
+*   If we choose α to be very small, Gradient Descent will take small steps to reach local minima and will take a longer time to reach minima. \
+    \
+    &#x20;
 
-![](https://media.geeksforgeeks.org/wp-content/uploads/small-learning.jpg)
+    <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-gradient-descent-slope-4-min.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Effect of small alpha value on Gradient Descent&#x20;
 

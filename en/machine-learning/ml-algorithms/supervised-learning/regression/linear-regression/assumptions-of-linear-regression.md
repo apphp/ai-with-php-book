@@ -23,14 +23,15 @@ Linear regression is a powerful tool for understanding and predicting the behavi
 1.  **Linearity**: The independent and dependent variables have a linear relationship with one another. This implies that changes in the dependent variable follow those in the independent variable(s) in a linear fashion. This means that there should be a straight line that can be drawn through the data points. If the relationship is not linear, then linear regression will not be an accurate model.\
 
 
-    <figure><img src="https://media.geeksforgeeks.org/wp-content/uploads/20231123113044/python-linear-regression-4.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/ml-assumptions-of-linear-regression-min.png" alt=""><figcaption></figcaption></figure>
 2. **Independence**: The observations in the dataset are independent of each other. This means that the value of the dependent variable for one observation does not depend on the value of the dependent variable for another observation. If the observations are not independent, then linear regression will not be an accurate model.
 3.  **Homoscedasticity**: Across all levels of the independent variable(s), the variance of the errors is constant. This indicates that the amount of the independent variable(s) has no impact on the variance of the errors. If the variance of the residuals is not constant, then linear regression will not be an accurate model.\
 
 
-    Homoscedasticity in Linear Regression
+    Homoscedasticity in Linear Regression\
 
-    <figure><img src="https://media.geeksforgeeks.org/wp-content/uploads/20231123113103/python-linear-regression-5.png" alt=""><figcaption></figcaption></figure>
+
+    <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-assumptions-of-regression-homoscedasticity-min.png" alt=""><figcaption></figcaption></figure></div>
 4. **Normality**: The residuals should be normally distributed. This means that the residuals should follow a bell-shaped curve. If the residuals are not normally distributed, then linear regression will not be an accurate model.
 
 ### Assumptions of Multiple Linear Regression <a href="#assumptions-of-multiple-linear-regression" id="assumptions-of-multiple-linear-regression"></a>
