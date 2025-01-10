@@ -49,7 +49,7 @@ The sequence of nodes visited during traversal will be:&#x20;
 
 $$S→D→E→G$$
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (110).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ai_problem_solving_greedy_search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Complexity, **Completeness** and Optimality
 
