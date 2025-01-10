@@ -173,7 +173,7 @@ echo "2D Transformation Result: [" . implode(", ", $result2D) . "]\n";
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_scale_transformation_layer.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_scale_transformation_layer (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### 2. Linear Transformations in Neural Networks
 
