@@ -52,7 +52,7 @@ The sequence of nodes visited during traversal will be:
 
 $$S→A→B→C→D→G→H→E→F→I→K$$
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (108).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="broken-reference" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Complexity, **Completeness** and Optimality
 

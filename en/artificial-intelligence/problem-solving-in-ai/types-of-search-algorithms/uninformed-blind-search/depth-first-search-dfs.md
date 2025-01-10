@@ -53,7 +53,7 @@ $$Root node → Left node → Right node.$$
 
 The traversal begins at the root node **S**, progressing to **A**, then **B**, followed by **D** and **E**. Since **E** has no successors and the goal node hasn’t been found, the algorithm backtracks to explore other branches. After backtracking, it moves to node **C** and finally to **G**, where it terminates upon finding the goal node.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (109).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="broken-reference" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Complexity, **Completeness** and Optimality
 
