@@ -124,7 +124,7 @@ Predicted Price for: $263,495.68
 
 **Chart:**
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (36).png" alt="" width="563"><figcaption><p>House Prices by Square Footage with Trend Line</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/ml-regression-simple-linear-min.png" alt="" width="563"><figcaption><p>House Prices by Square Footage with Trend Line</p></figcaption></figure></div>
 
 ***
 
@@ -216,10 +216,6 @@ echo "\nPredicted Price for: $" . number_format($predictedPrice, decimals: 2);
 Sample size: 2250 sq.ft
 Predicted Price for: $263,495.68
 ```
-
-**Chart:**
-
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ***
 

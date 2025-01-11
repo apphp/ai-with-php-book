@@ -176,7 +176,7 @@ House 2: $351,275.14
 
 **Chart:**
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (38).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/ml-regression-multilinear-linear-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ***
 
@@ -308,10 +308,6 @@ Predictions for new houses:
 House 1: $577,026.62
 House 2: $351,276.24
 ```
-
-**Chart:**
-
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (39).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ***
 
