@@ -202,7 +202,7 @@ Output after Linear Layer: [1, 7]
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_simple_linear_layer (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **3. Linear Transformations in Neural Networks**
 
