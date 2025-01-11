@@ -46,7 +46,7 @@ For  $$\mathbf{x} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$, the output is:  $$T\
 
 Scaling transforms a square grid, stretching it vertically and horizontally:
 
-<table><thead><tr><th width="383" align="center">Original Grid</th><th align="center">Scaled Grid (2x, 3y)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (24).png" alt="" data-size="original"></td><td align="center"><img src="broken-reference" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="383" align="center">Original Grid</th><th align="center">Scaled Grid (2x, 3y)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-original-grid-min.png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-scaled-grid-min.png" alt="" data-size="original"></td></tr></tbody></table>
 
 <details>
 
@@ -89,7 +89,7 @@ $$T(x) = \begin{bmatrix} 3(1) + 2(2) \\ -1(1) + 4(2) \end{bmatrix} = \begin{bmat
 
 #### **Visualization of the Transformation**
 
-<table><thead><tr><th width="391" align="center">Original Vector</th><th align="center">Transformed Vector</th></tr></thead><tbody><tr><td align="center"><img src="broken-reference" alt="" data-size="original"></td><td align="center"><img src="broken-reference" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="391" align="center">Original Vector</th><th align="center">Transformed Vector</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-original-vector-min.png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-transformed-vector-min.png" alt="" data-size="original"></td></tr></tbody></table>
 
 The original grid is distorted based on the transformation matrix $$A$$, stretching and rotating the space.
 
