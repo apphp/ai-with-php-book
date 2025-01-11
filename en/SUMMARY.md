@@ -227,6 +227,7 @@
   * [Types of NN Architectures](neural-networks/overview-of-nn/types-of-nn-architectures.md)
   * [Problems and Challenges](neural-networks/overview-of-nn/problems-and-challenges.md)
   * [How NN Works](neural-networks/overview-of-nn/how-nn-works.md)
+* [Mathematics for NN](neural-networks/mathematics-for-nn.md)
 * [NN Capabilities in PHP](neural-networks/nn-capabilities-in-php.md)
 * [NN Types](neural-networks/types-of-nn/README.md)
   * [Basic NN](neural-networks/types-of-nn/basic-nn/README.md)
@@ -239,6 +240,9 @@
   * [Convolutional Neural Networks (CNN)](neural-networks/types-of-nn/convolutional-neural-networks-cnn.md)
   * [Recurrent Neural Networks (RNN)](neural-networks/types-of-nn/recurrent-neural-networks-rnn.md)
   * [Bayesian Neural Networks](neural-networks/types-of-nn/bayesian-neural-networks.md)
+* [Integrating NN into Web](neural-networks/integrating-nn-into-web.md)
+* [Key Applications of NN](neural-networks/key-applications-of-nn.md)
+* [Practice](neural-networks/practice.md)
 
 ## Natural Language Processing
 
