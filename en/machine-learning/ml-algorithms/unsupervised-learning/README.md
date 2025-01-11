@@ -2,7 +2,7 @@
 
 Unsupervised learning works with unlabeled data, meaning the algorithm must find patterns or structures in the data without any explicit guidance on what the output should be. This approach is typically used for clustering, anomaly detection, and association tasks.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (141).png" alt="" width="375"><figcaption><p>Unsupervised Learning</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/ml-unsupervised-learining-min.png" alt="" width="375"><figcaption><p>Unsupervised Learning</p></figcaption></figure></div>
 
 ### Unsupervised Learning
 
