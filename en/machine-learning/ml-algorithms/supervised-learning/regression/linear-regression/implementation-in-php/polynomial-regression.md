@@ -35,7 +35,7 @@ $labels = [
 $dataset = new Labeled($samples, $labels);
 ```
 
-#### **Step 2:** Create a Polynomial Expander Transformer and Normalizer
+#### **Step 2:** Create a Polynomial Expander Transformer
 
 Create a polynomial expander transformer. The argument '3' means we'll create cubing features $$x^3$$.\
 Expands the dataset by adding polynomial terms to increase the model’s capacity to capture non-linear relationships.
@@ -44,18 +44,12 @@ Expands the dataset by adding polynomial terms to increase the model’s capacit
 $expander = new PolynomialExpander(3);
 ```
 
-Normalizer scales the features to a standard range (e.g., 0 to 1 or standard Gaussian distribution) to stabilize and improve model performance.
-
-```php
-$normalizer = new Normalizer();
-```
-
 #### **Step 3:** Create Model
 
-Create the model. We use `LeastSquares` regression.
+Create the model. We use `Ridge` regression.
 
 ```php
-$regression = new LeastSquares(0.1); 
+$regression = new Ridge(0.00001);
 ```
 
 #### **Step 4:** Transform the Features
@@ -64,22 +58,16 @@ This creates polynomial features from original data. This transformer expands fe
 
 ```php
 // Transform features using PolynomialExpander
+$samplesTransformed = $samples;
 $expander->transform($samples);
-```
-
-Normalizes the features to improve numerical stability and ensure consistent scaling across the dataset.
-
-```php
-// Normalize features
-$normalizer->transform($samples);
 ```
 
 #### **Step 5:** Train the Model&#x20;
 
-Ridge Regression (Least Squares).  A regression algorithm that introduces regularization to minimize overfitting by penalizing large coefficients - 0.1 (regularization strength). Smaller values increase regularization.
+Ridge regression algorithm that introduces regularization to minimize overfitting by penalizing large coefficients. Smaller values increase regularization.
 
 ```php
-$regression->train($samples, $labels);
+$regression->train(new Labeled($samplesTransformed, $labels));
 ```
 
 **Step 4: Make Predictions**
@@ -90,14 +78,8 @@ Create test data and predict their values.
 // Prepare test samples
 $testSamples = [[5.5], [6], [8], [6.945], [5.631], [8.259]];
 
-// Transform test data
-$expander->transform($testSamples);
-
-// Normalize test features
-$normalizer->transform($testSamples);
-
 // Make predictions
-$predictions = $regression->predict($testSamples);
+$predictions = $regression->predict(new Unlabeled($testSamples));
 
 print_r($predictions);
 ```
@@ -109,10 +91,11 @@ print_r($predictions);
 <summary>Full Code of Example</summary>
 
 ```php
-use Phpml\Preprocessing\Normalizer;
-use Phpml\Regression\LeastSquares;
 use Rubix\ML\Datasets\Labeled;
+use Rubix\ML\Datasets\Unlabeled;
+use Rubix\ML\Extractors\CSV;
 use Rubix\ML\Transformers\PolynomialExpander;
+use Rubix\ML\Regressors\Ridge;
 
 // Step 1: Prepare your training data
 $samples = [
@@ -133,29 +116,24 @@ $dataset = new Labeled($samples, $labels);
 
 // Step 3: Create a polynomial expander transformer and normalizer
 $expander = new PolynomialExpander(3);
-$normalizer = new Normalizer();
 
 // Step 4: Create the model
-$regression = new LeastSquares(0.1);
+$regression = new Ridge(0.00001);
 
 // Step 5: Transform and normalize the features
+$samplesTransformed = $samples;
 $expander->transform($samples);
-$normalizer->transform($samples);
 
 // Step 6: Train the model
-$regression->train($samples, $labels);
+$regression->train(new Labeled($samplesTransformed, $labels));
 
 // Step 7: Make predictions
 $testSamples = [[5.5], [6], [8], [6.945], [5.631], [8.259]];
-// Transform test data
-$expander->transform($testSamples);
-// Normalize test features
-$normalizer->transform($testSamples);
+
 // Make predictions
-$predictions = $regression->predict($testSamples);
+$predictions = $regression->predict(new Unlabeled($testSamples));
 
 print_r($predictions);
-
 ```
 
 </details>
@@ -165,12 +143,12 @@ print_r($predictions);
 ```
 Price Predictions:
 -----------------
-A house with 5.5 rooms is predicted to cost $20,506.43
-A house with 6.0 rooms is predicted to cost $20,082.20
-A house with 8.0 rooms is predicted to cost $38,730.49
-A house with 6.9 rooms is predicted to cost $32,757.74
-A house with 5.6 rooms is predicted to cost $19,049.67
-A house with 8.3 rooms is predicted to cost $38,018.52
+A house with 5.5 rooms is predicted to cost $16,564.45
+A house with 6.0 rooms is predicted to cost $21,324.85
+A house with 8.0 rooms is predicted to cost $40,366.44
+A house with 6.9 rooms is predicted to cost $30,322.03
+A house with 5.6 rooms is predicted to cost $17,811.26
+A house with 8.3 rooms is predicted to cost $42,832.31
 ```
 
 **Chart:**
@@ -180,9 +158,9 @@ A house with 8.3 rooms is predicted to cost $38,018.52
 #### Key Features of RubixML Implementation:
 
 1. **PolynomialExpander**: This transformer automatically creates polynomial features up to the specified degree.
-2. **LeastSquares Regression**: Used instead of standard linear regression to prevent overfitting.
+2. **Ridge Regression**: Used instead of standard linear regression to prevent overfitting.
 3. **Regularization**: A regression algorithm that incorporates L2 regularization (also known as Ridge Regression) to reduce the risk of overfitting and improve model generalization.
-4. **Training Pipeline**: The workflow follows a structured pipeline where training data is first transformed (using PolynomialExpander and Normalizer) before training the model.
+4. **Training Pipeline**: The workflow follows a structured pipeline where training data is first transformed (using PolynomialExpander) before training the model.
 
 ***
 
