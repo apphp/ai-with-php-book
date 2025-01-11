@@ -228,7 +228,7 @@
   * [Problems and Challenges](neural-networks/overview-of-nn/problems-and-challenges.md)
   * [How NN Works](neural-networks/overview-of-nn/how-nn-works.md)
 * [NN Capabilities in PHP](neural-networks/nn-capabilities-in-php.md)
-* [Types of NN](neural-networks/types-of-nn/README.md)
+* [NN Types](neural-networks/types-of-nn/README.md)
   * [Basic NN](neural-networks/types-of-nn/basic-nn/README.md)
     * [Simple Perceptron](neural-networks/types-of-nn/basic-nn/simple-perceptron.md)
     * [Implementation in PHP](neural-networks/types-of-nn/basic-nn/implementation-in-php/README.md)
