@@ -143,12 +143,12 @@ print_r($predictions);
 ```
 Price Predictions:
 -----------------
-A house with 5.5 rooms is predicted to cost $16,564.45
-A house with 6.0 rooms is predicted to cost $21,324.85
-A house with 8.0 rooms is predicted to cost $40,366.44
-A house with 6.9 rooms is predicted to cost $30,322.03
-A house with 5.6 rooms is predicted to cost $17,811.26
-A house with 8.3 rooms is predicted to cost $42,832.31
+A house with 5.5 rooms is predicted to cost $18,039.92
+A house with 6.0 rooms is predicted to cost $20,395.93
+A house with 8.0 rooms is predicted to cost $39,254.11
+A house with 6.9 rooms is predicted to cost $32,370.76
+A house with 5.6 rooms is predicted to cost $18,172.87
+A house with 8.3 rooms is predicted to cost $37,258.75
 ```
 
 **Chart:**
@@ -168,32 +168,79 @@ A house with 8.3 rooms is predicted to cost $42,832.31
 
 PHP-ML offers a different approach to polynomial regression. Here's how to implement it:
 
+<details>
+
+<summary>Full Code of Example</summary>
+
 ```php
-use Phpml\Preprocessing\PolynomialFeatures;
+use Phpml\Dataset\CsvDataset;
 use Phpml\Regression\LeastSquares;
+use Phpml\Metric\Regression;
+use Phpml\Preprocessing\Normalizer;
+use Phpml\Math\Matrix;
 
-// Step 1: Prepare training data
-// Each sample is an array containing one feature
-$samples = [[1], [2], [3], [4], [5], [6]];
-$targets = [2.1, 4.2, 9.3, 16.4, 25.5, 36.6];
+// Prepare your training data
+$samples = [
+    [6.575], [6.421], [7.185], [6.998], [7.147], [6.430], [6.012], [6.172],
+    [5.631], [6.004], [6.377], [6.009], [5.889], [5.949], [6.096], [5.834],
+    [5.989], [8.259], [8.183], [7.853], [7.255], [6.383], [6.816], [7.420],
+    [7.685],
+];
 
-// Step 2: Create polynomial features
-// This transforms original features into polynomial features
-$polynomialFeatures = new PolynomialFeatures(2);
-$samplesTransformed = $polynomialFeatures->transform($samples);
+$targets = [
+    25.0, 22.6, 33.4, 33.4, 36.2, 28.7, 20.6, 22.9, 16.9, 18.9, 21.6,
+    18.9, 21.7, 20.4, 21.2, 19.9, 22.2, 37.7, 37.3, 40.1, 37.2, 25.7,
+    31.6, 38.7, 38.1,
+]; 
 
-// Step 3: Create and train the model
+// Create regression model
 $regression = new LeastSquares();
+
+// Polynomial expander - transform features to include squared and cubed terms
+$samplesTransformed = array_map(function($sample) {
+    return [
+       $sample[0],           // original feature
+       pow($sample[0], 2),   // squared feature
+       pow($sample[0], 3)    // cubed feature
+    ];
+}, $samples);
+
+// Train the model
+echo "\nTraining model...\n";
+
+// Train the model with original and squared features
 $regression->train($samplesTransformed, $targets);
 
-// Step 4: Prepare test data
-$testSamples = [[7], [8]];
-$testSamplesTransformed = $polynomialFeatures->transform($testSamples);
+// Prepare test samples
+$testSamples = [[5.5], [6], [8], [6.945], [5.631], [8.259]];
 
-// Step 5: Make predictions
-$predictions = $regression->predict($testSamplesTransformed);
+// Polynomial expander
+$samplesTransformed = array_map(function($sample) {
+    return [
+       $sample[0],           // original feature
+       pow($sample[0], 2),   // squared feature
+       pow($sample[0], 3)    // cubed feature
+    ];
+}, $testSamples);
+
+$predictions = $regression->predict($samplesTransformed);
 
 print_r($predictions);
+```
+
+</details>
+
+**Result:**
+
+```
+Price Predictions:
+-----------------
+A house with 5.5 rooms is predicted to cost $18,361.73
+A house with 6.0 rooms is predicted to cost $20,378.35
+A house with 8.0 rooms is predicted to cost $39,283.73
+A house with 6.9 rooms is predicted to cost $32,376.76
+A house with 5.6 rooms is predicted to cost $18,369.81
+A house with 8.3 rooms is predicted to cost $37,143.58
 ```
 
 #### Key Features of PHP-ML Implementation:
@@ -203,53 +250,6 @@ print_r($predictions);
 3. **Simple API**: More straightforward API compared to RubixML.
 
 ***
-
-### Best Practices
-
-When implementing polynomial regression in PHP, consider these best practices:
-
-1. **Feature Scaling**: Always scale your features before creating polynomial terms to prevent numerical instability:
-
-```php
-// RubixML example with scaling
-use Rubix\ML\Transformers\MinMaxScaler;
-
-$dataset->transformFeatures(new MinMaxScaler());
-$dataset->transformFeatures(new PolynomialExpander(2));
-```
-
-2. **Cross-Validation**: Use cross-validation to prevent overfitting:
-
-```php
-// RubixML example with cross-validation
-use Rubix\ML\CrossValidation\HoldOut;
-
-$validator = new HoldOut(0.2);
-$score = $validator->test($estimator, $dataset);
-```
-
-3. **Degree Selection**: Choose the polynomial degree carefully to balance between underfitting and overfitting:
-
-```php
-// Test different polynomial degrees
-foreach (range(1, 5) as $degree) {
-    $expander = new PolynomialExpander($degree);
-    // ... evaluate model performance
-}
-```
-
-### Error Handling and Validation
-
-Always include proper error handling in your implementation:
-
-```php
-phpCopytry {
-    $dataset->transformFeatures($expander);
-    $estimator->train($dataset);
-} catch (Exception $e) {
-    echo "Error during training: " . $e->getMessage();
-}
-```
 
 ### Conclusion
 
