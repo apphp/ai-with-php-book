@@ -7,7 +7,7 @@ description: >-
 
 # Introduction
 
-<figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption><p>Neural Networks and Deep Learning</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/nn-introduction.png" alt=""><figcaption><p>Neural Networks and Deep Learning</p></figcaption></figure>
 
 Neural networks are a big part of modern machine learning. They work like a simplified version of the human brain, using connected points, called neurons, to process and learn from data. By finding patterns and links in the data, neural networks help machines do things like recognize images, understand language, and make decisions with amazing accuracy.
 
