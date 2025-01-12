@@ -61,7 +61,7 @@ One of its significant drawbacks is that it may fail to reach a goal or even ide
 
 The chances of finding the goal can be improved by using a more accurate heuristic function and increasing the beam width. For instance, consider a scenario where the beam width $$\beta = 2$$. The following steps demonstrate how the algorithm may struggle to find the goal node under such conditions.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (160).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ai-problem-solving-beam-search-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Step-by-step explanation:
 
