@@ -1,8 +1,6 @@
 # Deep Learning
 
-
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (153).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/nn-deep-learning-min.png" alt="" width="563"><figcaption><p>Deep Learning</p></figcaption></figure></div>
 
 • Neural Networks (NN): Inspired by the human brain, neural networks consist of layers of interconnected nodes (neurons). These networks are used for tasks like image and speech recognition.
 

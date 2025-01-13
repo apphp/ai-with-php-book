@@ -16,7 +16,7 @@ The arrangement of these layers, including their size and complexity, determines
 
 The flexibility and power of a neural network lie in how its layers are organized and configured.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (149).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/mm-multi-layers-network-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Types of Layers
 
