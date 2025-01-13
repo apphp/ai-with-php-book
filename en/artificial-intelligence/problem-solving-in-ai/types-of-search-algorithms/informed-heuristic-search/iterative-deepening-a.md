@@ -41,7 +41,7 @@ IDA\* leverages a cost threshold to incrementally explore deeper levels of the s
 
 ### Example
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (56).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ai-problem-solving-iterative-deepening-a-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 To understand how the Iterative Deepening A\* (IDA\*) algorithm works, let’s consider a simple graph. In this graph, the numbers in parentheses represent the cost of traveling between nodes.
 
