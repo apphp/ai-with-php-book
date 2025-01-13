@@ -1,5 +1,3 @@
 # Introduction
 
-
-
-<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/robotics-introduction-min.png" alt=""><figcaption></figcaption></figure>

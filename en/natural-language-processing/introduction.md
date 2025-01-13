@@ -1,6 +1,4 @@
 # Introduction
 
-
-
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/npl-introduction-min.png" alt=""><figcaption></figcaption></figure>
 
