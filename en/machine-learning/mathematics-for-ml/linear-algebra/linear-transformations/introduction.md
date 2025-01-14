@@ -167,7 +167,7 @@ A linear transformation $$T: \mathbb{R}^n \to \mathbb{R}^m$$ has the following p
 
 Below are visualizations of common transformations:
 
-<table><thead><tr><th width="261" align="center">Scaling Transformation</th><th width="240" align="center">Rotation Transformation</th><th align="center">Reflection Transformation</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/image (173).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (172).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/image (174).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="261" align="center">Scaling Transformation</th><th width="240" align="center">Rotation Transformation</th><th align="center">Reflection Transformation</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-scaling-transformation-min.png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-rotation-transformation-min.png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-reflection-transformation-min.png" alt="" data-size="original"></td></tr></tbody></table>
 
 ### **4. Application of Matrices in Transforming Data**
 
