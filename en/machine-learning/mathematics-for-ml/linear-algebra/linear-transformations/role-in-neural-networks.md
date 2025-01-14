@@ -39,7 +39,7 @@ While linear transformations are fundamental, they alone cannot solve nonlinear 
 *   **ReLU (Rectified Linear Unit):**  $$σ(x)=max⁡(0,x)$$\
 
 
-    <div align="left"><figure><img src="../../../../.gitbook/assets/ml-linear-transformation-relu-activation-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../../.gitbook/assets/ml-linear-transformation-relu-activation-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 *   **Sigmoid:** $$σ(x)=11+e−x.\sigma(x) = \frac{1}{1 + e^{-x}}$$\
 
 
