@@ -2,7 +2,7 @@
 
 Искусственный интеллект охватывает широкий спектр специализированных областей, каждая из которых фокусируется на различных аспектах создания интеллектуальных машин. Вот некоторые из ключевых областей изучения в рамках ИИ:
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-structure-min.png" alt="" width="375"><figcaption><p>Структура ИИ</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-history-min.ru.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Области изучения
 
