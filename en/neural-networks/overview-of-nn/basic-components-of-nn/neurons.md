@@ -10,16 +10,16 @@ Biological neurons and artificial neurons share some conceptual similarities but
 
 #### **Biological Neurons**
 
-<div align="left"><figure><img src="../../../.gitbook/assets/nn-biological-neurons-min.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/nn-biological-neurons-min (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * **Major Components**: Axons, dendrites, and synapses.
 * **Functioning**: Electrical impulses from other neurons enter dendrites at synapses, where they are processed in the cell body. The processed signal is transmitted via the axon to synapses connected to other neurons.
 * **Information Storage**: Synapses can strengthen or weaken connections, enabling dynamic information storage.
-* **Scale**: The human brain contains approximately  neurons.
+* **Scale**: The human brain contains approximately neurons.
 
 #### **Artificial Neurons**
 
-<div align="left"><figure><img src="../../../.gitbook/assets/nn-artificial-neurons-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/nn-artificial-neurons-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * **Structure**: Modeled after biological neurons, with layers representing axons, dendrites, and synapses.
 * **Layered Network**:
@@ -39,13 +39,13 @@ While artificial neurons emulate some aspects of biological neurons, the human b
 
 Each neuron performs the following operations:
 
-#### **1. Receive Input:**&#x20;
+#### **1. Receive Input:**
 
 A neuron receives one or more inputs, each with an associated weight.
 
-#### **2. Weighted Sum Calculation:**&#x20;
+#### **2. Weighted Sum Calculation:**
 
-The inputs are multiplied by their respective weights and summed.&#x20;
+The inputs are multiplied by their respective weights and summed.
 
 $$z = \sum_{i=1}^n w_i \cdot x_i + b$$
 
@@ -55,9 +55,9 @@ Here:
 * $$w_i$$ is the weight for the -th input.
 * $$b$$ is the bias term, which allows the neuron to shift its activation.
 
-#### **3. Activation Function Application:**&#x20;
+#### **3. Activation Function Application:**
 
-The result  is passed through an activation function to introduce non-linearity, enabling the network to solve complex problems. Common activation functions include:
+The result is passed through an activation function to introduce non-linearity, enabling the network to solve complex problems. Common activation functions include:
 
 * Sigmoid: $$f(z) = \frac{1}{1 + e^{-z}}$$
 * ReLU (Rectified Linear Unit): $$f(z) = \max(0, z)$$
