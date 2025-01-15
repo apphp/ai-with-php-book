@@ -173,7 +173,7 @@ echo "2D Transformation Result: [" . implode(", ", $result2D) . "]\n";
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_scale_transformation_layer (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### 2. Linear Transformations in Neural Networks
 
@@ -202,7 +202,7 @@ Output after Linear Layer: [1, 7]
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_simple_linear_layer (2) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_simple_linear_layer (3).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **3. Linear Transformations in Neural Networks**
 
@@ -284,4 +284,4 @@ ReLU Output: [0, 1]
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_relu_activation_layer (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_relu_activation_layer (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
