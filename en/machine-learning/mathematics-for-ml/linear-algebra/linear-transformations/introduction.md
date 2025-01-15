@@ -45,7 +45,7 @@ For $$\mathbf{x} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$, the output is: $$T\le
 
 Scaling transforms a square grid, stretching it vertically and horizontally:
 
-<table><thead><tr><th width="383" align="center">Original Grid</th><th align="center">Scaled Grid (2x, 3y)</th></tr></thead><tbody><tr><td align="center"><img src="broken-reference" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-scaled-grid-min.png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="376" align="center">Original Grid</th><th align="center">Scaled Grid (2x, 3y)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-original-grid-2d-min (1).png" alt="" data-size="original"></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-scaled-grid-min.png" alt="" data-size="original"></td></tr></tbody></table>
 
 <details>
 
@@ -187,4 +187,4 @@ Rotating $$x = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$$:
 
 $$Ax = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$$
 
-<table><thead><tr><th width="386" align="center">Original Grid</th><th align="center">Rotated Grid (90°)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-original-grid-min.png" alt=""></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-rotated-grid-min.png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="386" align="center">Original Grid</th><th align="center">Rotated Grid (90°)</th></tr></thead><tbody><tr><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-original-grid-min (1).png" alt=""></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-rotated-grid-min.png" alt="" data-size="original"></td></tr></tbody></table>

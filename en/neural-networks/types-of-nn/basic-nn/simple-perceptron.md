@@ -14,7 +14,7 @@ A Simple Perceptron consists of:
     \
 
 
-    <div align="left"><figure><img src="../../../.gitbook/assets/nn-simple-perceptron-structure-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../.gitbook/assets/nn-simple-perceptron-structure-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Working Mechanism
 
