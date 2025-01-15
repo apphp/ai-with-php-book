@@ -6,7 +6,7 @@ The idea of Artificial Intelligence isn’t new — its roots stretch back to an
 
 <div align="left"><figure><img src="../../.gitbook/assets/ai-history-min.en.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-One of the trailblazers in this field was British mathematician Alan Turing. In 1950, he introduced the famous Turing test—a simple but powerful idea for assessing whether a machine could behave intelligently enough to fool a human into thinking it was also human. This sparked a huge wave of excitement and research, as scientists began trying to create machines that could do things like play chess, solve math problems, and understand human language.
+One of the trailblazers in this field was British mathematician Alan Turing. In 1950, he introduced the famous Turing test — a simple but powerful idea for assessing whether a machine could behave intelligently enough to fool a human into thinking it was also human. This sparked a huge wave of excitement and research, as scientists began trying to create machines that could do things like play chess, solve math problems, and understand human language.
 
 Since then, AI has come a long way. The 1980s and 90s were all about expert systems, which aimed to replicate human decision-making. Fast forward to the 2000s, and the explosion of big data, combined with powerful computers, led to breakthroughs in machine learning, deep learning, and AI applications. Suddenly, machines were not just playing games or solving puzzles—they were recognizing faces, understanding speech, and even driving cars on their own.
 
@@ -16,7 +16,7 @@ The field of Artificial Intelligence has been shaped by the contributions of bot
 
 ### Pioneers and Visionaries
 
-The early development of AI was fueled by the work of brilliant minds whose ideas laid the foundation for what the field has become today. These pioneers imagined a future where machines could think, learn, and adapt—an idea that was revolutionary for their time.
+The early development of AI was fueled by the work of brilliant minds whose ideas laid the foundation for what the field has become today. These pioneers imagined a future where machines could think, learn, and adapt — an idea that was revolutionary for their time.
 
 #### 1. Alan Turing
 
