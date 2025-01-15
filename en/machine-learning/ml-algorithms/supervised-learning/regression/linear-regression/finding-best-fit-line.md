@@ -8,7 +8,7 @@ Our primary objective while using linear regression is to locate the best-fit li
 
 
 
-<figure><img src="../../../../../.gitbook/assets/ml-finding-best-fit-line-min.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/ml-finding-best-fit-line-min (1).gif" alt=""><figcaption></figcaption></figure>
 
 
 
