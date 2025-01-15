@@ -83,7 +83,7 @@ _Пример проблемы_: робот-доставщик может исп
 
 Эти агенты не только достигают целей, но и оценивают качество достижения. Они используют функции полезности, чтобы выбирать действия, максимизирующие удовлетворённость или выгоду.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-types-of-ai-agents-utility-min (1).png" alt="" width="563"><figcaption><p>Агенты, основанные на полезности</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../en/.gitbook/assets/ai-types-of-ai-agents-utility-min.png" alt="" width="563"><figcaption><p>Агенты, основанные на полезности</p></figcaption></figure></div>
 
 **Характеристики**:
 
