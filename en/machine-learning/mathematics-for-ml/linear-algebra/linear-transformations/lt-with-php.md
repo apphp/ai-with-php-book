@@ -242,7 +242,7 @@ Output after Fully Connected Layer: [8, 5]
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_fully_connected_layer (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_fully_connected_layer (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **4. Activation Functions and the Importance of Nonlinearities**
 
@@ -282,4 +282,4 @@ ReLU Output: [0, 1]
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_relu_activation_layer (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_relu_activation_layer (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>

@@ -8,7 +8,7 @@ Unstructured data lacks a predefined data model or organization. It's often text
 
 #### Text Processing and Natural Language Data&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-txt-min.png" alt="" width="104"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-txt-min (1).png" alt="" width="104"><figcaption></figcaption></figure></div>
 
 This includes free-form text like articles, social media posts, or customer reviews.
 
@@ -28,7 +28,7 @@ $word_count = count($words);
 
 #### Image Data Formats&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-img-min.png" alt="" width="103"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-img-min (1).png" alt="" width="103"><figcaption></figcaption></figure></div>
 
 Common formats include JPEG, PNG, TIFF, and raw image data.
 
@@ -48,7 +48,7 @@ $height = imagesy($image);
 
 #### Audio Data Considerations Formats&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-aud-min.png" alt="" width="105"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-aud-min (1).png" alt="" width="105"><figcaption></figcaption></figure></div>
 
 Common formats include WAV, MP3, AAC, and raw audio data.
 
@@ -69,7 +69,7 @@ $duration = $file_info['playtime_seconds'];
 
 #### Video Data Considerations&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-vid-min.png" alt="" width="102"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-vid-min (1).png" alt="" width="102"><figcaption></figcaption></figure></div>
 
 Common formats include MP4, AVI, MOV, and raw video frames.
 
