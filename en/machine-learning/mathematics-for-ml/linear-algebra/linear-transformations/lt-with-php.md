@@ -1,6 +1,6 @@
 # LT with PHP
 
-In addition in PHP  it can be written as a class **LinearTransformation** with implementation of a set of linear transformation operations.
+In addition in PHP it can be written as a class **LinearTransformation** with implementation of a set of linear transformation operations.
 
 <details>
 
@@ -165,7 +165,7 @@ $result2D = $transformation2D->transform($vector2D);
 echo "2D Transformation Result: [" . implode(", ", $result2D) . "]\n";
 ```
 
-**Output:**&#x20;
+**Output:**
 
 ```
 2D Transformation Result: [2, 6]
@@ -173,11 +173,11 @@ echo "2D Transformation Result: [" . implode(", ", $result2D) . "]\n";
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_scale_transformation_layer (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_scale_transformation_layer (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### 2. Linear Transformations in Neural Networks
 
-In neural networks, linear transformations are represented as: $$𝑦 = 𝑊 𝑥 + 𝑏$$. \
+In neural networks, linear transformations are represented as: $$𝑦 = 𝑊 𝑥 + 𝑏$$.\
 Here, $$W$$ is a weight matrix, $$x$$ is the input, and $$b$$ is the bias vector.
 
 #### Example: Simple Linear Layer
@@ -232,7 +232,7 @@ echo "Output after Fully Connected Layer: [" . implode(", ", $result) . "]";
 
 $$y = \begin{bmatrix} 3 & 2 \\ -1 & 4 \end{bmatrix} \begin{bmatrix} 1 \\ 2 \end{bmatrix} + \begin{bmatrix} 1 \\ -2 \end{bmatrix}$$
 
-Performing the calculation:  $$y = \begin{bmatrix} 7 \\ 7 \end{bmatrix} + \begin{bmatrix} 1 \\ -2 \end{bmatrix} = \begin{bmatrix} 8 \\ 5 \end{bmatrix}$$
+Performing the calculation: $$y = \begin{bmatrix} 7 \\ 7 \end{bmatrix} + \begin{bmatrix} 1 \\ -2 \end{bmatrix} = \begin{bmatrix} 8 \\ 5 \end{bmatrix}$$
 
 **Output:**
 
@@ -242,7 +242,7 @@ Output after Fully Connected Layer: [8, 5]
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_fully_connected_layer (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_fully_connected_layer (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **4. Activation Functions and the Importance of Nonlinearities**
 
@@ -282,5 +282,4 @@ ReLU Output: [0, 1]
 
 **Result Visualization**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_relu_activation_layer (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
-
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_relu_activation_layer (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
