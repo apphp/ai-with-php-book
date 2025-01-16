@@ -7,7 +7,7 @@ description: >-
 
 # Введение
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ml-introduction-min.png" alt=""><figcaption><p>Введение</p></figcaption></figure>
 
 Вместо того чтобы полагаться на фиксированные правила, алгоритмы машинного обучения выявляют закономерности и принимают решения на основе полученных данных. Эта способность учиться на опыте делает машинное обучение особенно полезным в различных приложениях.&#x20;
 
