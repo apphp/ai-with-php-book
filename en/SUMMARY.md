@@ -253,6 +253,7 @@
 ## Natural Language Processing
 
 * [Introduction](natural-language-processing/introduction.md)
+* [Overview of NLP](natural-language-processing/overview-of-nlp.md)
 * [NLP Capabilities in PHP](natural-language-processing/nlp-capabilities-in-php/README.md)
   * [Overview of NLP Libraries in PHP](natural-language-processing/nlp-capabilities-in-php/overview-of-nlp-libraries-in-php.md)
 
