@@ -262,7 +262,7 @@
     * [20th Century](natural-language-processing/overview-of-nlp/history-of-nlp/20th-century.md)
     * [21st Century](natural-language-processing/overview-of-nlp/history-of-nlp/21st-century.md)
     * [Coming Years](natural-language-processing/overview-of-nlp/history-of-nlp/coming-years.md)
-    * [Page](natural-language-processing/overview-of-nlp/history-of-nlp/page.md)
+    * [Timeline and Milestones](natural-language-processing/overview-of-nlp/history-of-nlp/timeline-and-milestones.md)
   * [Key Concepts in NLP](natural-language-processing/overview-of-nlp/key-concepts-in-nlp.md)
   * [Machine Learning Role in NLP](natural-language-processing/overview-of-nlp/machine-learning-role-in-nlp.md)
   * [Common Challenges in NLP](natural-language-processing/overview-of-nlp/common-challenges-in-nlp.md)

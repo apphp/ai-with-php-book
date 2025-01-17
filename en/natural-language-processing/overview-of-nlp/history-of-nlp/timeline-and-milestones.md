@@ -1,25 +1,52 @@
-# Page
+# Timeline and Milestones
 
 {% stepper %}
 {% step %}
-1950
+#### **1950**
 
 **Alan Turing publishes 'Computing Machinery and Intelligence**\
 Introduced the Turing test as a measure of machine intelligence
 {% endstep %}
 
 {% step %}
-1954
+#### **1954**
 
 **Georgetown-IBM Experiment**\
 First public demonstration of machine translation, translating Russian sentences to English
 {% endstep %}
 
 {% step %}
-1956
+#### **1956**
 
 **Artificial Intelligence officially coined**\
 Term introduced at the Dartmouth Conference, marking the birth of AI as a field
+{% endstep %}
+
+{% step %}
+#### **1964**
+
+**ELIZA**\
+Joseph Weizenbaum creates ELIZA, the first chatbot using pattern matching and substitution
+{% endstep %}
+
+{% step %}
+#### 1969
+
+**First Natural Language Understanding Program**\
+Roger Schank develops conceptual dependency theory for natural language understanding
+{% endstep %}
+
+{% step %}
+#### **1980s**
+
+**Statistical NLP Emergence**\
+Shift from rule-based to statistical methods in NLP, introducing probabilistic models
+{% endstep %}
+
+{% step %}
+###
+
+
 {% endstep %}
 
 {% step %}
@@ -31,29 +58,15 @@ Term introduced at the Dartmouth Conference, marking the birth of AI as a field
 {% step %}
 
 
+####
 
 
-1956
+
+
 
 ####
 
-1964
 
-#### ELIZA
-
-Joseph Weizenbaum creates ELIZA, the first chatbot using pattern matching and substitution
-
-1969
-
-#### First Natural Language Understanding Program
-
-Roger Schank develops conceptual dependency theory for natural language understanding
-
-1980s
-
-#### Statistical NLP Emergence
-
-Shift from rule-based to statistical methods in NLP, introducing probabilistic models
 
 1997
 
