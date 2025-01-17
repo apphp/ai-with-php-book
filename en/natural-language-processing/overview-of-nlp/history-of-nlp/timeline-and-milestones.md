@@ -1,78 +1,81 @@
 # Timeline and Milestones
 
+
+
 {% stepper %}
 {% step %}
-#### **1950**
+**1950**
 
 **Alan Turing publishes 'Computing Machinery and Intelligence**\
 Introduced the Turing test as a measure of machine intelligence
 {% endstep %}
 
 {% step %}
-#### **1954**
+**1954**
 
 **Georgetown-IBM Experiment**\
 First public demonstration of machine translation, translating Russian sentences to English
 {% endstep %}
 
 {% step %}
-#### **1956**
+**1956**
 
 **Artificial Intelligence officially coined**\
 Term introduced at the Dartmouth Conference, marking the birth of AI as a field
 {% endstep %}
 
 {% step %}
-#### **1964**
+**1964**
 
 **ELIZA**\
 Joseph Weizenbaum creates ELIZA, the first chatbot using pattern matching and substitution
 {% endstep %}
 
 {% step %}
-#### 1969
+1969&#x20;
 
 **First Natural Language Understanding Program**\
 Roger Schank develops conceptual dependency theory for natural language understanding
 {% endstep %}
 
 {% step %}
-#### **1980s**
+**1980s**
 
 **Statistical NLP Emergence**\
 Shift from rule-based to statistical methods in NLP, introducing probabilistic models
 {% endstep %}
 
 {% step %}
-###
+**1997**
 
-
-{% endstep %}
-
-{% step %}
-###
-
-
-{% endstep %}
-
-{% step %}
-
-
-####
-
-
-
-
-
-####
-
-
-
-1997
-
-#### IBM Watson Project Begins
-
+**IBM Watson Project Begins**\
 Development starts on question-answering system that would later win Jeopardy!
+{% endstep %}
+
+{% step %}
+###
+
+
+{% endstep %}
+
+{% step %}
+
+
+####
+
+
+
+
+
+####
+
+
+
+
+
+####
+
+
 
 2001
 
