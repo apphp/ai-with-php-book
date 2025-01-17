@@ -26,8 +26,6 @@ Often referred to as the father of modern computer science, Alan Turing’s 1950
 
 #### 2. John McCarthy
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-john-mccarthy-min (1).png" alt="" width="188"><figcaption><p>John McCarthy</p></figcaption></figure></div>
-
 In 1956, John McCarthy coined the term “Artificial Intelligence” during the Dartmouth Conference, which is considered the birth of AI as a distinct field of study. McCarthy’s contributions include the development of Lisp, a programming language widely used in AI research. His work in symbolic reasoning and problem-solving helped establish the core areas of early AI research, particularly in logic-based approaches.
 
 #### 3. Marvin Minsky
