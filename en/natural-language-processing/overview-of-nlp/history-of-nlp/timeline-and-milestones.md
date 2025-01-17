@@ -1,6 +1,27 @@
 # Timeline and Milestones
 
+### 20th Century
 
+{% stepper %}
+{% step %}
+**1920-1930s**
+
+Bertrand Russell and Alfred North Whitehead’s _Principia Mathematica_\
+This work providing a framework for structured reasoning.
+{% endstep %}
+
+{% step %}
+**1940s**
+
+**Zuse’s Z3**: Konrad Zuse built one of the first programmable computers, setting the stage for practical applications in computing.
+
+**World War II Cryptography**: Cryptographers like Alan Turing were working on deciphering languages and codes, especially during World War II.&#x20;
+{% endstep %}
+{% endstepper %}
+
+
+
+### 21st Century
 
 {% stepper %}
 {% step %}
