@@ -253,9 +253,25 @@
 ## Natural Language Processing
 
 * [Introduction](natural-language-processing/introduction.md)
-* [Overview of NLP](natural-language-processing/overview-of-nlp.md)
+* [Overview of NLP](natural-language-processing/overview-of-nlp/README.md)
+  * [History of NLP](natural-language-processing/overview-of-nlp/history-of-nlp.md)
+  * [Key Concepts in NLP](natural-language-processing/overview-of-nlp/key-concepts-in-nlp.md)
+  * [Machine Learning Role in NLP](natural-language-processing/overview-of-nlp/machine-learning-role-in-nlp.md)
+  * [Common Challenges in NLP](natural-language-processing/overview-of-nlp/common-challenges-in-nlp.md)
 * [NLP Capabilities in PHP](natural-language-processing/nlp-capabilities-in-php/README.md)
   * [Overview of NLP Libraries in PHP](natural-language-processing/nlp-capabilities-in-php/overview-of-nlp-libraries-in-php.md)
+  * [Challenges in NLP with PHP](natural-language-processing/nlp-capabilities-in-php/challenges-in-nlp-with-php.md)
+* [NLP Techniques](natural-language-processing/nlp-techniques/README.md)
+  * [Techniques and Algorithms in NLP](natural-language-processing/nlp-techniques/techniques-and-algorithms-in-nlp/README.md)
+    * [Basic NLP Techniques](natural-language-processing/nlp-techniques/techniques-and-algorithms-in-nlp/basic-nlp-techniques.md)
+    * [Advanced NLP Techniques](natural-language-processing/nlp-techniques/techniques-and-algorithms-in-nlp/advanced-nlp-techniques.md)
+  * [NLP Workflow](natural-language-processing/nlp-techniques/nlp-workflow.md)
+  * [Popular Tools and Frameworks for NLP](natural-language-processing/nlp-techniques/popular-tools-and-frameworks-for-nlp.md)
+  * [Basic Text Processing with PHP](natural-language-processing/nlp-techniques/basic-text-processing-with-php.md)
+  * [Advanced NLP Topics](natural-language-processing/nlp-techniques/advanced-nlp-topics.md)
+* [Integrating NLP into Web](natural-language-processing/integrating-nlp-into-web.md)
+* [Key Applications of NLP](natural-language-processing/key-applications-of-nlp.md)
+* [Practice](natural-language-processing/practice.md)
 
 ## Computer Vision
 
