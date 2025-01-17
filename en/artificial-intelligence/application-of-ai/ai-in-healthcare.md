@@ -4,6 +4,8 @@
 
 AI is revolutionizing healthcare by improving diagnostics, personalizing treatments, and streamlining clinical workflows. It allows for faster and more accurate analysis of medical data, leading to better patient outcomes.
 
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-healthcare-min.png" alt="" width="375"><figcaption><p>AI in Healthcare</p></figcaption></figure></div>
+
 ### AI in Cancer Diagnosis
 
 One of the most promising applications of AI in healthcare is in medical imaging. **IBM’s Watson Health**, along with other AI-driven diagnostic tools, is used to analyze radiology images to detect early signs of cancer, such as breast cancer, with greater accuracy. In 2020, **Google Health** developed an AI system capable of identifying breast cancer in mammograms more effectively than human radiologists. By applying deep learning models, AI systems can analyze thousands of medical images, reducing human error and improving early detection rates.
