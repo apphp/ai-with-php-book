@@ -17,6 +17,6 @@
 Каждый агент способен воспринимать свои собственные действия (хотя далеко не всегда — их последствия).
 {% endhint %}
 
-<div align="left"><figure><img src="../../../en/.gitbook/assets/ai-components-of-agents-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../en/.gitbook/assets/ai-components-of-agents-min.en (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Помимо этого, у агента ИИ есть система обучения. Она позволяет агенту учиться на собственном опыте и взаимодействии с окружающей средой. Система обучения использует такие методы, как обучение с подкреплением, обучение с учителем и без учителя, чтобы со временем повышать эффективность агента.
