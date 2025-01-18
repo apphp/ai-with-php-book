@@ -260,7 +260,7 @@
   * [History of NLP](natural-language-processing/overview-of-nlp/history-of-nlp/README.md)
     * [Ancient Times](natural-language-processing/overview-of-nlp/history-of-nlp/ancient-times.md)
     * [Medieval Period](natural-language-processing/overview-of-nlp/history-of-nlp/medieval-period.md)
-    * [18th Century](natural-language-processing/overview-of-nlp/history-of-nlp/18th-century.md)
+    * [17th-18th Century](natural-language-processing/overview-of-nlp/history-of-nlp/18th-century.md)
     * [19th Century](natural-language-processing/overview-of-nlp/history-of-nlp/19th-century.md)
     * [20th Century](natural-language-processing/overview-of-nlp/history-of-nlp/20th-century.md)
     * [21st Century](natural-language-processing/overview-of-nlp/history-of-nlp/21st-century.md)
