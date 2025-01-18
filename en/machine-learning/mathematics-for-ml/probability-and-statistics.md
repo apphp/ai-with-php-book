@@ -6,14 +6,17 @@
 
 Basic Probability Concepts
 
+* Fundamentals of Probability
+* Discrete and Continuous Distributions
+* Joint and Marginal Probabilities
 * Probability spaces, events, and outcomes
 * Conditional probability and independence
-* Random Variables and Distributions
+* Random Variables and Distributions, Expectations
 * Discrete and continuous random variables
 * Common probability distributions: Normal, Binomial, Poisson, etc.
 * Expectation and Variance
 * **Mathematical Expectation and Algorithm Evaluation**
-* Mean, variance, and standard deviation
+* Statistical Measures: Mean, Variance, and Standard Deviation
 * Covariance and correlation
 * Statistical Inference
 * Hypothesis testing and confidence intervals
@@ -24,7 +27,7 @@ Basic Probability Concepts
   * Data Visualization in AI
   * Statistical Inference for Supervised Learning
   * Hypothesis Testing in Validation of AI Models:
-* Bayes' theorem and its application in machine learning
+* Conditional Probability and Bayes’ Theorem and its application in machine learning
   * Application in Bayesian Classification
   * Probabilistic Graphic Models
   * Bayesian Learning Algorithms

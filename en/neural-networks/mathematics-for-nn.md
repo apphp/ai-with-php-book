@@ -8,58 +8,60 @@
 
 
 
-#### 5. Linear and Nonlinear Activation Functions
+#### 2. Linear and Nonlinear Activation Functions
 
-5.1. Linear functions
+2.1. Linear functions
 
-5.2. Nonlinear functions (ReLU, Leaky ReLU, Tanh, etc.)
+2.2. Nonlinear functions (ReLU, Leaky ReLU, Tanh, etc.)
 
-5.3. Graphical analysis of activation functions
+2.3. Graphical analysis of activation functions  (Sigmoid, ReLU, Softmax)
 
-
-
-#### 6. Gradient Matrices and Backpropagation
-
-6.1. The basic idea of backpropagation
-
-6.2. Gradient computation using the chain rule
-
-6.3. Examples in PHP
+2.4 Loss Functions (Cross-Entropy, Mean Squared Error)
 
 
 
-#### 7. Regularization in Neural Networks
+#### 3. Gradient Matrices and Backpropagation
 
-7.1. What is overfitting?
+3.1. The basic idea of backpropagation (Backpropagation and Weight Optimization)
 
-7.2. Regularization methods (L1, L2, Dropout)
+3.2. Gradient computation using the chain rule
 
-7.3. Mathematical justification for regularization
-
-
-
-#### 8. Numerical Methods and Computation
-
-8.1. Numerical stability in neural networks
-
-8.2. The concept of vanishing and exploding gradients
-
-8.3. Practical techniques for numerical optimization
+3.3. Examples in PHP
 
 
 
-#### 9. Entropy and Cross-Entropy
+#### 4. Regularization in Neural Networks
 
-9.1. The concept of entropy
+4.1 What is overfitting?
 
-9.2. Cross-entropy loss function
+4.2. Regularization methods (L1, L2, Dropout)
 
-9.3. Implementation of the loss function in PHP
+4.3. Mathematical justification for regularization
 
 
 
-#### 10. Conclusion: Combining Mathematics and Programming
+#### 5. Numerical Methods and Computation
 
-10.1. How mathematics aids in building efficient neural networks
+5.1. Numerical stability in neural networks
 
-10.2. Recommendations for further study
+5.2. The concept of vanishing and exploding gradients
+
+5.3. Practical techniques for numerical optimization
+
+
+
+#### 6. Entropy and Cross-Entropy
+
+6.1 The concept of entropy
+
+6.2. Cross-entropy loss function
+
+6.3. Implementation of the loss function in PHP
+
+
+
+#### 7. Conclusion: Combining Mathematics and Programming
+
+7.1. How mathematics aids in building efficient neural networks
+
+7.2. Recommendations for further study

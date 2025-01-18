@@ -2,7 +2,9 @@
 
 <div align="left"><figure><img src="../../.gitbook/assets/ml-information-theory-min.png" alt="" width="375"><figcaption><p>Information Theory</p></figcaption></figure></div>
 
-• Entropy and Information Gain
+
+
+• Entropy and Cross-Entropy,  and Information Gain
 
 • Definition of entropy and its significance in measuring uncertainty
 
