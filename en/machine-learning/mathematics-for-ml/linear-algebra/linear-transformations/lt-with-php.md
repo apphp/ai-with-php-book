@@ -240,11 +240,7 @@ Performing the calculation: $$y = \begin{bmatrix} 7 \\ 7 \end{bmatrix} + \begin{
 Output after Fully Connected Layer: [8, 5]
 ```
 
-**Result Visualization**:&#x20;
-
-
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml_transform_fully_connected_layer.en.png" alt="" width="375"><figcaption></figcaption></figure></div>
+**Result Visualization:**
 
 ### **4. Activation Functions and the Importance of Nonlinearities**
 
