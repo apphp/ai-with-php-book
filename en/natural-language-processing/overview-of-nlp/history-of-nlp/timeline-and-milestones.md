@@ -19,8 +19,6 @@ This work providing a framework for structured reasoning.
 {% endstep %}
 {% endstepper %}
 
-
-
 ### 21st Century
 
 {% stepper %}
@@ -53,7 +51,7 @@ Joseph Weizenbaum creates ELIZA, the first chatbot using pattern matching and su
 {% endstep %}
 
 {% step %}
-1969&#x20;
+**1969**&#x20;
 
 **First Natural Language Understanding Program**\
 Roger Schank develops conceptual dependency theory for natural language understanding
