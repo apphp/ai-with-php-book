@@ -242,6 +242,8 @@ Output after Fully Connected Layer: [8, 5]
 
 **Result Visualization:**
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-transform-fully-connected-layer.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 ### **4. Activation Functions and the Importance of Nonlinearities**
 
 Linear transformations alone cannot solve complex, nonlinear problems. **Activation functions** like ReLU or Sigmoid introduce nonlinearity to the network.
