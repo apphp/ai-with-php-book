@@ -200,9 +200,7 @@ SimpleXMLElement Object
 
 </details>
 
-#### Parquet&#x20;
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-parquet-min.png" alt="" width="103"><figcaption></figcaption></figure></div>
+#### Parquet
 
 Parquet is a columnar storage file format, optimized for use with big data processing frameworks.
 
