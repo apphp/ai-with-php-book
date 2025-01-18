@@ -173,6 +173,8 @@ echo "2D Transformation Result: [" . implode(", ", $result2D) . "]\n";
 
 **Result Visualization**:
 
+<figure><img src="../../../../.gitbook/assets/ml-transform-simple-linear-layer (1).png" alt=""><figcaption></figcaption></figure>
+
 ### 2. Linear Transformations in Neural Networks
 
 In neural networks, linear transformations are represented as: $$𝑦 = 𝑊 𝑥 + 𝑏$$.\
