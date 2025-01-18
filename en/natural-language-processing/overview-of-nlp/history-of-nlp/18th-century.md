@@ -33,7 +33,7 @@ Key Figures:
 
 The 18th century witnessed significant efforts to codify and standardize languages, providing essential resources for later computational linguistics:
 
-* **Samuel Johnson’s Dictionary of the English Language (1755)**: A monumental achievement in lexicography, it cataloged English words with definitions and usage examples.
+* Samuel Johnson’s Dictionary of the English Language (1755): A monumental achievement in lexicography, it cataloged English words with definitions and usage examples.
 *   Example in NLP:
 
     Early dictionaries provided the groundwork for word embedding models, which rely on lexical resources to map words to meanings.
@@ -42,7 +42,7 @@ The 18th century witnessed significant efforts to codify and standardize languag
 
 Scholars began systematically comparing languages to understand their origins and relationships:
 
-* **Sir William Jones (1746–1794)**: Discovered the Indo-European language family, demonstrating systematic relationships between languages. His work laid the foundation for understanding syntactic and morphological structures, essential in NLP for multilingual systems.
+* Sir William Jones (1746–1794): Discovered the Indo-European language family, demonstrating systematic relationships between languages. His work laid the foundation for understanding syntactic and morphological structures, essential in NLP for multilingual systems.
 
 ### **3. Emergence of Logical Systems**
 
@@ -50,11 +50,12 @@ Scholars began systematically comparing languages to understand their origins an
 
 Developed by Antoine Arnauld and Claude Lancelot in the late 17th century but widely influential into the 18th century, the _Grammaire générale et raisonnée_ (General and Rational Grammar) presented language as a system of logic and reasoning.
 
-* **Key Concepts**:
+* Key Concepts:
   * Universal structures underpin human languages.
   * Language is a reflection of thought.
-* Example in NLP:
-  * The emphasis on universal structures and logical relations prefigures formal language theories used in computational syntax and semantics.
+*   Example in NLP:
+
+    The emphasis on universal structures and logical relations prefigures formal language theories used in computational syntax and semantics.
 
 #### **David Hume’s Philosophical Contributions**
 
