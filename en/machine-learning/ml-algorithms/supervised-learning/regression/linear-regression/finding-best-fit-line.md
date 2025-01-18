@@ -4,8 +4,6 @@
 
 Our primary objective while using linear regression is to locate the best-fit line, which implies that the error between the predicted and actual values should be kept to a minimum. There will be the least error in the best-fit line.
 
-<figure><img src="../../../../../.gitbook/assets/ml-finding-best-fit-line-min (2).gif" alt=""><figcaption></figcaption></figure>
-
 The best Fit Line equation provides a straight line that represents the relationship between the dependent and independent variables. The slope of the line indicates how much the dependent variable changes for a unit change in the independent variable(s).
 
 <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-finding-best-fit-line-linear-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
