@@ -202,6 +202,8 @@ Output after Linear Layer: [1, 7]
 
 **Result Visualization**:
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-transform-simple-linear-layer.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 ### **3. Linear Transformations in Neural Networks**
 
 In a neural network, each layer applies a linear transformation followed by an activation function: $$y=Wx+b$$.
