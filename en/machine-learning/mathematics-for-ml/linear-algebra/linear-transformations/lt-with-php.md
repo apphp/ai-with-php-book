@@ -280,4 +280,4 @@ Original values: [-9, 1]
 ReLU Output: [0, 1]
 ```
 
-**Result Visualization**
+**Result Visualization:**
