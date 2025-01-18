@@ -281,3 +281,5 @@ ReLU Output: [0, 1]
 ```
 
 **Result Visualization:**
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-transform-relu-activation-layer.png" alt="" width="563"><figcaption></figcaption></figure></div>
