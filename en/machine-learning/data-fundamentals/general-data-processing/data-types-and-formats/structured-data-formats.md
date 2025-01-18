@@ -258,6 +258,8 @@ City: London
 
 #### HDF5 (Hierarchical Data Format version 5)&#x20;
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-hdf5-min.png" alt="" width="103"><figcaption></figcaption></figure></div>
+
 HDF5 is a file format designed to store and organize large amounts of numerical data.
 
 Pros:
