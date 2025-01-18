@@ -19,6 +19,8 @@ Biological neurons and artificial neurons share some conceptual similarities but
 
 #### **Artificial Neurons**
 
+<div align="left"><figure><img src="../../../.gitbook/assets/nn-artificial-neurons-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 * **Structure**: Modeled after biological neurons, with layers representing axons, dendrites, and synapses.
 * **Layered Network**:
   * **Input Layer**: Receives external signals.
