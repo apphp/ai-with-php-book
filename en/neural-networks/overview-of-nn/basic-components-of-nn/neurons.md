@@ -10,6 +10,8 @@ Biological neurons and artificial neurons share some conceptual similarities but
 
 #### **Biological Neurons**
 
+<div align="left"><figure><img src="../../../.gitbook/assets/nn-biological-neurons-min.png" alt=""><figcaption></figcaption></figure></div>
+
 * **Major Components**: Axons, dendrites, and synapses.
 * **Functioning**: Electrical impulses from other neurons enter dendrites at synapses, where they are processed in the cell body. The processed signal is transmitted via the axon to synapses connected to other neurons.
 * **Information Storage**: Synapses can strengthen or weaken connections, enabling dynamic information storage.
