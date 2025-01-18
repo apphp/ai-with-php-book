@@ -11,7 +11,7 @@ During the medieval period, there were significant advancements in linguistics, 
 * **Sibawayh (8th Century)**:
   * His seminal work, _Al-Kitab_, focused on the syntax, phonetics, and morphology of Arabic. He introduced precise rules for understanding sentence structure and word formation, concepts foundational to NLP tasks like syntactic parsing and morphological analysis.
   * Example in NLP: Parsing Arabic text or tokenizing words for computational processing often draws upon principles of syntax and phonology discussed by Sibawayh.
-* **Hebrew Grammar**:
+* **Hebrew Grammar (12th Century)**:
   * Jewish scholars like **Judah ibn Tibbon** standardized Hebrew grammar and lexicons. These efforts formalized linguistic rules, aiding in the development of translation systems and language modeling.
   * Example in NLP: Understanding how ancient grammarians dealt with root-based languages like Hebrew is relevant for modern morphological analyzers.
 
