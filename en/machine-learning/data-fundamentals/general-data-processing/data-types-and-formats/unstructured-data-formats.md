@@ -48,6 +48,8 @@ $height = imagesy($image);
 
 #### Audio Data Considerations Formats
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-aud-min.png" alt="" width="105"><figcaption></figcaption></figure></div>
+
 Common formats include WAV, MP3, AAC, and raw audio data.
 
 Considerations:
