@@ -58,7 +58,7 @@ _Example Problem:_ A model-based agent in a self-driving car may struggle if its
 
 Goal-based agents advance further by incorporating goals to drive their behavior. Instead of merely reacting to current conditions, these agents assess actions based on their potential to achieve specific objectives. Goal-based agents require more computation, as they must evaluate different options and predict which actions will bring them closer to their goals.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-types-of-ai-agents-goal-min.png" alt="" width="563"><figcaption><p>Goal-Based Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../ru2/.gitbook/assets/ai-types-of-ai-agents-goal-min (1).png" alt="" width="563"><figcaption><p>Goal-Based Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
