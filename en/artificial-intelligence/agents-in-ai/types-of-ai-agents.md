@@ -108,7 +108,7 @@ _Example Problem:_ A utility-based agent in an autonomous vehicle might prioriti
 
 Learning agents are equipped with mechanisms to _learn from experience_. They possess components like learning elements and performance elements that allow them to adapt to new situations, improving their decision-making capabilities over time. These agents can explore new actions, receive feedback, and modify their strategies based on the feedback received, making them highly adaptable.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-types-of-ai-agents-learning-min.png" alt="" width="563"><figcaption><p>Learning Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../ru2/.gitbook/assets/ai-types-of-ai-agents-learning-min (1).png" alt="" width="563"><figcaption><p>Learning Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
