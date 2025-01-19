@@ -4,8 +4,6 @@ Shaping the Future of Learning
 
 Artificial Intelligence is transforming the education sector, offering new tools and methods for personalized learning, automating administrative tasks, and enhancing the overall student experience. From adaptive learning platforms to intelligent tutoring systems, AI is revolutionizing how students learn, teachers teach, and institutions operate. Let’s explore the various ways AI is making an impact on education.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-in-education-min.en (5).png" alt="" width="375"><figcaption><p>AI in Education</p></figcaption></figure></div>
-
 ### Personalized Learning
 
 AI’s ability to analyze data and adapt to individual learning styles has made personalized learning one of the most transformative applications in education. By assessing a student’s strengths, weaknesses, and preferences, AI can tailor learning content to meet their specific needs, providing a customized learning experience.
