@@ -283,8 +283,6 @@ $dataset = $file->getDataset('mydata');
 
 #### ARFF (Attribute-Relation File Format)
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-arff-min.png" alt="" width="101"><figcaption></figcaption></figure></div>
-
 ARFF  is a text-based file format used to represent structured data, primarily for use in machine learning experiments. It was developed for the Weka data mining software and is widely used in AI and ML to store datasets that contain both metadata and actual data instances.
 
 Pros of ARFF:
