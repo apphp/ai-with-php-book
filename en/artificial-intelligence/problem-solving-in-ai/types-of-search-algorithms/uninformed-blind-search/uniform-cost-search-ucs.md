@@ -57,8 +57,6 @@ $$S→A→D→G$$
 
 The Cost: 6
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ai-problem-solving-uniform-cost-search-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
-
 ### Complexity, **Completeness** and Optimality
 
 **Completeness**:
