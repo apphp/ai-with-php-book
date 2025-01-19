@@ -46,9 +46,7 @@ $width = imagesx($image);
 $height = imagesy($image);
 ```
 
-#### Audio Data Considerations Formats&#x20;
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-aud-min (1).png" alt="" width="105"><figcaption></figcaption></figure></div>
+#### Audio Data Considerations Formats
 
 Common formats include WAV, MP3, AAC, and raw audio data.
 
