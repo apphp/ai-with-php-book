@@ -487,7 +487,7 @@ Data: Array
 
 #### SQL Tables&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-sql-min.png" alt="" width="102"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="broken-reference" alt="" width="102"><figcaption></figcaption></figure></div>
 
 While not a file format per se, SQL tables in relational databases are a common way to store structured data.
 

@@ -28,6 +28,8 @@ $word_count = count($words);
 
 #### Image Data Formats
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-img-min.png" alt="" width="103"><figcaption></figcaption></figure></div>
+
 Common formats include JPEG, PNG, TIFF, and raw image data.
 
 Considerations:
