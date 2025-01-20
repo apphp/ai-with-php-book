@@ -10,76 +10,63 @@ Polynomial regression is an extension of linear regression that allows us to mod
 
 RubixML provides a powerful and flexible implementation of polynomial regression. Here's how to use it:
 
-#### **Step 1: Prepare the Data**
+#### **Step 1: Prepare** training **data and c**reate dataset
 
 ```php
 use Rubix\ML\Datasets\Labeled;
+use Rubix\ML\Datasets\Unlabeled;
 use Rubix\ML\Transformers\PolynomialExpander;
 use Rubix\ML\Regressors\Ridge;
 
-// Prepare your training data
 $samples = [
     [6.575], [6.421], [7.185], [6.998], [7.147], [6.430], [6.012], [6.172],
     [5.631], [6.004], [6.377], [6.009], [5.889], [5.949], [6.096], [5.834],
     [5.989], [8.259], [8.183], [7.853], [7.255], [6.383], [6.816], [7.420],
     [7.685],
 ];
-
 $labels = [
     25.0, 22.6, 33.4, 33.4, 36.2, 28.7, 20.6, 22.9, 16.9, 18.9, 21.6,
     18.9, 21.7, 20.4, 21.2, 19.9, 22.2, 37.7, 37.3, 40.1, 37.2, 25.7,
     31.6, 38.7, 38.1,
-]; 
-
-// Create a labeled dataset
+];
 $dataset = new Labeled($samples, $labels);
 ```
 
-#### **Step 2:** Create a Polynomial Expander Transformer
+#### **Step 2:** Create a polynomial expander transformer and transform features
 
 Create a polynomial expander transformer. The argument '3' means we'll create cubing features $$x^3$$.\
-Expands the dataset by adding polynomial terms to increase the model’s capacity to capture non-linear relationships.
+This transformer expands features into higher-degree polynomial terms, allowing the model to capture non-linear relationships effectively. In this case, the degree is set to 3 to include cubed features.m the features
 
 ```php
 $expander = new PolynomialExpander(3);
+$dataset->apply($expander);
 ```
 
-#### **Step 3:** Create Model
+#### **Step 3:** Create Model and train the model
 
-Create the model. We use `Ridge` regression.
+Create the model. We use `Ridge` regression. Ridge regression algorithm introduces regularization to minimize overfitting by penalizing large coefficients. Smaller values increase regularization.
 
 ```php
 $regression = new Ridge(0.00001);
+$regression->train($dataset);
 ```
 
-#### **Step 4:** Transform the Features
+#### **Step 4:** Prepare test samples and create a unlabeled dataset
 
-This creates polynomial features from original data. This transformer expands features into higher-degree polynomial terms, allowing the model to capture non-linear relationships effectively. In this case, the degree is set to 3 to include cubed features.
-
-```php
-// Transform features using PolynomialExpander
-$samplesTransformed = $samples;
-$expander->transform($samples);
-```
-
-#### **Step 5:** Train the Model&#x20;
-
-Ridge regression algorithm that introduces regularization to minimize overfitting by penalizing large coefficients. Smaller values increase regularization.
+Prepare test sample for testing model prediction.
 
 ```php
-$regression->train(new Labeled($samplesTransformed, $labels));
-```
-
-**Step 4: Make Predictions**
-
-Create test data and predict their values.
-
-```php
-// Prepare test samples
 $testSamples = [[5.5], [6], [8], [6.945], [5.631], [8.259]];
+$testDataset = new Unlabeled($testSamples);
+```
 
-// Make predictions
-$predictions = $regression->predict(new Unlabeled($testSamples));
+**Step 5: Make Predictions**
+
+Predict values for testing samples.
+
+```php
+$testDataset->apply($expander);
+$predictions = $regression->predict($testDataset);
 
 print_r($predictions);
 ```
@@ -93,45 +80,38 @@ print_r($predictions);
 ```php
 use Rubix\ML\Datasets\Labeled;
 use Rubix\ML\Datasets\Unlabeled;
-use Rubix\ML\Extractors\CSV;
 use Rubix\ML\Transformers\PolynomialExpander;
 use Rubix\ML\Regressors\Ridge;
 
-// Step 1: Prepare your training data
+// Step 1: Prepare your training data and create a labeled dataset
 $samples = [
     [6.575], [6.421], [7.185], [6.998], [7.147], [6.430], [6.012], [6.172],
     [5.631], [6.004], [6.377], [6.009], [5.889], [5.949], [6.096], [5.834],
     [5.989], [8.259], [8.183], [7.853], [7.255], [6.383], [6.816], [7.420],
     [7.685],
 ];
-
 $labels = [
     25.0, 22.6, 33.4, 33.4, 36.2, 28.7, 20.6, 22.9, 16.9, 18.9, 21.6,
     18.9, 21.7, 20.4, 21.2, 19.9, 22.2, 37.7, 37.3, 40.1, 37.2, 25.7,
     31.6, 38.7, 38.1,
 ];
-
-// Step 2: Create a labeled dataset
 $dataset = new Labeled($samples, $labels);
 
-// Step 3: Create a polynomial expander transformer and normalizer
+// Step 2: Create a polynomial expander transformer & transform the features
 $expander = new PolynomialExpander(3);
+$dataset->apply($expander);
 
-// Step 4: Create the model
+// Step 3: Create the model and tran the model
 $regression = new Ridge(0.00001);
+$regression->train($dataset);
 
-// Step 5: Transform and normalize the features
-$samplesTransformed = $samples;
-$expander->transform($samples);
-
-// Step 6: Train the model
-$regression->train(new Labeled($samplesTransformed, $labels));
-
-// Step 7: Make predictions
+// Step 4: Prepare test samples and create a unlabeled dataset
 $testSamples = [[5.5], [6], [8], [6.945], [5.631], [8.259]];
+$testDataset = new Unlabeled($testSamples);
 
-// Make predictions
-$predictions = $regression->predict(new Unlabeled($testSamples));
+// Step 5: Make predictions
+$testDataset->apply($expander);
+$predictions = $regression->predict($testDataset);
 
 print_r($predictions);
 ```
@@ -179,7 +159,7 @@ use Phpml\Metric\Regression;
 use Phpml\Preprocessing\Normalizer;
 use Phpml\Math\Matrix;
 
-// Prepare your training data
+// Step 1: Prepare your training data
 $samples = [
     [6.575], [6.421], [7.185], [6.998], [7.147], [6.430], [6.012], [6.172],
     [5.631], [6.004], [6.377], [6.009], [5.889], [5.949], [6.096], [5.834],
@@ -193,10 +173,8 @@ $targets = [
     31.6, 38.7, 38.1,
 ]; 
 
-// Create regression model
-$regression = new LeastSquares();
-
-// Polynomial expander - transform features to include squared and cubed terms
+// Step 2: Polynomial expander. 
+// Transform features to include squared and cubed terms
 $samplesTransformed = array_map(function($sample) {
     return [
        $sample[0],           // original feature
@@ -205,16 +183,16 @@ $samplesTransformed = array_map(function($sample) {
     ];
 }, $samples);
 
-// Train the model
-echo "\nTraining model...\n";
+// Step 3: Create regression model
+$regression = new LeastSquares();
 
-// Train the model with original and squared features
+// Step 4: Train the model with original and squared features
 $regression->train($samplesTransformed, $targets);
 
-// Prepare test samples
+// Step 5: Prepare test samples
 $testSamples = [[5.5], [6], [8], [6.945], [5.631], [8.259]];
 
-// Polynomial expander
+// Step 6: Polynomial expander - transform samples
 $samplesTransformed = array_map(function($sample) {
     return [
        $sample[0],           // original feature
@@ -223,6 +201,7 @@ $samplesTransformed = array_map(function($sample) {
     ];
 }, $testSamples);
 
+// Step 7: Make predictions
 $predictions = $regression->predict($samplesTransformed);
 
 print_r($predictions);
