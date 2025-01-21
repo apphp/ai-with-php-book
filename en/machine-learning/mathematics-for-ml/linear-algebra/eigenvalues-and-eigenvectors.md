@@ -69,11 +69,11 @@ For $$λ₁ = 5$$:
 
 1.  Set up $$(A - 5I)\mathbf{v} = \mathbf{0}$$ :\
     \
-    $$\begin{bmatrix} 4-5 & 1 \\ 2 & 3-5 \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$\
+    $$\begin{bmatrix} 4-5 & 1 \\ 2 & 3-5 \end{bmatrix} \begin{bmatrix} \mathbf{v}_1 \\ \mathbf{v}_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$\
 
 
     Simplifies to:\
-    $$\begin{bmatrix} -1 & 1 \\ 2 & -2 \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$\
+    $$\begin{bmatrix} -1 & 1 \\ 2 & -2 \end{bmatrix} \begin{bmatrix} \mathbf{v}_1 \\ \mathbf{v}_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$\
 
 2. This gives us system of equations:\
    &#x20;$$-v_1 + v_2 = 0$$ \
