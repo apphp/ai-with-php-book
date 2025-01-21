@@ -19,7 +19,7 @@ where:
 
 Predicting house price based on house size.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-simple-linear-regression-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-simple-linear-regression-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **2. Multiple Linear Regression**
 
