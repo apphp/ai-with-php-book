@@ -4,7 +4,7 @@
 
 ИИ произвел революцию в здравоохранении, улучшив диагностику, персонализировав лечение и оптимизировав клинические процессы. Благодаря ему анализ медицинских данных становится быстрее и точнее, что приводит к лучшим результатам диагностики и лечения для пациентов.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-in-healthcare-min.png" alt="" width="375"><figcaption><p>ИИ в здравоохранении</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../en/.gitbook/assets/ai-in-healthcare-min (1).png" alt="" width="375"><figcaption><p>ИИ в здравоохранении</p></figcaption></figure></div>
 
 ### ИИ в диагностике рака
 
