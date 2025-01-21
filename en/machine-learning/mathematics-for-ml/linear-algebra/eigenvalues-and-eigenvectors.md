@@ -21,7 +21,7 @@ where:
 * Eigenvectors point in a direction that remains unchanged (apart from scaling) when transformed by $$A$$.
 * Eigenvalues tell us how much the eigenvector is stretched or shrunk.
 
-### **>>> 2. Finding Eigenvalues and Eigenvectors**
+### **2. Finding Eigenvalues and Eigenvectors**
 
 To compute eigenvalues and eigenvectors, the following steps are taken:
 
@@ -29,34 +29,106 @@ To compute eigenvalues and eigenvectors, the following steps are taken:
 
 The eigenvalues of a matrix are determined by solving the characteristic equation:
 
-\[ \text{det}(A - \lambda I) = 0, ]
+$${det}(A - \lambda I) = 0$$
 
 where:
 
-* **I** is the identity matrix of the same size as **A**,
-* ( \text{det} ) is the determinant of the matrix.
+* $$I$$ is the identity matrix of the same size as $$A$$,
+* $$det()$$ is the determinant of the matrix.
 
 #### **Step 2: Solving for Eigenvalues**
 
-The characteristic equation yields a polynomial equation in ( \lambda ) (called the characteristic polynomial). The roots of this polynomial are the eigenvalues of **A**.
+The characteristic equation yields a polynomial equation in $$\lambda$$ (called the characteristic polynomial). The roots of this polynomial are the eigenvalues of $$A$$.
 
 #### **Step 3: Finding Eigenvectors**
 
-Once eigenvalues ( \lambda ) are known, eigenvectors are computed by solving the equation:
+Once eigenvalues $$\lambda$$ are known, eigenvectors are computed by solving the equation:
 
-\[ (A - \lambda I) \mathbf{v} = 0, ]
+$$(A - \lambda I) \mathbf{v} = 0$$
 
-where ( \mathbf{v} ) is the eigenvector corresponding to the eigenvalue ( \lambda ).
+where $$\mathbf{v}$$ is the eigenvector corresponding to the eigenvalue .
 
 #### Example:
 
-Let ( A = \begin{bmatrix} 4 & 1 \ 2 & 3 \end{bmatrix} ).
+Let $$A = \begin{bmatrix} 4 & 1 \\ 2 & 3 \end{bmatrix}$$
 
-1. Compute ( \text{det}(A - \lambda I) = \text{det}\begin{bmatrix} 4 - \lambda & 1 \ 2 & 3 - \lambda \end{bmatrix} = 0 ).
-2.  Solve ( (4 - \lambda)(3 - \lambda) - 2 = \lambda^2 - 7\lambda + 10 = 0 ).
+1. Compute:\
+   $${det}(A - \lambda I) = \text{det}\begin{bmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{bmatrix} = 0.$$
+2. Expand:  $$(4 - \lambda)(3 - \lambda) - 2 = \lambda^2 - 7\lambda + 10 = 0.$$
+3. Solve for roots: $$\lambda_1 = 5,  \lambda_2 = 2.$$
+4. For each $$\lambda$$, solve: $$(A - \lambda I) \mathbf{v} = 0$$  to find the eigenvectors.
 
-    Roots: ( \lambda\_1 = 5, \lambda\_2 = 2 ).
-3. For each ( \lambda ), solve ( (A - \lambda I) \mathbf{v} = 0 ) to find eigenvectors.
+<details>
+
+<summary>>>>> Step-by-step explanation</summary>
+
+Let's solve for the eigenvectors step by step.  \
+We'll solve $$(A−λI)\mathbf{v} =0$$ for each eigenvalue.
+
+For $$λ₁ = 5$$:
+
+1.  Set up $$(A - 5I)\mathbf{v} = \mathbf{0}$$ :\
+    \
+    $$\begin{bmatrix} 4-5 & 1 \\ 2 & 3-5 \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$\
+
+
+    Simplifies to:\
+    $$\begin{bmatrix} -1 & 1 \\ 2 & -2 \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$\
+
+2. This gives us system of equations:\
+   &#x20;$$-v_1 + v_2 = 0$$ \
+   $$2v_1 - 2v_2 = 0$$\
+   \
+   These equations are equivalent (second is just -2 times the first) \
+   So $$\mathbf{v}_1 = \mathbf{v}_2$$ \
+   If we let $$\mathbf{v}_1  = 1$$, then $$\mathbf{v}_2  = 1$$\
+   Therefore eigenvector for $$\lambda_1 = 5 \ \ \text{is} \ \ \mathbf{v}_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}^\top$$
+
+For λ₂ = 2:
+
+1.  Set up (A - 2I)v = 0: \[4-2 1 ] \[v₁] = \[0] \[2 3-2] \[v₂] \[0]
+
+    Simplifies to: \[2 1] \[v₁] = \[0] \[2 1] \[v₂] \[0]
+2.  This gives us system of equations: 2v₁ + v₂ = 0 2v₁ + v₂ = 0
+
+    From either equation: v₂ = -2v₁ If we let v₁ = 1, then v₂ = -2 Therefore eigenvector for λ₂ = 2 is v₂ = \[1, -2]ᵀ
+
+Final result:
+
+* For λ₁ = 5, eigenvector v₁ = \[1, 1]ᵀ
+* For λ₂ = 2, eigenvector v₂ = \[1, -2]ᵀ
+
+Note: Eigenvectors can be scaled by any nonzero constant and remain valid eigenvectors. These are just one possible normalized representation.
+
+
+
+\============
+
+
+
+Let me convert the formulas to LaTeX:
+
+
+
+1.
+
+For λ₂ = 2:
+
+1.  Set up $(A - 2I)\mathbf{v} = \mathbf{0}$: $$\begin{bmatrix} 4-2 & 1 \\ 2 & 3-2 \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$
+
+    Simplifies to: $$\begin{bmatrix} 2 & 1 \\ 2 & 1 \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$
+2.  System of equations: $$2v_1 + v_2 = 0$$ $$2v_1 + v_2 = 0$$
+
+    Solution: $v\_2 = -2v\_1$ When $v\_1 = 1$, $v\_2 = -2$ Therefore eigenvector: $\mathbf{v}\_2 = \begin{bmatrix} 1 \ -2 \end{bmatrix}$
+
+Final result:
+
+* For $\lambda\_1 = 5$, eigenvector $\mathbf{v}\_1 = \begin{bmatrix} 1 \ 1 \end{bmatrix}$
+* For $\lambda\_2 = 2$, eigenvector $\mathbf{v}\_2 = \begin{bmatrix} 1 \ -2 \end{bmatrix}$
+
+</details>
+
+
 
 ### **3. Applications in Machine Learning**
 
