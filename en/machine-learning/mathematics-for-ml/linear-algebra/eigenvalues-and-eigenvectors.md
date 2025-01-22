@@ -60,12 +60,12 @@ Let $$A = \begin{bmatrix} 4 & 1 \\ 2 & 3 \end{bmatrix}$$
 
 <details>
 
-<summary>>>>> Step-by-step explanation</summary>
+<summary>Step-by-step explanation</summary>
 
 Let's solve for the eigenvectors step by step.  \
 We'll solve $$(A−λI)\mathbf{v} =0$$ for each eigenvalue.
 
-For $$λ₁ = 5$$:
+**For** $$λ_1 = 5$$:
 
 1.  Set up $$(A - 5I)\mathbf{v} = \mathbf{0}$$ :\
     \
@@ -84,51 +84,31 @@ For $$λ₁ = 5$$:
    If we let $$\mathbf{v}_1  = 1$$, then $$\mathbf{v}_2  = 1$$\
    Therefore eigenvector for $$\lambda_1 = 5 \ \ \text{is} \ \ \mathbf{v}_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}^\top$$
 
-For λ₂ = 2:
+**For** $$λ_2 = 2$$:
 
-1.  Set up (A - 2I)v = 0: \[4-2 1 ] \[v₁] = \[0] \[2 3-2] \[v₂] \[0]
+1. Set up $$(A - 2I)\mathbf{v} = \mathbf{0}$$\
+   \
+   $$\begin{bmatrix} 4-2 & 1 \\ 2 & 3-2 \end{bmatrix} \begin{bmatrix} \mathbf{v}_1  \\ \mathbf{v}_2  \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$\
+   \
+   Simplifies to:\
+   $$\begin{bmatrix} 2 & 1 \\ 2 & 1 \end{bmatrix} \begin{bmatrix} \mathbf{v}_1 \\ \mathbf{v}_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$\
 
-    Simplifies to: \[2 1] \[v₁] = \[0] \[2 1] \[v₂] \[0]
-2.  This gives us system of equations: 2v₁ + v₂ = 0 2v₁ + v₂ = 0
+2.  This gives us system of equations:\
+    $$2\mathbf{v}_1 + \mathbf{v}_2 = 0$$\
+    $$2\mathbf{v}_1 + \mathbf{v}_2 = 0$$\
 
-    From either equation: v₂ = -2v₁ If we let v₁ = 1, then v₂ = -2 Therefore eigenvector for λ₂ = 2 is v₂ = \[1, -2]ᵀ
+
+    From either equation: $$\mathbf{v}_2 = -2\mathbf{v}_1$$ If we let $$\mathbf{v}_1 = 1$$, then $$\mathbf{v}_2 = -2$$\
+    Therefore eigenvector for $$λ_2 = 2$$ is $$\mathbf{v}_2 = \begin{bmatrix} 1 \ -2 \end{bmatrix}^\top$$
 
 Final result:
 
-* For λ₁ = 5, eigenvector v₁ = \[1, 1]ᵀ
-* For λ₂ = 2, eigenvector v₂ = \[1, -2]ᵀ
+* For $$λ_1 = 5$$, eigenvector $$\mathbf{v}_1 = \begin{bmatrix} 1 \ 1 \end{bmatrix}^\top$$
+* For $$λ_2 = 2$$, eigenvector $$\mathbf{v}_2 = \begin{bmatrix} 1 \ -2 \end{bmatrix}^\top$$
 
 Note: Eigenvectors can be scaled by any nonzero constant and remain valid eigenvectors. These are just one possible normalized representation.
 
-
-
-\============
-
-
-
-Let me convert the formulas to LaTeX:
-
-
-
-1.
-
-For λ₂ = 2:
-
-1.  Set up $(A - 2I)\mathbf{v} = \mathbf{0}$: $$\begin{bmatrix} 4-2 & 1 \\ 2 & 3-2 \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$
-
-    Simplifies to: $$\begin{bmatrix} 2 & 1 \\ 2 & 1 \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$
-2.  System of equations: $$2v_1 + v_2 = 0$$ $$2v_1 + v_2 = 0$$
-
-    Solution: $v\_2 = -2v\_1$ When $v\_1 = 1$, $v\_2 = -2$ Therefore eigenvector: $\mathbf{v}\_2 = \begin{bmatrix} 1 \ -2 \end{bmatrix}$
-
-Final result:
-
-* For $\lambda\_1 = 5$, eigenvector $\mathbf{v}\_1 = \begin{bmatrix} 1 \ 1 \end{bmatrix}$
-* For $\lambda\_2 = 2$, eigenvector $\mathbf{v}\_2 = \begin{bmatrix} 1 \ -2 \end{bmatrix}$
-
 </details>
-
-
 
 ### **3. Applications in Machine Learning**
 
@@ -142,7 +122,7 @@ PCA uses eigenvalues and eigenvectors to reduce the dimensionality of data while
 
 #### **3.2 Spectral Clustering**
 
-Spectral clustering leverages the eigenvalues and eigenvectors of graph Laplacian matrices to perform clustering on non-linear data.
+Spectral clustering leverages the eigenvalues and eigenvectors of graph _Laplacian_ matrices to perform clustering on non-linear data.
 
 #### **3.3 Singular Value Decomposition (SVD)**
 
@@ -150,16 +130,12 @@ SVD is a matrix factorization technique that involves eigenvalues and eigenvecto
 
 #### **3.4 Stability Analysis**
 
-In optimization problems, eigenvalues of the Hessian matrix are used to determine whether a critical point is a maximum, minimum, or saddle point.
-
-
+In optimization problems, eigenvalues of the _Hessian_ matrix are used to determine whether a critical point is a maximum, minimum, or saddle point.
 
 * **Neural Networks**: Weight matrices' eigenvalues impact the network's stability and convergence.
 * **Markov Chains**: Eigenvalues of transition matrices help analyze long-term behavior.
 
-
-
-### **4. Geometric Intuition**
+### **4. >>> Geometric Intuition**
 
 Eigenvectors represent directions that remain invariant under the transformation defined by **A**. Eigenvalues indicate the factor by which vectors along these directions are stretched or compressed. For instance:
 
@@ -248,6 +224,10 @@ print_r($eigenvectors); // Eigenvectors
 Eigenvalues: [5, 2]
 Eigenvectors: [[1, 1], [2, -1]]
 ```
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
 
 ### **6. Conclusion**
 
