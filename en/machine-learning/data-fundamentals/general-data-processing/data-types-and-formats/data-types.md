@@ -77,6 +77,8 @@ How readily the data can be queried and retrieved.
 
 The adaptability of the data structure to changing requirements.
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-flexibility-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 #### Machine Readability:
 
 How easily machines can process and understand the data without human intervention.
