@@ -36,10 +36,8 @@ While linear transformations are fundamental, they alone cannot solve nonlinear 
 
 #### Common Activation Functions:
 
-*   **ReLU (Rectified Linear Unit):**  $$σ(x)=max⁡(0,x)$$\
+* **ReLU (Rectified Linear Unit):**  $$σ(x)=max⁡(0,x)$$\
 
-
-    <div align="left"><figure><img src="../../../../.gitbook/assets/ml-linear-transformation-relu-activation-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 *   **Sigmoid:** $$σ(x)=11+e−x.\sigma(x) = \frac{1}{1 + e^{-x}}$$\
 
 
