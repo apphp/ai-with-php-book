@@ -187,4 +187,4 @@ Rotating $$x = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$$:
 
 $$Ax = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$$
 
-<table><thead><tr><th width="386" align="center">Original Grid</th><th align="center">Rotated Grid (90°)</th></tr></thead><tbody><tr><td align="center"><img src="broken-reference" alt=""></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-rotated-grid-min.png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="381" align="center">Original Grid</th><th align="center">Rotated Grid (90°)</th></tr></thead><tbody><tr><td align="center"></td><td align="center"><img src="../../../../.gitbook/assets/ml-linear-mapping-rotated-grid-min.png" alt="" data-size="original"></td></tr></tbody></table>
