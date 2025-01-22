@@ -82,5 +82,3 @@ The adaptability of the data structure to changing requirements.
 #### Machine Readability:
 
 How easily machines can process and understand the data without human intervention.
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-machine-readability-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
