@@ -6,9 +6,7 @@ Now let's check unstructured data formats commonly used in AI applications.
 
 Unstructured data lacks a predefined data model or organization. It's often text-heavy but can also include dates, numbers, and facts. Here are some common types of unstructured data in AI:
 
-#### Text Processing and Natural Language Data&#x20;
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-txt-min (1).png" alt="" width="104"><figcaption></figcaption></figure></div>
+#### Text Processing and Natural Language Data
 
 This includes free-form text like articles, social media posts, or customer reviews.
 
