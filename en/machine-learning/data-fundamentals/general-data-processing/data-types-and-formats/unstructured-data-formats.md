@@ -8,6 +8,8 @@ Unstructured data lacks a predefined data model or organization. It's often text
 
 #### Text Processing and Natural Language Data
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-txt-min.png" alt="" width="104"><figcaption></figcaption></figure></div>
+
 This includes free-form text like articles, social media posts, or customer reviews.
 
 Considerations:
