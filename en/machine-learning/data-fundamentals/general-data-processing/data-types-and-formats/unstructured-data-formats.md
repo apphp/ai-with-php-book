@@ -67,9 +67,7 @@ $file_info = $getID3->analyze('audio.mp3');
 $duration = $file_info['playtime_seconds'];
 ```
 
-#### Video Data Considerations&#x20;
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-vid-min (1).png" alt="" width="102"><figcaption></figcaption></figure></div>
+#### Video Data Considerations
 
 Common formats include MP4, AVI, MOV, and raw video frames.
 
