@@ -134,8 +134,6 @@ Array
 
 #### XML (eXtensible Markup Language)&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-xml-min.png" alt="" width="102"><figcaption></figcaption></figure></div>
-
 XML is a versatile markup language that defines a set of rules for encoding documents.
 
 Pros:
