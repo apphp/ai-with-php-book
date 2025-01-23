@@ -69,6 +69,8 @@ $duration = $file_info['playtime_seconds'];
 
 #### Video Data Considerations
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/ml-data-type-vid-min.png" alt="" width="102"><figcaption></figcaption></figure></div>
+
 Common formats include MP4, AVI, MOV, and raw video frames.
 
 Considerations:
