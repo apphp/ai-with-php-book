@@ -135,14 +135,12 @@ In optimization problems, eigenvalues of the _Hessian_ matrix are used to determ
 * **Neural Networks**: Weight matrices' eigenvalues impact the network's stability and convergence.
 * **Markov Chains**: Eigenvalues of transition matrices help analyze long-term behavior.
 
-### **4. >>> Geometric Intuition**
+### **4. Geometric Intuition**
 
-Eigenvectors represent directions that remain invariant under the transformation defined by **A**. Eigenvalues indicate the factor by which vectors along these directions are stretched or compressed. For instance:
+Eigenvectors represent directions that remain invariant under the transformation defined by $$A$$. Eigenvalues indicate the factor by which vectors along these directions are stretched or compressed. For instance:
 
 * In PCA, eigenvectors point in the directions of maximum variance.
 * In physical systems, eigenvalues often represent natural frequencies of vibration.
-
-????
 
 Eigenvalues and eigenvectors provide a deeper understanding of matrix transformations:
 
