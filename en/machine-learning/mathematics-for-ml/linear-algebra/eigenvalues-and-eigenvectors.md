@@ -153,6 +153,8 @@ For example, in 2D, a matrix might rotate and stretch a vector. Eigenvectors poi
 
 Consider a 2D transformation matrix applied to a circle. The eigenvectors indicate axes along which the transformation scales the circle, and eigenvalues represent the scaling factors.
 
+<div align="left"><figure><img src="../../../.gitbook/assets/ml-eigenvectors-visual-example-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 ### **5. Eigenvalues and Eigenvectors in Practice (PHP Example)**
 
 #### **5.1. Rubix ML Example**
