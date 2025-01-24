@@ -2,8 +2,9 @@
 
 ### Components of AI Agents
 
-AI agents are made up of many key components that work together to perceive, reason, and act in their environment.\
-... image here mponents-of-ai-agents-min.png
+AI agents are made up of many key components that work together to perceive, reason, and act in their environment.
+
+**... image here mponents-of-ai-agents-min.png**
 
 To make all of this possible, agents rely on four key components:
 
