@@ -58,7 +58,7 @@ For those who prefer a more hands-on learning experience, _reading while running
    *   As you read a section, locate the corresponding example in the repository (e.g., if you're on Scalars in Mathematics for ML section, check the same section in the side menu).\
 
 
-       <figure><img src="../.gitbook/assets/examples-2-min.png" alt=""><figcaption></figcaption></figure>
+       <div align="left"><figure><img src="../.gitbook/assets/book-examples-2-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
    * To run the example, simply click the "Run Code" button on the top-right corner.
 3. **Experiment and Modify**:
    * Modify the example code to test different scenarios or tweak parameters to see how changes affect the output. This experimentation strengthens your understanding.
