@@ -197,7 +197,7 @@ Eigenvectors: [[1, 1], [2, -1]]
 
 #### **5.2. PHP-ML Example**
 
-Let’s compute eigenvalues and eigenvectors of a 2 ( \times ) 2 matrix using PHP and the PHP-ML library.
+Let’s compute eigenvalues and eigenvectors of a 2 $$\times$$ 2 matrix using PHP and the PHP-ML library.
 
 ```php
 require_once 'vendor/autoload.php';
@@ -215,6 +215,7 @@ list($eigenvalues, $eigenvectors) = $matrix->eigenDecomposition();
 
 // Output the results
 print_r($eigenvalues); // Eigenvalues
+
 print_r($eigenvectors); // Eigenvectors
 ```
 
