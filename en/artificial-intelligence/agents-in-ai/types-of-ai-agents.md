@@ -58,7 +58,7 @@ _Example Problem:_ A model-based agent in a self-driving car may struggle if its
 
 Goal-based agents advance further by incorporating goals to drive their behavior. Instead of merely reacting to current conditions, these agents assess actions based on their potential to achieve specific objectives. Goal-based agents require more computation, as they must evaluate different options and predict which actions will bring them closer to their goals.
 
-<div align="left"><figure><img src="../../../ru/.gitbook/assets/ai-types-of-ai-agents-goal-min (1).png" alt="" width="563"><figcaption><p>Goal-Based Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-types-of-ai-agents-goal-min.png" alt="" width="563"><figcaption><p>Goal-Based Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
@@ -108,7 +108,7 @@ _Example Problem:_ A utility-based agent in an autonomous vehicle might prioriti
 
 Learning agents are equipped with mechanisms to _learn from experience_. They possess components like learning elements and performance elements that allow them to adapt to new situations, improving their decision-making capabilities over time. These agents can explore new actions, receive feedback, and modify their strategies based on the feedback received, making them highly adaptable.
 
-<div align="left"><figure><img src="../../../ru/.gitbook/assets/ai-types-of-ai-agents-learning-min (1).png" alt="" width="563"><figcaption><p>Learning Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-types-of-ai-agents-learning-min.png" alt="" width="563"><figcaption><p>Learning Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
