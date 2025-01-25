@@ -50,10 +50,8 @@ For those who prefer a more hands-on learning experience, _reading while running
        make init
        ```
    * After installation is complete, type in your browser: [http://localhost:8088/](http://localhost:8088/)
-   *   If everything is OK, you should see the website with examples of code:\
+   * If everything is OK, you should see the website with examples of code:\
 
-
-       <figure><img src="../.gitbook/assets/examples-1-min.png" alt=""><figcaption></figcaption></figure>
 2. **Follow Along with the Chapters**:
    *   As you read a section, locate the corresponding example in the repository (e.g., if you're on Scalars in Mathematics for ML section, check the same section in the side menu).\
 
