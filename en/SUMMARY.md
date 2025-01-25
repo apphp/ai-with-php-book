@@ -77,6 +77,13 @@
     * [Hill Climbing Algorithm](artificial-intelligence/problem-solving-in-ai/local-search/hill-climbing-algorithm.md)
   * [Adversarial Search](artificial-intelligence/problem-solving-in-ai/adversarial-search.md)
   * [Means-Ends Analysis](artificial-intelligence/problem-solving-in-ai/means-ends-analysis.md)
+* [Knowledge and Uncertainty in AI](artificial-intelligence/knowledge-and-uncertainty-in-ai/README.md)
+  * [Knowledge-Based Agent](artificial-intelligence/knowledge-and-uncertainty-in-ai/knowledge-based-agent.md)
+  * [Knowledge Representation](artificial-intelligence/knowledge-and-uncertainty-in-ai/knowledge-representation.md)
+  * [Reasoning in AI](artificial-intelligence/knowledge-and-uncertainty-in-ai/reasoning-in-ai.md)
+  * [Uncertain Knowledge Representation](artificial-intelligence/knowledge-and-uncertainty-in-ai/uncertain-knowledge-representation.md)
+  * [The Wumpus World](artificial-intelligence/knowledge-and-uncertainty-in-ai/the-wumpus-world.md)
+  * [Applications and Challenges](artificial-intelligence/knowledge-and-uncertainty-in-ai/applications-and-challenges.md)
 * [Decision Making in AI](artificial-intelligence/decision-making-in-ai.md)
 * [Computational Theory in AI](artificial-intelligence/computational-theory-in-ai.md)
 
