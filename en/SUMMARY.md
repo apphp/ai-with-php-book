@@ -21,6 +21,7 @@
     * [Theory of Mind AI](artificial-intelligence/overview-of-ai/types-of-ai/theory-of-mind-ai.md)
     * [Self-Aware AI](artificial-intelligence/overview-of-ai/types-of-ai/self-aware-ai.md)
   * [How Does AI Work?](artificial-intelligence/overview-of-ai/how-does-ai-work.md)
+  * [Will AI Take Over the World?](artificial-intelligence/overview-of-ai/will-ai-take-over-the-world.md)
 * [Application of AI](artificial-intelligence/application-of-ai/README.md)
   * [AI in Astronomy](artificial-intelligence/application-of-ai/ai-in-astronomy.md)
   * [AI in Healthcare](artificial-intelligence/application-of-ai/ai-in-healthcare.md)
