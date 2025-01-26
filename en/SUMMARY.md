@@ -79,7 +79,7 @@
   * [Adversarial Search](artificial-intelligence/problem-solving-in-ai/adversarial-search.md)
   * [Means-Ends Analysis](artificial-intelligence/problem-solving-in-ai/means-ends-analysis.md)
 * [Knowledge & Uncertainty in AI](artificial-intelligence/knowledge-and-uncertainty-in-ai/README.md)
-  * [Knowledge-Based Agent](artificial-intelligence/knowledge-and-uncertainty-in-ai/knowledge-based-agent.md)
+  * [Knowledge-Based Agents](artificial-intelligence/knowledge-and-uncertainty-in-ai/knowledge-based-agents.md)
   * [Knowledge Representation](artificial-intelligence/knowledge-and-uncertainty-in-ai/knowledge-representation.md)
   * [Reasoning in AI](artificial-intelligence/knowledge-and-uncertainty-in-ai/reasoning-in-ai.md)
   * [Uncertain Knowledge Representation](artificial-intelligence/knowledge-and-uncertainty-in-ai/uncertain-knowledge-representation.md)
