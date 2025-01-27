@@ -388,6 +388,8 @@ By understanding these regions, you can better analyze the behavior and limitati
 
 #### Local Maxima
 
+A local maximum occurs when all neighboring states have worse values than the current state. Since Hill Climbing uses a greedy approach, it will not move to a worse state, causing the algorithm to terminate even though a better solution may exist further along.
+
 One of the main challenges with hill climbing is getting stuck in local maxima. Here's an implementation that uses random restarts to address this:
 
 ```php
@@ -413,6 +415,8 @@ public function hillClimbingWithRandomRestarts($maxRestarts = 10) {
 ```
 
 #### Plateaus
+
+A plateau is a flat region in the search space where all neighboring states have the same value. This makes it difficult for the algorithm to choose the best direction to move forward.
 
 To handle plateaus (flat regions in the search space), we can implement sideways moves:
 
@@ -455,6 +459,12 @@ public function hillClimbingWithSidewaysMoves($initialState, $maxSideways = 100)
     return $currentState;
 }
 ```
+
+#### Ridge Problem <a href="#ridge-problem" id="ridge-problem"></a>
+
+A ridge is a region where movement in all possible directions seems to lead downward, resembling a peak. As a result, the Hill Climbing algorithm may stop prematurely, believing it has reached the optimal solution when, in fact, better solutions exist.
+
+................
 
 
 
