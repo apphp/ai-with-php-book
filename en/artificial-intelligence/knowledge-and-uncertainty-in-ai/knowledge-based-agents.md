@@ -8,23 +8,17 @@ Humans have long claimed that intelligence is achieved not solely through reflex
 
 A knowledge-based system (KBS) uses artificial intelligence techniques to store, manipulate, and reason with knowledge. The knowledge is typically represented in the form of rules or facts, enabling the system to draw conclusions or make decisions.
 
-\>>>>>>>>>>>>>>>>>>>>>
+A knowledge-based system consists of two primary components. The first is the Knowledge Base (KB), which serves as a repository for storing real-world facts, typically expressed in a formal knowledge representation language. The second is the Inference Engine (IE), a reasoning mechanism that applies logical rules to the knowledge base to deduce new facts or make decisions.
 
-#### Key Features of a Knowledge-Based System:
-
-1. **Knowledge Base (KB):** A repository that stores real-world facts, often expressed in a formal knowledge representation language.
-2. **Inference Engine (IE):** A reasoning mechanism that applies logical rules to the knowledge base to deduce new facts or make decisions.
-
-#### Benefits of Knowledge-Based Systems:
-
-* **Automated Decision-Making:** These systems can streamline complex processes, such as diagnosing medical conditions or troubleshooting technical issues.
-* **Explainability:** By referencing its stored rules and facts, a knowledge-based system can explain its decisions to human users, which is valuable in customer service and expert systems.
+These systems offer several benefits. One advantage is automated decision-making, which allows the system to streamline complex processes, such as diagnosing medical conditions or troubleshooting technical issues. Another key benefit is explainability. By referencing its stored rules and facts, a knowledge-based system can provide explanations for its decisions, making it particularly valuable in areas like customer service and expert systems.
 
 Knowledge-based systems have been successfully implemented in areas such as medical diagnosis, expert systems, and decision-support systems.
 
 ### Knowledge-Based Agents in Artificial Intelligence
 
 To act efficiently, an intelligent agent requires knowledge about the real world. Knowledge-based agents (KBA) are designed with capabilities that include maintaining an internal knowledge state, reasoning over this knowledge, updating it based on observations, and taking appropriate actions.
+
+<div align="left"><figure><img src="../../.gitbook/assets/ai-types-of-ai-agents-knowledge-based-min.png" alt="" width="563"><figcaption><p>Knowledge-Based Agents</p></figcaption></figure></div>
 
 #### Key Components of a Knowledge-Based Agent:
 
@@ -63,6 +57,8 @@ Each time the agent receives a percept, it:
 * Updates the knowledge base with the percept (TELL).
 * Queries the knowledge base for the best action (ASK).
 * Updates the knowledge base to reflect the chosen action (TELL).
+
+#### Example of Code in PHP
 
 <details>
 
@@ -150,7 +146,7 @@ $action = $agent->process($percept);
 
 </details>
 
-**Possible output:**
+Possible output:
 
 <details>
 
@@ -219,4 +215,4 @@ Inference derives new sentences from existing ones. The system can add new knowl
 
 ### Conclusion
 
-Knowledge-based agents are a cornerstone of artificial intelligence, enabling systems to reason, learn, and act intelligently. By leveraging a structured knowledge base and inference mechanisms, these agents can make decisions, learn from observations, and perform actions effectively. Their ability to combine reasoning and action makes them indispensable in domains ranging from expert systems to autonomous vehicles.
+Knowledge-based agents are a cornerstone of artificial intelligence, enabling systems to reason, learn, and act intelligently. By leveraging a structured knowledge base and inference mechanisms, these agents can make decisions, learn from observations, and perform actions effectively. Their ability to combine reasoning and action makes them essential for applications like expert systems and autonomous vehicles.
