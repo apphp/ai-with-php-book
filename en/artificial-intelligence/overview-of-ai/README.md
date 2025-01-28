@@ -14,6 +14,17 @@ In a general sense, AI is a branch of computer science that focuses on creating 
 
 By understanding the foundational concepts of AI, we can grasp how machines are evolving to mirror human skills, providing innovative solutions to complex challenges and driving technological advancements across the globe.
 
+### The definition of AI by **Stuart Russell** and **Peter Norvig**
+
+The definition of AI as presented in their seminal book _Artificial Intelligence: A Modern Approach_, is framed around different perspectives of AI:
+
+1. **Thinking Humanly**: AI is about building systems that simulate human thought processes.
+2. **Acting Humanly**: AI involves creating machines that perform tasks in ways that mimic human behavior.
+3. **Thinking Rationally**: AI is focused on designing systems that use logical reasoning to solve problems.
+4. **Acting Rationally**: AI involves constructing agents that act to achieve the best outcome or maximize goal achievement based on available knowledge.
+
+In essence, Russell and Norvig define AI as the study of intelligent agents — systems that perceive their environment and take actions to maximize their chances of successfully achieving their objectives. This broad definition encompasses both human-like intelligence and rationality-driven decision-making.
+
 ### **Why Do We Need AI?**
 
 AI addresses challenges that traditional computing cannot. From automating repetitive tasks to making predictions from vast datasets, AI fills gaps where human labor and conventional software fall short. For example, it enables fraud detection in real-time, personalized recommendations in e-commerce, and advanced medical diagnostics. In an increasingly data-driven world, AI empowers decision-making at an unprecedented scale and speed.
