@@ -355,7 +355,7 @@ In the Hill Climbing algorithm, the **state-space diagram** visually represents 
 
 The **optimal solution** is depicted as the state where the objective function reaches its highest value, referred to as the **global maximum**.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/ai-hill-climbing-state-space-diagram-min.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ai-hill-climbing-state-space-diagram-min.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Key Regions in the State-Space Diagram
 

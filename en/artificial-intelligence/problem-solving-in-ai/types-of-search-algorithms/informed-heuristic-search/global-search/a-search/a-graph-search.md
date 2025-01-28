@@ -40,7 +40,7 @@ A\* Graph Search mitigates this issue by introducing a critical rule: a node is 
 
 Find the path to reach from S to G using A\* search.
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/ai-problem-solving-a-graph-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/ai-problem-solving-a-graph-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Solution**: The algorithm is applied as follows:
 

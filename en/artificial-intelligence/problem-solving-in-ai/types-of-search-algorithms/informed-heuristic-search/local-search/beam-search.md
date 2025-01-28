@@ -61,7 +61,7 @@ One of its significant drawbacks is that it may fail to reach a goal or even ide
 
 The chances of finding the goal can be improved by using a more accurate heuristic function and increasing the beam width. For instance, consider a scenario where the beam width $$\beta = 2$$. The following steps demonstrate how the algorithm may struggle to find the goal node under such conditions.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ai-problem-solving-beam-search-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ai-problem-solving-beam-search-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Step-by-step explanation:
 
@@ -107,7 +107,7 @@ The Beam Search algorithm lacks completeness in certain scenarios, meaning it ma
 
 For instance, consider a tree with heuristic values as shown in the example below.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/ai-problem-solving-beam-search-search-optimalitymin.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ai-problem-solving-beam-search-search-optimalitymin.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 I'll explain how beam search works on this tree with a beam width (β) of 3. The image shows a tree with nodes A through G, where each node has an h-value and edges have different costs.
 

@@ -4,7 +4,14 @@ Search algorithms are essential tools in artificial intelligence, enabling agent
 
 <div align="left"><figure><img src="../../../.gitbook/assets/ai-types-of-search-algorithms-min.png" alt="" width="375"><figcaption><p>Types of Search Algorithms</p></figcaption></figure></div>
 
-Based on the nature of the problem and the availability of information, search algorithms can be broadly classified into two categories: **Uninformed (Blind) Search** and **Informed (Heuristic) Search**. This chapter delves into these categories, exploring their characteristics, applications, and examples.
+Search algorithms can be broadly categorized based on the nature of the problem and the availability of information into two main types: **Uninformed (Blind) Search** and **Informed (Heuristic) Search**. Additionally, they can also be classified as **Local Search** and **Global Search** depending on the scope of their exploration.
+
+**Key Distinctions**
+
+* **Uninformed Search**: Requires no additional information beyond the problem definition.
+* **Informed Search**: Utilizes heuristics or additional knowledge to improve efficiency.
+* **Global Search**: Explores the entire problem space systematically or with guidance (e.g., BFS, A\*). These algorithms are more exhaustive but computationally expensive.
+* **Local Search**: Focuses on improving solutions in a specific area without exploring the entire space (e.g., Hill Climbing, Simulated Annealing). These algorithms are more efficient for large spaces but may miss the optimal solution.
 
 <div align="left"><figure><img src="../../../.gitbook/assets/ai-search-algorithm-types-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
