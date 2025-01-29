@@ -36,8 +36,6 @@ Knowledge is the awareness or familiarity gained through experiences, facts, dat
 * **Heuristic Knowledge**: Rules of thumb or strategies for problem-solving. For example, "If the traffic is heavy, take an alternate route."
 * **Structural Knowledge**: Knowledge about relationships between concepts. For example, "A car has an engine, wheels, and doors."
 
-\>>>>>>>>>>>>>
-
 ### Why is Knowledge Representation Important?
 
 Knowledge representation is crucial because it allows AI systems to:
