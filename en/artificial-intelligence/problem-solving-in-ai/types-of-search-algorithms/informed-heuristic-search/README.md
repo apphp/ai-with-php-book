@@ -15,5 +15,10 @@ Informed search algorithms utilize problem-specific knowledge to guide the searc
 3. **A\* Graph Search**
 4. #### Iterative Deepening A\* (IDA)
 5. #### Beam Search
+6. **Hill Climbing Algorithm**
+7. **Simulated Annealing**
+8. **Local Beam Search**
+9. **Genetic Algorithms**
+10. **Tabu Search**
 
 Let's take a closer look at all these types.

@@ -12,9 +12,10 @@ Uninformed search algorithms operate without any domain-specific knowledge about
 
 1. #### Breadth-First Search (BFS)
 2. #### Depth-First Search (DFS)
-3. **Depth-limited Search (DLS)**
+3. #### Uniform Cost Search (UCS)
 4. #### Iterative Deepening Depth-First Search (IDDFS)
-5. #### Uniform Cost Search (UCS)
-6. #### Bidirectional Search (BDS)
+5. #### Bidirectional Search (BDS)
+6. **Depth-limited Search (DLS)**
+7. **Random Walk Search (RWS)**
 
 Let's take a closer look at all these types.

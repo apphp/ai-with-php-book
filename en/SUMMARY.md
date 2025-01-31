@@ -67,7 +67,7 @@
         * [Bidirectional Search (BDS)](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/global-search/bidirectional-search-bds.md)
       * [Local Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/local-search/README.md)
         * [Depth-Limited Search (DLS)](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/local-search/depth-limited-search-dls.md)
-        * [Random Walk](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/local-search/random-walk.md)
+        * [Random Walk Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/uninformed-blind-search/local-search/random-walk.md)
     * [Informed (Heuristic) Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/README.md)
       * [Global Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/global-search/README.md)
         * [Greedy Search](artificial-intelligence/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/global-search/greedy-search.md)
