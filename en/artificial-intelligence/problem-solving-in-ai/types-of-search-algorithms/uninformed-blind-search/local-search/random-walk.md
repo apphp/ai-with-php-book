@@ -1,6 +1,6 @@
-# Random Walk Search
+# Random Walk Search (RWS)
 
-The Random Walk Search algorithm is a fundamental search strategy where a search agent randomly selects and moves to a neighboring node without maintaining a history of past states. This approach is often used in scenarios where structured search methods are either infeasible or inefficient due to an unknown or highly complex search space.
+The Random Walk Search (RWS), also known as a drunkard's walk - algorithm is a fundamental search strategy where a search agent randomly selects and moves to a neighboring node without maintaining a history of past states. This approach is often used in scenarios where structured search methods are either infeasible or inefficient due to an unknown or highly complex search space.
 
 ### Key Characteristics
 
@@ -46,9 +46,15 @@ Random Walk Search is a simple yet powerful approach for exploring unknown searc
 
 In the search tree below, the flow of the random walk search can be following this order:
 
-$$S→A→C→D→B→I→J$$
+$$S→A→S→A→C→A→S→A→D→A→C→E→K$$
 
-....
+The algorithm starts at the root node **S** (depth 0). It explores node **A** (depth 1), then moves back to **S** (depth 0), then again to **A** (depth 1). After that it goes to node **C** (depth 2)**,** then back to A (depth 1) and again to S (depth 0). Next it walks to node **A** (depth 1), then to node **D** (depth 2) and again back to **A**  (depth 1). Then it goes to node **C** (depth 2), explorers it's children and goes to node **E** (depth 3) and finally reaches the goal node **K** (depth 4).&#x20;
+
+```
+Total steps taken: 12
+```
+
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ai-problem-solving-random-walk-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Complexity, **Completeness** and Optimality
 
@@ -75,54 +81,40 @@ In PHP  it can be written as a class `UninformedSearchGraph` with implementation
 **Example of Use:**
 
 ```php
-// Create the graph and add vertices with their levels
+// Create new graph instance
 $graph = new UninformedSearchGraph();
 
-// Add all vertices with their respective levels
-$graph->addVertex('S', 0);  // Start node at level 0
-$graph->addVertex('A', 1);
-$graph->addVertex('B', 1);
-$graph->addVertex('C', 2);
-$graph->addVertex('D', 2);
-$graph->addVertex('I', 2);
-$graph->addVertex('J', 2);
-$graph->addVertex('E', 3);
-$graph->addVertex('F', 3);
-$graph->addVertex('G', 3);
-$graph->addVertex('H', 3);
+// Add vertices with their levels
+$graph->addVertex('S', 0);  // Start node (level 0)
+$graph->addVertex('A', 1);  // Level 1
+$graph->addVertex('B', 1);  // Level 1
+$graph->addVertex('C', 2);  // Level 2
+$graph->addVertex('D', 2);  // Level 2
+$graph->addVertex('G', 2);  // Level 2
+$graph->addVertex('H', 2);  // Level 2
+$graph->addVertex('E', 3);  // Level 3
+$graph->addVertex('F', 3);  // Level 3
+$graph->addVertex('I', 3);  // Level 3
+$graph->addVertex('K', 4);  // Level 4 (target node)
 
-// Add edges according to the graph structure
-$graph->addEdge('S', 'A');
-$graph->addEdge('S', 'B');
-$graph->addEdge('A', 'C');
-$graph->addEdge('A', 'D');
-$graph->addEdge('B', 'I');
-$graph->addEdge('B', 'J');
-$graph->addEdge('C', 'E');
-$graph->addEdge('C', 'F');
-$graph->addEdge('D', 'G');
-$graph->addEdge('I', 'H');
+// Add edges to create the graph structure
+$graph->addEdge('S', 'A');  // S -> A
+$graph->addEdge('S', 'B');  // S -> B
+$graph->addEdge('A', 'C');  // A -> C
+$graph->addEdge('A', 'D');  // A -> D
+$graph->addEdge('B', 'G');  // B -> G
+$graph->addEdge('B', 'H');  // B -> H
+$graph->addEdge('C', 'E');  // C -> E
+$graph->addEdge('C', 'F');  // C -> F
+$graph->addEdge('G', 'I');  // G -> I
+$graph->addEdge('E', 'K');  // E -> K
 
-// Try DLS with different depth limits
-$depths = [1, 2, 3];
+echo "RWS traversal starting from vertex 'S':\n";
+echo "--------------------------------------\n";
 
-foreach ($depths as $maxDepth) {
-    echo "\nTrying DLS with max depth = $maxDepth to find node 'J':\n";
-    $result = $graph->dls('S', $maxDepth, 'J');
-
-    echo $result['found']
-        ? "✓ Target 'J' found within depth limit!\n"
-        : "✗ Target 'J' not found within depth limit of {$result['maxDepth']}\n";
-
-    echo "Path explored:\n";
-    foreach ($result['path'] as $node) {
-        echo sprintf("  Node: %s (Level %d, Search Depth %d)\n",
-            $node['vertex'],
-            $node['level'],
-            $node['depth']
-        );
-    }
-}
+// Perform random search from S to K - 100 steps maximum
+$searchResult = $graph->rws('S', 'K', 100);
+$graph->printRwsPath($searchResult);
 ```
 
 {% hint style="info" %}
