@@ -14,6 +14,11 @@ Linear Programming and Integer Programming
   * Basics of Linear Programming
 * Integer Programming
   * Basics of Integer Programming
+*
+  * Convex Optimization
+  * Lagrange Multipliers
+  * Linear and Integer Programming
+  * Metaheuristic Algorithms (Genetic Algorithms, Simulated Annealing)
 
 etc...
 

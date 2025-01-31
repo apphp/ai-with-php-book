@@ -99,8 +99,11 @@
   * [Uncertain Knowledge Representation](artificial-intelligence/knowledge-and-uncertainty-in-ai/uncertain-knowledge-representation.md)
   * [The Wumpus World](artificial-intelligence/knowledge-and-uncertainty-in-ai/the-wumpus-world.md)
   * [Applications and Challenges](artificial-intelligence/knowledge-and-uncertainty-in-ai/applications-and-challenges.md)
-* [Decision Making in AI](artificial-intelligence/decision-making-in-ai.md)
-* [Computational Theory in AI](artificial-intelligence/computational-theory-in-ai.md)
+* [Mathematics for AI](artificial-intelligence/mathematics-for-ai/README.md)
+  * [Computational Theory in AI](artificial-intelligence/mathematics-for-ai/computational-theory-in-ai.md)
+  * [Logic and Reasoning](artificial-intelligence/mathematics-for-ai/logic-and-reasoning.md)
+  * [Set Theory and Discrete Mathematics](artificial-intelligence/mathematics-for-ai/set-theory-and-discrete-mathematics.md)
+  * [Decision Making in AI](artificial-intelligence/mathematics-for-ai/decision-making-in-ai.md)
 
 ## Machine Learning
 
