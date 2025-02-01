@@ -81,7 +81,8 @@ class UninformedSearchGraph {
             // Add vertex to path
             $path[] = [
                 'vertex' => $currentVertex,
-                'level' => $this->levels[$currentVertex]
+                'level' => $this->levels[$currentVertex],
+                'visits' => $visited[$currentVertex] ?? 0
             ];
 
             // Get all adjacent vertices of the dequeued vertex
