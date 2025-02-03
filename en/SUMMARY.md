@@ -80,7 +80,7 @@
           * [Iterative Deepening A\* Search](artificial-intelligence/theoretical-foundations-of-ai/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/global-search/iterative-deepening-a.md)
           * [Beam Search](artificial-intelligence/theoretical-foundations-of-ai/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/global-search/beam-search.md)
         * [Local Search](artificial-intelligence/theoretical-foundations-of-ai/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/local-search/README.md)
-          * [Hill Climbing Algorithm](artificial-intelligence/theoretical-foundations-of-ai/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/local-search/hill-climbing-algorithm/README.md)
+          * [Hill Climbing](artificial-intelligence/theoretical-foundations-of-ai/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/local-search/hill-climbing-algorithm/README.md)
             * [Introduction](artificial-intelligence/theoretical-foundations-of-ai/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/local-search/hill-climbing-algorithm/introduction.md)
             * [Implementation in PHP](artificial-intelligence/theoretical-foundations-of-ai/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/local-search/hill-climbing-algorithm/implementation-in-php.md)
             * [Practical Applications](artificial-intelligence/theoretical-foundations-of-ai/problem-solving-in-ai/types-of-search-algorithms/informed-heuristic-search/local-search/hill-climbing-algorithm/practical-applications.md)
