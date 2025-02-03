@@ -2,12 +2,12 @@
 
 Hill climbing is an iterative optimization technique that attempts to find the best solution by making incremental changes to a given solution, similar to climbing up a hill to reach its peak. The algorithm starts with an initial solution and continuously moves toward better solutions until no further improvements can be made.
 
-#### Algorithm Characteristics
+### Algorithm Characteristics
 
 Hill climbing is a local search algorithm that iteratively moves to neighboring nodes with better heuristic values. Here are its key characteristics:
 
-* **Time Complexity**: O(n), where n is the number of nodes in the search space
-* **Space Complexity**: O(1), as it only needs to store the current state and its neighbors
+* **Time Complexity**: $$O(n)$$, where  is the number of nodes in the search space
+* **Space Complexity**: $$O(1)$$, as it only needs to store the current state and its neighbors
 * **Advantages**:
   * Simple implementation and intuitive approach
   * Uses minimal memory since it only maintains the current state
@@ -21,7 +21,7 @@ Hill climbing is a local search algorithm that iteratively moves to neighboring 
   * Local search problems with smooth search spaces
   * Problems where finding a good solution quickly is more important than finding the optimal solution
 
-#### Fundamental Concepts of Hill Climbing Algorithms
+### Fundamental Concepts of Hill Climbing Algorithms
 
 Hill climbing operates through the following key steps:
 
@@ -30,7 +30,7 @@ Hill climbing operates through the following key steps:
 3. **Move to Neighbor**: Transition to a neighboring state if it offers an improved solution based on a defined evaluation function.
 4. **Termination**: Repeat the process until no neighboring state yields a better solution. At this stage, the algorithm has reached a local maximum or minimum, depending on whether the goal is to maximize or minimize the objective.
 
-#### Hill Climbing in Mathematical Optimization
+### Hill Climbing in Mathematical Optimization
 
 The Hill Climbing algorithm is widely used for mathematical optimization problems in AI. By leveraging a heuristic function and exploring a broad input space, the algorithm can identify a sufficiently good solution within a reasonable timeframe, even if it doesn’t always guarantee a globally optimal result.
 
@@ -53,13 +53,11 @@ A **heuristic function** evaluates and ranks potential alternatives at each deci
 2. **Greedy Approach**:\
    Hill Climbing adopts a **greedy strategy**, always choosing the best immediate option to optimize the objective function. While this approach aims for efficiency, it focuses on local improvements and doesn’t account for the global context, which may lead to suboptimal solutions (local optima).
 
-
-
 ### State-Space Diagram in Hill Climbing: Key Concepts and Regions
 
 In the Hill Climbing algorithm, the **state-space diagram** visually represents all possible states the algorithm can explore, plotted against the values of the **objective function** (the function being maximized or minimized).
 
-**Components of the State-Space Diagram:**
+#### **Components of the State-Space Diagram:**
 
 * **X-Axis**: Represents the state space, encompassing all possible states or configurations that the algorithm can reach.
 * **Y-Axis**: Represents the objective function values corresponding to each state.
