@@ -53,7 +53,7 @@ phpCopyclass HillClimbing {
 Here's a practical example using the hill climbing algorithm to solve a simple optimization problem:
 
 ```php
-phpCopy// Define an evaluation function (objective function)
+// Define an evaluation function (objective function)
 $evaluationFunction = function($state) {
     // Simple quadratic function: f(x) = -(x-5)^2 + 25
     return -pow($state - 5, 2) + 25;
