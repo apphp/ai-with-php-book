@@ -1,81 +1,5 @@
 # Implementation in PHP
 
-### Implementation in PHP
-
-Let's implement a basic hill climbing algorithm in PHP:
-
-```php
-phpCopyclass HillClimbing {
-    private $evaluationFunction;
-    private $neighborGenerator;
-    
-    public function __construct(callable $evaluationFunction, callable $neighborGenerator) {
-        $this->evaluationFunction = $evaluationFunction;
-        $this->neighborGenerator = $neighborGenerator;
-    }
-    
-    public function climb($initialState, $maxIterations = 1000) {
-        $currentState = $initialState;
-        $currentValue = ($this->evaluationFunction)($currentState);
-        
-        for ($i = 0; $i < $maxIterations; $i++) {
-            $neighbors = ($this->neighborGenerator)($currentState);
-            $bestNeighbor = null;
-            $bestValue = $currentValue;
-            
-            foreach ($neighbors as $neighbor) {
-                $neighborValue = ($this->evaluationFunction)($neighbor);
-                if ($neighborValue > $bestValue) {
-                    $bestNeighbor = $neighbor;
-                    $bestValue = $neighborValue;
-                }
-            }
-            
-            if ($bestValue <= $currentValue) {
-                break; // Local maximum reached
-            }
-            
-            $currentState = $bestNeighbor;
-            $currentValue = $bestValue;
-        }
-        
-        return [
-            'state' => $currentState,
-            'value' => $currentValue,
-            'iterations' => $i
-        ];
-    }
-}
-```
-
-#### Example Usage
-
-Here's a practical example using the hill climbing algorithm to solve a simple optimization problem:
-
-```php
-// Define an evaluation function (objective function)
-$evaluationFunction = function($state) {
-    // Simple quadratic function: f(x) = -(x-5)^2 + 25
-    return -pow($state - 5, 2) + 25;
-};
-
-// Define a neighbor generator
-$neighborGenerator = function($state) {
-    // Generate neighbors by adding/subtracting small random values
-    $neighbors = [];
-    for ($i = 0; $i < 5; $i++) {
-        $neighbors[] = $state + (mt_rand(-10, 10) / 10);
-    }
-    return $neighbors;
-};
-
-// Create hill climbing instance
-$hillClimbing = new HillClimbing($evaluationFunction, $neighborGenerator);
-
-// Run the algorithm
-$result = $hillClimbing->climb(0);
-```
-
 ### Types of Hill Climbing in Artificial Intelligence <a href="#types-of-hill-climbing-in-artificial-intelligence" id="types-of-hill-climbing-in-artificial-intelligence"></a>
 
 #### **1. Simple Hill Climbing Algorithm** <a href="#id-1-simple-hill-climbing-algorithm" id="id-1-simple-hill-climbing-algorithm"></a>
@@ -91,6 +15,10 @@ Explanation:
   * Takes the first neighbor that shows any improvement over current state
   * If no better neighbor is found, stops (potential local maximum)
 * Key characteristic: It's "greedy" and takes the first improvement it finds, not necessarily the best one
+
+\>>>>>>>> Collapsed CODE ....
+
+\>>>>>>> graph
 
 ```php
 public function simpleHillClimbing($initialState, $maxIterations = 1000) {
