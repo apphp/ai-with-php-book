@@ -425,6 +425,253 @@ class InformedSearchGraph {
         return $min;
     }
 
+    /**
+     * Simple Hill Climbing: Takes the first neighbor that improves the current state.
+     * Faster but may miss better solutions.
+     */
+    public function simpleHillClimbing(string $start, string $goal): ?array {
+        if (!isset($this->adjacencyList[$start]) || !isset($this->adjacencyList[$goal])) {
+            throw new InvalidArgumentException("Both start and goal vertices must exist in the graph.");
+        }
+
+        $currentVertex = $start;
+        $path = [[
+            'vertex' => $start,
+            'level' => $this->levels[$start],
+            'heuristic' => $this->heuristics[$start]
+        ]];
+
+        $visited = [$start => true];
+
+        while ($currentVertex !== $goal) {
+            $neighbors = $this->adjacencyList[$currentVertex];
+            if (empty($neighbors)) {
+                return null; // Dead end
+            }
+
+            // Find first better neighbor
+            $betterFound = false;
+            $currentHeuristic = $this->heuristics[$currentVertex];
+
+            foreach ($neighbors as $neighbor) {
+                if (isset($visited[$neighbor])) {
+                    continue;
+                }
+
+                if ($this->heuristics[$neighbor] < $currentHeuristic) {
+                    $currentVertex = $neighbor;
+                    $visited[$neighbor] = true;
+                    $path[] = [
+                        'vertex' => $neighbor,
+                        'level' => $this->levels[$neighbor],
+                        'heuristic' => $this->heuristics[$neighbor]
+                    ];
+                    $betterFound = true;
+                    break;
+                }
+            }
+
+            if (!$betterFound) {
+                return null; // Local maximum reached
+            }
+        }
+
+        return $path;
+    }
+
+    /**
+     * Steepest Ascent Hill Climbing: Evaluates all neighbors and selects the one
+     * that provides the maximum improvement. More thorough but slower.
+     */
+    public function steepestAscentHillClimbing(string $start, string $goal): ?array {
+        if (!isset($this->adjacencyList[$start]) || !isset($this->adjacencyList[$goal])) {
+            throw new InvalidArgumentException("Both start and goal vertices must exist in the graph.");
+        }
+
+        $currentVertex = $start;
+        $path = [[
+            'vertex' => $start,
+            'level' => $this->levels[$start],
+            'heuristic' => $this->heuristics[$start]
+        ]];
+
+        $visited = [$start => true];
+
+        while ($currentVertex !== $goal) {
+            $neighbors = $this->adjacencyList[$currentVertex];
+            if (empty($neighbors)) {
+                return null; // Dead end
+            }
+
+            // Find the neighbor with maximum improvement
+            $bestNeighbor = null;
+            $bestImprovement = 0;
+            $currentHeuristic = $this->heuristics[$currentVertex];
+
+            foreach ($neighbors as $neighbor) {
+                if (isset($visited[$neighbor])) {
+                    continue;
+                }
+
+                $improvement = $currentHeuristic - $this->heuristics[$neighbor];
+                if ($improvement > $bestImprovement) {
+                    $bestImprovement = $improvement;
+                    $bestNeighbor = $neighbor;
+                }
+            }
+
+            if ($bestNeighbor === null) {
+                return null; // Local maximum reached
+            }
+
+            $currentVertex = $bestNeighbor;
+            $visited[$currentVertex] = true;
+            $path[] = [
+                'vertex' => $currentVertex,
+                'level' => $this->levels[$currentVertex],
+                'heuristic' => $this->heuristics[$currentVertex]
+            ];
+        }
+
+        return $path;
+    }
+
+    /**
+     * Stochastic Hill Climbing: Randomly selects among the better neighbors,
+     * with probability proportional to the amount of improvement.
+     * Can escape some local maxima but may take longer to converge.
+     */
+    public function stochasticHillClimbing(string $start, string $goal): ?array {
+        if (!isset($this->adjacencyList[$start]) || !isset($this->adjacencyList[$goal])) {
+            throw new InvalidArgumentException("Both start and goal vertices must exist in the graph.");
+        }
+
+        $currentVertex = $start;
+        $path = [[
+            'vertex' => $start,
+            'level' => $this->levels[$start],
+            'heuristic' => $this->heuristics[$start]
+        ]];
+
+        $visited = [$start => true];
+        $maxAttempts = 100; // Prevent infinite loops
+        $attempts = 0;
+
+        while ($currentVertex !== $goal && $attempts < $maxAttempts) {
+            $neighbors = $this->adjacencyList[$currentVertex];
+            if (empty($neighbors)) {
+                return null; // Dead end
+            }
+
+            // Collect better neighbors and their improvements
+            $candidates = [];
+            $totalImprovement = 0;
+            $currentHeuristic = $this->heuristics[$currentVertex];
+
+            foreach ($neighbors as $neighbor) {
+                if (isset($visited[$neighbor])) {
+                    continue;
+                }
+
+                $improvement = $currentHeuristic - $this->heuristics[$neighbor];
+                if ($improvement > 0) {
+                    $candidates[] = [
+                        'vertex' => $neighbor,
+                        'improvement' => $improvement
+                    ];
+                    $totalImprovement += $improvement;
+                }
+            }
+
+            if (empty($candidates)) {
+                return null; // Local maximum reached
+            }
+
+            // Randomly select a neighbor, weighted by improvement
+            $random = mt_rand() / mt_getrandmax() * $totalImprovement;
+            $sum = 0;
+            $selectedNeighbor = null;
+
+            foreach ($candidates as $candidate) {
+                $sum += $candidate['improvement'];
+                if ($sum >= $random) {
+                    $selectedNeighbor = $candidate['vertex'];
+                    break;
+                }
+            }
+
+            if ($selectedNeighbor === null) {
+                $selectedNeighbor = $candidates[array_key_last($candidates)]['vertex'];
+            }
+
+            $currentVertex = $selectedNeighbor;
+            $visited[$currentVertex] = true;
+            $path[] = [
+                'vertex' => $currentVertex,
+                'level' => $this->levels[$currentVertex],
+                'heuristic' => $this->heuristics[$currentVertex]
+            ];
+
+            $attempts++;
+        }
+
+        return $attempts < $maxAttempts ? $path : null;
+    }
+
+    public function searchAnalysis($searchResult, bool $showCost = true): void {
+        if ($searchResult === null) {
+            echo "No path found!\n";
+            return;
+        }
+
+        $totalCost = 0;
+
+        echo "Path sequence: ";
+        $pathSequence = array_map(function ($node) {
+            return $node['vertex'];
+        }, $searchResult);
+        echo implode(" -> ", $pathSequence) . "\n";
+
+        echo "\nPath analysis:\n";
+        $lastIndex = 0;
+        $lastVertex = null;
+        foreach ($pathSequence as $index => $vertex) {
+            if ($index > 0) {
+                $prevVertex = $pathSequence[$index - 1];
+                $cost = $this->getEdgeCost($prevVertex, $vertex);
+                $totalCost += $cost;
+                echo sprintf("Step %d: %s (level %d, h=%.1f) -> %s (level %d, h=%.1f): cost: %.1f\n",
+                    $index,
+                    $prevVertex,
+                    $this->levels[$prevVertex],
+                    $this->heuristics[$prevVertex],
+                    $vertex,
+                    $this->levels[$vertex],
+                    $this->heuristics[$vertex],
+                    $cost,
+                //$searchResult[$index]['heuristic']
+                );
+            }
+            $lastIndex++;
+            $lastVertex = $vertex;
+        }
+
+        echo sprintf("Step %d: %s (level %d, h=%.1f)\n",
+            $lastIndex,
+            $lastVertex,
+            $this->levels[$vertex],
+            $this->heuristics[$vertex]
+        );
+
+        if ($showCost) {
+            echo sprintf("\nTotal path cost: %.1f\n", $totalCost);
+        }
+    }
+
+    public function getAdjacencyList(): array {
+        return $this->adjacencyList;
+    }
+
     public function printPath(array $path, bool $showCost = true): void {
         $totalCost = 0;
         $previousVertex = null;
@@ -474,6 +721,10 @@ class InformedSearchGraph {
         }
     }
 }
+
+
+
+
 ```
 
 </details>
