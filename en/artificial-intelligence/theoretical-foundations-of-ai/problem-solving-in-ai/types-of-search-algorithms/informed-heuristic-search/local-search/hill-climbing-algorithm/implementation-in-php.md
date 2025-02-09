@@ -14,41 +14,15 @@ Explanation:
   * Evaluates each neighbor one by one
   * Takes the first neighbor that shows any improvement over current state
   * If no better neighbor is found, stops (potential local maximum)
-* Key characteristic: It's "greedy" and takes the first improvement it finds, not necessarily the best one
+* Key characteristic: It's "greedy" and takes the first improvement it finds, not necessarily the best one.
 
-\>>>>>>>> Collapsed CODE ....
+#### Example
 
-\>>>>>>> graph
-
-```php
-public function simpleHillClimbing($initialState, $maxIterations = 1000) {
-    $currentState = $initialState;
-    $currentValue = ($this->evaluationFunction)($currentState);
-    
-    for ($i = 0; $i < $maxIterations; $i++) {
-        $neighbors = ($this->neighborGenerator)($currentState);
-        $improved = false;
-        
-        foreach ($neighbors as $neighbor) {
-            $neighborValue = ($this->evaluationFunction)($neighbor);
-            if ($neighborValue > $currentValue) {
-                $currentState = $neighbor;
-                $currentValue = $neighborValue;
-                $improved = true;
-                break;
-            }
-        }
-        
-        if (!$improved) {
-            break;
-        }
-    }
-    
-    return $currentState;
-}
-```
+<figure><img src="../../../../../../../.gitbook/assets/ai-problem-solving-hill-climbimng-simple-search-min.png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Steepest Ascent Hill Climbing
+
+\>>>>>>>>>>>>>>>>>>
 
 **Steepest-Ascent Hill Climbing** is an advanced variation of the simple hill climbing algorithm. Unlike simple hill climbing, which moves to the first neighboring state that shows improvement, steepest-ascent hill climbing evaluates **all neighboring states** and selects the one that offers the **most significant improvement** (the steepest ascent).
 
@@ -62,36 +36,6 @@ Explanation:\
   * Selects the neighbor with the highest improvement (the steepest ascent)
   * If no better neighbor exists, stops
 * Key characteristic: More thorough than simple hill climbing as it always picks the best available move
-
-```php
-phpCopypublic function steepestAscentHillClimbing($initialState, $maxIterations = 1000) {
-    $currentState = $initialState;
-    $currentValue = ($this->evaluationFunction)($currentState);
-    
-    for ($i = 0; $i < $maxIterations; $i++) {
-        $neighbors = ($this->neighborGenerator)($currentState);
-        $bestNeighbor = null;
-        $bestValue = $currentValue;
-        
-        foreach ($neighbors as $neighbor) {
-            $neighborValue = ($this->evaluationFunction)($neighbor);
-            if ($neighborValue > $bestValue) {
-                $bestNeighbor = $neighbor;
-                $bestValue = $neighborValue;
-            }
-        }
-        
-        if ($bestValue <= $currentValue) {
-            break;
-        }
-        
-        $currentState = $bestNeighbor;
-        $currentValue = $bestValue;
-    }
-    
-    return $currentState;
-}
-```
 
 #### 3. Stochastic Hill Climbing
 
@@ -111,97 +55,6 @@ Explanation:\
       * The temperature parameter (higher temperature = more likely to accept worse moves)
   * Keeps track of the best state found so far
 * Key characteristic: Can escape local optima by occasionally accepting worse moves, making it more robust than the other two methods
-
-```php
-class StochasticHillClimbing {
-    private $evaluationFunction;
-    private $neighborGenerator;
-    private $temperature;
-    
-    public function __construct(callable $evaluationFunction, callable $neighborGenerator, float $temperature = 1.0) {
-        $this->evaluationFunction = $evaluationFunction;
-        $this->neighborGenerator = $neighborGenerator;
-        $this->temperature = $temperature;
-    }
-    
-    private function calculateProbability($currentValue, $neighborValue): float {
-        if ($neighborValue > $currentValue) {
-            return 1.0;
-        }
-        
-        // Calculate probability based on how much worse the neighbor is
-        $delta = $neighborValue - $currentValue;
-        return exp($delta / $this->temperature);
-    }
-    
-    public function climb($initialState, $maxIterations = 1000) {
-        $currentState = $initialState;
-        $currentValue = ($this->evaluationFunction)($currentState);
-        $bestState = $currentState;
-        $bestValue = $currentValue;
-        
-        for ($i = 0; $i < $maxIterations; $i++) {
-            $neighbors = ($this->neighborGenerator)($currentState);
-            
-            // Randomly select a neighbor
-            $randomIndex = array_rand($neighbors);
-            $selectedNeighbor = $neighbors[$randomIndex];
-            $neighborValue = ($this->evaluationFunction)($selectedNeighbor);
-            
-            // Calculate probability of accepting this neighbor
-            $probability = $this->calculateProbability($currentValue, $neighborValue);
-            
-            // Accept neighbor based on probability
-            if (mt_rand() / mt_getrandmax() < $probability) {
-                $currentState = $selectedNeighbor;
-                $currentValue = $neighborValue;
-                
-                // Update best solution if current is better
-                if ($currentValue > $bestValue) {
-                    $bestState = $currentState;
-                    $bestValue = $currentValue;
-                }
-            }
-        }
-        
-        return [
-            'state' => $bestState,
-            'value' => $bestValue,
-            'iterations' => $i
-        ];
-    }
-}
-
-// Example usage for finding maximum of a function with noise
-$evaluationFunction = function($x) {
-    // Objective function: f(x) = -x^2 + 10x + noise
-    $noise = (mt_rand(-10, 10) / 10); // Add some random noise
-    return -pow($x, 2) + 10 * $x + $noise;
-};
-
-$neighborGenerator = function($x) {
-    // Generate 5 neighbors within ±2 of current value
-    $neighbors = [];
-    for ($i = 0; $i < 5; $i++) {
-        $neighbors[] = $x + (mt_rand(-20, 20) / 10);
-    }
-    return $neighbors;
-};
-
-// Create stochastic hill climbing instance
-$shc = new StochasticHillClimbing(
-    $evaluationFunction,
-    $neighborGenerator,
-    0.5 // temperature parameter
-);
-
-// Run the algorithm
-$result = $shc->climb(0.0);
-
-echo "Best solution found: x = {$result['state']}\n";
-echo "Best value found: {$result['value']}\n";
-echo "Iterations: {$result['iterations']}\n";
-```
 
 
 
@@ -294,3 +147,91 @@ public function hillClimbingWithSidewaysMoves($initialState, $maxSideways = 100)
 #### Ridge Problem <a href="#ridge-problem" id="ridge-problem"></a>
 
 A ridge is a region where movement in all possible directions seems to lead downward, resembling a peak. As a result, the Hill Climbing algorithm may stop prematurely, believing it has reached the optimal solution when, in fact, better solutions exist.
+
+
+
+### Hill Climbing Search with PHP
+
+In PHP  it can be written as a class `InformedSearchGraph` with implementation of a set of graph operations.
+
+**Example of Use:**
+
+```php
+// Create the graph and add vertices with their levels
+$graph = new InformedSearchGraph();
+
+// Add all vertices with their heuristic values
+// First parameter is vertex name, second is level (optional), third is heuristic value
+$graph->addVertex('S', 0, 10.0);  // Start node
+$graph->addVertex('A', 1, 8.5);
+$graph->addVertex('B', 1, 8.0);
+$graph->addVertex('C', 1, 9.0);
+$graph->addVertex('D', 2, 7.0);
+$graph->addVertex('E', 2, 6.5);
+$graph->addVertex('F', 2, 7.5);
+$graph->addVertex('H', 3, 5.0);
+$graph->addVertex('I', 3, 4.5);
+$graph->addVertex('J', 3, 6.0);
+$graph->addVertex('K', 4, 3.0);
+$graph->addVertex('L', 4, 2.5);
+$graph->addVertex('M', 4, 4.0);
+$graph->addVertex('N', 3, 5.5);
+$graph->addVertex('O', 4, 3.5);
+$graph->addVertex('P', 5, 1.5);
+$graph->addVertex('Q', 5, 2.0);
+$graph->addVertex('G', 6, 0.0);  // Goal node
+
+// Add all edges with their costs
+// Main paths
+$graph->addEdge('S', 'A', 1.5);
+$graph->addEdge('S', 'B', 2.1);
+$graph->addEdge('S', 'C', 1.1);
+$graph->addEdge('A', 'D', 2.5);
+$graph->addEdge('B', 'E', 2.0);
+$graph->addEdge('C', 'F', 1.5);
+$graph->addEdge('D', 'H', 2.0);
+$graph->addEdge('E', 'I', 2.0);
+$graph->addEdge('F', 'J', 2.0);
+$graph->addEdge('H', 'K', 2.0);
+$graph->addEdge('I', 'L', 2.5);
+$graph->addEdge('J', 'M', 2.0);
+$graph->addEdge('K', 'P', 3.0);
+$graph->addEdge('L', 'P', 2.0);
+$graph->addEdge('M', 'Q', 2.5);
+$graph->addEdge('P', 'G', 2.0);
+$graph->addEdge('Q', 'G', 3.0);
+
+// Cross connections
+$graph->addEdge('D', 'E', 1.5);
+$graph->addEdge('E', 'F', 1.0);
+$graph->addEdge('H', 'I', 1.0);
+$graph->addEdge('I', 'J', 1.5);
+$graph->addEdge('K', 'L', 1.0);
+$graph->addEdge('L', 'M', 1.5);
+$graph->addEdge('F', 'N', 2.0);
+$graph->addEdge('N', 'O', 2.5);
+$graph->addEdge('O', 'Q', 2.0);
+
+// Perform hill climbing search from S to G
+echo "Performing Hill Climbing Search from S to G:\n";
+echo "-------------------------------------------\n\n";
+
+$searchResult = match ($searchType ?? 'simple') {
+    'stochastic' => $graph->stochasticHillClimbing('S', 'G'),
+    'steepest'   => $graph->steepestAscentHillClimbing('S', 'G'),
+    default      => $graph->simpleHillClimbing('S', 'G'),
+};
+
+if ($searchResult === null) {
+    echo "No path found!\n";
+} else {
+    echo "[!] Path found using Hill Climbing Search:\n";
+    echo "\n\nSearch Analysis:\n";
+    echo "---------------\n";
+    $graph->searchAnalysis($searchResult);
+}
+```
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
