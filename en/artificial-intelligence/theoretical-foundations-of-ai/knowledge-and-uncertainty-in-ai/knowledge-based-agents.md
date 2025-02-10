@@ -212,7 +212,7 @@ Step 4: Final Knowledge Base State
 --------------------
 Time step incremented to: 1
 Action recorded in KB: At time 0, performed action: 
-{"type":"default_action","percept":{"temperature":25,"humidity":60}}}}
+{"type":"default_action","percept":{"temperature":25,"humidity":60}}
 ```
 
 </details>
