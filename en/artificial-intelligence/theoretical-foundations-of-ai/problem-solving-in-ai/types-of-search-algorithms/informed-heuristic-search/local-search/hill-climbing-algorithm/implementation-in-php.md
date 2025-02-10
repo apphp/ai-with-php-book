@@ -6,7 +6,7 @@
 
 **Simple Hill Climbing** is the most basic form of the hill climbing algorithm. It works by evaluating each neighboring state **one at a time** and moves to the **first neighbor** that provides an improvement over the current state.
 
-Explanation:
+**Explanation**:
 
 * Starts with an initial state
 * In each iteration:
@@ -16,18 +16,15 @@ Explanation:
   * If no better neighbor is found, stops (potential local maximum)
 * Key characteristic: It's "greedy" and takes the first improvement it finds, not necessarily the best one.
 
-#### Example
+#### Example:
 
-<figure><img src="../../../../../../../.gitbook/assets/ai-problem-solving-hill-climbimng-simple-search-min.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-problem-solving-hill-climbimng-simple-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### 2. Steepest Ascent Hill Climbing
 
-\>>>>>>>>>>>>>>>>>>
-
 **Steepest-Ascent Hill Climbing** is an advanced variation of the simple hill climbing algorithm. Unlike simple hill climbing, which moves to the first neighboring state that shows improvement, steepest-ascent hill climbing evaluates **all neighboring states** and selects the one that offers the **most significant improvement** (the steepest ascent).
 
-Explanation:\
-
+**Explanation**:
 
 * Starts with an initial state
 * In each iteration:
@@ -37,7 +34,13 @@ Explanation:\
   * If no better neighbor exists, stops
 * Key characteristic: More thorough than simple hill climbing as it always picks the best available move
 
+#### Example:
+
+<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-problem-solving-hill-climbimng-steepest-ascent-search-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 #### 3. Stochastic Hill Climbing
+
+\>>>>>>>>>>>>
 
 Stochastic Hill Climbing introduces randomness into the search process to help escape local optima. Instead of always selecting the best neighbor or the first better neighbor, it probabilistically selects neighbors based on how much improvement they offer. Here's an implementation:
 
@@ -76,6 +79,10 @@ A local maximum occurs when all neighboring states have worse values than the cu
 
 One of the main challenges with hill climbing is getting stuck in local maxima. Here's an implementation that uses random restarts to address this:
 
+<details>
+
+<summary>Example with Explanation</summary>
+
 ```php
 public function hillClimbingWithRandomRestarts($maxRestarts = 10) {
     $bestState = null;
@@ -98,7 +105,17 @@ public function hillClimbingWithRandomRestarts($maxRestarts = 10) {
 }
 ```
 
+This function implements **Hill Climbing with Random Restarts**, an optimization algorithm used to find the best possible solution in a given search space. It repeatedly performs hill climbing from different randomly generated starting points and keeps track of the best solution found.
+
+The function initializes variables to store the best state and value. It then iterates up to a specified number of restarts (`$maxRestarts`), generating a new random initial state each time. It applies a `climb()` function (which likely performs standard hill climbing to find a local optimum from that starting point) and compares the result with the current best-known solution. If the new result is better, it updates the best state and value.
+
+After all restarts, the function returns the best state and value found across all iterations. This approach helps mitigate the issue of getting stuck in local optima by exploring multiple random starting points.
+
+</details>
+
 #### Plateaus
+
+\>>>>>>>>>>>>>
 
 A plateau is a flat region in the search space where all neighboring states have the same value. This makes it difficult for the algorithm to choose the best direction to move forward.
 

@@ -1,6 +1,6 @@
 # Classification of NN Types
 
-* by Architectures ....
+* by Architectures .... GAN?
 * Overview of different architectures (e.g., feedforward, convolutional, recurrent).
 * Suitable use cases for each type.
 * forward / backward propagations !!!
