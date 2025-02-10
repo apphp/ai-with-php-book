@@ -97,6 +97,7 @@
     * [Knowledge Representation](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/README.md)
       * [Introduction](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/introduction.md)
       * [Types of Knowledge in AI](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/types-of-knowledge-in-ai.md)
+      * [The KR Cycle in AI](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/the-kr-cycle-in-ai.md)
       * [KR Techniques](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/kr-techniques.md)
       * [Approaches to KR in AI](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/approaches-to-kr-in-ai.md)
       * [Propositional Logic](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/propositional-logic.md)
