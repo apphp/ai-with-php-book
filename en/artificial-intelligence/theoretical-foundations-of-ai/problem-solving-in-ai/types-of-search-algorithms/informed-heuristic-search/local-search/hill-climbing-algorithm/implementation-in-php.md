@@ -36,7 +36,7 @@
 
 #### Example:
 
-
+<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-problem-solving-hill-climbimng-steepest-ascent-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### 3. Stochastic Hill Climbing
 
