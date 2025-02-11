@@ -18,7 +18,7 @@
 
 #### Example:
 
-<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-problem-solving-hill-climbimng-simple-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-problem-solving-hill-climbimng-simple-search-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### 2. Steepest Ascent Hill Climbing
 
@@ -40,12 +40,9 @@
 
 #### 3. Stochastic Hill Climbing
 
-\>>>>>>>>>>>>
-
 Stochastic Hill Climbing introduces randomness into the search process to help escape local optima. Instead of always selecting the best neighbor or the first better neighbor, it probabilistically selects neighbors based on how much improvement they offer. Here's an implementation:
 
-Explanation:\
-
+Explanation:
 
 * Starts with an initial state
 * In each iteration:
@@ -59,17 +56,17 @@ Explanation:\
   * Keeps track of the best state found so far
 * Key characteristic: Can escape local optima by occasionally accepting worse moves, making it more robust than the other two methods
 
+#### Example:
 
+<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-problem-solving-hill-climbimng-stochastic-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+### Difference between Algorithms
 
 The main difference between these algorithms is how they select the next state:
 
 * Simple: Takes first improvement
 * Steepest: Takes best improvement
 * Stochastic: Takes probabilistic moves, allowing occasional "downhill" steps
-
-
-
-
 
 ### Handling Common Challenges
 
@@ -115,11 +112,13 @@ After all restarts, the function returns the best state and value found across a
 
 #### Plateaus
 
-\>>>>>>>>>>>>>
-
 A plateau is a flat region in the search space where all neighboring states have the same value. This makes it difficult for the algorithm to choose the best direction to move forward.
 
 To handle plateaus (flat regions in the search space), we can implement sideways moves:
+
+<details>
+
+<summary>Example with Explanation</summary>
 
 ```php
 public function hillClimbingWithSidewaysMoves($initialState, $maxSideways = 100) {
@@ -161,11 +160,28 @@ public function hillClimbingWithSidewaysMoves($initialState, $maxSideways = 100)
 }
 ```
 
+This function implements **Hill Climbing with Sideways Moves**, an optimization algorithm that enhances the basic hill climbing approach by allowing temporary non-improving moves to explore potential better solutions.
+
+The function accepts an initial state and a maximum number of allowed sideways moves (default 100). It maintains the current state and its evaluated value, along with a counter for sideways moves. The algorithm iteratively:
+
+1. Generates neighboring states from the current position
+2. Evaluates each neighbor using the evaluation function
+3. Selects the best neighbor (accepting equal or better values)
+4. Makes decisions based on the comparison:
+   * If no better/equal neighbor exists, terminates
+   * If equal-value neighbor is chosen, increments sideways counter
+   * If better neighbor is found, resets sideways counter
+   * If sideways moves exceed the limit, terminates
+
+This approach helps overcome "plateaus" in the search space where immediate improvements aren't available, but better solutions might be reachable through a series of sideways steps. The sideways move limit prevents the algorithm from endlessly wandering flat regions.
+
+The function ultimately returns the best state found through this exploration process, whether it's a strict local maximum or the endpoint of a productive plateau traversal.
+
+</details>
+
 #### Ridge Problem <a href="#ridge-problem" id="ridge-problem"></a>
 
 A ridge is a region where movement in all possible directions seems to lead downward, resembling a peak. As a result, the Hill Climbing algorithm may stop prematurely, believing it has reached the optimal solution when, in fact, better solutions exist.
-
-
 
 ### Hill Climbing Search with PHP
 
