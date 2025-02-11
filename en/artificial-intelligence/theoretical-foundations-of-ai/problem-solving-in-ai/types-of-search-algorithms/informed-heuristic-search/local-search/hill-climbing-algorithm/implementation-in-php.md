@@ -18,6 +18,8 @@
 
 #### Example:
 
+<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-problem-solving-hill-climbimng-simple-search-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 #### 2. Steepest Ascent Hill Climbing
 
 **Steepest-Ascent Hill Climbing** is an advanced variation of the simple hill climbing algorithm. Unlike simple hill climbing, which moves to the first neighboring state that shows improvement, steepest-ascent hill climbing evaluates **all neighboring states** and selects the one that offers the **most significant improvement** (the steepest ascent).
