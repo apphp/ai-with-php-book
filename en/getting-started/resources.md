@@ -31,10 +31,12 @@ This section lists helpful tools, libraries, and references for further explorat
 
 #### Books
 
-* Artificial Intelligence: A Modern Approach, by by Stuart Russell and Peter Norvig\
+* Artificial Intelligence: A Modern Approach, by Stuart Russell and Peter Norvig\
   [https://aima.cs.berkeley.edu](https://aima.cs.berkeley.edu/)
-* Electric Sheep Hunt: The Big Book of Artificial Intelligence (2 volumes)\
+* Electric Sheep Hunt: The Big Book of Artificial Intelligence (2 volumes), by Sergey Markov\
   [https://markoff.science](https://markoff.science/)
+* The Hundred-Page Language Models Book, by Andriy Burkov\
+  [https://themlbook.com](https://themlbook.com/)
 
 ***
 
