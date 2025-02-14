@@ -30,19 +30,25 @@ Rubix ML is another powerful PHP library that is designed to be easy to use whil
 
 ### **PHP E**xtensions
 
-#### 1. FANN (Fast Artificial Neural Network) for PHP
+#### 1. NumPower (PHP extension library)
+
+Official website: [https://numpower.org](https://numpower.org/)
+
+NumPower is a PHP extension designed for high-performance numerical computing, offering efficient multi-dimensional array operations and linear algebra functions, similar to Python's NumPy. It provides GPU acceleration through CUDA support, enabling parallel computations on NVIDIA GPUs, significantly enhancing performance for large-scale data processing and scientific computing tasks.
+
+#### 2. FANN (Fast Artificial Neural Network) for PHP
 
 Official website: [https://www.php.net/manual/en/book.fann.php](https://www.php.net/manual/en/book.fann.php)
 
 A PHP extension that wraps around the Fast Artificial Neural Network Library (FANN). It allows the creation, training, and running of neural networks using PHP.
 
-#### 2. OpenAI (PHP extension library)
+#### 3. OpenAI (PHP extension library)
 
 Official website: [https://openai-php.com](https://openai-php.com/)
 
 The OpenAI PHP is an extension that allows PHP developers to integrate the powerful capabilities of OpenAI into their applications. Activating the extension on the web server will allow users to quickly access the services offered by OpenAI without additional libraries in PHP.
 
-#### 3. LibSVM (PHP Extension)
+#### 4. LibSVM (PHP Extension)
 
 Official website: [https://github.com/ianbarber/php-svm](https://github.com/ianbarber/php-svm?tab=readme-ov-file)
 
