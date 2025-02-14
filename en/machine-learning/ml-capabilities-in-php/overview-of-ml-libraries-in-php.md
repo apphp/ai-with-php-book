@@ -28,27 +28,41 @@ Official website: [https://rubixml.com](https://rubixml.com/)
 
 Rubix ML is another powerful PHP library that is designed to be easy to use while still offering advanced machine learning capabilities. It supports a wide variety of supervised and unsupervised learning algorithms, including neural networks, decision trees, and clustering methods. Rubix ML is known for its flexibility and performance, making it suitable for production-level applications. It also provides tools for data transformation, pipelines, and model evaluation.
 
-### **PHP E**xtensions
+### **PHP E**xtensions (for scientific computing)
 
-#### 1. NumPower (PHP extension library)
+#### 1. NumPower
 
 Official website: [https://numpower.org](https://numpower.org/)
 
 NumPower is a PHP extension designed for high-performance numerical computing, offering efficient multi-dimensional array operations and linear algebra functions, similar to Python's NumPy. It provides GPU acceleration through CUDA support, enabling parallel computations on NVIDIA GPUs, significantly enhancing performance for large-scale data processing and scientific computing tasks.
 
-#### 2. FANN (Fast Artificial Neural Network) for PHP
+#### 2. NumPHP
+
+Official website: [https://numphp.org](https://numphp.org/)
+
+NumPHP is a PHP library for scientific computing, inspired by NumPy in Python. It provides multi-dimensional arrays and mathematical operations optimized for performance, making it easier to work with numerical data in PHP. With support for matrix operations, linear algebra, and statistical functions, NumPHP is particularly useful for developers working on data analysis, machine learning, and numerical computations in a PHP environment.
+
+#### 3. SciPhp
+
+Official website: [https://sciphp.org](https://sciphp.org/)
+
+SciPhp is a PHP library designed for scientific computing, providing a NumPy-like experience in PHP. It offers multi-dimensional arrays (ndarrays), along with mathematical, statistical, and linear algebra functions, making it easier to perform numerical computations within PHP applications.
+
+### **PHP E**xtensions
+
+#### 1. FANN (Fast Artificial Neural Network) for PHP
 
 Official website: [https://www.php.net/manual/en/book.fann.php](https://www.php.net/manual/en/book.fann.php)
 
 A PHP extension that wraps around the Fast Artificial Neural Network Library (FANN). It allows the creation, training, and running of neural networks using PHP.
 
-#### 3. OpenAI (PHP extension library)
+#### 2. OpenAI (PHP extension library)
 
 Official website: [https://openai-php.com](https://openai-php.com/)
 
 The OpenAI PHP is an extension that allows PHP developers to integrate the powerful capabilities of OpenAI into their applications. Activating the extension on the web server will allow users to quickly access the services offered by OpenAI without additional libraries in PHP.
 
-#### 4. LibSVM (PHP Extension)
+#### 3. LibSVM (PHP Extension)
 
 Official website: [https://github.com/ianbarber/php-svm](https://github.com/ianbarber/php-svm?tab=readme-ov-file)
 
