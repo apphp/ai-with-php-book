@@ -43,17 +43,7 @@ Bayesian methods are based on Bayes' theorem, a statistical approach that update
 
 Bayesian methods excel in applications where prior knowledge and uncertainty play a major role, such as in medical diagnosis, weather prediction, and decision-making systems.
 
-### 5. **Deep Learning Methods**
-
-Deep learning methods are a subset of machine learning that use neural networks with multiple layers (deep neural networks) to learn complex patterns in data. These methods are particularly powerful for tasks with large amounts of unstructured data, like images or audio.
-
-* **Convolutional Neural Networks (CNNs)**: CNNs are designed for processing grid-like data, such as images. They’re widely used in image recognition, facial recognition, and video analysis, making them essential in fields like medical imaging (e.g., identifying tumors) and autonomous driving (e.g., detecting pedestrians).
-* **Recurrent Neural Networks (RNNs)**: RNNs are well-suited for sequential data, such as time-series data or natural language. Applications include speech recognition, machine translation, and sentiment analysis in customer reviews.
-* **Transformers**: A newer architecture in deep learning, transformers excel in handling long-range dependencies in sequential data. They’re commonly used in natural language processing (NLP) tasks, such as in OpenAI's GPT models or Google’s BERT for language translation, summarization, and chatbots.
-
-Deep learning methods are particularly effective in complex, high-dimensional data domains, including computer vision, NLP, and speech recognition.
-
-### 6. **Reinforcement Learning Methods**
+### 5. **Reinforcement Learning Methods**
 
 Reinforcement learning (RL) methods involve training an agent to make sequential decisions by rewarding desirable actions and penalizing undesirable ones. The agent learns a policy that maximizes cumulative reward, making RL suitable for tasks requiring adaptive behavior in dynamic environments.
 
@@ -63,7 +53,7 @@ Reinforcement learning (RL) methods involve training an agent to make sequential
 
 Reinforcement learning methods are highly effective in environments where the agent can interact and receive feedback, making them valuable in robotics, autonomous vehicles, and strategic game playing.
 
-### 7. **Evolutionary Algorithms** Methods
+### 6. **Evolutionary Algorithms** Methods
 
 Inspired by the process of natural selection, evolutionary algorithms use mechanisms like selection, mutation, and crossover to optimize solutions. These methods are especially useful in optimization problems where traditional approaches may not work well.
 
@@ -73,7 +63,7 @@ Inspired by the process of natural selection, evolutionary algorithms use mechan
 
 Evolutionary algorithms are well-suited for tasks with complex, nonlinear solutions, particularly when models need to evolve and adapt over time.
 
-### 8. **Dimensionality Reduction Techniques**
+### 7. **Dimensionality Reduction Techniques**
 
 Dimensionality reduction techniques are used to simplify data by reducing the number of features while retaining important information. This helps in visualizing data and improving model efficiency, especially with high-dimensional datasets.
 

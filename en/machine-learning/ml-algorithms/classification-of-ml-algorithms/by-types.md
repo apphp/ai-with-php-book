@@ -1,4 +1,4 @@
-# By Types
+# By Learning Types
 
 Let's explore deeper the meaning behind these categories and what they encompass.
 
@@ -73,6 +73,35 @@ Practical applications for this type of machine learning are still emerging. Som
 * Speech Analysis: learns from both transcribed (labeled) and untranscribed (unlabeled) audio to improve speech systems. Used for Google Assistant, Alexa.
 * Image Classification: identifies objects in images, even with limited labeled data. Used for face recognition, content moderation.
 * Text Classification: sorts documents with minimal labeling, using context from surrounding data. Used for news categorization, tagging social media posts.
+
+### **Self-Supervised Learning**
+
+Self-supervised learning is a type of machine learning where the model learns to label the data by itself, creating its own supervision. It generates labels from the input data without human intervention, making it a form of unsupervised learning with a clever twist.
+
+Self-supervised learning trains a model by solving pretext tasks — simple problems based on the data’s structure — and then uses the learned patterns for other tasks. It’s like solving puzzles using pieces of the data itself to teach the model how to understand it better.
+
+In simple words, **Self-Supervised Learning is like teaching a machine to learn from data without needing human-labeled answers — the machine labels its own data**.
+
+#### Key Characteristics:
+
+* Learns from unlabeled data by creating its own labels
+* Reduces reliance on human-annotated data
+* Builds representations that transfer well to other tasks
+* Often used when labeling is expensive or impossible
+
+**Self-Supervised Learning Examples**
+
+Self-supervised learning powers some of the most advanced AI systems today. Real-world applications include:
+
+*   **Natural Language Processing (NLP):**
+
+    Language Models: Trains on massive text data by predicting missing words (e.g., GPT, BERT). Used for chatbots, search engines, and text generation.
+* **Computer Vision:** \
+  Image Understanding: Learns from images by predicting missing parts, rotating images, or identifying similar patches. Used for image search, medical imaging, and self-driving cars.
+* **Audio Processing:** \
+  Speech Models: Learns patterns from raw audio by predicting future sounds or missing segments. Used for virtual assistants and voice recognition.
+
+Self-supervised learning is transforming AI by allowing models to learn from vast amounts of unlabeled data — making AI smarter, faster, and less reliant on human input.
 
 ### Reinforcement Learning
 

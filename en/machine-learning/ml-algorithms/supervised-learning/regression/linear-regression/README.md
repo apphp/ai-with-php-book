@@ -6,7 +6,7 @@ Linear Regression is one of the simplest yet most powerful techniques in machine
 
 ### **Characteristics**
 
-<table><thead><tr><th width="247">Category</th><th>Value</th></tr></thead><tbody><tr><td><strong>Algorithm Type</strong></td><td>Supervised Learning</td></tr><tr><td><strong>Tasks Resolved</strong></td><td>Regression</td></tr><tr><td><strong>Methods Used</strong></td><td>Mathematical and statistical</td></tr><tr><td><strong>Feature Types Used</strong></td><td>Numerical Features</td></tr></tbody></table>
+<table><thead><tr><th width="247">Category</th><th>Value</th></tr></thead><tbody><tr><td><strong>Learning Type</strong></td><td>Supervised Learning</td></tr><tr><td><strong>Model Depth</strong></td><td>Shallow Learning</td></tr><tr><td><strong>Task Resolved</strong></td><td>Regression</td></tr><tr><td><strong>Method Used</strong></td><td>Mathematical and statistical</td></tr><tr><td><strong>Feature Type Used</strong></td><td>Numerical Features</td></tr></tbody></table>
 
 ### Key Points
 
