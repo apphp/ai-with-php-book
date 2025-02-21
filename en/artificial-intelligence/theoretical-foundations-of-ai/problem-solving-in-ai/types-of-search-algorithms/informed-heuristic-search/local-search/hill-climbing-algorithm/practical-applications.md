@@ -1,10 +1,8 @@
 # Practical Applications
 
-Let's review practical usage of  Hill Climbing Search for Traveling Salesman Problem (TSP) - a classic optimization problem in computer science and operations research. It involves finding the shortest possible route for a salesman to visit a set of cities exactly once and return to the starting point.
+Let's review practical usage of Hill Climbing Search for Traveling Salesman Problem (TSP) - a classic optimization problem in computer science and operations research. It involves finding the shortest possible route for a salesman to visit a set of cities exactly once and return to the starting point.
 
 #### Example:
-
-<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-search-practical-applications-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Result:
 
