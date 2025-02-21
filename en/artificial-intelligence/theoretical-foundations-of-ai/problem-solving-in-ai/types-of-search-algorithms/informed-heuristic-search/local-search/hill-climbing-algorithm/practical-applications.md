@@ -4,6 +4,8 @@ Let's review practical usage of Hill Climbing Search for Traveling Salesman Prob
 
 #### Example:
 
+<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-search-practical-applications-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 #### Result:
 
 ```
