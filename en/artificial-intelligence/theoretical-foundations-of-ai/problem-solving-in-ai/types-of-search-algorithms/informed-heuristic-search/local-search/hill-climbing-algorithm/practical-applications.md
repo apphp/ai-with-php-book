@@ -4,7 +4,7 @@ Let's review practical usage of  Hill Climbing Search for Traveling Salesman Pro
 
 #### Example:
 
-<figure><img src="../../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 
 #### Result:
 
