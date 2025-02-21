@@ -4,7 +4,7 @@ Let's review practical usage of  Hill Climbing Search for Traveling Salesman Pro
 
 #### Example:
 
-
+<div align="left"><figure><img src="../../../../../../../.gitbook/assets/ai-search-practical-applications-min (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Result:
 
