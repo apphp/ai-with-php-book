@@ -1,54 +1,36 @@
 # Practical Applications
 
-### Practical Applications
+Let's review practical usage of  Hill Climbing Search for Traveling Salesman Problem (TSP) - a classic optimization problem in computer science and operations research. It involves finding the shortest possible route for a salesman to visit a set of cities exactly once and return to the starting point.
 
-#### Example: Traveling Salesman Problem
+#### Example:
 
-Here's how to apply hill climbing to the Traveling Salesman Problem:
+<figure><img src="../../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-```php
-class TSPHillClimbing {
-    private $distances;
-    
-    public function __construct(array $distances) {
-        $this->distances = $distances;
-    }
-    
-    private function calculateTourLength(array $tour) {
-        $length = 0;
-        $cities = count($tour);
-        
-        for ($i = 0; $i < $cities; $i++) {
-            $from = $tour[$i];
-            $to = $tour[($i + 1) % $cities];
-            $length += $this->distances[$from][$to];
-        }
-        
-        return $length;
-    }
-    
-    private function generateNeighbors(array $tour) {
-        $neighbors = [];
-        $cities = count($tour);
-        
-        // Generate neighbors by swapping pairs of cities
-        for ($i = 0; $i < $cities - 1; $i++) {
-            for ($j = $i + 1; $j < $cities; $j++) {
-                $neighbor = $tour;
-                $temp = $neighbor[$i];
-                $neighbor[$i] = $neighbor[$j];
-                $neighbor[$j] = $temp;
-                $neighbors[] = $neighbor;
-            }
-        }
-        
-        return $neighbors;
-    }
-    
-    public function solve($initialTour) {
-        return $this->hillClimbingWithRandomRestarts($initialTour);
-    }
-}
+#### Result:
+
+```
+Creating city graph and running all search algorithms...
+Start: Philadelphia, Goal: Houston
+
+--------------------------------------------------
+Simple Hill Climbing:
+--------------------------------------------------
+Path sequence:
+ -> Philadelphia
+ -> New York
+ -> Miami
+ -> Houston
+
+Path analysis:
+Step 1: PHL (level 0, h=3843.5) -> NY (level 1, h=3835.7): cost: 129.6
+Step 2: NY (level 1, h=3835.7) -> MI (level 2, h=3758.8): cost: 1757.9
+Step 3: MI (level 2, h=3758.8) -> HO (level 3, h=2206.3): cost: 1556.8
+Step 4: HO (level 3, h=2206.3)
+
+Total path cost: 3444.3
+Time taken: 0.0000 seconds
 ```
 
-###
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
