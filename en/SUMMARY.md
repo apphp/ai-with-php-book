@@ -94,6 +94,7 @@
   * [Challenges in AI Agent Development](artificial-intelligence/agents-in-ai/challenges-in-ai-agent-development.md)
   * [Turing Test in AI](artificial-intelligence/agents-in-ai/turing-test-in-ai.md)
   * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)
+  * [Implementation in PHP](artificial-intelligence/agents-in-ai/implementation-in-php.md)
 * [Key Application of AI](artificial-intelligence/application-of-ai/README.md)
   * [AI in Astronomy](artificial-intelligence/application-of-ai/ai-in-astronomy.md)
   * [AI in Healthcare](artificial-intelligence/application-of-ai/ai-in-healthcare.md)
