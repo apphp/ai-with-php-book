@@ -21,6 +21,8 @@ This section lists helpful tools, libraries, and references for further explorat
   [https://rubixml.com](https://rubixml.com/)
 * PHP-ML - A lightweight PHP library for machine learning.\
   [https://php-ml.readthedocs.io](https://php-ml.readthedocs.io/)
+* LLM Agents PHP SDK\
+  [https://github.com/llm-agents-php/agents](https://github.com/llm-agents-php/agents)
 
 #### Public Datasets
 
