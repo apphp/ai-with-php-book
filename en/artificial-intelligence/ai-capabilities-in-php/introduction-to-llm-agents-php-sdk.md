@@ -4,6 +4,10 @@
 
 The **LLM Agents PHP SDK** is a powerful library designed to help PHP developers create and manage **Language Model (LLM)-based agents**. These agents can perform complex tasks, interact with external tools, and respond intelligently to user input. The library provides an efficient framework to integrate AI capabilities into PHP applications, allowing for the development of **autonomous, AI-driven systems**.
 
+Official documentation: [https://github.com/llm-agents-php/agents](https://github.com/llm-agents-php/agents)
+
+<div align="left"><figure><img src="../../.gitbook/assets/ai-introduction-to-llm-agents-php-sdk-min.png" alt="" width="375"><figcaption><p>Introduction to LLM Agents PHP SDK</p></figcaption></figure></div>
+
 This SDK is designed to work with any **LLM service or API**, making it highly flexible and adaptable to various AI use cases.
 
 ### Key Features
