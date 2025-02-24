@@ -24,13 +24,13 @@ Tools are predefined functionalities that the agent can use to perform specific 
 * **Control Device Tool** – Turns devices on or off.
 * **Weather API Tool** – Fetches weather forecasts.
 
-\>>>>>>>> \[Image 1]
+<div align="left"><figure><img src="../../../.gitbook/assets/ai-llm-ai-agents-scheme-1.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-#### 3. **Decision-Making & Memory**
+3\. **Decision-Making & Memory**
 
 LLM agents don’t just follow simple commands; they can make decisions based on context. Using memory, they learn from past interactions, enabling personalized responses. For instance, a smart home agent can remember that you prefer dim lighting at night and adjust the settings automatically.
 
-\>>>>>>>> \[Image 2]
+<div align="left"><figure><img src="../../../.gitbook/assets/ai-llm-ai-agents-scheme-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### AI Agents vs. Traditional Programming
 
