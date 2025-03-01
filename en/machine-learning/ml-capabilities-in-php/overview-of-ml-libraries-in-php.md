@@ -28,7 +28,7 @@ Official website: [https://rubixml.com](https://rubixml.com/)
 
 Rubix ML is another powerful PHP library that is designed to be easy to use while still offering advanced machine learning capabilities. It supports a wide variety of supervised and unsupervised learning algorithms, including neural networks, decision trees, and clustering methods. Rubix ML is known for its flexibility and performance, making it suitable for production-level applications. It also provides tools for data transformation, pipelines, and model evaluation.
 
-### **PHP E**xtensions (for scientific computing)
+### **PHP Mathematical** Libraries (for scientific computing)
 
 #### 1. NumPower
 
@@ -47,6 +47,12 @@ NumPHP is a PHP library for scientific computing, inspired by NumPy in Python. I
 Official website: [https://sciphp.org](https://sciphp.org/)
 
 SciPhp is a PHP library designed for scientific computing, providing a NumPy-like experience in PHP. It offers multi-dimensional arrays (ndarrays), along with mathematical, statistical, and linear algebra functions, making it easier to perform numerical computations within PHP applications.
+
+#### 4. MathPHP
+
+Official website: [https://github.com/markrogoyski/math-php](https://github.com/markrogoyski/math-php)
+
+Powerful Modern Math Library for PHP.  The only library you need to integrate mathematical functions into your applications. It is a self-contained library in pure PHP with no external dependencies.
 
 ### **PHP E**xtensions
 
@@ -95,4 +101,3 @@ While PHP has some useful machine learning libraries, it is still not as mature 
 ### Conclusion
 
 Machine learning in PHP is no longer just a theoretical possibility. Libraries like Rubix ML and PHP-ML allow developers to incorporate intelligent features into their applications without leaving the PHP ecosystem. Although PHP may not be the first choice for machine learning, it offers a practical option for web developers who want to bring machine learning capabilities to their projects without switching languages.
-
