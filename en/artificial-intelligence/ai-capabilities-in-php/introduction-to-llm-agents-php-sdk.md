@@ -12,12 +12,14 @@ This SDK is designed to work with any **LLM service or API**, making it highly f
 
 ### Key Features
 
-* **Agent Creation** – Build LLM-powered agents with customizable behaviors.
-* **Tool Integration** – Connect agents with external APIs and services.
-* **Memory Management** – Store and retrieve agent memory across interactions.
-* **Prompt Handling** – Efficiently manage prompts and responses.
-* **Extensible Architecture** – Easily add new agent types and capabilities.
-* **Multi-Agent Support** – Enable collaboration between multiple agents.
+**Key Features of LLM Agents PHP SDK:**
+
+* **Agent Creation:** Developers can create and configure LLM-based agents with customizable behaviors, tailoring them to specific application needs.​
+* **Tool Integration:** The SDK allows seamless integration of various tools and APIs, enhancing the agent's capabilities within PHP applications.​
+* **Memory Management:** Agents can retain and recall information across interactions, facilitating more coherent and contextually relevant responses.
+* **Prompt Management:** Efficient handling of prompts and instructions guides agent behavior, ensuring responses align with user expectations.​
+* **Extensible Architecture:** The framework supports the addition of new agent types, tools, and capabilities, promoting scalability and adaptability.​
+* **Multi-Agent Support:** Developers can build systems with multiple interacting agents, enabling complex problem-solving scenarios.​
 
 ### Installation
 
