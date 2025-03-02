@@ -9,7 +9,7 @@
 
 #### **Step 1: Create Agent class**
 
-For this example, let’s create SiteStatusCheckerAgent class.
+For this example, let’s create `SiteStatusCheckerAgent` class.
 
 <details>
 
@@ -216,11 +216,222 @@ final class CheckSiteAvailabilityTool extends PhpTool {
 
 </details>
 
-Create `GetDnsInfoTool`.&#x20;
+Create `GetDnsInfoTool`. \
+This tool retrieves DNS information for a given domain, including IP addresses and name servers.
 
-\>>>>>>>>>>>
+<details>
 
+<summary>GetDnsInfoTool class</summary>
 
+```php
+namespace app\public\include\classes\llmagents\sitestatuschecker\tools;
+
+use LLM\Agents\Tool\PhpTool;
+
+/**
+ * @extends PhpTool<GetDnsInfoInput>
+ */
+final class GetDnsInfoTool extends PhpTool {
+    public const NAME = 'get_dns_info';
+
+    public function __construct() {
+        parent::__construct(
+            name: self::NAME,
+            inputSchema: GetDnsInfoInput::class,
+            description: 'This tool retrieves DNS information for a given domain, including IP addresses and name servers.',
+        );
+    }
+
+    public function execute(object $input): string {
+        // Implement the actual DNS info retrieval here
+        // This is a placeholder implementation
+        $dnsRecords = \dns_get_record(str_ireplace(['https://', 'http://'], '', $input->domain), DNS_A + DNS_NS);
+
+        $ipAddresses = \array_column(array_filter($dnsRecords, fn($record) => $record['type'] === 'A'), 'ip');
+        $nameServers = \array_column(array_filter($dnsRecords, fn($record) => $record['type'] === 'NS'), 'target');
+
+        return \json_encode([
+            'ip_addresses' => $ipAddresses,
+            'name_servers' => $nameServers,
+        ]);
+    }
+}
+
+```
+
+</details>
+
+Create `PerformPingTestTool`. \
+This tool performs a ping test to a specified host and returns the results, including response times and packet loss.
+
+<details>
+
+<summary>PerformPingTestTool class</summary>
+
+```php
+namespace app\public\include\classes\llmagents\sitestatuschecker\tools;
+
+use LLM\Agents\Tool\PhpTool;
+
+/**
+ * @extends PhpTool<PerformPingTestInput>
+ */
+final class PerformPingTestTool extends PhpTool {
+    public const NAME = 'perform_ping_test';
+
+    public function __construct() {
+        parent::__construct(
+            name: self::NAME,
+            inputSchema: PerformPingTestInput::class,
+            description: 'This tool performs a ping test to a specified host and returns the results, including response times and packet loss.',
+        );
+    }
+
+    public function execute(object $input): string {
+        // Implement the actual ping test here
+        // This is a placeholder implementation
+        $command = \sprintf('ping -c %d %s', 4, \escapeshellarg($input->host));
+        \exec($command, $output, $returnVar);
+
+        $packetLoss = 0;
+        $avgRoundTripTime = 0;
+
+        foreach ($output as $line) {
+            if (str_contains($line, 'packet loss')) {
+                \preg_match('/(\d+(?:\.\d+)?)%/', $line, $matches);
+                $packetLoss = $matches[1] ?? 0;
+            }
+
+            if (str_contains($line, 'rtt min/avg/max')) {
+                \preg_match('/= [\d.]+\/([\d.]+)\/[\d.]+/', $line, $matches);
+                $avgRoundTripTime = $matches[1] ?? 0;
+            }
+        }
+
+        return \json_encode([
+            'packet_loss_percentage' => (float)$packetLoss,
+            'avg_round_trip_time_ms' => (float)$avgRoundTripTime,
+            'success' => $returnVar === 0,
+        ]);
+    }
+}
+
+```
+
+</details>
+
+#### **Step 3: Associate Agent with Tools**
+
+Associate  `SiteStatusCheckerAgent` with these tools.
+
+```php
+$aggregate->addAssociation(new ToolLink(name: CheckSiteAvailabilityTool::NAME));
+$aggregate->addAssociation(new ToolLink(name: GetDnsInfoTool::NAME));
+$aggregate->addAssociation(new ToolLink(name: PerformPingTestTool::NAME));
+```
+
+#### **Step 4: Run Code by Executor and Get Result**
+
+Now we're ready to run agent and see the result.
+
+```php
+use app\public\include\classes\llmagents\AiAgentExecutor;
+use app\public\include\classes\llmagents\sitestatuschecker\SiteStatusCheckerAgent;
+
+// Usage example:
+try {
+    // Initialize the checker
+    $checker = new AiAgentExecutor(
+        aiAgent: SiteStatusCheckerAgent::class,
+        apiKey: OPEN_AI_KEY,
+        model: 'gpt-4o-mini',
+        finalAnalysis: false,
+        debug: true
+    );
+
+    $url = 'https://aiwithphp.org';
+
+    // Check a specific site with a question
+    $result = $checker->execute(
+        'URL to check: ' . $url . '\nQuestion: What is the current status of this site and are there any performance concerns?'
+    );
+
+    // Output debug results
+    $agentDebug ??= '';
+    $debugResult = '--';
+    if ($agentDebug) {
+        $debugLog = $checker->getDebugLog();
+        foreach ($debugLog as $key => $message) {
+            $debugResult .= humanize($key);
+            $debugResult .= "\n=================\n";
+            $debugResult .= $message . "\n\n";
+        }
+    }
+
+    // Output the results
+    echo "Site Status Analysis:\n";
+    echo "URL: {$url}\n\n";
+
+    // Show conversation history
+    echo "Analysis Process:\n";
+    foreach ($result['conversation_history'] as $message) {
+        if (isset($message->functionCall)) {
+            echo "Tool Called: {$message->functionCall->name}\n";
+            echo "Arguments: {$message->functionCall->arguments}\n";
+        } elseif (!empty($message->content)) {
+            echo "\n&nbsp;\nAI: {$message->content}\n";
+        }
+        echo "\n";
+    }
+
+    if (!empty($result['final_analysis'])) {
+        echo "\nFinal Analysis:\n{$result['final_analysis']}\n";
+    }
+
+} catch (\Exception $e) {
+    echo 'Error: ' . $e->getFile() . ' | ' . $e->getLine() . "\n";
+    echo 'Error: ' . $e->getMessage() . "\n";
+}
+```
+
+Here the result:&#x20;
+
+{% code overflow="wrap" %}
+```markup
+Site Status Analysis:
+URL: https://aiwithphp.org
+
+Analysis Process:
+Tool Called: check_site_availability
+Arguments: {"url":"https://aiwithphp.org"}
+
+Tool Called: get_dns_info
+Arguments: {"domain":"aiwithphp.org","url":"https://aiwithphp.org"}
+
+Tool Called: perform_ping_test
+Arguments: {"host":"14.12.33.145","url":"https://aiwithphp.org"}
+
+  
+### AI: Here's the current status and analysis of the site **https://aiwithphp.org**:
+---
+
+1. **Availability**: The site is online and accessible, with an HTTP status code of **200** indicating that the request was successful. The response time was approximately **217.49 ms**, which is generally acceptable for a good user experience.
+
+2. **DNS Information**:
+   - **IP Address**: The site is hosted on the IP address **54.36.31.145**.
+   - **Name Servers**: The DNS is managed by the name servers **dns101.ovh.net** and **ns101.ovh.net**.
+
+3. **Ping Test**: Although the site is online, the ping test to the IP address returned **0% packet loss**, but it reported a failure in completing the ping test. This could be due to various reasons, such as firewall settings or server configurations that prevent ICMP requests from being responded to.
+
+### Summary
+- The website is functioning well with acceptable performance metrics.
+- The unsuccessful ping test might indicate that the server is configured to ignore ping requests, which is common for security reasons.
+
+### Recommendations
+- If you experience any issues accessing the site, consider checking your internet connection or trying a different network.
+- If performance concerns arise, monitoring the response times over different periods could provide insights into any potential issues.
+```
+{% endcode %}
 
 {% hint style="info" %}
 To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
