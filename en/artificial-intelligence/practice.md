@@ -1,6 +1,8 @@
 # Practice
 
-Now that we've explored how to implement LLM AI agents using the **LLM Agents PHP SDK**, it’s time to put this knowledge into action. In this chapter, we’ll go through practical steps to reinforce learning, suggest engaging projects, and highlight key considerations when building AI-driven applications with PHP.
+Now that we've learned about AI, AI Agents and also explored how to implement LLM AI agents using the **LLM Agents PHP SDK**, it’s time to put this knowledge into action. In this chapter, we’ll go through practical steps to reinforce learning, suggest engaging projects, and highlight key considerations when building AI-driven applications with PHP.
+
+<div align="left"><figure><img src="../.gitbook/assets/ai-practice.png" alt="" width="563"><figcaption><p>Practice</p></figcaption></figure></div>
 
 ### **Getting Started with Practical Implementation**
 
@@ -12,6 +14,11 @@ To effectively practice what you’ve learned, follow these steps:
 
        ```bash
        composer require llm-agents/agents
+       ```
+   *   Install the Open-AI client
+
+       ```bash
+       composer require openai-php/client
        ```
    * Configure your OpenAI API key or other LLM providers if required.
 2. **Build a Simple Agent**
@@ -103,4 +110,4 @@ Once you've completed the suggested tasks, challenge yourself by designing a ful
 
 ### **Conclusion**
 
-Practical implementation is the key to mastering AI agents in PHP. By following these exercises, you'll gain hands-on experience and discover the vast potential of **LLM Agents PHP SDK**. Now, start coding and bring your AI-powered ideas to life! 🚀
+Practical implementation is the key to mastering AI agents in PHP. By following these exercises, you'll gain hands-on experience and discover the vast potential of **LLM Agents PHP SDK**. Now, start coding and bring your AI-powered ideas to life!&#x20;
