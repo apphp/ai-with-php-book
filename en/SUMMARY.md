@@ -95,6 +95,7 @@
     * [Introduction to LLM AI Agents](artificial-intelligence/agents-in-ai/llm-ai-agents/introduction-to-llm-ai-agents.md)
     * [Implementation in PHP](artificial-intelligence/agents-in-ai/llm-ai-agents/implementation-in-php/README.md)
       * [Site Status Checker Agent](artificial-intelligence/agents-in-ai/llm-ai-agents/implementation-in-php/site-status-checker-agent.md)
+      * [Sales Analyst Agent](artificial-intelligence/agents-in-ai/llm-ai-agents/implementation-in-php/sales-analyst-agent.md)
   * [Challenges in AI Agent Development](artificial-intelligence/agents-in-ai/challenges-in-ai-agent-development.md)
   * [Turing Test in AI](artificial-intelligence/agents-in-ai/turing-test-in-ai.md)
   * [Future of AI Agents](artificial-intelligence/agents-in-ai/future-of-ai-agents.md)

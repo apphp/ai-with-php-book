@@ -2,6 +2,8 @@
 
 ### Coding Site Status Checker Agent in PHP
 
+This agent gives you a status of following:
+
 * Check if a site is up and running
 * Dig up DNS info
 * Run ping tests
@@ -336,24 +338,24 @@ Now we're ready to run agent and see the result.
 
 ```php
 use app\public\include\classes\llmagents\AiAgentExecutor;
-use app\public\include\classes\llmagents\sitestatuschecker\SiteStatusCheckerAgent;
+use app\public\include\classes\llmagents\salesanalysis\SalesAnalysisAgent;
 
 // Usage example:
 try {
     // Initialize the checker
     $checker = new AiAgentExecutor(
-        aiAgent: SiteStatusCheckerAgent::class,
+        aiAgent: SalesAnalysisAgent::class,
         apiKey: OPEN_AI_KEY,
         model: 'gpt-4o-mini',
         finalAnalysis: false,
         debug: true
     );
 
-    $url = 'https://aiwithphp.org';
+    $reportPath = 'public/pages/ai-agents/llm-agents/data/IC-Weekly-Sales-Activity-Report-11538.csv';
 
-    // Check a specific site with a question
+    // Generate report
     $result = $checker->execute(
-        'URL to check: ' . $url . '\nQuestion: What is the current status of this site and are there any performance concerns?'
+        'Generate sales report from report path: ' . $reportPath
     );
 
     // Output debug results
@@ -369,8 +371,7 @@ try {
     }
 
     // Output the results
-    echo "Site Status Analysis:\n";
-    echo "URL: {$url}\n\n";
+    echo "Sales Analysis:\n";
 
     // Show conversation history
     echo "Analysis Process:\n";
@@ -398,38 +399,58 @@ Here the result:&#x20;
 
 {% code overflow="wrap" %}
 ```markup
-Site Status Analysis:
-URL: https://aiwithphp.org
-
+Sales Analysis:
 Analysis Process:
-Tool Called: check_site_availability
-Arguments: {"url":"https://aiwithphp.org"}
+Tool Called: generate_sales_report
+Arguments: {"reportPath":"public/pages/ai-agents/llm-agents/data/IC-Weekly-Sales-Activity-Report-11538.csv"}
 
-Tool Called: get_dns_info
-Arguments: {"domain":"aiwithphp.org","url":"https://aiwithphp.org"}
+Tool Called: analyze_sales_data
+Arguments: {"reportPath":"public/pages/ai-agents/llm-agents/data/IC-Weekly-Sales-Activity-Report-11538.csv"}
 
-Tool Called: perform_ping_test
-Arguments: {"host":"14.12.33.145","url":"https://aiwithphp.org"}
+Tool Called: forecast_future_sales
+Arguments: {"reportPath":"public/pages/ai-agents/llm-agents/data/IC-Weekly-Sales-Activity-Report-11538.csv","forecastMethod":"linear","forecastPeriods":4,"timeUnit":"weeks","confidence":95,"seasonality":1}
 
-  
-### AI: Here's the current status and analysis of the site **https://aiwithphp.org**:
+### AI: The analysis of the sales data extracted from the provided report indicates the following key insights:
 ---
 
-1. **Availability**: The site is online and accessible, with an HTTP status code of **200** indicating that the request was successful. The response time was approximately **217.49 ms**, which is generally acceptable for a good user experience.
+### Summary of Sales Activity
+- **Total Sales:** $5,880,400
+- **Total Orders:** 95 (total count of records)
+- **Total Units Sold:** 13,304 units
+- **Average Order Value:** This information wasn't available directly, but can be calculated as Total Sales divided by Total Orders, yielding approximately $61,000 per order.
+- **Unique Customers:** No specific data was provided to determine unique customers.
 
-2. **DNS Information**:
-   - **IP Address**: The site is hosted on the IP address **54.36.31.145**.
-   - **Name Servers**: The DNS is managed by the name servers **dns101.ovh.net** and **ns101.ovh.net**.
+### Detailed Insights
+1. **Sales Performance by Region:**
+   - **Northeast:** $983,750 (Variance: -$16,250)
+   - **Southeast:** $1,066,300 (Variance: +$116,300)
+   - **Midwest:** $734,350 (Variance: +$94,350)
+   - **Southwest:** $1,665,000 (Variance: +$65,000)
+   - **West Coast:** $1,431,000 (Variance: +$231,000)
 
-3. **Ping Test**: Although the site is online, the ping test to the IP address returned **0% packet loss**, but it reported a failure in completing the ping test. This could be due to various reasons, such as firewall settings or server configurations that prevent ICMP requests from being responded to.
+   The **West Coast** showed the highest revenue and positive variance from targets, indicating effective sales strategies in that region. The **Southeast** also performed well above its target.
 
-### Summary
-- The website is functioning well with acceptable performance metrics.
-- The unsuccessful ping test might indicate that the server is configured to ignore ping requests, which is common for security reasons.
+2. **Sales Performance by Sales Representative:**
+   - **David Wilson** (West Coast) had the highest individual sales revenue at $1,431,000.
+    - **Amanda Rodriguez** (Southwest) followed closely with $1,665,000.
+    - **John Smith** (Northeast) and **Sarah Johnson** (Southeast) had mixed results, showing both successes and challenges.
+
+3. **Product Breakdown:**
+   - **Enterprise Solutions** contributed the most to revenue at $2,125,000.
+    - **Mid-Market Solutions** and **Small Business Package** also made significant contributions, highlighting a diverse product portfolio.
 
 ### Recommendations
-- If you experience any issues accessing the site, consider checking your internet connection or trying a different network.
-- If performance concerns arise, monitoring the response times over different periods could provide insights into any potential issues.
+1. **Focus on High-Performing Regions:** Increase sales efforts in the West Coast and Southwest regions by leveraging successful strategies used there.
+
+2. **Product Strategy:** Given that Enterprise Solutions contribute significantly to sales, consider enhancing marketing and sales tactics for this category to further capitalize on its success.
+
+3. **Sales Training:** For representatives in regions underperforming against their targets, consider additional training or resources to help improve their sales techniques.
+
+4. **Customer Acquisition:** Investigate strategies to attract new customers, particularly in regions like the Northeast, where performance has lagged.
+
+5. **Data Collection Improvement:** To enable future forecasting, it's crucial to ensure more granular data is collected consistently, particularly on unique customers and more detailed sales metrics.
+
+Unfortunately, due to insufficient time series data, forecasting future sales trends was not possible. To assist with forecasting in the future, ensure that historical sales data is collected over a sufficient timeline. 
 ```
 {% endcode %}
 
