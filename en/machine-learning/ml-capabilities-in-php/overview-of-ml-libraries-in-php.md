@@ -36,23 +36,23 @@ Official website: [https://numpower.org](https://numpower.org/)
 
 NumPower is a PHP extension designed for high-performance numerical computing, offering efficient multi-dimensional array operations and linear algebra functions, similar to Python's NumPy. It provides GPU acceleration through CUDA support, enabling parallel computations on NVIDIA GPUs, significantly enhancing performance for large-scale data processing and scientific computing tasks.
 
-#### 2. NumPHP
-
-Official website: [https://numphp.org](https://numphp.org/)
-
-NumPHP is a PHP library for scientific computing, inspired by NumPy in Python. It provides multi-dimensional arrays and mathematical operations optimized for performance, making it easier to work with numerical data in PHP. With support for matrix operations, linear algebra, and statistical functions, NumPHP is particularly useful for developers working on data analysis, machine learning, and numerical computations in a PHP environment.
-
-#### 3. SciPhp
-
-Official website: [https://sciphp.org](https://sciphp.org/)
-
-SciPhp is a PHP library designed for scientific computing, providing a NumPy-like experience in PHP. It offers multi-dimensional arrays (ndarrays), along with mathematical, statistical, and linear algebra functions, making it easier to perform numerical computations within PHP applications.
-
-#### 4. MathPHP
+#### 2. MathPHP
 
 Official website: [https://github.com/markrogoyski/math-php](https://github.com/markrogoyski/math-php)
 
 Powerful Modern Math Library for PHP.  The only library you need to integrate mathematical functions into your applications. It is a self-contained library in pure PHP with no external dependencies.
+
+#### 3. NumPHP
+
+Official website: [https://numphp.org](https://numphp.org/) _(hasn't been updated for a long time)_
+
+NumPHP is a PHP library for scientific computing, inspired by NumPy in Python. It provides multi-dimensional arrays and mathematical operations optimized for performance, making it easier to work with numerical data in PHP. With support for matrix operations, linear algebra, and statistical functions, NumPHP is particularly useful for developers working on data analysis, machine learning, and numerical computations in a PHP environment.
+
+#### 4. SciPhp
+
+Official website: [https://sciphp.org](https://sciphp.org/) _(hasn't been updated for a long time)_
+
+SciPhp is a PHP library designed for scientific computing, providing a NumPy-like experience in PHP. It offers multi-dimensional arrays (ndarrays), along with mathematical, statistical, and linear algebra functions, making it easier to perform numerical computations within PHP applications.
 
 ### **PHP E**xtensions
 
