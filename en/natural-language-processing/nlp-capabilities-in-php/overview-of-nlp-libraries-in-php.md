@@ -12,23 +12,31 @@ Official website: [https://openai-php.com](https://openai-php.com/)
 
 The OpenAI PHP is an extension that allows PHP developers to integrate the powerful capabilities of OpenAI into their applications. Activating the extension on the web server will allow users to quickly access the services offered by OpenAI without additional libraries in PHP.
 
-### 3. DeepL-php (PHP client library for the DeepL API)
+### 3. EasyAI-PHP
+
+Official website: [https://github.com/HosonoDE/EasyAI-PHP](https://github.com/HosonoDE/EasyAI-PHP)
+
+EasyAI-PHP is an open-source initiative designed to significantly simplify the entry into artificial intelligence for PHP-developers (so basically Lang-Chain for PHP). This project integrates advanced AI models and utilities, allowing developers to incorporate complex AI functionalities with minimal coding.
+
+### 4. DeepL-php (PHP client library for the DeepL API)
 
 Official website: [https://github.com/DeepLcom/deepl-php](https://github.com/DeepLcom/deepl-php)
 
 The DeepL API is a language translation API that allows other computer programs to send texts and documents to DeepL's servers and receive high-quality translations. This opens a whole universe of opportunities for developers: any translation product you can imagine can now be built on top of DeepL's best-in-class translation technology.
 
-### 4. LLPhant
+### 5. LLPhant
 
 Official website: [https://github.com/theodo-group/LLPhant](https://github.com/theodo-group/LLPhant)
 
-### 5. TransformersPHP
+LLPhant - A comprehensive PHP Generative AI Framework
+
+### 6. TransformersPHP
 
 State-of-the-art Machine Learning for PHP. Run Transformers natively in your PHP projects
 
 Official website:  [https://codewithkyrian.github.io/transformers-php/](https://codewithkyrian.github.io/transformers-php/)
 
-### 6. LLM Agents PHP SDK **(PHP LLM-based AI Agents Library)**
+### 7. LLM Agents PHP SDK **(PHP LLM-based AI Agents Library)**
 
 Official website: [https://github.com/llm-agents-php/agents](https://github.com/llm-agents-php/agents)
 
