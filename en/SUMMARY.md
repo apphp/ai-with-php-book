@@ -277,7 +277,7 @@
   * [Basic Components of NN](neural-networks/overview-of-nn/basic-components-of-nn/README.md)
     * [Neurons](neural-networks/overview-of-nn/basic-components-of-nn/neurons.md)
     * [Layers](neural-networks/overview-of-nn/basic-components-of-nn/layers.md)
-    * [Connections and Weights ?..](neural-networks/overview-of-nn/basic-components-of-nn/connections-and-weights-...md)
+    * [Connections and Weights](neural-networks/overview-of-nn/basic-components-of-nn/connections-and-weights-...md)
   * [Problems and Challenges](neural-networks/overview-of-nn/problems-and-challenges.md)
   * [How NN Works](neural-networks/overview-of-nn/how-nn-works.md)
 * [NN Capabilities in PHP](neural-networks/nn-capabilities-in-php.md)
