@@ -4,4 +4,4 @@ Neural networks are the backbone of many AI systems, mimicking the way the human
 
 <div align="left"><figure><img src="../../../.gitbook/assets/nn-basic-components-min.png" alt="" width="375"><figcaption><p>Basic Components of NN</p></figcaption></figure></div>
 
-Understanding the basic components of neural networks — neurons, layers, and connections — is crucial to mastering how they function. Each component plays a vital role in processing information, transforming raw data into actionable insights. By manipulating these elements, neural networks achieve remarkable feats in AI, from diagnosing diseases to driving cars.
+Understanding the basic components of neural networks — neurons, layers, inputs, activation functions and connections — is important to mastering how they function. Each component plays a vital role in processing information, transforming raw data into actionable insights. By manipulating these elements, neural networks achieve remarkable feats in AI, from diagnosing diseases to driving cars.
