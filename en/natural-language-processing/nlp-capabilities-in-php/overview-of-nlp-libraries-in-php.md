@@ -1,34 +1,34 @@
 # Overview of NLP Libraries in PHP
 
-### OpenAI PHP Client
-
-One of the most powerful Natural Language Processing (NLP) libraries available for PHP developers is the **OpenAI PHP Client**. This library provides an easy-to-use interface for integrating OpenAI’s language models, including GPT-based models, into PHP applications. The OpenAI PHP Client is designed to simplify communication with OpenAI’s API.&#x20;
+### 1. OpenAI PHP Client
 
 Official website: [https://github.com/openai-php](https://github.com/openai-php)
 
-### OpenAI PHP Extension
+One of the most powerful Natural Language Processing (NLP) libraries available for PHP developers is the **OpenAI PHP Client**. This library provides an easy-to-use interface for integrating OpenAI’s language models, including GPT-based models, into PHP applications. The OpenAI PHP Client is designed to simplify communication with OpenAI’s API.&#x20;
 
-The OpenAI PHP extension allows PHP developers to interact with the OpenAI API in a more seamless way. Below is an example of how it could be used to generate text with GPT-3:
+### 2. OpenAI PHP Extension
 
 Official website: [https://openai-php.com](https://openai-php.com/)
 
-### DeepL-php (PHP client library for the DeepL API).
+The OpenAI PHP is an extension that allows PHP developers to integrate the powerful capabilities of OpenAI into their applications. Activating the extension on the web server will allow users to quickly access the services offered by OpenAI without additional libraries in PHP.
 
-The DeepL API is a language translation API that allows other computer programs to send texts and documents to DeepL's servers and receive high-quality translations. This opens a whole universe of opportunities for developers: any translation product you can imagine can now be built on top of DeepL's best-in-class translation technology.
+### 3. DeepL-php (PHP client library for the DeepL API)
 
 Official website: [https://github.com/DeepLcom/deepl-php](https://github.com/DeepLcom/deepl-php)
 
-### LLPhant
+The DeepL API is a language translation API that allows other computer programs to send texts and documents to DeepL's servers and receive high-quality translations. This opens a whole universe of opportunities for developers: any translation product you can imagine can now be built on top of DeepL's best-in-class translation technology.
+
+### 4. LLPhant
 
 Official website: [https://github.com/theodo-group/LLPhant](https://github.com/theodo-group/LLPhant)
 
-### TransformersPHP
+### 5. TransformersPHP
 
 State-of-the-art Machine Learning for PHP. Run Transformers natively in your PHP projects
 
 Official website:  [https://codewithkyrian.github.io/transformers-php/](https://codewithkyrian.github.io/transformers-php/)
 
-#### LLM Agents PHP SDK **(PHP LLM-based AI Agents Library)**
+### 6. LLM Agents PHP SDK **(PHP LLM-based AI Agents Library)**
 
 Official website: [https://github.com/llm-agents-php/agents](https://github.com/llm-agents-php/agents)
 
