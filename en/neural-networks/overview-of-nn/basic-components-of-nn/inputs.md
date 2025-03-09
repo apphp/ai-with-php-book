@@ -1,6 +1,6 @@
-# Inputs >>>
+# Inputs
 
-At the core of any neural network are **basic components** such as neurons, weights, biases, activation functions, and layers. However, the **input** to these components plays a crucial role in determining the network’s learning ability and overall performance.
+We already know that in the core of any neural network there are **basic components** such as neurons, weights, biases, activation functions, and layers. However, the **input** to these components plays a crucial role in determining the network’s learning ability and overall performance.
 
 ### **Understanding Inputs in Neural Networks**
 
@@ -20,13 +20,13 @@ In a neural network, inputs are the initial data fed into the system. These inpu
 
 Each neuron receives multiple inputs, processes them using weights and biases, and passes the output to the next layer. Inputs are combined as follows:
 
-Z=∑(wi×xi)+bZ = \sum (w\_i \times x\_i) + b
+$$Z = \sum (w_i \times x_i) + b$$
 
 Where:
 
-* xix\_i are input values
-* wiw\_i are corresponding weights
-* bb is the bias term
+* $$x_i$$ are input values
+* $$w_i$$ are corresponding weights
+* $$b$$ is the bias term
 
 #### **2. Weights and Inputs**
 
@@ -44,7 +44,7 @@ After the weighted sum is calculated, it passes through an activation function l
 
 Before feeding data into a neural network, preprocessing ensures consistency and improves model accuracy. Some key preprocessing steps include:
 
-* **Normalization:** Scaling numerical inputs to a fixed range (e.g., \[0,1] or \[-1,1])
+* **Normalization:** Scaling numerical inputs to a fixed range (e.g., $$[0,1]$$ or $$[-1,1]$$)
 * **Standardization:** Converting inputs to have zero mean and unit variance
 * **One-Hot Encoding:** Transforming categorical variables into binary format
 * **Padding and Truncation:** Adjusting input sequences to fixed lengths in NLP tasks

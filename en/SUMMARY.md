@@ -277,7 +277,7 @@
   * [Basic Components of NN](neural-networks/overview-of-nn/basic-components-of-nn/README.md)
     * [Neurons](neural-networks/overview-of-nn/basic-components-of-nn/neurons.md)
     * [Layers](neural-networks/overview-of-nn/basic-components-of-nn/layers.md)
-    * [Inputs >>>](neural-networks/overview-of-nn/basic-components-of-nn/inputs-greater-than-greater-than-greater-than.md)
+    * [Inputs](neural-networks/overview-of-nn/basic-components-of-nn/inputs.md)
     * [Connections and Weights](neural-networks/overview-of-nn/basic-components-of-nn/connections-and-weights-...md)
     * [Activation Functions](neural-networks/overview-of-nn/basic-components-of-nn/activation-functions.md)
   * [Problems and Challenges](neural-networks/overview-of-nn/problems-and-challenges.md)
