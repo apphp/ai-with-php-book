@@ -100,11 +100,16 @@ function softmax($values) {
 
 ### Choosing the Right Activation Function
 
+* **Step Function:** Rarely used in modern neural networks because of several limitations.
 * **Sigmoid:** Useful for binary classification but suffers from vanishing gradient problems.
 * **Tanh:** Similar to sigmoid but better centered around zero.
 * **ReLU:** Preferred for hidden layers in deep networks due to computational efficiency.
 * **Leaky ReLU:** Helps with dead neurons in ReLU.
 * **Softmax:** Best for multi-class classification.
+
+Here are visual charts for each activation function to help illustrate their behavior.
+
+<figure><img src="../../../.gitbook/assets/nn-activation-function-types-min.png" alt=""><figcaption></figcaption></figure>
 
 ### Conclusion
 
