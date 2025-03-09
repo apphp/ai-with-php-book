@@ -109,7 +109,7 @@ function softmax($values) {
 
 Here are visual charts for each activation function to help illustrate their behavior.
 
-<figure><img src="../../../.gitbook/assets/nn-activation-function-types-min.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../.gitbook/assets/nn-activation-function-types-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Conclusion
 
