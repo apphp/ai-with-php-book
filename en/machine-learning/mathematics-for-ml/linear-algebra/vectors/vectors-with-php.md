@@ -338,7 +338,7 @@ echo "Cross Product: (" . implode(", ", $v6->getVector()) . ") × ("�
 
 </details>
 
-### Vector Operations with PHP
+### Vector Operations with Pure PHP
 
 In PHP  it can be written as a class **Vector** with implementation of a set of vector operations.
 

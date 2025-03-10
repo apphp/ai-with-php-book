@@ -6,6 +6,10 @@ In PHP by using **MathPHP**, you can easily apply scalar operations to vectors, 
 
 **Example of Use:**
 
+<details>
+
+<summary>Example with MathPHP</summary>
+
 ```php
 use MathPHP\Arithmetic;
 use MathPHP\Exception\BadParameterException;
@@ -54,7 +58,11 @@ $n = 5;
 echo "Modulo of $a % $n: " . Arithmetic::modulo($a, $n) . "\n";
 ```
 
-### Scalar Operations with PHP
+
+
+</details>
+
+### Scalar Operations with Pure PHP
 
 In PHP  it can be written as a class **Scalar** with implementation of a set of scalar operations.
 
