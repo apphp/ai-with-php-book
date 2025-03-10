@@ -4,8 +4,6 @@ Activation functions play a crucial role in neural networks by determining wheth
 
 In this chapter, we will explore different types of activation functions, their mathematical properties, and how to implement them using PHP.
 
-\>>>>>>>
-
 ### Why Are Activation Functions Important?
 
 Activation functions introduce non-linearity into a neural network, allowing it to learn and model complex data relationships. Without them, even deep networks would be equivalent to a single-layer perceptron, unable to solve problems that require non-linear decision boundaries.
@@ -16,7 +14,7 @@ Activation functions introduce non-linearity into a neural network, allowing it 
 
 The step function is one of the simplest activation functions. It outputs either 0 or 1 based on a threshold.
 
-**Formula:** \[ f(x) = \begin{cases} 1, & x \geq 0 \ 0, & x < 0 \end{cases} ]
+**Formula:** $$f(x) = \begin{cases} 1, & x \geq 0 \newline 0, & x < 0 \end{cases}$$
 
 **PHP Implementation:**
 
@@ -30,7 +28,7 @@ function stepFunction($x) {
 
 The sigmoid function outputs values between 0 and 1, making it useful for probabilistic interpretations.
 
-**Formula:** \[ f(x) = \frac{1}{1 + e^{-x\}} ]
+**Formula:** $$f(x) = \frac{1}{1 + e^{-x}}$$
 
 **PHP Implementation:**
 
@@ -44,7 +42,7 @@ function sigmoid($x) {
 
 The tanh function is similar to the sigmoid but outputs values between -1 and 1, making it zero-centered.
 
-**Formula:** \[ f(x) = \frac{e^x - e^{-x\}}{e^x + e^{-x\}} ]
+**Formula:** $$f(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$
 
 **PHP Implementation:**
 
@@ -58,7 +56,7 @@ function tanhFunction($x) {
 
 ReLU is one of the most widely used activation functions due to its simplicity and efficiency.
 
-**Formula:** \[ f(x) = \max(0, x) ]
+**Formula:** $$f(x) = \max(0, x)$$
 
 **PHP Implementation:**
 
@@ -72,7 +70,7 @@ function relu($x) {
 
 A variation of ReLU that allows small negative values to prevent dead neurons.
 
-**Formula:** \[ f(x) = \begin{cases} x, & x > 0 \ 0.01x, & x \leq 0 \end{cases} ]
+**Formula:** $$f(x) = \begin{cases} x, & x > 0 \newline 0.01x, & x \leq 0 \end{cases}$$
 
 **PHP Implementation:**
 
@@ -86,7 +84,7 @@ function leakyRelu($x, $alpha = 0.01) {
 
 The softmax function is commonly used in classification problems, converting logits into probabilities.
 
-**Formula:** \[ f(x\_i) = \frac{e^{x\_i\}}{\sum\_{j} e^{x\_j\}} ]
+**Formula:** $$f(x_i) = \frac{e^{x_i}}{\sum_{j} e^{x_j}}$$
 
 **PHP Implementation:**
 
@@ -114,5 +112,3 @@ Here are visual charts for each activation function to help illustrate their beh
 ### Conclusion
 
 Activation functions are an essential part of neural networks, enabling them to model complex patterns. Understanding their strengths and weaknesses helps in selecting the right function for different tasks.
-
-In the next chapter, we will explore how to optimize neural network training using backpropagation and gradient descent.
