@@ -72,8 +72,7 @@ Techniques like **Lasso** (Least Absolute Shrinkage and Selection Operator) and 
 
 Regularization introduces a penalty term to the linear regression cost function, helping prevent overfitting by constraining large coefficients.
 
-\
-1\. Lasso Regression (Least Absolute Shrinkage and Selection Operator)
+#### 1. Lasso Regression (Least Absolute Shrinkage and Selection Operator)
 
 In Lasso regression, the penalty added is proportional to the absolute value of each coefficient. The cost function to minimize is:
 
@@ -83,19 +82,19 @@ where:
 
 • $$J(\beta)$$  is the cost function,
 
-• y\_i  is the actual value,
+• $$y_i$$ is the actual value,
 
-• \hat{y\_i}  is the predicted value,
+• $$\hat{y_i}$$ is the predicted value,
 
-• \lambda  is the regularization parameter controlling the penalty’s strength,
+• $$\lambda$$ is the regularization parameter controlling the penalty’s strength,
 
-• \beta\_j  represents the coefficients of each feature.
+• $$\beta_j$$ represents the coefficients of each feature.
 
-The  L1 -norm penalty ( \sum\_{j=1}^{p} |\beta\_j| ) often results in some coefficients being reduced to zero, effectively performing feature selection.
+The  L1 -norm penalty $$\sum_{j=1}^{p} |\beta_j|$$ often results in some coefficients being reduced to zero, effectively performing feature selection.
 
 <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-type-lasso-regression-min.png" alt=""><figcaption></figcaption></figure></div>
 
-2\. Ridge Regression
+#### 2. Ridge Regression
 
 Ridge regression uses an  L2 -norm penalty, where the sum of the squared coefficients is added to the cost function:
 
