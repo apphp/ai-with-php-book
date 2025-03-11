@@ -34,7 +34,7 @@ PHP-ML is one of the most comprehensive machine learning libraries for PHP. It p
 
 Official website: [https://numpower.org](https://numpower.org/)
 
-NumPower is a PHP extension designed for high-performance numerical computing, offering efficient multi-dimensional array operations and linear algebra functions, similar to Python's NumPy. It provides GPU acceleration through CUDA support, enabling parallel computations on NVIDIA GPUs, significantly enhancing performance for large-scale data processing and scientific computing tasks.
+NumPower is a PHP extension designed for high-performance numerical computing (currently only for x86-64 (AVX2 instructions)), offering efficient multi-dimensional array operations and linear algebra functions, similar to Python's NumPy. It provides GPU acceleration through CUDA support, enabling parallel computations on NVIDIA GPUs, significantly enhancing performance for large-scale data processing and scientific computing tasks.
 
 #### 2. MathPHP
 
