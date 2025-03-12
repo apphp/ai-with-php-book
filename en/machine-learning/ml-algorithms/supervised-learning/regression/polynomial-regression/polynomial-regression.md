@@ -1,4 +1,4 @@
-# Polynomial Regression
+# Implementation in PHP
 
 ### Coding Polynomial Regression in PHP
 
@@ -133,7 +133,7 @@ A house with 8.3 rooms is predicted to cost $37,258.75
 
 **Chart:**
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/ml-polynomial-regression-rubix-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/ml-polynomial-regression-rubix-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Key Features of RubixML Implementation:
 
@@ -235,3 +235,7 @@ A house with 8.3 rooms is predicted to cost $37,143.58
 Both RubixML and PHP-ML provide robust implementations of polynomial regression, each with its own advantages. RubixML offers more advanced features and better scalability, while PHP-ML provides a simpler interface that's great for learning and smaller projects. Choose the library that best fits your specific needs, considering factors like dataset size, required features, and performance requirements.
 
 Remember to always preprocess your data, validate your model's performance, and handle errors appropriately. With proper implementation, polynomial regression can be a powerful tool for modeling nonlinear relationships in your PHP applications.
+
+{% hint style="info" %}
+To try this code yourself, install the example files from the official GitHub repository: [https://github.com/apphp/ai-with-php-examples](https://github.com/apphp/ai-with-php-examples)
+{% endhint %}
