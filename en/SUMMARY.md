@@ -236,7 +236,7 @@
   * [Supervised Learning](machine-learning/ml-algorithms/supervised-learning/README.md)
     * [Regression](machine-learning/ml-algorithms/supervised-learning/regression/README.md)
       * [Linear Regression](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/README.md)
-        * [Types of Linear Regression ?..](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/types-of-linear-regression-...md)
+        * [Types of Linear Regression](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/types-of-linear-regression-...md)
         * [Finding Best Fit Line](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/finding-best-fit-line.md)
         * [Gradient Descent](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/gradient-descent.md)
         * [Assumptions of Linear Regression](machine-learning/ml-algorithms/supervised-learning/regression/linear-regression/assumptions-of-linear-regression.md)
