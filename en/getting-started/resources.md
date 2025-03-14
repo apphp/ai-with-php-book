@@ -27,7 +27,7 @@ This section lists helpful tools, libraries, and references for further explorat
   [https://github.com/markrogoyski/math-php](https://github.com/markrogoyski/math-php)
 * OpenAI PHP Client - PHP API client that allows you to interact with the Open AI API.\
   [https://github.com/openai-php/client](https://github.com/openai-php/client)
-* LLM Agents PHP SDK\
+* LLM Agents PHP SDK - PHP library designed to facilitate the creation and management of Language Model (LLM)-based agents.\
   [https://github.com/llm-agents-php/agents](https://github.com/llm-agents-php/agents)
 
 #### Public Datasets
