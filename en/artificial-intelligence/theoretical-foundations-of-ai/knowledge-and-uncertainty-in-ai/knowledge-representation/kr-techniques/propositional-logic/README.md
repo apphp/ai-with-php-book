@@ -1,2 +1,0 @@
-# Propositional Logic
-
