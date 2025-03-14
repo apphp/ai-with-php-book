@@ -2,6 +2,6 @@
     "name": "apphp/ai-with-php-book",
     "description": "This book will try to explain the basics of Artificial Intelligence and Machine Learning in a way that’s easy to understand.",
     "type": "project",
-    "license": "MIT",
+    "license": "CC BY-NC",
     "version": "0.5.0"
 }
