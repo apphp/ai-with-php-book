@@ -19,8 +19,14 @@ This section lists helpful tools, libraries, and references for further explorat
 
 * Rubix ML - A PHP library for building machine learning models.\
   [https://rubixml.com](https://rubixml.com/)
+* RubixML/Tensor - A PHP library for building machine learning models.\
+  [https://github.com/RubixML/Tensor](https://github.com/RubixML/Tensor)
 * PHP-ML - A lightweight PHP library for machine learning.\
   [https://php-ml.readthedocs.io](https://php-ml.readthedocs.io/)
+* MathPHP - A powerful modern math library for PHP.\
+  [https://github.com/markrogoyski/math-php](https://github.com/markrogoyski/math-php)
+* OpenAI PHP Client\
+  [https://github.com/openai-php/client](https://github.com/openai-php/client)
 * LLM Agents PHP SDK\
   [https://github.com/llm-agents-php/agents](https://github.com/llm-agents-php/agents)
 
