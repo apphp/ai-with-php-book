@@ -25,7 +25,7 @@ This section lists helpful tools, libraries, and references for further explorat
   [https://php-ml.readthedocs.io](https://php-ml.readthedocs.io/)
 * MathPHP - A powerful modern math library for PHP.\
   [https://github.com/markrogoyski/math-php](https://github.com/markrogoyski/math-php)
-* OpenAI PHP Client\
+* OpenAI PHP Client - PHP API client that allows you to interact with the Open AI API.\
   [https://github.com/openai-php/client](https://github.com/openai-php/client)
 * LLM Agents PHP SDK\
   [https://github.com/llm-agents-php/agents](https://github.com/llm-agents-php/agents)
