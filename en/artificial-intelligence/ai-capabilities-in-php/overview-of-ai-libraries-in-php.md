@@ -6,15 +6,7 @@ PHP now offering a variety of libraries for artificial intelligence and machine 
 
 <div align="left"><figure><img src="../../.gitbook/assets/ai-overview-ai-libraries-in-php-min.png" alt="" width="375"><figcaption><p>Overview of AI Libraries in PHP</p></figcaption></figure></div>
 
-### Popular AI Libraries in PHP
-
-**1. OpenAI PHP Client**
-
-Official website: [https://github.com/openai-php/client](https://github.com/openai-php/client)
-
-**OpenAI PHP** is a community-maintained PHP API client that allows you to interact with the [Open AI API](https://platform.openai.com/docs/api-reference/introduction). If you or your business relies on this package,
-
-#### **2.** LLM Agents PHP SDK **(PHP LLM-based AI Agents Library)**
+#### **1.** LLM Agents PHP SDK **(PHP LLM-based AI Agents Library)**
 
 Official website: [https://github.com/llm-agents-php/agents](https://github.com/llm-agents-php/agents)
 
