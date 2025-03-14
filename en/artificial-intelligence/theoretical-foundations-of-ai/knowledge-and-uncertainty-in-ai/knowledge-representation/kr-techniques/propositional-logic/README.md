@@ -15,6 +15,23 @@ A proposition is a declarative statement that can be either true (T) or false (F
 
 Propositional logic is based on symbolic variables representing logical statements, typically denoted as A, B, C, P, Q, R, etc.
 
+**Syntax of Propositional Logic**
+
+The syntax of propositional logic defines the allowable sentences for knowledge representation. There are two types of propositions:
+
+*   **Atomic Propositions**\
+    Atomic propositions are simple propositions consisting of a single proposition symbol. These are sentences that must be either true or false.
+
+    **Examples:**
+
+    * "2 + 2 = 4" is an atomic proposition as it is a true fact.
+    * "The Sun is cold" is also a proposition as it is a false fact.
+* **Compound Propositions**\
+  Compound propositions are constructed by combining simpler or atomic propositions using parentheses and logical connectives.\
+  **Examples:**
+  * "It is raining today, and the street is wet."
+  * "Ankit is a doctor, and his clinic is in Mumbai."
+
 #### **2. Logical Connectives**
 
 Logical connectives are used to connect two simpler propositions or represent a sentence logically. We can create compound propositions with the help of logical connectives. There are mainly five connectives, which are given as follows:
@@ -51,7 +68,7 @@ Logical connectives are used to connect two simpler propositions or represent a 
 
 #### **Summarized Table for Propositional Logic Connectives**
 
-<table><thead><tr><th width="156.546875">Logical Connective</th><th width="97.1875">Symbol</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>Negation</td><td>¬P</td><td>The opposite of P</td><td>¬(It is raining) = It is not raining</td></tr><tr><td>Conjunction</td><td>P ∧ Q</td><td>Both P and Q must be true</td><td>It is raining ∧ It is cold</td></tr><tr><td>Disjunction</td><td>P ∨ Q</td><td>At least one of P or Q must be true</td><td>It is raining ∨ It is cold</td></tr><tr><td>Implication</td><td>P → Q</td><td>If P is true, then Q must also be true</td><td>If it rains → The street is wet</td></tr><tr><td>Biconditional</td><td>P ⇔ Q</td><td>P is true if and only if Q is true</td><td>I am breathing ⇔ I am alive</td></tr></tbody></table>
+<table><thead><tr><th width="142.70703125">Logical Connective</th><th width="97.1875">Symbol</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>Negation</td><td>¬P</td><td>The opposite of P</td><td>¬(It is raining) = It is not raining</td></tr><tr><td>Conjunction</td><td>P ∧ Q</td><td>Both P and Q must be true</td><td>It is raining ∧ It is cold</td></tr><tr><td>Disjunction</td><td>P ∨ Q</td><td>At least one of P or Q must be true</td><td>It is raining ∨ It is cold</td></tr><tr><td>Implication</td><td>P → Q</td><td>If P is true, then Q must also be true</td><td>If it rains → The street is wet</td></tr><tr><td>Biconditional</td><td>P ⇔ Q</td><td>P is true if and only if Q is true</td><td>I am breathing ⇔ I am alive</td></tr></tbody></table>
 
 #### **Truth Tables for All Logical Connectives**
 
