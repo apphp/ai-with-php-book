@@ -77,7 +77,6 @@
         * [Frame Representation](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/kr-techniques/frame-representation.md)
         * [Production Rules](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/kr-techniques/production-rules.md)
       * [Approaches to KR in AI](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/approaches-to-kr-in-ai.md)
-      * [First-Order Logic](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/knowledge-representation/first-order-logic.md)
     * [Reasoning in AI](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/reasoning-in-ai.md)
     * [Uncertain Knowledge Representation](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/uncertain-knowledge-representation.md)
     * [The Wumpus World](artificial-intelligence/theoretical-foundations-of-ai/knowledge-and-uncertainty-in-ai/the-wumpus-world.md)

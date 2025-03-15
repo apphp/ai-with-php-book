@@ -1,6 +1,6 @@
 # Predicate Logic
 
-Predicate logic, also known as first-order logic (**FOL**), is a fundamental tool in AI used to represent complex relationships between objects and their properties. Unlike propositional logic, which deals with simple true/false statements, predicate logic allows reasoning about objects, their attributes, and their interconnections. This capability makes it an essential component in knowledge representation, expert systems, and automated reasoning.
+Predicate logic, also known as **First-Order Logic (FOL)**, is a fundamental tool in AI used to represent complex relationships between objects and their properties. Unlike propositional logic, which deals with simple true/false statements, predicate logic allows reasoning about objects, their attributes, and their interconnections. This capability makes it an essential component in knowledge representation, expert systems, and automated reasoning.
 
 In this chapter, we will explore the basics of predicate logic, its syntax and semantics, the role of quantifiers, and its practical applications in AI.
 
