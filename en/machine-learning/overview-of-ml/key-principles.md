@@ -1,4 +1,4 @@
-# Key Principles
+# Key Terms and Principles
 
 ### Key Principles of Machine Learning
 
@@ -33,10 +33,54 @@ Labels are the output data we are trying to predict. In the house price example,
 3. **Test the Model**: After training, you test the model on new data to see if it can make good predictions.
 4. **Make Predictions**: Once trained and tested, the model can predict outcomes on new, unseen data.
 
-### Common Terms
+### **Common Terms in Machine Learning**
 
-* **Overfitting**: This happens when a model learns the training data too well, capturing even noise or random fluctuations. As a result, it might not perform well on new data.
-* **Underfitting**: This occurs when a model is too simple and cannot capture the patterns in the data properly.
-* **Accuracy**: A measure of how often the model makes correct predictions.
+Understanding key terms in machine learning is essential for grasping how models are built, trained, and evaluated. Below are some important concepts explained in simple terms.
+
+#### **Data Used Directly and Indirectly**
+
+Machine learning models use data in two ways: directly and indirectly. Direct data is the main dataset fed into the model for training, while indirect data may include additional information like metadata, preprocessing steps, or external insights that influence the model’s performance.
+
+#### **Primary and Accurate Data**
+
+Primary data refers to raw, original data collected from a source, such as user inputs or sensor readings. Accurate data is clean, error-free, and well-processed to ensure the reliability of the machine learning model.
+
+#### **Training and Reserved Datasets**
+
+A dataset is usually split into different parts:
+
+* **Training set** – used to teach the model patterns and relationships.
+* **Validation set** – used to tune model parameters and avoid overfitting.
+* **Test set** – used to evaluate the model’s performance on unseen data.\
+  Reserved datasets ensure that models generalize well and do not simply memorize patterns.
+
+#### **Benchmark**
+
+A benchmark is a standard or reference point used to compare machine learning models. It can be a dataset, an accuracy metric, or an existing model’s performance. Benchmarks help researchers and developers measure improvements and select the best approaches.
+
+#### **Machine Learning Pipeline**
+
+A pipeline is a sequence of steps in a machine learning workflow. It typically includes data preprocessing, feature extraction, model training, evaluation, and deployment. Pipelines help automate and streamline the process of building AI systems.
+
+#### **Parameters and Hyperparameters**
+
+* **Parameters** are learned by the model during training (e.g., weights in a neural network).
+* **Hyperparameters** are set before training and affect the learning process (e.g., learning rate, batch size). Finding the right hyperparameters is crucial for model performance.
+
+#### **Model-Based and Instance-Based Learning**
+
+* **Model-based learning** creates a general representation of data (e.g., decision trees, neural networks).
+* **Instance-based learning** memorizes examples and makes predictions based on similarities (e.g., k-nearest neighbors).
+
+#### **Shallow and Deep Learning**
+
+* **Shallow learning** involves simple models with limited layers (e.g., linear regression, decision trees).
+* **Deep learning** uses multi-layered neural networks to learn complex patterns from large datasets (e.g., convolutional neural networks for image recognition).
+
+#### **Training and Evaluation**
+
+Training involves feeding data into a machine learning model to adjust its parameters. Evaluation tests the model’s performance using unseen data to ensure it generalizes well. A good evaluation process helps detect overfitting and improve model accuracy.
+
+Understanding these terms provides a strong foundation for anyone exploring machine learning, whether as a beginner or an advanced practitioner.
 
 By understanding these basic principles, you can begin exploring how machine learning can solve real-world problems by finding patterns and making predictions based on data.
