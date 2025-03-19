@@ -339,7 +339,7 @@
 
 * [Introduction](getting-started/introduction.md)
 * [Audience](en/getting-started/audience.md)
-* [Resources](getting-started/resources.md)
-* [How to Read This Book](getting-started/how-to-read-this-book.md)
 * [Glossary](getting-started/glossary.md)
+* [How to Read This Book](getting-started/how-to-read-this-book.md)
+* [Resources](getting-started/resources.md)
 * [Contributors](getting-started/contributors.md)
