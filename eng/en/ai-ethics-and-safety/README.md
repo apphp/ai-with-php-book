@@ -1,2 +1,0 @@
-# ai-ethics-and-safety
-

@@ -1,16 +1,8 @@
 # Table of contents
 
-* [Page](README.md)
-  * [ai-ethics-and-safety](en/ai-ethics-and-safety/README.md)
-    * [Introduction](en/ai-ethics-and-safety/introduction.md)
-  * [cognitive-computing](en/cognitive-computing/README.md)
-    * [Introduction](en/cognitive-computing/introduction.md)
-  * [expert-systems](en/expert-systems/README.md)
-    * [Introduction](en/expert-systems/introduction.md)
-
 ## Getting Started
 
-* [Introduction](getting-started/introduction.md)
+* [Introduction](README.md)
 * [Audience](en/getting-started/audience.md)
 * [Glossary](getting-started/glossary.md)
 * [How to Read This Book](getting-started/how-to-read-this-book.md)
@@ -359,4 +351,12 @@
 
 ## Cognitive Computing
 
-* [Page 1](cognitive-computing/page-1.md)
+* [Introduction](cognitive-computing/introduction.md)
+
+## Expert Systems
+
+* [Introduction](expert-systems/introduction.md)
+
+## AI Ethics and Safety
+
+* [Introduction](ai-ethics-and-safety/introduction.md)
