@@ -1,2 +1,0 @@
-# mashinnoe-obuchenie
-
