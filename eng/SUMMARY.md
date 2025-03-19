@@ -126,11 +126,6 @@
     * [Introduction](en/computer-vision/introduction.md)
   * [expert-systems](en/expert-systems/README.md)
     * [Introduction](en/expert-systems/introduction.md)
-  * [getting-started](en/getting-started/README.md)
-    * [Contributors](en/getting-started/contributors.md)
-    * [Glossary](en/getting-started/glossary.md)
-    * [How to Read This Book](en/getting-started/how-to-read-this-book.md)
-    * [Resources](en/getting-started/resources.md)
   * [machine-learning](en/machine-learning/README.md)
     * [Introduction](en/machine-learning/introduction.md)
     * [Key Applications of ML](en/machine-learning/key-applications-of-ml.md)
@@ -342,5 +337,9 @@
 
 ## Getting Started
 
-* [Untitled](getting-started/untitled.md)
-* [Audience](getting-started/audience.md)
+* [Introduction](getting-started/introduction.md)
+* [Audience](en/getting-started/audience.md)
+* [Resources](getting-started/resources.md)
+* [How to Read This Book](getting-started/how-to-read-this-book.md)
+* [Glossary](getting-started/glossary.md)
+* [Contributors](getting-started/contributors.md)
