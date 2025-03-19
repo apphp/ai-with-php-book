@@ -1,8 +1,6 @@
 # Table of contents
 
-* [Artificial Intelligence with PHP](README.md)
-* [Page](en/README.md)
-  * [Table of contents](en/summary.md)
+* [Page](README.md)
   * [ai-ethics-and-safety](en/ai-ethics-and-safety/README.md)
     * [Introduction](en/ai-ethics-and-safety/introduction.md)
   * [artificial-intelligence](en/artificial-intelligence/README.md)
@@ -129,7 +127,6 @@
   * [expert-systems](en/expert-systems/README.md)
     * [Introduction](en/expert-systems/introduction.md)
   * [getting-started](en/getting-started/README.md)
-    * [Audience](en/getting-started/audience.md)
     * [Contributors](en/getting-started/contributors.md)
     * [Glossary](en/getting-started/glossary.md)
     * [How to Read This Book](en/getting-started/how-to-read-this-book.md)
@@ -342,3 +339,8 @@
           * [Simple Perceptron with Pure PHP](en/neural-networks/types-of-nn/basic-nn/implementation-in-php/simple-perceptron-with-pure-php.md)
   * [robotics](en/robotics/README.md)
     * [Introduction](en/robotics/introduction.md)
+
+## Getting Started
+
+* [Untitled](getting-started/untitled.md)
+* [Audience](getting-started/audience.md)
