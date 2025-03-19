@@ -2,7 +2,7 @@
 
 ### From Myth to Modern Marvel
 
-The idea of Artificial Intelligence isn’t new — its roots stretch back to ancient myths like those in Greek mythology, where the concept of intelligent machines was first imagined (read more in [History of ML](../../en/machine-learning/overview-of-ml/history-of-ml/)). But AI as we know it today started taking shape in the 1950s. This is when computer scientists began seriously considering whether machines could learn, solve problems, and even think like humans.
+The idea of Artificial Intelligence isn’t new — its roots stretch back to ancient myths like those in Greek mythology, where the concept of intelligent machines was first imagined (read more in [History of ML](../../machine-learning/overview-of-ml/history-of-ml/)). But AI as we know it today started taking shape in the 1950s. This is when computer scientists began seriously considering whether machines could learn, solve problems, and even think like humans.
 
 <div align="left"><figure><img src="../../.gitbook/assets/ai-history-min.en.png" alt="" width="375"><figcaption></figcaption></figure></div>
 

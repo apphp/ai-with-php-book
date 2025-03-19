@@ -20,5 +20,5 @@ The **LLM Agents PHP SDK** is a robust PHP library designed to facilitate the cr
 * **Multi-Agent Support:** Allow multiple agents to collaborate on complex tasks.
 
 {% hint style="info" %}
-You may read more about how [Configure an Environment for PHP](../../en/machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/).
+You may read more about how [Configure an Environment for PHP](../../machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/).
 {% endhint %}

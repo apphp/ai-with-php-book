@@ -4,7 +4,7 @@
 
 Official website: [https://github.com/openai-php](https://github.com/openai-php)
 
-One of the most powerful Natural Language Processing (NLP) libraries available for PHP developers is the **OpenAI PHP Client**. This library provides an easy-to-use interface for integrating OpenAI’s language models, including GPT-based models, into PHP applications. The OpenAI PHP Client is designed to simplify communication with OpenAI’s API.&#x20;
+One of the most powerful Natural Language Processing (NLP) libraries available for PHP developers is the **OpenAI PHP Client**. This library provides an easy-to-use interface for integrating OpenAI’s language models, including GPT-based models, into PHP applications. The OpenAI PHP Client is designed to simplify communication with OpenAI’s API.
 
 ### 2. OpenAI PHP Extension
 
@@ -34,7 +34,7 @@ LLPhant - A comprehensive PHP Generative AI Framework
 
 State-of-the-art Machine Learning for PHP. Run Transformers natively in your PHP projects
 
-Official website:  [https://codewithkyrian.github.io/transformers-php/](https://codewithkyrian.github.io/transformers-php/)
+Official website: [https://codewithkyrian.github.io/transformers-php/](https://codewithkyrian.github.io/transformers-php/)
 
 ### 7. LLM Agents PHP SDK **(PHP LLM-based AI Agents Library)**
 
@@ -50,5 +50,5 @@ The **LLM Agents PHP SDK** is a robust PHP library designed to facilitate the cr
 * **Multi-Agent Support:** Allow multiple agents to collaborate on complex tasks.
 
 {% hint style="info" %}
-You may read more about how [Configure an Environment for PHP](../../machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/).
+You may read more about how [Configure an Environment for PHP](../../../machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/).
 {% endhint %}
