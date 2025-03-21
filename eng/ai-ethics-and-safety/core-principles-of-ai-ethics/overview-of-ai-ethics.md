@@ -4,6 +4,8 @@
 
 AI is not neutral. It reflects the data it's trained on, the decisions made during its design, and the context in which it's deployed. When we embed AI into PHP-based applications — whether for content moderation, personalization, fraud detection, or chat support — we introduce a system that makes decisions on behalf of users.
 
+<div align="left"><figure><img src="../../.gitbook/assets/ai-overview-of-ai-ethics-min.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
 These decisions can impact real lives. For instance, a poorly trained model might unfairly block user content, misidentify behavior as malicious, or promote biased outcomes. This isn't just a technical problem — it's a human one.
 
 Ethics in AI isn't just for researchers or policymakers. As a PHP developer, you're often the last line of defense. How you structure your app, how you handle data, and how you design AI-powered features can mean the difference between empowering users and violating their trust.
@@ -16,6 +18,8 @@ Building ethical AI-powered web apps is ultimately about ensuring:
 * **Accountability**: Logging decisions and offering recourse when things go wrong.
 
 Ignoring these factors can result in public backlash, legal issues, or loss of trust — none of which are good for business or for society.
+
+\>>>>>>>>>>>>>>>>>>
 
 ### **Ethical Risks in Web-Based AI Applications**
 
