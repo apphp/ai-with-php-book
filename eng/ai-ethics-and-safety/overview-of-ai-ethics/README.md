@@ -4,7 +4,7 @@
 
 AI is not neutral. It reflects the data it's trained on, the decisions made during its design, and the context in which it's deployed. When we embed AI into PHP-based applications — whether for content moderation, personalization, fraud detection, or chat support — we introduce a system that makes decisions on behalf of users.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-overview-of-ai-ethics-min.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-overview-of-ai-ethics-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 These decisions can impact real lives. For instance, a poorly trained model might unfairly block user content, misidentify behavior as malicious, or promote biased outcomes. This isn't just a technical problem — it's a human one.
 
