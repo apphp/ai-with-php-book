@@ -379,3 +379,7 @@
     * [AI Risk Assessment](ai-ethics-and-safety/building-ethics-and-safety-ai/ensuring-ai-accountability/ai-risk-assessment.md)
 * [Key Applications of AI Ethics](ai-ethics-and-safety/key-applications-of-ai-ethics.md)
 * [Practice](ai-ethics-and-safety/practice.md)
+
+## Epilog
+
+* [Summing-up](epilog/summing-up.md)
