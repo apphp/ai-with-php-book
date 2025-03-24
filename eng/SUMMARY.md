@@ -322,8 +322,8 @@
     * [20th Century](natural-language-processing/overview-of-nlp/history-of-nlp/20th-century.md)
     * [21st Century](natural-language-processing/overview-of-nlp/history-of-nlp/21st-century.md)
     * [Coming Years](natural-language-processing/overview-of-nlp/history-of-nlp/coming-years.md)
-  * [Common Challenges in NLP](natural-language-processing/overview-of-nlp/common-challenges-in-nlp.md)
   * [Key Concepts in NLP](natural-language-processing/overview-of-nlp/key-concepts-in-nlp.md)
+  * [Common Challenges in NLP](natural-language-processing/overview-of-nlp/common-challenges-in-nlp.md)
   * [Machine Learning Role in NLP](natural-language-processing/overview-of-nlp/machine-learning-role-in-nlp.md)
 * [NLP Capabilities in PHP](natural-language-processing/nlp-capabilities-in-php/README.md)
   * [Overview of NLP Libraries in PHP](natural-language-processing/nlp-capabilities-in-php/overview-of-nlp-libraries-in-php.md)
@@ -356,6 +356,23 @@
 ## Expert Systems
 
 * [Introduction](expert-systems/introduction.md)
+* [Overview of ES](expert-systems/overview-of-es/README.md)
+  * [History of ES](expert-systems/overview-of-es/history-of-es/README.md)
+    * [Origins and Early ES](expert-systems/overview-of-es/history-of-es/origins-and-early-es.md)
+    * [Milestones in the Evolution of ES](expert-systems/overview-of-es/history-of-es/milestones-in-the-evolution-of-es.md)
+    * [Expert Systems in Modern AI](expert-systems/overview-of-es/history-of-es/expert-systems-in-modern-ai.md)
+  * [Core Components and Architecture](expert-systems/overview-of-es/core-components-and-architecture.md)
+  * [Challenges and Limitations](expert-systems/overview-of-es/challenges-and-limitations.md)
+  * [Future Trends](expert-systems/overview-of-es/future-trends.md)
+* [ES Capabilities in PHP](expert-systems/es-capabilities-in-php.md)
+* [Mathematics for ES](expert-systems/mathematics-for-es.md)
+* [Building ES](expert-systems/building-es/README.md)
+  * [Knowledge Representation Approaches](expert-systems/building-es/knowledge-representation-approaches.md)
+  * [Inference Mechanisms](expert-systems/building-es/inference-mechanisms.md)
+  * [Best Practices for Knowledge Base Design and Inference](expert-systems/building-es/best-practices-for-knowledge-base-design-and-inference.md)
+* [Integration ES into Web](expert-systems/integration-es-into-web.md)
+* [Key Applications of ES](expert-systems/key-applications-of-es.md)
+* [Practice](expert-systems/practice.md)
 
 ## AI Ethics and Safety
 
