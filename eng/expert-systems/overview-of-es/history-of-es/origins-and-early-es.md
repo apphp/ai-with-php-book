@@ -1,16 +1,27 @@
 # Origins and Early ES
 
-### Origins and Early Expert Systems (ES)
+### Origins and Early ES
 
-Expert Systems (ES) represent an essential branch of artificial intelligence (AI) that emerged with the aim of simulating human expertise within specialized domains. These systems utilize knowledge, inference rules, and reasoning processes to provide decisions and solve complex problems typically requiring human experts.
+ES are an important type of artificial intelligence (AI). Their goal is to copy human experts' thinking and decision-making skills in specific areas. They use knowledge, rules, and logical thinking to solve difficult problems that usually need human experts.
 
-#### Historical Context
+### Historical Context
 
-The concept of Expert Systems started gaining traction in the 1960s and 1970s, during a time when artificial intelligence research sought practical applications capable of demonstrating tangible value. Researchers aimed to encode human expert knowledge into computer systems, enabling these systems to mimic expert problem-solving and decision-making skills.
+The idea of ES started to become popular in the 1960s and 1970s. During this period, AI researchers wanted to create practical applications that showed clear value. They aimed to put human expert knowledge into computers, allowing computers to imitate human problem-solving and decision-making abilities.
 
-#### Key Contributors and Early Innovations
+### Key Contributors and Early Innovations
 
-One of the most influential pioneers in Expert Systems was Edward Feigenbaum, often considered the "father of expert systems." In 1965, he began collaborating with Joshua Lederberg, Bruce Buchanan, and Carl Djerassi at Stanford University. Their interdisciplinary project aimed to replicate the reasoning process of expert chemists, laying foundational concepts for developing Expert Systems by systematically structuring domain-specific knowledge using symbolic reasoning and heuristic rules.
+Edward Feigenbaum is one of the main early figures in Expert Systems. He is often called the "father of expert systems." \
+
+
+/ .....\
+\
+In 1965, he worked with **Joshua Lederberg**, **Bruce Buchanan**, and **Carl Djerassi** at Stanford University.&#x20;
+
+<table data-header-hidden><thead><tr><th width="238.80078125"></th><th width="255.12109375"></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/es-joshua-lederberg-min (2).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/es-bruce-buchanan-min (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/es-carl-djerassi-min.png" alt="" data-size="original"></td></tr><tr><td>Joshua Lederberg</td><td>Bruce Buchanan</td><td>Carl Djerassi</td></tr></tbody></table>
+
+They worked together to create a system that could think like expert chemists. Their project laid important foundations by structuring specialized knowledge using logical rules and reasoning.
+
+
 
 #### Notable Early Expert Systems
 
