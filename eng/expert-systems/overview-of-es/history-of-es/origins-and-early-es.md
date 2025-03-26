@@ -8,15 +8,13 @@ ES are an important type of artificial intelligence (AI). Their goal is to copy 
 
 The idea of ES started to become popular in the 1960s and 1970s. During this period, AI researchers wanted to create practical applications that showed clear value. They aimed to put human expert knowledge into computers, allowing computers to imitate human problem-solving and decision-making abilities.
 
-\>>>>>>>>>>>>>>
-
 ### Key Contributors and Early Innovations
 
 Early contributors to ES developed methods to copy human expertise in computers. They created ways for computers to reason and make decisions similar to human experts. Their work laid the foundation for systems using logical rules and structured knowledge to solve complex problems.
 
 **1. Edward Feigenbaum**
 
-**// ....**
+<div align="left"><figure><img src="../../../.gitbook/assets/es-edward-feigenbaum-min.png" alt="" width="188"><figcaption><p><strong>Edward Feigenbaum</strong></p></figcaption></figure></div>
 
 Edward Feigenbaum is one of the main early figures in Expert Systems. He is often called the "father of expert systems." \
 \
@@ -50,7 +48,7 @@ Developed in 1965 at Stanford University, DENDRAL was among the first expert sys
 
 #### **MYCIN (1972–1976)**
 
-In development from 1972 to 1976, MYCIN was created to diagnose bacterial infections and suggest antibiotic treatments. Also originating from Stanford University, MYCIN utilized a knowledge base of over 450 rules and an inference engine using backward chaining to derive diagnoses. It introduced the use of certainty factors to manage uncertainty in medical reasoning—an innovation ahead of its time. Despite never being used clinically due to legal and ethical concerns, MYCIN became a landmark project in AI.
+In development from 1972 to 1976, MYCIN was created to diagnose bacterial infections and suggest antibiotic treatments. Also originating from Stanford University, MYCIN utilized a knowledge base of over 450 rules and an inference engine using backward chaining to derive diagnoses. It introduced the use of certainty factors to manage uncertainty in medical reasoning — an innovation ahead of its time. Despite never being used clinically due to legal and ethical concerns, MYCIN became a landmark project in AI.
 
 #### **PROSPECTOR (1978)**
 
@@ -72,7 +70,7 @@ Early Expert Systems relied primarily on rule-based systems, structured around c
 
 ### Global Contributions
 
-Although much early pioneering work emerged from the United States, global contributions were significant. In the UK, the University of Edinburgh and Imperial College London produced important theoretical work on knowledge representation and AI reasoning. Japan's Ministry of International Trade and Industry launched the Fifth Generation Computer Systems project in 1982, aiming to advance AI and logic programming, including Expert System development using Prolog-based platforms. These initiatives inspired further research across Europe and Asia.
+Although much early pioneering work emerged from the United States, global contributions were significant. In the UK, the University of Edinburgh and Imperial College London produced important theoretical work on knowledge representation and AI reasoning. Japan's Ministry of International Trade and Industry launched the Fifth Generation Computer Systems project in 1982, aiming to advance AI and logic programming, including Expert Systems development using Prolog-based platforms. These initiatives inspired further research across Europe and Asia.
 
 ### Impact and Challenges
 
@@ -80,4 +78,4 @@ Despite initial successes, early Expert Systems faced numerous limitations. They
 
 ### Legacy and Influence
 
-Early Expert Systems significantly shaped future AI research directions. They established foundational principles in knowledge representation, inference engines, and decision support that are still used in modern AI. The architecture and design of these systems influenced the development of intelligent agents, diagnostic systems, and modern applications in fields such as healthcare, engineering, and finance. The legacy of DENDRAL, MYCIN, and XCON lives on as milestones in the evolution of applied artificial intelligence.
+Early Expert Systems significantly shaped future AI research directions. They established foundational principles in knowledge representation, inference engines, and decision support that are still used in modern AI. The architecture and design of these systems influenced the development of intelligent agents, diagnostic systems, and modern applications in fields such as healthcare, engineering, and finance. The legacy of DENDRAL, MYCIN, PROSPECTOR and XCON lives on as milestones in the evolution of applied artificial intelligence.
