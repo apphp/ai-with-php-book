@@ -50,4 +50,4 @@ After the features are ready, the model is trained using the prepared data, and 
 
 However, the process doesn’t end there. The model needs to be monitored over time to ensure it remains accurate and effective. If any issues are detected, or performance drops, the model enters the support phase, where it can be retrained, updated, or adjusted. Throughout the entire cycle, feedback loops allow teams to revisit earlier steps — like refining features or redefining the original goal — based on insights gained during later stages. This ongoing process helps maintain the quality and relevance of machine learning models in real-world applications.
 
-<figure><img src="../../../.gitbook/assets/ml-project-life-cycle-min (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
