@@ -1,6 +1,6 @@
 # Machine Learning Life Cycle
 
-Let’s dive into the fascinating world of machine learning through its life cycle—a process that allows computers to learn on their own without being explicitly programmed. But how exactly does this magic happen? Think of it as a step-by-step journey that turns raw data into smart systems. The whole purpose of the machine learning life cycle is to find a solution to a problem by building an efficient model, much like crafting the perfect tool for a specific job.
+Let’s dive into the fascinating world of machine learning through its life cycle — a process that allows computers to learn on their own without being explicitly programmed. But how exactly does this magic happen? Think of it as a step-by-step journey that turns raw data into smart systems. The whole purpose of the machine learning life cycle is to find a solution to a problem by building an efficient model, much like crafting the perfect tool for a specific job.
 
 <div align="left"><figure><img src="../../../../en/.gitbook/assets/ml-learning-life-cycle-min.png" alt="" width="375"><figcaption><p>Life Cycle of Machine Learning</p></figcaption></figure></div>
 
@@ -40,7 +40,7 @@ Throughout the entire life cycle, the key to success is understanding the proble
 
 For better visualization find below a cycle diagram of Machine Learning Life Cycle
 
-<figure><img src="../../../.gitbook/assets/ml-learning-life-cycle-diagram-min.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../.gitbook/assets/ml-learning-life-cycle-diagram-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Machine Learning Engineering Life Cycle
 
@@ -49,3 +49,5 @@ In addition let's review the life cycle of a machine learning project. The diagr
 After the features are ready, the model is trained using the prepared data, and then evaluated by data analysts to check its performance. If the model performs well, it's deployed into a live environment by DevOps professionals. Once deployed, the model starts handling real-world requests and delivering predictions.
 
 However, the process doesn’t end there. The model needs to be monitored over time to ensure it remains accurate and effective. If any issues are detected, or performance drops, the model enters the support phase, where it can be retrained, updated, or adjusted. Throughout the entire cycle, feedback loops allow teams to revisit earlier steps — like refining features or redefining the original goal — based on insights gained during later stages. This ongoing process helps maintain the quality and relevance of machine learning models in real-world applications.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/ml-project-life-cycle-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
