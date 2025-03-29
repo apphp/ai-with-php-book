@@ -49,5 +49,3 @@ In addition let's review the life cycle of a machine learning project. The diagr
 After the features are ready, the model is trained using the prepared data, and then evaluated by data analysts to check its performance. If the model performs well, it's deployed into a live environment by DevOps professionals. Once deployed, the model starts handling real-world requests and delivering predictions.
 
 However, the process doesn’t end there. The model needs to be monitored over time to ensure it remains accurate and effective. If any issues are detected, or performance drops, the model enters the support phase, where it can be retrained, updated, or adjusted. Throughout the entire cycle, feedback loops allow teams to revisit earlier steps — like refining features or redefining the original goal — based on insights gained during later stages. This ongoing process helps maintain the quality and relevance of machine learning models in real-world applications.
-
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
