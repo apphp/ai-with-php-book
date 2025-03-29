@@ -352,6 +352,17 @@
 ## Cognitive Computing
 
 * [Introduction](cognitive-computing/introduction.md)
+* [Overview of CC](cognitive-computing/overview-of-cc/README.md)
+  * [Defining CC](cognitive-computing/overview-of-cc/defining-cc.md)
+  * [History of CC](cognitive-computing/overview-of-cc/history-of-cc.md)
+  * [Differences Between CC and AI](cognitive-computing/overview-of-cc/differences-between-cc-and-ai.md)
+* [CC Compatibilities in PHP](cognitive-computing/cc-compatibilities-in-php.md)
+* [Mathematics for CC](cognitive-computing/mathematics-for-cc.md)
+* [Building CC](cognitive-computing/building-cc/README.md)
+  * [Practical Implementation](cognitive-computing/building-cc/practical-implementation.md)
+* [Integration CC into Web](cognitive-computing/integration-cc-into-web.md)
+* [Key Applications of CC](cognitive-computing/key-applications-of-cc.md)
+* [Practice](cognitive-computing/practice.md)
 
 ## Expert Systems
 
