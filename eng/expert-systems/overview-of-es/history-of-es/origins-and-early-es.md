@@ -28,13 +28,9 @@ Joshua Lederberg was an American molecular biologist known for his work in micro
 
 **3. Bruce Buchanan**
 
-<div align="left"><figure><img src="broken-reference" alt="" width="188"><figcaption><p>Bruce Buchanan</p></figcaption></figure></div>
-
 University Professor of Computer Science Emeritus, University of Pittsburgh, he received a B.A. degree in Mathematics from Ohio Wesleyan University (1961), and his M.S. and Ph.D. degrees in Philosophy from Michigan State University (1966). He was on the faculty at Stanford University and the University of Pittsburgh, with appointments in computer science, philosophy, medicine, and intelligent systems. He is known for his work in artificial intelligence, the development of the Stanford Artificial Intelligence Laboratory and the artificial intelligence (AI) community.
 
 **4. Carl Djerassi**
-
-<div align="left"><figure><img src="broken-reference" alt="" width="183"><figcaption><p><strong>Carl Djerassi</strong> </p></figcaption></figure></div>
 
 Carl Djerassi was an Austrian-American chemist famous for helping develop the first oral contraceptive pill. He made significant contributions to chemistry and later became known as an author and playwright. Djerassi also played an important role in early research on expert systems, collaborating on pioneering AI projects.
 
