@@ -40,7 +40,7 @@ Expert systems aim to replicate the decision-making abilities of human experts. 
 
 This growing field addresses the ethical considerations, biases, and risks associated with AI systems. Researchers in this area explore how to ensure that AI technologies are fair, transparent, and safe for society, focusing on issues like bias in algorithms and the impact of AI on employment and privacy.
 
-Each of these areas plays a critical role in advancing the broader field of AI, pushing the boundaries of what machines can do and how they interact with the world around them.
+Each of these areas plays a critical role in advancing the broader field of AI, pushing the boundaries of what machines can do and how they can interact with the world around them.
 
 ### Schematic Diagram of AI
 
