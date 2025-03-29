@@ -28,6 +28,8 @@ Joshua Lederberg was an American molecular biologist known for his work in micro
 
 **3. Bruce Buchanan**
 
+<div align="left"><figure><img src="../../../.gitbook/assets/es-bruce-buchanan-min.png" alt="" width="188"><figcaption><p>Bruce Buchanan</p></figcaption></figure></div>
+
 University Professor of Computer Science Emeritus, University of Pittsburgh, he received a B.A. degree in Mathematics from Ohio Wesleyan University (1961), and his M.S. and Ph.D. degrees in Philosophy from Michigan State University (1966). He was on the faculty at Stanford University and the University of Pittsburgh, with appointments in computer science, philosophy, medicine, and intelligent systems. He is known for his work in artificial intelligence, the development of the Stanford Artificial Intelligence Laboratory and the artificial intelligence (AI) community.
 
 **4. Carl Djerassi**

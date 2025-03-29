@@ -33,7 +33,7 @@ _Example Problem:_ A simple reflex agent in a robotic vacuum may get stuck in th
 
 Model-based reflex agents address the limitations of simple reflex agents by incorporating an internal _model of the world_. This model allows the agent to keep track of past states and understand how actions affect the environment over time. By using this history, the agent can handle partially observable environments, where current percepts alone do not provide a full understanding of the world.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-types-of-ai-agents-model-min.png" alt="" width="563"><figcaption><p>Model-Based Reflex Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../ru/.gitbook/assets/ai-types-of-ai-agents-model-min (1).png" alt="" width="563"><figcaption><p>Model-Based Reflex Agents</p></figcaption></figure></div>
 
 **Characteristics**:
 
