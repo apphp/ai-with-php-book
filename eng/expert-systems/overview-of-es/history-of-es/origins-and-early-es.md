@@ -22,7 +22,7 @@ In 1965, he worked with **Joshua Lederberg**, **Bruce Buchanan**, and **Carl Dje
 
 **2. Joshua Lederberg**
 
-<div align="left"><figure><img src="broken-reference" alt="" width="178"><figcaption><p><strong>Joshua Lederberg</strong></p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/es-joshua-lederberg-min.png" alt="" width="178"><figcaption><p>Joshua Lederberg</p></figcaption></figure></div>
 
 Joshua Lederberg was an American molecular biologist known for his work in microbial genetics, artificial intelligence, and the United States space program. He was 33 years old when he won the 1958 Nobel Prize in Physiology or Medicine for discovering that bacteria can mate and exchange genes
 
