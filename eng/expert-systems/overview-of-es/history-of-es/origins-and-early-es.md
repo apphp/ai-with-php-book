@@ -34,8 +34,6 @@ University Professor of Computer Science Emeritus, University of Pittsburgh, he 
 
 **4. Carl Djerassi**
 
-<div align="left"><figure><img src="../../../.gitbook/assets/es-carl-djerassi-min (1).png" alt="" width="183"><figcaption><p>Carl Djerassi</p></figcaption></figure></div>
-
 Carl Djerassi was an Austrian-American chemist famous for helping develop the first oral contraceptive pill. He made significant contributions to chemistry and later became known as an author and playwright. Djerassi also played an important role in early research on expert systems, collaborating on pioneering AI projects.
 
 They worked together to create a system that could think like expert chemists. Their project laid important foundations by structuring specialized knowledge using logical rules and reasoning.
