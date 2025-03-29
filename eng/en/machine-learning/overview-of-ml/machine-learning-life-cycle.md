@@ -2,7 +2,7 @@
 
 Let’s dive into the fascinating world of machine learning through its life cycle—a process that allows computers to learn on their own without being explicitly programmed. But how exactly does this magic happen? Think of it as a step-by-step journey that turns raw data into smart systems. The whole purpose of the machine learning life cycle is to find a solution to a problem by building an efficient model, much like crafting the perfect tool for a specific job.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/ml-learning-life-cycle-min.png" alt="" width="375"><figcaption><p>Life Cycle of Machine Learning</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../en/.gitbook/assets/ml-learning-life-cycle-min.png" alt="" width="375"><figcaption><p>Life Cycle of Machine Learning</p></figcaption></figure></div>
 
 Now, let’s break down the key stages in this journey:
 
