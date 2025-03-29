@@ -1,2 +1,0 @@
-# User-Based Collaborative Filtering
-
