@@ -48,7 +48,6 @@ If you'd like to contribute to AI with PHP, here are some guidelines:
 ## **Language support**
 
 1. English
-2. Russian
 
 ## **License**
 
