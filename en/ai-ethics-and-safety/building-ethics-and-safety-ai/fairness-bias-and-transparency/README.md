@@ -1,2 +1,0 @@
-# Fairness, Bias, and Transparency
-
