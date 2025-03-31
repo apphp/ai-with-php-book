@@ -11,7 +11,7 @@ Cognitive computing is a field of computer science that tries to make machines t
 
 Instead of just following rules, cognitive systems can analyze complex information, recognize patterns, and adapt over time.
 
-<figure><img src="../.gitbook/assets/cognitive-introduction-min.png" alt=""><figcaption><p>Introduction</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/cognitive-introduction-min.png" alt=""><figcaption><p>Introduction to Cognitive Computing</p></figcaption></figure>
 
 The goals of cognitive computing are centered around creating systems that can think, learn, and interact naturally. One important goal is to understand human language, including slang, tone, and meaning. Another goal is to learn from data, so that the system improves as it receives new information. Cognitive systems are also designed to support decision-making by offering useful insights and analyzing many options quickly. Finally, these systems aim to interact with users in a natural way, so people can talk or write to them and get helpful, human-like responses.
 

@@ -8,7 +8,7 @@ description: >-
 
 Expert Systems (ES) are one of the first and most important types of AI. They are designed to imitate how human experts make decisions in specific areas. Unlike regular computer programs that follow fixed instructions, expert systems use special knowledge bases and reasoning tools to solve complex problems, providing advice and solutions like a human expert.
 
-<figure><img src="../.gitbook/assets/es-introduction-min.png" alt=""><figcaption><p>Introduction</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/es-introduction-min.png" alt=""><figcaption><p>Introduction to Expert Systems</p></figcaption></figure>
 
 The creation of expert systems was a major step forward for AI because it showed computers could mimic human thinking in specific fields. These systems started in the 1970s and became very popular in the 1980s. They helped solve problems where expert human knowledge was rare, costly, or took too long to obtain. Expert systems have been used widely in industries like medicine, finance, engineering, and manufacturing because they can store and apply expert knowledge efficiently.
 

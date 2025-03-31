@@ -354,7 +354,6 @@
 
 * [Introduction](cognitive-computing/introduction.md)
 * [Overview of CC](cognitive-computing/overview-of-cc/README.md)
-  * [Defining CC](cognitive-computing/overview-of-cc/defining-cc.md)
   * [History of CC](cognitive-computing/overview-of-cc/history-of-cc.md)
   * [Differences Between CC and AI](cognitive-computing/overview-of-cc/differences-between-cc-and-ai.md)
 * [CC Compatibilities in PHP](cognitive-computing/cc-compatibilities-in-php.md)
