@@ -19,42 +19,13 @@ A typical cognitive computing system includes the following capabilities:
 
 These core abilities allow cognitive computing systems to behave more like human partners in problem-solving.
 
-\>>>>>>>>>>>>>>>
-
 #### Diagram: Components of a Cognitive Computing System
 
-```
-+--------------------+
-|   Data Sources     |
-| (text, speech, etc)|
-+--------------------+
-         |
-         v
-+--------------------+
-|   Preprocessing    |
-|  (cleansing, NER)  |
-+--------------------+
-         |
-         v
-+--------------------+
-|     Learning       |
-| (ML/DL models)     |
-+--------------------+
-         |
-         v
-+--------------------+
-|     Reasoning      |
-| (context, logic)   |
-+--------------------+
-         |
-         v
-+--------------------+
-|  Interaction Layer |
-| (UI, NLP, feedback)|
-+--------------------+
-```
+<figure><img src="../../.gitbook/assets/cc-overview-diagram (4).png" alt=""><figcaption><p>Components of a Cognitive Computing System</p></figcaption></figure>
 
 This simplified diagram shows how data flows through a cognitive system, from input to intelligent interaction.
+
+\>>>>>>>>>>>>>>>
 
 ### Why Do We Need Cognitive Computing?
 
