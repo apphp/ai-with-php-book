@@ -4,7 +4,7 @@
 
 While AI has been a force for good in many industries, it has also found its way into the hands of criminals, who are leveraging its capabilities to enhance the scale, sophistication, and anonymity of their illegal activities. The rise of AI-powered tools has introduced new challenges in cybercrime, fraud, and even physical security, making it harder for law enforcement to keep up with rapidly evolving threats.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-in-criminal-world-min.png" alt="" width="375"><figcaption><p>AI in the criminal world</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-in-criminal-world-min.png" alt="" width="375"><figcaption><p>AI in Criminal World</p></figcaption></figure></div>
 
 ### AI-Driven Cybercrime
 
