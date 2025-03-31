@@ -232,6 +232,7 @@
       * [Data Representation](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-representation/README.md)
         * [Data Structures in PHP](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-representation/data-structures-in-php.md)
         * [Data Visualization Techniques](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/data-representation/data-visualization-techniques.md)
+      * [Typical Problems with Data](machine-learning/data-fundamentals/ml-data-processing/stages-of-data-processing/typical-problems-with-data.md)
 * [ML Algorithms](machine-learning/ml-algorithms/README.md)
   * [Classification of ML Algorithms](machine-learning/ml-algorithms/classification-of-ml-algorithms/README.md)
     * [By Methods Used](machine-learning/ml-algorithms/classification-of-ml-algorithms/by-methods-used.md)
