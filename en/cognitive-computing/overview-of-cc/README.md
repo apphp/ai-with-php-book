@@ -21,8 +21,6 @@ These core abilities allow cognitive computing systems to behave more like human
 
 #### Diagram: Components of a Cognitive Computing System
 
-<figure><img src="../../.gitbook/assets/cc-overview-diagram.png" alt=""><figcaption></figcaption></figure>
-
 This simplified diagram shows how data flows through a cognitive system, from input to intelligent interaction.
 
 \>>>>>>>>>>>>>>>
