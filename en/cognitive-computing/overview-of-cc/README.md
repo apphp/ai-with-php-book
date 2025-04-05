@@ -23,8 +23,6 @@ These core abilities allow cognitive computing systems to behave more like human
 
 This simplified diagram shows how data flows through a cognitive system, from input to intelligent interaction.
 
-\>>>>>>>>>>>>>>>
-
 ### Why Do We Need Cognitive Computing?
 
 In today's world, we are surrounded by massive amounts of data. Most of this data is unstructured and difficult to process using traditional methods. Organizations need tools that help them make sense of this information and support better decision-making.

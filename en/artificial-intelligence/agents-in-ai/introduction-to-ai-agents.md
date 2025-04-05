@@ -2,7 +2,7 @@
 
 ### What Exactly is an AI Agent?
 
-In simple terms, an AI agent is a system that interacts with its environment through a cycle of sensing, deciding, and acting. Agents are everywhere—your smartphone, your thermostat, even your robot vacuum cleaner! These agents can vary widely, from simple devices to highly sophisticated systems like self-driving cars or virtual characters in video games.
+In simple terms, an AI agent is a system that interacts with its environment through a cycle of sensing, deciding, and acting. Agents are everywhere — your smartphone, your thermostat, even your robot vacuum cleaner! These agents can vary widely, from simple devices to highly sophisticated systems like self-driving cars or virtual characters in video games.
 
 <div align="left"><figure><img src="../../.gitbook/assets/ai-introduction-to-ai-agents-min.png" alt="" width="375"><figcaption><p>Introduction to AI Agents</p></figcaption></figure></div>
 
