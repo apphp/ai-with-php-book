@@ -6,8 +6,9 @@
 * [Audience](getting-started/audience.md)
 * [Glossary](getting-started/glossary.md)
 * [How to Read This Book](getting-started/how-to-read-this-book.md)
-* [Resources](getting-started/resources.md)
 * [Contributors](getting-started/contributors.md)
+* [Resources](getting-started/resources.md)
+* [Changelog](getting-started/changelog.md)
 
 ## Artificial Intelligence
 
