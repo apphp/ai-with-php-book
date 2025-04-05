@@ -6,9 +6,7 @@ Cognitive Computing combines different fields such as AI, machine learning, natu
 
 ### Early Ideas and Academic Foundations
 
-The idea of Cognitive Computing started long before computers existed. In the 1800s, thinkers like **George Boole** and **Charles Babbage** imagined machines that could think like people. Boole wrote a book in 1854 about how logic could be used for thinking, and Babbage designed a machine called the Analytical Engine that could do calculations like a brain.
-
-\>>>>>>>>>>>>>>>
+The idea of Cognitive Computing started long before computers existed. In the 1800s, thinkers like George Boole and Charles Babbage imagined machines that could think like people. Boole wrote a book in 1854 about how logic could be used for thinking, and Babbage designed a machine called the Analytical Engine that could do calculations like a brain.
 
 In 1950, a British scientist named Alan Turing asked, "Can machines think?" He created the Turing Test to find out if a machine could act like a human in a conversation. In 1956, the term "Artificial Intelligence" (AI) was introduced during a workshop at Dartmouth College. AI was described as the science of making smart machines. That same year, early AI programs were created, like one that played checkers and another that could solve math problems.
 
