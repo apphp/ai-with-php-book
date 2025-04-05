@@ -16,16 +16,17 @@
 
 * Added new chapter **Machine Learning Life Cycle** in **Key Terms and Principles**
 
-**Cognitive Computing**
-
-* Added **Introduction** chapter
-* Introduced **Overview of CC**
-
 **Expert Systems**
 
 * Added **Introduction** chapter
 * Enhanced the **Expert Systems** section with&#x20;
   * **Origins and Early ES**
+
+**Cognitive Computing**
+
+* Added **Introduction** chapter
+* Introduced **Overview of CC**
+  * Added **History of CC** chapter
 
 **AI Ethics and Safety**
 
