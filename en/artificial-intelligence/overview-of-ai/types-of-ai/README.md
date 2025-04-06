@@ -4,11 +4,11 @@
 
 Artificial Intelligence can be grouped based on two main factors: what it can do and how it works.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/ai-types-min.png" alt="" width="375"><figcaption><p>Types of Artificial Intelligence</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/ai-types-min.png" alt="" width="375"><figcaption><p>Types of AI</p></figcaption></figure></div>
 
 ### Type 1: Based on Capabilities
 
-1\. **Weak AI** (Narrow AI): This is AI that focuses on doing one specific task well. For example, Apple’s Siri is great at understanding voice commands, but it can’t do much outside of that. Other examples are self-driving cars or image recognition on your phone. IBM’s **Watson** is another example—it can analyze data and provide insights but only within certain limits.
+1\. **Weak AI** (Narrow AI): This is AI that focuses on doing one specific task well. For example, **Apple’s Siri** is great at understanding voice commands, but it can’t do much outside of that. Other examples are self-driving cars or image recognition on your phone. IBM’s **Watson** is another example—it can analyze data and provide insights but only within certain limits.
 
 2\. **General AI** (Strong AI): This type of AI would be able to think and learn like a human, doing any task a person can do. But, as of now, such AI doesn’t exist, and researchers are still working on it.
 
