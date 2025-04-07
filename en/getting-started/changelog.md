@@ -1,25 +1,27 @@
 # Changelog
 
-
-
 {% stepper %}
 {% step %}
-#### 0.6.0 - current
+**0.6.0 - current**
 
 **Artificial Intelligence**
 
 * Expanded **Overview of AI** with a **Simulated Annealing Search**
-* Added new chapters to **Logical Representation with**&#x20;
+* Added new chapters to **Logical Representation with**
   * **Propositional Logic, Predicate Logic, Implementation in PHP**
 
 **Machine Learning**
 
 * Added new chapter **Machine Learning Life Cycle** in **Key Terms and Principles**
 
+**Robotics**
+
+* Added **Introduction** chapter
+
 **Expert Systems**
 
 * Added **Introduction** chapter
-* Enhanced the **Expert Systems** section with&#x20;
+* Enhanced the **Expert Systems** section with
   * **Origins and Early ES**
 
 **Cognitive Computing**
@@ -36,12 +38,10 @@
 **Epilog**
 
 * Added a new **Summing-up** section
-
-
 {% endstep %}
 
 {% step %}
-#### 0.5.0 - Mar 2025
+**0.5.0 - Mar 2025**
 
 **Artificial Intelligence**
 
@@ -73,27 +73,26 @@
 {% endstep %}
 
 {% step %}
-#### 0.4.0 - Jan 2025
+**0.4.0 - Jan 2025**
 
 Added new sections for AI and ML
 {% endstep %}
 
 {% step %}
-#### 0.3.0 - Dec 2024
+**0.3.0 - Dec 2024**
 
 Added new sections for AI and ML
 {% endstep %}
 
 {% step %}
-#### 0.2.0 - Nov 2024
+**0.2.0 - Nov 2024**
 
 Added new sections for AI and ML
 {% endstep %}
 
 {% step %}
-#### 0.1.0  - Oct 2024
+**0.1.0 - Oct 2024**
 
 Initial Release
 {% endstep %}
 {% endstepper %}
-
