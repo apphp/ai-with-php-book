@@ -2,7 +2,7 @@
 
 In artificial intelligence, an _agent_ is any entity that perceives its environment and acts on it to achieve certain goals. Based on their level of intelligence and adaptation capabilities, agents are classified into distinct types. Below, we explore these types in detail, outlining their unique characteristics, mechanisms, and practical applications.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ai-types-of-ai-agents-min.png" alt="" width="375"><figcaption><p>Types of AI Agents</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ai-types-of-ai-agents-min.png" alt="" width="563"><figcaption><p>Types of AI Agents</p></figcaption></figure></div>
 
 ### 1. Simple Reflex Agents
 
