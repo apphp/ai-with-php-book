@@ -74,7 +74,7 @@ To minimize this cost function, the model needs to have the best value of θ1 an
 
 **Linear Regression Cost Function:** J(θ)=12m∑i=1m(hθ(x(i))–y(i))2J(θ)=2m1​∑i=1m​(hθ​(x(i))–y(i))2
 
-so our model aim is to Minimize \frac{1}{2m} \sum\_{i=1}^{m} (h\_\theta(x^{(i)}) – y^{(i)})^2 and store the parameters which makes it minimum.
+so our model aim is to Minimize \frac{1}{2m} \sum\_{i=1}<sup>{m} (h\_\theta(x</sup>{(i)}) – y<sup>{(i)})</sup>2 and store the parameters which makes it minimum.
 
 #### **Gradient Descent Algorithm For Linear Regression**
 
@@ -134,16 +134,14 @@ If slope is -ve in Gradient Descent
 The choice of correct learning rate is very important as it ensures that Gradient Descent converges in a reasonable time. :
 
 *   If we choose **α to be very large**, Gradient Descent can overshoot the minimum. It may fail to converge or even diverge.\
-    \
-
+    \\
 
     <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-gradient-descent-slope-3-min.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Effect of large alpha value on Gradient Descent
 
 *   If we choose α to be very small, Gradient Descent will take small steps to reach local minima and will take a longer time to reach minima.\
-    \
-
+    \\
 
     <div align="left"><figure><img src="../../../../../.gitbook/assets/ml-gradient-descent-slope-4-min.jpg" alt=""><figcaption></figcaption></figure></div>
 

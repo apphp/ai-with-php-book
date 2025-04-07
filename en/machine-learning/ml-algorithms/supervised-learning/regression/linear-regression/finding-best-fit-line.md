@@ -23,17 +23,17 @@ We utilize the cost function to compute the best values in order to get the best
 
 As we have assumed earlier that our independent feature is the experience i.e X and the respective salary Y is the dependent variable. Let’s assume there is a linear relationship between X and Y then the salary can be predicted using:
 
-Y^=θ1+θ2XY^=θ1​+θ2​X
+Y<sup>=θ1+θ2XY</sup>=θ1​+θ2​X
 
 OR
 
-y^i=θ1+θ2xiy^​i​=θ1​+θ2​xi​
+y<sup>i=θ1+θ2xiy</sup>​i​=θ1​+θ2​xi​
 
 Here,
 
 * yiϵY(i=1,2,⋯,n) yi​ϵY(i=1,2,⋯,n) are labels to data (Supervised learning)
 * xiϵX(i=1,2,⋯,n) xi​ϵX(i=1,2,⋯,n) are the input independent training data (univariate – one input variable(parameter))
-* yi^ϵY^(i=1,2,⋯,n) yi​^​ϵY^(i=1,2,⋯,n) are the predicted values.
+* yi<sup>ϵY</sup>(i=1,2,⋯,n) yi​<sup>​ϵY</sup>(i=1,2,⋯,n) are the predicted values.
 
 The model gets the best regression fit line by finding the best θ1 and θ2 values.
 
@@ -44,19 +44,19 @@ Once we find the best θ1 and θ2 values, we get the best-fit line. So when we a
 
 #### **How to update θ1 and θ2 values to get the best-fit line?**
 
-To achieve the best-fit regression line, the model aims to predict the target value Y^ Y^ such that the error difference between the predicted value Y^ Y^ and the true value Y is minimum. So, it is very important to update the θ1 and θ2 values, to reach the best value that minimizes the error between the predicted y value (pred) and the true y value (y).
+To achieve the best-fit regression line, the model aims to predict the target value Y <sup>Y</sup> such that the error difference between the predicted value Y <sup>Y</sup> and the true value Y is minimum. So, it is very important to update the θ1 and θ2 values, to reach the best value that minimizes the error between the predicted y value (pred) and the true y value (y).
 
-minimize1n∑i=1n(yi^−yi)2minimizen1​∑i=1n​(yi​^​−yi​)2
+minimize1n∑i=1n(yi<sup>−yi)2minimizen1​∑i=1n​(yi​</sup>​−yi​)2
 
 ### Cost function for Linear Regression <a href="#cost-function-for-linear-regression" id="cost-function-for-linear-regression"></a>
 
-The cost function or the loss function is nothing but the error or difference between the predicted value Y^ Y^ and the true value Y.
+The cost function or the loss function is nothing but the error or difference between the predicted value Y <sup>Y</sup> and the true value Y.
 
-In Linear Regression, the **Mean Squared Error (MSE)** cost function is employed, which calculates the average of the squared errors between the predicted values y^iy^​i​ and the actual values yiyi​. The purpose is to determine the optimal values for the intercept θ1θ1​ and the coefficient of the input feature θ2θ2​ providing the best-fit line for the given data points. The linear equation expressing this relationship is y^i=θ1+θ2xiy^​i​=θ1​+θ2​xi​.
+In Linear Regression, the **Mean Squared Error (MSE)** cost function is employed, which calculates the average of the squared errors between the predicted values y<sup>iy</sup>​i​ and the actual values yiyi​. The purpose is to determine the optimal values for the intercept θ1θ1​ and the coefficient of the input feature θ2θ2​ providing the best-fit line for the given data points. The linear equation expressing this relationship is y<sup>i=θ1+θ2xiy</sup>​i​=θ1​+θ2​xi​.
 
 MSE function can be calculated as:
 
-Cost function(J)=1n∑ni(yi^−yi)2Cost function(J)=n1​∑ni​(yi​^​−yi​)2
+Cost function(J)=1n∑ni(yi<sup>−yi)2Cost function(J)=n1​∑ni​(yi​</sup>​−yi​)2
 
 Utilizing the MSE function, the iterative process of gradient descent is applied to update the values of \θ1&θ2θ1​&θ2​. This ensures that the MSE value converges to the global minima, signifying the most accurate fit of the linear regression line to the dataset.
 
@@ -70,11 +70,11 @@ A gradient is nothing but a derivative that defines the effects on outputs of th
 
 Let’s differentiate the cost function(J) with respect to θ1 θ1​
 
-J’θ1=∂J(θ1,θ2)∂θ1=∂∂θ1\[1n(∑i=1n(y^i−yi)2)]=1n\[∑i=1n2(y^i−yi)(∂∂θ1(y^i−yi))]=1n\[∑i=1n2(y^i−yi)(∂∂θ1(θ1+θ2xi−yi))]=1n\[∑i=1n2(y^i−yi)(1+0−0)]=1n\[∑i=1n(y^i−yi)(2)]=2n∑i=1n(y^i−yi)J’θ1​​​=∂θ1​∂J(θ1​,θ2​)​=∂θ1​∂​\[n1​(i=1∑n​(y^​i​−yi​)2)]=n1​\[i=1∑n​2(y^​i​−yi​)(∂θ1​∂​(y^​i​−yi​))]=n1​\[i=1∑n​2(y^​i​−yi​)(∂θ1​∂​(θ1​+θ2​xi​−yi​))]=n1​\[i=1∑n​2(y^​i​−yi​)(1+0−0)]=n1​\[i=1∑n​(y^​i​−yi​)(2)]=n2​i=1∑n​(y^​i​−yi​)​
+J’θ1=∂J(θ1,θ2)∂θ1=∂∂θ1\[1n(∑i=1n(y<sup>i−yi)2)]=1n\[∑i=1n2(y</sup>i−yi)(∂∂θ1(y<sup>i−yi))]=1n\[∑i=1n2(y</sup>i−yi)(∂∂θ1(θ1+θ2xi−yi))]=1n\[∑i=1n2(y<sup>i−yi)(1+0−0)]=1n\[∑i=1n(y</sup>i−yi)(2)]=2n∑i=1n(y<sup>i−yi)J’θ1​​​=∂θ1​∂J(θ1​,θ2​)​=∂θ1​∂​\[n1​(i=1∑n​(y</sup>​i​−yi​)2)]=n1​\[i=1∑n​2(y<sup>​i​−yi​)(∂θ1​∂​(y</sup>​i​−yi​))]=n1​\[i=1∑n​2(y<sup>​i​−yi​)(∂θ1​∂​(θ1​+θ2​xi​−yi​))]=n1​\[i=1∑n​2(y</sup>​i​−yi​)(1+0−0)]=n1​\[i=1∑n​(y<sup>​i​−yi​)(2)]=n2​i=1∑n​(y</sup>​i​−yi​)​
 
 Let’s differentiate the cost function(J) with respect to θ2θ2​
 
-J’θ2=∂J(θ1,θ2)∂θ2=∂∂θ2\[1n(∑i=1n(y^i−yi)2)]=1n\[∑i=1n2(y^i−yi)(∂∂θ2(y^i−yi))]=1n\[∑i=1n2(y^i−yi)(∂∂θ2(θ1+θ2xi−yi))]=1n\[∑i=1n2(y^i−yi)(0+xi−0)]=1n\[∑i=1n(y^i−yi)(2xi)]=2n∑i=1n(y^i−yi)⋅xiJ’θ2​​​=∂θ2​∂J(θ1​,θ2​)​=∂θ2​∂​\[n1​(i=1∑n​(y^​i​−yi​)2)]=n1​\[i=1∑n​2(y^​i​−yi​)(∂θ2​∂​(y^​i​−yi​))]=n1​\[i=1∑n​2(y^​i​−yi​)(∂θ2​∂​(θ1​+θ2​xi​−yi​))]=n1​\[i=1∑n​2(y^​i​−yi​)(0+xi​−0)]=n1​\[i=1∑n​(y^​i​−yi​)(2xi​)]=n2​i=1∑n​(y^​i​−yi​)⋅xi​​
+J’θ2=∂J(θ1,θ2)∂θ2=∂∂θ2\[1n(∑i=1n(y<sup>i−yi)2)]=1n\[∑i=1n2(y</sup>i−yi)(∂∂θ2(y<sup>i−yi))]=1n\[∑i=1n2(y</sup>i−yi)(∂∂θ2(θ1+θ2xi−yi))]=1n\[∑i=1n2(y<sup>i−yi)(0+xi−0)]=1n\[∑i=1n(y</sup>i−yi)(2xi)]=2n∑i=1n(y<sup>i−yi)⋅xiJ’θ2​​​=∂θ2​∂J(θ1​,θ2​)​=∂θ2​∂​\[n1​(i=1∑n​(y</sup>​i​−yi​)2)]=n1​\[i=1∑n​2(y<sup>​i​−yi​)(∂θ2​∂​(y</sup>​i​−yi​))]=n1​\[i=1∑n​2(y<sup>​i​−yi​)(∂θ2​∂​(θ1​+θ2​xi​−yi​))]=n1​\[i=1∑n​2(y</sup>​i​−yi​)(0+xi​−0)]=n1​\[i=1∑n​(y<sup>​i​−yi​)(2xi​)]=n2​i=1∑n​(y</sup>​i​−yi​)⋅xi​​
 
 Finding the coefficients of a linear equation that best fits the training data is the objective of linear regression. By moving in the direction of the Mean Squared Error negative gradient with respect to the coefficients, the coefficients can be changed. And the respective intercept and coefficient of X will be if α α is the learning rate.
 
