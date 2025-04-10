@@ -13,6 +13,7 @@
 **Machine Learning**
 
 * Added new chapter **Machine Learning Life Cycle** in **Key Terms and Principles**
+* Updated **Scalars with PHP** chapter
 
 **Robotics**
 
