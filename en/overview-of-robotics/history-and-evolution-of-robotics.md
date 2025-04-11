@@ -2,6 +2,8 @@
 
 Today robotics is a field that combines mechanical engineering, electronics, computer science, and artificial intelligence. Over the past century, robotics has developed from simple mechanical devices to highly advanced intelligent machines that support human work in industries, healthcare, defense, and even space. This chapter will explore the evolution of robotics, highlight key milestones, and explain how robotics is connected to modern AI and machine learning.
 
+<div align="left"><figure><img src="../.gitbook/assets/rob-history-and-evolution-of-robotics-min.png" alt="" width="375"><figcaption><p>History and Evolution of Robotics</p></figcaption></figure></div>
+
 ### The Early Ideas and Mechanical Beginnings
 
 The idea of robots is not new. Long before computers or electronics, people imagined machines that could move and work like humans. In ancient Greece, the mathematician Hero of Alexandria built simple machines using air pressure and water flow. These early inventions were not true robots, but they showed a deep interest in automation.
