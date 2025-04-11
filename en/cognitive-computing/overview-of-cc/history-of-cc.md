@@ -18,16 +18,14 @@ Meanwhile, neuroscience — the study of the brain — helped AI scientists crea
 
 **Timeline of Key AI Milestones**
 
-```
-1956 - Term "AI" introduced
-1966 - ELIZA chatbot created
-1975 - Minsky's 'frames' concept
-1986 - Backpropagation for neural networks
-1997 - Deep Blue beats Kasparov
-2011 - IBM Watson wins Jeopardy!
-2016 - AlphaGo defeats Go champion
-2020 - GPT-3 launches
-```
+* **1956** - Term "AI" introduced
+* **1966** - ELIZA chatbot created
+* **1975** - Minsky's 'frames' concept
+* **1986** - Backpropagation for neural networks
+* **1997** - Deep Blue beats Kasparov
+* **2011** - IBM Watson wins Jeopardy!
+* **2016** - AlphaGo defeats Go champion
+* **2020** - GPT-3 launches
 
 This timeline highlights major events that helped shape cognitive computing. Each event shows progress in how machines learn, reason, or interact with humans.
 
