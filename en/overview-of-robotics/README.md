@@ -16,8 +16,6 @@ Understanding electronics is also useful, especially for working with sensors an
 
 In the modern world, robotics solves many problems that are too difficult, dangerous, or repetitive for humans. Robots can work in conditions that are unsafe for people, such as deep underwater, in space, or in areas with high radiation. They are also used to improve efficiency in factories, where they perform the same task thousands of times without getting tired.
 
-\>>>>>>>>>>>>>>>
-
 Besides safety and productivity, robots also help improve the quality of services. For example, surgical robots can perform operations with high precision. In agriculture, robots help farmers monitor crops and harvest with better timing. Robots also help people in their daily lives, such as cleaning floors, assisting the elderly, or delivering packages.
 
 The need for robotics continues to grow as societies demand more automation, better services, and higher safety in dangerous jobs.
@@ -36,7 +34,7 @@ Although robotics brings many benefits, it also has some disadvantages that we n
 
 Another issue is job loss. In some industries, robots replace human workers, especially in roles that are repetitive or dangerous. While this can increase safety and reduce costs, it can also create unemployment if new jobs are not created.
 
-Robots also have technical limits. Many robots can only perform tasks they are programmed for. They may fail when something unexpected happens or when the environment changes. This is why AI is so important—it helps robots become more flexible and able to learn. Still, building robots that truly adapt to complex environments remains a challenge.
+Robots also have technical limits. Many robots can only perform tasks they are programmed for. They may fail when something unexpected happens or when the environment changes. This is why AI is so important — it helps robots become more flexible and able to learn. Still, building robots that truly adapt to complex environments remains a challenge.
 
 Finally, there are ethical and legal questions. For example, who is responsible if a robot makes a mistake or causes harm? Should robots be allowed to make decisions in life-critical situations? These questions are still being debated as robots become more advanced.
 
@@ -48,8 +46,8 @@ Another trend is the use of AI to make robots more autonomous. With machine lear
 
 Cloud robotics is also growing. In this approach, robots connect to powerful computers over the internet. This allows them to share data, learn from each other, and use advanced AI models without needing powerful hardware inside the robot itself.
 
-Soft robotics is an area where robots are made from flexible materials. These machines are safe to use around people and are ideal for tasks that involve delicate objects or sensitive environments. In the future, we may also see more swarm robotics—systems where many small robots work together like a group of ants or bees.
+Soft robotics is an area where robots are made from flexible materials. These machines are safe to use around people and are ideal for tasks that involve delicate objects or sensitive environments. In the future, we may also see more swarm robotics — systems where many small robots work together like a group of ants or bees.
 
 These future trends show that robotics will not only be more intelligent, but also more integrated into everyday life. Understanding these developments is important for anyone working in AI, software development, or automation.
 
-In the next chapter, we will look more closely at the components that make up a robot. You will learn about sensors, actuators, control systems, and how all these parts work together with AI to create intelligent machines.
+In the next chapters, we will look more closely at the components that make up a robot. You will learn about sensors, actuators, control systems, and how all these parts work together with AI to create intelligent machines.
