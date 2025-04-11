@@ -18,8 +18,9 @@
 **Robotics**
 
 * Added **Introduction** chapter
+* Added **Overview of Robotics** section with **History and Evolution of Robotics** chapter
 
-**Expert Systems**
+&#x20;**Expert Systems**
 
 * Added **Introduction** chapter
 * Enhanced the **Expert Systems** section with
