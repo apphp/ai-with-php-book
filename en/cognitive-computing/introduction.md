@@ -1,13 +1,13 @@
 ---
 description: >-
-  Cognitive computing (CC) is a type of AI that mimics human thought processes.
-  It includes machines that can learn, reason, and understand language in ways
+  Cognitive computing  is a type of AI that mimics human thought processes. It
+  includes machines that can learn, reason, and understand language in ways
   similar to how humans do.
 ---
 
 # Introduction
 
-Cognitive computing is a field of computer science that tries to make machines think more like humans. The goal is to help computers understand the world the way people do — by learning from experiences, understanding language, and making decisions based on data.
+**Cognitive Computing (CC)** is a field of computer science that tries to make machines think more like humans. The goal is to help computers understand the world the way people do — by learning from experiences, understanding language, and making decisions based on data.
 
 Instead of just following rules, cognitive systems can analyze complex information, recognize patterns, and adapt over time.
 

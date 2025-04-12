@@ -6,7 +6,7 @@ description: >-
 
 # Introduction
 
-Expert Systems (ES) are one of the first and most important types of AI. They are designed to imitate how human experts make decisions in specific areas. Unlike regular computer programs that follow fixed instructions, expert systems use special knowledge bases and reasoning tools to solve complex problems, providing advice and solutions like a human expert.
+**Expert Systems (ES)** are one of the first and most important types of AI. They are designed to imitate how human experts make decisions in specific areas. Unlike regular computer programs that follow fixed instructions, expert systems use special knowledge bases and reasoning tools to solve complex problems, providing advice and solutions like a human expert.
 
 <figure><img src="../.gitbook/assets/es-introduction-min.png" alt=""><figcaption><p>Introduction to Expert Systems</p></figcaption></figure>
 
