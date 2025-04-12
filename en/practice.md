@@ -1,8 +1,17 @@
 # Practice
 
-* Project 1: Web-Controlled Robot with PHP + Arduino
-* Project 2: Autonomous Movement Logic in PHP
-* Project 3: Real-Time Object Tracking via PHP Backend
-* Project 4: Simulating a Robot in a Web-Based Environment
-* Tips for Further Exploration
-* Common Challenges and How to Overcome Them
+**Project: Build an Image Classification Web Tool**
+
+* Upload, analyze, and display result using PHP + AI API
+
+**Project: Build a Simple OCR Reader**
+
+* Scan text from images and show output live
+
+**Performance and Scaling Tips**
+
+* Async processing, caching, and optimizing image handling
+
+**Ethical Considerations**
+
+* Bias in image models, consent, and data protection

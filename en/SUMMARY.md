@@ -347,6 +347,18 @@
 
 * [Introduction](computer-vision/introduction.md)
 
+***
+
+* [Overview of CV](overview-of-cv/README.md)
+  * [History of CV](overview-of-cv/history-of-cv.md)
+  * [Common Use Cases](overview-of-cv/common-use-cases.md)
+* [CV Capabilities in PHP](cv-capabilities-in-php.md)
+* [Mathematics for CV](mathematics-for-cv.md)
+* [CV Techniques](cv-techniques.md)
+* [Integrating CV into Web](integrating-cv-into-web.md)
+* [Key Applications of CV](key-applications-of-cv.md)
+* [Practice](practice.md)
+
 ## Robotics
 
 * [Introduction](robotics/introduction.md)
@@ -368,7 +380,7 @@
 * [Building Robotics](building-robotics.md)
 * [Integration Robotics into Web](integration-robotics-into-web.md)
 * [Key Applications of Robotics](key-applications-of-robotics.md)
-* [Practice](practice.md)
+* [Practice](practice-1.md)
 
 ## Expert Systems
 
