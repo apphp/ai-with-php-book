@@ -4,7 +4,7 @@
 
 Before starting with machine learning, it's helpful to know a few basic concepts. Having a general understanding of what machine learning is and how it works will make it easier to understand the rest of the material.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ml-overview-min.png" alt="" width="563"><figcaption><p>ML Overview</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ml-overview-min.png" alt="" width="563"><figcaption><p>Overview of ML</p></figcaption></figure></div>
 
 ### What is Machine Learning?
 
