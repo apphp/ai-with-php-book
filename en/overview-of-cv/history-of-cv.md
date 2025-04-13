@@ -8,9 +8,9 @@ Computer vision is a field of AI that enables machines to interpret and understa
 
 The roots of computer vision trace back to the 1950s and 1960s, when the first digital images were processed by computers. In 1957, scientists successfully scanned a photograph into a computer, creating what is considered the first digital image. This breakthrough in digitizing images made it possible to apply mathematical operations to pictures, laying the groundwork for digital image processing. Around the same time, researchers began asking whether a computer could interpret visual patterns. An early example was the Perceptron, a simple neural network developed in the late 1950s that was trained to recognize basic shapes. While the Perceptron had limited capabilities and could only handle very simple patterns, it demonstrated that automated image recognition was conceptually possible.
 
-\>>>>>>>>>>>>>>>
-
 In the early 1960s, academic interest in machine vision grew. In 1963, Lawrence Roberts presented a thesis on deriving three-dimensional information about objects from two-dimensional photographs. He showed how a computer might infer the 3D shape of solid objects (like polyhedral blocks) from a single 2D image. His work inspired many researchers. In 1966, the MIT Summer Vision Project was launched, aiming to connect a camera to a computer and have it describe what it saw. This project revealed the immense complexity of vision tasks and set the foundation for many sub-problems researchers would address for years to come.
+
+<div align="left"><figure><img src="../.gitbook/assets/cv-lawrence-roberts-min.png" alt="" width="188"><figcaption><p>Lawrence Gilman Roberts</p></figcaption></figure></div>
 
 Early experiments in the 1960s also included detecting military targets and recognizing faces. Researchers manually identified facial landmarks on photographs and wrote programs to compare these features across images. Though limited, these projects showed that computers could be programmed to handle visual tasks, even if in basic forms.
 
@@ -23,6 +23,8 @@ Researchers also developed essential algorithms. For example, the Sobel and Cann
 During this time, motion and segmentation techniques improved. Optical flow methods were used to estimate pixel movement between video frames. Segmentation progressed from basic thresholding to region growing and energy-based methods like active contours ("snakes"). These improvements made it possible for systems to start identifying objects with greater reliability.
 
 In 1980, Kunihiko Fukushima developed the Neocognitron, a neural network inspired by the human visual cortex. Although limited by computational power, this model introduced concepts that would later be used in deep learning. By the end of the 1980s, vision systems could analyze edges, corners, motion, and regions, though still under constrained conditions.
+
+
 
 ### Rise of Machine Learning in Vision (1990s)
 
