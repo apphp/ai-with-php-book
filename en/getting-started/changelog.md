@@ -18,6 +18,8 @@
 **Computer Vision**
 
 * Added **Introduction** chapter
+* Introduced **Overview of CV**
+  * Added **History of CV** chapter
 
 **Robotics**
 

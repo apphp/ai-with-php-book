@@ -2,7 +2,7 @@
 
 ### Why Computer Vision Matters
 
-Computer vision matters because it gives machines the ability to perceive and understand the world visually—just like humans, but with scale, speed, and accuracy beyond human capacity.
+Computer vision matters because it gives machines the ability to perceive and understand the world visually — just like humans, but with scale, speed, and accuracy beyond human capacity.
 
 In today’s digital world, **visual data is everywhere**: photos, videos, scanned documents, surveillance footage, social media content, and more. Yet this data is useless unless it can be interpreted. That’s where computer vision comes in.
 
@@ -40,4 +40,4 @@ Computer vision has become a foundational element of many modern technologies. H
 The growth of cloud-based APIs and edge devices has made computer vision more accessible than ever — even for developers working with traditionally backend-focused languages like PHP.
 
 **In Summary**\
-PHP is not trying to compete with TensorFlow or PyTorch—but in real-world applications, it doesn’t have to. By understanding how computer vision works and how PHP can integrate into the AI workflow, you can build powerful, vision-enhanced applications using the tools you already know.
+PHP is not trying to compete with TensorFlow or PyTorch — but in real-world applications, it doesn’t have to. By understanding how computer vision works and how PHP can integrate into the AI workflow, you can build powerful, vision-enhanced applications using the tools you already know.
