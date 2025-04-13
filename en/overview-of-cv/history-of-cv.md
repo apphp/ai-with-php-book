@@ -22,9 +22,11 @@ Researchers also developed essential algorithms. For example, the Sobel and Cann
 
 During this time, motion and segmentation techniques improved. Optical flow methods were used to estimate pixel movement between video frames. Segmentation progressed from basic thresholding to region growing and energy-based methods like active contours ("snakes"). These improvements made it possible for systems to start identifying objects with greater reliability.
 
-In 1980, Kunihiko Fukushima developed the Neocognitron, a neural network inspired by the human visual cortex. Although limited by computational power, this model introduced concepts that would later be used in deep learning. By the end of the 1980s, vision systems could analyze edges, corners, motion, and regions, though still under constrained conditions.
+In 1980, Kunihiko Fukushima developed the Neocognitron, a neural network inspired by the human visual cortex.&#x20;
 
 
+
+Although limited by computational power, this model introduced concepts that would later be used in deep learning. By the end of the 1980s, vision systems could analyze edges, corners, motion, and regions, though still under constrained conditions.
 
 ### Rise of Machine Learning in Vision (1990s)
 
