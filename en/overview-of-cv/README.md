@@ -4,6 +4,8 @@
 
 Computer vision matters because it gives machines the ability to perceive and understand the world visually — just like humans, but with scale, speed, and accuracy beyond human capacity.
 
+<div align="left"><figure><img src="../.gitbook/assets/cv-overview-of-cv.png" alt="" width="563"><figcaption><p>Overview of CV</p></figcaption></figure></div>
+
 In today’s digital world, **visual data is everywhere**: photos, videos, scanned documents, surveillance footage, social media content, and more. Yet this data is useless unless it can be interpreted. That’s where computer vision comes in.
 
 #### Here's why it matters:
