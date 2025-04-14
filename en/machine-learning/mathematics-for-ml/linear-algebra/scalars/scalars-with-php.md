@@ -73,6 +73,8 @@ This class is a PHP implementation of scalar operations commonly used in linear 
 ```php
 namespace Apphp\MLKit\Math\Linear;
 
+use DivisionByZeroError;
+use InvalidArgumentException;
 use Random\RandomException;
 
 /**
@@ -87,50 +89,123 @@ use Random\RandomException;
  */
 class Scalar {
     /**
-     * Default precision for rounding operations
-     *
-     * @var int
+     * Default precision settings for different operation types
+     * @var array<string, int>
      */
-    private static int $precision = 10;
+    private static array $defaultPrecisions = [
+        'basic_arithmetic' => 5,    // Basic arithmetic operations
+        'exponential' => 8,         // Exponential and logarithmic operations
+        'trigonometric' => 8,       // Trigonometric functions
+        'vector' => 6,              // Vector operations
+    ];
 
     /**
-     * Set global precision for all operations
+     * Custom precision settings that override defaults
+     * @var array<string, int>
+     */
+    private static array $customPrecisions = [];
+
+    /**
+     * Global precision setting that overrides all others when set
+     * @var int|null
+     */
+    private static ?int $globalPrecision = null;
+
+    /**
+     * Sets the global precision for all operations
      *
      * @param int $precision Number of decimal places
      * @return void
+     * @throws InvalidArgumentException
      */
     public static function setPrecision(int $precision): void {
-        self::$precision = $precision;
+        if ($precision < 0) {
+            throw new InvalidArgumentException("Precision must be non-negative. Got: {$precision}");
+        }
+        self::$globalPrecision = $precision;
     }
 
     /**
-     * Get current global precision
+     * Sets precision for a specific operation type
      *
-     * @return int Current precision setting
+     * @param string $operation Operation type ('basic_arithmetic', 'trigonometric', 'exponential', 'vector')
+     * @param int $precision Number of decimal places
+     * @return void
+     * @throws InvalidArgumentException
      */
-    public static function getPrecision(): int {
-        return self::$precision;
+    public static function setOperationPrecision(string $operation, int $precision): void {
+        if ($precision < 0) {
+            throw new InvalidArgumentException("Precision must be non-negative. Got: {$precision}");
+        }
+        if (!isset(self::$defaultPrecisions[$operation])) {
+            throw new InvalidArgumentException("Invalid operation type: {$operation}");
+        }
+        self::$customPrecisions[$operation] = $precision;
     }
 
     /**
-     * Get optimal precision based on operation type
+     * Resets all precision settings to defaults
+     *
+     * @return void
+     */
+    public static function resetPrecision(): void {
+        self::$globalPrecision = null;
+        self::$customPrecisions = [];
+    }
+
+    /**
+     * Gets the current global precision setting
+     *
+     * @return int|null Current global precision or null if not set
+     */
+    public static function getPrecision(): ?int {
+        return self::$globalPrecision;
+    }
+
+    /**
+     * Gets the current precision for a specific operation type
+     *
+     * @param string $operation Operation type
+     * @return int Current precision for the operation
+     * @throws InvalidArgumentException
+     */
+    public static function getOperationPrecision(string $operation): int {
+        return self::getOptimalPrecision($operation);
+    }
+
+    /**
+     * Gets the optimal precision for a given operation
      *
      * @param string $operation Type of operation ('basic_arithmetic', 'trigonometric', 'exponential', 'vector')
      * @param int|null $precision Optional precision override
      * @return int Optimal precision for the operation
+     * @throws InvalidArgumentException
      */
     private static function getOptimalPrecision(string $operation, ?int $precision = null): int {
+        // Method-specific precision has highest priority
         if ($precision !== null) {
+            if ($precision < 0) {
+                throw new InvalidArgumentException("Precision must be non-negative. Got: {$precision}");
+            }
             return $precision;
         }
 
-        return match($operation) {
-            'trigonometric' => 7,       // Trigonometric operations typically need less precision
-            'basic_arithmetic' => 5,    // Basic arithmetic often needs less precision
-            'exponential' => 8,         // Exponential operations may need more precision
-            'vector' => 6,              // Vector operations balance precision and performance
-            default => self::$precision
-        };
+        // Custom operation-specific precision has second priority
+        if (isset(self::$customPrecisions[$operation])) {
+            return self::$customPrecisions[$operation];
+        }
+
+        // Global precision overrides defaults if set
+        if (self::$globalPrecision !== null) {
+            return self::$globalPrecision;
+        }
+
+        // Default precision for operation type
+        if (isset(self::$defaultPrecisions[$operation])) {
+            return self::$defaultPrecisions[$operation];
+        }
+
+        throw new InvalidArgumentException("Invalid operation type: {$operation}");
     }
 
     /**
@@ -179,10 +254,11 @@ class Scalar {
      * @param float|int $b Divisor
      * @param int|null $precision Number of decimal places to round to
      * @return float|string Result of division or 'undefined' if divisor is zero
+     * @throws DivisionByZeroError
      */
     public static function divide(float|int $a, float|int $b, ?int $precision = null): float|string {
-        if ($b == 0) {
-            return 'undefined';
+        if ($b === 0) {
+            throw new DivisionByZeroError('Division by zero is not allowed');
         }
         $precision = self::getOptimalPrecision('basic_arithmetic', $precision);
         return round($a / $b, $precision);
@@ -195,8 +271,12 @@ class Scalar {
      * @param float|int $b Divisor
      * @param int|null $precision Number of decimal places to round to
      * @return float Remainder of the division
+     * @throws DivisionByZeroError
      */
     public static function modulus(float|int $a, float|int $b, ?int $precision = null): float {
+        if ($b === 0) {
+            throw new DivisionByZeroError('Division by zero is not allowed');
+        }
         $precision = self::getOptimalPrecision('basic_arithmetic', $precision);
         return round(fmod($a, $b), $precision);
     }
@@ -224,7 +304,7 @@ class Scalar {
      */
     public static function multiplyVector(float|int $scalar, array $vector, ?int $precision = null): array {
         $precision = self::getOptimalPrecision('vector', $precision);
-        return array_map(fn($x) => round($x * $scalar, $precision), $vector);
+        return array_map(fn ($x) => round($x * $scalar, $precision), $vector);
     }
 
     /**
@@ -237,7 +317,7 @@ class Scalar {
      */
     public static function addToVector(float|int $scalar, array $vector, ?int $precision = null): array {
         $precision = self::getOptimalPrecision('vector', $precision);
-        return array_map(fn($x) => round($x + $scalar, $precision), $vector);
+        return array_map(fn ($x) => round($x + $scalar, $precision), $vector);
     }
 
     /**
@@ -298,10 +378,11 @@ class Scalar {
      * @param float|int $x Input number (must be positive)
      * @param int|null $precision Number of decimal places to round to
      * @return float|string Natural logarithm or 'undefined' if x <= 0
+     * @throws InvalidArgumentException
      */
     public static function logarithm(float|int $x, ?int $precision = null): float|string {
         if ($x <= 0) {
-            return 'undefined';
+            throw new InvalidArgumentException("Logarithm argument must be positive. Got: {$x}");
         }
         $precision = self::getOptimalPrecision('exponential', $precision);
         return round(log($x), $precision);
@@ -313,8 +394,12 @@ class Scalar {
      * @param float|int $x Input number
      * @param int|null $precision Number of decimal places to round to
      * @return float Square root of |x|
+     * @throws InvalidArgumentException
      */
     public static function squareRoot(float|int $x, ?int $precision = null): float {
+        if ($x < 0) {
+            throw new InvalidArgumentException("Square root argument must be non-negative. Got: {$x}");
+        }
         $precision = self::getOptimalPrecision('exponential', $precision);
         return round(sqrt(abs($x)), $precision);
     }
@@ -508,8 +593,12 @@ class Scalar {
      * @param int $a Number to shift
      * @param int $positions Number of positions to shift
      * @return int Result after left shift
+     * @throws InvalidArgumentException
      */
     public static function leftShift(int $a, int $positions = 1): int {
+        if ($positions < 0) {
+            throw new InvalidArgumentException("Shift amount must be non-negative. Got: {$positions}");
+        }
         return $a << $positions;
     }
 
@@ -519,12 +608,15 @@ class Scalar {
      * @param int $a Number to shift
      * @param int $positions Number of positions to shift
      * @return int Result after right shift
+     * @throws InvalidArgumentException
      */
     public static function rightShift(int $a, int $positions = 1): int {
+        if ($positions < 0) {
+            throw new InvalidArgumentException("Shift amount must be non-negative. Got: {$positions}");
+        }
         return $a >> $positions;
     }
 }
-
 ```
 
 </details>
@@ -534,61 +626,81 @@ class Scalar {
 ```php
 use Apphp\MLKit\Math\Linear\Scalar;
 
-$a = 5;
-$b = 2;
+// Example values
+$a = 10;
+$b = 3;
+$x = -4.2;
+$angle = M_PI / 4; // 45 degrees
 $vector = [1, 2, 3];
-$angle = M_PI / 4;
 
 // Arithmetic Operations
 echo "Arithmetic Operations:\n---------\n";
-echo "Addition: " . Scalar::add($a, $b) . "\n";
-echo "Subtraction: " . Scalar::subtract($a, $b) . "\n";
-echo "Multiplication: " . Scalar::multiply($a, $b) . "\n";
-echo "Division: " . Scalar::divide($a, $b) . "\n";
-echo "Modulus: " . Scalar::modulus($a, $b) . "\n";
-echo "Power: " . Scalar::power($a, $b) . "\n";
+echo "$a + $b = " . Scalar::add($a, $b) . "\n";
+echo "$a - $b = " . Scalar::subtract($a, $b) . "\n";
+echo "$a * $b = " . Scalar::multiply($a, $b) . "\n";
+echo "$a / $b = " . Scalar::divide($a, $b) . "\n";
+echo "$a % $b = " . Scalar::modulus($a, $b) . "\n";
+echo "$a ^ $b = " . Scalar::power($a, $b) . "\n";
 
 // Scalar-Vector Operations
 echo "\nScalar-Vector Operations:\n---------\n";
-echo "Multiply vector by scalar:\n";
+echo '2 * [1, 2, 3] = ';
 print_r(Scalar::multiplyVector(2, $vector));
-echo "\nAdd scalar to vector:\n";
-print_r(Scalar::addToVector(2, $vector));
+echo '5 + [1, 2, 3] = ';
+print_r(Scalar::addToVector(5, $vector));
 
-// Mathematical Functions
-echo "\nMathematical Functions:\n---------\n";
-$x = -3.7;
-echo "Absolute value of $x: " . Scalar::absolute($x) . "\n";
-echo "Ceiling of $x: " . Scalar::ceiling($x) . "\n";
-echo "Floor of $x: " . Scalar::floor($x) . "\n";
-echo "Round of $x: " . Scalar::round($x) . "\n";
-echo "Exponential of 2: " . Scalar::exponential(2) . "\n";
-echo "Natural logarithm of 2.718: " . Scalar::logarithm(2.718) . "\n";
-echo "Square root of |$x|: " . Scalar::squareRoot($x) . "\n";
+// Rounding Operations
+echo "\nRounding Operations:\n---------\n";
+echo "ceil($x) = " . Scalar::ceiling($x) . "\n";
+echo "floor($x) = " . Scalar::floor($x) . "\n";
+echo "round($x) = " . Scalar::round($x) . "\n";
+echo 'e^2 = ' . Scalar::exponential(2) . "\n";
+echo 'ln(2.718) = ' . Scalar::logarithm(2.718) . "\n";
+echo "√|$x| = ";
+try {
+    echo Scalar::squareRoot($x) . "\n";
+} catch (Exception $e) {
+    echo $e->getMessage() . "\n";
+}
 
 // Trigonometric Operations
 echo "\nTrigonometric Operations:\n---------\n";
-echo "Sine of π/4: " . Scalar::sine($angle) . "\n";
-echo "Cosine of π/4: " . Scalar::cosine($angle) . "\n";
-echo "Tangent of π/4: " . Scalar::tangent($angle) . "\n";
+echo 'sin(π/4) = ' . Scalar::sine($angle) . "\n";
+echo 'cos(π/4) = ' . Scalar::cosine($angle) . "\n";
+echo 'tan(π/4) = ' . Scalar::tangent($angle) . "\n";
 
 // Comparison Operations
 echo "\nComparison Operations:\n---------\n";
-echo "$a > $b: " . (Scalar::isGreaterThan($a, $b) ? 'true' : 'false') . "\n";
-echo "$a < $b: " . (Scalar::isLessThan($a, $b) ? 'true' : 'false') . "\n";
-echo "$a == $b: " . (Scalar::isEqual($a, $b) ? 'true' : 'false') . "\n";
-echo "$a != $b: " . (Scalar::isNotEqual($a, $b) ? 'true' : 'false') . "\n";
-echo "$a >= $b: " . (Scalar::isGreaterOrEqual($a, $b) ? 'true' : 'false') . "\n";
-echo "$a <= $b: " . (Scalar::isLessOrEqual($a, $b) ? 'true' : 'false') . "\n";
+echo "$a > $b = " . (Scalar::isGreaterThan($a, $b) ? 'true' : 'false') . "\n";
+echo "$a < $b = " . (Scalar::isLessThan($a, $b) ? 'true' : 'false') . "\n";
+echo "$a = $b = " . (Scalar::isEqual($a, $b) ? 'true' : 'false') . "\n";
+
+// Bitwise Operations
+echo "\nBitwise Operations:\n---------\n";
+echo "$a << 2 = " . Scalar::leftShift($a, 2) . "\n";
+echo "$a >> 1 = " . Scalar::rightShift($a, 1) . "\n";
+
+// Random Number Generation
+echo "\nRandom Number Generation:\n---------\n";
+echo 'Random (0-100): ' . Scalar::randomInt(0, 100) . "\n";
+echo 'MT Random (0-100): ' . Scalar::mtRandomInt(0, 100) . "\n";
+echo 'LCG Value: ' . Scalar::lcgValue() . "\n";
 
 // Examples with mixed types (integers and floats)
 echo "\nMixed Type Examples:\n---------\n";
-echo "Add integer and float: " . Scalar::add(5, 2.5) . "\n";
-echo "Multiply integer and float: " . Scalar::multiply(3, 0.5) . "\n";
-echo "Power with float exponent: " . Scalar::power(2, 1.5) . "\n";
-echo "Vector operations with float scalar:\n";
+echo '5 + 2.5 = ' . Scalar::add(5, 2.5) . "\n";
+echo '3 * 0.5 = ' . Scalar::multiply(3, 0.5) . "\n";
+echo '2 ^ 1.5 = ' . Scalar::power(2, 1.5) . "\n";
+echo '1.5 * [1, 2, 3] = ';
 print_r(Scalar::multiplyVector(1.5, $vector));
 
+// Precision Control Examples
+echo "\nPrecision Control Examples:\n---------\n";
+Scalar::setPrecision(3);
+echo '1/3 (precision=3): ' . Scalar::divide(1, 3) . "\n";
+Scalar::setOperationPrecision('basic_arithmetic', 4);
+echo '1/3 (arithmetic precision=4): ' . Scalar::divide(1, 3) . "\n";
+Scalar::resetPrecision();
 ```
 
 {% hint style="info" %}
