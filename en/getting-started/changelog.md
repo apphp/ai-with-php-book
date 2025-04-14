@@ -9,6 +9,7 @@
 * Expanded **Overview of AI** with a **Simulated Annealing Search**
 * Added new chapters to **Logic and Reasoning with**
   * **Propositional Logic, Predicate Logic, Implementation in PHP**
+* Added **Logic and Reasoning** introduction
 
 **Machine Learning**
 
