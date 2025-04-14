@@ -6,3 +6,5 @@ Logical representation is categorized into two primary types:
 
 * **Propositional Logic:** Uses simple declarative statements (true/false) for reasoning.
 * **Predicate Logic:** Extends propositional logic by incorporating variables, predicates, and quantifiers.
+
+Read in more in detail: [logic-and-reasoning](../../../../mathematics-for-ai/logic-and-reasoning/ "mention")
