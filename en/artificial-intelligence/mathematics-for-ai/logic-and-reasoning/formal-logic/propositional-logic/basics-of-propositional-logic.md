@@ -1,10 +1,6 @@
-# Propositional Logic
+# Basics of Propositional Logic
 
-Propositional logic, also known as **Boolean** logic, is a fundamental concept in AI that deals with statements that are either true or false. It provides a systematic way to represent knowledge and reason about facts using logical operators. AI systems utilize propositional logic in various applications, such as expert systems, automated reasoning, and problem-solving. This article explores the basics of propositional logic, its key components, and practical examples of its use in AI.
-
-### **Basics of Propositional Logic**
-
-#### **1. Propositions**
+### **Propositions**
 
 A proposition is a declarative statement that can be either true (T) or false (F), but not both. Examples include:
 
@@ -32,7 +28,7 @@ The syntax of propositional logic defines the allowable sentences for knowledge 
   * "It is raining today, and the street is wet."
   * "Ankit is a doctor, and his clinic is in Mumbai."
 
-#### **2. Logical Connectives**
+### **Logical Connectives**
 
 Logical connectives are used to connect two simpler propositions or represent a sentence logically. We can create compound propositions with the help of logical connectives. There are mainly five connectives, which are given as follows:
 
@@ -156,6 +152,6 @@ Some essential properties of propositional logic include:
 * **De Morgan’s Laws:** ¬(P ∧ Q) = ¬P ∨ ¬Q, ¬(P ∨ Q) = ¬P ∧ ¬Q
 * **Double Negation:** ¬(¬P) = P
 
-#### **Conclusion**
+### **Conclusion**
 
 Propositional logic provides a structured way to represent and process information in AI. Its ability to model real-world scenarios using logical statements makes it a valuable tool for reasoning, decision-making, and automation. While simple, propositional logic forms the foundation for more advanced logical systems used in AI and machine learning, enabling more sophisticated forms of knowledge representation and reasoning.

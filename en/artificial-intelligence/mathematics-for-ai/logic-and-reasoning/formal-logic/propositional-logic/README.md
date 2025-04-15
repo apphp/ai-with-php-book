@@ -1,0 +1,35 @@
+# Propositional Logic
+
+**Propositional logic**, also known as **Boolean logic or Zero-Order Logic (ZOL)**, is a fundamental concept in AI that deals with statements that are either **true** or **false**. It provides a structured and formal approach to representing knowledge and reasoning about facts using logical operators. AI systems leverage propositional logic in various domains such as **expert systems**, **automated reasoning**, **rule-based inference engines**, and **combinatorial problem-solving**.
+
+This section explores the basics of propositional logic, its key components, core characteristics, and its role in artificial intelligence systems.
+
+**Key Characteristics:**
+
+* **Atomic propositions** represent basic statements that can be true or false.
+* **Logical connectives** such as:
+  * **AND (∧)** – true if both operands are true
+  * **OR (∨)** – true if at least one operand is true
+  * **NOT (¬)** – negates the truth value
+  * **IMPLICATION (→)** – expresses conditional relationships
+  * **BICONDITIONAL (↔)** – true when both sides have the same truth value
+* **Truth tables** are used to evaluate logical expressions.
+* The logic is **declarative**: it describes _what_ is true, not _how_ to compute it.
+* It supports **inference rules**, such as Modus Ponens and Modus Tollens, to derive new truths from known facts.
+
+**Advantages:**
+
+* **Simplicity and clarity**: The binary nature (true/false) makes it easy to understand and implement.
+* **Determinism**: Every well-formed expression has a clear and unambiguous truth value.
+* **Efficiency**: Propositional logic can be evaluated quickly for small or moderate-sized problems.
+* **Foundation for more complex logics**: It serves as a building block for predicate logic and other advanced reasoning systems.
+* **Useful in automation**: Ideal for implementing rule-based systems and performing symbolic search.
+
+**Disadvantages:**
+
+* **Limited expressiveness**: It cannot handle relationships between objects, quantities, or variable structures — only entire statements.
+* **No support for quantifiers**: Cannot express generalizations like "all" or "some."
+* **Scalability issues**: As the number of propositions grows, the complexity of evaluating all possible combinations increases exponentially.
+* **Lack of granularity**: Propositional logic cannot represent nuanced or uncertain information (unlike fuzzy or probabilistic logic).
+
+Despite its limitations, propositional logic remains an essential tool in AI for representing and manipulating well-defined knowledge in domains where binary truth values are sufficient.
