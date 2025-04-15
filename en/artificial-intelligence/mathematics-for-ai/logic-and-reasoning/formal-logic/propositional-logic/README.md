@@ -1,6 +1,6 @@
 # Propositional Logic
 
-**Propositional logic**, also known as **Boolean logic or Zero-Order Logic (ZOL)**, is a fundamental concept in AI that deals with statements that are either **true** or **false**. It provides a structured and formal approach to representing knowledge and reasoning about facts using logical operators. AI systems leverage propositional logic in various domains such as **expert systems**, **automated reasoning**, **rule-based inference engines**, and **combinatorial problem-solving**.
+**Propositional logic**, also known as **Boolean logic or Zeroth-Order Logic (ZOL)**, is a fundamental concept in AI that deals with statements that are either **true** or **false**. It provides a structured and formal approach to representing knowledge and reasoning about facts using logical operators. AI systems leverage propositional logic in various domains such as **expert systems**, **automated reasoning**, **rule-based inference engines**, and **combinatorial problem-solving**.
 
 This section explores the basics of propositional logic, its key components, core characteristics, and its role in artificial intelligence systems.
 
@@ -37,3 +37,17 @@ This section explores the basics of propositional logic, its key components, cor
 * **Lack of granularity**: Propositional logic cannot represent nuanced or uncertain information (unlike fuzzy or probabilistic logic).
 
 Despite its limitations, propositional logic remains an essential tool in AI for representing and manipulating well-defined knowledge in domains where binary truth values are sufficient.
+
+### **Applications of** Propositional **Logic in AI**
+
+Propositional logic is widely used in AI for building rule-based systems, expert systems, and decision-making tools by expressing facts as true or false statements. It supports knowledge representation, planning, and automated reasoning using logical operators like AND, OR, and NOT. Though limited in expressiveness, it is fast and efficient for simple AI tasks, making it useful in areas like digital circuit design, basic natural language understanding, and robotics.
+
+Examples:
+
+* **Rule-Based Systems** – Defines simple if-then rules for decision-making (e.g., if raining → take umbrella).
+* **Expert Systems** – Uses logic rules to simulate decisions of human experts in fields like medicine or tech.
+* **Planning and Robotics** – Represents actions and goals to help AI plan steps toward a desired outcome.
+* **Knowledge Representation** – Stores information as true/false statements for easy access and reasoning.
+* **Automated Reasoning** – Derives new facts from known ones using logical inference (e.g., Modus Ponens).
+* **Digital Circuit Design** – Forms the basis of hardware logic in processors and AI-enabled devices.
+* **Basic NLP Tasks** – Helps understand sentence meaning through simple logic (e.g., “It is not hot” → ¬Hot).
