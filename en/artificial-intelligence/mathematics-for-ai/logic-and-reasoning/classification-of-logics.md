@@ -16,7 +16,7 @@ This is how logical reasoning works: using known facts to learn something new. A
 
 ### Basic Classifications of Logic
 
-On of the possible ways of classification of logics is following: Formal, Informal and Semi-Formal
+On of the possible ways of classification of logics is by structure: Formal, Informal and Semi-Formal
 
 * **Formal Logic**\
   Formal logic (also called symbolic or mathematical logic) follows strict rules and uses symbols to represent ideas. It is highly structured and easy to verify by a computer.
@@ -29,13 +29,13 @@ On of the possible ways of classification of logics is following: Formal, Inform
 
 Each type of logic supports a different kind of AI system:
 
-<table><thead><tr><th width="170.578125">Logic Type</th><th>Best For</th></tr></thead><tbody><tr><td><strong>Formal</strong></td><td>Systems needing certainty and provable rules (e.g. robots, theorem solvers)</td></tr><tr><td><strong>Informal</strong></td><td>Human-like understanding (e.g. chatbots, language models)</td></tr><tr><td><strong>Semi-formal</strong></td><td>Decisions under uncertainty (e.g. expert systems, legal AI)</td></tr></tbody></table>
+<table><thead><tr><th width="170.578125">Logic Type</th><th>Best For</th></tr></thead><tbody><tr><td><strong>Formal</strong></td><td>Systems needing certainty and provable rules (e.g. robots, theorem solvers)</td></tr><tr><td><strong>Informal</strong></td><td>Human-like understanding (e.g. chatbots, language models)</td></tr><tr><td><strong>Semi-Formal</strong></td><td>Decisions under uncertainty (e.g. expert systems, legal AI)</td></tr></tbody></table>
 
 ### Other Important Classifications of Logic
 
 Beyond the basic categories, logic can also be divided into specialized types used across AI, mathematics, and computer science.
 
-#### Deductive vs. Inductive Logic
+#### **By Reasoning Direction**
 
 * **Deductive Logic**: Goes from general to specific. If the rules are true, the conclusion must be true.\
   **Example:**
@@ -50,7 +50,7 @@ Beyond the basic categories, logic can also be divided into specialized types us
   * → All apples fall.
   * **Used in:** Machine learning, pattern recognition, AI training
 
-#### Monotonic vs. Non-Monotonic Logic
+#### By U**pdate Behavior**
 
 *   **Monotonic Logic**: Adding new facts doesn’t change earlier conclusions.\
     **Example:**
@@ -69,44 +69,44 @@ Beyond the basic categories, logic can also be divided into specialized types us
 
     **Used in:** Real-world AI systems with incomplete or changing information
 
-#### Modal Logic
+#### By Modality
 
-Adds terms like “must,” “might,” and “possibly.” Used for reasoning about obligations, beliefs, or future events.
+*   **Modal Logic:** Adds terms like “must,” “might,” and “possibly.” Used for reasoning about obligations, beliefs, or future events.\
+    **Operators:**
 
-**Operators:**
+    * □ = necessarily
+    * ◇ = possibly
 
-* □ = necessarily
-* ◇ = possibly
+    **Example:**
 
-**Example:**
+    * “The robot must stop if an obstacle is detected.” (□ Stop)
+    * “It might rain tomorrow.” (◇ Rain)
 
-* “The robot must stop if an obstacle is detected.” (□ Stop)
-* “It might rain tomorrow.” (◇ Rain)
+    **Used in:** AI planning, simulation, robotics, security modeling
+* **Non-modal logic:** Does not include such modal operators, focusing purely on truth values.
 
-**Used in:** AI planning, simulation, robotics, security modeling
+#### By Degree of Truth
 
-#### Fuzzy Logic
+*   **Fuzzy Logic**: Deals with degrees of truth. Not just true or false, but in between (e.g., 0.7 true).\
+    **Example:**
 
-Deals with degrees of truth. Not just true or false, but in between (e.g., 0.7 true).
+    * Temperature is not just “hot” or “cold,” but “70% hot”
+    * “The room is somewhat clean.”
 
-**Example:**
+    **Used in:** Smart devices, natural language processing, image analysis
+* **Non-fuzzy (Crisp) logic:** (aka Classical or Boolean Logic) Only allows absolute truth values — either 0 (false) or 1 (true).
 
-* Temperature is not just “hot” or “cold,” but “70% hot”
-* “The room is somewhat clean.”
+#### By Time Awareness
 
-**Used in:** Smart devices, natural language processing, image analysis
+*   **Temporal Logic**: Adds time-based reasoning (before, after, always, eventually).\
+    **Example:**
 
-#### Temporal Logic
+    * “The system should always log out users after 10 minutes.”
+    * “The alarm must ring before the door opens.”
 
-Adds time-based reasoning (before, after, always, eventually).
-
-**Example:**
-
-* “The system should always log out users after 10 minutes.”
-* “The alarm must ring before the door opens.”
-
-**Used in:** Scheduling, process verification, real-time systems
+    **Used in:** Scheduling, process verification, real-time systems
+* **Non-temporal Logic**: Assumes that truth values are **timeless** or static — they don’t change over time.
 
 ### Summary Table
 
-<table><thead><tr><th width="179.6328125">Logic Type</th><th>Description</th><th>Used In</th></tr></thead><tbody><tr><td><strong>Formal</strong></td><td>Rule-based, symbolic, provable</td><td>Programming, theorem proving</td></tr><tr><td><strong>Informal</strong></td><td>Natural, flexible, based on context</td><td>Chatbots, conversation, essays</td></tr><tr><td><strong>Semi-Formal</strong></td><td>Mixed, structured with some flexibility</td><td>Legal tech, expert systems</td></tr><tr><td><strong>Deductive</strong></td><td>General to specific reasoning</td><td>Rule engines, compilers</td></tr><tr><td><strong>Inductive</strong></td><td>From data to general patterns</td><td>Machine learning</td></tr><tr><td><strong>Monotonic</strong></td><td>Stable reasoning that doesn’t change</td><td>Classical logic systems</td></tr><tr><td><strong>Non-Monotonic</strong></td><td>Adaptive reasoning that updates with new info</td><td>Dynamic knowledge bases</td></tr><tr><td><strong>Modal</strong></td><td>Reasoning about possibility and necessity</td><td>Planning, simulation, robotics</td></tr><tr><td><strong>Fuzzy</strong></td><td>Reasoning with degrees of truth</td><td>Smart systems, fuzzy controllers</td></tr><tr><td><strong>Temporal</strong></td><td>Logic with time-based conditions</td><td>Scheduling, automation, real-time AI</td></tr></tbody></table>
+<table><thead><tr><th width="176.6171875">Logic Type</th><th>Description</th><th>Used In</th></tr></thead><tbody><tr><td><strong>Formal</strong></td><td>Rule-based, symbolic, provable</td><td>Programming, theorem proving</td></tr><tr><td><strong>Informal</strong></td><td>Natural, flexible, based on context</td><td>Chatbots, conversation, essays</td></tr><tr><td><strong>Semi-formal</strong></td><td>Mixed, structured with some flexibility</td><td>Legal tech, expert systems</td></tr><tr><td><strong>Deductive</strong></td><td>General to specific reasoning</td><td>Rule engines, compilers</td></tr><tr><td><strong>Inductive</strong></td><td>From data to general patterns</td><td>Machine learning</td></tr><tr><td><strong>Monotonic</strong></td><td>Stable reasoning that doesn’t change</td><td>Classical logic systems</td></tr><tr><td><strong>Non-monotonic</strong></td><td>Adaptive reasoning that updates with new info</td><td>Dynamic knowledge bases</td></tr><tr><td><strong>Modal</strong></td><td>Reasoning about possibility and necessity</td><td>Planning, simulation, robotics</td></tr><tr><td><strong>Fuzzy</strong></td><td>Reasoning with degrees of truth</td><td>Smart systems, fuzzy controllers</td></tr><tr><td><strong>Temporal</strong></td><td>Logic with time-based conditions</td><td>Scheduling, automation, real-time AI</td></tr></tbody></table>

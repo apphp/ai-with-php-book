@@ -1,4 +1,4 @@
-# Semi-Formal Logic
+# Semi-formal Logic
 
 **Semi-formal logic** combines elements of both formal and informal logic. It uses structured rules but allows for uncertainty and natural language interpretation.
 
@@ -16,7 +16,7 @@ This sentence has structure, but includes uncertainty (“high chance”).
 
 **Used in:** Legal AI, expert systems, decision support tools, ethical AI
 
-**Types of Semi-Formal Logic:**
+**Types of Semi-formal Logic:**
 
 * **Fuzzy logic**
 * **Probabilistic logic**

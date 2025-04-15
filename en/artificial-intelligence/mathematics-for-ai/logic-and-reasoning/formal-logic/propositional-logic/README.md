@@ -4,7 +4,11 @@
 
 This section explores the basics of propositional logic, its key components, core characteristics, and its role in artificial intelligence systems.
 
-**Key Characteristics:**
+### **Classification**
+
+<table><thead><tr><th width="249.6953125">Category</th><th>Value</th></tr></thead><tbody><tr><td><strong>By Structure</strong></td><td>Formal Logic - uses symbols to represent statements and logical relationships.</td></tr><tr><td><strong>By Reasoning Direction</strong></td><td>Deductive Logic - from general to specific, the truth of the conclusion is logically certain if the premises are true.</td></tr><tr><td><strong>By Update Behavior</strong></td><td>Usually Monotonic Logic - once something is proven true in propositional logic, adding more facts can’t make it false.</td></tr><tr><td><strong>By Modality</strong></td><td>Non-Modal – it does not include modal operators like “must” or “might”.</td></tr><tr><td><strong>By Degree of Truth</strong></td><td>Non-fuzzy (Crisp) Logic – truth values are binary (true/false).</td></tr><tr><td><strong>By Time Awareness</strong></td><td>Non-temporal – It does not reason over time.</td></tr></tbody></table>
+
+### **Key Characteristics:**
 
 * **Atomic propositions** represent basic statements that can be true or false.
 * **Logical connectives** such as:
@@ -17,7 +21,7 @@ This section explores the basics of propositional logic, its key components, cor
 * The logic is **declarative**: it describes _what_ is true, not _how_ to compute it.
 * It supports **inference rules**, such as Modus Ponens and Modus Tollens, to derive new truths from known facts.
 
-**Advantages:**
+### **Advantages:**
 
 * **Simplicity and clarity**: The binary nature (true/false) makes it easy to understand and implement.
 * **Determinism**: Every well-formed expression has a clear and unambiguous truth value.
@@ -25,7 +29,7 @@ This section explores the basics of propositional logic, its key components, cor
 * **Foundation for more complex logics**: It serves as a building block for predicate logic and other advanced reasoning systems.
 * **Useful in automation**: Ideal for implementing rule-based systems and performing symbolic search.
 
-**Disadvantages:**
+### **Disadvantages:**
 
 * **Limited expressiveness**: It cannot handle relationships between objects, quantities, or variable structures — only entire statements.
 * **No support for quantifiers**: Cannot express generalizations like "all" or "some."
