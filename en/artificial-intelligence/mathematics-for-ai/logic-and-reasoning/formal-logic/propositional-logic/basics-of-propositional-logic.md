@@ -11,7 +11,7 @@ A proposition is a declarative statement that can be either true (T) or false (F
 
 Propositional logic is based on symbolic variables representing logical statements, typically denoted as A, B, C, P, Q, R, etc.
 
-**Syntax of Propositional Logic**
+### **Syntax of Propositional Logic**
 
 The syntax of propositional logic defines the allowable sentences for knowledge representation. There are two types of propositions:
 

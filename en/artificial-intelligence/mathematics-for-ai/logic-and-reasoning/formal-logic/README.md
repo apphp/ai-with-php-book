@@ -4,7 +4,7 @@
 
 In AI, formal logic plays a foundational role in enabling systems to process structured knowledge, perform deductive reasoning, and verify the correctness of processes. Because of its exactness, formal logic allows systems to draw unambiguous conclusions and verify them through a repeatable, step-by-step method.
 
-**Key Features:**
+### **Key Features**
 
 * Employs a formal language composed of symbols and logical operators such as ∧ (AND), ∨ (OR), ¬ (NOT), and → (IF-THEN), etc.
 * Operates under strict syntactic rules that define well-formed formulas
@@ -12,7 +12,7 @@ In AI, formal logic plays a foundational role in enabling systems to process str
 * Supports computer automation for reasoning and validation tasks
 * Guarantees logical consistency and minimizes interpretive ambiguity
 
-**Common Applications:**
+### **Common Applications**
 
 * Formal verification of software and hardware systems
 * Design of logic-based programming languages and compilers
@@ -20,7 +20,7 @@ In AI, formal logic plays a foundational role in enabling systems to process str
 * Construction of inference engines for expert systems
 * Automated theorem proving and symbolic computation
 
-**Types of Formal Logic:**
+### **Types of Formal Logic**
 
 * **Propositional Logic**: Handles statements that are either true or false, using logical connectives to build compound statements.
 * **Predicate Logic**: Extends propositional logic by introducing quantifiers and predicates, enabling expression of relations between objects.
