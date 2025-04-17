@@ -12,7 +12,9 @@
 * Added **Logic and Reasoning**&#x20;
   * Introduction
   * **Classification of Logics**
-    * **Formal Logic,**&#x20;
+    * **Formal Logic**
+      * **Basics of Propositional Logic, Implementation in PHP**
+    * **Predicate Logic**
       * **Basics of Propositional Logic, Implementation in PHP**
 
 **Machine Learning**
