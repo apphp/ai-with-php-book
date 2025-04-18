@@ -16,6 +16,7 @@
       * **Basics of Propositional Logic, Implementation in PHP**
     * Added **Predicate Logic**
       * **Basics of Propositional Logic, Implementation in PHP**
+    * Added **Second-order and Higher-order Logic**
 
 **Machine Learning**
 
