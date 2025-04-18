@@ -2,6 +2,10 @@
 
 Predicate logic, also known as **First-Order Logic (FOL)**, is a fundamental tool in AI used to represent complex relationships between objects and their properties. Unlike propositional logic, which deals with simple true/false statements, predicate logic allows reasoning about objects, their attributes, and their interconnections. This capability makes it an essential component in knowledge representation, expert systems, and automated reasoning.
 
+Predicate logic called First-order logic - because it extends zero-order logic by including quantifiers such as “for all” (∀) and “there exists” (∃), allowing statements about elements within a domain and their relationships.
+
+Higher-order logic is an extension of first-order logic that allows quantification not only over individual elements of a domain but also over functions, predicates, and sets. In higher-order logic, you can have variables that represent predicates or functions, and you can quantify over these entities. This allows for more expressive statements about mathematical structures and relationships that are not possible in first-order logic.
+
 In this chapter, we will explore the basics of predicate logic, its syntax and semantics, the role of quantifiers, and its practical applications in AI.
 
 ### **Classification**

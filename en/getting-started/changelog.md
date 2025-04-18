@@ -10,11 +10,11 @@
 * Added new chapters to **Logic and Reasoning with**
   * **Propositional Logic, Predicate Logic, Implementation in PHP**
 * Added **Logic and Reasoning**&#x20;
-  * Introduction
+  * Added **Introduction** chapter
   * **Classification of Logics**
-    * **Formal Logic**
+    * Added **Formal Logic**
       * **Basics of Propositional Logic, Implementation in PHP**
-    * **Predicate Logic**
+    * Added **Predicate Logic**
       * **Basics of Propositional Logic, Implementation in PHP**
 
 **Machine Learning**

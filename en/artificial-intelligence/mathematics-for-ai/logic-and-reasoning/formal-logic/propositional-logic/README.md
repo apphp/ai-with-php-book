@@ -1,6 +1,8 @@
 # Propositional Logic
 
-**Propositional logic**, also known as **Boolean logic or Zeroth-Order Logic (ZOL)**, is a fundamental concept in AI that deals with statements that are either **true** or **false**. It provides a structured and formal approach to representing knowledge and reasoning about facts using logical operators. AI systems leverage propositional logic in various domains such as **expert systems**, **automated reasoning**, **rule-based inference engines**, and **combinatorial problem-solving**.
+Propositional logic, also known as **Boolean logic or Zeroth-Order Logic (ZOL)**, is a fundamental concept in AI that deals with statements that are either **true** or **false**. It provides a structured and formal approach to representing knowledge and reasoning about facts using logical operators. AI systems leverage propositional logic in various domains such as expert systems, automated reasoning, rule-based inference engines, and combinatorial problem-solving.
+
+Propositional logic called Zero-order logic - because it deals with simple, indivisible statements or propositions that can either be true or false. It does not involve quantifiers or internal structure within the statements.
 
 This section explores the basics of propositional logic, its key components, core characteristics, and its role in artificial intelligence systems.
 

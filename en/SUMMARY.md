@@ -108,6 +108,7 @@
       * [Predicate Logic](artificial-intelligence/mathematics-for-ai/logic-and-reasoning/formal-logic/predicate-logic/README.md)
         * [Basics of Predicate Logic](artificial-intelligence/mathematics-for-ai/logic-and-reasoning/formal-logic/predicate-logic/basics-of-predicate-logic.md)
         * [Implementation in PHP](artificial-intelligence/mathematics-for-ai/logic-and-reasoning/formal-logic/predicate-logic/implementation-in-php.md)
+      * [Second-order and Higher-order Logic](artificial-intelligence/mathematics-for-ai/logic-and-reasoning/formal-logic/second-order-and-higher-order-logic.md)
       * [Modal Logic](artificial-intelligence/mathematics-for-ai/logic-and-reasoning/formal-logic/modal-logic.md)
       * [Temporal Logic](artificial-intelligence/mathematics-for-ai/logic-and-reasoning/formal-logic/temporal-logic.md)
     * [Informal Logic](artificial-intelligence/mathematics-for-ai/logic-and-reasoning/informal-logic.md)
