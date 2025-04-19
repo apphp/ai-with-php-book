@@ -20,6 +20,7 @@
 
 **Machine Learning**
 
+* Expanded **Overview of ML** with difference beetwen traditional programming and ML
 * Added new chapter **Machine Learning Life Cycle** in **Key Terms and Principles**
 * Updated **Scalars with PHP** chapter
 
