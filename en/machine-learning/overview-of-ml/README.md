@@ -12,6 +12,18 @@ In our daily lives, we learn from experience. For example, if we touch something
 
 Machine learning is a way to teach computers to learn from data and make decisions or predictions without being told what to do step by step. Instead of programming every action, we give the computer examples, and it figures out patterns on its own. After learning these patterns, the computer can then use them to make decisions with new information.
 
+### The Difference Between Traditional Programming and Machine Learning
+
+In Traditional Programming, we provide rules (logic written by programmers) and data (input examples), and the system produces answers (outputs). For example, if we write a program to calculate tax, we hardcode the tax rules and feed in income data — the program then outputs the tax amount.
+
+In Machine Learning, the approach is reversed. We feed the system with data and answers (also called labeled examples), and the system learns the rules (a model). For instance, if we give a machine learning algorithm thousands of loan applications (data) along with whether they were approved or not (answers), it can learn the rules to predict loan approval.
+
+This shift in paradigm is what allows machine learning to uncover patterns and make predictions without explicitly being programmed for every possible situation.
+
+
+
+
+
 ### Why Do We Need Machine Learning?
 
 Machine learning is important because it helps us solve problems that are too complicated to handle manually. Humans can only process a limited amount of data, but machines can handle large amounts quickly and easily. This is where machine learning makes our life easier - it allows computers to process and learn from big data.

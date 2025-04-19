@@ -4,6 +4,12 @@
 
 <div align="left"><figure><img src="../../.gitbook/assets/ml-key-principles-min.png" alt="" width="375"><figcaption><p>Key Terms and Principles</p></figcaption></figure></div>
 
+n **Traditional Programming**, we provide **rules** (logic written by programmers) and **data** (input examples), and the system produces **answers** (outputs). For example, if we write a program to calculate tax, we hardcode the tax rules and feed in income data — the program then outputs the tax amount.
+
+In **Machine Learning**, the approach is reversed. We feed the system with **data** and **answers** (also called labeled examples), and the system learns the **rules** (a model). For instance, if we give a machine learning algorithm thousands of loan applications (data) along with whether they were approved or not (answers), it can learn the rules to predict loan approval.
+
+This shift in paradigm is what allows machine learning to uncover patterns and make predictions without explicitly being programmed for every possible situation.
+
 #### **Data-Driven Learning**
 
 Machine learning relies on data. The more data we have, the better the model can learn. Data helps the model understand patterns and make predictions.
