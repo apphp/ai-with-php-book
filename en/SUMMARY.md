@@ -307,6 +307,7 @@
 * [Mathematics for NN](neural-networks/mathematics-for-nn.md)
 * [Types of NN](neural-networks/types-of-nn/README.md)
   * [Classification of NN Types](neural-networks/types-of-nn/types-of-nn-architectures.md)
+  * [Linear vs Non-Linear Problems in NN](neural-networks/types-of-nn/linear-vs-non-linear-problems-in-nn.md)
   * [Basic NN](neural-networks/types-of-nn/basic-nn/README.md)
     * [Simple Perceptron](neural-networks/types-of-nn/basic-nn/simple-perceptron.md)
     * [Implementation in PHP](neural-networks/types-of-nn/basic-nn/implementation-in-php/README.md)
