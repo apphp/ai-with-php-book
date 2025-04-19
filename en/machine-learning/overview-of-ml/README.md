@@ -20,7 +20,7 @@ In Machine Learning, the approach is reversed. We feed the system with data and 
 
 This shift in paradigm is what allows machine learning to uncover patterns and make predictions without explicitly being programmed for every possible situation.
 
-<div align="left"><figure><img src="../../.gitbook/assets/ml-classic-vs-ml-programming-min (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ml-classic-vs-ml-programming-min.png" alt="" width="414"><figcaption></figcaption></figure></div>
 
 ### Why Do We Need Machine Learning?
 
