@@ -349,73 +349,381 @@ This class is a PHP implementation of vector operations commonly used in linear 
 <summary>Example of Class Vector</summary>
 
 ```php
-class Vector {
-    private $components;
+namespace Apphp\MLKit\Math\Linear;
 
+use Exception;
+
+/**
+ * Vector class for mathematical operations in linear algebra.
+ *
+ * This class provides implementation for basic vector operations commonly used
+ * in linear algebra and machine learning algorithms.
+ */
+class Vector {
+    /** @var array Array of vector components */
+    private array $components;
+
+    /**
+     * Constructs a new Vector instance.
+     *
+     * @param array $components The components of the vector
+     */
     public function __construct(array $components) {
         $this->components = $components;
     }
 
+    /**
+     * Adds another vector to this vector.
+     *
+     * @param Vector $other The vector to add
+     * @return Vector A new vector representing the sum
+     * @throws Exception If vectors have different dimensions
+     * @psalm-suppress MixedOperand
+     * @psalm-suppress MissingClosureReturnType
+     */
     public function add(Vector $other): Vector {
-        if (count($this->components) !== count($other->components)) {
-            throw new Exception("Vectors must have the same dimension for addition.");
-        }
-
-        $result = array_map(function($a, $b) {
+        $this->assertSameDimension($other, 'addition');
+        $result = array_map(function ($a, $b) {
             return $a + $b;
         }, $this->components, $other->components);
 
         return new Vector($result);
     }
 
+    /**
+     * Subtracts another vector from this vector.
+     *
+     * @param Vector $other The vector to subtract
+     * @return Vector A new vector representing the difference
+     * @throws Exception If vectors have different dimensions
+     * @psalm-suppress MixedOperand
+     * @psalm-suppress MissingClosureReturnType
+     */
     public function subtract(Vector $other): Vector {
-        if (count($this->components) !== count($other->components)) {
-            throw new Exception("Vectors must have the same dimension for subtraction.");
-        }
-
-        $result = array_map(function($a, $b) {
+        $this->assertSameDimension($other, 'subtraction');
+        $result = array_map(function ($a, $b) {
             return $a - $b;
         }, $this->components, $other->components);
 
         return new Vector($result);
     }
 
+    /**
+     * Multiplies the vector by a scalar value.
+     *
+     * @param float|int $scalar The scalar value to multiply by
+     * @return Vector A new vector representing the scalar multiplication
+     * @psalm-suppress MissingClosureReturnType
+     * @psalm-suppress MixedOperand
+     */
     public function scalarMultiply($scalar): Vector {
-        $result = array_map(function($a) use ($scalar) {
+        $result = array_map(function ($a) use ($scalar) {
             return $a * $scalar;
         }, $this->components);
 
         return new Vector($result);
     }
 
+    /**
+     * Calculates the dot product with another vector.
+     *
+     * @param Vector $other The vector to calculate dot product with
+     * @return float The resulting dot product
+     * @throws Exception If vectors have different dimensions
+     * @psalm-suppress MissingClosureReturnType
+     * @psalm-suppress MixedOperand
+     */
     public function dotProduct(Vector $other): float {
-        if (count($this->components) !== count($other->components)) {
-            throw new Exception("Vectors must have the same dimension for dot product.");
-        }
-
-        return array_sum(array_map(function($a, $b) {
+        $this->assertSameDimension($other, 'dot product');
+        return array_sum(array_map(function ($a, $b) {
             return $a * $b;
         }, $this->components, $other->components));
     }
 
+    /**
+     * Calculates the cross product with another vector.
+     *
+     * @param Vector $other The vector to calculate cross product with
+     * @return Vector A new vector representing the cross product
+     * @throws Exception If either vector is not 3-dimensional
+     */
     public function crossProduct(Vector $other): Vector {
         if (count($this->components) !== 3 || count($other->components) !== 3) {
-            throw new Exception("Cross product is only defined for 3D vectors.");
+            throw new Exception('Cross product is only defined for 3D vectors.');
         }
 
+        /** @psalm-suppress MixedOperand */
         $result = [
             $this->components[1] * $other->components[2] - $this->components[2] * $other->components[1],
             $this->components[2] * $other->components[0] - $this->components[0] * $other->components[2],
-            $this->components[0] * $other->components[1] - $this->components[1] * $other->components[0]
+            $this->components[0] * $other->components[1] - $this->components[1] * $other->components[0],
         ];
 
         return new Vector($result);
     }
 
+    /**
+     * Returns a string representation of the vector.
+     *
+     * @return string The vector in format [x, y, z]
+     */
     public function __toString(): string {
+        /** @psalm-suppress MixedArgumentTypeCoercion */
         return '[' . implode(', ', $this->components) . ']';
     }
+
+    /**
+     * Calculates the magnitude (length) of the vector.
+     *
+     * @return float The magnitude of the vector
+     */
+    public function magnitude(): float {
+        return sqrt($this->dotProduct($this));
+    }
+
+    /**
+     * Normalizes the vector (creates a unit vector).
+     *
+     * @return Vector A new normalized vector
+     * @throws Exception If the vector has zero magnitude
+     */
+    public function normalize(): Vector {
+        $magnitude = $this->magnitude();
+        if ($magnitude == 0) {
+            throw new Exception('Cannot normalize a zero vector.');
+        }
+        return $this->scalarMultiply(1 / $magnitude);
+    }
+
+    /**
+     * Gets the dimension (number of components) of the vector.
+     *
+     * @return int The dimension of the vector
+     */
+    public function getDimension(): int {
+        return count($this->components);
+    }
+
+    /**
+     * Gets the components of the vector.
+     *
+     * @return array The vector components
+     */
+    public function getComponents(): array {
+        return $this->components;
+    }
+
+    /**
+     * Gets a specific component of the vector.
+     *
+     * @param int $index The index of the component (0-based)
+     * @return float|int The component value
+     * @throws Exception If the index is out of bounds
+     * @psalm-suppress MixedInferredReturnType
+     * @psalm-suppress MixedReturnStatement
+     */
+    public function getComponent(int $index): float|int {
+        if ($index < 0 || $index >= count($this->components)) {
+            throw new Exception('Index out of bounds.');
+        }
+        return $this->components[$index];
+    }
+
+    /**
+     * Calculates the angle between this vector and another vector in radians.
+     *
+     * @param Vector $other The other vector
+     * @return float The angle in radians
+     * @throws Exception If either vector has zero magnitude or dimensions don't match
+     */
+    public function angleBetween(Vector $other): float {
+        $this->assertSameDimension($other, 'angle calculation');
+        $mag1 = $this->magnitude();
+        $mag2 = $other->magnitude();
+        if ($mag1 == 0 || $mag2 == 0) {
+            throw new Exception('Cannot calculate angle with zero vector.');
+        }
+        return acos($this->dotProduct($other) / ($mag1 * $mag2));
+    }
+
+    /**
+     * Checks if two vectors are parallel.
+     *
+     * @param Vector $other The other vector to check
+     * @return bool True if vectors are parallel, false otherwise
+     * @psalm-suppress MixedArgument
+     * @psalm-suppress MixedOperand
+     */
+    public function isParallelTo(Vector $other): bool {
+        if ($this->getDimension() !== $other->getDimension()) {
+            return false;
+        }
+
+        // If either vector is zero, they are not parallel
+        if ($this->magnitude() == 0 || $other->magnitude() == 0) {
+            return false;
+        }
+
+        // Get the first non-zero component of this vector
+        $thisComponents = $this->getComponents();
+        $otherComponents = $other->getComponents();
+        $ratio = null;
+
+        for ($i = 0; $i < $this->getDimension(); $i++) {
+            if ($thisComponents[$i] != 0 && $otherComponents[$i] != 0) {
+                /** @psalm-suppress MixedAssignment */
+                $ratio = $thisComponents[$i] / $otherComponents[$i];
+                break;
+            }
+        }
+
+        if ($ratio === null) {
+            return false;
+        }
+
+        // Check if all components are proportional by this ratio
+        for ($i = 0; $i < $this->getDimension(); $i++) {
+            if ($thisComponents[$i] == 0 && $otherComponents[$i] == 0) {
+                continue;
+            }
+            if ($thisComponents[$i] == 0 || $otherComponents[$i] == 0) {
+                return false;
+            }
+            if (abs($thisComponents[$i] / $otherComponents[$i] - $ratio) > PHP_FLOAT_EPSILON) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * Creates a zero vector of specified dimension.
+     *
+     * @param int $dimension The dimension of the vector
+     * @return Vector A new zero vector
+     * @throws Exception If dimension is less than 1
+     */
+    public static function zero(int $dimension): Vector {
+        if ($dimension < 1) {
+            throw new Exception('Vector dimension must be positive.');
+        }
+        return new Vector(array_fill(0, $dimension, 0));
+    }
+
+    /**
+     * Projects this vector onto another vector.
+     *
+     * @param Vector $other The vector to project onto
+     * @return Vector The projection vector
+     * @throws Exception If the other vector is zero or dimensions don't match
+     */
+    public function projectOnto(Vector $other): Vector {
+        $otherMagnitudeSquared = $other->dotProduct($other);
+        if ($otherMagnitudeSquared == 0) {
+            throw new Exception('Cannot project onto a zero vector.');
+        }
+        $scalar = $this->dotProduct($other) / $otherMagnitudeSquared;
+        return $other->scalarMultiply($scalar);
+    }
+
+    /**
+     * Computes the Hadamard (element-wise) product with another vector.
+     *
+     * @param Vector $other The other vector
+     * @return Vector The Hadamard product vector
+     * @throws Exception If vectors have different dimensions
+     */
+    public function hadamardProduct(Vector $other): Vector {
+        $this->assertSameDimension($other, 'Hadamard product');
+        $result = array_map(
+        /**
+         * @param float|int $a
+         * @param float|int $b
+         * @return float
+         */
+            function ($a, $b): float {
+                return (float)$a * (float)$b;
+            },
+            $this->components,
+            $other->components
+        );
+        return new Vector($result);
+    }
+
+    /**
+     * Calculates the Euclidean distance to another vector.
+     *
+     * @param Vector $other The other vector
+     * @return float The Euclidean distance
+     * @throws Exception If vectors have different dimensions
+     */
+    public function euclideanDistance(Vector $other): float {
+        $this->assertSameDimension($other, 'distance calculation');
+        $sum = 0;
+        /** @psalm-suppress MixedAssignment */
+        foreach ($this->components as $i => $value) {
+            $diff = (float)$value - (float)$other->components[$i];
+            $sum += $diff * $diff;
+        }
+        return sqrt($sum);
+    }
+
+    /**
+     * Calculates the Manhattan (L1) distance to another vector.
+     *
+     * @param Vector $other The other vector
+     * @return float The Manhattan distance
+     * @throws Exception If vectors have different dimensions
+     */
+    public function manhattanDistance(Vector $other): float {
+        $this->assertSameDimension($other, 'distance calculation');
+        $sum = 0;
+        foreach ($this->components as $i => $value) {
+            $sum += abs((float)$value - (float)$other->components[$i]);
+        }
+        return $sum;
+    }
+
+    /**
+     * Calculates the angle between this vector and another vector in degrees.
+     *
+     * @param Vector $other The other vector
+     * @return float The angle in degrees
+     * @throws Exception If either vector has zero magnitude or dimensions don't match
+     */
+    public function angleBetweenDegrees(Vector $other): float {
+        return rad2deg($this->angleBetween($other));
+    }
+
+    /**
+     * Checks if this vector is orthogonal (perpendicular) to another vector.
+     *
+     * @param Vector $other The other vector
+     * @param float $epsilon Tolerance for floating point comparison
+     * @return bool True if orthogonal, false otherwise
+     * @throws Exception If vectors have different dimensions
+     */
+    public function isOrthogonalTo(Vector $other, float $epsilon = 1e-9): bool {
+        $this->assertSameDimension($other, 'orthogonality check');
+        return abs($this->dotProduct($other)) < $epsilon;
+    }
+
+    /**
+     * Ensures that this vector and the other vector have the same dimension.
+     *
+     * @param Vector $other The other vector
+     * @param string $context The context for the exception message
+     * @return void
+     * @throws Exception If dimensions do not match
+     */
+    private function assertSameDimension(Vector $other, string $context = 'operation'): void {
+        if ($this->getDimension() !== $other->getDimension()) {
+            throw new Exception("Vectors must have the same dimension for $context.");
+        }
+    }
 }
+
 ```
 
 </details>
@@ -423,25 +731,29 @@ class Vector {
 **Example of Use:**
 
 ```php
+use Apphp\MLKit\Math\Linear\Vector;
+
+// Define vectors
 $v1 = new Vector([2, 3]);
 $v2 = new Vector([1, -1]);
+$v3 = new Vector([2, -1]);
+$v4 = new Vector([1, 2]);
+$v5 = new Vector([3, 4]);
 
-// Addition and Subtraction (from previous example)
+// Addition (from previous example)
 $sum = $v1->add($v2);
 echo "Addition: $v1 + $v2 = $sum\n";
 
+// Subtraction (from previous example)
 $difference = $v1->subtract($v2);
 echo "Subtraction: $v1 - $v2 = $difference\n";
 
 // Scalar Multiplication
 $scalar = 3;
-$v3 = new Vector([2, -1]);
 $scalarProduct = $v3->scalarMultiply($scalar);
 echo "Scalar Multiplication: $scalar * $v3 = $scalarProduct\n";
 
 // Dot Product
-$v4 = new Vector([1, 2]);
-$v5 = new Vector([3, 4]);
 $dotProduct = $v4->dotProduct($v5);
 echo "Dot Product: $v4 · $v5 = $dotProduct\n";
 
@@ -450,6 +762,71 @@ $v6 = new Vector([1, 0, 0]);
 $v7 = new Vector([0, 1, 0]);
 $crossProduct = $v6->crossProduct($v7);
 echo "Cross Product: $v6 × $v7 = $crossProduct\n";
+
+// Magnitude (length) of a vector
+$magnitude = $v5->magnitude();
+echo "Magnitude of $v5 = $magnitude\n";
+
+// Normalize a vector (create unit vector)
+$normalized = $v5->normalize();
+echo "Normalized $v5 = $normalized\n";
+echo 'Magnitude of normalized vector = ' . $normalized->magnitude() . "\n";
+
+// Get vector dimension
+$dimension = $v5->getDimension();
+echo "Dimension of $v5 = $dimension\n";
+
+// Get vector components
+$components = $v5->getComponents();
+echo "Components of $v5 = [" . implode(', ', $components) . "]\n";
+
+// Get specific component (0-based index)
+$component = $v5->getComponent(1); // Get second component
+echo "Second component of $v5 = $component\n";
+
+// Calculate angle between vectors (in radians)
+$angle = $v4->angleBetween($v5);
+echo "Angle between $v4 and $v5 = " . number_format($angle, 4) . " radians\n";
+echo 'Angle in degrees = ' . number_format(rad2deg($angle), 2) . "°\n";
+
+// Check if vectors are parallel
+$v8 = new Vector([2, 4]);
+$v9 = new Vector([1, 2]); // Parallel to v8 (same direction)
+$isParallel = $v8->isParallelTo($v9);
+echo "Are $v8 and $v9 parallel? " . ($isParallel ? 'Yes' : 'No') . "\n";
+
+// Create a zero vector
+$zeroVector = Vector::zero(3);
+echo "3D zero vector = $zeroVector\n";
+
+// Vector projection
+$v10 = new Vector([3, 2]);
+$v11 = new Vector([4, 0]);
+$projection = $v10->projectOnto($v11);
+echo "Projection of $v10 onto $v11 = $projection\n";
+
+// Hadamard Product (element-wise multiplication)
+$hadamard = $v4->hadamardProduct($v5);
+echo "Hadamard Product: $v4 ∘ $v5 = $hadamard\n";
+
+// Euclidean Distance
+$euclidean = $v4->euclideanDistance($v5);
+echo "Euclidean Distance between $v4 and $v5 = $euclidean\n";
+
+// Manhattan Distance
+$manhattan = $v4->manhattanDistance($v5);
+echo "Manhattan Distance between $v4 and $v5 = $manhattan\n";
+
+// Angle in Degrees
+$angleDeg = $v4->angleBetweenDegrees($v5);
+echo "Angle between $v4 and $v5 = " . number_format($angleDeg, 2) . "°\n";
+
+// Orthogonality check
+$v12 = new Vector([1, 0]);
+$v13 = new Vector([0, 5]);
+$isOrthogonal = $v12->isOrthogonalTo($v13);
+echo "Are $v12 and $v13 orthogonal? " . ($isOrthogonal ? 'Yes' : 'No') . "\n";
+
 ```
 
 {% hint style="info" %}
