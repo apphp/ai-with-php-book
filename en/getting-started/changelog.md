@@ -22,8 +22,10 @@
 
 * Expanded **Overview of ML** with difference beetwen traditional programming and ML
 * Added new chapter **Machine Learning Life Cycle** in **Key Terms and Principles**
-* Updated **Scalars with PHP** chapter
-* Updated **Vectors with PHP** chapter
+* Mathematics for ML
+  * Updated **Scalars with PHP** chapter
+  * Updated **Vectors with PHP** chapter
+  * Updated **Matrices with PHP** chapter
 
 **Computer Vision**
 

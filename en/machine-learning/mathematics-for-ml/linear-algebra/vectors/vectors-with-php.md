@@ -826,7 +826,6 @@ $v12 = new Vector([1, 0]);
 $v13 = new Vector([0, 5]);
 $isOrthogonal = $v12->isOrthogonalTo($v13);
 echo "Are $v12 and $v13 orthogonal? " . ($isOrthogonal ? 'Yes' : 'No') . "\n";
-
 ```
 
 {% hint style="info" %}

@@ -1139,17 +1139,53 @@ This class is a PHP implementation of matrix operations commonly used in linear 
 <summary>Example of Class Matrix</summary>
 
 ```php
-class Matrix {
-    private $matrix;
-    private $rows;
-    private $cols;
+namespace Apphp\MLKit\Math\Linear;
 
+use Exception;
+
+/**
+ * Class Matrix
+ *
+ * Provides basic matrix operations for linear algebra: addition, subtraction, multiplication, determinant, inverse, etc.
+ *
+ * @package Apphp\MLKit\Math\Linear
+ */
+class Matrix {
+    /**
+     * @var array<int, array<int, float>> The matrix data.
+     */
+    private array $matrix;
+
+    /**
+     * @var int Number of rows.
+     */
+    private int $rows;
+
+    /**
+     * @var int Number of columns.
+     */
+    private int $cols;
+
+    /**
+     * Matrix constructor.
+     *
+     * @param array<int, array<int, float>> $matrix
+     * @throws Exception
+     */
     public function __construct(array $matrix) {
+        if (empty($matrix) || !is_array($matrix[0])) {
+            throw new Exception('Matrix must be a non-empty 2D array.');
+        }
         $this->matrix = $matrix;
         $this->rows = count($matrix);
         $this->cols = count($matrix[0]);
     }
-    
+
+    /**
+     * Get the rank of the matrix.
+     *
+     * @return int
+     */
     public function rank(): int {
         $epsilon = 1e-10; // Threshold for considering a value as zero
         $ref = $this->reducedEchelonForm();
@@ -1162,13 +1198,20 @@ class Matrix {
                 }
             }
         }
-        
+
         return $rank;
     }
 
+    /**
+     * Add another matrix to this matrix.
+     *
+     * @param Matrix $other
+     * @return Matrix
+     * @throws Exception
+     */
     public function add(Matrix $other): Matrix {
         if ($this->rows !== $other->rows || $this->cols !== $other->cols) {
-            throw new Exception("Matrices must have the same dimensions for addition.");
+            throw new Exception('Matrices must have the same dimensions for addition.');
         }
 
         $result = [];
@@ -1181,9 +1224,16 @@ class Matrix {
         return new Matrix($result);
     }
 
+    /**
+     * Subtract another matrix from this matrix.
+     *
+     * @param Matrix $other
+     * @return Matrix
+     * @throws Exception
+     */
     public function subtract(Matrix $other): Matrix {
         if ($this->rows !== $other->rows || $this->cols !== $other->cols) {
-            throw new Exception("Matrices must have the same dimensions for subtraction.");
+            throw new Exception('Matrices must have the same dimensions for subtraction.');
         }
 
         $result = [];
@@ -1196,7 +1246,13 @@ class Matrix {
         return new Matrix($result);
     }
 
-    public function scalarMultiply($scalar): Matrix {
+    /**
+     * Multiply this matrix by a scalar.
+     *
+     * @param float|int $scalar
+     * @return Matrix
+     */
+    public function scalarMultiply(float|int $scalar): Matrix {
         $result = [];
         for ($i = 0; $i < $this->rows; $i++) {
             for ($j = 0; $j < $this->cols; $j++) {
@@ -1207,9 +1263,16 @@ class Matrix {
         return new Matrix($result);
     }
 
+    /**
+     * Multiply this matrix by another matrix.
+     *
+     * @param Matrix $other
+     * @return Matrix
+     * @throws Exception
+     */
     public function multiply(Matrix $other): Matrix {
         if ($this->cols !== $other->rows) {
-            throw new Exception("Number of columns in the first matrix must equal the number of rows in the second matrix.");
+            throw new Exception('Number of columns in the first matrix must equal the number of rows in the second matrix.');
         }
 
         $result = [];
@@ -1225,6 +1288,11 @@ class Matrix {
         return new Matrix($result);
     }
 
+    /**
+     * Transpose the matrix.
+     *
+     * @return Matrix
+     */
     public function transpose(): Matrix {
         $result = [];
         for ($i = 0; $i < $this->cols; $i++) {
@@ -1232,13 +1300,18 @@ class Matrix {
                 $result[$i][$j] = $this->matrix[$j][$i];
             }
         }
-
         return new Matrix($result);
     }
 
+    /**
+     * Compute the determinant of the matrix.
+     *
+     * @return float
+     * @throws Exception
+     */
     public function determinant(): float {
         if ($this->rows !== $this->cols) {
-            throw new Exception("Determinant can only be calculated for square matrices.");
+            throw new Exception('Determinant can only be calculated for square matrices.');
         }
 
         if ($this->rows === 1) {
@@ -1257,14 +1330,25 @@ class Matrix {
         return $det;
     }
 
-    private function cofactor($row, $col): Matrix {
+    /**
+     * Get the cofactor matrix after removing a row and column.
+     *
+     * @param int $row
+     * @param int $col
+     * @return Matrix
+     */
+    private function cofactor(int $row, int $col): Matrix {
         $result = [];
         $r = 0;
         for ($i = 0; $i < $this->rows; $i++) {
-            if ($i == $row) continue;
+            if ($i == $row) {
+                continue;
+            }
             $c = 0;
             for ($j = 0; $j < $this->cols; $j++) {
-                if ($j == $col) continue;
+                if ($j == $col) {
+                    continue;
+                }
                 $result[$r][$c] = $this->matrix[$i][$j];
                 $c++;
             }
@@ -1274,16 +1358,27 @@ class Matrix {
         return new Matrix($result);
     }
 
+    /**
+     * Get the inverse of the matrix.
+     *
+     * @return Matrix
+     * @throws Exception
+     */
     public function inverse(): Matrix {
         $det = $this->determinant();
         if ($det == 0) {
-            throw new Exception("Matrix is not invertible.");
+            throw new Exception('Matrix is not invertible.');
         }
 
         $adjoint = $this->adjoint();
         return $adjoint->scalarMultiply(1 / $det);
     }
 
+    /**
+     * Get the adjoint of the matrix.
+     *
+     * @return Matrix
+     */
     private function adjoint(): Matrix {
         $result = [];
         for ($i = 0; $i < $this->rows; $i++) {
@@ -1294,7 +1389,12 @@ class Matrix {
 
         return new Matrix($result);
     }
-    
+
+    /**
+     * Get the reduced row echelon form of the matrix.
+     *
+     * @return Matrix
+     */
     private function reducedEchelonForm(): Matrix {
         $ref = $this->matrix;
         $lead = 0;
@@ -1332,7 +1432,12 @@ class Matrix {
         }
         return new Matrix($ref);
     }
-    
+
+    /**
+     * Get the cofactor matrix of the matrix.
+     *
+     * @return Matrix
+     */
     public function cofactorMatrix(): Matrix {
         $result = [];
         for ($i = 0; $i < $this->rows; $i++) {
@@ -1343,16 +1448,212 @@ class Matrix {
         return new Matrix($result);
     }
 
+    /**
+     * Get the adjugate matrix (transpose of cofactor matrix).
+     *
+     * @return Matrix
+     */
     public function adjugateMatrix(): Matrix {
         return $this->cofactorMatrix()->transpose();
     }
 
+    /**
+     * Get a string representation of the matrix.
+     *
+     * @return string
+     */
     public function toString(): string {
-        $result = "";
+        $result = '';
         for ($i = 0; $i < $this->rows; $i++) {
-            $result .= "[" . implode(", ", $this->matrix[$i]) . "]\n";
+            $result .= '[' . implode(', ', $this->matrix[$i]) . "]\n";
         }
         return $result;
+    }
+
+    /**
+     * Check if the matrix is square (rows == cols).
+     *
+     * @return bool
+     */
+    public function isSquare(): bool {
+        return $this->rows === $this->cols;
+    }
+
+    /**
+     * Check if the matrix is symmetric (equal to its transpose).
+     *
+     * @return bool
+     */
+    public function isSymmetric(): bool {
+        if (!$this->isSquare()) {
+            return false;
+        }
+        for ($i = 0; $i < $this->rows; $i++) {
+            for ($j = 0; $j < $this->cols; $j++) {
+                if ($this->matrix[$i][$j] !== $this->matrix[$j][$i]) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    /**
+     * Compute the trace (sum of diagonal elements) of a square matrix.
+     *
+     * @return float
+     * @throws Exception
+     */
+    public function trace(): float {
+        if (!$this->isSquare()) {
+            throw new Exception('Trace can only be computed for square matrices.');
+        }
+        $trace = 0.0;
+        for ($i = 0; $i < $this->rows; $i++) {
+            $trace += $this->matrix[$i][$i];
+        }
+        return $trace;
+    }
+
+    /**
+     * Get a specific row as an array.
+     *
+     * @param int $i
+     * @return array<int, float>
+     * @throws Exception
+     */
+    public function getRow(int $i): array {
+        if ($i < 0 || $i >= $this->rows) {
+            throw new Exception('Row index out of bounds.');
+        }
+        return $this->matrix[$i];
+    }
+
+    /**
+     * Get a specific column as an array.
+     *
+     * @param int $j
+     * @return array<int, float>
+     * @throws Exception
+     */
+    public function getColumn(int $j): array {
+        if ($j < 0 || $j >= $this->cols) {
+            throw new Exception('Column index out of bounds.');
+        }
+        $col = [];
+        for ($i = 0; $i < $this->rows; $i++) {
+            $col[] = $this->matrix[$i][$j];
+        }
+        return $col;
+    }
+
+    /**
+     * Check if two matrices are equal (element-wise).
+     *
+     * @param Matrix $other
+     * @return bool
+     */
+    public function equals(Matrix $other): bool {
+        if ($this->rows !== $other->rows || $this->cols !== $other->cols) {
+            return false;
+        }
+        for ($i = 0; $i < $this->rows; $i++) {
+            for ($j = 0; $j < $this->cols; $j++) {
+                if ($this->matrix[$i][$j] !== $other->matrix[$i][$j]) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    /**
+     * Fill the matrix with a specific value (in-place).
+     *
+     * @param float|int $value
+     * @return void
+     */
+    public function fill(float|int $value): void {
+        for ($i = 0; $i < $this->rows; $i++) {
+            for ($j = 0; $j < $this->cols; $j++) {
+                $this->matrix[$i][$j] = $value;
+            }
+        }
+    }
+
+    /**
+     * Create an identity matrix of given size.
+     *
+     * @param int $size
+     * @return Matrix
+     */
+    public static function identity(int $size): Matrix {
+        $result = [];
+        for ($i = 0; $i < $size; $i++) {
+            $row = array_fill(0, $size, 0.0);
+            $row[$i] = 1.0;
+            // Ensure all elements are int (1, 0) to match test expectation
+            $result[] = array_map(fn($v) => (int)$v, $row);
+        }
+        return new Matrix($result);
+    }
+
+    /**
+     * Create a zero matrix of given size.
+     *
+     * @param int $rows
+     * @param int $cols
+     * @return Matrix
+     */
+    public static function zero(int $rows, int $cols): Matrix {
+        $result = [];
+        for ($i = 0; $i < $rows; $i++) {
+            $result[] = array_fill(0, $cols, 0.0);
+        }
+        return new Matrix($result);
+    }
+
+    /**
+     * Apply a function to each element of the matrix and return a new matrix.
+     *
+     * @param callable $fn function(float $value, int $i, int $j): float
+     * @return Matrix
+     */
+    public function map(callable $fn): Matrix {
+        $result = [];
+        for ($i = 0; $i < $this->rows; $i++) {
+            for ($j = 0; $j < $this->cols; $j++) {
+                $result[$i][$j] = $fn($this->matrix[$i][$j], $i, $j);
+            }
+        }
+        return new Matrix($result);
+    }
+
+    /**
+     * Get the number of rows in the matrix.
+     *
+     * @return int
+     */
+    public function getRows(): int {
+        return $this->rows;
+    }
+
+    /**
+     * Get the number of columns in the matrix.
+     *
+     * @return int
+     */
+    public function getCols(): int {
+        return $this->cols;
+    }
+
+    /**
+     * Get the underlying matrix as a 2D array.
+     *
+     * @return array<int, array<int, float>>
+     */
+    public function toArray(): array {
+        return $this->matrix;
     }
 }
 ```
@@ -1362,23 +1663,75 @@ class Matrix {
 **Example of Use:**
 
 ```php
+use Apphp\MLKit\Math\Linear\Matrix;
+
 $matrix1 = new Matrix([[1, 2], [3, 4]]);
 $matrix2 = new Matrix([[5, 6], [7, 8]]);
 
 echo "Matrix 1:\n" . $matrix1->toString() . "\n";
+echo 'Rank of Matrix 1: ' . $matrix1->rank() . "\n\n";
 echo "Matrix 2:\n" . $matrix2->toString() . "\n";
-echo "Rank of Matrix 1: " . $matrix1->rank() . "\n\n";
-echo "Rank of Matrix 2: " . $matrix1->rank() . "\n\n";
+echo 'Rank of Matrix 2: ' . $matrix1->rank() . "\n\n";
 
 echo "Addition:\n" . $matrix1->add($matrix2)->toString() . "\n";
 echo "Subtraction:\n" . $matrix1->subtract($matrix2)->toString() . "\n";
 echo "Scalar multiplication (by 2):\n" . $matrix1->scalarMultiply(2)->toString() . "\n";
 echo "Matrix multiplication:\n" . $matrix1->multiply($matrix2)->toString() . "\n";
 echo "Transpose of Matrix 1:\n" . $matrix1->transpose()->toString() . "\n";
-echo "Determinant of Matrix 1: " . $matrix1->determinant() . "\n\n";
+echo 'Determinant of Matrix 1: ' . $matrix1->determinant() . "\n\n";
 echo "Cofactor Matrix of Matrix 1:\n" . $matrix1->cofactorMatrix()->toString() . "\n";
 echo "Adjugate Matrix of Matrix 1:\n" . $matrix1->adjugateMatrix()->toString() . "\n";
 echo "Inverse of Matrix 1:\n" . $matrix1->inverse()->toString() . "\n";
+
+echo "\nIdentity Matrix (3x3):\n" . Matrix::identity(3)->toString() . "\n";
+echo "Zero Matrix (2x3):\n" . Matrix::zero(2, 3)->toString() . "\n";
+echo "Is Matrix 1 square? " . ($matrix1->isSquare() ? 'Yes' : 'No') . "\n";
+echo "Is Matrix 1 symmetric? " . ($matrix1->isSymmetric() ? 'Yes' : 'No') . "\n";
+echo "Trace of Matrix 1: " . $matrix1->trace() . "\n";
+echo "First row of Matrix 1: [" . implode(', ', $matrix1->getRow(0)) . "]\n";
+echo "Second column of Matrix 2: [" . implode(', ', $matrix2->getColumn(1)) . "]\n";
+echo "Are Matrix 1 and Matrix 2 equal? " . ($matrix1->equals($matrix2) ? 'Yes' : 'No') . "\n";
+
+// Example of fill and map
+$filled = new Matrix([[0, 0], [0, 0]]);
+$filled->fill(9);
+echo "Filled Matrix (all 9s):\n" . $filled->toString() . "\n";
+
+$mapped = $matrix1->map(fn($v) => $v * 10);
+echo "Matrix 1 with each element multiplied by 10 (map):\n" . $mapped->toString() . "\n";
+
+// --- Additional Examples ---
+
+// Matrix shape, size, and dimensions
+$matrix3 = new Matrix([[1,2,3],[4,5,6],[7,8,9]]);
+echo "Matrix 3:\n" . $matrix3->toString() . "\n";
+echo 'Matrix 3: ' . $matrix3->getRows() . ' rows x ' . $matrix3->getCols() . " columns\n";
+echo 'Matrix 3 is square? ' . ($matrix3->isSquare() ? 'Yes' : 'No') . "\n";
+echo 'Matrix 3 size (total elements): ' . ($matrix3->getRows() * $matrix3->getCols()) . "\n";
+
+// Accessing a single element (row 2, col 3)
+echo 'Element at row 2, column 3 of Matrix 3: ' . $matrix3->getRow(1)[2] . "\n";
+
+// Absolute value (element-wise)
+$negMatrix = new Matrix([[-1, -2], [3, -4]]);
+$absMatrix = $negMatrix->map(fn($v) => abs($v));
+echo "Absolute value of negMatrix:\n" . $absMatrix->toString() . "\n";
+
+// Row and column sums
+$rowSums = array_map(fn($row) => array_sum($row), $matrix3->toArray());
+echo 'Row sums of Matrix 3: [' . implode(', ', $rowSums) . "]\n";
+$colSums = [];
+for ($j = 0; $j < $matrix3->getCols(); $j++) {
+    $col = $matrix3->getColumn($j);
+    $colSums[] = array_sum($col);
+}
+echo 'Column sums of Matrix 3: [' . implode(', ', $colSums) . "]\n";
+
+// Minimum, maximum, mean
+$all = array_merge(...$matrix3->toArray());
+echo 'Minimum value in Matrix 3: ' . min($all) . "\n";
+echo 'Maximum value in Matrix 3: ' . max($all) . "\n";
+echo 'Mean value in Matrix 3: ' . (array_sum($all)/count($all)) . "\n";
 ```
 
 {% hint style="info" %}
