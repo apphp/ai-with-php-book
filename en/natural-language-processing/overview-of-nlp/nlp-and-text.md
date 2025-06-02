@@ -4,6 +4,8 @@ Natural language is the way humans speak and write to communicate with one anoth
 
 To process natural language, it’s important to understand the different layers of how language works. These layers help machines analyze and understand text correctly.
 
+<div align="left"><figure><img src="../../.gitbook/assets/nlp-nlp-and-text-min.png" alt="" width="375"><figcaption><p>NLP and Text</p></figcaption></figure></div>
+
 ### Graphemics: The Letters and Symbols
 
 Graphemics is the study of written symbols. It focuses on the smallest parts of written language – the **graphemes**, which are the letters or characters used in writing. In English, these are the 26 letters from A to Z.

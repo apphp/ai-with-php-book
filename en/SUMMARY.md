@@ -326,7 +326,6 @@
 
 * [Introduction](natural-language-processing/introduction.md)
 * [Overview of NLP](natural-language-processing/overview-of-nlp/README.md)
-  * [NLP and Text](natural-language-processing/overview-of-nlp/nlp-and-text.md)
   * [History of NLP](natural-language-processing/overview-of-nlp/history-of-nlp/README.md)
     * [Ancient Times](natural-language-processing/overview-of-nlp/history-of-nlp/ancient-times.md)
     * [Medieval Period](natural-language-processing/overview-of-nlp/history-of-nlp/medieval-period.md)
@@ -336,6 +335,7 @@
     * [20th Century](natural-language-processing/overview-of-nlp/history-of-nlp/20th-century.md)
     * [21st Century](natural-language-processing/overview-of-nlp/history-of-nlp/21st-century.md)
     * [Coming Years](natural-language-processing/overview-of-nlp/history-of-nlp/coming-years.md)
+  * [NLP and Text](natural-language-processing/overview-of-nlp/nlp-and-text.md)
   * [Key Concepts in NLP](natural-language-processing/overview-of-nlp/key-concepts-in-nlp.md)
   * [Common Challenges in NLP](natural-language-processing/overview-of-nlp/common-challenges-in-nlp.md)
   * [Machine Learning Role in NLP](natural-language-processing/overview-of-nlp/machine-learning-role-in-nlp.md)
