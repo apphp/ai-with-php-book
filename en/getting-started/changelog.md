@@ -27,6 +27,10 @@
   * Updated **Vectors with PHP** chapter
   * Updated **Matrices with PHP** chapter
 
+**Natural Language**&#x20;
+
+* Added chapter **NLP and Text**
+
 **Computer Vision**
 
 * Added **Introduction** chapter

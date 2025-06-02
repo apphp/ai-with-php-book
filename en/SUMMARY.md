@@ -326,6 +326,7 @@
 
 * [Introduction](natural-language-processing/introduction.md)
 * [Overview of NLP](natural-language-processing/overview-of-nlp/README.md)
+  * [NLP and Text](natural-language-processing/overview-of-nlp/nlp-and-text.md)
   * [History of NLP](natural-language-processing/overview-of-nlp/history-of-nlp/README.md)
     * [Ancient Times](natural-language-processing/overview-of-nlp/history-of-nlp/ancient-times.md)
     * [Medieval Period](natural-language-processing/overview-of-nlp/history-of-nlp/medieval-period.md)
