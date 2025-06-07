@@ -1,5 +1,7 @@
 # Basic NLP Techniques
 
+feature extraction
+
 • Bag of Words (BoW)
 
 • Term Frequency–Inverse Document Frequency (TF-IDF)
