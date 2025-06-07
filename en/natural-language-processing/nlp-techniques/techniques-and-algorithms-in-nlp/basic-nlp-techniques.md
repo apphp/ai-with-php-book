@@ -7,3 +7,8 @@ feature extraction
 • Term Frequency–Inverse Document Frequency (TF-IDF)
 
 • n-Grams and Word Embeddings
+
+• Kernel method\
+\
+
+
