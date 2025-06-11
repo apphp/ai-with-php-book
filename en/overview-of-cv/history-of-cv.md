@@ -30,8 +30,6 @@ In 1980, Kunihiko Fukushima developed the Neocognitron, a neural network inspire
 
 Although limited by computational power, this model introduced concepts that would later be used in deep learning. By the end of the 1980s, vision systems could analyze edges, corners, motion, and regions, though still under constrained conditions.
 
-\>>>>>>>>>>>>>>
-
 ### Rise of Machine Learning in Vision (1990s)
 
 The 1990s introduced more learning-based approaches. One of the decade's major achievements was the Eigenfaces method for face recognition. This technique reduced face images to essential features using principal component analysis, enabling efficient comparison.
@@ -41,6 +39,8 @@ Neural networks also found use in practical tasks. LeNet, developed by Yann LeCu
 Instead, researchers favored classifiers like support vector machines (SVMs). These were paired with handcrafted features to detect objects in images. Object detection used region proposals or sliding windows with feature matching. Basic tracking algorithms followed moving objects in video frames using motion estimation.
 
 This decade also saw the rise of standardized datasets like FERET (for face recognition) and MNIST (for handwritten digits). These allowed researchers to evaluate and compare methods more systematically.
+
+\>>>>>>>>>>>>>>
 
 ### Handcrafted Features and Recognition (2000s)
 
