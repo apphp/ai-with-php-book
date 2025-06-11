@@ -45,6 +45,8 @@ This section lists helpful tools, libraries, and references for further explorat
   [https://markoff.science](https://markoff.science/)
 * The Hundred-Page Language Models Book, by Andriy Burkov\
   [https://themlbook.com](https://themlbook.com/)
+* Make Your Own Neural Network, by Tariq Rashid\
+  [https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G)
 
 ***
 
