@@ -2,7 +2,11 @@
 
 {% stepper %}
 {% step %}
-**0.6.0 - current**
+**0.7.0 - current**
+
+
+
+**0.6.0 - Jun 2025**
 
 **Artificial Intelligence**
 
