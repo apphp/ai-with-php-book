@@ -4,6 +4,8 @@ According to previous chapters we understood that NLP acts as a bridge between h
 
 This chapter introduces the most important concepts in NLP in a way that is clear and practical.
 
+<div align="left"><figure><img src="../../.gitbook/assets/nlp-key-concepts-in-nlp-min.png" alt="" width="375"><figcaption><p>Key Concepts in NLP</p></figcaption></figure></div>
+
 ### NLP Pipeline Diagram
 
 A typical NLP system follows a structured pipeline:
@@ -28,7 +30,7 @@ Each stage prepares the text for the next, turning messy raw input into structur
 
 To understand language, machines need to handle both **syntax** and **semantics**.
 
-**Syntax** refers to the rules that determine the structure of sentences. It focuses on grammar—how words are ordered and connected. For example, “red car” is correct in English, while “car red” sounds unusual.
+**Syntax** refers to the rules that determine the structure of sentences. It focuses on grammar — how words are ordered and connected. For example, “red car” is correct in English, while “car red” sounds unusual.
 
 **Semantics** is about the meaning behind the words. A sentence like “The cloud ate the bicycle” is grammatically correct but does not make sense. So, while syntax tells us how a sentence is formed, semantics tells us whether it means something real or useful.
 
@@ -68,7 +70,7 @@ This step removes unnecessary variation and helps NLP models focus on the meanin
 
 Words often appear in different forms. For example: “run”, “running”, “ran”, and “runs” are all related.
 
-**Stemming** is a quick method that removes endings to find a rough base form of a word. For instance, “running” might become “runn”.
+**Stemming** is a quick method that removes endings to find a rough base form of a word. For instance, “running” might become “run”.
 
 **Lemmatization** is more advanced. It uses grammar rules and dictionaries to return the true base form (called the _lemma_), like turning “was” into “be” or “better” into “good”.
 
@@ -78,7 +80,7 @@ Lemmatization is slower but more accurate. These tools help NLP models treat rel
 
 Many sentences include common words like “the”, “is”, “and”, or “in”. These are called **stop words**. On their own, they don’t add much meaning. For this reason, some NLP systems remove them to focus on more important content.
 
-However, stop words are not always useless. In some cases—such as **sentiment analysis** or **question answering**—they can be important. For example, “not happy” is very different from “happy”.
+However, stop words are not always useless. In some cases — such as **sentiment analysis** or **question answering** — they can be important. For example, “not happy” is very different from “happy”.
 
 Whether to remove stop words depends on the specific goal of the NLP task.
 
@@ -155,7 +157,7 @@ Popular methods include Word2Vec, GloVe, and modern models like BERT. These embe
 
 ### Context and Ambiguity
 
-One of the biggest challenges in NLP is **ambiguity**—words that have more than one meaning. For example, the word “bank” could mean:
+One of the biggest challenges in NLP is **ambiguity** — words that have more than one meaning. For example, the word “bank” could mean:
 
 * A financial institution
 * The side of a river
