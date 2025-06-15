@@ -1,6 +1,6 @@
 # Common Challenges in NLP
 
-Despite great progress in recent years, building NLP systems remains complex. Language is rich, diverse, and often unpredictable—making it hard for machines to interpret with full accuracy.
+Despite great progress in recent years, building NLP systems remains complex. Language is rich, diverse, and often unpredictable — making it hard for machines to interpret with full accuracy.
 
 This chapter explores the most common challenges in NLP. From ambiguity in meaning to privacy concerns, each obstacle requires a unique approach and continued innovation.
 
@@ -10,11 +10,11 @@ This chapter explores the most common challenges in NLP. From ambiguity in meani
 
 One of the most persistent challenges in NLP is ambiguity. Human language often allows multiple interpretations of the same word or phrase. For instance, the word _“bank”_ could mean a place to keep money or the side of a river. Similarly, the phrase _“I saw the man with the telescope”_ is unclear: did you use a telescope, or did the man have one?
 
-Humans use background knowledge and context to resolve such confusion quickly. Machines, however, rely only on text patterns and probabilities. Even advanced language models like ChatGPT or Google Bard can misunderstand intent if the wording is vague. Resolving ambiguity continues to be a major focus in NLP research and model training.
+Humans use background knowledge and context to resolve such confusion quickly. Machines, however, rely only on text patterns and probabilities. Even advanced language models like ChatGPT or Google Gemini can misunderstand intent if the wording is vague. Resolving ambiguity continues to be a major focus in NLP research and model training.
 
 ### Cultural and Linguistic Diversity
 
-Languages are not only different in grammar and vocabulary—they also carry deep cultural meanings. A word that is common in one country might sound strange or even rude in another. For example, the expression “I’ll ping you” makes sense in tech communities, but may confuse someone unfamiliar with that jargon.
+Languages are not only different in grammar and vocabulary — they also carry deep cultural meanings. A word that is common in one country might sound strange or even rude in another. For example, the expression “I’ll ping you” makes sense in tech communities, but may confuse someone unfamiliar with that jargon.
 
 On top of this, many NLP tools are built primarily for a few dominant languages like English, Chinese, or Spanish. Support for regional dialects or minority languages is limited. This leads to unfair performance gaps between users.
 
@@ -23,7 +23,7 @@ On top of this, many NLP tools are built primarily for a few dominant languages 
 
 Addressing linguistic and cultural diversity requires training models on a wider range of languages and speaking styles. It also demands local expertise and ethical data collection.
 
-### Understanding Context: Beyond the Words
+### >>>>>> Understanding Context: Beyond the Words
 
 Imagine you ask your digital assistant: _“Is it cold tomorrow?”_ Then follow up with _“What about Friday?”_ A human listener knows you’re still asking about the weather. But machines often treat each sentence as a new, separate request.
 
