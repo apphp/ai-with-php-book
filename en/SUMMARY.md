@@ -350,6 +350,7 @@
   * [Techniques and Algorithms in NLP](natural-language-processing/nlp-techniques/techniques-and-algorithms-in-nlp/README.md)
     * [Basic NLP Techniques](natural-language-processing/nlp-techniques/techniques-and-algorithms-in-nlp/basic-nlp-techniques.md)
     * [Advanced NLP Techniques](natural-language-processing/nlp-techniques/techniques-and-algorithms-in-nlp/advanced-nlp-techniques.md)
+    * [Distributional Semantics](natural-language-processing/nlp-techniques/techniques-and-algorithms-in-nlp/distributional-semantics.md)
   * [Advanced NLP Topics](natural-language-processing/nlp-techniques/advanced-nlp-topics.md)
 * [Integrating NLP into Web](natural-language-processing/integrating-nlp-into-web.md)
 * [Key Applications of NLP](natural-language-processing/key-applications-of-nlp.md)
