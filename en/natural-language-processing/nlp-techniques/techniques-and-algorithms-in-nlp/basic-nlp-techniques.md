@@ -8,7 +8,15 @@ feature extraction
 
 • n-Grams and Word Embeddings
 
-• Kernel method\
+• Kernel method
+
+
+
+* Distributional Semantics
+* sckip gram ?
+* other
+
+\
 \
 
 
