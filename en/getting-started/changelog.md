@@ -4,7 +4,11 @@
 {% step %}
 **0.7.0 - current**
 
+**NLP**
 
+* Overview of NLP
+  * Added **Key Concepts, Common Challenges** chapters
+  * Added **Machine Learning Role in NLP** chapter
 
 **0.6.0 - Jun 2025**
 
