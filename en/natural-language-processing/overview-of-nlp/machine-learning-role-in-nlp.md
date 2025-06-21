@@ -8,7 +8,7 @@ Machine learning in NLP splits into two major categories: supervised and unsuper
 
 **Supervised learning** trains models using labeled data. Consider sentiment analysis: a dataset of movie reviews, each labeled “positive” or “negative”. A classifier learns patterns – like the presence of “amazing” or “terrible” – and predicts sentiments for new reviews. In fact, when Netflix added supervised learning for review summarization in 2018, it improved accuracy by around 15%. Sequence‑labeling tasks (like POS (part of speech) tagging or NER (named entity recognition)) also rely on supervised models, such as CRFs and LSTM-based taggers, to assign a label to every word in a sentence.
 
-**Unsupervised learning**, in contrast, discovers structure without labels. Topic modeling, for example, groups documents into topics using methods like Latent Dirichlet Allocation. You don't need predefined categories—just raw text. Word embeddings (e.g., Word2Vec, GloVe) analyze word co-occurrences in large corpora. These embeddings place similar words close together in a continuous vector space—so “king” and “queen” are semantically linked. The classic demonstration: vector("king") – vector("man") + vector("woman") ≈ vector("queen").
+**Unsupervised learning**, in contrast, discovers structure without labels. Topic modeling, for example, groups documents into topics using methods like Latent Dirichlet Allocation. You don't need predefined categories — just raw text. Word embeddings (e.g., Word2Vec, GloVe) analyze word co-occurrences in large corpora. These embeddings place similar words close together in a continuous vector space — so “king” and “queen” are semantically linked. The classic demonstration: vector("king") – vector("man") + vector("woman") ≈ vector("queen").
 
 Each method has strengths. Supervised techniques shine when high‑quality labeled data is available; unsupervised methods give insights when it is not, also providing a foundation for modern deep models.
 
@@ -45,7 +45,7 @@ Imagine we want to create a sentiment classifier from scratch:
 2. **Preprocess**: Tokenize text, convert to lowercase, remove punctuation.
 3. **Feature extraction**: Train Word2Vec embeddings on a larger corpus of film scripts, then average embeddings for each review.
 4. **Train model**: Use a classifier such as logistic regression or an LSTM network.
-5. **Evaluate**: Measure accuracy, precision, recall, F1-score—and achieve, for example, 88 % accuracy.
+5. **Evaluate**: Measure accuracy, precision, recall, F1-score — and achieve, for example, 88 % accuracy.
 6. **Improve**: Fine-tune a pre-trained BERT model on the same data. Performance leaps to 93 % accuracy in under five minutes of training.
 
 This example shows how unsupervised pre-training can significantly improve results with minimal effort.
@@ -55,7 +55,7 @@ This example shows how unsupervised pre-training can significantly improve resul
 Beyond the three main areas, several other concepts are critical to understanding ML’s role in NLP:
 
 * **Evaluation metrics**: Accuracy, precision, recall, F1-score, BLEU (for translation), and perplexity (for language modeling) help assess the quality of NLP systems.
-* **Data preprocessing**: Tokenization, lowercasing, removing punctuation, handling out-of‑vocabulary words—all are key to model performance.
+* **Data preprocessing**: Tokenization, lowercasing, removing punctuation, handling out-of‑vocabulary words — all are key to model performance.
 * **Ethical considerations**: NLP systems can reflect bias in data. Addressing privacy, fairness, and consent is essential, especially for language models trained on public text.
 * **Multilingual NLP and cross-lingual transfer**: Models like mBERT and XLM-R support many languages, making global applications more feasible.
 
@@ -63,5 +63,4 @@ Beyond the three main areas, several other concepts are critical to understandin
 
 Have you ever wondered how Siri or Google Translate works under the hood? Usually, these systems rely on transformers fine‑tuned for specific tasks, demonstrating how research innovations quickly move into everyday tools.
 
-Machine learning is the heartbeat of modern NLP. Supervised learning transforms raw text into structured labels, unsupervised learning finds hidden meaning, and pre-trained models with transfer learning push performance to new heights. Mastering these methods, along with the surrounding practices—preprocessing, evaluation, and ethics—prepares practitioners to build powerful, responsible NLP systems.
-
+Machine learning is the heartbeat of modern NLP. Supervised learning transforms raw text into structured labels, unsupervised learning finds hidden meaning, and pre-trained models with transfer learning push performance to new heights. Mastering these methods, along with the surrounding practices — preprocessing, evaluation, and ethics — prepares practitioners to build powerful, responsible NLP systems.
