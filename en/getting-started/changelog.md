@@ -9,6 +9,7 @@
 * Overview of NLP
   * Added **Key Concepts, Common Challenges** chapters
   * Added **Machine Learning Role in NLP** chapter
+  * Improved chapter **Overview of NLP Libraries in PHP**
 
 **0.6.0 - Jun 2025**
 
