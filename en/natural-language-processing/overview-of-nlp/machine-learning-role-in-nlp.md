@@ -4,11 +4,9 @@ NLP is one of the most exciting and visible areas of AI, enabling computers to u
 
 <div align="left"><figure><img src="../../.gitbook/assets/nlp-machine-learning-role-in-nlp-min.png" alt="" width="375"><figcaption><p>Machine Learning Role in NLP</p></figcaption></figure></div>
 
-### >>>>>>>> Supervised and Unsupervised Techniques in NLP
-
 Machine learning in NLP splits into two major categories: supervised and unsupervised learning.
 
-**Supervised learning** trains models using labeled data. Consider sentiment analysis: a dataset of movie reviews, each labeled “positive” or “negative”. A classifier learns patterns – like the presence of “amazing” or “terrible” – and predicts sentiments for new reviews. In fact, when Netflix added supervised learning for review summarization in 2018, it improved accuracy by around 15%. Sequence‑labeling tasks (like POS tagging or named entity recognition) also rely on supervised models, such as CRFs and LSTM-based taggers, to assign a label to every word in a sentence.
+**Supervised learning** trains models using labeled data. Consider sentiment analysis: a dataset of movie reviews, each labeled “positive” or “negative”. A classifier learns patterns – like the presence of “amazing” or “terrible” – and predicts sentiments for new reviews. In fact, when Netflix added supervised learning for review summarization in 2018, it improved accuracy by around 15%. Sequence‑labeling tasks (like POS (part of speech) tagging or NER (named entity recognition)) also rely on supervised models, such as CRFs and LSTM-based taggers, to assign a label to every word in a sentence.
 
 **Unsupervised learning**, in contrast, discovers structure without labels. Topic modeling, for example, groups documents into topics using methods like Latent Dirichlet Allocation. You don't need predefined categories—just raw text. Word embeddings (e.g., Word2Vec, GloVe) analyze word co-occurrences in large corpora. These embeddings place similar words close together in a continuous vector space—so “king” and “queen” are semantically linked. The classic demonstration: vector("king") – vector("man") + vector("woman") ≈ vector("queen").
 
