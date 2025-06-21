@@ -37,14 +37,11 @@ Many modern NLP applications are expected to support multiple languages out of t
 
 Languages with lots of digital content — like English or French — get better results because they provide more training data. In contrast, low-resource languages suffer from poor translation quality and limited understanding.
 
-| **Language Type**                       | **Training Data Volume** | **Typical Model Accuracy** |
-| --------------------------------------- | ------------------------ | -------------------------- |
-| High-resource (e.g., English, Mandarin) | Extensive                | High                       |
-| Low-resource (e.g., Amharic, Quechua)   | Limited                  | Low                        |
+<table data-header-hidden><thead><tr><th width="332.3671875"></th><th width="205.72265625"></th><th></th></tr></thead><tbody><tr><td><strong>Language Type</strong></td><td><strong>Training Data Volume</strong></td><td><strong>Typical Model Accuracy</strong></td></tr><tr><td>High-resource (e.g., English, Mandarin)</td><td>Extensive</td><td>High</td></tr><tr><td>Low-resource (e.g., Amharic, Quechua)</td><td>Limited</td><td>Low</td></tr></tbody></table>
 
 Even when a model is multilingual, it might “prefer” certain languages and ignore subtle rules or meanings in others. Researchers are exploring transfer learning and multilingual pre-training to narrow the gap, but performance remains uneven.
 
-### >>>> Data Privacy: Language and Responsibility
+### Data Privacy: Language and Responsibility
 
 NLP systems often process user data, especially in personal assistants, messaging apps, or help desk bots. This raises serious privacy concerns. A single text message might include names, locations, medical details, or passwords.
 
@@ -56,13 +53,13 @@ If sensitive data is collected or stored without protection, users are at risk. 
 > * Using on-device processing instead of cloud storage.
 > * Applying **differential privacy** to reduce data leakage during training.
 
-Respecting privacy laws like GDPR or HIPAA is not optional—it’s a core responsibility in AI development.
+Respecting privacy laws like GDPR or HIPAA is not optional — it’s a core responsibility in AI development.
 
 ### Bias and Fairness
 
 Language reflects society, and that includes its biases. If the training data contains stereotypes or imbalanced representation, the model will likely reproduce them. This can lead to unfair treatment or harmful suggestions.
 
-For example, a resume screening tool might associate engineering roles more often with male names, simply because historical data shows that pattern. This is not a technical bug—it’s a reflection of biased input.
+For example, a resume screening tool might associate engineering roles more often with male names, simply because historical data shows that pattern. This is not a technical bug — it’s a reflection of biased input.
 
 Mitigating bias in NLP involves careful data selection, fairness testing, and frequent audits. Some researchers are also developing models that can explain why they made a decision, helping users spot unfair patterns.
 
@@ -87,4 +84,4 @@ Natural language is messy, emotional, and constantly evolving. Machines are gett
 * **Bias**, which can lead to unfair or harmful outputs.
 * **Noisy input**, common in social media and daily messaging.
 
-Solving these challenges requires a mix of technical innovation, linguistic expertise, and ethical design. As NLP systems continue to evolve, their ability to understand—and respect—human language will define their success.
+Solving these challenges requires a mix of technical innovation, linguistic expertise, and ethical design. As NLP systems continue to evolve, their ability to understand — and respect — human language will define their success.
