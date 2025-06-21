@@ -1,6 +1,10 @@
 # Mathematics for NLP
 
-Table of Contents: Mathematics for NLP
+<div align="left"><figure><img src="../.gitbook/assets/nlp-mathematics-for-nlp-min.png" alt="" width="563"><figcaption><p>Mathematics for NLP</p></figcaption></figure></div>
+
+
+
+Mathematics for NLP
 
 \\
 
