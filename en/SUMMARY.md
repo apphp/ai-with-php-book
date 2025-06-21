@@ -342,7 +342,7 @@
 * [NLP Capabilities in PHP](natural-language-processing/nlp-capabilities-in-php/README.md)
   * [Overview of NLP Libraries in PHP](natural-language-processing/nlp-capabilities-in-php/overview-of-nlp-libraries-in-php.md)
   * [Challenges in NLP with PHP](natural-language-processing/nlp-capabilities-in-php/challenges-in-nlp-with-php.md)
-  * [Popular Tools and Frameworks for NLP](natural-language-processing/nlp-capabilities-in-php/popular-tools-and-frameworks-for-nlp.md)
+  * [Other Popular Tools for NLP](natural-language-processing/nlp-capabilities-in-php/popular-tools-and-frameworks-for-nlp.md)
 * [Mathematics for NLP](natural-language-processing/mathematics-for-nlp.md)
 * [NLP Techniques](natural-language-processing/nlp-techniques/README.md)
   * [NLP Workflow](natural-language-processing/nlp-techniques/nlp-workflow.md)
