@@ -1,5 +1,9 @@
 # Overview of NLP Libraries in PHP
 
+Let's overview popular MLP libraries for PHP.
+
+<div align="left"><figure><img src="../../.gitbook/assets/nlp-challenges-in-nlp-with-php-min.png" alt="" width="375"><figcaption><p>Overview of NLP Libraries in PHP</p></figcaption></figure></div>
+
 ### 1. OpenAI Integrations for PHP
 
 #### OpenAI PHP Client
