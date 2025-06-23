@@ -1,10 +1,10 @@
 # Other Popular Tools for NLP
 
-Beyond the libraries and frameworks used for building models, that we reviewed in previous chapter - there are many helpful tools that developers and researchers can use to work with text data. This chapter introduces other popular tools for NLP, especially cloud-based APIs, open-source datasets, and pretrained model platforms.
+Beyond the libraries and frameworks used for building models, that we reviewed in previous chapter — there are many helpful tools that developers and researchers can use to work with text data. This chapter introduces other popular tools for NLP, especially cloud-based APIs, open-source datasets, and pretrained model platforms.
 
 <div align="left"><figure><img src="../../.gitbook/assets/nlp-other-popular-tools-for-nlp-min.png" alt="" width="375"><figcaption><p>Other Popular Tools for NLP</p></figcaption></figure></div>
 
-#### Cloud-Based NLP APIs
+### Cloud-Based NLP APIs
 
 Cloud-based services offer easy-to-use NLP tools that do not require training your own models. These APIs allow developers to send text to a remote server and get back useful information. The main providers in this space are **Google Cloud**, **Microsoft Azure**, and **Amazon Web Services (AWS)**.
 
@@ -22,7 +22,7 @@ To summarize the main features of these three providers:
 
 These APIs save time and resources, especially for teams that need fast results without building their own models. However, they may charge based on usage and can raise privacy concerns when sending sensitive text to external servers.
 
-#### Open-Source NLP Datasets
+### Open-Source NLP Datasets
 
 To train and evaluate NLP models, high-quality datasets are essential. Over time, many open-source datasets have been developed by researchers and shared freely with the community. These datasets cover a wide range of NLP tasks, including sentiment analysis, translation, question answering, summarization, and entity recognition.
 
@@ -30,20 +30,16 @@ For sentiment analysis, the **IMDB dataset** is widely used. It contains movie r
 
 Many datasets can be downloaded from platforms like Hugging Face Datasets, Kaggle, or academic websites. These datasets make it possible to compare new models against standard benchmarks and improve their performance.
 
-#### Pretrained Models and Model Hubs
+### Pretrained Models and Model Hubs
 
 Another useful resource is the growing number of pretrained models. These are models already trained on large amounts of text and shared by the community or companies. Developers can use them as-is or fine-tune them on their own data.
 
-One of the most popular platforms is the **Hugging Face Model Hub**. It offers thousands of models for tasks such as translation, summarization, classification, and question answering. These models are based on modern architectures like BERT, RoBERTa, and GPT. Developers can easily use them with Python and the `transformers` library.
+One of the most popular platforms is the **Hugging Face Model Hub**. It offers thousands of models for tasks such as translation, summarization, classification, and question answering. These models are based on modern architectures like BERT, RoBERTa, and GPT.
 
-Using pretrained models saves time, reduces the need for powerful hardware, and improves results—especially when the dataset is small or the timeline is short.
+Using pretrained models saves time, reduces the need for powerful hardware, and improves results —especially when the dataset is small or the timeline is short.
 
-#### Summary
+### Summary
 
 Today’s NLP tools go far beyond traditional code libraries. Cloud APIs like **Google Cloud Natural Language**, **Microsoft Azure Text Analytics**, and **AWS Comprehend** allow developers to analyze text with just a few lines of code. Open-source datasets provide the material needed to train and test new models. And model hubs such as Hugging Face make it easy to use high-quality pretrained models.
 
 By combining these tools with core NLP skills, developers can build intelligent systems that understand human language in a fast, reliable, and scalable way.
-
-***
-
-Would you like this chapter exported as a formatted document (PDF, Markdown, or DOCX) or included in your full book structure?
