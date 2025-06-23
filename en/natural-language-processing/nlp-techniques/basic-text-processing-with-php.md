@@ -1,4 +1,6 @@
-# Basic Text Processing
+# Text Preprocessing
+
+Text Preprocessing and Basic NLP Tasks
 
 * Tokenizing text with PHP
 * Removing stop words
