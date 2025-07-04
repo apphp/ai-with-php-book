@@ -9,6 +9,10 @@
   * Examples: BERT, GPT-3, T5
 * **Large Language Models (LLMs)**
   * Trained on massive corpora with billions of parameter
+* **eq2Seq Models**
+  * Encoder-Decoder Architecture
+  * Attention Mechanism
+  * Applications (e.g., translation, summarization)
 
 Exotic
 
