@@ -12,6 +12,8 @@
 * NLP Capabilities in PHP
   * Improved chapter [Overview of NLP Libraries in PHP](../natural-language-processing/nlp-capabilities-in-php/popular-tools-and-frameworks-for-nlp.md)
   * Added [Other Popular Tools for NLP](../natural-language-processing/nlp-capabilities-in-php/popular-tools-and-frameworks-for-nlp.md) and [Challenges in NLP with PHP](../natural-language-processing/nlp-capabilities-in-php/challenges-in-nlp-with-php.md) chapters
+* Mathematics for NLP
+  * Added [Introduction to Mathematics for NLP](../natural-language-processing/mathematics-for-nlp/introduction-to-mathematics-for-nlp.md) chapter
 
 **0.6.0 - Jun 2025**
 
