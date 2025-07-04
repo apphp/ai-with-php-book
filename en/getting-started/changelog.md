@@ -7,11 +7,11 @@
 **NLP**
 
 * Overview of NLP
-  * Added [**Key Concepts**](../natural-language-processing/overview-of-nlp/key-concepts-in-nlp.md)**,** [**Common Challenges**](../natural-language-processing/overview-of-nlp/common-challenges-in-nlp.md) chapters
-  * Added [**Machine Learning Role in NLP**](../natural-language-processing/overview-of-nlp/machine-learning-role-in-nlp.md) chapter
+  * Added [Key Concepts](../natural-language-processing/overview-of-nlp/key-concepts-in-nlp.md), [Common Challenges](../natural-language-processing/overview-of-nlp/common-challenges-in-nlp.md) chapters
+  * Added [Machine Learning Role in NLP](../natural-language-processing/overview-of-nlp/machine-learning-role-in-nlp.md) chapter
 * NLP Capabilities in PHP
-  * Improved chapter [**Overview of NLP Libraries in PHP**](../natural-language-processing/nlp-capabilities-in-php/popular-tools-and-frameworks-for-nlp.md)
-  * Added [**Other Popular Tools for NLP**](../natural-language-processing/nlp-capabilities-in-php/popular-tools-and-frameworks-for-nlp.md) chapter
+  * Improved chapter [Overview of NLP Libraries in PHP](../natural-language-processing/nlp-capabilities-in-php/popular-tools-and-frameworks-for-nlp.md)
+  * Added [Other Popular Tools for NLP](../natural-language-processing/nlp-capabilities-in-php/popular-tools-and-frameworks-for-nlp.md) and [Challenges in NLP with PHP](../natural-language-processing/nlp-capabilities-in-php/challenges-in-nlp-with-php.md) chapters
 
 **0.6.0 - Jun 2025**
 

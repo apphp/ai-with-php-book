@@ -38,6 +38,14 @@ One of the most popular platforms is the **Hugging Face Model Hub**. It offers t
 
 Using pretrained models saves time, reduces the need for powerful hardware, and improves results —especially when the dataset is small or the timeline is short.
 
+### Bridging the Gap: Using ONNX and External Inference Services
+
+While PHP cannot run machine learning models directly, developers can use **ONNX (Open Neural Network Exchange)** to convert and serve pre-trained NLP models using a language like Python, C++, or JavaScript. ONNX makes it possible to deploy models in a lightweight and portable format, allowing developers to expose inference as a web service.
+
+For example, a BERT model trained in PyTorch can be converted to ONNX and then served using **ONNX Runtime** in a Python-based API. The PHP application can then call this API to perform tasks like sentiment analysis, entity recognition, or summarization.
+
+This approach allows PHP to benefit from advanced models without needing native support for deep learning libraries. It also makes model deployment more efficient and language-agnostic. For example it can be used with [TransformersPHP](https://transformers.codewithkyrian.com/).&#x20;
+
 ### Summary
 
 Today’s NLP tools go far beyond traditional code libraries. Cloud APIs like **Google Cloud Natural Language**, **Microsoft Azure Text Analytics**, and **AWS Comprehend** allow developers to analyze text with just a few lines of code. Open-source datasets provide the material needed to train and test new models. And model hubs such as Hugging Face make it easy to use high-quality pretrained models.
