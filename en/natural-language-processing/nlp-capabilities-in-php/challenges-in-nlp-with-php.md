@@ -2,6 +2,8 @@
 
 Most of the NLP work is done using languages like Python or Java, which have large ecosystems of machine learning libraries. However, some developers want or need to use PHP for NLP tasks — usually because their main application is written in PHP or they want to integrate NLP into an existing PHP-based system.
 
+<div align="left"><figure><img src="../../.gitbook/assets/nlp-challenges-in-nlp-with-php-min (1).png" alt="" width="375"><figcaption><p>Challenges in NLP with PHP</p></figcaption></figure></div>
+
 This chapter explores the practical challenges of using PHP for NLP and explains when and how PHP can still play a role in language processing tasks.
 
 ### Advantages of Using PHP for NLP
