@@ -83,10 +83,7 @@ PHP Text Analysis is a PHP library for Information Retrieval (IR) and Natural La
 
 Official website: [https://github.com/patrickschur/language-detection](https://github.com/patrickschur/language-detection)
 
-This library can detect the language of a given text string. It can parse given training text in many different idioms into a sequence of N-grams and builds a database file in PHP to be used in the detection phase. Then it can take a given text and detect its language using the database previously generated in the training phase. The library comes with text samples used for training and detecting text in 110 languages.\
-
-
-
+This library can detect the language of a given text string. It can parse given training text in many different idioms into a sequence of N-grams and builds a database file in PHP to be used in the detection phase. Then it can take a given text and detect its language using the database previously generated in the training phase. The library comes with text samples used for training and detecting text in 110 languages.
 
 {% hint style="info" %}
 You may read more about how [Configure an Environment for PHP](../../machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/).
