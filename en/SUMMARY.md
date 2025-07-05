@@ -8,7 +8,14 @@
 * [Glossary](getting-started/glossary.md)
 * [Contributors](getting-started/contributors.md)
 * [Resources](getting-started/resources.md)
-* [Changelog](getting-started/changelog.md)
+* [Changelog](getting-started/changelog/README.md)
+  * [0.7.0 - current](getting-started/changelog/0.7.0-current.md)
+  * [0.6.0](getting-started/changelog/0.6.0.md)
+  * [0.5.0](getting-started/changelog/0.5.0.md)
+  * [0.4.0](getting-started/changelog/0.4.0.md)
+  * [0.3.0](getting-started/changelog/0.3.0.md)
+  * [0.2.0](getting-started/changelog/0.2.0.md)
+  * [0.1.0](getting-started/changelog/0.1.0.md)
 
 ## Artificial Intelligence
 
