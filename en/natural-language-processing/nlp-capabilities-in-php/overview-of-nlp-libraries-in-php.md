@@ -38,6 +38,12 @@ State-of-the-art Machine Learning for PHP. Run Transformers natively in your PHP
 
 Official website: [https://codewithkyrian.github.io/transformers-php/](https://codewithkyrian.github.io/transformers-php/)
 
+#### MITIE PHP
+
+Official website: [https://github.com/ankane/mitie-php](https://github.com/ankane/mitie-php)
+
+MITIE for PHP is a wrapper for using MITIE's NLP capabilities in PHP, including named-entity recognition, relation detection, and text categorization. It can identify entities such as people, organizations, and locations in text. It also detects relationships, like identifying that a person was born in a specific location.
+
 ### **3. NLP Agent & Workflow Frameworks**
 
 #### LLM Agents PHP SDK **(PHP LLM-based AI Agents Library)**
@@ -71,7 +77,13 @@ PHP library for natural language processing (NLP) tasks. It includes tools for t
 
 Official website: [https://github.com/yooper/php-text-analysis](https://github.com/yooper/php-text-analysis)
 
-PHP Text Analysis is a PHP library for Information Retrieval (IR) and Natural Language Processing (NLP) tasks. It offers tools for document classification, sentiment analysis, tokenization, stemming, and frequency analysis. Additional features include text comparison, lexical diversity, corpus analysis, collocations, and summarization.\
+PHP Text Analysis is a PHP library for Information Retrieval (IR) and Natural Language Processing (NLP) tasks. It offers tools for document classification, sentiment analysis, tokenization, stemming, and frequency analysis. Additional features include text comparison, lexical diversity, corpus analysis, collocations, and summarization.
+
+#### PHP Language Detection
+
+Official website: [https://github.com/patrickschur/language-detection](https://github.com/patrickschur/language-detection)
+
+This library can detect the language of a given text string. It can parse given training text in many different idioms into a sequence of N-grams and builds a database file in PHP to be used in the detection phase. Then it can take a given text and detect its language using the database previously generated in the training phase. The library comes with text samples used for training and detecting text in 110 languages.\
 
 
 
