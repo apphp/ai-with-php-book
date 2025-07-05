@@ -61,6 +61,21 @@ Official website: [https://github.com/DeepLcom/deepl-php](https://github.com/Dee
 
 The DeepL API is a language translation API that allows other computer programs to send texts and documents to DeepL's servers and receive high-quality translations. This opens a whole universe of opportunities for developers: any translation product you can imagine can now be built on top of DeepL's best-in-class translation technology.
 
+#### PHP NlpTools
+
+Official website: [https://github.com/angeloskath/php-nlp-tools](https://github.com/angeloskath/php-nlp-tools)
+
+PHP library for natural language processing (NLP) tasks. It includes tools for tokenization, classification (Naive Bayes, MaxEnt), clustering, and text similarity. Designed for PHP developers, it enables NLP without relying on external services. The library is open source and well-documented.
+
+#### PHP Text Analysis
+
+Official website: [https://github.com/yooper/php-text-analysis](https://github.com/yooper/php-text-analysis)
+
+PHP Text Analysis is a PHP library for Information Retrieval (IR) and Natural Language Processing (NLP) tasks. It offers tools for document classification, sentiment analysis, tokenization, stemming, and frequency analysis. Additional features include text comparison, lexical diversity, corpus analysis, collocations, and summarization.\
+
+
+
+
 {% hint style="info" %}
 You may read more about how [Configure an Environment for PHP](../../machine-learning/ml-capabilities-in-php/configuring-an-environment-for-php/).
 {% endhint %}
