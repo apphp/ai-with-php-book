@@ -10,13 +10,11 @@ The idea of Cognitive Computing started long before computers existed. In the 18
 
 In 1950, a British scientist named Alan Turing asked, "Can machines think?" He created the Turing Test to find out if a machine could act like a human in a conversation. In 1956, the term "Artificial Intelligence" (AI) was introduced during a workshop at Dartmouth College. AI was described as the science of making smart machines. That same year, early AI programs were created, like one that played checkers and another that could solve math problems.
 
-This period marked the beginning of CC as a field that combined many subjects. These included mathematics, logic, psychology, and computer science. mathematics, logic, psychology, and computer science. In the 1950s and 1960s, the "cognitive revolution" happened. Researchers started to study the mind as if it were a machine that processes information. Psychologists like George Miller and Ulric Neisser focused on how the mind works inside, not just on how people behave.
+This period marked the beginning of CC as a field that combined many subjects. These included mathematics, logic, psychology, and computer science. In the 1950s and 1960s, the "cognitive revolution" happened. Researchers started to study the mind as if it were a machine that processes information. Psychologists like George Miller and Ulric Neisser focused on how the mind works inside, not just on how people behave.
 
 Meanwhile, neuroscience — the study of the brain — helped AI scientists create simple models of brain cells, called artificial neurons. One example is the Perceptron, developed in 1958, which could learn basic tasks. These efforts aimed to make machines that can reason, learn, and understand like people.
 
-### Key Achievements in Cognitive Computing
-
-**Timeline of Key AI Milestones**
+### **Timeline of Key AI Milestones**
 
 * **1956** – Term **"Artificial Intelligence"** introduced at the Dartmouth Conference by John McCarthy and others, marking the official birth of AI as a field.
 * **1966** – **ELIZA**, an early natural language processing program simulating a Rogerian psychotherapist, is developed by Joseph Weizenbaum.
@@ -31,6 +29,8 @@ Meanwhile, neuroscience — the study of the brain — helped AI scientists crea
 * **2024** – Google DeepMind unveils **Gemini 1**, merging language and reasoning in a unified model; OpenAI and Anthropic expand AI assistants with memory and personality.
 
 This timeline highlights major events that helped shape cognitive computing. Each event shows progress in how machines learn, reason, or interact with humans.
+
+### Key Achievements in Cognitive Computing
 
 In the 1960s and 70s, computers became more powerful. Scientists used them to do more complex tasks. A famous program called ELIZA, created in 1966, could talk like a therapist by following simple rules. In 1975, Marvin Minsky introduced "frames," a way for computers to remember information based on context.
 
