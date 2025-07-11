@@ -18,14 +18,17 @@ Meanwhile, neuroscience — the study of the brain — helped AI scientists crea
 
 **Timeline of Key AI Milestones**
 
-* **1956** - Term "AI" introduced
-* **1966** - ELIZA chatbot created
-* **1975** - Minsky's 'frames' concept
-* **1986** - Backpropagation for neural networks
-* **1997** - Deep Blue beats Kasparov
-* **2011** - IBM Watson wins Jeopardy!
-* **2016** - AlphaGo defeats Go champion
-* **2020** - GPT-3 launches
+* **1956** – Term **"Artificial Intelligence"** introduced at the Dartmouth Conference by John McCarthy and others, marking the official birth of AI as a field.
+* **1966** – **ELIZA**, an early natural language processing program simulating a Rogerian psychotherapist, is developed by Joseph Weizenbaum.
+* **1975** – Marvin Minsky introduces the concept of **"frames"**, a data structure for representing stereotyped situations.
+* **1986** – Introduction of **backpropagation** in neural networks by Rumelhart, Hinton, and Williams, reviving interest in machine learning.
+* **1997** – IBM’s **Deep Blue** defeats world chess champion Garry Kasparov, a landmark for AI in strategic games.
+* **2011** – **IBM Watson** defeats human champions on _Jeopardy!_, showcasing advancements in question-answering and natural language understanding.
+* **2016** – Google DeepMind’s **AlphaGo** defeats world Go champion Lee Sedol, considered a major leap due to Go's complexity.
+* **2020** – **GPT-3**, developed by OpenAI, launches with 175 billion parameters, revolutionizing language generation and prompting a wave of AI applications.
+* **2022** – **ChatGPT** becomes publicly available, bringing generative AI into widespread daily use and sparking major interest across industries.
+* **2023** – OpenAI releases **GPT-4**, with improved reasoning, multimodal capabilities (text + image), and enhanced safety controls.
+* **2024** – Google DeepMind unveils **Gemini 1**, merging language and reasoning in a unified model; OpenAI and Anthropic expand AI assistants with memory and personality.
 
 This timeline highlights major events that helped shape cognitive computing. Each event shows progress in how machines learn, reason, or interact with humans.
 
