@@ -134,8 +134,6 @@ A typical preprocessing pipeline may turn this into:\
 
 This version is shorter, cleaner, and easier for the model to learn from.
 
-***
-
 #### **Conclusion**
 
 Text preprocessing is a key part of any NLP project. It helps clean and standardize language, reduces complexity, and improves the quality of input for machine learning models. While the exact steps depend on the task and the model you are using, understanding the most common techniques gives you the tools to prepare data effectively.
