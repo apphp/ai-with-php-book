@@ -1,10 +1,12 @@
 # Text Preprocessing
 
-Text preprocessing is one of the most important steps in any Natural Language Processing (NLP) task. It prepares raw text data for further analysis by cleaning, transforming, and organizing it into a format that machines can understand. Without proper preprocessing, even the best machine learning models may perform poorly.
+Text preprocessing is one of the most important steps in any Natural Language Processing task. It prepares raw text data for further analysis by cleaning, transforming, and organizing it into a format that machines can understand. Without proper preprocessing, even the best machine learning models may perform poorly.
 
 <div align="left"><figure><img src="../../../.gitbook/assets/nlp-text-preprocessing-min.png" alt="" width="375"><figcaption><p>Text Preprocessing</p></figcaption></figure></div>
 
 In this chapter, we will explore the main techniques used in text preprocessing, understand why they are necessary, and see how they fit into the overall NLP workflow.
+
+\>>>>>>>>>>
 
 #### **Why Text Preprocessing Matters**
 
