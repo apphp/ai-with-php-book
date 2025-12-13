@@ -2,7 +2,7 @@
 
 In this chapter we'll review some real cases and projects for NLP with coding in PHP.
 
-<div align="left"><figure><img src="../.gitbook/assets/c64678b4-d5da-430b-b091-3057ff8fb4e5-min.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 #### Building your own LLM in PHP
 
