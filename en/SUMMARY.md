@@ -2,7 +2,8 @@
 
 ## Getting Started
 
-* [Introduction](README.md)
+* [Book Cover](README.md)
+* [Introduction](<README (1).md>)
 * [Audience](getting-started/audience.md)
 * [How to Read This Book](getting-started/how-to-read-this-book.md)
 * [Glossary](getting-started/glossary.md)
