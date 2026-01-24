@@ -1,17 +1,16 @@
 # License and Copyright
 
-© 2026, Samuel Akopyan
+© 2026, **Samuel Akopyan**\
+Email: **admin@apphp.com**\
+Website: [**https://apphp.com**](https://apphp.com)
 
-Email: admin@apphp.com\
-Сайт: [**https://apphp.com**](https://apphp.com/)
+This book is distributed under the\
+**Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.
 
-Эта книга распространяется по лицензии \
-**Creative Commons Attribution 4.0 International (CC-BY-4.0)**.
+Any contribution (pull request) accepted into the book’s repository is considered to be provided under the terms of the **CC-BY-4.0** license, unless explicitly stated otherwise.
 
-Любой вклад (pull request), принятый в репозиторий книги, считается предоставленным на условиях лицензии **CC-BY-4.0**, если иное не указано явно.
+You are free to use, copy, distribute, and modify this book, including for commercial purposes, provided that proper attribution is given and a link to the license is included.\
+If you make changes, you must indicate that the original material has been modified.
 
-Разрешается свободное использование, копирование, распространение и переработка книги, включая коммерческое использование, при условии указания авторства и ссылки на лицензию.\
-При внесении изменений необходимо указать, что оригинальный материал был изменён.
-
-Полный текст лицензии доступен по адресу:\
+The full license text is available at:\
 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
