@@ -9,6 +9,7 @@
 * [Glossary](getting-started/glossary.md)
 * [Contributors](getting-started/contributors.md)
 * [Resources](getting-started/resources.md)
+* [License and Copyright](getting-started/license-and-copyright.md)
 * [Changelog](getting-started/changelog/README.md)
   * [0.7.0 - current](getting-started/changelog/0.7.0-current.md)
   * [0.6.0](getting-started/changelog/0.6.0.md)
